@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-11T08:55-06:00",
+ "generated": "2026-10-11T08:56-06:00",
  "last_close_day": "2026-10-09",
- "tracked": 293,
+ "tracked": 295,
  "flagged": [
   {
    "ticker": "LVG.V",
@@ -27,6 +27,21 @@
    "pct_20d": 0.0,
    "from_52w_high": -55.4,
    "avg_vol": 135820.0,
+   "signals": 2,
+   "above_ma50": true,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-11"
+  },
+  {
+   "ticker": "XTRA.TO",
+   "name": "XTRACT ONE TECHNOLGIES INC",
+   "date": "2026-10-09",
+   "close": 0.54,
+   "rel_vol": 4.14,
+   "pct_20d": 1.9,
+   "from_52w_high": -41.3,
+   "avg_vol": 78265.0,
    "signals": 2,
    "above_ma50": true,
    "vol_spike": true,
@@ -186,6 +201,21 @@
    "added": "2026-10-11"
   },
   {
+   "ticker": "XTRA.TO",
+   "name": "XTRACT ONE TECHNOLGIES INC",
+   "date": "2026-10-09",
+   "close": 0.54,
+   "rel_vol": 4.14,
+   "pct_20d": 1.9,
+   "from_52w_high": -41.3,
+   "avg_vol": 78265.0,
+   "signals": 2,
+   "above_ma50": true,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-11"
+  },
+  {
    "ticker": "RML.V",
    "name": "RUSORO MINING LTD",
    "date": "2026-10-09",
@@ -301,21 +331,6 @@
    "avg_vol": 752050.0,
    "signals": 2,
    "above_ma50": true,
-   "vol_spike": true,
-   "new_high": false,
-   "added": "2026-10-11"
-  },
-  {
-   "ticker": "DBG.V",
-   "name": "DOUBLEVIEW GOLD CORP",
-   "date": "2026-10-09",
-   "close": 1.59,
-   "rel_vol": 2.3,
-   "pct_20d": -9.7,
-   "from_52w_high": -52.8,
-   "avg_vol": 211855.0,
-   "signals": 1,
-   "above_ma50": false,
    "vol_spike": true,
    "new_high": false,
    "added": "2026-10-11"

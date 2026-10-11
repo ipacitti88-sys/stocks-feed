@@ -1,11 +1,12 @@
-# Stock feed — 2026-10-11T08:55-06:00
+# Stock feed — 2026-10-11T08:56-06:00
 
-Tracking 293 stocks. Last full trading day: 2026-10-09. Intraday data as of: none (Yahoo, ~15 min delayed).
+Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: none (Yahoo, ~15 min delayed).
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
 - LVG.V (LAKE VICTORIA GOLD LTD): 3/3, close 0.37, rel vol 2.66x, 20d +19.4%, +0.0% vs 52w high
 - MKT.V (PROSPECT PREDICTION MARKETS INC): 2/3, close 0.33, rel vol 5.04x, 20d +0.0%, -55.4% vs 52w high
+- XTRA.TO (XTRACT ONE TECHNOLGIES INC): 2/3, close 0.54, rel vol 4.14x, 20d +1.9%, -41.3% vs 52w high
 - DEC.V (DECADE RESOURCES LTD.): 2/3, close 0.17, rel vol 2.37x, 20d +13.3%, -15.0% vs 52w high
 - MMET.V (MIATA METALS CORP): 2/3, close 0.82, rel vol 1.58x, 20d +2.5%, +0.0% vs 52w high
 - AXL.V (ARROW EXPLORATION CORP): 2/3, close 0.72, rel vol 1.51x, 20d +14.3%, +0.0% vs 52w high
@@ -23,6 +24,7 @@ Tracking 293 stocks. Last full trading day: 2026-10-09. Intraday data as of: non
 ## Top 10 by relative volume at last close
 
 - MKT.V (PROSPECT PREDICTION MARKETS INC): rel vol 5.04x, close 0.33, 20d +0.0%
+- XTRA.TO (XTRACT ONE TECHNOLGIES INC): rel vol 4.14x, close 0.54, 20d +1.9%
 - RML.V (RUSORO MINING LTD): rel vol 3.97x, close 1.06, 20d -12.4%
 - GSTM.V (GOLDSTORM METALS CORP): rel vol 3.35x, close 0.15, 20d -11.8%
 - VAU.V (VIVA GOLD CORP): rel vol 3.1x, close 0.195, 20d -4.9%
@@ -31,4 +33,3 @@ Tracking 293 stocks. Last full trading day: 2026-10-09. Intraday data as of: non
 - DEFN.V (DEFENSE METALS CORP): rel vol 2.49x, close 0.115, 20d -23.3%
 - MMY.V (MONUMENT MINING LIMITED): rel vol 2.46x, close 0.77, 20d -23.0%
 - DEC.V (DECADE RESOURCES LTD.): rel vol 2.37x, close 0.17, 20d +13.3%
-- DBG.V (DOUBLEVIEW GOLD CORP): rel vol 2.3x, close 1.59, 20d -9.7%
