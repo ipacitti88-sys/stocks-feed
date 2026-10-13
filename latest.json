@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T09:30-06:00",
+ "generated": "2026-10-13T10:00-06:00",
  "last_close_day": "2026-10-09",
  "tracked": 295,
  "flagged": [
@@ -336,53 +336,31 @@
    "added": "2026-10-11"
   }
  ],
- "live_as_of": "2026-10-13T15:35:00+00:00",
+ "live_as_of": "2026-10-13T16:05:00+00:00",
  "rising": [
   {
-   "ticker": "ROK.V",
-   "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T15:25:00+00:00",
-   "last": 0.365,
-   "pct_day": 7.35,
-   "pct_30m": 1.39,
-   "volume_pace": 4.59,
+   "ticker": "CDPR.V",
+   "name": "CERRO DE PASCO RESOURCES INC",
+   "as_of": "2026-10-13T16:00:00+00:00",
+   "last": 0.77,
+   "pct_day": 11.59,
+   "pct_30m": 1.32,
+   "volume_pace": 5.78,
    "rising": true,
-   "rising_since": "2026-10-13T15:00:00+00:00"
-  },
-  {
-   "ticker": "SME.V",
-   "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-10-13T13:45:00+00:00",
-   "last": 0.175,
-   "pct_day": 6.06,
-   "pct_30m": 2.94,
-   "volume_pace": 1.8,
-   "rising": true,
-   "rising_since": "2026-10-13T13:45:00+00:00"
-  },
-  {
-   "ticker": "HI.V",
-   "name": "HIGHLAND COPPER COMPANY INC",
-   "as_of": "2026-10-13T14:30:00+00:00",
-   "last": 0.16,
-   "pct_day": 3.23,
-   "pct_30m": 3.23,
-   "volume_pace": 2.32,
-   "rising": true,
-   "rising_since": "2026-10-13T14:30:00+00:00"
+   "rising_since": "2026-10-13T16:00:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "CDPR.V",
    "name": "CERRO DE PASCO RESOURCES INC",
-   "as_of": "2026-10-13T15:25:00+00:00",
-   "last": 0.76,
-   "pct_day": 10.14,
-   "pct_30m": -1.3,
-   "volume_pace": 7.1,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-13T16:00:00+00:00",
+   "last": 0.77,
+   "pct_day": 11.59,
+   "pct_30m": 1.32,
+   "volume_pace": 5.78,
+   "rising": true,
+   "rising_since": "2026-10-13T16:00:00+00:00"
   },
   {
    "ticker": "PRG.V",
@@ -398,13 +376,13 @@
   {
    "ticker": "ROK.V",
    "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T15:25:00+00:00",
+   "as_of": "2026-10-13T16:00:00+00:00",
    "last": 0.365,
    "pct_day": 7.35,
-   "pct_30m": 1.39,
-   "volume_pace": 4.59,
-   "rising": true,
-   "rising_since": "2026-10-13T15:00:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 3.83,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "PMI.V",
@@ -429,17 +407,6 @@
    "rising_since": null
   },
   {
-   "ticker": "SME.V",
-   "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-10-13T13:45:00+00:00",
-   "last": 0.175,
-   "pct_day": 6.06,
-   "pct_30m": 2.94,
-   "volume_pace": 1.8,
-   "rising": true,
-   "rising_since": "2026-10-13T13:45:00+00:00"
-  },
-  {
    "ticker": "FROG.V",
    "name": "BULLFROG GOLD CORPORATION",
    "as_of": "2026-10-13T13:35:00+00:00",
@@ -457,29 +424,40 @@
    "last": 0.73,
    "pct_day": 5.8,
    "pct_30m": 0.0,
-   "volume_pace": 0.83,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AVN.V",
-   "name": "AVANTI HELIUM CORP",
-   "as_of": "2026-10-13T14:05:00+00:00",
-   "last": 0.43,
-   "pct_day": 4.88,
-   "pct_30m": -2.27,
-   "volume_pace": 0.08,
+   "volume_pace": 0.99,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DMX.V",
    "name": "DISTRICT METALS CORP",
-   "as_of": "2026-10-13T15:30:00+00:00",
+   "as_of": "2026-10-13T15:55:00+00:00",
    "last": 0.45,
    "pct_day": 4.65,
    "pct_30m": 0.0,
-   "volume_pace": 0.21,
+   "volume_pace": 0.18,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NMC.V",
+   "name": "NUVAU MINERALS INC",
+   "as_of": "2026-10-13T16:00:00+00:00",
+   "last": 0.68,
+   "pct_day": 4.62,
+   "pct_30m": 1.49,
+   "volume_pace": 0.83,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "RDU.V",
+   "name": "RADIUS GOLD INC.",
+   "as_of": "2026-10-13T15:40:00+00:00",
+   "last": 0.23,
+   "pct_day": 4.55,
+   "pct_30m": 0.0,
+   "volume_pace": 3.64,
    "rising": false,
    "rising_since": null
   }
