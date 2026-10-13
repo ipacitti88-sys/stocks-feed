@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T13:30-06:00",
+ "generated": "2026-10-13T14:00-06:00",
  "last_close_day": "2026-10-09",
  "tracked": 295,
  "flagged": [
@@ -336,40 +336,40 @@
    "added": "2026-10-11"
   }
  ],
- "live_as_of": "2026-10-13T19:35:00+00:00",
+ "live_as_of": "2026-10-13T20:00:00+00:00",
  "rising": [
   {
-   "ticker": "ROK.V",
-   "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T19:30:00+00:00",
-   "last": 0.365,
-   "pct_day": 7.35,
-   "pct_30m": 1.39,
-   "volume_pace": 1.8,
+   "ticker": "SGC.V",
+   "name": "SOLSTICE GOLD CORP",
+   "as_of": "2026-10-13T19:45:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": 22.73,
+   "volume_pace": 2.92,
    "rising": true,
-   "rising_since": "2026-10-13T19:30:00+00:00"
+   "rising_since": "2026-10-13T19:45:00+00:00"
   },
   {
-   "ticker": "AZT.V",
-   "name": "AZTEC MINERALS CORP",
-   "as_of": "2026-10-13T19:30:00+00:00",
-   "last": 0.365,
-   "pct_day": 4.29,
-   "pct_30m": 1.39,
-   "volume_pace": 1.77,
+   "ticker": "CDPR.V",
+   "name": "CERRO DE PASCO RESOURCES INC",
+   "as_of": "2026-10-13T19:50:00+00:00",
+   "last": 0.77,
+   "pct_day": 11.59,
+   "pct_30m": 1.32,
+   "volume_pace": 3.27,
    "rising": true,
-   "rising_since": "2026-10-13T19:30:00+00:00"
+   "rising_since": "2026-10-13T19:50:00+00:00"
   },
   {
-   "ticker": "BOGO.V",
-   "name": "BOREALIS MINING COMPANY LIMITED",
-   "as_of": "2026-10-13T19:30:00+00:00",
-   "last": 0.93,
-   "pct_day": 3.33,
-   "pct_30m": 2.2,
-   "volume_pace": 2.93,
+   "ticker": "PCU.V",
+   "name": "PECOY COPPER CORP",
+   "as_of": "2026-10-13T20:00:00+00:00",
+   "last": 1.93,
+   "pct_day": 5.46,
+   "pct_30m": 1.58,
+   "volume_pace": 2.68,
    "rising": true,
-   "rising_since": "2026-10-13T19:30:00+00:00"
+   "rising_since": "2026-10-13T20:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -385,46 +385,35 @@
    "rising_since": null
   },
   {
+   "ticker": "SGC.V",
+   "name": "SOLSTICE GOLD CORP",
+   "as_of": "2026-10-13T19:45:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": 22.73,
+   "volume_pace": 2.92,
+   "rising": true,
+   "rising_since": "2026-10-13T19:45:00+00:00"
+  },
+  {
    "ticker": "CDPR.V",
    "name": "CERRO DE PASCO RESOURCES INC",
-   "as_of": "2026-10-13T19:30:00+00:00",
-   "last": 0.76,
-   "pct_day": 10.14,
-   "pct_30m": 0.0,
-   "volume_pace": 2.93,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PRG.V",
-   "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-10-13T14:15:00+00:00",
-   "last": 0.14,
-   "pct_day": 7.69,
-   "pct_30m": 12.0,
-   "volume_pace": 29.7,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ROK.V",
-   "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T19:30:00+00:00",
-   "last": 0.365,
-   "pct_day": 7.35,
-   "pct_30m": 1.39,
-   "volume_pace": 1.8,
+   "as_of": "2026-10-13T19:50:00+00:00",
+   "last": 0.77,
+   "pct_day": 11.59,
+   "pct_30m": 1.32,
+   "volume_pace": 3.27,
    "rising": true,
-   "rising_since": "2026-10-13T19:30:00+00:00"
+   "rising_since": "2026-10-13T19:50:00+00:00"
   },
   {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
-   "as_of": "2026-10-13T19:20:00+00:00",
-   "last": 0.325,
-   "pct_day": 6.56,
-   "pct_30m": 0.0,
-   "volume_pace": 0.22,
+   "as_of": "2026-10-13T19:40:00+00:00",
+   "last": 0.33,
+   "pct_day": 8.2,
+   "pct_30m": 1.54,
+   "volume_pace": 0.37,
    "rising": false,
    "rising_since": null
   },
@@ -435,7 +424,18 @@
    "last": 0.165,
    "pct_day": 6.45,
    "pct_30m": 0.0,
-   "volume_pace": 2.16,
+   "volume_pace": 2.31,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ROK.V",
+   "name": "ROK RESOURCES INC",
+   "as_of": "2026-10-13T19:50:00+00:00",
+   "last": 0.36,
+   "pct_day": 5.88,
+   "pct_30m": -1.37,
+   "volume_pace": 1.72,
    "rising": false,
    "rising_since": null
   },
@@ -451,35 +451,35 @@
    "rising_since": null
   },
   {
+   "ticker": "REVX.V",
+   "name": "REV EXPLORATION CORP",
+   "as_of": "2026-10-13T20:00:00+00:00",
+   "last": 1.82,
+   "pct_day": 5.81,
+   "pct_30m": 1.11,
+   "volume_pace": 1.39,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PCU.V",
+   "name": "PECOY COPPER CORP",
+   "as_of": "2026-10-13T20:00:00+00:00",
+   "last": 1.93,
+   "pct_day": 5.46,
+   "pct_30m": 1.58,
+   "volume_pace": 2.68,
+   "rising": true,
+   "rising_since": "2026-10-13T20:00:00+00:00"
+  },
+  {
    "ticker": "AVN.V",
    "name": "AVANTI HELIUM CORP",
    "as_of": "2026-10-13T19:15:00+00:00",
    "last": 0.43,
    "pct_day": 4.88,
    "pct_30m": 0.0,
-   "volume_pace": 0.35,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "REVX.V",
-   "name": "REV EXPLORATION CORP",
-   "as_of": "2026-10-13T19:30:00+00:00",
-   "last": 1.8,
-   "pct_day": 4.65,
-   "pct_30m": -2.17,
-   "volume_pace": 1.29,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GHRT.V",
-   "name": "GREENHEART GOLD INC",
-   "as_of": "2026-10-13T18:40:00+00:00",
-   "last": 0.72,
-   "pct_day": 4.35,
-   "pct_30m": -1.37,
-   "volume_pace": 0.37,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   }
