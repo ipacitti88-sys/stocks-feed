@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T15:17-06:00",
+ "generated": "2026-10-13T08:00-06:00",
  "last_close_day": "2026-10-09",
  "tracked": 295,
  "flagged": [
@@ -336,7 +336,207 @@
    "added": "2026-10-11"
   }
  ],
- "live_as_of": null,
- "rising": [],
- "top_gainers_today": []
+ "live_as_of": "2026-10-13T14:05:00+00:00",
+ "rising": [
+  {
+   "ticker": "CDPR.V",
+   "name": "CERRO DE PASCO RESOURCES INC",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 0.8,
+   "pct_day": 15.94,
+   "pct_30m": 6.67,
+   "volume_pace": 16.15,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "ticker": "BOGO.V",
+   "name": "BOREALIS MINING COMPANY LIMITED",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 1.01,
+   "pct_day": 12.22,
+   "pct_30m": 9.78,
+   "volume_pace": 20.6,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "ticker": "RDU.V",
+   "name": "RADIUS GOLD INC.",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 0.24,
+   "pct_day": 9.09,
+   "pct_30m": 9.09,
+   "volume_pace": 2.75,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "ticker": "B.V",
+   "name": "BCM RESOURCES CORPORATION",
+   "as_of": "2026-10-13T14:05:00+00:00",
+   "last": 0.63,
+   "pct_day": 8.62,
+   "pct_30m": 5.0,
+   "volume_pace": 2.35,
+   "rising": true,
+   "rising_since": "2026-10-13T14:05:00+00:00"
+  },
+  {
+   "ticker": "GHRT.V",
+   "name": "GREENHEART GOLD INC",
+   "as_of": "2026-10-13T13:45:00+00:00",
+   "last": 0.73,
+   "pct_day": 5.8,
+   "pct_30m": 2.82,
+   "volume_pace": 1.69,
+   "rising": true,
+   "rising_since": "2026-10-13T13:45:00+00:00"
+  },
+  {
+   "ticker": "RPX.V",
+   "name": "RPX GOLD INC",
+   "as_of": "2026-10-13T13:55:00+00:00",
+   "last": 0.19,
+   "pct_day": 5.56,
+   "pct_30m": 2.7,
+   "volume_pace": 1.85,
+   "rising": true,
+   "rising_since": "2026-10-13T13:55:00+00:00"
+  },
+  {
+   "ticker": "BBB.V",
+   "name": "BRIXTON METALS CORPORATION",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 0.65,
+   "pct_day": 4.84,
+   "pct_30m": 3.17,
+   "volume_pace": 2.38,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "ticker": "PWM.V",
+   "name": "POWER METALS CORP",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 0.45,
+   "pct_day": 4.65,
+   "pct_30m": 4.65,
+   "volume_pace": 7.34,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  }
+ ],
+ "top_gainers_today": [
+  {
+   "ticker": "CDPR.V",
+   "name": "CERRO DE PASCO RESOURCES INC",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 0.8,
+   "pct_day": 15.94,
+   "pct_30m": 6.67,
+   "volume_pace": 16.15,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "ticker": "BOGO.V",
+   "name": "BOREALIS MINING COMPANY LIMITED",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 1.01,
+   "pct_day": 12.22,
+   "pct_30m": 9.78,
+   "volume_pace": 20.6,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "ticker": "RDU.V",
+   "name": "RADIUS GOLD INC.",
+   "as_of": "2026-10-13T14:00:00+00:00",
+   "last": 0.24,
+   "pct_day": 9.09,
+   "pct_30m": 9.09,
+   "volume_pace": 2.75,
+   "rising": true,
+   "rising_since": "2026-10-13T14:00:00+00:00"
+  },
+  {
+   "ticker": "B.V",
+   "name": "BCM RESOURCES CORPORATION",
+   "as_of": "2026-10-13T14:05:00+00:00",
+   "last": 0.63,
+   "pct_day": 8.62,
+   "pct_30m": 5.0,
+   "volume_pace": 2.35,
+   "rising": true,
+   "rising_since": "2026-10-13T14:05:00+00:00"
+  },
+  {
+   "ticker": "AVN.V",
+   "name": "AVANTI HELIUM CORP",
+   "as_of": "2026-10-13T13:35:00+00:00",
+   "last": 0.44,
+   "pct_day": 7.32,
+   "pct_30m": -1.12,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SME.V",
+   "name": "SAMA RESOURCES INC RESSOURCES S",
+   "as_of": "2026-10-13T13:45:00+00:00",
+   "last": 0.175,
+   "pct_day": 6.06,
+   "pct_30m": 2.94,
+   "volume_pace": 1.39,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SCD.V",
+   "name": "SCANDIUM CANADA LTD",
+   "as_of": "2026-10-13T13:50:00+00:00",
+   "last": 0.18,
+   "pct_day": 5.88,
+   "pct_30m": 2.86,
+   "volume_pace": 0.01,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FROG.V",
+   "name": "BULLFROG GOLD CORPORATION",
+   "as_of": "2026-10-13T13:35:00+00:00",
+   "last": 0.18,
+   "pct_day": 5.88,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GHRT.V",
+   "name": "GREENHEART GOLD INC",
+   "as_of": "2026-10-13T13:45:00+00:00",
+   "last": 0.73,
+   "pct_day": 5.8,
+   "pct_30m": 2.82,
+   "volume_pace": 1.69,
+   "rising": true,
+   "rising_since": "2026-10-13T13:45:00+00:00"
+  },
+  {
+   "ticker": "RPX.V",
+   "name": "RPX GOLD INC",
+   "as_of": "2026-10-13T13:55:00+00:00",
+   "last": 0.19,
+   "pct_day": 5.56,
+   "pct_30m": 2.7,
+   "volume_pace": 1.85,
+   "rising": true,
+   "rising_since": "2026-10-13T13:55:00+00:00"
+  }
+ ]
 }

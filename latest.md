@@ -1,6 +1,6 @@
-# Stock feed — 2026-10-12T15:17-06:00
+# Stock feed — 2026-10-13T08:00-06:00
 
-Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: none (Yahoo, ~15 min delayed).
+Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T14:05:00+00:00 (Yahoo, ~15 min delayed).
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -19,7 +19,14 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: non
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- CDPR.V (CERRO DE PASCO RESOURCES INC): +15.9% today at 0.8, last 30m +6.7%, volume pace 16.15x, rising since 2026-10-13T14:00:00+00:00
+- BOGO.V (BOREALIS MINING COMPANY LIMITED): +12.2% today at 1.01, last 30m +9.8%, volume pace 20.6x, rising since 2026-10-13T14:00:00+00:00
+- RDU.V (RADIUS GOLD INC.): +9.1% today at 0.24, last 30m +9.1%, volume pace 2.75x, rising since 2026-10-13T14:00:00+00:00
+- B.V (BCM RESOURCES CORPORATION): +8.6% today at 0.63, last 30m +5.0%, volume pace 2.35x, rising since 2026-10-13T14:05:00+00:00
+- GHRT.V (GREENHEART GOLD INC): +5.8% today at 0.73, last 30m +2.8%, volume pace 1.69x, rising since 2026-10-13T13:45:00+00:00
+- RPX.V (RPX GOLD INC): +5.6% today at 0.19, last 30m +2.7%, volume pace 1.85x, rising since 2026-10-13T13:55:00+00:00
+- BBB.V (BRIXTON METALS CORPORATION): +4.8% today at 0.65, last 30m +3.2%, volume pace 2.38x, rising since 2026-10-13T14:00:00+00:00
+- PWM.V (POWER METALS CORP): +4.7% today at 0.45, last 30m +4.7%, volume pace 7.34x, rising since 2026-10-13T14:00:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -33,3 +40,16 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: non
 - DEFN.V (DEFENSE METALS CORP): rel vol 2.49x, close 0.115, 20d -23.3%
 - MMY.V (MONUMENT MINING LIMITED): rel vol 2.46x, close 0.77, 20d -23.0%
 - DEC.V (DECADE RESOURCES LTD.): rel vol 2.37x, close 0.17, 20d +13.3%
+
+## Top 10 gainers in latest intraday pass
+
+- CDPR.V (CERRO DE PASCO RESOURCES INC): +15.9% at 0.8, volume pace 16.15x
+- BOGO.V (BOREALIS MINING COMPANY LIMITED): +12.2% at 1.01, volume pace 20.6x
+- RDU.V (RADIUS GOLD INC.): +9.1% at 0.24, volume pace 2.75x
+- B.V (BCM RESOURCES CORPORATION): +8.6% at 0.63, volume pace 2.35x
+- AVN.V (AVANTI HELIUM CORP): +7.3% at 0.44, volume pace 0.0x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +6.1% at 0.175, volume pace 1.39x
+- SCD.V (SCANDIUM CANADA LTD): +5.9% at 0.18, volume pace 0.01x
+- FROG.V (BULLFROG GOLD CORPORATION): +5.9% at 0.18, volume pace 0.0x
+- GHRT.V (GREENHEART GOLD INC): +5.8% at 0.73, volume pace 1.69x
+- RPX.V (RPX GOLD INC): +5.6% at 0.19, volume pace 1.85x
