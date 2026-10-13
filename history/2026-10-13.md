@@ -1,6 +1,6 @@
-# Stock feed — 2026-10-13T09:00-06:00
+# Stock feed — 2026-10-13T09:30-06:00
 
-Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -19,10 +19,9 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 202
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
+- ROK.V (ROK RESOURCES INC): +7.3% today at 0.365, last 30m +1.4%, volume pace 4.59x, rising since 2026-10-13T15:00:00+00:00
 - SME.V (SAMA RESOURCES INC RESSOURCES S): +6.1% today at 0.175, last 30m +2.9%, volume pace 1.8x, rising since 2026-10-13T13:45:00+00:00
-- ROK.V (ROK RESOURCES INC): +5.9% today at 0.36, last 30m +2.9%, volume pace 5.19x, rising since 2026-10-13T15:00:00+00:00
 - HI.V (HIGHLAND COPPER COMPANY INC): +3.2% today at 0.16, last 30m +3.2%, volume pace 2.32x, rising since 2026-10-13T14:30:00+00:00
-- NMC.V (NUVAU MINERALS INC): +3.1% today at 0.67, last 30m +1.5%, volume pace 1.81x, rising since 2026-10-13T14:35:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -39,13 +38,13 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 202
 
 ## Top 10 gainers in latest intraday pass
 
-- CDPR.V (CERRO DE PASCO RESOURCES INC): +11.6% at 0.77, volume pace 8.38x
+- CDPR.V (CERRO DE PASCO RESOURCES INC): +10.1% at 0.76, volume pace 7.1x
 - PRG.V (PRECIPITATE GOLD CORP): +7.7% at 0.14, volume pace 29.7x
-- PMI.V (PERSEVERANCE METALS INC): +7.1% at 0.75, volume pace 0.34x
-- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 1.08x
+- ROK.V (ROK RESOURCES INC): +7.3% at 0.365, volume pace 4.59x
+- PMI.V (PERSEVERANCE METALS INC): +7.1% at 0.75, volume pace 1.46x
+- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 0.5x
 - SME.V (SAMA RESOURCES INC RESSOURCES S): +6.1% at 0.175, volume pace 1.8x
-- VML.V (VISCOUNT MINING CORP): +6.0% at 0.53, volume pace 0.92x
 - FROG.V (BULLFROG GOLD CORPORATION): +5.9% at 0.18, volume pace 0.0x
-- ROK.V (ROK RESOURCES INC): +5.9% at 0.36, volume pace 5.19x
-- GHRT.V (GREENHEART GOLD INC): +5.8% at 0.73, volume pace 1.73x
-- AVN.V (AVANTI HELIUM CORP): +4.9% at 0.43, volume pace 0.04x
+- GHRT.V (GREENHEART GOLD INC): +5.8% at 0.73, volume pace 0.83x
+- AVN.V (AVANTI HELIUM CORP): +4.9% at 0.43, volume pace 0.08x
+- DMX.V (DISTRICT METALS CORP): +4.7% at 0.45, volume pace 0.21x

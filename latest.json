@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T09:00-06:00",
+ "generated": "2026-10-13T09:30-06:00",
  "last_close_day": "2026-10-09",
  "tracked": 295,
  "flagged": [
@@ -336,8 +336,19 @@
    "added": "2026-10-11"
   }
  ],
- "live_as_of": "2026-10-13T15:05:00+00:00",
+ "live_as_of": "2026-10-13T15:35:00+00:00",
  "rising": [
+  {
+   "ticker": "ROK.V",
+   "name": "ROK RESOURCES INC",
+   "as_of": "2026-10-13T15:25:00+00:00",
+   "last": 0.365,
+   "pct_day": 7.35,
+   "pct_30m": 1.39,
+   "volume_pace": 4.59,
+   "rising": true,
+   "rising_since": "2026-10-13T15:00:00+00:00"
+  },
   {
    "ticker": "SME.V",
    "name": "SAMA RESOURCES INC RESSOURCES S",
@@ -350,17 +361,6 @@
    "rising_since": "2026-10-13T13:45:00+00:00"
   },
   {
-   "ticker": "ROK.V",
-   "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T15:00:00+00:00",
-   "last": 0.36,
-   "pct_day": 5.88,
-   "pct_30m": 2.86,
-   "volume_pace": 5.19,
-   "rising": true,
-   "rising_since": "2026-10-13T15:00:00+00:00"
-  },
-  {
    "ticker": "HI.V",
    "name": "HIGHLAND COPPER COMPANY INC",
    "as_of": "2026-10-13T14:30:00+00:00",
@@ -370,28 +370,17 @@
    "volume_pace": 2.32,
    "rising": true,
    "rising_since": "2026-10-13T14:30:00+00:00"
-  },
-  {
-   "ticker": "NMC.V",
-   "name": "NUVAU MINERALS INC",
-   "as_of": "2026-10-13T14:35:00+00:00",
-   "last": 0.67,
-   "pct_day": 3.08,
-   "pct_30m": 1.52,
-   "volume_pace": 1.81,
-   "rising": true,
-   "rising_since": "2026-10-13T14:35:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "CDPR.V",
    "name": "CERRO DE PASCO RESOURCES INC",
-   "as_of": "2026-10-13T15:00:00+00:00",
-   "last": 0.77,
-   "pct_day": 11.59,
-   "pct_30m": -1.28,
-   "volume_pace": 8.38,
+   "as_of": "2026-10-13T15:25:00+00:00",
+   "last": 0.76,
+   "pct_day": 10.14,
+   "pct_30m": -1.3,
+   "volume_pace": 7.1,
    "rising": false,
    "rising_since": null
   },
@@ -407,24 +396,35 @@
    "rising_since": null
   },
   {
+   "ticker": "ROK.V",
+   "name": "ROK RESOURCES INC",
+   "as_of": "2026-10-13T15:25:00+00:00",
+   "last": 0.365,
+   "pct_day": 7.35,
+   "pct_30m": 1.39,
+   "volume_pace": 4.59,
+   "rising": true,
+   "rising_since": "2026-10-13T15:00:00+00:00"
+  },
+  {
    "ticker": "PMI.V",
    "name": "PERSEVERANCE METALS INC",
    "as_of": "2026-10-13T14:50:00+00:00",
    "last": 0.75,
    "pct_day": 7.14,
    "pct_30m": 2.74,
-   "volume_pace": 0.34,
+   "volume_pace": 1.46,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
-   "as_of": "2026-10-13T14:15:00+00:00",
+   "as_of": "2026-10-13T15:10:00+00:00",
    "last": 0.325,
    "pct_day": 6.56,
-   "pct_30m": -1.52,
-   "volume_pace": 1.08,
+   "pct_30m": 0.0,
+   "volume_pace": 0.5,
    "rising": false,
    "rising_since": null
   },
@@ -440,17 +440,6 @@
    "rising_since": "2026-10-13T13:45:00+00:00"
   },
   {
-   "ticker": "VML.V",
-   "name": "VISCOUNT MINING CORP",
-   "as_of": "2026-10-13T14:30:00+00:00",
-   "last": 0.53,
-   "pct_day": 6.0,
-   "pct_30m": 6.0,
-   "volume_pace": 0.92,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "FROG.V",
    "name": "BULLFROG GOLD CORPORATION",
    "as_of": "2026-10-13T13:35:00+00:00",
@@ -462,24 +451,13 @@
    "rising_since": null
   },
   {
-   "ticker": "ROK.V",
-   "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T15:00:00+00:00",
-   "last": 0.36,
-   "pct_day": 5.88,
-   "pct_30m": 2.86,
-   "volume_pace": 5.19,
-   "rising": true,
-   "rising_since": "2026-10-13T15:00:00+00:00"
-  },
-  {
    "ticker": "GHRT.V",
    "name": "GREENHEART GOLD INC",
-   "as_of": "2026-10-13T14:25:00+00:00",
+   "as_of": "2026-10-13T15:25:00+00:00",
    "last": 0.73,
    "pct_day": 5.8,
    "pct_30m": 0.0,
-   "volume_pace": 1.73,
+   "volume_pace": 0.83,
    "rising": false,
    "rising_since": null
   },
@@ -490,7 +468,18 @@
    "last": 0.43,
    "pct_day": 4.88,
    "pct_30m": -2.27,
-   "volume_pace": 0.04,
+   "volume_pace": 0.08,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "DMX.V",
+   "name": "DISTRICT METALS CORP",
+   "as_of": "2026-10-13T15:30:00+00:00",
+   "last": 0.45,
+   "pct_day": 4.65,
+   "pct_30m": 0.0,
+   "volume_pace": 0.21,
    "rising": false,
    "rising_since": null
   }
