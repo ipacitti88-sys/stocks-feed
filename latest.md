@@ -1,6 +1,6 @@
-# Stock feed — 2026-10-13T12:30-06:00
+# Stock feed — 2026-10-13T13:00-06:00
 
-Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -37,12 +37,12 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 202
 ## Top 10 gainers in latest intraday pass
 
 - VTX.V (VERTEX RESOURCE GROUP LTD): +14.3% at 0.2, volume pace 0.0x
-- CDPR.V (CERRO DE PASCO RESOURCES INC): +10.1% at 0.76, volume pace 3.44x
-- REVX.V (REV EXPLORATION CORP): +8.1% at 1.86, volume pace 0.69x
+- CDPR.V (CERRO DE PASCO RESOURCES INC): +10.1% at 0.76, volume pace 3.47x
 - PRG.V (PRECIPITATE GOLD CORP): +7.7% at 0.14, volume pace 29.7x
-- DMX.V (DISTRICT METALS CORP): +7.0% at 0.46, volume pace 0.14x
-- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 0.39x
-- HI.V (HIGHLAND COPPER COMPANY INC): +6.5% at 0.165, volume pace 2.76x
-- ROK.V (ROK RESOURCES INC): +5.9% at 0.36, volume pace 2.2x
-- GHRT.V (GREENHEART GOLD INC): +5.8% at 0.73, volume pace 0.99x
-- AVN.V (AVANTI HELIUM CORP): +4.9% at 0.43, volume pace 0.19x
+- REVX.V (REV EXPLORATION CORP): +7.0% at 1.84, volume pace 1.39x
+- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 0.24x
+- HI.V (HIGHLAND COPPER COMPANY INC): +6.5% at 0.165, volume pace 2.43x
+- ROK.V (ROK RESOURCES INC): +5.9% at 0.36, volume pace 2.05x
+- DMX.V (DISTRICT METALS CORP): +5.8% at 0.455, volume pace 0.09x
+- AVN.V (AVANTI HELIUM CORP): +4.9% at 0.43, volume pace 0.15x
+- CEI.V (COELACANTH ENERGY INC): +4.5% at 0.7, volume pace 0.03x
