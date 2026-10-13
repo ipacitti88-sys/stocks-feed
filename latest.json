@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T12:00-06:00",
+ "generated": "2026-10-13T12:30-06:00",
  "last_close_day": "2026-10-09",
  "tracked": 295,
  "flagged": [
@@ -336,31 +336,8 @@
    "added": "2026-10-11"
   }
  ],
- "live_as_of": "2026-10-13T18:05:00+00:00",
- "rising": [
-  {
-   "ticker": "HI.V",
-   "name": "HIGHLAND COPPER COMPANY INC",
-   "as_of": "2026-10-13T16:30:00+00:00",
-   "last": 0.17,
-   "pct_day": 9.68,
-   "pct_30m": 6.25,
-   "volume_pace": 3.84,
-   "rising": true,
-   "rising_since": "2026-10-13T16:30:00+00:00"
-  },
-  {
-   "ticker": "GFG.V",
-   "name": "GFG RESOURCES INC",
-   "as_of": "2026-10-13T17:40:00+00:00",
-   "last": 0.19,
-   "pct_day": 6.74,
-   "pct_30m": 2.7,
-   "volume_pace": 4.42,
-   "rising": true,
-   "rising_since": "2026-10-13T16:55:00+00:00"
-  }
- ],
+ "live_as_of": "2026-10-13T18:35:00+00:00",
+ "rising": [],
  "top_gainers_today": [
   {
    "ticker": "VTX.V",
@@ -376,24 +353,24 @@
   {
    "ticker": "CDPR.V",
    "name": "CERRO DE PASCO RESOURCES INC",
-   "as_of": "2026-10-13T17:55:00+00:00",
-   "last": 0.77,
-   "pct_day": 11.59,
-   "pct_30m": 0.0,
-   "volume_pace": 3.47,
+   "as_of": "2026-10-13T18:20:00+00:00",
+   "last": 0.76,
+   "pct_day": 10.14,
+   "pct_30m": -1.3,
+   "volume_pace": 3.44,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "HI.V",
-   "name": "HIGHLAND COPPER COMPANY INC",
-   "as_of": "2026-10-13T16:30:00+00:00",
-   "last": 0.17,
-   "pct_day": 9.68,
-   "pct_30m": 6.25,
-   "volume_pace": 3.84,
-   "rising": true,
-   "rising_since": "2026-10-13T16:30:00+00:00"
+   "ticker": "REVX.V",
+   "name": "REV EXPLORATION CORP",
+   "as_of": "2026-10-13T18:35:00+00:00",
+   "last": 1.86,
+   "pct_day": 8.14,
+   "pct_30m": 6.29,
+   "volume_pace": 0.69,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "PRG.V",
@@ -418,17 +395,6 @@
    "rising_since": null
   },
   {
-   "ticker": "GFG.V",
-   "name": "GFG RESOURCES INC",
-   "as_of": "2026-10-13T17:40:00+00:00",
-   "last": 0.19,
-   "pct_day": 6.74,
-   "pct_30m": 2.7,
-   "volume_pace": 4.42,
-   "rising": true,
-   "rising_since": "2026-10-13T16:55:00+00:00"
-  },
-  {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
    "as_of": "2026-10-13T16:20:00+00:00",
@@ -440,13 +406,24 @@
    "rising_since": null
   },
   {
+   "ticker": "HI.V",
+   "name": "HIGHLAND COPPER COMPANY INC",
+   "as_of": "2026-10-13T18:05:00+00:00",
+   "last": 0.165,
+   "pct_day": 6.45,
+   "pct_30m": -2.94,
+   "volume_pace": 2.76,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ROK.V",
    "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T17:55:00+00:00",
+   "as_of": "2026-10-13T18:15:00+00:00",
    "last": 0.36,
    "pct_day": 5.88,
-   "pct_30m": -1.37,
-   "volume_pace": 2.36,
+   "pct_30m": 0.0,
+   "volume_pace": 2.2,
    "rising": false,
    "rising_since": null
   },
