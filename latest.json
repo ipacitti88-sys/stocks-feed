@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T10:00-06:00",
+ "generated": "2026-10-13T10:30-06:00",
  "last_close_day": "2026-10-09",
  "tracked": 295,
  "flagged": [
@@ -336,31 +336,53 @@
    "added": "2026-10-11"
   }
  ],
- "live_as_of": "2026-10-13T16:05:00+00:00",
+ "live_as_of": "2026-10-13T16:35:00+00:00",
  "rising": [
   {
-   "ticker": "CDPR.V",
-   "name": "CERRO DE PASCO RESOURCES INC",
-   "as_of": "2026-10-13T16:00:00+00:00",
-   "last": 0.77,
-   "pct_day": 11.59,
-   "pct_30m": 1.32,
-   "volume_pace": 5.78,
+   "ticker": "HI.V",
+   "name": "HIGHLAND COPPER COMPANY INC",
+   "as_of": "2026-10-13T16:30:00+00:00",
+   "last": 0.17,
+   "pct_day": 9.68,
+   "pct_30m": 6.25,
+   "volume_pace": 3.82,
    "rising": true,
-   "rising_since": "2026-10-13T16:00:00+00:00"
+   "rising_since": "2026-10-13T16:30:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
+   "ticker": "VTX.V",
+   "name": "VERTEX RESOURCE GROUP LTD",
+   "as_of": "2026-10-13T15:45:00+00:00",
+   "last": 0.2,
+   "pct_day": 14.29,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "CDPR.V",
    "name": "CERRO DE PASCO RESOURCES INC",
-   "as_of": "2026-10-13T16:00:00+00:00",
+   "as_of": "2026-10-13T16:30:00+00:00",
    "last": 0.77,
    "pct_day": 11.59,
-   "pct_30m": 1.32,
-   "volume_pace": 5.78,
+   "pct_30m": 0.0,
+   "volume_pace": 4.93,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HI.V",
+   "name": "HIGHLAND COPPER COMPANY INC",
+   "as_of": "2026-10-13T16:30:00+00:00",
+   "last": 0.17,
+   "pct_day": 9.68,
+   "pct_30m": 6.25,
+   "volume_pace": 3.82,
    "rising": true,
-   "rising_since": "2026-10-13T16:00:00+00:00"
+   "rising_since": "2026-10-13T16:30:00+00:00"
   },
   {
    "ticker": "PRG.V",
@@ -376,11 +398,11 @@
   {
    "ticker": "ROK.V",
    "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-13T16:00:00+00:00",
+   "as_of": "2026-10-13T16:25:00+00:00",
    "last": 0.365,
    "pct_day": 7.35,
    "pct_30m": 0.0,
-   "volume_pace": 3.83,
+   "volume_pace": 3.28,
    "rising": false,
    "rising_since": null
   },
@@ -398,11 +420,11 @@
   {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
-   "as_of": "2026-10-13T15:10:00+00:00",
+   "as_of": "2026-10-13T16:20:00+00:00",
    "last": 0.325,
    "pct_day": 6.56,
    "pct_30m": 0.0,
-   "volume_pace": 0.5,
+   "volume_pace": 0.36,
    "rising": false,
    "rising_since": null
   },
@@ -429,35 +451,13 @@
    "rising_since": null
   },
   {
-   "ticker": "DMX.V",
-   "name": "DISTRICT METALS CORP",
-   "as_of": "2026-10-13T15:55:00+00:00",
-   "last": 0.45,
-   "pct_day": 4.65,
-   "pct_30m": 0.0,
-   "volume_pace": 0.18,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NMC.V",
-   "name": "NUVAU MINERALS INC",
-   "as_of": "2026-10-13T16:00:00+00:00",
-   "last": 0.68,
-   "pct_day": 4.62,
-   "pct_30m": 1.49,
-   "volume_pace": 0.83,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "RDU.V",
-   "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-13T15:40:00+00:00",
-   "last": 0.23,
-   "pct_day": 4.55,
-   "pct_30m": 0.0,
-   "volume_pace": 3.64,
+   "ticker": "DEFN.V",
+   "name": "DEFENSE METALS CORP",
+   "as_of": "2026-10-13T14:40:00+00:00",
+   "last": 0.12,
+   "pct_day": 4.35,
+   "pct_30m": 4.35,
+   "volume_pace": 0.75,
    "rising": false,
    "rising_since": null
   }

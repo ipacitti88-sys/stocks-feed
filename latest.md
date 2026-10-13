@@ -1,6 +1,6 @@
-# Stock feed — 2026-10-13T10:00-06:00
+# Stock feed — 2026-10-13T10:30-06:00
 
-Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -19,7 +19,7 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 202
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CDPR.V (CERRO DE PASCO RESOURCES INC): +11.6% today at 0.77, last 30m +1.3%, volume pace 5.78x, rising since 2026-10-13T16:00:00+00:00
+- HI.V (HIGHLAND COPPER COMPANY INC): +9.7% today at 0.17, last 30m +6.2%, volume pace 3.82x, rising since 2026-10-13T16:30:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -36,13 +36,13 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 202
 
 ## Top 10 gainers in latest intraday pass
 
-- CDPR.V (CERRO DE PASCO RESOURCES INC): +11.6% at 0.77, volume pace 5.78x
+- VTX.V (VERTEX RESOURCE GROUP LTD): +14.3% at 0.2, volume pace 0.0x
+- CDPR.V (CERRO DE PASCO RESOURCES INC): +11.6% at 0.77, volume pace 4.93x
+- HI.V (HIGHLAND COPPER COMPANY INC): +9.7% at 0.17, volume pace 3.82x
 - PRG.V (PRECIPITATE GOLD CORP): +7.7% at 0.14, volume pace 29.7x
-- ROK.V (ROK RESOURCES INC): +7.3% at 0.365, volume pace 3.83x
+- ROK.V (ROK RESOURCES INC): +7.3% at 0.365, volume pace 3.28x
 - PMI.V (PERSEVERANCE METALS INC): +7.1% at 0.75, volume pace 1.46x
-- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 0.5x
+- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 0.36x
 - FROG.V (BULLFROG GOLD CORPORATION): +5.9% at 0.18, volume pace 0.0x
 - GHRT.V (GREENHEART GOLD INC): +5.8% at 0.73, volume pace 0.99x
-- DMX.V (DISTRICT METALS CORP): +4.7% at 0.45, volume pace 0.18x
-- NMC.V (NUVAU MINERALS INC): +4.6% at 0.68, volume pace 0.83x
-- RDU.V (RADIUS GOLD INC.): +4.5% at 0.23, volume pace 3.64x
+- DEFN.V (DEFENSE METALS CORP): +4.3% at 0.12, volume pace 0.75x
