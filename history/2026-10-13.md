@@ -1,6 +1,6 @@
-# Stock feed — 2026-10-13T13:00-06:00
+# Stock feed — 2026-10-13T13:30-06:00
 
-Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 2026-10-13T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -19,7 +19,9 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 202
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- ROK.V (ROK RESOURCES INC): +7.3% today at 0.365, last 30m +1.4%, volume pace 1.8x, rising since 2026-10-13T19:30:00+00:00
+- AZT.V (AZTEC MINERALS CORP): +4.3% today at 0.365, last 30m +1.4%, volume pace 1.77x, rising since 2026-10-13T19:30:00+00:00
+- BOGO.V (BOREALIS MINING COMPANY LIMITED): +3.3% today at 0.93, last 30m +2.2%, volume pace 2.93x, rising since 2026-10-13T19:30:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -37,12 +39,12 @@ Tracking 295 stocks. Last full trading day: 2026-10-09. Intraday data as of: 202
 ## Top 10 gainers in latest intraday pass
 
 - VTX.V (VERTEX RESOURCE GROUP LTD): +14.3% at 0.2, volume pace 0.0x
-- CDPR.V (CERRO DE PASCO RESOURCES INC): +10.1% at 0.76, volume pace 3.47x
+- CDPR.V (CERRO DE PASCO RESOURCES INC): +10.1% at 0.76, volume pace 2.93x
 - PRG.V (PRECIPITATE GOLD CORP): +7.7% at 0.14, volume pace 29.7x
-- REVX.V (REV EXPLORATION CORP): +7.0% at 1.84, volume pace 1.39x
-- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 0.24x
-- HI.V (HIGHLAND COPPER COMPANY INC): +6.5% at 0.165, volume pace 2.43x
-- ROK.V (ROK RESOURCES INC): +5.9% at 0.36, volume pace 2.05x
+- ROK.V (ROK RESOURCES INC): +7.3% at 0.365, volume pace 1.8x
+- AUGC.V (AU GOLD CORP): +6.6% at 0.325, volume pace 0.22x
+- HI.V (HIGHLAND COPPER COMPANY INC): +6.5% at 0.165, volume pace 2.16x
 - DMX.V (DISTRICT METALS CORP): +5.8% at 0.455, volume pace 0.09x
-- AVN.V (AVANTI HELIUM CORP): +4.9% at 0.43, volume pace 0.15x
-- CEI.V (COELACANTH ENERGY INC): +4.5% at 0.7, volume pace 0.03x
+- AVN.V (AVANTI HELIUM CORP): +4.9% at 0.43, volume pace 0.35x
+- REVX.V (REV EXPLORATION CORP): +4.7% at 1.8, volume pace 1.29x
+- GHRT.V (GREENHEART GOLD INC): +4.3% at 0.72, volume pace 0.37x
