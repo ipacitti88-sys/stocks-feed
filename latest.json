@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T10:31-06:00",
+ "generated": "2026-10-14T11:01-06:00",
  "last_close_day": "2026-10-13",
  "tracked": 446,
  "flagged": [
@@ -426,51 +426,29 @@
    "added": "2026-10-13"
   }
  ],
- "live_as_of": "2026-10-14T16:35:00+00:00",
+ "live_as_of": "2026-10-14T17:05:00+00:00",
  "rising": [
-  {
-   "ticker": "LXM.V",
-   "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T16:10:00+00:00",
-   "last": 0.235,
-   "pct_day": 23.68,
-   "pct_30m": 4.44,
-   "volume_pace": 57.94,
-   "rising": true,
-   "rising_since": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "ticker": "MLP.V",
-   "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T16:30:00+00:00",
-   "last": 2.18,
-   "pct_day": 14.74,
-   "pct_30m": 0.46,
-   "volume_pace": 11.57,
-   "rising": true,
-   "rising_since": "2026-10-14T16:05:00+00:00"
-  },
   {
    "ticker": "WGT.V",
    "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-14T15:40:00+00:00",
-   "last": 0.205,
-   "pct_day": 7.89,
-   "pct_30m": 2.5,
-   "volume_pace": 3.52,
+   "as_of": "2026-10-14T17:00:00+00:00",
+   "last": 0.23,
+   "pct_day": 21.05,
+   "pct_30m": 12.2,
+   "volume_pace": 3.05,
    "rising": true,
    "rising_since": "2026-10-14T15:25:00+00:00"
   },
   {
-   "ticker": "PCU.V",
-   "name": "PECOY COPPER CORP",
-   "as_of": "2026-10-14T16:30:00+00:00",
-   "last": 2.0,
-   "pct_day": 5.26,
-   "pct_30m": 2.04,
-   "volume_pace": 5.67,
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "as_of": "2026-10-14T16:35:00+00:00",
+   "last": 0.19,
+   "pct_day": 5.56,
+   "pct_30m": 2.7,
+   "volume_pace": 5.32,
    "rising": true,
-   "rising_since": "2026-10-14T15:55:00+00:00"
+   "rising_since": "2026-10-14T16:35:00+00:00"
   },
   {
    "ticker": "YARR.V",
@@ -486,46 +464,46 @@
  ],
  "top_gainers_today": [
   {
-   "ticker": "LXM.V",
-   "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T16:10:00+00:00",
-   "last": 0.235,
-   "pct_day": 23.68,
-   "pct_30m": 4.44,
-   "volume_pace": 57.94,
-   "rising": true,
-   "rising_since": "2026-10-14T16:00:00+00:00"
-  },
-  {
-   "ticker": "MLP.V",
-   "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T16:30:00+00:00",
-   "last": 2.18,
-   "pct_day": 14.74,
-   "pct_30m": 0.46,
-   "volume_pace": 11.57,
-   "rising": true,
-   "rising_since": "2026-10-14T16:05:00+00:00"
-  },
-  {
    "ticker": "WGT.V",
    "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-14T15:40:00+00:00",
-   "last": 0.205,
-   "pct_day": 7.89,
-   "pct_30m": 2.5,
-   "volume_pace": 3.52,
+   "as_of": "2026-10-14T17:00:00+00:00",
+   "last": 0.23,
+   "pct_day": 21.05,
+   "pct_30m": 12.2,
+   "volume_pace": 3.05,
    "rising": true,
    "rising_since": "2026-10-14T15:25:00+00:00"
   },
   {
+   "ticker": "LXM.V",
+   "name": "LUX METALS CORP",
+   "as_of": "2026-10-14T17:00:00+00:00",
+   "last": 0.225,
+   "pct_day": 18.42,
+   "pct_30m": -4.26,
+   "volume_pace": 46.18,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MLP.V",
+   "name": "MILLENNIAL POTASH CORP",
+   "as_of": "2026-10-14T17:00:00+00:00",
+   "last": 2.17,
+   "pct_day": 14.21,
+   "pct_30m": -0.46,
+   "volume_pace": 9.95,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "V.V",
    "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-14T16:10:00+00:00",
+   "as_of": "2026-10-14T17:00:00+00:00",
    "last": 0.275,
    "pct_day": 7.84,
    "pct_30m": 0.0,
-   "volume_pace": 1.36,
+   "volume_pace": 1.12,
    "rising": false,
    "rising_since": null
   },
@@ -541,48 +519,37 @@
    "rising_since": null
   },
   {
-   "ticker": "RDU.V",
-   "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-14T16:05:00+00:00",
-   "last": 0.23,
-   "pct_day": 6.98,
-   "pct_30m": 0.0,
-   "volume_pace": 1.72,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CCEC.V",
-   "name": "CANCAMBRIA ENERGY CORP",
-   "as_of": "2026-10-14T16:25:00+00:00",
-   "last": 0.255,
-   "pct_day": 6.25,
-   "pct_30m": 4.08,
-   "volume_pace": 0.92,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "LVG.V",
    "name": "LAKE VICTORIA GOLD LTD",
-   "as_of": "2026-10-14T16:10:00+00:00",
+   "as_of": "2026-10-14T16:45:00+00:00",
    "last": 0.355,
    "pct_day": 5.97,
-   "pct_30m": 5.97,
-   "volume_pace": 0.46,
+   "pct_30m": 0.0,
+   "volume_pace": 0.64,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "as_of": "2026-10-14T16:35:00+00:00",
+   "last": 0.19,
+   "pct_day": 5.56,
+   "pct_30m": 2.7,
+   "volume_pace": 5.32,
+   "rising": true,
+   "rising_since": "2026-10-14T16:35:00+00:00"
   },
   {
    "ticker": "PCU.V",
    "name": "PECOY COPPER CORP",
-   "as_of": "2026-10-14T16:30:00+00:00",
+   "as_of": "2026-10-14T17:00:00+00:00",
    "last": 2.0,
    "pct_day": 5.26,
-   "pct_30m": 2.04,
-   "volume_pace": 5.67,
-   "rising": true,
-   "rising_since": "2026-10-14T15:55:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 5.42,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "GTC.V",
@@ -592,6 +559,17 @@
    "pct_day": 5.26,
    "pct_30m": 0.0,
    "volume_pace": 0.89,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NCI.V",
+   "name": "NTG Clarity Networks Inc.",
+   "as_of": "2026-10-14T16:55:00+00:00",
+   "last": 0.44,
+   "pct_day": 4.76,
+   "pct_30m": 2.33,
+   "volume_pace": 1.07,
    "rising": false,
    "rising_since": null
   }
@@ -1189,9 +1167,9 @@
     860.93
    ],
    "live": {
-    "as_of": "2026-10-14T16:35:00+00:00",
-    "last": 834.32,
-    "pct_day": -3.09
+    "as_of": "2026-10-14T17:05:00+00:00",
+    "last": 833.56,
+    "pct_day": -3.18
    }
   },
   "^GSPTSE": {
@@ -1786,9 +1764,9 @@
     35983.98
    ],
    "live": {
-    "as_of": "2026-10-14T16:35:00+00:00",
-    "last": 35529.46,
-    "pct_day": -1.26
+    "as_of": "2026-10-14T17:05:00+00:00",
+    "last": 35515.32,
+    "pct_day": -1.3
    }
   }
  }
