@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-13T19:20-06:00
+# Stock feed — 2026-10-14T08:01-06:00
 
-Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-13T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T14:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%)
-Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%)
+Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -1.7% at 14:05
+Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -0.8% at 14:05
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -28,9 +28,12 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SGC.V (SOLSTICE GOLD CORP): +12.5% today at 0.135, last 30m +22.7%, volume pace 2.92x, rising since 2026-10-13T19:45:00+00:00
-- CDPR.V (CERRO DE PASCO RESOURCES INC): +11.6% today at 0.77, last 30m +1.3%, volume pace 3.27x, rising since 2026-10-13T19:50:00+00:00
-- PCU.V (PECOY COPPER CORP): +5.5% today at 1.93, last 30m +1.6%, volume pace 2.68x, rising since 2026-10-13T20:00:00+00:00
+- LXM.V (LUX METALS CORP): +23.7% today at 0.235, last 30m +2.2%, volume pace 173.76x, rising since 2026-10-14T14:00:00+00:00
+- MLP.V (MILLENNIAL POTASH CORP): +13.7% today at 2.16, last 30m +9.1%, volume pace 9.52x, rising since 2026-10-14T14:05:00+00:00
+- PGDC.V (PATAGONIA GOLD CORP): +7.1% today at 0.45, last 30m +4.7%, volume pace 1.52x, rising since 2026-10-14T14:00:00+00:00
+- PML.V (PANORO MINERALS LTD): +4.7% today at 1.55, last 30m +0.7%, volume pace 3.12x, rising since 2026-10-14T14:00:00+00:00
+- SNAG.V (SILVER NORTH RESOURCES LTD): +4.2% today at 0.25, last 30m +4.2%, volume pace 2.04x, rising since 2026-10-14T13:45:00+00:00
+- ANDC.V (ANDINA COPPER CORPORATION): +4.0% today at 1.04, last 30m +2.0%, volume pace 9.11x, rising since 2026-10-14T14:00:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -47,13 +50,13 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Top 10 gainers in latest intraday pass
 
-- VTX.V (VERTEX RESOURCE GROUP LTD): +14.3% at 0.2, volume pace 0.0x
-- SGC.V (SOLSTICE GOLD CORP): +12.5% at 0.135, volume pace 2.92x
-- CDPR.V (CERRO DE PASCO RESOURCES INC): +11.6% at 0.77, volume pace 3.27x
-- AUGC.V (AU GOLD CORP): +8.2% at 0.33, volume pace 0.37x
-- HI.V (HIGHLAND COPPER COMPANY INC): +6.5% at 0.165, volume pace 2.31x
-- ROK.V (ROK RESOURCES INC): +5.9% at 0.36, volume pace 1.72x
-- REVX.V (REV EXPLORATION CORP): +5.8% at 1.82, volume pace 1.39x
-- DMX.V (DISTRICT METALS CORP): +5.8% at 0.455, volume pace 0.09x
-- PCU.V (PECOY COPPER CORP): +5.5% at 1.93, volume pace 2.68x
-- AVN.V (AVANTI HELIUM CORP): +4.9% at 0.43, volume pace 0.48x
+- LXM.V (LUX METALS CORP): +23.7% at 0.235, volume pace 173.76x
+- MLP.V (MILLENNIAL POTASH CORP): +13.7% at 2.16, volume pace 9.52x
+- RDU.V (RADIUS GOLD INC.): +11.6% at 0.24, volume pace 1.05x
+- GIII.V (REGEN III CORP): +10.3% at 0.16, volume pace 0.0x
+- TNR.V (TNR GOLD CORP): +8.3% at 0.325, volume pace 0.0x
+- NOW.V (NOWVERTICAL GROUP INC): +7.1% at 0.15, volume pace 1.43x
+- PGDC.V (PATAGONIA GOLD CORP): +7.1% at 0.45, volume pace 1.52x
+- SGLD.V (SCORPIO GOLD CORPORATION): +6.0% at 0.265, volume pace 0.44x
+- RPX.V (RPX GOLD INC): +5.9% at 0.18, volume pace 0.0x
+- HEVI.V (HELIUM EVOLUTION INCORPORATED): +5.6% at 0.19, volume pace 0.0x
