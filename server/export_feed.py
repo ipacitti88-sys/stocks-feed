@@ -50,6 +50,12 @@ def collect():
                     FROM intraday_quotes q LEFT JOIN watchlist w ON w.ticker = q.ticker
                     WHERE q.trade_date = (SELECT MAX(trade_date) FROM intraday_quotes)""")
                 live = cur.fetchall()
+        try:
+            import benchmarks
+            bench = benchmarks.summary(conn)
+        except Exception as e:
+            print(f"benchmark summary failed: {e}", file=sys.stderr)
+            bench = {}
     finally:
         conn.close()
 
@@ -76,7 +82,8 @@ def collect():
     return dict(generated=dt.datetime.now().astimezone().isoformat(timespec="minutes"),
                 last_close_day=str(last_day) if last_day else None, tracked=tracked,
                 flagged=flagged, top_rel_volume=by_relvol,
-                live_as_of=live_as_of, rising=rising, top_gainers_today=gainers)
+                live_as_of=live_as_of, rising=rising, top_gainers_today=gainers,
+                benchmarks=bench)
 
 
 PRICES_SQL = """
@@ -127,6 +134,13 @@ def to_markdown(f):
     L = [f"# Stock feed — {f['generated']}", "",
          f"Tracking {f['tracked']} stocks. Last full trading day: {f['last_close_day']}. "
          f"Intraday data as of: {f['live_as_of'] or 'none'} (Yahoo, ~15 min delayed).", ""]
+    for b in (f.get("benchmarks") or {}).values():
+        lv = b.get("live")
+        L += [f"Market: {b['name']} {b['last']:,.2f} on {b['date']} (day {fmt(b['chg_1d'], '%')}, "
+              f"month {fmt(b['chg_1m'], '%')}, year {fmt(b['chg_1y'], '%')})"
+              + (f"; live {fmt(lv['pct_day'], '%')} at {lv['as_of'][11:16]}" if lv else "")]
+    if f.get("benchmarks"):
+        L += [""]
     L += ["## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)", ""]
     L += [f"- {s['ticker']} ({s['name']}): {s['signals']}/3, close {s['close']}, rel vol {fmt(s['rel_vol'], 'x')}, "
           f"20d {fmt(s['pct_20d'], '%')}, {fmt(s['from_52w_high'], '%')} vs 52w high" for s in f["flagged"]] or ["- none"]

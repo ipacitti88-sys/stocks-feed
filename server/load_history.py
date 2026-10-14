@@ -131,6 +131,11 @@ def main() -> int:
         for t, n in tickers:
             failures += not load(conn, t, n, args.period)
             time.sleep(0.3)  # gentle pacing so Yahoo doesn't rate-limit a long watchlist
+        try:  # market indexes for comparison (not in the watchlist, so never screened)
+            import benchmarks
+            benchmarks.update(conn, args.period)
+        except Exception as e:
+            print(f"benchmark update failed: {e}", file=sys.stderr)
         return 1 if failures == len(tickers) else 0
     finally:
         conn.close()

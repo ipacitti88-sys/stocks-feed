@@ -61,6 +61,12 @@ CREATE TABLE IF NOT EXISTS intraday_bars (
     volume BIGINT,
     PRIMARY KEY (ticker, ts)
 );
+CREATE TABLE IF NOT EXISTS benchmark_quotes (
+    ticker     TEXT PRIMARY KEY,
+    as_of      TIMESTAMPTZ,
+    last       NUMERIC(14,4),
+    prev_close NUMERIC(14,4)
+);
 CREATE TABLE IF NOT EXISTS rising_log (
     trade_date DATE NOT NULL,
     ticker     TEXT NOT NULL,
@@ -199,6 +205,24 @@ def main() -> int:
                 rising.append((t, ev["pct_day"], ev["pace"]))
                 log_rows.append((ev["trade_date"], t, ev["as_of"], ev["last"], ev["pct_day"], ev["pace"]))
 
+        # market index, live (same 5-minute data as the stocks)
+        bench_rows = []
+        try:
+            import benchmarks
+            bb = fetch_bars(list(benchmarks.BENCHMARKS))
+            with conn.cursor() as cur:
+                for sym, b in bb.items():
+                    b = b[b.index.date == now_et.date()]
+                    if b.empty:
+                        continue
+                    cur.execute("SELECT close FROM daily_prices WHERE ticker = %s AND trade_date < %s "
+                                "ORDER BY trade_date DESC LIMIT 1", (sym, now_et.date()))
+                    r = cur.fetchone()
+                    bench_rows.append((sym, b.index[-1].to_pydatetime() + dt.timedelta(minutes=5),
+                                       round(float(b["Close"].iloc[-1]), 4), r[0] if r else None))
+        except Exception as e:
+            print(f"benchmark quote failed: {e}", file=sys.stderr)
+
         today_start = now_et.replace(hour=0, minute=0, second=0, microsecond=0)
         bar_rows = []
         for t, b in bars.items():
@@ -210,6 +234,10 @@ def main() -> int:
 
         with conn, conn.cursor() as cur:
             execute_values(cur, UPSERT_SQL, rows)
+            if bench_rows:
+                execute_values(cur, "INSERT INTO benchmark_quotes (ticker, as_of, last, prev_close) VALUES %s "
+                                    "ON CONFLICT (ticker) DO UPDATE SET as_of = EXCLUDED.as_of, last = EXCLUDED.last, "
+                                    "prev_close = EXCLUDED.prev_close", bench_rows)
             # permanent record of the first time each stock went Rising each day
             if log_rows:
                 execute_values(cur, "INSERT INTO rising_log (trade_date, ticker, flagged_at, price, pct_day, pace) "

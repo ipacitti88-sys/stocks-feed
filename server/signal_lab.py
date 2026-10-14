@@ -334,6 +334,18 @@ def main() -> int:
             r, b = (results, base) if key == "all" else run_daily(df, start, until, lo, hi)[:2]
             bands.append({"key": key, "label": label, "signals": r, "baseline": b})
         rising = run_rising(conn, df)
+        market = None
+        try:
+            import benchmarks
+            ser = benchmarks.history(conn, days=args.days + 30).get(benchmarks.MAIN, [])
+            def chg(a, b):
+                x = [c for d, c in ser if d < a]
+                y = [c for d, c in ser if d < b]
+                return round((y[-1] / x[-1] - 1) * 100, 1) if x and y else None
+            market = {"name": benchmarks.BENCHMARKS[benchmarks.MAIN], "full": chg(start, until),
+                      "h1": chg(start, mid), "h2": chg(mid, until)}
+        except Exception as e:
+            print(f"market comparison skipped: {e}", file=sys.stderr)
     finally:
         conn.close()
 
@@ -344,10 +356,13 @@ def main() -> int:
         "method": ("Buy at the next day's open; costs = one price step of spread + 0.5%. "
                    "Baseline = buying any liquid tracked stock that day with the same exit. "
                    "Half 1 / half 2 = the two halves of the period."),
-        "baseline": base, "signals": results, "bands": bands, "rising": rising, "today": today,
+        "baseline": base, "signals": results, "bands": bands, "market": market, "rising": rising, "today": today,
     }
 
     print(f"Signal lab {start} to {until} (halves split {mid})")
+    if market and market["full"] is not None:
+        print(f" Market: {market['name']} {market['full']:+.1f}% over the period "
+              f"(half 1 {market['h1']:+.1f}%, half 2 {market['h2']:+.1f}%)")
     for band in bands:
         print(f" {band['label']}:")
         for r in band["signals"]:
