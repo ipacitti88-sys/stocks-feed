@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-14T11:31-06:00
+# Stock feed — 2026-10-14T12:01-06:00
 
-Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.3% at 17:35
-Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.4% at 17:35
+Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.5% at 18:05
+Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.6% at 18:05
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -28,13 +28,10 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- WGT.V (WESTGATE ENERGY INC): +23.7% today at 0.235, last 30m +9.3%, volume pace 3.14x, rising since 2026-10-14T15:25:00+00:00
-- NOW.V (NOWVERTICAL GROUP INC): +10.7% today at 0.155, last 30m +3.3%, volume pace 4.0x, rising since 2026-10-14T17:25:00+00:00
-- RDU.V (RADIUS GOLD INC.): +9.3% today at 0.235, last 30m +2.2%, volume pace 2.3x, rising since 2026-10-14T17:25:00+00:00
+- MLP.V (MILLENNIAL POTASH CORP): +14.2% today at 2.17, last 30m +0.5%, volume pace 11.34x, rising since 2026-10-14T17:55:00+00:00
+- NOW.V (NOWVERTICAL GROUP INC): +10.7% today at 0.155, last 30m +3.3%, volume pace 4.02x, rising since 2026-10-14T17:25:00+00:00
 - ZAU.V (ZODIAC GOLD INC): +7.9% today at 0.34, last 30m +9.7%, volume pace 2.24x, rising since 2026-10-14T17:20:00+00:00
-- HEVI.V (HELIUM EVOLUTION INCORPORATED): +5.6% today at 0.19, last 30m +2.7%, volume pace 5.32x, rising since 2026-10-14T16:35:00+00:00
-- PCU.V (PECOY COPPER CORP): +5.3% today at 2.0, last 30m +0.5%, volume pace 5.12x, rising since 2026-10-14T17:20:00+00:00
-- YARR.V (PIRATE GOLD CORP): +3.3% today at 0.155, last 30m +3.3%, volume pace 1.84x, rising since 2026-10-14T15:00:00+00:00
+- PGDC.V (PATAGONIA GOLD CORP): +4.8% today at 0.44, last 30m +2.3%, volume pace 2.12x, rising since 2026-10-14T17:30:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -51,13 +48,13 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Top 10 gainers in latest intraday pass
 
-- WGT.V (WESTGATE ENERGY INC): +23.7% at 0.235, volume pace 3.14x
-- LXM.V (LUX METALS CORP): +15.8% at 0.22, volume pace 42.04x
-- MLP.V (MILLENNIAL POTASH CORP): +14.2% at 2.17, volume pace 8.77x
-- NOW.V (NOWVERTICAL GROUP INC): +10.7% at 0.155, volume pace 4.0x
-- RDU.V (RADIUS GOLD INC.): +9.3% at 0.235, volume pace 2.3x
-- LVG.V (LAKE VICTORIA GOLD LTD): +9.0% at 0.365, volume pace 0.84x
+- WGT.V (WESTGATE ENERGY INC): +18.4% at 0.225, volume pace 3.03x
+- LXM.V (LUX METALS CORP): +15.8% at 0.22, volume pace 40.69x
+- MLP.V (MILLENNIAL POTASH CORP): +14.2% at 2.17, volume pace 11.34x
+- NOW.V (NOWVERTICAL GROUP INC): +10.7% at 0.155, volume pace 4.02x
+- HART.V (GOLD HART COPPER CORP): +10.5% at 0.21, volume pace 0.46x
+- LVG.V (LAKE VICTORIA GOLD LTD): +9.7% at 0.3675, volume pace 0.83x
 - ZAU.V (ZODIAC GOLD INC): +7.9% at 0.34, volume pace 2.24x
-- V.V (VERDERA ENERGY CORP): +7.8% at 0.275, volume pace 1.06x
-- HEVI.V (HELIUM EVOLUTION INCORPORATED): +5.6% at 0.19, volume pace 5.32x
-- PCU.V (PECOY COPPER CORP): +5.3% at 2.0, volume pace 5.12x
+- GMA.V (GEOMEGA RESOURCES INC): +6.5% at 0.245, volume pace 0.11x
+- TLT.V (THERALASE TECHNOLOGIES INC.): +5.6% at 0.19, volume pace 0.22x
+- PGDC.V (PATAGONIA GOLD CORP): +4.8% at 0.44, volume pace 2.12x
