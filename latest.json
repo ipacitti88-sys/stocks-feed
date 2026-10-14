@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T12:31-06:00",
+ "generated": "2026-10-14T13:01-06:00",
  "last_close_day": "2026-10-13",
  "tracked": 446,
  "flagged": [
@@ -426,29 +426,62 @@
    "added": "2026-10-13"
   }
  ],
- "live_as_of": "2026-10-14T18:35:00+00:00",
+ "live_as_of": "2026-10-14T19:05:00+00:00",
  "rising": [
   {
-   "ticker": "NOW.V",
-   "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T17:25:00+00:00",
-   "last": 0.155,
-   "pct_day": 10.71,
-   "pct_30m": 3.33,
-   "volume_pace": 4.02,
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "as_of": "2026-10-14T18:50:00+00:00",
+   "last": 0.205,
+   "pct_day": 13.89,
+   "pct_30m": 13.89,
+   "volume_pace": 4.63,
    "rising": true,
-   "rising_since": "2026-10-14T17:25:00+00:00"
+   "rising_since": "2026-10-14T18:50:00+00:00"
   },
   {
-   "ticker": "PGDC.V",
-   "name": "PATAGONIA GOLD CORP",
-   "as_of": "2026-10-14T17:30:00+00:00",
-   "last": 0.44,
-   "pct_day": 4.76,
-   "pct_30m": 2.33,
-   "volume_pace": 2.12,
+   "ticker": "RDU.V",
+   "name": "RADIUS GOLD INC.",
+   "as_of": "2026-10-14T18:50:00+00:00",
+   "last": 0.23,
+   "pct_day": 6.98,
+   "pct_30m": 2.22,
+   "volume_pace": 1.93,
    "rising": true,
-   "rising_since": "2026-10-14T17:30:00+00:00"
+   "rising_since": "2026-10-14T18:50:00+00:00"
+  },
+  {
+   "ticker": "LIB.V",
+   "name": "LIBERTYSTREAM INFRASTRUCTURE PA",
+   "as_of": "2026-10-14T18:55:00+00:00",
+   "last": 0.79,
+   "pct_day": 5.33,
+   "pct_30m": 2.6,
+   "volume_pace": 4.91,
+   "rising": true,
+   "rising_since": "2026-10-14T18:55:00+00:00"
+  },
+  {
+   "ticker": "UTWO.V",
+   "name": "U92 ENERGY CORP",
+   "as_of": "2026-10-14T19:00:00+00:00",
+   "last": 0.3,
+   "pct_day": 5.26,
+   "pct_30m": 5.26,
+   "volume_pace": 4.8,
+   "rising": true,
+   "rising_since": "2026-10-14T19:00:00+00:00"
+  },
+  {
+   "ticker": "BPAG.V",
+   "name": "BP SILVER CORP",
+   "as_of": "2026-10-14T18:45:00+00:00",
+   "last": 0.94,
+   "pct_day": 4.44,
+   "pct_30m": 5.62,
+   "volume_pace": 1.67,
+   "rising": true,
+   "rising_since": "2026-10-14T18:45:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -466,35 +499,46 @@
   {
    "ticker": "LXM.V",
    "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T18:15:00+00:00",
+   "as_of": "2026-10-14T19:00:00+00:00",
    "last": 0.22,
    "pct_day": 15.79,
    "pct_30m": 0.0,
-   "volume_pace": 38.37,
+   "volume_pace": 33.25,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "as_of": "2026-10-14T18:50:00+00:00",
+   "last": 0.205,
+   "pct_day": 13.89,
+   "pct_30m": 13.89,
+   "volume_pace": 4.63,
+   "rising": true,
+   "rising_since": "2026-10-14T18:50:00+00:00"
   },
   {
    "ticker": "MLP.V",
    "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T18:30:00+00:00",
-   "last": 2.17,
-   "pct_day": 14.21,
-   "pct_30m": 0.0,
-   "volume_pace": 10.38,
+   "as_of": "2026-10-14T19:00:00+00:00",
+   "last": 2.16,
+   "pct_day": 13.68,
+   "pct_30m": -0.46,
+   "volume_pace": 9.59,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "NOW.V",
-   "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T17:25:00+00:00",
-   "last": 0.155,
-   "pct_day": 10.71,
-   "pct_30m": 3.33,
-   "volume_pace": 4.02,
-   "rising": true,
-   "rising_since": "2026-10-14T17:25:00+00:00"
+   "ticker": "NSU.V",
+   "name": "NORTH SHORE URANIUM LTD",
+   "as_of": "2026-10-14T19:00:00+00:00",
+   "last": 0.15,
+   "pct_day": 11.11,
+   "pct_30m": 7.14,
+   "volume_pace": 1.03,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "HART.V",
@@ -525,42 +569,31 @@
    "last": 0.25,
    "pct_day": 8.7,
    "pct_30m": 2.04,
-   "volume_pace": 0.43,
+   "volume_pace": 0.45,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ZAU.V",
-   "name": "ZODIAC GOLD INC",
-   "as_of": "2026-10-14T18:10:00+00:00",
-   "last": 0.335,
-   "pct_day": 6.35,
-   "pct_30m": -1.47,
-   "volume_pace": 1.86,
+   "ticker": "NOW.V",
+   "name": "NOWVERTICAL GROUP INC",
+   "as_of": "2026-10-14T18:45:00+00:00",
+   "last": 0.15,
+   "pct_day": 7.14,
+   "pct_30m": -3.23,
+   "volume_pace": 3.0,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TLT.V",
-   "name": "THERALASE TECHNOLOGIES INC.",
-   "as_of": "2026-10-14T18:20:00+00:00",
-   "last": 0.19,
-   "pct_day": 5.56,
-   "pct_30m": 0.0,
-   "volume_pace": 0.24,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PGDC.V",
-   "name": "PATAGONIA GOLD CORP",
-   "as_of": "2026-10-14T17:30:00+00:00",
-   "last": 0.44,
-   "pct_day": 4.76,
-   "pct_30m": 2.33,
-   "volume_pace": 2.12,
+   "ticker": "RDU.V",
+   "name": "RADIUS GOLD INC.",
+   "as_of": "2026-10-14T18:50:00+00:00",
+   "last": 0.23,
+   "pct_day": 6.98,
+   "pct_30m": 2.22,
+   "volume_pace": 1.93,
    "rising": true,
-   "rising_since": "2026-10-14T17:30:00+00:00"
+   "rising_since": "2026-10-14T18:50:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1156,9 +1189,9 @@
     860.93
    ],
    "live": {
-    "as_of": "2026-10-14T18:35:00+00:00",
-    "last": 828.61,
-    "pct_day": -3.75
+    "as_of": "2026-10-14T19:05:00+00:00",
+    "last": 828.15,
+    "pct_day": -3.81
    }
   },
   "^GSPTSE": {
@@ -1753,9 +1786,9 @@
     35983.98
    ],
    "live": {
-    "as_of": "2026-10-14T18:35:00+00:00",
-    "last": 35489.29,
-    "pct_day": -1.37
+    "as_of": "2026-10-14T19:05:00+00:00",
+    "last": 35518.83,
+    "pct_day": -1.29
    }
   }
  }

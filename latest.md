@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-14T12:31-06:00
+# Stock feed — 2026-10-14T13:01-06:00
 
-Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.8% at 18:35
-Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.4% at 18:35
+Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.8% at 19:05
+Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.3% at 19:05
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -28,8 +28,11 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- NOW.V (NOWVERTICAL GROUP INC): +10.7% today at 0.155, last 30m +3.3%, volume pace 4.02x, rising since 2026-10-14T17:25:00+00:00
-- PGDC.V (PATAGONIA GOLD CORP): +4.8% today at 0.44, last 30m +2.3%, volume pace 2.12x, rising since 2026-10-14T17:30:00+00:00
+- HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.9% today at 0.205, last 30m +13.9%, volume pace 4.63x, rising since 2026-10-14T18:50:00+00:00
+- RDU.V (RADIUS GOLD INC.): +7.0% today at 0.23, last 30m +2.2%, volume pace 1.93x, rising since 2026-10-14T18:50:00+00:00
+- LIB.V (LIBERTYSTREAM INFRASTRUCTURE PA): +5.3% today at 0.79, last 30m +2.6%, volume pace 4.91x, rising since 2026-10-14T18:55:00+00:00
+- UTWO.V (U92 ENERGY CORP): +5.3% today at 0.3, last 30m +5.3%, volume pace 4.8x, rising since 2026-10-14T19:00:00+00:00
+- BPAG.V (BP SILVER CORP): +4.4% today at 0.94, last 30m +5.6%, volume pace 1.67x, rising since 2026-10-14T18:45:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -47,12 +50,12 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 ## Top 10 gainers in latest intraday pass
 
 - WGT.V (WESTGATE ENERGY INC): +23.7% at 0.235, volume pace 2.96x
-- LXM.V (LUX METALS CORP): +15.8% at 0.22, volume pace 38.37x
-- MLP.V (MILLENNIAL POTASH CORP): +14.2% at 2.17, volume pace 10.38x
-- NOW.V (NOWVERTICAL GROUP INC): +10.7% at 0.155, volume pace 4.02x
+- LXM.V (LUX METALS CORP): +15.8% at 0.22, volume pace 33.25x
+- HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.9% at 0.205, volume pace 4.63x
+- MLP.V (MILLENNIAL POTASH CORP): +13.7% at 2.16, volume pace 9.59x
+- NSU.V (NORTH SHORE URANIUM LTD): +11.1% at 0.15, volume pace 1.03x
 - HART.V (GOLD HART COPPER CORP): +10.5% at 0.21, volume pace 0.6x
 - LVG.V (LAKE VICTORIA GOLD LTD): +9.7% at 0.3675, volume pace 0.95x
-- GMA.V (GEOMEGA RESOURCES INC): +8.7% at 0.25, volume pace 0.43x
-- ZAU.V (ZODIAC GOLD INC): +6.3% at 0.335, volume pace 1.86x
-- TLT.V (THERALASE TECHNOLOGIES INC.): +5.6% at 0.19, volume pace 0.24x
-- PGDC.V (PATAGONIA GOLD CORP): +4.8% at 0.44, volume pace 2.12x
+- GMA.V (GEOMEGA RESOURCES INC): +8.7% at 0.25, volume pace 0.45x
+- NOW.V (NOWVERTICAL GROUP INC): +7.1% at 0.15, volume pace 3.0x
+- RDU.V (RADIUS GOLD INC.): +7.0% at 0.23, volume pace 1.93x
