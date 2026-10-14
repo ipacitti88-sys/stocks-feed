@@ -61,6 +61,15 @@ CREATE TABLE IF NOT EXISTS intraday_bars (
     volume BIGINT,
     PRIMARY KEY (ticker, ts)
 );
+CREATE TABLE IF NOT EXISTS rising_log (
+    trade_date DATE NOT NULL,
+    ticker     TEXT NOT NULL,
+    flagged_at TIMESTAMPTZ NOT NULL,
+    price      NUMERIC(14,4),
+    pct_day    NUMERIC(8,2),
+    pace       NUMERIC(8,2),
+    PRIMARY KEY (trade_date, ticker)
+);
 """
 
 CONTEXT_SQL = """
@@ -177,7 +186,7 @@ def main() -> int:
             print(f"{now_et:%H:%M} ET: no intraday data (holiday or Yahoo issue)")
             return 0
 
-        rows, rising = [], []
+        rows, rising, log_rows = [], [], []
         for t, b in bars.items():
             prev_close, avg_vol20 = context.get(t, (None, None))
             ev = evaluate(b, prev_close, avg_vol20, now_et)
@@ -188,6 +197,7 @@ def main() -> int:
                          ev["pct_30m"], ev["pace"], ev["rising"], ev["as_of"] if ev["rising"] else None))
             if ev["rising"]:
                 rising.append((t, ev["pct_day"], ev["pace"]))
+                log_rows.append((ev["trade_date"], t, ev["as_of"], ev["last"], ev["pct_day"], ev["pace"]))
 
         today_start = now_et.replace(hour=0, minute=0, second=0, microsecond=0)
         bar_rows = []
@@ -200,6 +210,10 @@ def main() -> int:
 
         with conn, conn.cursor() as cur:
             execute_values(cur, UPSERT_SQL, rows)
+            # permanent record of the first time each stock went Rising each day
+            if log_rows:
+                execute_values(cur, "INSERT INTO rising_log (trade_date, ticker, flagged_at, price, pct_day, pace) "
+                                    "VALUES %s ON CONFLICT (trade_date, ticker) DO NOTHING", log_rows)
             # keep only today's 5-minute bars (for the 1D chart)
             cur.execute("DELETE FROM intraday_bars WHERE ts < %s", (today_start,))
             if bar_rows:
