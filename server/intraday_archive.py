@@ -17,7 +17,7 @@ Columns: date, time (Eastern), ticker, name, open, high, low, close, volume
 import argparse
 import csv
 import datetime as dt
-import html
+import json
 import os
 import sys
 import time
@@ -122,12 +122,77 @@ Open in Excel, Numbers or Google Sheets (File &rarr; Import).</p>
 """)
 
 
+def day_bars(conn, first: dt.date, last: dt.date, tickers=None) -> dict:
+    """{date: {ticker: {"t0": epoch seconds of first bar, "m": minutes after t0, "c": closes, "v": volumes}}}
+    for regular-session bars (9:30-16:00 Eastern) between two dates."""
+    q = ("SELECT ticker, ts, close, volume FROM bars_5m "
+         "WHERE ts >= %s AND ts < %s" + (" AND ticker = ANY(%s)" if tickers else "") + " ORDER BY ticker, ts")
+    a = dt.datetime.combine(first, dt.time(0), ET)
+    b = dt.datetime.combine(last + dt.timedelta(days=1), dt.time(0), ET)
+    with conn.cursor() as cur:
+        cur.execute(q, (a, b, list(tickers)) if tickers else (a, b))
+        rows = cur.fetchall()
+    out = {}
+    for t, ts, c, v in rows:
+        if c is None:
+            continue
+        loc = ts.astimezone(ET)
+        mins = loc.hour * 60 + loc.minute
+        if mins < 570 or mins >= 960:  # outside the regular session
+            continue
+        d = out.setdefault(loc.date().isoformat(), {})
+        e = d.get(t)
+        epoch = int(ts.timestamp())
+        if e is None:
+            e = d[t] = {"t0": epoch, "m": [], "c": [], "v": []}
+        e["m"].append((epoch - e["t0"]) // 60)
+        e["c"].append(round(float(c), 4))
+        e["v"].append(int(v) if v is not None else 0)
+    return out
+
+
+def write_day_json(conn, out: Path, dates=None) -> list[str]:
+    """One JSON file per trading day (all stocks) for the server webpage's 1-day chart, plus days.json."""
+    out.mkdir(parents=True, exist_ok=True)
+    with conn.cursor() as cur:
+        cur.execute("SELECT MIN(ts), MAX(ts) FROM bars_5m")
+        lo, hi = cur.fetchone()
+    if lo is None:
+        return []
+    if dates:
+        first, last = min(dates), max(dates)
+    else:
+        first, last = lo.astimezone(ET).date(), hi.astimezone(ET).date()
+    written = []
+    d0 = first
+    while d0 <= last:  # a week at a time keeps memory small
+        d1 = min(d0 + dt.timedelta(days=6), last)
+        for day, stocks in day_bars(conn, d0, d1).items():
+            (out / f"{day}.json").write_text(json.dumps({"date": day, "s": stocks}, separators=(",", ":")))
+            written.append(day)
+        d0 = d1 + dt.timedelta(days=1)
+    days = sorted(f.stem for f in out.glob("????-??-??.json"))
+    (out / "days.json").write_text(json.dumps(days))
+    return written
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--backfill", action="store_true", help="fetch the ~60 days Yahoo still has")
     ap.add_argument("--days", type=int, default=5)
+    ap.add_argument("--export-all", action="store_true",
+                    help="only rewrite the 1-day chart files for every archived day")
     args = ap.parse_args()
     days = 59 if args.backfill else args.days
+    web = Path(os.environ.get("WEB_DIR", Path(__file__).parent / "web")) / "intraday"
+    if args.export_all:
+        conn = psycopg2.connect()
+        try:
+            n = write_day_json(conn, web)
+        finally:
+            conn.close()
+        print(f"1-day chart files written for {len(n)} trading days in {web}/")
+        return 0
 
     conn = psycopg2.connect()
     try:
@@ -144,11 +209,11 @@ def main() -> int:
             execute_values(cur, UPSERT_SQL, rows, page_size=2000)
             cur.execute("SELECT COUNT(DISTINCT ts::date), COUNT(*) FROM bars_5m")
             n_days, n_rows = cur.fetchone()
+        written = write_csvs(rows, names, web)
+        write_day_json(conn, web, [dt.date.fromisoformat(d) for d in written])
     finally:
         conn.close()
 
-    web = Path(os.environ.get("WEB_DIR", Path(__file__).parent / "web")) / "intraday"
-    written = write_csvs(rows, names, web)
     tickers = len({r[0] for r in rows})
     print(f"Saved {len(rows):,} five-minute bars for {tickers} stocks "
           f"({written[0]} to {written[-1]}). Archive now holds {n_rows:,} bars over {n_days} days.")

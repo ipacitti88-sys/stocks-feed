@@ -122,6 +122,10 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
 .chart { position: relative; }
 .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
 .legend { display: flex; gap: 14px; font-size: 12px; color: var(--text-2); }
+.daypick { display: inline-flex; align-items: center; gap: 4px; }
+.daypick button { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 8px; width: 30px; height: 30px; font-size: 16px; cursor: pointer; }
+.daypick button:disabled { opacity: .35; cursor: default; }
+.daypick input { font: inherit; font-size: 13px; padding: 4px 6px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); }
 .chart-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin: 12px 0 4px; }
 .chart-note { color: var(--text-3); font-size: 12px; padding: 12px 0; }
 .legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 5px; }
@@ -383,8 +387,11 @@ function renderDetail(t) {
     </div>
     <div class="chart-head">
       <div class="legend"><span><i style="background:${cssVar('--series-1')}"></i>Price</span><span id="maLegend"><i style="background:${cssVar('--ma')};height:0;border-top:2px dashed ${cssVar('--ma')}"></i>50-day average</span></div>
-      <div class="seg" role="group" aria-label="Chart range" id="rangeSeg">
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <span class="daypick" id="dayPick" hidden><button type="button" id="dPrev" aria-label="Previous trading day">‹</button><input type="date" id="dDate" aria-label="Day to show"><button type="button" id="dNext" aria-label="Next trading day">›</button></span>
+        <div class="seg" role="group" aria-label="Chart range" id="rangeSeg">
         ${RANGES.map((r) => `<button type="button" data-r="${r.k}" aria-pressed="${r.k === chartRange}">${r.k}</button>`).join('')}
+        </div>
       </div>
     </div>
     <div class="chart" id="chart"></div>`;
@@ -394,12 +401,38 @@ function renderDetail(t) {
     $('rangeSeg').querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
     drawRange(t);
   }));
+  $('dDate').addEventListener('change', (e) => { pickDay(e.target.value, 0); drawRange(t); });
+  $('dPrev').addEventListener('click', () => { pickDay(dayShown(t), -1); drawRange(t); });
+  $('dNext').addEventListener('click', () => { pickDay(dayShown(t), 1); drawRange(t); });
   drawRange(t);
+}
+
+// ---------- 1-day chart for any archived day ----------
+let DAYS = null, chosenDay = null;
+const dayCache = {};
+const liveDay = () => {  // the day of today's live bars, Eastern time
+  const any = Object.values(DATA.intra || {})[0];
+  if (!any || !any.d.length) return null;
+  return new Date(any.d[0]).toLocaleDateString('en-CA', { timeZone: 'America/Toronto' });
+};
+const allDays = () => { const L = (DAYS || []).slice(); const lv = liveDay(); if (lv && !L.includes(lv)) L.push(lv); return L.sort(); };
+fetch('intraday/days.json').then((r) => r.ok ? r.json() : []).then((d) => { DAYS = Array.isArray(d) ? d : []; if (current && chartRange === '1D') drawRange(current); }).catch(() => { DAYS = []; });
+function dayShown(t) { const L = allDays(); return chosenDay && L.includes(chosenDay) ? chosenDay : L[L.length - 1] || null; }
+function pickDay(d, step) {
+  const L = allDays(); if (!L.length || !d) return;
+  let i = L.indexOf(d);
+  if (i < 0) { i = L.filter((x) => x <= d).length - 1; if (i < 0) i = 0; }
+  i = Math.max(0, Math.min(L.length - 1, i + step));
+  chosenDay = L[i];
+}
+function loadDay(day) {
+  if (dayCache[day]) return Promise.resolve(dayCache[day]);
+  return fetch('intraday/' + day + '.json').then((r) => r.ok ? r.json() : null).then((j) => (dayCache[day] = j)).catch(() => null);
 }
 
 // ---------- chart ranges ----------
 const RANGES = [
-  { k: '1D', label: 'Today', days: 0 },
+  { k: '1D', label: 'Day', days: 0 },
   { k: '1W', label: '1-week change', days: 7 },
   { k: '1M', label: '1-month change', days: 31 },
   { k: '1Y', label: '1-year change', days: 366 },
@@ -407,11 +440,21 @@ const RANGES = [
 let chartRange = '1M';
 try { const r = localStorage.getItem('chartRange'); if (RANGES.some((x) => x.k === r)) chartRange = r; } catch (e) {}
 
-function sliceRange(t) {
+function prevClose(t, day) {
+  const h = DATA.hist[t]; if (!h) return null;
+  for (let i = h.d.length - 1; i >= 0; i--) if (h.d[i] < day && h.c[i] != null) return h.c[i];
+  return null;
+}
+function sliceRange(t, dayData) {
   if (chartRange === '1D') {
+    if (dayData) {
+      const e = dayData.s && dayData.s[t];
+      if (!e || e.c.length < 2) return null;
+      return { d: e.m.map((x) => new Date((e.t0 + x * 60) * 1000).toISOString()), c: e.c, v: e.v, m: e.c.map(() => null), intraday: true, day: dayData.date };
+    }
     const ib = DATA.intra && DATA.intra[t];
     if (!ib || ib.d.length < 2) return null;
-    return { d: ib.d, c: ib.c, v: ib.v, m: ib.c.map(() => null), intraday: true };
+    return { d: ib.d, c: ib.c, v: ib.v, m: ib.c.map(() => null), intraday: true, day: liveDay() };
   }
   const h = DATA.hist[t];
   if (!h || h.d.length < 2) return null;
@@ -424,20 +467,35 @@ function sliceRange(t) {
   return { d: h.d.slice(i0), c: h.c.slice(i0), v: h.v.slice(i0), m: h.m.slice(i0), intraday: false };
 }
 
-function drawRange(t) {
+function drawRange(t, dayData) {
   const r = RANGES.find((x) => x.k === chartRange);
-  const h = sliceRange(t);
-  $('maLegend').hidden = chartRange === '1D';
-  $('rangeLabel').textContent = r.label;
+  const oneDay = chartRange === '1D';
+  $('dayPick').hidden = !oneDay;
+  let day = null;
+  if (oneDay) {
+    const L = allDays();
+    day = dayShown(t);
+    $('dDate').min = L[0] || ''; $('dDate').max = L[L.length - 1] || ''; $('dDate').value = day || '';
+    $('dPrev').disabled = !day || L.indexOf(day) <= 0;
+    $('dNext').disabled = !day || L.indexOf(day) >= L.length - 1;
+    if (day && day !== liveDay() && !dayData) {
+      $('chart').innerHTML = '<div class="chart-note">Loading ' + dateLabel(day) + '…</div>';
+      loadDay(day).then((j) => { if (current === t && chartRange === '1D' && dayShown(t) === day) drawRange(t, j || { date: day, s: {} }); });
+      return;
+    }
+  }
+  const h = sliceRange(t, dayData);
+  $('maLegend').hidden = oneDay;
+  $('rangeLabel').textContent = oneDay ? (day && day !== liveDay() ? dateLabel(day) + ' change' : 'Today') : r.label;
   if (!h) {
     $('rangeChg').textContent = '–';
     $('rangeChg').className = 'v';
-    $('chart').innerHTML = `<div class="chart-note">${chartRange === '1D' ? 'The intraday chart appears during market hours, after the first 30-minute scan.' : 'Not enough history yet.'}</div>`;
+    $('chart').innerHTML = `<div class="chart-note">${oneDay ? (day && day !== liveDay() ? 'No 5-minute data for this stock on ' + dateLabel(day) + '. It may not have traded, or was added to your list later.' : 'The intraday chart appears during market hours, after the first 30-minute scan. Pick an earlier day with the calendar.') : 'Not enough history yet.'}</div>`;
     return;
   }
   const st = DATA.stocks.find((x) => x.t === t);
-  // 1D measures from yesterday's close, matching the "Today" figure above
-  const first = h.intraday && st && st.c ? st.c : h.c.find((v) => v != null);
+  // 1D measures from the previous day's close, matching the "Today" figure above
+  const first = h.intraday ? (h.day && h.day !== liveDay() ? prevClose(t, h.day) : (st && st.c)) || h.c.find((v) => v != null) : h.c.find((v) => v != null);
   const lastV = [...h.c].reverse().find((v) => v != null);
   const chg = first ? (lastV / first - 1) * 100 : null;
   $('rangeChg').textContent = fmtPct(chg);
