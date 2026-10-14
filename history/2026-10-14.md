@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-14T08:31-06:00
+# Stock feed — 2026-10-14T09:01-06:00
 
-Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T14:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -2.2% at 14:35
-Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -0.9% at 14:35
+Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -2.4% at 15:05
+Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.1% at 15:05
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -28,9 +28,11 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- WGT.V (WESTGATE ENERGY INC): +7.9% today at 0.205, last 30m +2.5%, volume pace 3.85x, rising since 2026-10-14T14:30:00+00:00
+- LXM.V (LUX METALS CORP): +21.1% today at 0.23, last 30m +4.5%, volume pace 90.6x, rising since 2026-10-14T15:00:00+00:00
+- MLP.V (MILLENNIAL POTASH CORP): +16.3% today at 2.21, last 30m +2.3%, volume pace 13.45x, rising since 2026-10-14T15:00:00+00:00
+- V.V (VERDERA ENERGY CORP): +9.8% today at 0.28, last 30m +5.7%, volume pace 1.63x, rising since 2026-10-14T15:00:00+00:00
 - NOW.V (NOWVERTICAL GROUP INC): +7.1% today at 0.15, last 30m +7.1%, volume pace 1.77x, rising since 2026-10-14T13:55:00+00:00
-- CCEC.V (CANCAMBRIA ENERGY CORP): +4.2% today at 0.25, last 30m +2.0%, volume pace 1.75x, rising since 2026-10-14T14:30:00+00:00
+- YARR.V (PIRATE GOLD CORP): +3.3% today at 0.155, last 30m +3.3%, volume pace 1.67x, rising since 2026-10-14T15:00:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -47,13 +49,13 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Top 10 gainers in latest intraday pass
 
-- LXM.V (LUX METALS CORP): +15.8% at 0.22, volume pace 131.58x
-- MLP.V (MILLENNIAL POTASH CORP): +13.7% at 2.16, volume pace 8.25x
-- RDU.V (RADIUS GOLD INC.): +11.6% at 0.24, volume pace 2.76x
-- WGT.V (WESTGATE ENERGY INC): +7.9% at 0.205, volume pace 3.85x
+- LXM.V (LUX METALS CORP): +21.1% at 0.23, volume pace 90.6x
+- MLP.V (MILLENNIAL POTASH CORP): +16.3% at 2.21, volume pace 13.45x
+- V.V (VERDERA ENERGY CORP): +9.8% at 0.28, volume pace 1.63x
 - NOW.V (NOWVERTICAL GROUP INC): +7.1% at 0.15, volume pace 1.77x
-- PGDC.V (PATAGONIA GOLD CORP): +7.1% at 0.45, volume pace 1.29x
-- GTC.V (GETTY COPPER INC.): +5.3% at 0.8, volume pace 0.0x
-- CCEC.V (CANCAMBRIA ENERGY CORP): +4.2% at 0.25, volume pace 1.75x
-- PML.V (PANORO MINERALS LTD): +4.0% at 1.54, volume pace 3.41x
-- V.V (VERDERA ENERGY CORP): +3.9% at 0.265, volume pace 0.77x
+- PGDC.V (PATAGONIA GOLD CORP): +7.1% at 0.45, volume pace 2.79x
+- RDU.V (RADIUS GOLD INC.): +7.0% at 0.23, volume pace 2.78x
+- WGT.V (WESTGATE ENERGY INC): +5.3% at 0.2, volume pace 3.72x
+- GTC.V (GETTY COPPER INC.): +5.3% at 0.8, volume pace 0.89x
+- CCEC.V (CANCAMBRIA ENERGY CORP): +4.2% at 0.25, volume pace 1.49x
+- NSU.V (NORTH SHORE URANIUM LTD): +3.7% at 0.14, volume pace 0.0x
