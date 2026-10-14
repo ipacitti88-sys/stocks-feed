@@ -5,6 +5,8 @@ cd "$(dirname "$0")" || exit 1
 {
   echo "=== $(date) ==="
   flock -n /tmp/stocks-research.lock ./venv/bin/python universe.py --backfill
-  ./venv/bin/python patterns.py
-  ./venv/bin/python signal_lab.py
+  ./venv/bin/python patterns.py --market tsxv
+  ./venv/bin/python patterns.py --market tsx
+  ./venv/bin/python signal_lab.py --market tsxv
+  ./venv/bin/python signal_lab.py --market tsx
 } >> logs/weekly.log 2>&1

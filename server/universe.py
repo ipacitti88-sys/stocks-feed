@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Research universe: EVERY TSX Venture stock Yahoo lists, at any price or volume,
+Research universe: EVERY TSX Venture and TSX stock Yahoo lists, at any price or volume,
 with up to 10 years of daily history. Used only for research (patterns,
 signal tests) - never screened as buy candidates, so your scanner and terminal
 don't change.
@@ -46,9 +46,10 @@ CREATE TABLE IF NOT EXISTS universe (
 """
 
 
-def list_tsxv() -> list[dict]:
+def list_exchange(code: str) -> list[dict]:
     from yfinance import EquityQuery
-    q = EquityQuery("and", [EquityQuery("eq", ["exchange", "VAN"]),
+    from discover import is_common
+    q = EquityQuery("and", [EquityQuery("eq", ["exchange", code]),
                             EquityQuery("gt", ["intradayprice", 0])])
     found, offset = [], 0
     while True:
@@ -59,12 +60,26 @@ def list_tsxv() -> list[dict]:
         if not quotes or offset >= res.get("total", offset):
             break
         time.sleep(PAUSE)
-    return [q for q in found if q.get("symbol")]
+    return [q for q in found if q.get("symbol") and is_common(q)]
+
+
+EXCHANGES = {"VAN": "TSXV", "TOR": "TSX"}
+
+
+def list_tsxv() -> list[dict]:  # kept for older callers
+    return list_exchange("VAN")
 
 
 def refresh(conn) -> int:
-    quotes = list_tsxv()
-    rows = [(q["symbol"], q.get("shortName") or q.get("longName") or q["symbol"], "TSXV") for q in quotes]
+    rows = []
+    for code, label in EXCHANGES.items():
+        try:
+            quotes = list_exchange(code)
+        except Exception as e:
+            print(f"{label} listing failed: {e}", file=sys.stderr)
+            continue
+        print(f"Yahoo lists {len(quotes)} {label} stocks (ordinary shares).")
+        rows += [(q["symbol"], q.get("shortName") or q.get("longName") or q["symbol"], label) for q in quotes]
     with conn, conn.cursor() as cur:
         execute_values(cur, """
             INSERT INTO universe (ticker, name, exchange) VALUES %s
@@ -76,7 +91,7 @@ def refresh(conn) -> int:
                        ON CONFLICT (ticker) DO NOTHING""")
         cur.execute("SELECT COUNT(*) FROM universe")
         total = cur.fetchone()[0]
-    print(f"Yahoo lists {len(rows)} TSX Venture stocks; universe now holds {total} (listings never removed).")
+    print(f"Universe now holds {total} stocks (listings are never removed).")
     return len(rows)
 
 

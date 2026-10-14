@@ -39,8 +39,8 @@ def collect():
             screen = cur.fetchall()
             cur.execute("SELECT COUNT(*), MAX(trade_date) FROM daily_prices")
             _, last_day = cur.fetchone()
-            cur.execute("SELECT COUNT(*) FROM watchlist WHERE active")
-            tracked = cur.fetchone()[0]
+            cur.execute("SELECT COUNT(*), COUNT(*) FILTER (WHERE ticker LIKE '%%.TO') FROM watchlist WHERE active")
+            tracked, tracked_tsx = cur.fetchone()
             live = []
             cur.execute("SELECT to_regclass('intraday_quotes') IS NOT NULL")
             if cur.fetchone()[0]:
@@ -83,19 +83,23 @@ def collect():
                            added=str(added) if added else None))
     flagged = sorted([s for s in stocks if s["signals"] >= 2 and (s["avg_vol"] or 0) >= MIN_LIQUIDITY],
                      key=lambda s: (-s["signals"], -(s["rel_vol"] or 0)))
-    by_relvol = sorted([s for s in stocks if (s["avg_vol"] or 0) >= MIN_LIQUIDITY],
-                       key=lambda s: -(s["rel_vol"] or 0))[:TOP_N]
+    liquid = sorted([s for s in stocks if (s["avg_vol"] or 0) >= MIN_LIQUIDITY], key=lambda s: -(s["rel_vol"] or 0))
+    by_relvol = ([s for s in liquid if not s["ticker"].endswith(".TO")][:TOP_N]
+                 + [s for s in liquid if s["ticker"].endswith(".TO")][:TOP_N])
 
     live_rows = [dict(ticker=t, name=n, as_of=as_of.isoformat() if as_of else None, last=num(last),
                       pct_day=num(pd), pct_30m=num(p30), volume_pace=num(pace), rising=bool(r),
                       rising_since=since.isoformat() if since else None)
                  for t, n, as_of, last, pd, p30, pace, r, since in live]
     rising = sorted([r for r in live_rows if r["rising"]], key=lambda r: -(r["pct_day"] or 0))
-    gainers = sorted([r for r in live_rows if r["pct_day"] is not None], key=lambda r: -r["pct_day"])[:TOP_N]
+    allg = sorted([r for r in live_rows if r["pct_day"] is not None], key=lambda r: -r["pct_day"])
+    gainers = ([r for r in allg if not r["ticker"].endswith(".TO")][:TOP_N]
+               + [r for r in allg if r["ticker"].endswith(".TO")][:TOP_N])
     live_as_of = max((r["as_of"] for r in live_rows if r["as_of"]), default=None)
 
     return dict(generated=dt.datetime.now().astimezone().isoformat(timespec="minutes"),
                 last_close_day=str(last_day) if last_day else None, tracked=tracked,
+                tracked_by_market={"tsxv": int(tracked - tracked_tsx), "tsx": int(tracked_tsx)},
                 flagged=flagged, top_rel_volume=by_relvol,
                 live_as_of=live_as_of, rising=rising, top_gainers_today=gainers,
                 benchmarks=bench, breakouts=breakouts)
@@ -146,33 +150,37 @@ def fmt(v, suf=""):
 
 
 def to_markdown(f):
+    tsx = lambda t: t.endswith(".TO")
     L = [f"# Stock feed — {f['generated']}", "",
-         f"Tracking {f['tracked']} stocks. Last full trading day: {f['last_close_day']}. "
+         f"Tracking {f['tracked']} stocks (TSX Venture and TSX, kept in separate sections below). "
+         f"Last full trading day: {f['last_close_day']}. "
          f"Intraday data as of: {f['live_as_of'] or 'none'} (Yahoo, ~15 min delayed).", ""]
     for b in (f.get("benchmarks") or {}).values():
         lv = b.get("live")
+        trend = "" if "above_ma200" not in b else (", uptrend" if b["above_ma200"] else ", downtrend")
         L += [f"Market: {b['name']} {b['last']:,.2f} on {b['date']} (day {fmt(b['chg_1d'], '%')}, "
-              f"month {fmt(b['chg_1m'], '%')}, year {fmt(b['chg_1y'], '%')})"
+              f"month {fmt(b['chg_1m'], '%')}, year {fmt(b['chg_1y'], '%')}{trend})"
               + (f"; live {fmt(lv['pct_day'], '%')} at {lv['as_of'][11:16]}" if lv else "")]
-    if f.get("benchmarks"):
-        L += [""]
-    L += ["## Breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)", ""]
-    L += [f"- {b['ticker']} ({b['name']}): close {b['close']}, volume {fmt(b['rel_vol'], 'x')}"
-          for b in f.get("breakouts") or []] or ["- none"]
-    L += [""]
-    L += ["## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)", ""]
-    L += [f"- {s['ticker']} ({s['name']}): {s['signals']}/3, close {s['close']}, rel vol {fmt(s['rel_vol'], 'x')}, "
-          f"20d {fmt(s['pct_20d'], '%')}, {fmt(s['from_52w_high'], '%')} vs 52w high" for s in f["flagged"]] or ["- none"]
-    L += ["", "## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)", ""]
-    L += [f"- {r['ticker']} ({r['name']}): {fmt(r['pct_day'], '%')} today at {r['last']}, last 30m {fmt(r['pct_30m'], '%')}, "
-          f"volume pace {fmt(r['volume_pace'], 'x')}, rising since {r['rising_since']}" for r in f["rising"]] or ["- none"]
-    L += ["", f"## Top {TOP_N} by relative volume at last close", ""]
-    L += [f"- {s['ticker']} ({s['name']}): rel vol {fmt(s['rel_vol'], 'x')}, close {s['close']}, 20d {fmt(s['pct_20d'], '%')}"
-          for s in f["top_rel_volume"]] or ["- none"]
-    if f["top_gainers_today"]:
-        L += ["", f"## Top {TOP_N} gainers in latest intraday pass", ""]
-        L += [f"- {r['ticker']} ({r['name']}): {fmt(r['pct_day'], '%')} at {r['last']}, volume pace {fmt(r['volume_pace'], 'x')}"
-              for r in f["top_gainers_today"]]
+    for label, pick in (("TSX Venture", lambda t: not tsx(t)), ("TSX", tsx)):
+        mine = lambda xs: [x for x in xs or [] if pick(x["ticker"])]
+        L += ["", f"# {label}", ""]
+        L += [f"## {label}: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)", ""]
+        L += [f"- {b['ticker']} ({b['name']}): close {b['close']}, volume {fmt(b['rel_vol'], 'x')}"
+              for b in mine(f.get("breakouts"))] or ["- none"]
+        L += ["", f"## {label}: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)", ""]
+        L += [f"- {s['ticker']} ({s['name']}): {s['signals']}/3, close {s['close']}, rel vol {fmt(s['rel_vol'], 'x')}, "
+              f"20d {fmt(s['pct_20d'], '%')}, {fmt(s['from_52w_high'], '%')} vs 52w high" for s in mine(f["flagged"])] or ["- none"]
+        L += ["", f"## {label}: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)", ""]
+        L += [f"- {r['ticker']} ({r['name']}): {fmt(r['pct_day'], '%')} today at {r['last']}, last 30m {fmt(r['pct_30m'], '%')}, "
+              f"volume pace {fmt(r['volume_pace'], 'x')}, rising since {r['rising_since']}" for r in mine(f["rising"])] or ["- none"]
+        L += ["", f"## {label}: top by relative volume at last close", ""]
+        L += [f"- {s['ticker']} ({s['name']}): rel vol {fmt(s['rel_vol'], 'x')}, close {s['close']}, 20d {fmt(s['pct_20d'], '%')}"
+              for s in mine(f["top_rel_volume"])] or ["- none"]
+        g = mine(f["top_gainers_today"])
+        if g:
+            L += ["", f"## {label}: top gainers in latest intraday pass", ""]
+            L += [f"- {r['ticker']} ({r['name']}): {fmt(r['pct_day'], '%')} at {r['last']}, volume pace {fmt(r['volume_pace'], 'x')}"
+                  for r in g]
     return "\n".join(L) + "\n"
 
 

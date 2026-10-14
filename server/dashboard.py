@@ -83,6 +83,15 @@ SELECT
 """
 
 
+def is_tsx(t):
+    return t.endswith(".TO")
+
+
+# one page per market, same layout: index.html = TSX Venture, tsx.html = TSX
+MARKETS = [("tsxv", "TSX Venture", "index.html", lambda t: not is_tsx(t)),
+           ("tsx", "TSX", "tsx.html", is_tsx)]
+
+
 def num(v):
     if v is None:
         return None
@@ -153,28 +162,32 @@ def main() -> int:
         if s["t"] in live_by:
             s.update(live_by[s["t"]])
 
-    data = {
-        "liveAsOf": iso(live_as_of),
-        "generated": dt.datetime.now().isoformat(timespec="minutes"),
-        "loadedAt": iso(loaded_at),
-        "lastDay": iso(last_day),
-        "tracked": tracked,
-        "new7": new7,
-        "minLiquidity": 50000,
-        "stocks": stocks,
-        "hist": hist,
-        "intra": intra,
-    }
-
     template = (Path(__file__).parent / "dashboard_template.html").read_text()
-    payload = json.dumps(data, separators=(",", ":"), default=lambda o: float(o) if isinstance(o, decimal.Decimal) else str(o))
-    payload = payload.replace("</", "<\\/")  # never let data close the <script> tag
-    html = template.replace("/*__DATA__*/null", payload)
-
     out_dir = Path(os.environ.get("WEB_DIR", Path(__file__).parent / "web"))
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "index.html").write_text(html)
-    print(f"Dashboard written: {out_dir / 'index.html'} ({len(stocks)} stocks)")
+    for key, label, page, pick in MARKETS:
+        mine = [s for s in stocks if pick(s["t"])]
+        keep = {s["t"] for s in mine}
+        data = {
+            "market": label,
+            "liveAsOf": iso(live_as_of),
+            "generated": dt.datetime.now().isoformat(timespec="minutes"),
+            "loadedAt": iso(loaded_at),
+            "lastDay": iso(last_day),
+            "tracked": len(mine),
+            "new7": sum(1 for s in mine if s["added"] and s["added"] >= str(dt.date.today() - dt.timedelta(days=7))),
+            "minLiquidity": 50000,
+            "stocks": mine,
+            "hist": {t: v for t, v in hist.items() if t in keep},
+            "intra": {t: v for t, v in intra.items() if t in keep},
+        }
+        nav = '<nav class="mkt">' + "".join(
+            f'<a href="{pg}"{" class=on" if k == key else ""}>{lb}</a>' for k, lb, pg, _ in MARKETS) + "</nav>"
+        payload = json.dumps(data, separators=(",", ":"), default=lambda o: float(o) if isinstance(o, decimal.Decimal) else str(o))
+        payload = payload.replace("</", "<\\/")  # never let data close the <script> tag
+        html = template.replace("/*__DATA__*/null", payload).replace("<!--NAV-->", nav)
+        (out_dir / page).write_text(html)
+        print(f"Dashboard written: {out_dir / page} ({len(mine)} {label} stocks)")
     return 0
 
 

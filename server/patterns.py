@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Pattern study over the research universe (every TSX Venture listing, up to
+Pattern study over the research universe (every TSX Venture or TSX listing, up to
 10 years). Publishes patterns.json for the trading terminal's Track record tab.
 
 Method, so the results mean something:
@@ -11,7 +11,8 @@ Method, so the results mean something:
   - only stocks that were tradable at the time: price C$0.05+ and 20,000+
     shares a day on average (judged on that day, not today)
 
-    python3 patterns.py              # writes patterns.json to stocks-feed
+    python3 patterns.py              # TSX Venture: writes patterns.json to stocks-feed
+    python3 patterns.py --market tsx # TSX: writes patterns_tsx.json
     python3 patterns.py --no-push
 """
 import argparse
@@ -44,7 +45,8 @@ SECTORS = {
 }
 
 
-def load(conn, years):
+def load(conn, years, market="tsxv"):
+    import benchmarks
     since = dt.date.today() - dt.timedelta(days=int(years * 365.25) + 400)
     with conn.cursor() as cur:
         cur.execute("SELECT to_regclass('universe') IS NOT NULL")
@@ -52,7 +54,7 @@ def load(conn, years):
         src = ("SELECT ticker, name FROM universe UNION SELECT ticker, name FROM watchlist" if has_u
                else "SELECT ticker, name FROM watchlist")
         cur.execute(f"SELECT ticker, MAX(name) FROM ({src}) u GROUP BY ticker")
-        names = dict(cur.fetchall())
+        names = {t: n for t, n in cur.fetchall() if benchmarks.in_market(t, market)}
         cur.execute("""SELECT d.ticker, d.trade_date, d.open, d.close, d.volume FROM daily_prices d
                        WHERE d.ticker = ANY(%s) AND d.trade_date >= %s""", (list(names), since))
         rows = cur.fetchall()
@@ -67,15 +69,16 @@ def load(conn, years):
     return O, C, V, names
 
 
-def index_series(conn, years):
+def index_series(conn, years, sym=None):
     import benchmarks
     import load_history
+    sym = sym or benchmarks.MAIN
     with conn.cursor() as cur:
-        cur.execute("SELECT MIN(trade_date) FROM daily_prices WHERE ticker = %s", (benchmarks.MAIN,))
+        cur.execute("SELECT MIN(trade_date) FROM daily_prices WHERE ticker = %s", (sym,))
         first = cur.fetchone()[0]
     if first is None or first > dt.date.today() - dt.timedelta(days=int(years * 365)):
-        load_history.load(conn, benchmarks.MAIN, benchmarks.BENCHMARKS[benchmarks.MAIN], "max")
-    s = benchmarks.history(conn, days=int(years * 365.25) + 400).get(benchmarks.MAIN, [])
+        load_history.load(conn, sym, benchmarks.BENCHMARKS[sym], "max")
+    s = benchmarks.history(conn, days=int(years * 365.25) + 400).get(sym, [])
     return pd.Series([c for _, c in s], index=pd.to_datetime([d for d, _ in s]))
 
 
@@ -108,12 +111,15 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--years", type=int, default=10)
     ap.add_argument("--no-push", action="store_true")
+    ap.add_argument("--market", choices=["tsxv", "tsx"], default="tsxv")
     args = ap.parse_args()
+    import benchmarks
+    M = benchmarks.MARKETS[args.market]
 
     conn = psycopg2.connect()
     try:
-        O, C, V, names = load(conn, args.years)
-        ix = index_series(conn, args.years)
+        O, C, V, names = load(conn, args.years, args.market)
+        ix = index_series(conn, args.years, M["index"])
     finally:
         conn.close()
 
@@ -227,7 +233,7 @@ def main() -> int:
         rrows.append([lab, int(len(x)), pct(x.mean()), round(float((x > 0).mean()) * 100) if len(x) else None])
     findings.append({
         "key": "regime", "title": "Does the market's trend matter?",
-        "question": "Average 20-day return of a tradable Venture stock, depending on whether the Venture index was in an uptrend.",
+        "question": f"Average 20-day return of a tradable {M['label']} stock, depending on whether the {M['label']} index was in an uptrend.",
         "columns": [{"label": "Market condition"}, {"label": "Days", "fmt": "int"},
                     {"label": "Avg stock, next 20 days", "fmt": "pct"}, {"label": "% of days positive"}],
         "rows": rrows, "note": "Bought at the next open, before costs."})
@@ -249,9 +255,9 @@ def main() -> int:
                       pct(y.mean()) if len(y) else None])
     findings.append({
         "key": "months", "title": "Best and worst months",
-        "question": "Typical (median) Venture stock's return in each calendar month, averaged over the years.",
+        "question": f"Typical (median) {M['label']} stock's return in each calendar month, averaged over the years.",
         "columns": [{"label": "Month"}, {"label": "Median stock", "fmt": "pct"}, {"label": "Years positive"},
-                    {"label": "Venture index", "fmt": "pct"}],
+                    {"label": f"{M['label']} index", "fmt": "pct"}],
         "rows": mrows, "note": "Few years per month, so only strong, repeated effects mean much (e.g. December tax-loss selling)."})
 
     dow = ret.where(elig).mean(axis=1)
@@ -298,13 +304,14 @@ def main() -> int:
     stopped = int((in_period.notna().any() & in_period.iloc[-20:].isna().all()).sum())
     out = {
         "generated": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
+        "market_key": args.market, "market_label": M["label"], "index_name": benchmarks.BENCHMARKS[M["index"]],
         "from": str(in_period.index[0].date()), "until": str(last.date()), "years": years,
         "stocks": int(in_period.notna().any().sum()), "stopped_trading": stopped,
         "rules": f"Tradable at the time: price C${MIN_PRICE:.2f}+ and {MIN_VOL:,}+ shares a day. Costs: one price step + {FEE:.1%}.",
         "findings": findings,
     }
 
-    print(f"Patterns {out['from']} to {out['until']}: {out['stocks']} stocks ({stopped} no longer trading)")
+    print(f"Patterns, {M['label']}: {out['from']} to {out['until']}: {out['stocks']} stocks ({stopped} no longer trading)")
     for f in findings:
         print(f"\n{f['title']}")
         for r in f["rows"]:
@@ -315,15 +322,15 @@ def main() -> int:
     import export_feed
     feed = export_feed.FEED_DIR
     export_feed.git("pull", "--rebase", "--quiet")
-    (feed / "patterns.json").write_text(json.dumps(out, separators=(",", ":"), default=str))
-    export_feed.git("add", "patterns.json")
+    (feed / f"patterns{M['file']}.json").write_text(json.dumps(out, separators=(",", ":"), default=str))
+    export_feed.git("add", f"patterns{M['file']}.json")
     if export_feed.git("diff", "--cached", "--quiet").returncode != 0:
         export_feed.git("commit", "-q", "-m", "patterns " + out["generated"])
         r = export_feed.git("push", "-q")
         if r.returncode != 0:
             print("Push failed:\n" + r.stderr, file=sys.stderr)
             return 1
-    print("\npatterns.json pushed to stocks-feed.")
+    print(f"\npatterns{M['file']}.json pushed to stocks-feed.")
     return 0
 
 

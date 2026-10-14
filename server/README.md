@@ -1,5 +1,7 @@
 # Server scripts
 
+Covers two markets kept side by side: the **TSX Venture** (tickers ending `.V`) and the **TSX** (`.TO`). Same rules for both; the webpage has a tab for each (index.html and tsx.html), and the research files come in pairs (`patterns.json` / `patterns_tsx.json`, `signal_lab.json` / `signal_lab_tsx.json`).
+
 The scripts your home stock server runs. To install the latest version, run on the server:
 
     stocks-update

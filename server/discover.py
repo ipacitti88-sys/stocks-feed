@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Discover TSX Venture stocks and add them to the watchlist.
+Discover TSX Venture and TSX stocks and add them to the watchlist.
 
 Asks Yahoo's screener for every TSXV stock that is:
   - priced between MIN_PRICE and MAX_PRICE
@@ -12,6 +12,7 @@ year of price history loaded, so the daily screen can rate them right away.
     python3 discover.py --dry-run  # just show what would be added
 """
 import argparse
+import re
 import sys
 import time
 
@@ -25,14 +26,26 @@ MAX_PRICE = 5.00
 MIN_AVG_VOLUME = 50_000  # shares/day, so you can get in and out
 
 
-def scan() -> list[dict]:
+EXCHANGES = {"VAN": ("TSX Venture", "tsxv-scan"), "TOR": ("TSX", "tsx-scan")}
+# not ordinary shares: preferreds, debentures, warrants, rights, notes, subscription receipts
+NOT_COMMON = re.compile(r"-(P[A-Z0-9]*|PR[A-Z0-9-]*|DB[A-Z0-9]*|WT[A-Z0-9]*|R|RT|NT[A-Z0-9]*|IR|SR)\.(TO|V)$")
+
+
+def is_common(q) -> bool:
+    sym = q.get("symbol") or ""
+    if q.get("quoteType") not in (None, "EQUITY"):
+        return False
+    return not NOT_COMMON.search(sym)
+
+
+def scan(exchange="VAN") -> list[dict]:
     try:
         from yfinance import EquityQuery
     except ImportError:
         sys.exit("This yfinance is too old for the screener. Run: ./venv/bin/pip install -U yfinance")
 
     q = EquityQuery("and", [
-        EquityQuery("eq", ["exchange", "VAN"]),          # VAN = TSX Venture on Yahoo
+        EquityQuery("eq", ["exchange", exchange]),       # VAN = TSX Venture, TOR = TSX
         EquityQuery("gt", ["intradayprice", MIN_PRICE]),
         EquityQuery("lt", ["intradayprice", MAX_PRICE]),
         EquityQuery("gt", ["avgdailyvol3m", MIN_AVG_VOLUME]),
@@ -48,7 +61,7 @@ def scan() -> list[dict]:
         if not quotes or offset >= total:
             break
         time.sleep(1)  # be polite to Yahoo between pages
-    return found
+    return [q for q in found if is_common(q)]
 
 
 def main() -> int:
@@ -56,9 +69,19 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    quotes = scan()
-    print(f"Yahoo returned {len(quotes)} TSXV stocks between ${MIN_PRICE} and ${MAX_PRICE} "
-          f"with {MIN_AVG_VOLUME:,}+ avg daily volume")
+    quotes = []
+    for code, (label, source) in EXCHANGES.items():
+        try:
+            found = scan(code)
+        except Exception as e:  # one exchange failing shouldn't stop the other
+            print(f"{label} scan failed: {e}", file=sys.stderr)
+            continue
+        for q in found:
+            q["_source"] = source
+        quotes += found
+        print(f"Yahoo returned {len(found)} {label} stocks between ${MIN_PRICE} and ${MAX_PRICE} "
+              f"with {MIN_AVG_VOLUME:,}+ avg daily volume")
+        time.sleep(1)
 
     conn = psycopg2.connect()
     try:
@@ -80,9 +103,9 @@ def main() -> int:
             name = q.get("shortName") or q.get("longName") or ticker
             with conn, conn.cursor() as cur:
                 cur.execute(
-                    "INSERT INTO watchlist (ticker, name, source) VALUES (%s, %s, 'tsxv-scan') "
+                    "INSERT INTO watchlist (ticker, name, source) VALUES (%s, %s, %s) "
                     "ON CONFLICT (ticker) DO NOTHING",
-                    (ticker, name),
+                    (ticker, name, q["_source"]),
                 )
             load_history.load(conn, ticker, name, "1y")
             time.sleep(0.5)

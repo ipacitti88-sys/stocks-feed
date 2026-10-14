@@ -49,6 +49,10 @@ body {
   font-variant-numeric: tabular-nums;
 }
 .wrap { max-width: 1280px; margin: 0 auto; padding: 20px 16px 40px; }
+.mkt { display: flex; gap: 6px; margin: -4px 0 16px; }
+.mkt a { padding: 7px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2); text-decoration: none; font-size: 14px; font-weight: 600; }
+.mkt a.on { background: var(--text); color: var(--bg); border-color: var(--text); }
+#mktname { color: var(--text-3); font-weight: 500; }
 header { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; justify-content: space-between; margin-bottom: 16px; }
 h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
 .sub { color: var(--text-3); font-size: 12px; }
@@ -138,7 +142,7 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
 <div class="wrap">
   <header>
     <div>
-      <h1>Stock Scanner</h1>
+      <h1>Stock Scanner<span id="mktname"></span></h1>
       <div class="sub" id="gen"></div>
     </div>
     <div style="display:flex;gap:8px;align-items:center">
@@ -147,11 +151,12 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
       <button class="theme-btn" id="theme" type="button">Theme</button>
     </div>
   </header>
+  <!--NAV-->
 
   <div class="kpis">
     <div class="kpi"><div class="label">Rising now</div><div class="value" id="k-rise">–</div><div class="note" id="k-rise-note">market closed</div></div>
     <div class="kpi"><div class="label">Stocks tracked</div><div class="value" id="k-tracked"></div><div class="note">active watchlist</div></div>
-    <div class="kpi"><div class="label">Added this week</div><div class="value" id="k-new"></div><div class="note">from the TSXV scan</div></div>
+    <div class="kpi"><div class="label">Added this week</div><div class="value" id="k-new"></div><div class="note">from the daily scan</div></div>
     <div class="kpi"><div class="label">Flagged today</div><div class="value" id="k-flag"></div><div class="note">2+ signals, liquid</div></div>
     <div class="kpi"><div class="label">Data as of</div><div class="value" id="k-day" style="font-size:20px;margin-top:6px"></div><div class="note" id="k-loaded"></div></div>
   </div>
@@ -245,6 +250,7 @@ const isNew = (s) => s.added && s.added >= weekAgo;
 function renderHeader() {
   $('gen').textContent = 'Updated ' + new Date(DATA.generated).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
   $('k-tracked').textContent = DATA.tracked;
+  if (DATA.market) { $('mktname').textContent = ' · ' + DATA.market; document.title = 'Stock Scanner · ' + DATA.market; }
   $('k-new').textContent = DATA.new7;
   $('k-flag').textContent = DATA.stocks.filter(isFlagged).length;
   $('k-day').textContent = DATA.lastDay ? new Date(DATA.lastDay + 'T12:00:00').toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' }) : '–';

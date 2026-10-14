@@ -10,8 +10,10 @@ flock -n 9 || { echo "Research run already in progress."; exit 0; }
   echo "=== $(date) research run started ==="
   ./venv/bin/python universe.py --backfill
   echo
-  ./venv/bin/python patterns.py
+  ./venv/bin/python patterns.py --market tsxv
+  ./venv/bin/python patterns.py --market tsx
   echo
-  ./venv/bin/python signal_lab.py
+  ./venv/bin/python signal_lab.py --market tsxv
+  ./venv/bin/python signal_lab.py --market tsx
   echo "=== $(date) research run finished ==="
 } >> logs/research.log 2>&1

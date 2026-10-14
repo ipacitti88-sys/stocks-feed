@@ -15,7 +15,8 @@ For every signal:
 The Rising signal is replayed from saved 5-minute bars (bars_5m) once there
 are enough days of them; see intraday_archive.py.
 
-    python3 signal_lab.py              # past year, writes signal_lab.json to stocks-feed
+    python3 signal_lab.py               # TSX Venture: writes signal_lab.json to stocks-feed
+    python3 signal_lab.py --market tsx  # TSX: writes signal_lab_tsx.json
     python3 signal_lab.py --no-push    # just print
 """
 import argparse
@@ -261,7 +262,7 @@ def verdict(rows):
 
 # ---------- Rising, replayed from saved 5-minute bars ----------
 
-def run_rising(conn, daily):
+def run_rising(conn, daily, keep=lambda t: True):
     with conn.cursor() as cur:
         cur.execute("SELECT to_regclass('bars_5m')")
         if cur.fetchone()[0] is None:
@@ -271,6 +272,7 @@ def run_rising(conn, daily):
     if not rows:
         return {"status": "No 5-minute history saved yet."}
     b = pd.DataFrame(rows, columns=["ticker", "ts", "open", "close", "volume"])
+    b = b[b["ticker"].map(keep)]
     b["ts"] = pd.to_datetime(b["ts"], utc=True).dt.tz_convert(ET)
     b["date"] = b["ts"].dt.date
     b["mins"] = (b["ts"].dt.hour * 60 + b["ts"].dt.minute) - (9 * 60 + 30)
@@ -339,8 +341,11 @@ def main() -> int:
     ap.add_argument("--days", type=int, default=None,
                     help="how far back to test (default: 10 years with the research universe, else 1 year)")
     ap.add_argument("--no-push", action="store_true")
+    ap.add_argument("--market", choices=["tsxv", "tsx"], default="tsxv")
     args = ap.parse_args()
     until = dt.date.today()
+    import benchmarks
+    M = benchmarks.MARKETS[args.market]
 
     conn = psycopg2.connect()
     try:
@@ -348,22 +353,23 @@ def main() -> int:
         if args.days is None:
             args.days = 3652 if universe else 365
         start = until - dt.timedelta(days=args.days)
-        df = add_indicators(load_daily(conn, start - dt.timedelta(days=150), universe))
+        raw = load_daily(conn, start - dt.timedelta(days=150), universe)
+        raw = raw[raw["ticker"].map(lambda t: benchmarks.in_market(t, args.market))].reset_index(drop=True)
+        df = add_indicators(raw)
         results, base, mid, latest, today = run_daily(df, start, until)
         bands = []
         for key, label, lo, hi in BANDS:
             r, b = (results, base) if key == "all" else run_daily(df, start, until, lo, hi)[:2]
             bands.append({"key": key, "label": label, "signals": r, "baseline": b})
-        rising = run_rising(conn, df)
+        rising = run_rising(conn, df, lambda t: benchmarks.in_market(t, args.market))
         market = None
         try:
-            import benchmarks
-            ser = benchmarks.history(conn, days=args.days + 30).get(benchmarks.MAIN, [])
+            ser = benchmarks.history(conn, days=args.days + 30).get(M["index"], [])
             def chg(a, b):
                 x = [c for d, c in ser if d < a]
                 y = [c for d, c in ser if d < b]
                 return round((y[-1] / x[-1] - 1) * 100, 1) if x and y else None
-            market = {"name": benchmarks.BENCHMARKS[benchmarks.MAIN], "full": chg(start, until),
+            market = {"name": benchmarks.BENCHMARKS[M["index"]], "full": chg(start, until),
                       "h1": chg(start, mid), "h2": chg(mid, until)}
         except Exception as e:
             print(f"market comparison skipped: {e}", file=sys.stderr)
@@ -373,8 +379,9 @@ def main() -> int:
     out = {
         "generated": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
         "from": start.isoformat(), "until": until.isoformat(), "split": mid.isoformat(),
-        "universe": ("every TSX Venture listing (incl. ones that later stopped trading)" if universe
-                     else "stocks on your watchlist today"),
+        "market_key": args.market, "market_label": M["label"],
+        "universe": (f"every {M['label']} listing (incl. ones that later stopped trading)" if universe
+                     else f"{M['label']} stocks on your watchlist today"),
         "stocks": int(df["ticker"].nunique()),
         "latest_day": latest.isoformat() if latest is not None else None,
         "method": ("Buy at the next day's open; costs = one price step of spread + 0.5%. "
@@ -383,7 +390,7 @@ def main() -> int:
         "baseline": base, "signals": results, "bands": bands, "market": market, "rising": rising, "today": today,
     }
 
-    print(f"Signal lab {start} to {until} (halves split {mid})")
+    print(f"Signal lab, {M['label']}: {start} to {until} (halves split {mid})")
     if market and market["full"] is not None:
         print(f" Market: {market['name']} {market['full']:+.1f}% over the period "
               f"(half 1 {market['h1']:+.1f}%, half 2 {market['h2']:+.1f}%)")
@@ -411,15 +418,15 @@ def main() -> int:
         print("No stocks-feed repo; wrote nothing.", file=sys.stderr)
         return 1
     export_feed.git("pull", "--rebase", "--quiet")
-    (feed / "signal_lab.json").write_text(json.dumps(out, separators=(",", ":"), default=str))
-    export_feed.git("add", "signal_lab.json")
+    (feed / f"signal_lab{M['file']}.json").write_text(json.dumps(out, separators=(",", ":"), default=str))
+    export_feed.git("add", f"signal_lab{M['file']}.json")
     if export_feed.git("diff", "--cached", "--quiet").returncode != 0:
         export_feed.git("commit", "-q", "-m", "signal lab " + out["generated"])
         r = export_feed.git("push", "-q")
         if r.returncode != 0:
             print("Push failed:\n" + r.stderr, file=sys.stderr)
             return 1
-    print("signal_lab.json pushed to stocks-feed.")
+    print(f"signal_lab{M['file']}.json pushed to stocks-feed.")
     return 0
 
 

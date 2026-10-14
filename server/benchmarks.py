@@ -18,6 +18,16 @@ BENCHMARKS = {
 }
 MAIN = "^SPCDNX"
 
+# the two markets, kept separate in every report: same rules, own index, own files
+MARKETS = {
+    "tsxv": {"label": "TSX Venture", "index": "^SPCDNX", "file": ""},
+    "tsx": {"label": "TSX", "index": "^GSPTSE", "file": "_tsx"},
+}
+
+
+def in_market(ticker: str, market: str) -> bool:
+    return ticker.endswith(".TO") == (market == "tsx")
+
 
 def update(conn, period="5d"):
     import load_history
