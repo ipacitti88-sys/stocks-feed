@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T13:01-06:00",
+ "generated": "2026-10-14T13:31-06:00",
  "last_close_day": "2026-10-13",
  "tracked": 446,
  "flagged": [
@@ -426,8 +426,30 @@
    "added": "2026-10-13"
   }
  ],
- "live_as_of": "2026-10-14T19:05:00+00:00",
+ "live_as_of": "2026-10-14T19:35:00+00:00",
  "rising": [
+  {
+   "ticker": "LXM.V",
+   "name": "LUX METALS CORP",
+   "as_of": "2026-10-14T19:30:00+00:00",
+   "last": 0.225,
+   "pct_day": 18.42,
+   "pct_30m": 2.27,
+   "volume_pace": 31.34,
+   "rising": true,
+   "rising_since": "2026-10-14T19:30:00+00:00"
+  },
+  {
+   "ticker": "MLP.V",
+   "name": "MILLENNIAL POTASH CORP",
+   "as_of": "2026-10-14T19:35:00+00:00",
+   "last": 2.19,
+   "pct_day": 15.26,
+   "pct_30m": 0.92,
+   "volume_pace": 11.74,
+   "rising": true,
+   "rising_since": "2026-10-14T19:35:00+00:00"
+  },
   {
    "ticker": "HEVI.V",
    "name": "HELIUM EVOLUTION INCORPORATED",
@@ -438,39 +460,6 @@
    "volume_pace": 4.63,
    "rising": true,
    "rising_since": "2026-10-14T18:50:00+00:00"
-  },
-  {
-   "ticker": "RDU.V",
-   "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-14T18:50:00+00:00",
-   "last": 0.23,
-   "pct_day": 6.98,
-   "pct_30m": 2.22,
-   "volume_pace": 1.93,
-   "rising": true,
-   "rising_since": "2026-10-14T18:50:00+00:00"
-  },
-  {
-   "ticker": "LIB.V",
-   "name": "LIBERTYSTREAM INFRASTRUCTURE PA",
-   "as_of": "2026-10-14T18:55:00+00:00",
-   "last": 0.79,
-   "pct_day": 5.33,
-   "pct_30m": 2.6,
-   "volume_pace": 4.91,
-   "rising": true,
-   "rising_since": "2026-10-14T18:55:00+00:00"
-  },
-  {
-   "ticker": "UTWO.V",
-   "name": "U92 ENERGY CORP",
-   "as_of": "2026-10-14T19:00:00+00:00",
-   "last": 0.3,
-   "pct_day": 5.26,
-   "pct_30m": 5.26,
-   "volume_pace": 4.8,
-   "rising": true,
-   "rising_since": "2026-10-14T19:00:00+00:00"
   },
   {
    "ticker": "BPAG.V",
@@ -488,24 +477,35 @@
   {
    "ticker": "WGT.V",
    "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-14T18:05:00+00:00",
+   "as_of": "2026-10-14T19:10:00+00:00",
    "last": 0.235,
    "pct_day": 23.68,
    "pct_30m": 0.0,
-   "volume_pace": 2.96,
+   "volume_pace": 2.4,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LXM.V",
    "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T19:00:00+00:00",
-   "last": 0.22,
-   "pct_day": 15.79,
-   "pct_30m": 0.0,
-   "volume_pace": 33.25,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-14T19:30:00+00:00",
+   "last": 0.225,
+   "pct_day": 18.42,
+   "pct_30m": 2.27,
+   "volume_pace": 31.34,
+   "rising": true,
+   "rising_since": "2026-10-14T19:30:00+00:00"
+  },
+  {
+   "ticker": "MLP.V",
+   "name": "MILLENNIAL POTASH CORP",
+   "as_of": "2026-10-14T19:35:00+00:00",
+   "last": 2.19,
+   "pct_day": 15.26,
+   "pct_30m": 0.92,
+   "volume_pace": 11.74,
+   "rising": true,
+   "rising_since": "2026-10-14T19:35:00+00:00"
   },
   {
    "ticker": "HEVI.V",
@@ -519,35 +519,13 @@
    "rising_since": "2026-10-14T18:50:00+00:00"
   },
   {
-   "ticker": "MLP.V",
-   "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T19:00:00+00:00",
-   "last": 2.16,
-   "pct_day": 13.68,
-   "pct_30m": -0.46,
-   "volume_pace": 9.59,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "NSU.V",
    "name": "NORTH SHORE URANIUM LTD",
    "as_of": "2026-10-14T19:00:00+00:00",
    "last": 0.15,
    "pct_day": 11.11,
    "pct_30m": 7.14,
-   "volume_pace": 1.03,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HART.V",
-   "name": "GOLD HART COPPER CORP",
-   "as_of": "2026-10-14T17:50:00+00:00",
-   "last": 0.21,
-   "pct_day": 10.53,
-   "pct_30m": 16.67,
-   "volume_pace": 0.6,
+   "volume_pace": 1.07,
    "rising": false,
    "rising_since": null
   },
@@ -580,20 +558,31 @@
    "last": 0.15,
    "pct_day": 7.14,
    "pct_30m": -3.23,
-   "volume_pace": 3.0,
+   "volume_pace": 3.08,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "RDU.V",
-   "name": "RADIUS GOLD INC.",
+   "ticker": "TLT.V",
+   "name": "THERALASE TECHNOLOGIES INC.",
    "as_of": "2026-10-14T18:50:00+00:00",
-   "last": 0.23,
-   "pct_day": 6.98,
-   "pct_30m": 2.22,
-   "volume_pace": 1.93,
-   "rising": true,
-   "rising_since": "2026-10-14T18:50:00+00:00"
+   "last": 0.19,
+   "pct_day": 5.56,
+   "pct_30m": 0.0,
+   "volume_pace": 0.37,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LIB.V",
+   "name": "LIBERTYSTREAM INFRASTRUCTURE PA",
+   "as_of": "2026-10-14T19:30:00+00:00",
+   "last": 0.79,
+   "pct_day": 5.33,
+   "pct_30m": 0.0,
+   "volume_pace": 4.5,
+   "rising": false,
+   "rising_since": null
   }
  ],
  "benchmarks": {
@@ -1189,9 +1178,9 @@
     860.93
    ],
    "live": {
-    "as_of": "2026-10-14T19:05:00+00:00",
-    "last": 828.15,
-    "pct_day": -3.81
+    "as_of": "2026-10-14T19:35:00+00:00",
+    "last": 831.49,
+    "pct_day": -3.42
    }
   },
   "^GSPTSE": {
@@ -1786,8 +1775,8 @@
     35983.98
    ],
    "live": {
-    "as_of": "2026-10-14T19:05:00+00:00",
-    "last": 35518.83,
+    "as_of": "2026-10-14T19:35:00+00:00",
+    "last": 35520.54,
     "pct_day": -1.29
    }
   }
