@@ -1,30 +1,25 @@
-# Stock feed — 2026-10-14T14:01-06:00
+# Stock feed — 2026-10-14T15:22-06:00
 
-Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 451 stocks. Last full trading day: 2026-10-14. Intraday data as of: 2026-10-14T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.4% at 20:00
-Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.1% at 20:00
+Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%)
+Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%)
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- RAK.V (RACKLA METALS INC): 2/3, close 0.295, rel vol 7.26x, 20d +15.7%, -14.5% vs 52w high
-- LVG.V (LAKE VICTORIA GOLD LTD): 2/3, close 0.335, rel vol 6.26x, 20d +9.8%, -9.5% vs 52w high
-- ONYX.V (ONYX GOLD CORP): 2/3, close 1.63, rel vol 5.72x, 20d -4.1%, -16.4% vs 52w high
-- CDPR.V (CERRO DE PASCO RESOURCES INC): 2/3, close 0.76, rel vol 4.18x, 20d +4.1%, -13.6% vs 52w high
-- AFM.V (ALPHAMIN RESOURCES CORP.): 2/3, close 1.47, rel vol 3.46x, 20d +5.8%, -11.4% vs 52w high
-- FYL.V (FINLAY MINERALS LTD.): 2/3, close 0.13, rel vol 3.42x, 20d +18.2%, -7.1% vs 52w high
-- SGC.V (SOLSTICE GOLD CORP): 2/3, close 0.135, rel vol 3.13x, 20d +35.0%, -6.9% vs 52w high
-- ALTA.V (ALTAMIRA GOLD CORP): 2/3, close 0.26, rel vol 3.05x, 20d +4.0%, -21.2% vs 52w high
-- PCU.V (PECOY COPPER CORP): 2/3, close 1.9, rel vol 2.83x, 20d +21.0%, -15.2% vs 52w high
-- CEC.V (CANASIA ENERGY CORP): 2/3, close 0.385, rel vol 2.7x, 20d +4.1%, -8.3% vs 52w high
-- DEC.V (DECADE RESOURCES LTD.): 2/3, close 0.17, rel vol 2.29x, 20d +30.8%, -15.0% vs 52w high
-- TIG.V (TRIUMPH GOLD CORP): 2/3, close 0.76, rel vol 2.23x, 20d +7.0%, -15.6% vs 52w high
-- MTT.V (MAGNA TERRA MINERALS INC): 2/3, close 0.26, rel vol 2.15x, 20d +0.0%, -13.3% vs 52w high
-- HI.V (HIGHLAND COPPER COMPANY INC): 2/3, close 0.165, rel vol 2.13x, 20d -5.7%, -17.5% vs 52w high
-- CH.V (CHARBONE CORPORATION): 2/3, close 0.14, rel vol 2.06x, 20d -3.4%, -61.1% vs 52w high
-- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.25, rel vol 1.56x, 20d +5.0%, +0.0% vs 52w high
-- AUGC.V (AU GOLD CORP): 2/3, close 0.34, rel vol 0.53x, 20d +78.9%, +0.0% vs 52w high
-- GGO.V (GALLEON GOLD CORP): 2/3, close 1.39, rel vol 0.44x, 20d +24.1%, +0.0% vs 52w high
+- LXM.V (LUX METALS CORP): 2/3, close 0.215, rel vol 40.72x, 20d +13.2%, -28.3% vs 52w high
+- AZT.V (AZTEC MINERALS CORP): 2/3, close 0.35, rel vol 7.55x, 20d +2.9%, -17.6% vs 52w high
+- PCU.V (PECOY COPPER CORP): 2/3, close 1.93, rel vol 4.77x, 20d +23.7%, -13.8% vs 52w high
+- FYL.V (FINLAY MINERALS LTD.): 2/3, close 0.125, rel vol 3.76x, 20d +13.6%, -10.7% vs 52w high
+- CAM.V (CASCADIA MINERALS LTD): 2/3, close 0.45, rel vol 3.01x, 20d -3.2%, -18.2% vs 52w high
+- RDU.V (RADIUS GOLD INC.): 2/3, close 0.225, rel vol 2.77x, 20d +32.4%, -2.2% vs 52w high
+- TSG.V (TRISTAR GOLD INC.): 2/3, close 0.23, rel vol 2.59x, 20d +9.5%, -32.4% vs 52w high
+- NOW.V (NOWVERTICAL GROUP INC): 2/3, close 0.155, rel vol 2.58x, 20d +24.0%, -54.4% vs 52w high
+- SGC.V (SOLSTICE GOLD CORP): 2/3, close 0.13, rel vol 2.57x, 20d +30.0%, -10.3% vs 52w high
+- PESO.V (PESORAMA INC): 2/3, close 0.575, rel vol 2.12x, 20d +12.7%, -24.3% vs 52w high
+- HPL.V (HORIZON PETROLEUM LTD): 2/3, close 0.32, rel vol 2.1x, 20d +0.0%, -12.3% vs 52w high
+- GRDM.V (GRID METALS CORP): 2/3, close 0.22, rel vol 1.18x, 20d +51.7%, +0.0% vs 52w high
+- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.26, rel vol 0.51x, 20d +5.0%, +0.0% vs 52w high
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -33,16 +28,16 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Top 10 by relative volume at last close
 
-- ROOF.V (NORTHSTAR CLEAN TECHNOLOGIES IN): rel vol 8.69x, close 0.15, 20d -3.2%
-- RAK.V (RACKLA METALS INC): rel vol 7.26x, close 0.295, 20d +15.7%
-- AZM.V (Azimut Exploration Inc.): rel vol 7.04x, close 0.54, 20d -18.2%
-- LVG.V (LAKE VICTORIA GOLD LTD): rel vol 6.26x, close 0.335, 20d +9.8%
-- ONYX.V (ONYX GOLD CORP): rel vol 5.72x, close 1.63, 20d -4.1%
-- BOGO.V (BOREALIS MINING COMPANY LIMITED): rel vol 4.95x, close 0.94, 20d -6.9%
-- LIB.V (LIBERTYSTREAM INFRASTRUCTURE PA): rel vol 4.54x, close 0.75, 20d -18.5%
-- NCI.V (NTG Clarity Networks Inc.): rel vol 4.43x, close 0.42, 20d +10.5%
-- RML.V (RUSORO MINING LTD): rel vol 4.25x, close 1.11, 20d -5.1%
-- ELBM.V (ELECTRA BATTERY MATERIALS CORP): rel vol 4.2x, close 0.69, 20d -4.2%
+- LXM.V (LUX METALS CORP): rel vol 40.72x, close 0.215, 20d +13.2%
+- DYG.V (DYNASTY GOLD CORP.): rel vol 9.16x, close 0.105, 20d -30.0%
+- GPS.V (GREAT PLAINS METALS CORP): rel vol 9.14x, close 0.125, 20d +0.0%
+- FMAN.V (FREEMAN GOLD CORP): rel vol 8.02x, close 0.27, 20d -34.1%
+- AZT.V (AZTEC MINERALS CORP): rel vol 7.55x, close 0.35, 20d +2.9%
+- THX.V (THOR EXPLORATIONS LTD.): rel vol 5.94x, close 0.99, 20d -22.0%
+- MOGL.V (MOGUL MOUNTAIN VENTURES CORPORA): rel vol 5.73x, close 0.23, 20d -14.8%
+- UTWO.V (U92 ENERGY CORP): rel vol 5.55x, close 0.295, 20d -22.4%
+- AZM.V (Azimut Exploration Inc.): rel vol 5.23x, close 0.49, 20d -24.6%
+- GSPR.V (GSP RESOURCE CORP): rel vol 5.23x, close 0.09, 20d -21.7%
 
 ## Top 10 gainers in latest intraday pass
 
