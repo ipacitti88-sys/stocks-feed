@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-14T10:01-06:00
+# Stock feed — 2026-10-14T10:31-06:00
 
-Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.0% at 16:05
-Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.1% at 16:05
+Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.1% at 16:35
+Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.3% at 16:35
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -28,12 +28,11 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- LXM.V (LUX METALS CORP): +23.7% today at 0.235, last 30m +4.4%, volume pace 60.35x, rising since 2026-10-14T16:00:00+00:00
-- MLP.V (MILLENNIAL POTASH CORP): +14.7% today at 2.18, last 30m +0.5%, volume pace 13.2x, rising since 2026-10-14T16:05:00+00:00
-- WGT.V (WESTGATE ENERGY INC): +7.9% today at 0.205, last 30m +2.5%, volume pace 3.3x, rising since 2026-10-14T15:25:00+00:00
-- KRI.V (KOBO RESOURCES INC): +5.0% today at 0.21, last 30m +5.0%, volume pace 2.49x, rising since 2026-10-14T15:30:00+00:00
+- LXM.V (LUX METALS CORP): +23.7% today at 0.235, last 30m +4.4%, volume pace 57.94x, rising since 2026-10-14T16:00:00+00:00
+- MLP.V (MILLENNIAL POTASH CORP): +14.7% today at 2.18, last 30m +0.5%, volume pace 11.57x, rising since 2026-10-14T16:05:00+00:00
+- WGT.V (WESTGATE ENERGY INC): +7.9% today at 0.205, last 30m +2.5%, volume pace 3.52x, rising since 2026-10-14T15:25:00+00:00
+- PCU.V (PECOY COPPER CORP): +5.3% today at 2.0, last 30m +2.0%, volume pace 5.67x, rising since 2026-10-14T15:55:00+00:00
 - YARR.V (PIRATE GOLD CORP): +3.3% today at 0.155, last 30m +3.3%, volume pace 1.84x, rising since 2026-10-14T15:00:00+00:00
-- PCU.V (PECOY COPPER CORP): +3.2% today at 1.96, last 30m +2.6%, volume pace 6.84x, rising since 2026-10-14T15:55:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -50,13 +49,13 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Top 10 gainers in latest intraday pass
 
-- LXM.V (LUX METALS CORP): +23.7% at 0.235, volume pace 60.35x
-- MLP.V (MILLENNIAL POTASH CORP): +14.7% at 2.18, volume pace 13.2x
-- NOW.V (NOWVERTICAL GROUP INC): +10.7% at 0.155, volume pace 2.04x
-- WGT.V (WESTGATE ENERGY INC): +7.9% at 0.205, volume pace 3.3x
-- V.V (VERDERA ENERGY CORP): +7.8% at 0.275, volume pace 1.43x
-- RDU.V (RADIUS GOLD INC.): +7.0% at 0.23, volume pace 2.0x
+- LXM.V (LUX METALS CORP): +23.7% at 0.235, volume pace 57.94x
+- MLP.V (MILLENNIAL POTASH CORP): +14.7% at 2.18, volume pace 11.57x
+- WGT.V (WESTGATE ENERGY INC): +7.9% at 0.205, volume pace 3.52x
+- V.V (VERDERA ENERGY CORP): +7.8% at 0.275, volume pace 1.36x
+- NOW.V (NOWVERTICAL GROUP INC): +7.1% at 0.15, volume pace 6.06x
+- RDU.V (RADIUS GOLD INC.): +7.0% at 0.23, volume pace 1.72x
+- CCEC.V (CANCAMBRIA ENERGY CORP): +6.2% at 0.255, volume pace 0.92x
+- LVG.V (LAKE VICTORIA GOLD LTD): +6.0% at 0.355, volume pace 0.46x
+- PCU.V (PECOY COPPER CORP): +5.3% at 2.0, volume pace 5.67x
 - GTC.V (GETTY COPPER INC.): +5.3% at 0.8, volume pace 0.89x
-- KRI.V (KOBO RESOURCES INC): +5.0% at 0.21, volume pace 2.49x
-- NSU.V (NORTH SHORE URANIUM LTD): +3.7% at 0.14, volume pace 0.04x
-- NPTH.V (NEUPATH HEALTH INC): +3.6% at 0.58, volume pace 3.24x

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T10:01-06:00",
+ "generated": "2026-10-14T10:31-06:00",
  "last_close_day": "2026-10-13",
  "tracked": 446,
  "flagged": [
@@ -426,27 +426,27 @@
    "added": "2026-10-13"
   }
  ],
- "live_as_of": "2026-10-14T16:05:00+00:00",
+ "live_as_of": "2026-10-14T16:35:00+00:00",
  "rising": [
   {
    "ticker": "LXM.V",
    "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T16:00:00+00:00",
+   "as_of": "2026-10-14T16:10:00+00:00",
    "last": 0.235,
    "pct_day": 23.68,
    "pct_30m": 4.44,
-   "volume_pace": 60.35,
+   "volume_pace": 57.94,
    "rising": true,
    "rising_since": "2026-10-14T16:00:00+00:00"
   },
   {
    "ticker": "MLP.V",
    "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T16:05:00+00:00",
+   "as_of": "2026-10-14T16:30:00+00:00",
    "last": 2.18,
    "pct_day": 14.74,
    "pct_30m": 0.46,
-   "volume_pace": 13.2,
+   "volume_pace": 11.57,
    "rising": true,
    "rising_since": "2026-10-14T16:05:00+00:00"
   },
@@ -457,20 +457,20 @@
    "last": 0.205,
    "pct_day": 7.89,
    "pct_30m": 2.5,
-   "volume_pace": 3.3,
+   "volume_pace": 3.52,
    "rising": true,
    "rising_since": "2026-10-14T15:25:00+00:00"
   },
   {
-   "ticker": "KRI.V",
-   "name": "KOBO RESOURCES INC",
-   "as_of": "2026-10-14T15:30:00+00:00",
-   "last": 0.21,
-   "pct_day": 5.0,
-   "pct_30m": 5.0,
-   "volume_pace": 2.49,
+   "ticker": "PCU.V",
+   "name": "PECOY COPPER CORP",
+   "as_of": "2026-10-14T16:30:00+00:00",
+   "last": 2.0,
+   "pct_day": 5.26,
+   "pct_30m": 2.04,
+   "volume_pace": 5.67,
    "rising": true,
-   "rising_since": "2026-10-14T15:30:00+00:00"
+   "rising_since": "2026-10-14T15:55:00+00:00"
   },
   {
    "ticker": "YARR.V",
@@ -482,52 +482,30 @@
    "volume_pace": 1.84,
    "rising": true,
    "rising_since": "2026-10-14T15:00:00+00:00"
-  },
-  {
-   "ticker": "PCU.V",
-   "name": "PECOY COPPER CORP",
-   "as_of": "2026-10-14T15:55:00+00:00",
-   "last": 1.96,
-   "pct_day": 3.16,
-   "pct_30m": 2.62,
-   "volume_pace": 6.84,
-   "rising": true,
-   "rising_since": "2026-10-14T15:55:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "LXM.V",
    "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T16:00:00+00:00",
+   "as_of": "2026-10-14T16:10:00+00:00",
    "last": 0.235,
    "pct_day": 23.68,
    "pct_30m": 4.44,
-   "volume_pace": 60.35,
+   "volume_pace": 57.94,
    "rising": true,
    "rising_since": "2026-10-14T16:00:00+00:00"
   },
   {
    "ticker": "MLP.V",
    "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T16:05:00+00:00",
+   "as_of": "2026-10-14T16:30:00+00:00",
    "last": 2.18,
    "pct_day": 14.74,
    "pct_30m": 0.46,
-   "volume_pace": 13.2,
+   "volume_pace": 11.57,
    "rising": true,
    "rising_since": "2026-10-14T16:05:00+00:00"
-  },
-  {
-   "ticker": "NOW.V",
-   "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T15:45:00+00:00",
-   "last": 0.155,
-   "pct_day": 10.71,
-   "pct_30m": -3.12,
-   "volume_pace": 2.04,
-   "rising": false,
-   "rising_since": null
   },
   {
    "ticker": "WGT.V",
@@ -536,31 +514,75 @@
    "last": 0.205,
    "pct_day": 7.89,
    "pct_30m": 2.5,
-   "volume_pace": 3.3,
+   "volume_pace": 3.52,
    "rising": true,
    "rising_since": "2026-10-14T15:25:00+00:00"
   },
   {
    "ticker": "V.V",
    "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-14T16:00:00+00:00",
+   "as_of": "2026-10-14T16:10:00+00:00",
    "last": 0.275,
    "pct_day": 7.84,
    "pct_30m": 0.0,
-   "volume_pace": 1.43,
+   "volume_pace": 1.36,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NOW.V",
+   "name": "NOWVERTICAL GROUP INC",
+   "as_of": "2026-10-14T16:05:00+00:00",
+   "last": 0.15,
+   "pct_day": 7.14,
+   "pct_30m": -3.23,
+   "volume_pace": 6.06,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "RDU.V",
    "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-14T15:40:00+00:00",
+   "as_of": "2026-10-14T16:05:00+00:00",
    "last": 0.23,
    "pct_day": 6.98,
    "pct_30m": 0.0,
-   "volume_pace": 2.0,
+   "volume_pace": 1.72,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "CCEC.V",
+   "name": "CANCAMBRIA ENERGY CORP",
+   "as_of": "2026-10-14T16:25:00+00:00",
+   "last": 0.255,
+   "pct_day": 6.25,
+   "pct_30m": 4.08,
+   "volume_pace": 0.92,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LVG.V",
+   "name": "LAKE VICTORIA GOLD LTD",
+   "as_of": "2026-10-14T16:10:00+00:00",
+   "last": 0.355,
+   "pct_day": 5.97,
+   "pct_30m": 5.97,
+   "volume_pace": 0.46,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PCU.V",
+   "name": "PECOY COPPER CORP",
+   "as_of": "2026-10-14T16:30:00+00:00",
+   "last": 2.0,
+   "pct_day": 5.26,
+   "pct_30m": 2.04,
+   "volume_pace": 5.67,
+   "rising": true,
+   "rising_since": "2026-10-14T15:55:00+00:00"
   },
   {
    "ticker": "GTC.V",
@@ -570,39 +592,6 @@
    "pct_day": 5.26,
    "pct_30m": 0.0,
    "volume_pace": 0.89,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "KRI.V",
-   "name": "KOBO RESOURCES INC",
-   "as_of": "2026-10-14T15:30:00+00:00",
-   "last": 0.21,
-   "pct_day": 5.0,
-   "pct_30m": 5.0,
-   "volume_pace": 2.49,
-   "rising": true,
-   "rising_since": "2026-10-14T15:30:00+00:00"
-  },
-  {
-   "ticker": "NSU.V",
-   "name": "NORTH SHORE URANIUM LTD",
-   "as_of": "2026-10-14T15:40:00+00:00",
-   "last": 0.14,
-   "pct_day": 3.7,
-   "pct_30m": 0.0,
-   "volume_pace": 0.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NPTH.V",
-   "name": "NEUPATH HEALTH INC",
-   "as_of": "2026-10-14T15:35:00+00:00",
-   "last": 0.58,
-   "pct_day": 3.57,
-   "pct_30m": 0.0,
-   "volume_pace": 3.24,
    "rising": false,
    "rising_since": null
   }
@@ -1200,9 +1189,9 @@
     860.93
    ],
    "live": {
-    "as_of": "2026-10-14T16:05:00+00:00",
-    "last": 834.92,
-    "pct_day": -3.02
+    "as_of": "2026-10-14T16:35:00+00:00",
+    "last": 834.32,
+    "pct_day": -3.09
    }
   },
   "^GSPTSE": {
@@ -1797,9 +1786,9 @@
     35983.98
    ],
    "live": {
-    "as_of": "2026-10-14T16:05:00+00:00",
-    "last": 35573.62,
-    "pct_day": -1.14
+    "as_of": "2026-10-14T16:35:00+00:00",
+    "last": 35529.46,
+    "pct_day": -1.26
    }
   }
  }
