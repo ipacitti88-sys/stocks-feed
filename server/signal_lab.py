@@ -162,9 +162,14 @@ def exit_label(hold, stop, target):
     return s
 
 
-def run_daily(df, start, until):
+BANDS = [("all", "All prices", MIN_PRICE, MAX_PRICE),
+         ("p50", "C$0.50 and up", 0.50, MAX_PRICE),
+         ("sub50", "Under C$0.50", MIN_PRICE, 0.4999)]
+
+
+def run_daily(df, start, until, lo=MIN_PRICE, hi=MAX_PRICE):
     elig = (df["date"] >= start) & (df["date"] < until) & (df["rn"] >= MIN_HISTORY) \
-        & (df["av20"] >= MIN_LIQ) & df["close"].between(MIN_PRICE, MAX_PRICE)
+        & (df["av20"] >= MIN_LIQ) & df["close"].between(lo, hi)
     mid = start + (until - start) / 2
     paths = df[[f"f{k}" for k in range(1, max(HOLDS) + 1)]].to_numpy(float)
     entry_all = df["entry"].to_numpy(float)
@@ -324,6 +329,10 @@ def main() -> int:
     try:
         df = add_indicators(load_daily(conn, start - dt.timedelta(days=150)))
         results, base, mid, latest, today = run_daily(df, start, until)
+        bands = []
+        for key, label, lo, hi in BANDS:
+            r, b = (results, base) if key == "all" else run_daily(df, start, until, lo, hi)[:2]
+            bands.append({"key": key, "label": label, "signals": r, "baseline": b})
         rising = run_rising(conn, df)
     finally:
         conn.close()
@@ -335,17 +344,19 @@ def main() -> int:
         "method": ("Buy at the next day's open; costs = one price step of spread + 0.5%. "
                    "Baseline = buying any liquid tracked stock that day with the same exit. "
                    "Half 1 / half 2 = the two halves of the period."),
-        "baseline": base, "signals": results, "rising": rising, "today": today,
+        "baseline": base, "signals": results, "bands": bands, "rising": rising, "today": today,
     }
 
     print(f"Signal lab {start} to {until} (halves split {mid})")
-    for r in results:
-        b = r["best"]
-        line = f"  {r['name']:30} {r['signals']:5} signals  {b['grade']}"
-        if "exit" in b:
-            line += (f"  | best: {b['exit']}: avg {b['avg']:+.1f}%  halves {b['h1']:+.1f}% / {b['h2']:+.1f}%"
-                     f"  vs baseline {b['edge']:+.1f}%")
-        print(line)
+    for band in bands:
+        print(f" {band['label']}:")
+        for r in band["signals"]:
+            b = r["best"]
+            line = f"  {r['name']:30} {r['signals']:5} signals  {b['grade']}"
+            if "exit" in b:
+                line += (f"  | best: {b['exit']}: avg {b['avg']:+.1f}%  halves {b['h1']:+.1f}% / {b['h2']:+.1f}%"
+                         f"  vs baseline {b['edge']:+.1f}%")
+            print(line)
     if rising.get("status") == "ok":
         print(f"  Rising (5-minute replay, {rising['days']} days): {rising['signals']} signals")
         for e in rising["exits"]:
