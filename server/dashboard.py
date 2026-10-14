@@ -1,0 +1,182 @@
+#!/usr/bin/env python3
+"""
+Build the stock dashboard: one self-contained web page written to web/index.html.
+
+    python3 dashboard.py
+
+run_daily.sh calls this after the screen, and a small web server shares the
+web/ folder on your home network (see setup.sh), e.g. http://192.168.1.108:8080
+"""
+import datetime as dt
+import decimal
+import json
+import os
+import sys
+from pathlib import Path
+
+import psycopg2
+
+HISTORY_DAYS = 380  # calendar days of price history (covers the 1Y chart)
+
+SCREEN_SQL = """
+WITH p AS (
+  SELECT d.ticker, d.trade_date, d.close, d.volume,
+    AVG(d.close)  OVER w50  AS ma50,
+    AVG(d.volume) OVER w20  AS avg_vol20,
+    MAX(d.close)  OVER w252 AS high_52w,
+    LAG(d.close, 20) OVER (PARTITION BY d.ticker ORDER BY d.trade_date) AS close_20d_ago,
+    ROW_NUMBER()  OVER (PARTITION BY d.ticker ORDER BY d.trade_date DESC) AS rn
+  FROM daily_prices d
+  JOIN watchlist w ON w.ticker = d.ticker AND w.active
+  WINDOW
+    w50  AS (PARTITION BY d.ticker ORDER BY d.trade_date ROWS 49 PRECEDING),
+    w20  AS (PARTITION BY d.ticker ORDER BY d.trade_date ROWS BETWEEN 20 PRECEDING AND 1 PRECEDING),
+    w252 AS (PARTITION BY d.ticker ORDER BY d.trade_date ROWS 251 PRECEDING)
+)
+SELECT
+  p.ticker,
+  p.trade_date,
+  p.close,
+  ROUND(p.volume / NULLIF(p.avg_vol20, 0), 2)                  AS rel_vol,
+  ROUND(100 * (p.close / NULLIF(p.close_20d_ago, 0) - 1), 1)   AS pct_20d,
+  ROUND(100 * (p.close / NULLIF(p.high_52w, 0) - 1), 1)        AS from_high,
+  ROUND(p.avg_vol20)                                           AS avg_vol20,
+  p.close > p.ma50                                             AS above_ma50,
+  p.volume > 2 * p.avg_vol20                                   AS vol_spike,
+  p.close >= p.high_52w                                        AS new_high,
+  COALESCE(w.name, p.ticker)                                   AS name,
+  w.added_on
+FROM p JOIN watchlist w ON w.ticker = p.ticker
+WHERE p.rn = 1
+"""
+
+HISTORY_SQL = f"""
+SELECT ticker, trade_date, close, volume, ma50 FROM (
+  SELECT d.ticker, d.trade_date, d.close, d.volume,
+    AVG(d.close) OVER (PARTITION BY d.ticker ORDER BY d.trade_date ROWS 49 PRECEDING) AS ma50
+  FROM daily_prices d
+  JOIN watchlist w ON w.ticker = d.ticker AND w.active
+  WHERE d.trade_date >= CURRENT_DATE - {HISTORY_DAYS + 80}
+) x
+WHERE trade_date >= CURRENT_DATE - {HISTORY_DAYS}
+ORDER BY ticker, trade_date
+"""
+
+INTRA_BARS_SQL = """
+SELECT ticker, ts, close, volume FROM intraday_bars
+WHERE ts >= (SELECT date_trunc('day', MAX(ts) AT TIME ZONE 'America/Toronto') AT TIME ZONE 'America/Toronto' FROM intraday_bars)
+ORDER BY ticker, ts
+"""
+
+LIVE_SQL = """
+SELECT ticker, as_of, last, pct_day, pct_30m, pace_rel_vol, day_volume, rising, first_rising_at
+FROM intraday_quotes
+WHERE trade_date = CURRENT_DATE
+"""
+
+STATUS_SQL = """
+SELECT
+  (SELECT COUNT(*) FROM watchlist WHERE active),
+  (SELECT COUNT(*) FROM watchlist WHERE active AND added_on >= CURRENT_DATE - 7),
+  (SELECT MAX(loaded_at) FROM daily_prices),
+  (SELECT MAX(trade_date) FROM daily_prices)
+"""
+
+
+def num(v):
+    if v is None:
+        return None
+    if isinstance(v, decimal.Decimal):
+        return float(v)
+    return v
+
+
+def iso(v):
+    return v.isoformat() if hasattr(v, "isoformat") else (str(v) if v is not None else None)
+
+
+def main() -> int:
+    conn = psycopg2.connect()
+    try:
+        with conn.cursor() as cur:
+            cur.execute(SCREEN_SQL)
+            screen = cur.fetchall()
+            cur.execute(HISTORY_SQL)
+            history = cur.fetchall()
+            cur.execute(STATUS_SQL)
+            tracked, new7, loaded_at, last_day = cur.fetchone()
+            cur.execute("SELECT to_regclass('intraday_quotes') IS NOT NULL")
+            live = []
+            if cur.fetchone()[0]:
+                cur.execute(LIVE_SQL)
+                live = cur.fetchall()
+            cur.execute("SELECT to_regclass('intraday_bars') IS NOT NULL")
+            intra_bars = []
+            if cur.fetchone()[0]:
+                cur.execute(INTRA_BARS_SQL)
+                intra_bars = cur.fetchall()
+    finally:
+        conn.close()
+
+    stocks = []
+    for (t, d, close, rv, p20, fh, avgv, ma, spike, nh, name, added) in screen:
+        signals = sum(bool(x) for x in (ma, spike, nh))
+        stocks.append({
+            "t": t, "n": name, "d": iso(d), "c": num(close), "rv": num(rv),
+            "p20": num(p20), "fh": num(fh), "av": num(avgv),
+            "ma": bool(ma), "vs": bool(spike), "nh": bool(nh),
+            "s": signals, "added": iso(added),
+        })
+
+    hist = {}
+    for t, d, close, vol, ma50 in history:
+        h = hist.setdefault(t, {"d": [], "c": [], "v": [], "m": []})
+        h["d"].append(iso(d))
+        h["c"].append(num(close))
+        h["v"].append(int(vol) if vol is not None else None)
+        h["m"].append(round(num(ma50), 4) if ma50 is not None else None)
+
+    intra = {}
+    for t, ts, close, vol in intra_bars:
+        b = intra.setdefault(t, {"d": [], "c": [], "v": []})
+        b["d"].append(iso(ts))
+        b["c"].append(num(close))
+        b["v"].append(int(vol) if vol is not None else None)
+
+    live_by = {}
+    live_as_of = None
+    for t, as_of, last, pday, p30, pace, dvol, rising, since in live:
+        live_by[t] = {"lp": num(last), "pd": num(pday), "p30": num(p30), "lrv": num(pace),
+                      "lv": num(dvol), "up": bool(rising), "since": iso(since)}
+        live_as_of = max(live_as_of, as_of) if live_as_of else as_of
+    for s in stocks:
+        if s["t"] in live_by:
+            s.update(live_by[s["t"]])
+
+    data = {
+        "liveAsOf": iso(live_as_of),
+        "generated": dt.datetime.now().isoformat(timespec="minutes"),
+        "loadedAt": iso(loaded_at),
+        "lastDay": iso(last_day),
+        "tracked": tracked,
+        "new7": new7,
+        "minLiquidity": 50000,
+        "stocks": stocks,
+        "hist": hist,
+        "intra": intra,
+    }
+
+    template = (Path(__file__).parent / "dashboard_template.html").read_text()
+    payload = json.dumps(data, separators=(",", ":"), default=lambda o: float(o) if isinstance(o, decimal.Decimal) else str(o))
+    payload = payload.replace("</", "<\\/")  # never let data close the <script> tag
+    html = template.replace("/*__DATA__*/null", payload)
+
+    out_dir = Path(os.environ.get("WEB_DIR", Path(__file__).parent / "web"))
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "index.html").write_text(html)
+    print(f"Dashboard written: {out_dir / 'index.html'} ({len(stocks)} stocks)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
