@@ -59,17 +59,34 @@ def tick(p):
     return np.where(p < 0.5, 0.005, 0.01)
 
 
-def load_daily(conn, since):
-    q = """SELECT d.ticker, COALESCE(w.name, d.ticker) AS name, d.trade_date, d.open, d.high, d.low,
+def use_universe(conn):
+    """True once the research universe (every Venture listing, 10 years) has been loaded."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT to_regclass('universe') IS NOT NULL")
+        if not cur.fetchone()[0]:
+            return False
+        cur.execute("SELECT COUNT(*) FROM universe WHERE history_at IS NOT NULL")
+        return cur.fetchone()[0] >= 500
+
+
+def load_daily(conn, since, universe=False):
+    src = ("SELECT ticker, name FROM universe UNION SELECT ticker, name FROM watchlist WHERE active"
+           if universe else "SELECT ticker, name FROM watchlist WHERE active")
+    q = f"""SELECT d.ticker, COALESCE(MAX(u.name), d.ticker) AS name, d.trade_date, d.open, d.high, d.low,
                   d.close, d.volume
-           FROM daily_prices d JOIN watchlist w ON w.ticker = d.ticker AND w.active
-           WHERE d.trade_date >= %s ORDER BY d.ticker, d.trade_date"""
+           FROM daily_prices d JOIN ({src}) u ON u.ticker = d.ticker
+           WHERE d.trade_date >= %s
+           GROUP BY d.ticker, d.trade_date, d.open, d.high, d.low, d.close, d.volume
+           ORDER BY d.ticker, d.trade_date"""
     with conn.cursor() as cur:
         cur.execute(q, (since,))
         rows = cur.fetchall()
+        cur.execute("SELECT ticker FROM watchlist WHERE active")
+        tracked = {r[0] for r in cur.fetchall()}
     df = pd.DataFrame(rows, columns=["ticker", "name", "date", "open", "high", "low", "close", "volume"])
     for c in ("open", "high", "low", "close", "volume"):
         df[c] = pd.to_numeric(df[c], errors="coerce")
+    df["tracked"] = df["ticker"].isin(tracked)
     return df
 
 
@@ -211,7 +228,7 @@ def run_daily(df, start, until, lo=MIN_PRICE, hi=MAX_PRICE):
     # signals on the latest day, from every rule (the "today" list if a rule earns trust)
     today = []
     for key, mask in signal_masks(df).items():
-        hit = df[mask & (df["date"] == latest_day) & (df["av20"] >= MIN_LIQ)
+        hit = df[mask & df["tracked"] & (df["date"] == latest_day) & (df["av20"] >= MIN_LIQ)
                  & df["close"].between(MIN_PRICE, MAX_PRICE) & (df["rn"] >= MIN_HISTORY)]
         today += [{"signal": key, "ticker": t, "name": n, "close": round(float(c), 4)}
                   for t, n, c in hit[["ticker", "name", "close"]].itertuples(index=False)]
@@ -319,15 +336,19 @@ def run_rising(conn, daily):
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--days", type=int, default=365)
+    ap.add_argument("--days", type=int, default=None,
+                    help="how far back to test (default: 10 years with the research universe, else 1 year)")
     ap.add_argument("--no-push", action="store_true")
     args = ap.parse_args()
     until = dt.date.today()
-    start = until - dt.timedelta(days=args.days)
 
     conn = psycopg2.connect()
     try:
-        df = add_indicators(load_daily(conn, start - dt.timedelta(days=150)))
+        universe = use_universe(conn)
+        if args.days is None:
+            args.days = 3652 if universe else 365
+        start = until - dt.timedelta(days=args.days)
+        df = add_indicators(load_daily(conn, start - dt.timedelta(days=150), universe))
         results, base, mid, latest, today = run_daily(df, start, until)
         bands = []
         for key, label, lo, hi in BANDS:
@@ -352,6 +373,9 @@ def main() -> int:
     out = {
         "generated": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
         "from": start.isoformat(), "until": until.isoformat(), "split": mid.isoformat(),
+        "universe": ("every TSX Venture listing (incl. ones that later stopped trading)" if universe
+                     else "stocks on your watchlist today"),
+        "stocks": int(df["ticker"].nunique()),
         "latest_day": latest.isoformat() if latest is not None else None,
         "method": ("Buy at the next day's open; costs = one price step of spread + 0.5%. "
                    "Baseline = buying any liquid tracked stock that day with the same exit. "

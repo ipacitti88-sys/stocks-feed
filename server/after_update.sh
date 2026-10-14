@@ -2,15 +2,9 @@
 # One-time steps for this version, run automatically by stocks-update.
 set -euo pipefail
 cd "$HOME/stocks"
-. ./stocks.env
-
-echo "== Loading the market indexes (2 years)"
-./venv/bin/python benchmarks.py
-
-echo
-echo "== Publishing to the terminal feed"
-./venv/bin/python export_feed.py >/dev/null && echo "feed updated"
-
-echo
-echo "== Re-testing the buy signals against the market"
-./venv/bin/python signal_lab.py | head -3
+mkdir -p logs
+echo "== Starting the research download in the background"
+nohup setsid ./run_research.sh >/dev/null 2>&1 < /dev/null &
+sleep 2
+echo "It's running on its own now (about 2 to 4 hours). You can close this window."
+echo "To peek at progress:  tail -n 5 ~/stocks/logs/research.log"

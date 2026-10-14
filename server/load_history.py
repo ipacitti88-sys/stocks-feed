@@ -64,6 +64,10 @@ def fetch(ticker: str, period: str) -> list[tuple]:
     df = yf.Ticker(ticker).history(period=period, auto_adjust=False)
     if df.empty:
         return []
+    # a consolidation/split re-prices all past data: reload everything so old and new prices match
+    if period != "max" and "Stock Splits" in df and (df["Stock Splits"].fillna(0) != 0).any():
+        print(f"{ticker:10} split/consolidation detected; reloading full history")
+        return fetch(ticker, "max")
     rows = []
     for ts, r in df.iterrows():
         if pd.isna(r["Close"]):

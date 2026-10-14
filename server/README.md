@@ -12,7 +12,11 @@ That pulls this folder and copies the scripts into ~/stocks. Your settings (stoc
 |---|---|---|
 | Weekdays, every 30 min | run_intraday.sh | Live scan, Rising flags (logged to `rising_log`), dashboard, feed |
 | Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, save 5-minute bars, dashboard, feed |
-| Saturday 8:00 am | run_weekly.sh | Signal lab: re-test six buy signals, push `signal_lab.json` |
+| Saturday 8:00 am | run_weekly.sh | New listings, pattern study (`patterns.json`), signal lab (`signal_lab.json`) |
+
+## Research universe
+
+`universe.py` keeps every TSX Venture listing Yahoo has ever shown us (table `universe`), with 10 years of daily prices, even after a stock stops trading. It's for research only: never screened. First load: `run_research.sh` (runs in the background, resumable). Consolidations trigger a full reload of that stock's history.
 
 ## Data you can open
 
