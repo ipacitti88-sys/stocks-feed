@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:31-06:00",
+ "generated": "2026-10-14T10:01-06:00",
  "last_close_day": "2026-10-13",
  "tracked": 446,
  "flagged": [
@@ -426,27 +426,38 @@
    "added": "2026-10-13"
   }
  ],
- "live_as_of": "2026-10-14T15:35:00+00:00",
+ "live_as_of": "2026-10-14T16:05:00+00:00",
  "rising": [
   {
-   "ticker": "NOW.V",
-   "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T15:20:00+00:00",
-   "last": 0.155,
-   "pct_day": 10.71,
-   "pct_30m": 3.33,
-   "volume_pace": 1.85,
+   "ticker": "LXM.V",
+   "name": "LUX METALS CORP",
+   "as_of": "2026-10-14T16:00:00+00:00",
+   "last": 0.235,
+   "pct_day": 23.68,
+   "pct_30m": 4.44,
+   "volume_pace": 60.35,
    "rising": true,
-   "rising_since": "2026-10-14T13:55:00+00:00"
+   "rising_since": "2026-10-14T16:00:00+00:00"
+  },
+  {
+   "ticker": "MLP.V",
+   "name": "MILLENNIAL POTASH CORP",
+   "as_of": "2026-10-14T16:05:00+00:00",
+   "last": 2.18,
+   "pct_day": 14.74,
+   "pct_30m": 0.46,
+   "volume_pace": 13.2,
+   "rising": true,
+   "rising_since": "2026-10-14T16:05:00+00:00"
   },
   {
    "ticker": "WGT.V",
    "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-14T15:25:00+00:00",
+   "as_of": "2026-10-14T15:40:00+00:00",
    "last": 0.205,
    "pct_day": 7.89,
    "pct_30m": 2.5,
-   "volume_pace": 2.83,
+   "volume_pace": 3.3,
    "rising": true,
    "rising_since": "2026-10-14T15:25:00+00:00"
   },
@@ -457,18 +468,7 @@
    "last": 0.21,
    "pct_day": 5.0,
    "pct_30m": 5.0,
-   "volume_pace": 2.46,
-   "rising": true,
-   "rising_since": "2026-10-14T15:30:00+00:00"
-  },
-  {
-   "ticker": "AUX.V",
-   "name": "GOLDEN CROSS RESOURCES INC",
-   "as_of": "2026-10-14T15:30:00+00:00",
-   "last": 0.145,
-   "pct_day": 3.57,
-   "pct_30m": 3.57,
-   "volume_pace": 4.02,
+   "volume_pace": 2.49,
    "rising": true,
    "rising_since": "2026-10-14T15:30:00+00:00"
   },
@@ -482,83 +482,83 @@
    "volume_pace": 1.84,
    "rising": true,
    "rising_since": "2026-10-14T15:00:00+00:00"
+  },
+  {
+   "ticker": "PCU.V",
+   "name": "PECOY COPPER CORP",
+   "as_of": "2026-10-14T15:55:00+00:00",
+   "last": 1.96,
+   "pct_day": 3.16,
+   "pct_30m": 2.62,
+   "volume_pace": 6.84,
+   "rising": true,
+   "rising_since": "2026-10-14T15:55:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "LXM.V",
    "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T15:25:00+00:00",
-   "last": 0.225,
-   "pct_day": 18.42,
-   "pct_30m": -2.17,
-   "volume_pace": 71.45,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-14T16:00:00+00:00",
+   "last": 0.235,
+   "pct_day": 23.68,
+   "pct_30m": 4.44,
+   "volume_pace": 60.35,
+   "rising": true,
+   "rising_since": "2026-10-14T16:00:00+00:00"
   },
   {
    "ticker": "MLP.V",
    "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T15:30:00+00:00",
-   "last": 2.15,
-   "pct_day": 13.16,
-   "pct_30m": -2.71,
-   "volume_pace": 16.34,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-14T16:05:00+00:00",
+   "last": 2.18,
+   "pct_day": 14.74,
+   "pct_30m": 0.46,
+   "volume_pace": 13.2,
+   "rising": true,
+   "rising_since": "2026-10-14T16:05:00+00:00"
   },
   {
    "ticker": "NOW.V",
    "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T15:20:00+00:00",
+   "as_of": "2026-10-14T15:45:00+00:00",
    "last": 0.155,
    "pct_day": 10.71,
-   "pct_30m": 3.33,
-   "volume_pace": 1.85,
-   "rising": true,
-   "rising_since": "2026-10-14T13:55:00+00:00"
+   "pct_30m": -3.12,
+   "volume_pace": 2.04,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "WGT.V",
    "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-14T15:25:00+00:00",
+   "as_of": "2026-10-14T15:40:00+00:00",
    "last": 0.205,
    "pct_day": 7.89,
    "pct_30m": 2.5,
-   "volume_pace": 2.83,
+   "volume_pace": 3.3,
    "rising": true,
    "rising_since": "2026-10-14T15:25:00+00:00"
   },
   {
    "ticker": "V.V",
    "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-14T15:30:00+00:00",
+   "as_of": "2026-10-14T16:00:00+00:00",
    "last": 0.275,
    "pct_day": 7.84,
-   "pct_30m": -1.79,
-   "volume_pace": 1.7,
+   "pct_30m": 0.0,
+   "volume_pace": 1.43,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "RDU.V",
    "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-14T15:10:00+00:00",
+   "as_of": "2026-10-14T15:40:00+00:00",
    "last": 0.23,
    "pct_day": 6.98,
-   "pct_30m": -4.17,
-   "volume_pace": 2.59,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NPTH.V",
-   "name": "NEUPATH HEALTH INC",
-   "as_of": "2026-10-14T15:30:00+00:00",
-   "last": 0.59,
-   "pct_day": 5.36,
-   "pct_30m": 5.36,
-   "volume_pace": 0.55,
+   "pct_30m": 0.0,
+   "volume_pace": 2.0,
    "rising": false,
    "rising_since": null
   },
@@ -580,18 +580,29 @@
    "last": 0.21,
    "pct_day": 5.0,
    "pct_30m": 5.0,
-   "volume_pace": 2.46,
+   "volume_pace": 2.49,
    "rising": true,
    "rising_since": "2026-10-14T15:30:00+00:00"
   },
   {
-   "ticker": "PGDC.V",
-   "name": "PATAGONIA GOLD CORP",
-   "as_of": "2026-10-14T15:20:00+00:00",
-   "last": 0.44,
-   "pct_day": 4.76,
-   "pct_30m": -2.22,
-   "volume_pace": 1.4,
+   "ticker": "NSU.V",
+   "name": "NORTH SHORE URANIUM LTD",
+   "as_of": "2026-10-14T15:40:00+00:00",
+   "last": 0.14,
+   "pct_day": 3.7,
+   "pct_30m": 0.0,
+   "volume_pace": 0.04,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NPTH.V",
+   "name": "NEUPATH HEALTH INC",
+   "as_of": "2026-10-14T15:35:00+00:00",
+   "last": 0.58,
+   "pct_day": 3.57,
+   "pct_30m": 0.0,
+   "volume_pace": 3.24,
    "rising": false,
    "rising_since": null
   }
@@ -1189,9 +1200,9 @@
     860.93
    ],
    "live": {
-    "as_of": "2026-10-14T15:35:00+00:00",
-    "last": 838.23,
-    "pct_day": -2.64
+    "as_of": "2026-10-14T16:05:00+00:00",
+    "last": 834.92,
+    "pct_day": -3.02
    }
   },
   "^GSPTSE": {
@@ -1786,9 +1797,9 @@
     35983.98
    ],
    "live": {
-    "as_of": "2026-10-14T15:35:00+00:00",
-    "last": 35603.38,
-    "pct_day": -1.06
+    "as_of": "2026-10-14T16:05:00+00:00",
+    "last": 35573.62,
+    "pct_day": -1.14
    }
   }
  }
