@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-14T13:31-06:00
+# Stock feed — 2026-10-14T14:01-06:00
 
-Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 446 stocks. Last full trading day: 2026-10-13. Intraday data as of: 2026-10-14T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.4% at 19:35
-Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.3% at 19:35
+Market: S&P/TSX Venture Composite 860.93 on 2026-10-13 (day -1.5%, month -7.2%, year -13.4%); live -3.4% at 20:00
+Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year +18.9%); live -1.1% at 20:00
 
 ## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
@@ -28,10 +28,8 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 
 ## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- LXM.V (LUX METALS CORP): +18.4% today at 0.225, last 30m +2.3%, volume pace 31.34x, rising since 2026-10-14T19:30:00+00:00
-- MLP.V (MILLENNIAL POTASH CORP): +15.3% today at 2.19, last 30m +0.9%, volume pace 11.74x, rising since 2026-10-14T19:35:00+00:00
 - HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.9% today at 0.205, last 30m +13.9%, volume pace 4.63x, rising since 2026-10-14T18:50:00+00:00
-- BPAG.V (BP SILVER CORP): +4.4% today at 0.94, last 30m +5.6%, volume pace 1.67x, rising since 2026-10-14T18:45:00+00:00
+- NOW.V (NOWVERTICAL GROUP INC): +10.7% today at 0.155, last 30m +3.3%, volume pace 2.73x, rising since 2026-10-14T19:35:00+00:00
 
 ## Top 10 by relative volume at last close
 
@@ -49,12 +47,12 @@ Market: S&P/TSX Composite 35,983.98 on 2026-10-13 (day +0.9%, month +0.8%, year 
 ## Top 10 gainers in latest intraday pass
 
 - WGT.V (WESTGATE ENERGY INC): +23.7% at 0.235, volume pace 2.4x
-- LXM.V (LUX METALS CORP): +18.4% at 0.225, volume pace 31.34x
-- MLP.V (MILLENNIAL POTASH CORP): +15.3% at 2.19, volume pace 11.74x
+- MLP.V (MILLENNIAL POTASH CORP): +15.8% at 2.2, volume pace 11.07x
 - HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.9% at 0.205, volume pace 4.63x
+- LXM.V (LUX METALS CORP): +13.2% at 0.215, volume pace 29.55x
 - NSU.V (NORTH SHORE URANIUM LTD): +11.1% at 0.15, volume pace 1.07x
-- LVG.V (LAKE VICTORIA GOLD LTD): +9.7% at 0.3675, volume pace 0.95x
+- NOW.V (NOWVERTICAL GROUP INC): +10.7% at 0.155, volume pace 2.73x
+- LVG.V (LAKE VICTORIA GOLD LTD): +9.0% at 0.365, volume pace 0.7x
 - GMA.V (GEOMEGA RESOURCES INC): +8.7% at 0.25, volume pace 0.45x
-- NOW.V (NOWVERTICAL GROUP INC): +7.1% at 0.15, volume pace 3.08x
 - TLT.V (THERALASE TECHNOLOGIES INC.): +5.6% at 0.19, volume pace 0.37x
-- LIB.V (LIBERTYSTREAM INFRASTRUCTURE PA): +5.3% at 0.79, volume pace 4.5x
+- PCRX.V (PHARMACORP RX INC): +5.0% at 0.42, volume pace 0.65x
