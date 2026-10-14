@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T09:01-06:00",
+ "generated": "2026-10-14T09:31-06:00",
  "last_close_day": "2026-10-13",
  "tracked": 446,
  "flagged": [
@@ -426,51 +426,51 @@
    "added": "2026-10-13"
   }
  ],
- "live_as_of": "2026-10-14T15:05:00+00:00",
+ "live_as_of": "2026-10-14T15:35:00+00:00",
  "rising": [
-  {
-   "ticker": "LXM.V",
-   "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T15:00:00+00:00",
-   "last": 0.23,
-   "pct_day": 21.05,
-   "pct_30m": 4.55,
-   "volume_pace": 90.6,
-   "rising": true,
-   "rising_since": "2026-10-14T15:00:00+00:00"
-  },
-  {
-   "ticker": "MLP.V",
-   "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T15:00:00+00:00",
-   "last": 2.21,
-   "pct_day": 16.32,
-   "pct_30m": 2.31,
-   "volume_pace": 13.45,
-   "rising": true,
-   "rising_since": "2026-10-14T15:00:00+00:00"
-  },
-  {
-   "ticker": "V.V",
-   "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-14T15:00:00+00:00",
-   "last": 0.28,
-   "pct_day": 9.8,
-   "pct_30m": 5.66,
-   "volume_pace": 1.63,
-   "rising": true,
-   "rising_since": "2026-10-14T15:00:00+00:00"
-  },
   {
    "ticker": "NOW.V",
    "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T13:55:00+00:00",
-   "last": 0.15,
-   "pct_day": 7.14,
-   "pct_30m": 7.14,
-   "volume_pace": 1.77,
+   "as_of": "2026-10-14T15:20:00+00:00",
+   "last": 0.155,
+   "pct_day": 10.71,
+   "pct_30m": 3.33,
+   "volume_pace": 1.85,
    "rising": true,
    "rising_since": "2026-10-14T13:55:00+00:00"
+  },
+  {
+   "ticker": "WGT.V",
+   "name": "WESTGATE ENERGY INC",
+   "as_of": "2026-10-14T15:25:00+00:00",
+   "last": 0.205,
+   "pct_day": 7.89,
+   "pct_30m": 2.5,
+   "volume_pace": 2.83,
+   "rising": true,
+   "rising_since": "2026-10-14T15:25:00+00:00"
+  },
+  {
+   "ticker": "KRI.V",
+   "name": "KOBO RESOURCES INC",
+   "as_of": "2026-10-14T15:30:00+00:00",
+   "last": 0.21,
+   "pct_day": 5.0,
+   "pct_30m": 5.0,
+   "volume_pace": 2.46,
+   "rising": true,
+   "rising_since": "2026-10-14T15:30:00+00:00"
+  },
+  {
+   "ticker": "AUX.V",
+   "name": "GOLDEN CROSS RESOURCES INC",
+   "as_of": "2026-10-14T15:30:00+00:00",
+   "last": 0.145,
+   "pct_day": 3.57,
+   "pct_30m": 3.57,
+   "volume_pace": 4.02,
+   "rising": true,
+   "rising_since": "2026-10-14T15:30:00+00:00"
   },
   {
    "ticker": "YARR.V",
@@ -479,7 +479,7 @@
    "last": 0.155,
    "pct_day": 3.33,
    "pct_30m": 3.33,
-   "volume_pace": 1.67,
+   "volume_pace": 1.84,
    "rising": true,
    "rising_since": "2026-10-14T15:00:00+00:00"
   }
@@ -488,77 +488,77 @@
   {
    "ticker": "LXM.V",
    "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T15:00:00+00:00",
-   "last": 0.23,
-   "pct_day": 21.05,
-   "pct_30m": 4.55,
-   "volume_pace": 90.6,
-   "rising": true,
-   "rising_since": "2026-10-14T15:00:00+00:00"
+   "as_of": "2026-10-14T15:25:00+00:00",
+   "last": 0.225,
+   "pct_day": 18.42,
+   "pct_30m": -2.17,
+   "volume_pace": 71.45,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "MLP.V",
    "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T15:00:00+00:00",
-   "last": 2.21,
-   "pct_day": 16.32,
-   "pct_30m": 2.31,
-   "volume_pace": 13.45,
-   "rising": true,
-   "rising_since": "2026-10-14T15:00:00+00:00"
-  },
-  {
-   "ticker": "V.V",
-   "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-14T15:00:00+00:00",
-   "last": 0.28,
-   "pct_day": 9.8,
-   "pct_30m": 5.66,
-   "volume_pace": 1.63,
-   "rising": true,
-   "rising_since": "2026-10-14T15:00:00+00:00"
+   "as_of": "2026-10-14T15:30:00+00:00",
+   "last": 2.15,
+   "pct_day": 13.16,
+   "pct_30m": -2.71,
+   "volume_pace": 16.34,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "NOW.V",
    "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T13:55:00+00:00",
-   "last": 0.15,
-   "pct_day": 7.14,
-   "pct_30m": 7.14,
-   "volume_pace": 1.77,
+   "as_of": "2026-10-14T15:20:00+00:00",
+   "last": 0.155,
+   "pct_day": 10.71,
+   "pct_30m": 3.33,
+   "volume_pace": 1.85,
    "rising": true,
    "rising_since": "2026-10-14T13:55:00+00:00"
   },
   {
-   "ticker": "PGDC.V",
-   "name": "PATAGONIA GOLD CORP",
-   "as_of": "2026-10-14T14:25:00+00:00",
-   "last": 0.45,
-   "pct_day": 7.14,
-   "pct_30m": 0.0,
-   "volume_pace": 2.79,
+   "ticker": "WGT.V",
+   "name": "WESTGATE ENERGY INC",
+   "as_of": "2026-10-14T15:25:00+00:00",
+   "last": 0.205,
+   "pct_day": 7.89,
+   "pct_30m": 2.5,
+   "volume_pace": 2.83,
+   "rising": true,
+   "rising_since": "2026-10-14T15:25:00+00:00"
+  },
+  {
+   "ticker": "V.V",
+   "name": "VERDERA ENERGY CORP",
+   "as_of": "2026-10-14T15:30:00+00:00",
+   "last": 0.275,
+   "pct_day": 7.84,
+   "pct_30m": -1.79,
+   "volume_pace": 1.7,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "RDU.V",
    "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-14T15:00:00+00:00",
+   "as_of": "2026-10-14T15:10:00+00:00",
    "last": 0.23,
    "pct_day": 6.98,
    "pct_30m": -4.17,
-   "volume_pace": 2.78,
+   "volume_pace": 2.59,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "WGT.V",
-   "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-14T14:40:00+00:00",
-   "last": 0.2,
-   "pct_day": 5.26,
-   "pct_30m": 0.0,
-   "volume_pace": 3.72,
+   "ticker": "NPTH.V",
+   "name": "NEUPATH HEALTH INC",
+   "as_of": "2026-10-14T15:30:00+00:00",
+   "last": 0.59,
+   "pct_day": 5.36,
+   "pct_30m": 5.36,
+   "volume_pace": 0.55,
    "rising": false,
    "rising_since": null
   },
@@ -574,24 +574,24 @@
    "rising_since": null
   },
   {
-   "ticker": "CCEC.V",
-   "name": "CANCAMBRIA ENERGY CORP",
-   "as_of": "2026-10-14T15:00:00+00:00",
-   "last": 0.25,
-   "pct_day": 4.17,
-   "pct_30m": 0.0,
-   "volume_pace": 1.49,
-   "rising": false,
-   "rising_since": null
+   "ticker": "KRI.V",
+   "name": "KOBO RESOURCES INC",
+   "as_of": "2026-10-14T15:30:00+00:00",
+   "last": 0.21,
+   "pct_day": 5.0,
+   "pct_30m": 5.0,
+   "volume_pace": 2.46,
+   "rising": true,
+   "rising_since": "2026-10-14T15:30:00+00:00"
   },
   {
-   "ticker": "NSU.V",
-   "name": "NORTH SHORE URANIUM LTD",
-   "as_of": "2026-10-14T14:05:00+00:00",
-   "last": 0.14,
-   "pct_day": 3.7,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "ticker": "PGDC.V",
+   "name": "PATAGONIA GOLD CORP",
+   "as_of": "2026-10-14T15:20:00+00:00",
+   "last": 0.44,
+   "pct_day": 4.76,
+   "pct_30m": -2.22,
+   "volume_pace": 1.4,
    "rising": false,
    "rising_since": null
   }
@@ -1189,9 +1189,9 @@
     860.93
    ],
    "live": {
-    "as_of": "2026-10-14T15:05:00+00:00",
-    "last": 840.6,
-    "pct_day": -2.36
+    "as_of": "2026-10-14T15:35:00+00:00",
+    "last": 838.23,
+    "pct_day": -2.64
    }
   },
   "^GSPTSE": {
@@ -1786,9 +1786,9 @@
     35983.98
    ],
    "live": {
-    "as_of": "2026-10-14T15:05:00+00:00",
-    "last": 35595.25,
-    "pct_day": -1.08
+    "as_of": "2026-10-14T15:35:00+00:00",
+    "last": 35603.38,
+    "pct_day": -1.06
    }
   }
  }
