@@ -99,6 +99,9 @@ def add_indicators(df):
     df["ma20"] = roll("close", 20, "mean")
     df["ma50"] = roll("close", 50, "mean")
     df["av20"] = g["volume"].transform(lambda x: x.shift(1).rolling(20, min_periods=20).mean())
+    # average dollars traded per day over the previous 20 days
+    df["dv20"] = (df["close"] * df["volume"]).groupby(df["ticker"], sort=False).transform(
+        lambda x: x.shift(1).rolling(20, min_periods=20).mean())
     df["hi252"] = g["close"].transform(lambda x: x.rolling(252, min_periods=1).max())
     df["hi60p"] = g["close"].transform(lambda x: x.shift(1).rolling(60, min_periods=60).max())
     hi20 = g["high"].transform(lambda x: x.shift(1).rolling(20, min_periods=20).max())
@@ -185,9 +188,24 @@ BANDS = [("all", "All prices", MIN_PRICE, MAX_PRICE),
          ("sub50", "Under C$0.50", MIN_PRICE, 0.4999)]
 
 
-def run_daily(df, start, until, lo=MIN_PRICE, hi=MAX_PRICE):
+LIQ_TIERS = (10_000, 25_000, 50_000, 100_000, 250_000)
+
+
+def compact(results):
+    """Just each signal's verdict and best exit, for the liquidity comparison."""
+    out = []
+    for r in results:
+        b = r["best"]
+        out.append({k: b.get(k) for k in ("grade", "exit", "avg", "h1", "h2", "edge1", "edge2", "won", "n")}
+                   | {"key": r["key"], "name": r["name"], "signals": r["signals"]})
+    return out
+
+
+def run_daily(df, start, until, lo=MIN_PRICE, hi=MAX_PRICE, min_dollar=None):
+    liquid = (df["dv20"] >= min_dollar) if min_dollar else (df["av20"] >= MIN_LIQ)
     elig = (df["date"] >= start) & (df["date"] < until) & (df["rn"] >= MIN_HISTORY) \
-        & (df["av20"] >= MIN_LIQ) & df["close"].between(lo, hi)
+        & liquid & df["close"].between(lo, hi)
+    run_daily.per_day = float(elig.groupby(df["date"]).sum().loc[lambda x: x > 0].mean() or 0)
     mid = start + (until - start) / 2
     paths = df[[f"f{k}" for k in range(1, max(HOLDS) + 1)]].to_numpy(float)
     entry_all = df["entry"].to_numpy(float)
@@ -357,6 +375,13 @@ def main() -> int:
         raw = raw[raw["ticker"].map(lambda t: benchmarks.in_market(t, args.market))].reset_index(drop=True)
         df = add_indicators(raw)
         results, base, mid, latest, today = run_daily(df, start, until)
+        per_day_now = run_daily.per_day
+        liquidity = [{"key": "shares50k", "label": "50,000+ shares a day (current rule)",
+                      "stocks_per_day": round(per_day_now), "signals": compact(results)}]
+        for amt in LIQ_TIERS:
+            r = run_daily(df, start, until, min_dollar=amt)[0]
+            liquidity.append({"key": f"d{amt}", "label": f"C${amt // 1000}k+ traded a day",
+                              "min_dollar": amt, "stocks_per_day": round(run_daily.per_day), "signals": compact(r)})
         bands = []
         for key, label, lo, hi in BANDS:
             r, b = (results, base) if key == "all" else run_daily(df, start, until, lo, hi)[:2]
@@ -387,13 +412,18 @@ def main() -> int:
         "method": ("Buy at the next day's open; costs = one price step of spread + 0.5%. "
                    "Baseline = buying any liquid tracked stock that day with the same exit. "
                    "Half 1 / half 2 = the two halves of the period."),
-        "baseline": base, "signals": results, "bands": bands, "market": market, "rising": rising, "today": today,
+        "baseline": base, "signals": results, "bands": bands, "liquidity": liquidity, "market": market, "rising": rising, "today": today,
     }
 
     print(f"Signal lab, {M['label']}: {start} to {until} (halves split {mid})")
     if market and market["full"] is not None:
         print(f" Market: {market['name']} {market['full']:+.1f}% over the period "
               f"(half 1 {market['h1']:+.1f}%, half 2 {market['h2']:+.1f}%)")
+    print(" Liquidity test (all prices; avg per trade after costs, best exit; * = Promising):")
+    for lv in liquidity:
+        cells = "  ".join(f"{x['key'][:9]:>9} {('-' if x['avg'] is None else format(x['avg'], '+.1f'))}{'*' if x['grade'] == 'Promising' else ' '}"
+                          for x in lv["signals"])
+        print(f"  {lv['label']:38} ~{lv['stocks_per_day']:4} stocks/day | {cells}")
     for band in bands:
         print(f" {band['label']}:")
         for r in band["signals"]:
