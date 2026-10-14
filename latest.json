@@ -1,7 +1,11 @@
 {
- "generated": "2026-10-14T15:22-06:00",
+ "generated": "2026-10-14T17:10-06:00",
  "last_close_day": "2026-10-14",
- "tracked": 451,
+ "tracked": 586,
+ "tracked_by_market": {
+  "tsxv": 447,
+  "tsx": 139
+ },
  "flagged": [
   {
    "ticker": "LXM.V",
@@ -62,6 +66,21 @@
    "vol_spike": true,
    "new_high": false,
    "added": "2026-10-13"
+  },
+  {
+   "ticker": "DYA.TO",
+   "name": "DYNACERT INC",
+   "date": "2026-10-14",
+   "close": 0.11,
+   "rel_vol": 3.73,
+   "pct_20d": 10.0,
+   "from_52w_high": -35.3,
+   "avg_vol": 116157.0,
+   "signals": 2,
+   "above_ma50": true,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
   },
   {
    "ticker": "CAM.V",
@@ -182,6 +201,21 @@
    "vol_spike": false,
    "new_high": true,
    "added": "2026-10-11"
+  },
+  {
+   "ticker": "CVVY.TO",
+   "name": "CAVVY ENERGY LTD",
+   "date": "2026-10-14",
+   "close": 2.62,
+   "rel_vol": 0.95,
+   "pct_20d": 17.5,
+   "from_52w_high": 0.0,
+   "avg_vol": 604270.0,
+   "signals": 2,
+   "above_ma50": true,
+   "vol_spike": false,
+   "new_high": true,
+   "added": "2026-10-14"
   },
   {
    "ticker": "LGN.V",
@@ -349,6 +383,156 @@
    "vol_spike": true,
    "new_high": false,
    "added": "2026-10-13"
+  },
+  {
+   "ticker": "AMC.TO",
+   "name": "ARIZONA METALS CORP",
+   "date": "2026-10-14",
+   "close": 0.165,
+   "rel_vol": 3.8,
+   "pct_20d": -15.4,
+   "from_52w_high": -80.1,
+   "avg_vol": 53760.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "DYA.TO",
+   "name": "DYNACERT INC",
+   "date": "2026-10-14",
+   "close": 0.11,
+   "rel_vol": 3.73,
+   "pct_20d": 10.0,
+   "from_52w_high": -35.3,
+   "avg_vol": 116157.0,
+   "signals": 2,
+   "above_ma50": true,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "AMAP.TO",
+   "name": "AMAPA MINERALS HOLDINGS INC",
+   "date": "2026-10-14",
+   "close": 1.04,
+   "rel_vol": 3.36,
+   "pct_20d": -3.7,
+   "from_52w_high": -9.6,
+   "avg_vol": 78110.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "ARA.TO",
+   "name": "ACLARA RESOURCES INC",
+   "date": "2026-10-14",
+   "close": 2.95,
+   "rel_vol": 3.13,
+   "pct_20d": -16.2,
+   "from_52w_high": -43.5,
+   "avg_vol": 93055.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "ELO.TO",
+   "name": "ELORO RESOURCES LTD",
+   "date": "2026-10-14",
+   "close": 1.35,
+   "rel_vol": 3.11,
+   "pct_20d": -21.5,
+   "from_52w_high": -59.0,
+   "avg_vol": 104745.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "PTM.TO",
+   "name": "PLATINUM GROUP METALS LTD.",
+   "date": "2026-10-14",
+   "close": 1.57,
+   "rel_vol": 2.89,
+   "pct_20d": -17.8,
+   "from_52w_high": -67.0,
+   "avg_vol": 57825.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "BSX.TO",
+   "name": "BELO SUN MINING CORP",
+   "date": "2026-10-14",
+   "close": 1.13,
+   "rel_vol": 2.83,
+   "pct_20d": -4.2,
+   "from_52w_high": -31.1,
+   "avg_vol": 656710.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "SAM.TO",
+   "name": "STARCORE INTERNATIONAL MINES LT",
+   "date": "2026-10-14",
+   "close": 0.315,
+   "rel_vol": 2.63,
+   "pct_20d": -26.7,
+   "from_52w_high": -78.5,
+   "avg_vol": 111340.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "GOLD.TO",
+   "name": "GOLDMINING INC",
+   "date": "2026-10-14",
+   "close": 1.18,
+   "rel_vol": 2.55,
+   "pct_20d": -16.3,
+   "from_52w_high": -59.6,
+   "avg_vol": 232460.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
+  },
+  {
+   "ticker": "NDM.TO",
+   "name": "NORTHERN DYNASTY MINERALS LTD.",
+   "date": "2026-10-14",
+   "close": 1.34,
+   "rel_vol": 2.47,
+   "pct_20d": -23.0,
+   "from_52w_high": -65.6,
+   "avg_vol": 932110.0,
+   "signals": 1,
+   "above_ma50": false,
+   "vol_spike": true,
+   "new_high": false,
+   "added": "2026-10-14"
   }
  ],
  "live_as_of": "2026-10-14T20:00:00+00:00",
@@ -484,6 +668,50 @@
    "pct_day": 5.0,
    "pct_30m": 5.0,
    "volume_pace": 0.65,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "REAL.TO",
+   "name": "Real Matters",
+   "as_of": "2026-10-14T20:00:00+00:00",
+   "last": 3.33,
+   "pct_day": 0.91,
+   "pct_30m": 0.91,
+   "volume_pace": 1.02,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CEMX.TO",
+   "name": "CEMATRIX",
+   "as_of": "2026-10-14T19:55:00+00:00",
+   "last": 0.48,
+   "pct_day": -1.03,
+   "pct_30m": -1.03,
+   "volume_pace": 0.99,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "XTRA.TO",
+   "name": "XTRACT ONE TECHNOLGIES INC",
+   "as_of": "2026-10-14T20:00:00+00:00",
+   "last": 0.52,
+   "pct_day": -1.89,
+   "pct_30m": 0.0,
+   "volume_pace": 0.94,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PRL.TO",
+   "name": "PROPEL HOLDINGS INC",
+   "as_of": "2026-10-14T20:00:00+00:00",
+   "last": 23.52,
+   "pct_day": -2.33,
+   "pct_30m": 0.56,
+   "volume_pace": 1.27,
    "rising": false,
    "rising_since": null
   }
@@ -1081,7 +1309,9 @@
     874.03,
     860.93,
     830.33
-   ]
+   ],
+   "ma200": 978.01,
+   "above_ma200": false
   },
   "^GSPTSE": {
    "name": "S&P/TSX Composite",
@@ -1675,7 +1905,18 @@
     35664.6,
     35984.0,
     35584.46
-   ]
+   ],
+   "ma200": 34356.24,
+   "above_ma200": true
   }
- }
+ },
+ "breakouts": [
+  {
+   "ticker": "PCU.V",
+   "name": "PECOY COPPER CORP",
+   "date": "2026-10-14",
+   "close": 1.93,
+   "rel_vol": 4.8
+  }
+ ]
 }

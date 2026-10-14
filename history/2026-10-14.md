@@ -1,11 +1,17 @@
-# Stock feed — 2026-10-14T15:22-06:00
+# Stock feed — 2026-10-14T17:10-06:00
 
-Tracking 451 stocks. Last full trading day: 2026-10-14. Intraday data as of: 2026-10-14T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-14T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%)
-Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%)
+Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend)
+Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend)
 
-## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
+# TSX Venture
+
+## TSX Venture: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)
+
+- PCU.V (PECOY COPPER CORP): close 1.93, volume 4.8x
+
+## TSX Venture: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
 - LXM.V (LUX METALS CORP): 2/3, close 0.215, rel vol 40.72x, 20d +13.2%, -28.3% vs 52w high
 - AZT.V (AZTEC MINERALS CORP): 2/3, close 0.35, rel vol 7.55x, 20d +2.9%, -17.6% vs 52w high
@@ -21,12 +27,12 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 - GRDM.V (GRID METALS CORP): 2/3, close 0.22, rel vol 1.18x, 20d +51.7%, +0.0% vs 52w high
 - LGN.V (LOGAN ENERGY CORP): 2/3, close 1.26, rel vol 0.51x, 20d +5.0%, +0.0% vs 52w high
 
-## Rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
+## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
 - HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.9% today at 0.205, last 30m +13.9%, volume pace 4.63x, rising since 2026-10-14T18:50:00+00:00
 - NOW.V (NOWVERTICAL GROUP INC): +10.7% today at 0.155, last 30m +3.3%, volume pace 2.73x, rising since 2026-10-14T19:35:00+00:00
 
-## Top 10 by relative volume at last close
+## TSX Venture: top by relative volume at last close
 
 - LXM.V (LUX METALS CORP): rel vol 40.72x, close 0.215, 20d +13.2%
 - DYG.V (DYNASTY GOLD CORP.): rel vol 9.16x, close 0.105, 20d -30.0%
@@ -39,7 +45,7 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 - AZM.V (Azimut Exploration Inc.): rel vol 5.23x, close 0.49, 20d -24.6%
 - GSPR.V (GSP RESOURCE CORP): rel vol 5.23x, close 0.09, 20d -21.7%
 
-## Top 10 gainers in latest intraday pass
+## TSX Venture: top gainers in latest intraday pass
 
 - WGT.V (WESTGATE ENERGY INC): +23.7% at 0.235, volume pace 2.4x
 - MLP.V (MILLENNIAL POTASH CORP): +15.8% at 2.2, volume pace 11.07x
@@ -51,3 +57,38 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 - GMA.V (GEOMEGA RESOURCES INC): +8.7% at 0.25, volume pace 0.45x
 - TLT.V (THERALASE TECHNOLOGIES INC.): +5.6% at 0.19, volume pace 0.37x
 - PCRX.V (PHARMACORP RX INC): +5.0% at 0.42, volume pace 0.65x
+
+# TSX
+
+## TSX: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)
+
+- none
+
+## TSX: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
+
+- DYA.TO (DYNACERT INC): 2/3, close 0.11, rel vol 3.73x, 20d +10.0%, -35.3% vs 52w high
+- CVVY.TO (CAVVY ENERGY LTD): 2/3, close 2.62, rel vol 0.95x, 20d +17.5%, +0.0% vs 52w high
+
+## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
+
+- none
+
+## TSX: top by relative volume at last close
+
+- AMC.TO (ARIZONA METALS CORP): rel vol 3.8x, close 0.165, 20d -15.4%
+- DYA.TO (DYNACERT INC): rel vol 3.73x, close 0.11, 20d +10.0%
+- AMAP.TO (AMAPA MINERALS HOLDINGS INC): rel vol 3.36x, close 1.04, 20d -3.7%
+- ARA.TO (ACLARA RESOURCES INC): rel vol 3.13x, close 2.95, 20d -16.2%
+- ELO.TO (ELORO RESOURCES LTD): rel vol 3.11x, close 1.35, 20d -21.5%
+- PTM.TO (PLATINUM GROUP METALS LTD.): rel vol 2.89x, close 1.57, 20d -17.8%
+- BSX.TO (BELO SUN MINING CORP): rel vol 2.83x, close 1.13, 20d -4.2%
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): rel vol 2.63x, close 0.315, 20d -26.7%
+- GOLD.TO (GOLDMINING INC): rel vol 2.55x, close 1.18, 20d -16.3%
+- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): rel vol 2.47x, close 1.34, 20d -23.0%
+
+## TSX: top gainers in latest intraday pass
+
+- REAL.TO (Real Matters): +0.9% at 3.33, volume pace 1.02x
+- CEMX.TO (CEMATRIX): -1.0% at 0.48, volume pace 0.99x
+- XTRA.TO (XTRACT ONE TECHNOLGIES INC): -1.9% at 0.52, volume pace 0.94x
+- PRL.TO (PROPEL HOLDINGS INC): -2.3% at 23.52, volume pace 1.27x
