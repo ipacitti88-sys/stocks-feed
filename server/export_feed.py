@@ -50,6 +50,21 @@ def collect():
                     FROM intraday_quotes q LEFT JOIN watchlist w ON w.ticker = q.ticker
                     WHERE q.trade_date = (SELECT MAX(trade_date) FROM intraday_quotes)""")
                 live = cur.fetchall()
+        breakouts = []
+        try:  # Breakout from a quiet base, C$0.50+: the signal that held up over 10 years
+            import signal_lab as sl
+            df = sl.add_indicators(sl.load_daily(conn, dt.date.today() - dt.timedelta(days=200)))
+            m = sl.signal_masks(df)["breakout"]
+            day = df["date"].max()
+            hit = df[m & df["tracked"] & (df["date"] == day) & df["close"].between(0.50, sl.MAX_PRICE)
+                     & (df["av20"] >= sl.MIN_LIQ) & (df["rn"] >= sl.MIN_HISTORY)]
+            breakouts = [dict(ticker=t, name=n, date=str(d), close=round(float(c), 4),
+                              rel_vol=round(float(v / a), 1) if a else None)
+                         for t, n, d, c, v, a in hit[["ticker", "name", "date", "close", "volume", "av20"]]
+                         .itertuples(index=False)]
+            breakouts.sort(key=lambda x: -(x["rel_vol"] or 0))
+        except Exception as e:
+            print(f"breakout scan failed: {e}", file=sys.stderr)
         try:
             import benchmarks
             bench = benchmarks.summary(conn)
@@ -83,7 +98,7 @@ def collect():
                 last_close_day=str(last_day) if last_day else None, tracked=tracked,
                 flagged=flagged, top_rel_volume=by_relvol,
                 live_as_of=live_as_of, rising=rising, top_gainers_today=gainers,
-                benchmarks=bench)
+                benchmarks=bench, breakouts=breakouts)
 
 
 PRICES_SQL = """
@@ -141,6 +156,10 @@ def to_markdown(f):
               + (f"; live {fmt(lv['pct_day'], '%')} at {lv['as_of'][11:16]}" if lv else "")]
     if f.get("benchmarks"):
         L += [""]
+    L += ["## Breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)", ""]
+    L += [f"- {b['ticker']} ({b['name']}): close {b['close']}, volume {fmt(b['rel_vol'], 'x')}"
+          for b in f.get("breakouts") or []] or ["- none"]
+    L += [""]
     L += ["## Flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)", ""]
     L += [f"- {s['ticker']} ({s['name']}): {s['signals']}/3, close {s['close']}, rel vol {fmt(s['rel_vol'], 'x')}, "
           f"20d {fmt(s['pct_20d'], '%')}, {fmt(s['from_52w_high'], '%')} vs 52w high" for s in f["flagged"]] or ["- none"]

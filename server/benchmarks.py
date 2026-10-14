@@ -77,6 +77,10 @@ def summary(conn):
              "chg_3m": change(s, 63), "chg_1y": change(s, 252),
              "chg_ytd": change(s, since=dt.date(last_d.year, 1, 1)),
              "dates": [str(d) for d, _ in s], "closes": [round(c, 2) for _, c in s]}
+        if len(s) >= 200:  # trend: above or below the 200-day average
+            ma = sum(c for _, c in s[-200:]) / 200
+            e["ma200"] = round(ma, 2)
+            e["above_ma200"] = last_c > ma
         lv = live.get(sym)
         if lv and lv[0] and lv[1] and lv[2] and lv[0].date() > last_d:
             e["live"] = {"as_of": lv[0].isoformat(), "last": round(lv[1], 2),
