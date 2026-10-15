@@ -1,22 +1,23 @@
-# Stock feed — 2026-10-15T14:01-06:00
+# Stock feed — 2026-10-15T15:25-06:00
 
-Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 621 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-15. Intraday data as of: 2026-10-15T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +1.9% at 20:00
-Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live +1.6% at 20:00
+Market: S&P/TSX Venture Composite 846.38 on 2026-10-15 (day +1.9%, month -6.1%, year -16.9%, downtrend)
+Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year +19.1%, uptrend)
 
 # TSX Venture
 
 ## TSX Venture: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)
 
-- PCU.V (PECOY COPPER CORP): close 1.93, volume 4.8x
+- none
 
 ## TSX Venture: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- PCU.V (PECOY COPPER CORP): 2/3, close 1.93, rel vol 4.77x, 20d +23.7%, -13.8% vs 52w high
-- CAM.V (CASCADIA MINERALS LTD): 2/3, close 0.45, rel vol 3.01x, 20d -3.2%, -18.2% vs 52w high
-- PESO.V (PESORAMA INC): 2/3, close 0.575, rel vol 2.12x, 20d +12.7%, -24.3% vs 52w high
-- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.26, rel vol 0.51x, 20d +5.0%, +0.0% vs 52w high
+- LVG.V (LAKE VICTORIA GOLD LTD): 3/3, close 0.385, rel vol 2.11x, 20d +28.3%, +0.0% vs 52w high
+- AXO.V (AXO METALS CORP): 2/3, close 1.03, rel vol 3.97x, 20d +0.0%, -11.2% vs 52w high
+- PCU.V (PECOY COPPER CORP): 2/3, close 1.89, rel vol 3.85x, 20d +20.4%, -15.6% vs 52w high
+- BRW.V (BRUNSWICK EXPLORATION INC): 2/3, close 0.24, rel vol 2.34x, 20d +71.4%, -36.8% vs 52w high
+- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.27, rel vol 0.5x, 20d +5.8%, +0.0% vs 52w high
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -29,16 +30,16 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: top by relative volume at last close
 
-- THX.V (THOR EXPLORATIONS LTD.): rel vol 5.94x, close 0.99, 20d -22.0%
-- PCU.V (PECOY COPPER CORP): rel vol 4.77x, close 1.93, 20d +23.7%
-- ECU.V (ELEMENT 29 RESOURCES INC): rel vol 3.23x, close 1.72, 20d -0.6%
-- XXIX.V (XXIX METAL CORP): rel vol 3.19x, close 0.165, 20d -15.4%
-- AGA.V (SILVER47 EXPLORATION CORP): rel vol 3.12x, close 0.55, 20d -17.9%
-- BRVO.V (BRAVO MINING CORP): rel vol 3.06x, close 2.3, 20d -24.3%
-- ZIGY.V (STARDUST METAL CORP): rel vol 3.06x, close 1.5, 20d -22.3%
-- CAM.V (CASCADIA MINERALS LTD): rel vol 3.01x, close 0.45, 20d -3.2%
-- LG.V (LAHONTAN GOLD CORP): rel vol 3.0x, close 0.345, 20d -6.8%
-- MLP.V (MILLENNIAL POTASH CORP): rel vol 2.98x, close 2.2, 20d -12.0%
+- XXIX.V (XXIX METAL CORP): rel vol 12.0x, close 0.16, 20d -17.9%
+- ECU.V (ELEMENT 29 RESOURCES INC): rel vol 11.82x, close 1.7, 20d -1.2%
+- NILI.V (SURGE BATTERY METALS INC): rel vol 9.03x, close 0.67, 20d -21.2%
+- LCX.V (LYCOS ENERGY INC): rel vol 4.0x, close 1.7, 20d -15.0%
+- AXO.V (AXO METALS CORP): rel vol 3.97x, close 1.03, 20d +0.0%
+- PCU.V (PECOY COPPER CORP): rel vol 3.85x, close 1.89, 20d +20.4%
+- LIFT.V (LI FT POWER LTD): rel vol 3.08x, close 1.9, 20d -16.3%
+- NEXM.V (NEXMETALS MINING CORP): rel vol 3.05x, close 2.07, 20d -35.5%
+- KRY.V (KORYX COPPER S A): rel vol 2.85x, close 3.2, 20d -7.5%
+- PML.V (PANORO MINERALS LTD): rel vol 2.66x, close 1.41, 20d -10.2%
 
 ## TSX Venture: top gainers in latest intraday pass
 
@@ -61,7 +62,9 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- CVVY.TO (CAVVY ENERGY LTD): 2/3, close 2.62, rel vol 0.95x, 20d +17.5%, +0.0% vs 52w high
+- DND.TO (DYE AND DURHAM LIMITED): 2/3, close 2.13, rel vol 2.38x, 20d +217.9%, -67.8% vs 52w high
+- RBY.TO (RUBELLITE ENERGY CORP): 2/3, close 4.68, rel vol 1.5x, 20d +8.6%, +0.0% vs 52w high
+- CVVY.TO (CAVVY ENERGY LTD): 2/3, close 2.65, rel vol 0.5x, 20d +18.3%, +0.0% vs 52w high
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -72,16 +75,16 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: top by relative volume at last close
 
-- AMAP.TO (AMAPA MINERALS HOLDINGS INC): rel vol 3.36x, close 1.04, 20d -3.7%
-- ARA.TO (ACLARA RESOURCES INC): rel vol 3.13x, close 2.95, 20d -16.2%
-- ELO.TO (ELORO RESOURCES LTD): rel vol 3.11x, close 1.35, 20d -21.5%
-- PTM.TO (PLATINUM GROUP METALS LTD.): rel vol 2.89x, close 1.57, 20d -17.8%
-- BSX.TO (BELO SUN MINING CORP): rel vol 2.83x, close 1.13, 20d -4.2%
-- GOLD.TO (GOLDMINING INC): rel vol 2.55x, close 1.18, 20d -16.3%
-- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): rel vol 2.47x, close 1.34, 20d -23.0%
-- AIDX.TO (HEALWELL AI INC): rel vol 2.12x, close 0.68, 20d -9.3%
-- FLT.TO (VOLATUS AEROSPACE INC): rel vol 2.05x, close 0.49, 20d -22.2%
-- TSK.TO (TALISKER RESOURCES LTD): rel vol 2.03x, close 0.94, 20d -31.9%
+- FSZ.TO (FIERA CAPITAL CORP): rel vol 6.72x, close 3.35, 20d -21.5%
+- FFM.TO (FIREFLY METALS LTD): rel vol 5.22x, close 1.35, 20d -20.1%
+- CIA.TO (CHAMPION IRON LIMITED): rel vol 4.7x, close 2.4, 20d -21.1%
+- LUC.TO (LUCARA DIAMOND CORP): rel vol 2.72x, close 0.135, 20d -25.0%
+- ANRG.TO (ANAERGIA INC): rel vol 2.45x, close 2.16, 20d -12.6%
+- DND.TO (DYE AND DURHAM LIMITED): rel vol 2.38x, close 2.13, 20d +217.9%
+- PMET.TO (PMET RESOURCES INC): rel vol 2.27x, close 3.41, 20d -17.6%
+- DML.TO (DENISON MINES CORP.): rel vol 2.17x, close 3.35, 20d -14.8%
+- NOU.TO (NOUVEAU MONDE GRAPHITE INC): rel vol 1.85x, close 1.39, 20d -26.1%
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): rel vol 1.76x, close 3.62, 20d -23.6%
 
 ## TSX: top gainers in latest intraday pass
 
