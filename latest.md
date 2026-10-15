@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-14T20:00-06:00
+# Stock feed — 2026-10-15T08:01-06:00
 
-Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-14T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T14:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend)
-Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend)
+Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +0.1% at 14:05
+Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live -0.3% at 14:05
 
 # TSX Venture
 
@@ -20,8 +20,8 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.9% today at 0.205, last 30m +13.9%, volume pace 4.63x, rising since 2026-10-14T18:50:00+00:00
-- NOW.V (NOWVERTICAL GROUP INC): +10.7% today at 0.155, last 30m +3.3%, volume pace 2.73x, rising since 2026-10-14T19:35:00+00:00
+- TIG.V (TRIUMPH GOLD CORP): +6.8% today at 0.79, last 30m +2.6%, volume pace 5.98x, rising since 2026-10-15T13:50:00+00:00
+- BIG.V (HERCULES METALS CORP): +4.0% today at 1.05, last 30m +2.9%, volume pace 2.26x, rising since 2026-10-15T13:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -38,16 +38,16 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- WGT.V (WESTGATE ENERGY INC): +23.7% at 0.235, volume pace 2.4x
-- MLP.V (MILLENNIAL POTASH CORP): +15.8% at 2.2, volume pace 11.07x
-- HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.9% at 0.205, volume pace 4.63x
-- LXM.V (LUX METALS CORP): +13.2% at 0.215, volume pace 29.55x
-- NSU.V (NORTH SHORE URANIUM LTD): +11.1% at 0.15, volume pace 1.07x
-- NOW.V (NOWVERTICAL GROUP INC): +10.7% at 0.155, volume pace 2.73x
-- LVG.V (LAKE VICTORIA GOLD LTD): +9.0% at 0.365, volume pace 0.7x
-- GMA.V (GEOMEGA RESOURCES INC): +8.7% at 0.25, volume pace 0.45x
-- TLT.V (THERALASE TECHNOLOGIES INC.): +5.6% at 0.19, volume pace 0.37x
-- PCRX.V (PHARMACORP RX INC): +5.0% at 0.42, volume pace 0.65x
+- BRW.V (BRUNSWICK EXPLORATION INC): +25.0% at 0.2, volume pace 3.84x
+- EDM.V (EDM RESOURCES INC): +14.8% at 0.62, volume pace 0.0x
+- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +14.8% at 0.155, volume pace 0.0x
+- WIL.V (WILTON RESOURCES INC): +14.0% at 0.285, volume pace 0.0x
+- BRO.V (BARKSDALE RESOURCES CORP): +11.3% at 0.295, volume pace 0.0x
+- NBVA.V (NUBEVA TECHNOLOGIES LTD): +11.1% at 0.2, volume pace 5.06x
+- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): +10.7% at 1.35, volume pace 6.35x
+- MCI.V (MINNOVA CORP): +9.7% at 0.17, volume pace 91.2x
+- NSU.V (NORTH SHORE URANIUM LTD): +9.7% at 0.17, volume pace 6.81x
+- CCMM.V (COYOTE COPPER MINES INC): +8.8% at 0.435, volume pace 11.7x
 
 # TSX
 
@@ -78,7 +78,13 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- REAL.TO (Real Matters): +0.9% at 3.33, volume pace 1.02x
-- CEMX.TO (CEMATRIX): -1.0% at 0.48, volume pace 0.99x
-- XTRA.TO (XTRACT ONE TECHNOLGIES INC): -1.9% at 0.52, volume pace 0.94x
-- PRL.TO (PROPEL HOLDINGS INC): -2.3% at 23.52, volume pace 1.27x
+- ESM.TO (EURO SUN MINING INC): +3.5% at 0.15, volume pace 0.0x
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): +3.2% at 0.325, volume pace 0.05x
+- AMC.TO (ARIZONA METALS CORP): +3.0% at 0.17, volume pace 0.0x
+- TRX.TO (TRX GOLD CORPORATION): +2.9% at 1.43, volume pace 0.41x
+- HMMC.TO (HEMLO MINING CORP): +2.9% at 5.03, volume pace 1.38x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +2.6% at 0.2, volume pace 0.0x
+- SVI.TO (STORAGEVAULT CANADA INC): +2.5% at 4.245, volume pace 0.32x
+- NEXT.TO (NEXTSOURCE MATERIALS INC): +2.1% at 0.24, volume pace 0.75x
+- CVO.TO (COVEO SOLUTIONS INC): +1.9% at 4.85, volume pace 1.24x
+- ALK.TO (ALKANE RESOURCES LIMITED): +1.8% at 1.68, volume pace 0.72x

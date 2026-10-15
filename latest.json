@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T20:00-06:00",
+ "generated": "2026-10-15T08:01-06:00",
  "last_close_day": "2026-10-14",
  "tracked": 586,
  "tracked_by_market": {
@@ -385,183 +385,249 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-14T20:00:00+00:00",
+ "live_as_of": "2026-10-15T14:05:00+00:00",
  "rising": [
   {
-   "ticker": "HEVI.V",
-   "name": "HELIUM EVOLUTION INCORPORATED",
-   "as_of": "2026-10-14T18:50:00+00:00",
-   "last": 0.205,
-   "pct_day": 13.89,
-   "pct_30m": 13.89,
-   "volume_pace": 4.63,
+   "ticker": "TIG.V",
+   "name": "TRIUMPH GOLD CORP",
+   "as_of": "2026-10-15T13:50:00+00:00",
+   "last": 0.79,
+   "pct_day": 6.76,
+   "pct_30m": 2.6,
+   "volume_pace": 5.98,
    "rising": true,
-   "rising_since": "2026-10-14T18:50:00+00:00"
+   "rising_since": "2026-10-15T13:50:00+00:00"
   },
   {
-   "ticker": "NOW.V",
-   "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T19:35:00+00:00",
-   "last": 0.155,
-   "pct_day": 10.71,
-   "pct_30m": 3.33,
-   "volume_pace": 2.73,
+   "ticker": "BIG.V",
+   "name": "HERCULES METALS CORP",
+   "as_of": "2026-10-15T13:55:00+00:00",
+   "last": 1.05,
+   "pct_day": 3.96,
+   "pct_30m": 2.94,
+   "volume_pace": 2.26,
    "rising": true,
-   "rising_since": "2026-10-14T19:35:00+00:00"
+   "rising_since": "2026-10-15T13:55:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
-   "ticker": "WGT.V",
-   "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-14T19:10:00+00:00",
-   "last": 0.235,
-   "pct_day": 23.68,
+   "ticker": "BRW.V",
+   "name": "BRUNSWICK EXPLORATION INC",
+   "as_of": "2026-10-15T13:50:00+00:00",
+   "last": 0.2,
+   "pct_day": 25.0,
    "pct_30m": 0.0,
-   "volume_pace": 2.4,
+   "volume_pace": 3.84,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "MLP.V",
-   "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-10-14T20:00:00+00:00",
-   "last": 2.2,
-   "pct_day": 15.79,
+   "ticker": "EDM.V",
+   "name": "EDM RESOURCES INC",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.62,
+   "pct_day": 14.81,
    "pct_30m": 0.0,
-   "volume_pace": 11.07,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "HEVI.V",
-   "name": "HELIUM EVOLUTION INCORPORATED",
-   "as_of": "2026-10-14T18:50:00+00:00",
-   "last": 0.205,
-   "pct_day": 13.89,
-   "pct_30m": 13.89,
-   "volume_pace": 4.63,
-   "rising": true,
-   "rising_since": "2026-10-14T18:50:00+00:00"
+   "ticker": "MANU.V",
+   "name": "MANHATTAN URANIUM DISCOVERY COR",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.155,
+   "pct_day": 14.81,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
   },
   {
-   "ticker": "LXM.V",
-   "name": "LUX METALS CORP",
-   "as_of": "2026-10-14T20:00:00+00:00",
-   "last": 0.215,
-   "pct_day": 13.16,
-   "pct_30m": -4.44,
-   "volume_pace": 29.55,
+   "ticker": "WIL.V",
+   "name": "WILTON RESOURCES INC",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.285,
+   "pct_day": 14.0,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BRO.V",
+   "name": "BARKSDALE RESOURCES CORP",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.295,
+   "pct_day": 11.32,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NBVA.V",
+   "name": "NUBEVA TECHNOLOGIES LTD",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.2,
+   "pct_day": 11.11,
+   "pct_30m": 8.11,
+   "volume_pace": 5.06,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CCDS.V",
+   "name": "CARRIER CONNECT DATA SOLUTIONS ",
+   "as_of": "2026-10-15T13:55:00+00:00",
+   "last": 1.35,
+   "pct_day": 10.66,
+   "pct_30m": 4.65,
+   "volume_pace": 6.35,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MCI.V",
+   "name": "MINNOVA CORP",
+   "as_of": "2026-10-15T14:00:00+00:00",
+   "last": 0.17,
+   "pct_day": 9.68,
+   "pct_30m": 9.68,
+   "volume_pace": 91.2,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "NSU.V",
    "name": "NORTH SHORE URANIUM LTD",
-   "as_of": "2026-10-14T19:00:00+00:00",
+   "as_of": "2026-10-15T13:40:00+00:00",
+   "last": 0.17,
+   "pct_day": 9.68,
+   "pct_30m": 13.33,
+   "volume_pace": 6.81,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CCMM.V",
+   "name": "COYOTE COPPER MINES INC",
+   "as_of": "2026-10-15T14:00:00+00:00",
+   "last": 0.435,
+   "pct_day": 8.75,
+   "pct_30m": 4.82,
+   "volume_pace": 11.7,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ESM.TO",
+   "name": "EURO SUN MINING INC",
+   "as_of": "2026-10-15T13:50:00+00:00",
    "last": 0.15,
-   "pct_day": 11.11,
-   "pct_30m": 7.14,
-   "volume_pace": 1.07,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NOW.V",
-   "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-10-14T19:35:00+00:00",
-   "last": 0.155,
-   "pct_day": 10.71,
-   "pct_30m": 3.33,
-   "volume_pace": 2.73,
-   "rising": true,
-   "rising_since": "2026-10-14T19:35:00+00:00"
-  },
-  {
-   "ticker": "LVG.V",
-   "name": "LAKE VICTORIA GOLD LTD",
-   "as_of": "2026-10-14T19:40:00+00:00",
-   "last": 0.365,
-   "pct_day": 8.96,
-   "pct_30m": -0.68,
-   "volume_pace": 0.7,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GMA.V",
-   "name": "GEOMEGA RESOURCES INC",
-   "as_of": "2026-10-14T18:15:00+00:00",
-   "last": 0.25,
-   "pct_day": 8.7,
-   "pct_30m": 2.04,
-   "volume_pace": 0.45,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TLT.V",
-   "name": "THERALASE TECHNOLOGIES INC.",
-   "as_of": "2026-10-14T19:40:00+00:00",
-   "last": 0.19,
-   "pct_day": 5.56,
+   "pct_day": 3.45,
    "pct_30m": 0.0,
-   "volume_pace": 0.37,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "PCRX.V",
-   "name": "PHARMACORP RX INC",
-   "as_of": "2026-10-14T19:20:00+00:00",
-   "last": 0.42,
-   "pct_day": 5.0,
-   "pct_30m": 5.0,
-   "volume_pace": 0.65,
+   "ticker": "SAM.TO",
+   "name": "STARCORE INTERNATIONAL MINES LT",
+   "as_of": "2026-10-15T13:40:00+00:00",
+   "last": 0.325,
+   "pct_day": 3.17,
+   "pct_30m": 1.56,
+   "volume_pace": 0.05,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "REAL.TO",
-   "name": "Real Matters",
-   "as_of": "2026-10-14T20:00:00+00:00",
-   "last": 3.33,
-   "pct_day": 0.91,
-   "pct_30m": 0.91,
-   "volume_pace": 1.02,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CEMX.TO",
-   "name": "CEMATRIX",
-   "as_of": "2026-10-14T19:55:00+00:00",
-   "last": 0.48,
-   "pct_day": -1.03,
-   "pct_30m": -1.03,
-   "volume_pace": 0.99,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "XTRA.TO",
-   "name": "XTRACT ONE TECHNOLGIES INC",
-   "as_of": "2026-10-14T20:00:00+00:00",
-   "last": 0.52,
-   "pct_day": -1.89,
+   "ticker": "AMC.TO",
+   "name": "ARIZONA METALS CORP",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.17,
+   "pct_day": 3.03,
    "pct_30m": 0.0,
-   "volume_pace": 0.94,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "PRL.TO",
-   "name": "PROPEL HOLDINGS INC",
-   "as_of": "2026-10-14T20:00:00+00:00",
-   "last": 23.52,
-   "pct_day": -2.33,
-   "pct_30m": 0.56,
-   "volume_pace": 1.27,
+   "ticker": "TRX.TO",
+   "name": "TRX GOLD CORPORATION",
+   "as_of": "2026-10-15T14:00:00+00:00",
+   "last": 1.43,
+   "pct_day": 2.88,
+   "pct_30m": -0.69,
+   "volume_pace": 0.41,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HMMC.TO",
+   "name": "HEMLO MINING CORP",
+   "as_of": "2026-10-15T14:00:00+00:00",
+   "last": 5.03,
+   "pct_day": 2.86,
+   "pct_30m": -0.4,
+   "volume_pace": 1.38,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BYL.TO",
+   "name": "BAYLIN TECHNOLOGIES INC",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.2,
+   "pct_day": 2.56,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SVI.TO",
+   "name": "STORAGEVAULT CANADA INC",
+   "as_of": "2026-10-15T13:55:00+00:00",
+   "last": 4.245,
+   "pct_day": 2.54,
+   "pct_30m": 2.29,
+   "volume_pace": 0.32,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NEXT.TO",
+   "name": "NEXTSOURCE MATERIALS INC",
+   "as_of": "2026-10-15T13:35:00+00:00",
+   "last": 0.24,
+   "pct_day": 2.13,
+   "pct_30m": 0.0,
+   "volume_pace": 0.75,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CVO.TO",
+   "name": "COVEO SOLUTIONS INC",
+   "as_of": "2026-10-15T14:05:00+00:00",
+   "last": 4.85,
+   "pct_day": 1.89,
+   "pct_30m": 0.83,
+   "volume_pace": 1.24,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ALK.TO",
+   "name": "ALKANE RESOURCES LIMITED",
+   "as_of": "2026-10-15T14:00:00+00:00",
+   "last": 1.68,
+   "pct_day": 1.82,
+   "pct_30m": 0.6,
+   "volume_pace": 0.72,
    "rising": false,
    "rising_since": null
   }
@@ -579,7 +645,6 @@
    "chg_1y": -15.34,
    "chg_ytd": -15.94,
    "dates": [
-    "2025-08-20",
     "2025-08-21",
     "2025-08-22",
     "2025-08-25",
@@ -870,7 +935,6 @@
     "2026-10-14"
    ],
    "closes": [
-    767.61,
     786.33,
     803.61,
     803.07,
@@ -1161,7 +1225,12 @@
     830.33
    ],
    "ma200": 978.01,
-   "above_ma200": false
+   "above_ma200": false,
+   "live": {
+    "as_of": "2026-10-15T14:05:00+00:00",
+    "last": 831.38,
+    "pct_day": 0.13
+   }
   },
   "^GSPTSE": {
    "name": "S&P/TSX Composite",
@@ -1175,7 +1244,6 @@
    "chg_1y": 19.21,
    "chg_ytd": 12.21,
    "dates": [
-    "2025-08-20",
     "2025-08-21",
     "2025-08-22",
     "2025-08-25",
@@ -1466,7 +1534,6 @@
     "2026-10-14"
    ],
    "closes": [
-    27878.8,
     28055.4,
     28333.1,
     28169.9,
@@ -1757,7 +1824,12 @@
     35584.46
    ],
    "ma200": 34356.24,
-   "above_ma200": true
+   "above_ma200": true,
+   "live": {
+    "as_of": "2026-10-15T14:05:00+00:00",
+    "last": 35466.53,
+    "pct_day": -0.33
+   }
   }
  },
  "breakouts": [
