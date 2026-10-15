@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-15T12:01-06:00
+# Stock feed — 2026-10-15T12:31-06:00
 
-Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T18:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T18:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +1.1% at 18:05
-Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live +1.1% at 18:05
+Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +1.2% at 18:35
+Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live +1.1% at 18:35
 
 # TSX Venture
 
@@ -20,7 +20,9 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- APGO.V (APOLLO SILVER CORP): +6.2% today at 2.38, last 30m +1.3%, volume pace 1.62x, rising since 2026-10-15T17:45:00+00:00
+- BRW.V (BRUNSWICK EXPLORATION INC): +53.1% today at 0.245, last 30m +2.1%, volume pace 1.61x, rising since 2026-10-15T18:30:00+00:00
+- AZT.V (AZTEC MINERALS CORP): +8.6% today at 0.38, last 30m +2.7%, volume pace 1.54x, rising since 2026-10-15T18:15:00+00:00
+- PESO.V (PESORAMA INC): +7.8% today at 0.62, last 30m +1.6%, volume pace 2.88x, rising since 2026-10-15T18:25:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -37,16 +39,16 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- BRW.V (BRUNSWICK EXPLORATION INC): +50.0% at 0.24, volume pace 1.6x
-- NBVA.V (NUBEVA TECHNOLOGIES LTD): +33.3% at 0.24, volume pace 2.44x
+- BRW.V (BRUNSWICK EXPLORATION INC): +53.1% at 0.245, volume pace 1.61x
+- NBVA.V (NUBEVA TECHNOLOGIES LTD): +33.3% at 0.24, volume pace 2.58x
 - CCMM.V (COYOTE COPPER MINES INC): +17.5% at 0.47, volume pace 2.96x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.1% at 0.18, volume pace 1.94x
-- MERG.V (METAL ENERGY CORP): +15.5% at 0.4275, volume pace 0.13x
-- IMR.V (IMETAL RESOURCES INC): +15.2% at 0.19, volume pace 0.45x
-- DYG.V (DYNASTY GOLD CORP.): +14.3% at 0.12, volume pace 4.26x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.1% at 0.18, volume pace 2.15x
+- IMR.V (IMETAL RESOURCES INC): +15.2% at 0.19, volume pace 0.47x
+- MERG.V (METAL ENERGY CORP): +14.9% at 0.425, volume pace 0.19x
 - WIL.V (WILTON RESOURCES INC): +14.0% at 0.285, volume pace 0.0x
 - GSPR.V (GSP RESOURCE CORP): +11.1% at 0.1, volume pace 0.56x
-- FPX.V (FPX NICKEL CORP): +10.9% at 0.305, volume pace 0.51x
+- NSU.V (NORTH SHORE URANIUM LTD): +9.7% at 0.17, volume pace 1.5x
+- FUU.V (F3 URANIUM CORP): +9.5% at 0.115, volume pace 0.97x
 
 # TSX
 
@@ -60,8 +62,7 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- DND.TO (DYE AND DURHAM LIMITED): +6.6% today at 1.95, last 30m +0.5%, volume pace 2.7x, rising since 2026-10-15T17:00:00+00:00
-- VGZ.TO (VISTA GOLD CORP): +4.4% today at 3.78, last 30m +0.3%, volume pace 2.33x, rising since 2026-10-15T18:05:00+00:00
+- VGZ.TO (VISTA GOLD CORP): +4.7% today at 3.79, last 30m +0.5%, volume pace 2.34x, rising since 2026-10-15T18:05:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -78,13 +79,13 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ARN.TO (ASARIAN ENERGY LIMITED): +16.7% at 0.42, volume pace 1.68x
-- NFGC.TO (NEW FOUND GOLD CORP): +10.8% at 2.25, volume pace 1.16x
-- THNC.TO (THINKIFIC LABS INC): +8.7% at 2.25, volume pace 0.57x
-- HMMC.TO (HEMLO MINING CORP): +7.8% at 5.27, volume pace 1.34x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +7.7% at 0.35, volume pace 0.79x
-- TRX.TO (TRX GOLD CORPORATION): +7.2% at 1.49, volume pace 0.47x
-- GLO.TO (GLOBAL ATOMIC CORPORATION): +6.7% at 0.3575, volume pace 0.83x
-- URE.TO (UR-ENERGY INC.): +6.7% at 1.27, volume pace 1.0x
-- LAC.TO (LITHIUM AMERICAS CORP): +6.6% at 3.165, volume pace 1.05x
-- DND.TO (DYE AND DURHAM LIMITED): +6.6% at 1.95, volume pace 2.7x
+- ARN.TO (ASARIAN ENERGY LIMITED): +16.7% at 0.42, volume pace 1.69x
+- NFGC.TO (NEW FOUND GOLD CORP): +9.8% at 2.23, volume pace 1.13x
+- HMMC.TO (HEMLO MINING CORP): +8.6% at 5.31, volume pace 1.27x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +7.7% at 0.35, volume pace 0.8x
+- GLO.TO (GLOBAL ATOMIC CORPORATION): +7.5% at 0.36, volume pace 0.76x
+- THNC.TO (THINKIFIC LABS INC): +7.2% at 2.22, volume pace 0.61x
+- TRX.TO (TRX GOLD CORPORATION): +7.2% at 1.49, volume pace 0.44x
+- DND.TO (DYE AND DURHAM LIMITED): +6.6% at 1.95, volume pace 2.58x
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +6.4% at 3.01, volume pace 1.06x
+- URE.TO (UR-ENERGY INC.): +6.3% at 1.265, volume pace 0.98x

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T12:01-06:00",
+ "generated": "2026-10-15T12:31-06:00",
  "last_close_day": "2026-10-14",
  "tracked": 586,
  "tracked_by_market": {
@@ -385,38 +385,49 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-15T18:05:00+00:00",
+ "live_as_of": "2026-10-15T18:35:00+00:00",
  "rising": [
   {
-   "ticker": "DND.TO",
-   "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 1.95,
-   "pct_day": 6.56,
-   "pct_30m": 0.52,
-   "volume_pace": 2.7,
+   "ticker": "BRW.V",
+   "name": "BRUNSWICK EXPLORATION INC",
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 0.245,
+   "pct_day": 53.13,
+   "pct_30m": 2.08,
+   "volume_pace": 1.61,
    "rising": true,
-   "rising_since": "2026-10-15T17:00:00+00:00"
+   "rising_since": "2026-10-15T18:30:00+00:00"
   },
   {
-   "ticker": "APGO.V",
-   "name": "APOLLO SILVER CORP",
-   "as_of": "2026-10-15T17:45:00+00:00",
-   "last": 2.38,
-   "pct_day": 6.25,
-   "pct_30m": 1.28,
-   "volume_pace": 1.62,
+   "ticker": "AZT.V",
+   "name": "AZTEC MINERALS CORP",
+   "as_of": "2026-10-15T18:15:00+00:00",
+   "last": 0.38,
+   "pct_day": 8.57,
+   "pct_30m": 2.7,
+   "volume_pace": 1.54,
    "rising": true,
-   "rising_since": "2026-10-15T17:45:00+00:00"
+   "rising_since": "2026-10-15T18:15:00+00:00"
+  },
+  {
+   "ticker": "PESO.V",
+   "name": "PESORAMA INC",
+   "as_of": "2026-10-15T18:25:00+00:00",
+   "last": 0.62,
+   "pct_day": 7.83,
+   "pct_30m": 1.64,
+   "volume_pace": 2.88,
+   "rising": true,
+   "rising_since": "2026-10-15T18:25:00+00:00"
   },
   {
    "ticker": "VGZ.TO",
    "name": "VISTA GOLD CORP",
-   "as_of": "2026-10-15T18:05:00+00:00",
-   "last": 3.78,
-   "pct_day": 4.42,
-   "pct_30m": 0.27,
-   "volume_pace": 2.33,
+   "as_of": "2026-10-15T18:25:00+00:00",
+   "last": 3.79,
+   "pct_day": 4.7,
+   "pct_30m": 0.53,
+   "volume_pace": 2.34,
    "rising": true,
    "rising_since": "2026-10-15T18:05:00+00:00"
   }
@@ -425,22 +436,22 @@
   {
    "ticker": "BRW.V",
    "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 0.24,
-   "pct_day": 50.0,
-   "pct_30m": 0.0,
-   "volume_pace": 1.6,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 0.245,
+   "pct_day": 53.13,
+   "pct_30m": 2.08,
+   "volume_pace": 1.61,
+   "rising": true,
+   "rising_since": "2026-10-15T18:30:00+00:00"
   },
   {
    "ticker": "NBVA.V",
    "name": "NUBEVA TECHNOLOGIES LTD",
-   "as_of": "2026-10-15T18:00:00+00:00",
+   "as_of": "2026-10-15T18:05:00+00:00",
    "last": 0.24,
    "pct_day": 33.33,
    "pct_30m": 0.0,
-   "volume_pace": 2.44,
+   "volume_pace": 2.58,
    "rising": false,
    "rising_since": null
   },
@@ -458,22 +469,11 @@
   {
    "ticker": "SME.V",
    "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-10-15T18:00:00+00:00",
+   "as_of": "2026-10-15T18:20:00+00:00",
    "last": 0.18,
    "pct_day": 16.13,
    "pct_30m": 5.88,
-   "volume_pace": 1.94,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MERG.V",
-   "name": "METAL ENERGY CORP",
-   "as_of": "2026-10-15T17:50:00+00:00",
-   "last": 0.4275,
-   "pct_day": 15.54,
-   "pct_30m": 4.27,
-   "volume_pace": 0.13,
+   "volume_pace": 2.15,
    "rising": false,
    "rising_since": null
   },
@@ -484,18 +484,18 @@
    "last": 0.19,
    "pct_day": 15.15,
    "pct_30m": 2.7,
-   "volume_pace": 0.45,
+   "volume_pace": 0.47,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "DYG.V",
-   "name": "DYNASTY GOLD CORP.",
-   "as_of": "2026-10-15T16:30:00+00:00",
-   "last": 0.12,
-   "pct_day": 14.29,
-   "pct_30m": -7.69,
-   "volume_pace": 4.26,
+   "ticker": "MERG.V",
+   "name": "METAL ENERGY CORP",
+   "as_of": "2026-10-15T18:20:00+00:00",
+   "last": 0.425,
+   "pct_day": 14.86,
+   "pct_30m": -0.58,
+   "volume_pace": 0.19,
    "rising": false,
    "rising_since": null
   },
@@ -522,13 +522,24 @@
    "rising_since": null
   },
   {
-   "ticker": "FPX.V",
-   "name": "FPX NICKEL CORP",
-   "as_of": "2026-10-15T16:25:00+00:00",
-   "last": 0.305,
-   "pct_day": 10.91,
-   "pct_30m": 1.67,
-   "volume_pace": 0.51,
+   "ticker": "NSU.V",
+   "name": "NORTH SHORE URANIUM LTD",
+   "as_of": "2026-10-15T15:55:00+00:00",
+   "last": 0.17,
+   "pct_day": 9.68,
+   "pct_30m": 0.0,
+   "volume_pace": 1.5,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FUU.V",
+   "name": "F3 URANIUM CORP",
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 0.115,
+   "pct_day": 9.52,
+   "pct_30m": 0.0,
+   "volume_pace": 0.97,
    "rising": false,
    "rising_since": null
   },
@@ -539,40 +550,29 @@
    "last": 0.42,
    "pct_day": 16.67,
    "pct_30m": -2.33,
-   "volume_pace": 1.68,
+   "volume_pace": 1.69,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "NFGC.TO",
    "name": "NEW FOUND GOLD CORP",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 2.25,
-   "pct_day": 10.84,
-   "pct_30m": 0.45,
-   "volume_pace": 1.16,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "THNC.TO",
-   "name": "THINKIFIC LABS INC",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 2.25,
-   "pct_day": 8.7,
-   "pct_30m": 6.64,
-   "volume_pace": 0.57,
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 2.23,
+   "pct_day": 9.85,
+   "pct_30m": -0.89,
+   "volume_pace": 1.13,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HMMC.TO",
    "name": "HEMLO MINING CORP",
-   "as_of": "2026-10-15T18:05:00+00:00",
-   "last": 5.27,
-   "pct_day": 7.77,
-   "pct_30m": 0.19,
-   "volume_pace": 1.34,
+   "as_of": "2026-10-15T18:35:00+00:00",
+   "last": 5.31,
+   "pct_day": 8.59,
+   "pct_30m": 1.14,
+   "volume_pace": 1.27,
    "rising": false,
    "rising_since": null
   },
@@ -583,64 +583,75 @@
    "last": 0.35,
    "pct_day": 7.69,
    "pct_30m": 0.0,
-   "volume_pace": 0.79,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TRX.TO",
-   "name": "TRX GOLD CORPORATION",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 1.49,
-   "pct_day": 7.19,
-   "pct_30m": 0.0,
-   "volume_pace": 0.47,
+   "volume_pace": 0.8,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GLO.TO",
    "name": "GLOBAL ATOMIC CORPORATION",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 0.3575,
-   "pct_day": 6.72,
-   "pct_30m": -0.69,
-   "volume_pace": 0.83,
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 0.36,
+   "pct_day": 7.46,
+   "pct_30m": 0.7,
+   "volume_pace": 0.76,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "URE.TO",
-   "name": "UR-ENERGY INC.",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 1.27,
-   "pct_day": 6.72,
-   "pct_30m": 0.0,
-   "volume_pace": 1.0,
+   "ticker": "THNC.TO",
+   "name": "THINKIFIC LABS INC",
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 2.22,
+   "pct_day": 7.25,
+   "pct_30m": -1.33,
+   "volume_pace": 0.61,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "LAC.TO",
-   "name": "LITHIUM AMERICAS CORP",
-   "as_of": "2026-10-15T18:00:00+00:00",
-   "last": 3.165,
-   "pct_day": 6.57,
+   "ticker": "TRX.TO",
+   "name": "TRX GOLD CORPORATION",
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 1.49,
+   "pct_day": 7.19,
    "pct_30m": 0.0,
-   "volume_pace": 1.05,
+   "volume_pace": 0.44,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-10-15T18:00:00+00:00",
+   "as_of": "2026-10-15T18:30:00+00:00",
    "last": 1.95,
    "pct_day": 6.56,
-   "pct_30m": 0.52,
-   "volume_pace": 2.7,
-   "rising": true,
-   "rising_since": "2026-10-15T17:00:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 2.58,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ITH.TO",
+   "name": "INTERNATIONAL TOWER HILL MINES ",
+   "as_of": "2026-10-15T18:30:00+00:00",
+   "last": 3.01,
+   "pct_day": 6.36,
+   "pct_30m": 0.0,
+   "volume_pace": 1.06,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "URE.TO",
+   "name": "UR-ENERGY INC.",
+   "as_of": "2026-10-15T18:15:00+00:00",
+   "last": 1.265,
+   "pct_day": 6.3,
+   "pct_30m": -0.78,
+   "volume_pace": 0.98,
+   "rising": false,
+   "rising_since": null
   }
  ],
  "benchmarks": {
@@ -1238,9 +1249,9 @@
    "ma200": 978.01,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-15T18:05:00+00:00",
-    "last": 839.54,
-    "pct_day": 1.11
+    "as_of": "2026-10-15T18:35:00+00:00",
+    "last": 840.09,
+    "pct_day": 1.18
    }
   },
   "^GSPTSE": {
@@ -1837,9 +1848,9 @@
    "ma200": 34356.24,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-15T18:05:00+00:00",
-    "last": 35964.56,
-    "pct_day": 1.07
+    "as_of": "2026-10-15T18:35:00+00:00",
+    "last": 35975.15,
+    "pct_day": 1.1
    }
   }
  },
