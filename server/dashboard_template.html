@@ -587,9 +587,31 @@ if (!DATA) {
   renderRising();
   renderFlagged();
   renderTable();
-  const first = DATA.stocks.filter(isRising).sort((a, b) => (b.pd ?? 0) - (a.pd ?? 0))[0] || DATA.stocks.filter(isFlagged).sort((a, b) => b.s - a.s)[0] || DATA.stocks.slice().sort((a, b) => (b.rv ?? 0) - (a.rv ?? 0))[0];
+  let keep = null;
+  try { keep = sessionStorage.getItem('sel'); } catch (e) {}
+  const kept = keep && DATA.stocks.find((s) => s.t === keep);
+  const first = kept || DATA.stocks.filter(isRising).sort((a, b) => (b.pd ?? 0) - (a.pd ?? 0))[0] || DATA.stocks.filter(isFlagged).sort((a, b) => b.s - a.s)[0] || DATA.stocks.slice().sort((a, b) => (b.rv ?? 0) - (a.rv ?? 0))[0];
   if (first) select(first.t, false);
+  if (kept) { try { const y = +sessionStorage.getItem('scrollY'); if (y) window.scrollTo(0, y); } catch (e) {} }
 }
+
+// ---------- auto-refresh while the market is open (the server rebuilds this page every 5 minutes) ----------
+(function () {
+  const open = () => {
+    const p = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Toronto', weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(new Date());
+    const o = {}; p.forEach((x) => { o[x.type] = x.value; });
+    const m = (+o.hour % 24) * 60 + (+o.minute);
+    return !['Sat', 'Sun'].includes(o.weekday) && m >= 570 && m <= 975;
+  };
+  setInterval(() => {
+    if (!open() || document.hidden) return;
+    const busy = document.activeElement && ['INPUT', 'SELECT', 'TEXTAREA'].includes(document.activeElement.tagName);
+    if (busy) return;
+    try { if (current) sessionStorage.setItem('sel', current); sessionStorage.setItem('scrollY', String(window.scrollY)); } catch (e) {}
+    location.reload();
+  }, 5 * 60 * 1000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden && open() && DATA && DATA.generated && Date.now() - new Date(DATA.generated).getTime() > 6 * 60 * 1000) { try { if (current) sessionStorage.setItem('sel', current); } catch (e) {} location.reload(); } });
+})();
 </script>
 </body>
 </html>

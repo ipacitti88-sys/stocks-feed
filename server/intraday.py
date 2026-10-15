@@ -257,7 +257,9 @@ def main() -> int:
 
     import dashboard
     rc = dashboard.main()
-    if (Path.home() / "stocks-feed" / ".git").exists():
+    # the webpage updates every pass (5 min); the GitHub feed only every 30 min and at the close
+    push = now_et.minute % 30 < 5 or market_minutes(now_et) >= SESSION_MIN or args.force
+    if push and (Path.home() / "stocks-feed" / ".git").exists():
         import export_feed
         export_feed.main()
     return rc

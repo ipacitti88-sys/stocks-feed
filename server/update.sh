@@ -20,7 +20,7 @@ chmod +x "$APP"/run_*.sh
 
 echo "== Checking the schedule"
 DAILY="15 15 * * 1-5 $APP/run_daily.sh"
-INTRA="*/30 * * * 1-5 $APP/run_intraday.sh"
+INTRA="*/5 * * * 1-5 $APP/run_intraday.sh"
 WEEKLY="0 8 * * 6 $APP/run_weekly.sh"
 ( { crontab -l 2>/dev/null || true; } | { grep -v -E "stocks/run_(daily|intraday|weekly).sh" || true; } ; echo "$DAILY"; echo "$INTRA"; echo "$WEEKLY" ) | crontab -
 

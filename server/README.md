@@ -16,7 +16,7 @@ The scanner only flags stocks trading enough **dollars** a day (20-day average v
 
 | When (server time) | Script | What it does |
 |---|---|---|
-| Weekdays, every 30 min | run_intraday.sh | Live scan, Rising flags (logged to `rising_log`), dashboard, feed |
+| Weekdays, every 5 min | run_intraday.sh | Live scan, Rising flags (logged to `rising_log`), webpage; GitHub feed every 30 min |
 | Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, save 5-minute bars, dashboard, feed |
 | Saturday 8:00 am | run_weekly.sh | New listings, pattern study (`patterns.json`), signal lab (`signal_lab.json`) |
 
