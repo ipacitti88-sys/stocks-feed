@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-15T13:31-06:00
+# Stock feed — 2026-10-15T14:01-06:00
 
-Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +1.8% at 19:35
-Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live +1.4% at 19:35
+Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +1.9% at 20:00
+Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live +1.6% at 20:00
 
 # TSX Venture
 
@@ -20,10 +20,12 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TIG.V (TRIUMPH GOLD CORP): +4.7% today at 0.775, last 30m +0.7%, volume pace 1.61x, rising since 2026-10-15T19:00:00+00:00
-- LIFT.V (LI FT POWER LTD): +4.7% today at 1.78, last 30m +4.7%, volume pace 4.79x, rising since 2026-10-15T19:30:00+00:00
-- GRSL.V (GR SILVER MINING LTD): +3.7% today at 0.28, last 30m +2.8%, volume pace 1.53x, rising since 2026-10-15T19:30:00+00:00
-- TIGR.V (TIGER GOLD CORP): +3.2% today at 0.65, last 30m +3.2%, volume pace 1.7x, rising since 2026-10-15T19:30:00+00:00
+- AMT.V (AMERITRUST FINANCIAL TECHNOLOGI): +14.3% today at 0.16, last 30m +3.2%, volume pace 4.82x, rising since 2026-10-15T20:00:00+00:00
+- LIFT.V (LI FT POWER LTD): +10.0% today at 1.87, last 30m +5.1%, volume pace 4.87x, rising since 2026-10-15T19:30:00+00:00
+- LVG.V (LAKE VICTORIA GOLD LTD): +5.5% today at 0.385, last 30m +2.7%, volume pace 2.31x, rising since 2026-10-15T19:55:00+00:00
+- ANDC.V (ANDINA COPPER CORPORATION): +5.0% today at 1.04, last 30m +0.5%, volume pace 1.68x, rising since 2026-10-15T19:55:00+00:00
+- SSV.V (SOUTHERN SILVER EXPLORATION COR): +4.7% today at 0.445, last 30m +1.1%, volume pace 1.59x, rising since 2026-10-15T20:00:00+00:00
+- ITR.V (INTEGRA RESOURCES CORP): +3.3% today at 3.41, last 30m +0.3%, volume pace 2.39x, rising since 2026-10-15T20:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -40,16 +42,16 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- BRW.V (BRUNSWICK EXPLORATION INC): +53.1% at 0.245, volume pace 1.63x
-- NBVA.V (NUBEVA TECHNOLOGIES LTD): +22.2% at 0.22, volume pace 2.03x
-- LXE.V (LATIN EXPLORE INC): +16.3% at 0.25, volume pace 0.13x
-- CCMM.V (COYOTE COPPER MINES INC): +16.2% at 0.465, volume pace 2.52x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.1% at 0.18, volume pace 2.29x
+- BRW.V (BRUNSWICK EXPLORATION INC): +50.0% at 0.24, volume pace 1.86x
+- NBVA.V (NUBEVA TECHNOLOGIES LTD): +30.6% at 0.235, volume pace 1.9x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +19.4% at 0.185, volume pace 2.05x
+- LXE.V (LATIN EXPLORE INC): +16.3% at 0.25, volume pace 0.36x
 - IMR.V (IMETAL RESOURCES INC): +15.2% at 0.19, volume pace 0.84x
-- MERG.V (METAL ENERGY CORP): +14.9% at 0.425, volume pace 1.96x
-- FUU.V (F3 URANIUM CORP): +14.3% at 0.12, volume pace 0.89x
-- WIL.V (WILTON RESOURCES INC): +14.0% at 0.285, volume pace 0.0x
-- RDU.V (RADIUS GOLD INC.): +11.1% at 0.25, volume pace 1.42x
+- CCMM.V (COYOTE COPPER MINES INC): +15.0% at 0.46, volume pace 2.11x
+- MERG.V (METAL ENERGY CORP): +14.9% at 0.425, volume pace 1.97x
+- AMT.V (AMERITRUST FINANCIAL TECHNOLOGI): +14.3% at 0.16, volume pace 4.82x
+- JTWO.V (J2 METALS INC): +13.0% at 0.13, volume pace 0.0x
+- COSA.V (COSA RESOURCES CORP): +11.6% at 0.385, volume pace 0.25x
 
 # TSX
 
@@ -63,9 +65,10 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- DND.TO (DYE AND DURHAM LIMITED): +10.9% today at 2.03, last 30m +1.0%, volume pace 2.45x, rising since 2026-10-15T19:00:00+00:00
-- DML.TO (DENISON MINES CORP.): +7.6% today at 3.315, last 30m +0.1%, volume pace 1.93x, rising since 2026-10-15T19:00:00+00:00
-- TI.TO (TITAN MINING CORPORATION): +5.9% today at 2.89, last 30m +0.7%, volume pace 2.04x, rising since 2026-10-15T19:00:00+00:00
+- DND.TO (DYE AND DURHAM LIMITED): +16.4% today at 2.13, last 30m +4.9%, volume pace 2.52x, rising since 2026-10-15T19:00:00+00:00
+- DML.TO (DENISON MINES CORP.): +8.4% today at 3.34, last 30m +0.6%, volume pace 2.02x, rising since 2026-10-15T19:00:00+00:00
+- VGZ.TO (VISTA GOLD CORP): +5.9% today at 3.835, last 30m +0.1%, volume pace 2.2x, rising since 2026-10-15T20:00:00+00:00
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +4.0% today at 4.73, last 30m +2.2%, volume pace 2.35x, rising since 2026-10-15T20:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -82,13 +85,13 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ARN.TO (ASARIAN ENERGY LIMITED): +11.1% at 0.4, volume pace 1.41x
-- DND.TO (DYE AND DURHAM LIMITED): +10.9% at 2.03, volume pace 2.45x
-- HMMC.TO (HEMLO MINING CORP): +9.8% at 5.37, volume pace 1.24x
-- NFGC.TO (NEW FOUND GOLD CORP): +9.4% at 2.22, volume pace 1.0x
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +8.8% at 3.08, volume pace 1.08x
-- GLO.TO (GLOBAL ATOMIC CORPORATION): +8.2% at 0.3625, volume pace 0.64x
-- THNC.TO (THINKIFIC LABS INC): +8.2% at 2.24, volume pace 0.53x
-- TRX.TO (TRX GOLD CORPORATION): +7.9% at 1.5, volume pace 0.42x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +7.7% at 0.35, volume pace 0.8x
-- DML.TO (DENISON MINES CORP.): +7.6% at 3.315, volume pace 1.93x
+- DND.TO (DYE AND DURHAM LIMITED): +16.4% at 2.13, volume pace 2.52x
+- GLO.TO (GLOBAL ATOMIC CORPORATION): +10.4% at 0.37, volume pace 0.8x
+- ARN.TO (ASARIAN ENERGY LIMITED): +9.7% at 0.395, volume pace 1.25x
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +9.5% at 3.1, volume pace 1.43x
+- NFGC.TO (NEW FOUND GOLD CORP): +9.4% at 2.22, volume pace 1.11x
+- HMMC.TO (HEMLO MINING CORP): +9.0% at 5.33, volume pace 1.5x
+- TRX.TO (TRX GOLD CORPORATION): +8.6% at 1.51, volume pace 0.43x
+- DML.TO (DENISON MINES CORP.): +8.4% at 3.34, volume pace 2.02x
+- LAC.TO (LITHIUM AMERICAS CORP): +7.4% at 3.19, volume pace 1.14x
+- GAU.TO (GALIANO GOLD INC): +7.3% at 3.09, volume pace 0.97x
