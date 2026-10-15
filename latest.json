@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T08:01-06:00",
+ "generated": "2026-10-15T08:31-06:00",
  "last_close_day": "2026-10-14",
  "tracked": 586,
  "tracked_by_market": {
@@ -385,51 +385,128 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-15T14:05:00+00:00",
+ "live_as_of": "2026-10-15T14:35:00+00:00",
  "rising": [
   {
-   "ticker": "TIG.V",
-   "name": "TRIUMPH GOLD CORP",
-   "as_of": "2026-10-15T13:50:00+00:00",
-   "last": 0.79,
-   "pct_day": 6.76,
-   "pct_30m": 2.6,
-   "volume_pace": 5.98,
+   "ticker": "LIFT.V",
+   "name": "LI FT POWER LTD",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 1.85,
+   "pct_day": 8.82,
+   "pct_30m": 8.19,
+   "volume_pace": 4.97,
    "rising": true,
-   "rising_since": "2026-10-15T13:50:00+00:00"
+   "rising_since": "2026-10-15T14:30:00+00:00"
   },
   {
-   "ticker": "BIG.V",
-   "name": "HERCULES METALS CORP",
-   "as_of": "2026-10-15T13:55:00+00:00",
-   "last": 1.05,
-   "pct_day": 3.96,
-   "pct_30m": 2.94,
-   "volume_pace": 2.26,
+   "ticker": "ANDC.V",
+   "name": "ANDINA COPPER CORPORATION",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 1.035,
+   "pct_day": 4.55,
+   "pct_30m": 3.5,
+   "volume_pace": 3.29,
    "rising": true,
-   "rising_since": "2026-10-15T13:55:00+00:00"
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "PESO.V",
+   "name": "PESORAMA INC",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 0.6,
+   "pct_day": 4.35,
+   "pct_30m": 1.69,
+   "volume_pace": 1.57,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "APGO.V",
+   "name": "APOLLO SILVER CORP",
+   "as_of": "2026-10-15T14:25:00+00:00",
+   "last": 2.33,
+   "pct_day": 4.02,
+   "pct_30m": 1.3,
+   "volume_pace": 1.71,
+   "rising": true,
+   "rising_since": "2026-10-15T14:25:00+00:00"
+  },
+  {
+   "ticker": "NFGC.TO",
+   "name": "NEW FOUND GOLD CORP",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 2.11,
+   "pct_day": 3.94,
+   "pct_30m": 2.68,
+   "volume_pace": 1.55,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "ITH.TO",
+   "name": "INTERNATIONAL TOWER HILL MINES ",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 2.94,
+   "pct_day": 3.89,
+   "pct_30m": 2.8,
+   "volume_pace": 2.65,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "SALT.V",
+   "name": "ATLAS SALT INC",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 1.4,
+   "pct_day": 3.7,
+   "pct_30m": 0.72,
+   "volume_pace": 6.81,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "DML.TO",
+   "name": "DENISON MINES CORP.",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 3.18,
+   "pct_day": 3.25,
+   "pct_30m": 4.61,
+   "volume_pace": 2.07,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "LAC.TO",
+   "name": "LITHIUM AMERICAS CORP",
+   "as_of": "2026-10-15T14:35:00+00:00",
+   "last": 3.065,
+   "pct_day": 3.2,
+   "pct_30m": 4.25,
+   "volume_pace": 1.97,
+   "rising": true,
+   "rising_since": "2026-10-15T14:35:00+00:00"
+  },
+  {
+   "ticker": "BRVO.V",
+   "name": "BRAVO MINING CORP",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 2.37,
+   "pct_day": 3.04,
+   "pct_30m": 2.16,
+   "volume_pace": 1.75,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "BRW.V",
    "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-10-15T13:50:00+00:00",
-   "last": 0.2,
-   "pct_day": 25.0,
-   "pct_30m": 0.0,
-   "volume_pace": 3.84,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "EDM.V",
-   "name": "EDM RESOURCES INC",
-   "as_of": "2026-10-15T13:35:00+00:00",
-   "last": 0.62,
-   "pct_day": 14.81,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 0.195,
+   "pct_day": 21.87,
+   "pct_30m": -2.5,
+   "volume_pace": 2.57,
    "rising": false,
    "rising_since": null
   },
@@ -456,6 +533,39 @@
    "rising_since": null
   },
   {
+   "ticker": "NBVA.V",
+   "name": "NUBEVA TECHNOLOGIES LTD",
+   "as_of": "2026-10-15T14:15:00+00:00",
+   "last": 0.205,
+   "pct_day": 13.89,
+   "pct_30m": 2.5,
+   "volume_pace": 6.39,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CCMM.V",
+   "name": "COYOTE COPPER MINES INC",
+   "as_of": "2026-10-15T14:25:00+00:00",
+   "last": 0.45,
+   "pct_day": 12.5,
+   "pct_30m": 3.45,
+   "volume_pace": 7.38,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "WAM.V",
+   "name": "ALASKA SILVER CORP",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 0.56,
+   "pct_day": 12.0,
+   "pct_30m": 3.7,
+   "volume_pace": 1.85,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "BRO.V",
    "name": "BARKSDALE RESOURCES CORP",
    "as_of": "2026-10-15T13:35:00+00:00",
@@ -467,35 +577,13 @@
    "rising_since": null
   },
   {
-   "ticker": "NBVA.V",
-   "name": "NUBEVA TECHNOLOGIES LTD",
-   "as_of": "2026-10-15T13:35:00+00:00",
-   "last": 0.2,
-   "pct_day": 11.11,
-   "pct_30m": 8.11,
-   "volume_pace": 5.06,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CCDS.V",
-   "name": "CARRIER CONNECT DATA SOLUTIONS ",
-   "as_of": "2026-10-15T13:55:00+00:00",
-   "last": 1.35,
-   "pct_day": 10.66,
-   "pct_30m": 4.65,
-   "volume_pace": 6.35,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "MCI.V",
    "name": "MINNOVA CORP",
-   "as_of": "2026-10-15T14:00:00+00:00",
+   "as_of": "2026-10-15T14:10:00+00:00",
    "last": 0.17,
    "pct_day": 9.68,
    "pct_30m": 9.68,
-   "volume_pace": 91.2,
+   "volume_pace": 72.53,
    "rising": false,
    "rising_since": null
   },
@@ -511,15 +599,70 @@
    "rising_since": null
   },
   {
-   "ticker": "CCMM.V",
-   "name": "COYOTE COPPER MINES INC",
-   "as_of": "2026-10-15T14:00:00+00:00",
-   "last": 0.435,
-   "pct_day": 8.75,
-   "pct_30m": 4.82,
-   "volume_pace": 11.7,
+   "ticker": "LIFT.V",
+   "name": "LI FT POWER LTD",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 1.85,
+   "pct_day": 8.82,
+   "pct_30m": 8.19,
+   "volume_pace": 4.97,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "HMMC.TO",
+   "name": "HEMLO MINING CORP",
+   "as_of": "2026-10-15T14:35:00+00:00",
+   "last": 5.13,
+   "pct_day": 4.91,
+   "pct_30m": 0.79,
+   "volume_pace": 1.24,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "TRX.TO",
+   "name": "TRX GOLD CORPORATION",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 1.45,
+   "pct_day": 4.32,
+   "pct_30m": 1.4,
+   "volume_pace": 0.31,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FLT.TO",
+   "name": "VOLATUS AEROSPACE INC",
+   "as_of": "2026-10-15T14:35:00+00:00",
+   "last": 0.51,
+   "pct_day": 4.08,
+   "pct_30m": 4.08,
+   "volume_pace": 0.9,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NFGC.TO",
+   "name": "NEW FOUND GOLD CORP",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 2.11,
+   "pct_day": 3.94,
+   "pct_30m": 2.68,
+   "volume_pace": 1.55,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "ITH.TO",
+   "name": "INTERNATIONAL TOWER HILL MINES ",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 2.94,
+   "pct_day": 3.89,
+   "pct_30m": 2.8,
+   "volume_pace": 2.65,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
   },
   {
    "ticker": "ESM.TO",
@@ -528,18 +671,40 @@
    "last": 0.15,
    "pct_day": 3.45,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 0.19,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "SAM.TO",
-   "name": "STARCORE INTERNATIONAL MINES LT",
-   "as_of": "2026-10-15T13:40:00+00:00",
-   "last": 0.325,
-   "pct_day": 3.17,
-   "pct_30m": 1.56,
-   "volume_pace": 0.05,
+   "ticker": "DML.TO",
+   "name": "DENISON MINES CORP.",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 3.18,
+   "pct_day": 3.25,
+   "pct_30m": 4.61,
+   "volume_pace": 2.07,
+   "rising": true,
+   "rising_since": "2026-10-15T14:30:00+00:00"
+  },
+  {
+   "ticker": "LAC.TO",
+   "name": "LITHIUM AMERICAS CORP",
+   "as_of": "2026-10-15T14:35:00+00:00",
+   "last": 3.065,
+   "pct_day": 3.2,
+   "pct_30m": 4.25,
+   "volume_pace": 1.97,
+   "rising": true,
+   "rising_since": "2026-10-15T14:35:00+00:00"
+  },
+  {
+   "ticker": "ALK.TO",
+   "name": "ALKANE RESOURCES LIMITED",
+   "as_of": "2026-10-15T14:30:00+00:00",
+   "last": 1.7,
+   "pct_day": 3.03,
+   "pct_30m": 1.19,
+   "volume_pace": 0.5,
    "rising": false,
    "rising_since": null
   },
@@ -551,83 +716,6 @@
    "pct_day": 3.03,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TRX.TO",
-   "name": "TRX GOLD CORPORATION",
-   "as_of": "2026-10-15T14:00:00+00:00",
-   "last": 1.43,
-   "pct_day": 2.88,
-   "pct_30m": -0.69,
-   "volume_pace": 0.41,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HMMC.TO",
-   "name": "HEMLO MINING CORP",
-   "as_of": "2026-10-15T14:00:00+00:00",
-   "last": 5.03,
-   "pct_day": 2.86,
-   "pct_30m": -0.4,
-   "volume_pace": 1.38,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BYL.TO",
-   "name": "BAYLIN TECHNOLOGIES INC",
-   "as_of": "2026-10-15T13:35:00+00:00",
-   "last": 0.2,
-   "pct_day": 2.56,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SVI.TO",
-   "name": "STORAGEVAULT CANADA INC",
-   "as_of": "2026-10-15T13:55:00+00:00",
-   "last": 4.245,
-   "pct_day": 2.54,
-   "pct_30m": 2.29,
-   "volume_pace": 0.32,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NEXT.TO",
-   "name": "NEXTSOURCE MATERIALS INC",
-   "as_of": "2026-10-15T13:35:00+00:00",
-   "last": 0.24,
-   "pct_day": 2.13,
-   "pct_30m": 0.0,
-   "volume_pace": 0.75,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CVO.TO",
-   "name": "COVEO SOLUTIONS INC",
-   "as_of": "2026-10-15T14:05:00+00:00",
-   "last": 4.85,
-   "pct_day": 1.89,
-   "pct_30m": 0.83,
-   "volume_pace": 1.24,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ALK.TO",
-   "name": "ALKANE RESOURCES LIMITED",
-   "as_of": "2026-10-15T14:00:00+00:00",
-   "last": 1.68,
-   "pct_day": 1.82,
-   "pct_30m": 0.6,
-   "volume_pace": 0.72,
    "rising": false,
    "rising_since": null
   }
@@ -1227,9 +1315,9 @@
    "ma200": 978.01,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-15T14:05:00+00:00",
-    "last": 831.38,
-    "pct_day": 0.13
+    "as_of": "2026-10-15T14:35:00+00:00",
+    "last": 835.03,
+    "pct_day": 0.57
    }
   },
   "^GSPTSE": {
@@ -1826,9 +1914,9 @@
    "ma200": 34356.24,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-15T14:05:00+00:00",
-    "last": 35466.53,
-    "pct_day": -0.33
+    "as_of": "2026-10-15T14:35:00+00:00",
+    "last": 35673.92,
+    "pct_day": 0.25
    }
   }
  },
