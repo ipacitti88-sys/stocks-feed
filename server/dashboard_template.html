@@ -246,7 +246,7 @@ const timeLabel = (iso) => iso ? new Date(iso).toLocaleTimeString(undefined, { h
 const isRising = (s) => !!s.up;
 if (DATA) DATA.stocks.forEach((s) => { s.px = s.lp ?? s.c; });
 if (!HAS_LIVE) document.body.classList.add('no-live');
-const isFlagged = (s) => s.s >= 2 && (s.av ?? 0) >= DATA.minLiquidity;
+const isFlagged = (s) => s.s >= 2 && (s.av ?? 0) * (s.c ?? 0) >= (DATA.minDollars ?? 100000);
 const weekAgo = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
 const isNew = (s) => s.added && s.added >= weekAgo;
 

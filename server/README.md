@@ -8,6 +8,10 @@ The scripts your home stock server runs. To install the latest version, run on t
 
 That pulls this folder and copies the scripts into ~/stocks. Your settings (stocks.env), database password and data are never touched.
 
+## Liquidity rule
+
+The scanner only flags stocks trading enough **dollars** a day (20-day average volume x price): **C$100k** on the Venture, **C$50k** on the TSX. Set in `benchmarks.MIN_DOLLARS`; chosen from the signal lab's 10-year liquidity test. Discovery still tracks anything with 50,000+ shares a day or that passes the dollar rule.
+
 ## What runs when
 
 | When (server time) | Script | What it does |

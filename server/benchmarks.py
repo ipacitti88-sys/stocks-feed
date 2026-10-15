@@ -29,6 +29,27 @@ def in_market(ticker: str, market: str) -> bool:
     return ticker.endswith(".TO") == (market == "tsx")
 
 
+# Scanner liquidity rule: average dollars traded per day (20-day average volume x price).
+# Chosen from the signal lab's 10-year liquidity test (Oct 2026).
+MIN_DOLLARS = {"tsxv": 100_000, "tsx": 50_000}
+
+
+def market_of(ticker: str) -> str:
+    return "tsx" if ticker.endswith(".TO") else "tsxv"
+
+
+def min_dollars(ticker: str) -> int:
+    return MIN_DOLLARS[market_of(ticker)]
+
+
+def liquid_enough(ticker: str, avg_volume, price) -> bool:
+    """True when the stock trades enough dollars a day for the scanner to flag it."""
+    try:
+        return float(avg_volume) * float(price) >= min_dollars(ticker)
+    except (TypeError, ValueError):
+        return False
+
+
 def update(conn, period="5d"):
     import load_history
     for sym, name in BENCHMARKS.items():

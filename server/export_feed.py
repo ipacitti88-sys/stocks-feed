@@ -23,7 +23,7 @@ import dashboard  # reuses the screen query
 
 FEED_DIR = Path(os.environ.get("FEED_DIR", Path.home() / "stocks-feed"))
 SSH_KEY = Path.home() / ".ssh" / "stocks_feed"
-MIN_LIQUIDITY = 50_000
+import benchmarks as _bm  # scanner liquidity rule (C$ traded per day, per market)
 TOP_N = 10
 
 
@@ -57,7 +57,7 @@ def collect():
             m = sl.signal_masks(df)["breakout"]
             day = df["date"].max()
             hit = df[m & df["tracked"] & (df["date"] == day) & df["close"].between(0.50, sl.MAX_PRICE)
-                     & (df["av20"] >= sl.MIN_LIQ) & (df["rn"] >= sl.MIN_HISTORY)]
+                     & (df["dv20"] >= df["ticker"].map(_bm.min_dollars)) & (df["rn"] >= sl.MIN_HISTORY)]
             breakouts = [dict(ticker=t, name=n, date=str(d), close=round(float(c), 4),
                               rel_vol=round(float(v / a), 1) if a else None)
                          for t, n, d, c, v, a in hit[["ticker", "name", "date", "close", "volume", "av20"]]
@@ -81,9 +81,10 @@ def collect():
                            signals=sum(bool(x) for x in (ma, spike, nh)),
                            above_ma50=bool(ma), vol_spike=bool(spike), new_high=bool(nh),
                            added=str(added) if added else None))
-    flagged = sorted([s for s in stocks if s["signals"] >= 2 and (s["avg_vol"] or 0) >= MIN_LIQUIDITY],
+    ok = lambda s: _bm.liquid_enough(s["ticker"], s["avg_vol"], s["close"])
+    flagged = sorted([s for s in stocks if s["signals"] >= 2 and ok(s)],
                      key=lambda s: (-s["signals"], -(s["rel_vol"] or 0)))
-    liquid = sorted([s for s in stocks if (s["avg_vol"] or 0) >= MIN_LIQUIDITY], key=lambda s: -(s["rel_vol"] or 0))
+    liquid = sorted([s for s in stocks if ok(s)], key=lambda s: -(s["rel_vol"] or 0))
     by_relvol = ([s for s in liquid if not s["ticker"].endswith(".TO")][:TOP_N]
                  + [s for s in liquid if s["ticker"].endswith(".TO")][:TOP_N])
 

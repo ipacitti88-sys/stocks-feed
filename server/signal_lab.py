@@ -201,8 +201,14 @@ def compact(results):
     return out
 
 
+SCANNER_DOLLARS = None  # set per market in main(): the scanner's own liquidity rule
+
+
 def run_daily(df, start, until, lo=MIN_PRICE, hi=MAX_PRICE, min_dollar=None):
-    liquid = (df["dv20"] >= min_dollar) if min_dollar else (df["av20"] >= MIN_LIQ)
+    if min_dollar == "shares" or (min_dollar is None and not SCANNER_DOLLARS):
+        liquid = df["av20"] >= MIN_LIQ
+    else:
+        liquid = df["dv20"] >= (min_dollar or SCANNER_DOLLARS)
     elig = (df["date"] >= start) & (df["date"] < until) & (df["rn"] >= MIN_HISTORY) \
         & liquid & df["close"].between(lo, hi)
     run_daily.per_day = float(elig.groupby(df["date"]).sum().loc[lambda x: x > 0].mean() or 0)
@@ -247,7 +253,8 @@ def run_daily(df, start, until, lo=MIN_PRICE, hi=MAX_PRICE, min_dollar=None):
     # signals on the latest day, from every rule (the "today" list if a rule earns trust)
     today = []
     for key, mask in signal_masks(df).items():
-        hit = df[mask & df["tracked"] & (df["date"] == latest_day) & (df["av20"] >= MIN_LIQ)
+        hit = df[mask & df["tracked"] & (df["date"] == latest_day)
+                 & (df["dv20"] >= (SCANNER_DOLLARS or 0)) & (df["av20"] >= (0 if SCANNER_DOLLARS else MIN_LIQ))
                  & df["close"].between(MIN_PRICE, MAX_PRICE) & (df["rn"] >= MIN_HISTORY)]
         today += [{"signal": key, "ticker": t, "name": n, "close": round(float(c), 4)}
                   for t, n, c in hit[["ticker", "name", "close"]].itertuples(index=False)]
@@ -371,13 +378,15 @@ def main() -> int:
         if args.days is None:
             args.days = 3652 if universe else 365
         start = until - dt.timedelta(days=args.days)
+        global SCANNER_DOLLARS
+        SCANNER_DOLLARS = benchmarks.MIN_DOLLARS[args.market]
         raw = load_daily(conn, start - dt.timedelta(days=150), universe)
         raw = raw[raw["ticker"].map(lambda t: benchmarks.in_market(t, args.market))].reset_index(drop=True)
         df = add_indicators(raw)
         results, base, mid, latest, today = run_daily(df, start, until)
-        per_day_now = run_daily.per_day
-        liquidity = [{"key": "shares50k", "label": "50,000+ shares a day (current rule)",
-                      "stocks_per_day": round(per_day_now), "signals": compact(results)}]
+        old = run_daily(df, start, until, min_dollar="shares")[0]
+        liquidity = [{"key": "shares50k", "label": "50,000+ shares a day (old rule)",
+                      "stocks_per_day": round(run_daily.per_day), "signals": compact(old)}]
         for amt in LIQ_TIERS:
             r = run_daily(df, start, until, min_dollar=amt)[0]
             liquidity.append({"key": f"d{amt}", "label": f"C${amt // 1000}k+ traded a day",
@@ -405,6 +414,7 @@ def main() -> int:
         "generated": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
         "from": start.isoformat(), "until": until.isoformat(), "split": mid.isoformat(),
         "market_key": args.market, "market_label": M["label"],
+        "liquidity_rule": f"C${SCANNER_DOLLARS // 1000}k+ traded a day (your scanner's rule)",
         "universe": (f"every {M['label']} listing (incl. ones that later stopped trading)" if universe
                      else f"{M['label']} stocks on your watchlist today"),
         "stocks": int(df["ticker"].nunique()),

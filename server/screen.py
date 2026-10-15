@@ -21,7 +21,7 @@ from pathlib import Path
 import psycopg2
 
 TOP_N = 25               # rows shown in the table
-MIN_LIQUIDITY = 50_000   # avg daily shares needed to be flagged
+import benchmarks  # liquidity rule: C$ traded per day (C$100k Venture, C$50k TSX)
 
 SCREEN_SQL = """
 WITH p AS (
@@ -77,7 +77,7 @@ def main() -> int:
         flagged = []
         for t, d, close, rv, p20, fh, avgv, ma, spike, nh in rows:
             score = sum(bool(x) for x in (ma, spike, nh))
-            liquid = avgv is not None and avgv >= MIN_LIQUIDITY
+            liquid = benchmarks.liquid_enough(t, avgv, close)
             if score >= 2 and liquid:
                 flagged.append(
                     f"- **{t}** ({score}/3): close {close:.3f}, rel vol {fmt(rv, 'x')}, "

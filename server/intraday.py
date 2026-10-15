@@ -13,7 +13,7 @@ immediately, so the schedule doesn't need to know your time zone.
   - up RISE_PCT% or more from yesterday's close
   - still climbing: price higher than ~30 minutes ago
   - real buying behind it: volume pace >= RISE_PACE x normal for this time of day
-  - liquid: 20-day average volume >= MIN_LIQUIDITY shares
+  - liquid: trades at least C$100k a day on average (Venture) or C$50k (TSX)
 """
 import argparse
 import datetime as dt
@@ -32,7 +32,7 @@ SESSION_MIN = 390          # 9:30-16:00 ET
 SKIP_FIRST_MIN = 15        # ignore the noisy first 15 minutes
 RISE_PCT = 3.0
 RISE_PACE = 1.5
-MIN_LIQUIDITY = 50_000
+import benchmarks  # scanner liquidity rule (C$ traded per day, per market)
 CHUNK = 100                # tickers per Yahoo request
 
 CREATE_SQL = """
@@ -134,7 +134,7 @@ def fetch_bars(tickers: list[str]) -> dict[str, pd.DataFrame]:
     return out
 
 
-def evaluate(bars: pd.DataFrame, prev_close, avg_vol20, now_et: dt.datetime):
+def evaluate(bars: pd.DataFrame, prev_close, avg_vol20, now_et: dt.datetime, ticker: str = ""):
     today = now_et.date()
     bars = bars[bars.index.date == today]
     if bars.empty:
@@ -160,7 +160,7 @@ def evaluate(bars: pd.DataFrame, prev_close, avg_vol20, now_et: dt.datetime):
         pct_day is not None and pct_day >= RISE_PCT
         and pct_30m is not None and pct_30m > 0
         and pace is not None and pace >= RISE_PACE
-        and avg_vol20 is not None and float(avg_vol20) >= MIN_LIQUIDITY
+        and benchmarks.liquid_enough(ticker, avg_vol20, prev_close)
         and market_minutes(now_et) >= SKIP_FIRST_MIN
     )
     r = lambda v, n=2: round(v, n) if v is not None else None
@@ -195,7 +195,7 @@ def main() -> int:
         rows, rising, log_rows = [], [], []
         for t, b in bars.items():
             prev_close, avg_vol20 = context.get(t, (None, None))
-            ev = evaluate(b, prev_close, avg_vol20, now_et)
+            ev = evaluate(b, prev_close, avg_vol20, now_et, t)
             if not ev:
                 continue
             rows.append((t, ev["as_of"], ev["trade_date"], ev["last"], ev["prev_close"],

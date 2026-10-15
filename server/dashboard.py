@@ -176,7 +176,7 @@ def main() -> int:
             "lastDay": iso(last_day),
             "tracked": len(mine),
             "new7": sum(1 for s in mine if s["added"] and s["added"] >= str(dt.date.today() - dt.timedelta(days=7))),
-            "minLiquidity": 50000,
+            "minDollars": __import__("benchmarks").MIN_DOLLARS[key],
             "stocks": mine,
             "hist": {t: v for t, v in hist.items() if t in keep},
             "intra": {t: v for t, v in intra.items() if t in keep},

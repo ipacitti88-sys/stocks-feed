@@ -4,7 +4,8 @@ Discover TSX Venture and TSX stocks and add them to the watchlist.
 
 Asks Yahoo's screener for every TSXV stock that is:
   - priced between MIN_PRICE and MAX_PRICE
-  - trading at least MIN_AVG_VOLUME shares a day (3-month average)
+  - trading at least MIN_AVG_VOLUME shares a day (3-month average), or enough
+    dollars a day for the scanner's liquidity rule (see benchmarks.MIN_DOLLARS)
 New tickers are added to `watchlist` (source = 'tsxv-scan') and get one
 year of price history loaded, so the daily screen can rate them right away.
 
@@ -24,6 +25,16 @@ import load_history
 MIN_PRICE = 0.10          # skip sub-dime names (wide spreads, very risky)
 MAX_PRICE = 5.00
 MIN_AVG_VOLUME = 50_000  # shares/day, so you can get in and out
+SCREEN_VOLUME = 10_000   # ask Yahoo for anything above this, then apply the rules below
+
+
+def worth_tracking(q) -> bool:
+    """50,000+ shares a day, OR enough dollars traded for the scanner (C$100k Venture, C$50k TSX)."""
+    import benchmarks
+    vol, px = q.get("averageDailyVolume3Month"), q.get("regularMarketPrice")
+    if vol is None or px is None:  # Yahoo left the fields out: keep it, the daily screen still applies the rule
+        return True
+    return vol >= MIN_AVG_VOLUME or benchmarks.liquid_enough(q.get("symbol", ""), vol, px)
 
 
 EXCHANGES = {"VAN": ("TSX Venture", "tsxv-scan"), "TOR": ("TSX", "tsx-scan")}
@@ -48,7 +59,7 @@ def scan(exchange="VAN") -> list[dict]:
         EquityQuery("eq", ["exchange", exchange]),       # VAN = TSX Venture, TOR = TSX
         EquityQuery("gt", ["intradayprice", MIN_PRICE]),
         EquityQuery("lt", ["intradayprice", MAX_PRICE]),
-        EquityQuery("gt", ["avgdailyvol3m", MIN_AVG_VOLUME]),
+        EquityQuery("gt", ["avgdailyvol3m", SCREEN_VOLUME]),
     ])
 
     found, offset = [], 0
@@ -61,7 +72,7 @@ def scan(exchange="VAN") -> list[dict]:
         if not quotes or offset >= total:
             break
         time.sleep(1)  # be polite to Yahoo between pages
-    return [q for q in found if is_common(q)]
+    return [q for q in found if is_common(q) and worth_tracking(q)]
 
 
 def main() -> int:
@@ -80,7 +91,7 @@ def main() -> int:
             q["_source"] = source
         quotes += found
         print(f"Yahoo returned {len(found)} {label} stocks between ${MIN_PRICE} and ${MAX_PRICE} "
-              f"with {MIN_AVG_VOLUME:,}+ avg daily volume")
+              f"trading {MIN_AVG_VOLUME:,}+ shares or enough dollars a day")
         time.sleep(1)
 
     conn = psycopg2.connect()
