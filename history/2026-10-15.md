@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-15T10:01-06:00
+# Stock feed — 2026-10-15T10:31-06:00
 
-Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 586 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-14. Intraday data as of: 2026-10-15T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +1.1% at 16:05
-Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live +0.8% at 16:05
+Market: S&P/TSX Venture Composite 830.33 on 2026-10-14 (day -3.5%, month -9.7%, year -15.3%, downtrend); live +1.0% at 16:35
+Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year +19.2%, uptrend); live +0.8% at 16:35
 
 # TSX Venture
 
@@ -20,13 +20,7 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- BRW.V (BRUNSWICK EXPLORATION INC): +43.8% today at 0.23, last 30m +9.5%, volume pace 2.18x, rising since 2026-10-15T15:00:00+00:00
-- TIG.V (TRIUMPH GOLD CORP): +8.1% today at 0.8, last 30m +3.9%, volume pace 2.93x, rising since 2026-10-15T15:40:00+00:00
-- ANDC.V (ANDINA COPPER CORPORATION): +6.1% today at 1.05, last 30m +1.4%, volume pace 4.7x, rising since 2026-10-15T14:30:00+00:00
-- FUU.V (F3 URANIUM CORP): +4.8% today at 0.11, last 30m +4.8%, volume pace 2.22x, rising since 2026-10-15T14:55:00+00:00
-- ROK.V (ROK RESOURCES INC): +4.1% today at 0.38, last 30m +1.3%, volume pace 3.56x, rising since 2026-10-15T16:00:00+00:00
-- SSV.V (SOUTHERN SILVER EXPLORATION COR): +3.5% today at 0.44, last 30m +0.6%, volume pace 2.24x, rising since 2026-10-15T16:00:00+00:00
-- TIGR.V (TIGER GOLD CORP): +3.2% today at 0.65, last 30m +3.2%, volume pace 2.5x, rising since 2026-10-15T16:00:00+00:00
+- APGO.V (APOLLO SILVER CORP): +7.6% today at 2.41, last 30m +1.7%, volume pace 2.26x, rising since 2026-10-15T16:25:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -43,16 +37,16 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- BRW.V (BRUNSWICK EXPLORATION INC): +43.8% at 0.23, volume pace 2.18x
-- NBVA.V (NUBEVA TECHNOLOGIES LTD): +33.3% at 0.24, volume pace 5.02x
-- DYG.V (DYNASTY GOLD CORP.): +23.8% at 0.13, volume pace 5.5x
+- BRW.V (BRUNSWICK EXPLORATION INC): +43.8% at 0.23, volume pace 1.82x
+- NBVA.V (NUBEVA TECHNOLOGIES LTD): +33.3% at 0.24, volume pace 3.89x
+- RDU.V (RADIUS GOLD INC.): +15.6% at 0.26, volume pace 1.51x
+- CCMM.V (COYOTE COPPER MINES INC): +15.0% at 0.46, volume pace 2.78x
 - MANU.V (MANHATTAN URANIUM DISCOVERY COR): +14.8% at 0.155, volume pace 0.0x
+- DYG.V (DYNASTY GOLD CORP.): +14.3% at 0.12, volume pace 3.96x
 - WIL.V (WILTON RESOURCES INC): +14.0% at 0.285, volume pace 0.0x
-- RDU.V (RADIUS GOLD INC.): +13.3% at 0.255, volume pace 1.45x
-- CCMM.V (COYOTE COPPER MINES INC): +12.5% at 0.45, volume pace 3.06x
+- IMR.V (IMETAL RESOURCES INC): +12.1% at 0.185, volume pace 0.15x
 - BRO.V (BARKSDALE RESOURCES CORP): +11.3% at 0.295, volume pace 0.0x
-- VUL.V (VULCAN MINERALS INC): +9.8% at 0.335, volume pace 1.91x
-- NSU.V (NORTH SHORE URANIUM LTD): +9.7% at 0.17, volume pace 1.47x
+- FPX.V (FPX NICKEL CORP): +10.9% at 0.305, volume pace 0.46x
 
 # TSX
 
@@ -66,9 +60,9 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- DND.TO (DYE AND DURHAM LIMITED): +6.6% today at 1.95, last 30m +3.2%, volume pace 2.82x, rising since 2026-10-15T16:05:00+00:00
-- CVO.TO (COVEO SOLUTIONS INC): +4.2% today at 4.96, last 30m +0.2%, volume pace 1.65x, rising since 2026-10-15T15:30:00+00:00
-- TLG.TO (TROILUS MINING CORP): +3.7% today at 1.67, last 30m +1.2%, volume pace 1.9x, rising since 2026-10-15T16:05:00+00:00
+- HMMC.TO (HEMLO MINING CORP): +7.4% today at 5.25, last 30m +0.4%, volume pace 1.82x, rising since 2026-10-15T16:30:00+00:00
+- DML.TO (DENISON MINES CORP.): +6.7% today at 3.285, last 30m +0.1%, volume pace 2.14x, rising since 2026-10-15T16:30:00+00:00
+- TLG.TO (TROILUS MINING CORP): +4.7% today at 1.685, last 30m +0.9%, volume pace 2.02x, rising since 2026-10-15T16:05:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -85,13 +79,13 @@ Market: S&P/TSX Composite 35,584.46 on 2026-10-14 (day -1.1%, month -0.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ARN.TO (ASARIAN ENERGY LIMITED): +8.3% at 0.39, volume pace 0.72x
-- GLO.TO (GLOBAL ATOMIC CORPORATION): +8.2% at 0.3625, volume pace 1.11x
-- NFGC.TO (NEW FOUND GOLD CORP): +7.9% at 2.19, volume pace 1.43x
-- TI.TO (TITAN MINING CORPORATION): +7.0% at 2.92, volume pace 1.11x
-- HMMC.TO (HEMLO MINING CORP): +7.0% at 5.23, volume pace 2.12x
-- DND.TO (DYE AND DURHAM LIMITED): +6.6% at 1.95, volume pace 2.82x
-- LAC.TO (LITHIUM AMERICAS CORP): +6.4% at 3.16, volume pace 1.62x
-- DML.TO (DENISON MINES CORP.): +6.3% at 3.275, volume pace 2.35x
-- AMC.TO (ARIZONA METALS CORP): +6.1% at 0.175, volume pace 0.17x
-- MGA.TO (MEGA URANIUM LTD.): +5.6% at 0.475, volume pace 0.91x
+- ARN.TO (ASARIAN ENERGY LIMITED): +9.7% at 0.395, volume pace 0.63x
+- NFGC.TO (NEW FOUND GOLD CORP): +8.9% at 2.21, volume pace 1.33x
+- TI.TO (TITAN MINING CORPORATION): +8.4% at 2.96, volume pace 1.0x
+- HMMC.TO (HEMLO MINING CORP): +7.4% at 5.25, volume pace 1.82x
+- GLO.TO (GLOBAL ATOMIC CORPORATION): +6.7% at 0.3575, volume pace 1.05x
+- DML.TO (DENISON MINES CORP.): +6.7% at 3.285, volume pace 2.14x
+- URE.TO (UR-ENERGY INC.): +6.3% at 1.265, volume pace 1.3x
+- TRX.TO (TRX GOLD CORPORATION): +6.1% at 1.475, volume pace 0.42x
+- LAC.TO (LITHIUM AMERICAS CORP): +6.1% at 3.15, volume pace 1.46x
+- AMC.TO (ARIZONA METALS CORP): +6.1% at 0.175, volume pace 0.19x
