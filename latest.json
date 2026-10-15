@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T11:01-06:00",
+ "generated": "2026-10-15T11:31-06:00",
  "last_close_day": "2026-10-14",
  "tracked": 586,
  "tracked_by_market": {
@@ -385,51 +385,73 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-15T17:05:00+00:00",
+ "live_as_of": "2026-10-15T17:35:00+00:00",
  "rising": [
   {
    "ticker": "BRW.V",
    "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 0.235,
-   "pct_day": 46.87,
-   "pct_30m": 2.17,
-   "volume_pace": 1.62,
+   "as_of": "2026-10-15T17:25:00+00:00",
+   "last": 0.24,
+   "pct_day": 50.0,
+   "pct_30m": 2.13,
+   "volume_pace": 1.65,
    "rising": true,
    "rising_since": "2026-10-15T17:00:00+00:00"
+  },
+  {
+   "ticker": "DML.TO",
+   "name": "DENISON MINES CORP.",
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 3.275,
+   "pct_day": 6.33,
+   "pct_30m": 0.15,
+   "volume_pace": 2.62,
+   "rising": true,
+   "rising_since": "2026-10-15T17:30:00+00:00"
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 1.93,
-   "pct_day": 5.46,
-   "pct_30m": 1.58,
-   "volume_pace": 3.15,
+   "as_of": "2026-10-15T17:35:00+00:00",
+   "last": 1.94,
+   "pct_day": 6.01,
+   "pct_30m": 0.52,
+   "volume_pace": 2.88,
    "rising": true,
    "rising_since": "2026-10-15T17:00:00+00:00"
   },
   {
-   "ticker": "VGZ.TO",
-   "name": "VISTA GOLD CORP",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 3.795,
-   "pct_day": 4.83,
-   "pct_30m": 0.66,
-   "volume_pace": 2.64,
+   "ticker": "PGE.V",
+   "name": "STILLWATER CRITICAL MINERALS CO",
+   "as_of": "2026-10-15T17:20:00+00:00",
+   "last": 0.365,
+   "pct_day": 5.8,
+   "pct_30m": 1.39,
+   "volume_pace": 1.84,
    "rising": true,
-   "rising_since": "2026-10-15T17:00:00+00:00"
+   "rising_since": "2026-10-15T17:20:00+00:00"
+  },
+  {
+   "ticker": "SALT.V",
+   "name": "ATLAS SALT INC",
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 1.42,
+   "pct_day": 5.19,
+   "pct_30m": 0.35,
+   "volume_pace": 4.64,
+   "rising": true,
+   "rising_since": "2026-10-15T17:30:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "BRW.V",
    "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 0.235,
-   "pct_day": 46.87,
-   "pct_30m": 2.17,
-   "volume_pace": 1.62,
+   "as_of": "2026-10-15T17:25:00+00:00",
+   "last": 0.24,
+   "pct_day": 50.0,
+   "pct_30m": 2.13,
+   "volume_pace": 1.65,
    "rising": true,
    "rising_since": "2026-10-15T17:00:00+00:00"
   },
@@ -447,22 +469,11 @@
   {
    "ticker": "CCMM.V",
    "name": "COYOTE COPPER MINES INC",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 0.46,
-   "pct_day": 15.0,
-   "pct_30m": 0.0,
-   "volume_pace": 2.89,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MANU.V",
-   "name": "MANHATTAN URANIUM DISCOVERY COR",
-   "as_of": "2026-10-15T13:35:00+00:00",
-   "last": 0.155,
-   "pct_day": 14.81,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 0.47,
+   "pct_day": 17.5,
+   "pct_30m": 2.17,
+   "volume_pace": 2.96,
    "rising": false,
    "rising_since": null
   },
@@ -489,17 +500,6 @@
    "rising_since": null
   },
   {
-   "ticker": "SME.V",
-   "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 0.175,
-   "pct_day": 12.9,
-   "pct_30m": 9.38,
-   "volume_pace": 1.16,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "IMR.V",
    "name": "IMETAL RESOURCES INC",
    "as_of": "2026-10-15T16:20:00+00:00",
@@ -522,6 +522,17 @@
    "rising_since": null
   },
   {
+   "ticker": "GSPR.V",
+   "name": "GSP RESOURCE CORP",
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 0.1,
+   "pct_day": 11.11,
+   "pct_30m": 5.26,
+   "volume_pace": 0.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "FPX.V",
    "name": "FPX NICKEL CORP",
    "as_of": "2026-10-15T16:25:00+00:00",
@@ -533,114 +544,125 @@
    "rising_since": null
   },
   {
-   "ticker": "ARN.TO",
-   "name": "ASARIAN ENERGY LIMITED",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 0.415,
-   "pct_day": 15.28,
-   "pct_30m": 5.06,
-   "volume_pace": 1.37,
+   "ticker": "MERG.V",
+   "name": "METAL ENERGY CORP",
+   "as_of": "2026-10-15T17:20:00+00:00",
+   "last": 0.41,
+   "pct_day": 10.81,
+   "pct_30m": 0.0,
+   "volume_pace": 0.08,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-15T16:50:00+00:00",
-   "last": 0.355,
-   "pct_day": 9.23,
-   "pct_30m": 5.97,
-   "volume_pace": 0.61,
+   "ticker": "ARN.TO",
+   "name": "ASARIAN ENERGY LIMITED",
+   "as_of": "2026-10-15T17:10:00+00:00",
+   "last": 0.43,
+   "pct_day": 19.44,
+   "pct_30m": 8.86,
+   "volume_pace": 1.32,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "NFGC.TO",
    "name": "NEW FOUND GOLD CORP",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 2.21,
-   "pct_day": 8.87,
-   "pct_30m": 0.0,
-   "volume_pace": 1.25,
+   "as_of": "2026-10-15T17:35:00+00:00",
+   "last": 2.24,
+   "pct_day": 10.34,
+   "pct_30m": 1.36,
+   "volume_pace": 1.17,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TI.TO",
-   "name": "TITAN MINING CORPORATION",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 2.97,
-   "pct_day": 8.79,
-   "pct_30m": 0.34,
-   "volume_pace": 0.88,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TRX.TO",
-   "name": "TRX GOLD CORPORATION",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 1.49,
-   "pct_day": 7.19,
-   "pct_30m": 1.02,
-   "volume_pace": 0.47,
+   "ticker": "CWEB.TO",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 0.35,
+   "pct_day": 7.69,
+   "pct_30m": -1.41,
+   "volume_pace": 0.8,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HMMC.TO",
    "name": "HEMLO MINING CORP",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 5.24,
-   "pct_day": 7.16,
-   "pct_30m": -0.19,
-   "volume_pace": 1.59,
+   "as_of": "2026-10-15T17:35:00+00:00",
+   "last": 5.26,
+   "pct_day": 7.57,
+   "pct_30m": 0.77,
+   "volume_pace": 1.37,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GLO.TO",
    "name": "GLOBAL ATOMIC CORPORATION",
-   "as_of": "2026-10-15T17:05:00+00:00",
-   "last": 0.3575,
-   "pct_day": 6.72,
-   "pct_30m": -0.69,
-   "volume_pace": 0.96,
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 0.36,
+   "pct_day": 7.46,
+   "pct_30m": 0.0,
+   "volume_pace": 0.9,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TRX.TO",
+   "name": "TRX GOLD CORPORATION",
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 1.49,
+   "pct_day": 7.19,
+   "pct_30m": 0.0,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "URE.TO",
    "name": "UR-ENERGY INC.",
-   "as_of": "2026-10-15T17:00:00+00:00",
+   "as_of": "2026-10-15T17:30:00+00:00",
    "last": 1.27,
    "pct_day": 6.72,
-   "pct_30m": 0.4,
-   "volume_pace": 1.19,
+   "pct_30m": 0.0,
+   "volume_pace": 1.08,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "DML.TO",
-   "name": "DENISON MINES CORP.",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 3.27,
-   "pct_day": 6.17,
-   "pct_30m": -0.46,
-   "volume_pace": 2.54,
+   "ticker": "TI.TO",
+   "name": "TITAN MINING CORPORATION",
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 2.91,
+   "pct_day": 6.59,
+   "pct_30m": -2.02,
+   "volume_pace": 2.7,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LAC.TO",
    "name": "LITHIUM AMERICAS CORP",
-   "as_of": "2026-10-15T17:00:00+00:00",
-   "last": 3.15,
-   "pct_day": 6.06,
-   "pct_30m": 0.0,
-   "volume_pace": 1.27,
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 3.165,
+   "pct_day": 6.57,
+   "pct_30m": 0.48,
+   "volume_pace": 1.14,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "DML.TO",
+   "name": "DENISON MINES CORP.",
+   "as_of": "2026-10-15T17:30:00+00:00",
+   "last": 3.275,
+   "pct_day": 6.33,
+   "pct_30m": 0.15,
+   "volume_pace": 2.62,
+   "rising": true,
+   "rising_since": "2026-10-15T17:30:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1238,9 +1260,9 @@
    "ma200": 978.01,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-15T17:05:00+00:00",
-    "last": 838.18,
-    "pct_day": 0.95
+    "as_of": "2026-10-15T17:35:00+00:00",
+    "last": 839.38,
+    "pct_day": 1.09
    }
   },
   "^GSPTSE": {
@@ -1837,9 +1859,9 @@
    "ma200": 34356.24,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-15T17:05:00+00:00",
-    "last": 35889.3,
-    "pct_day": 0.86
+    "as_of": "2026-10-15T17:35:00+00:00",
+    "last": 35908.68,
+    "pct_day": 0.91
    }
   }
  },
