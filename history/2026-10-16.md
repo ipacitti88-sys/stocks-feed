@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-16T08:31-06:00
+# Stock feed — 2026-10-16T09:01-06:00
 
-Tracking 621 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-15. Intraday data as of: 2026-10-16T14:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 621 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-15. Intraday data as of: 2026-10-16T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.38 on 2026-10-15 (day +1.9%, month -6.1%, year -16.9%, downtrend); live +1.1% at 14:35
-Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year +19.1%, uptrend); live +0.8% at 14:35
+Market: S&P/TSX Venture Composite 846.38 on 2026-10-15 (day +1.9%, month -6.1%, year -16.9%, downtrend); live +1.1% at 15:05
+Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year +19.1%, uptrend); live +0.7% at 15:05
 
 # TSX Venture
 
@@ -21,15 +21,17 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- BRW.V (BRUNSWICK EXPLORATION INC): +10.4% today at 0.265, last 30m +10.4%, volume pace 1.77x, rising since 2026-10-16T14:30:00+00:00
-- PLSR.V (PULSAR HELIUM INC): +10.0% today at 0.99, last 30m +6.5%, volume pace 2.77x, rising since 2026-10-16T14:10:00+00:00
-- B.V (BCM RESOURCES CORPORATION): +9.1% today at 0.6, last 30m +5.3%, volume pace 3.25x, rising since 2026-10-16T14:00:00+00:00
-- INTR.V (INTREPID METALS CORP): +6.7% today at 0.96, last 30m +4.3%, volume pace 1.81x, rising since 2026-10-16T14:20:00+00:00
-- ITR.V (INTEGRA RESOURCES CORP): +5.6% today at 3.59, last 30m +0.3%, volume pace 3.69x, rising since 2026-10-16T14:00:00+00:00
-- BOGO.V (BOREALIS MINING COMPANY LIMITED): +5.1% today at 0.92, last 30m +1.1%, volume pace 1.62x, rising since 2026-10-16T13:50:00+00:00
-- RAK.V (RACKLA METALS INC): +4.3% today at 0.245, last 30m +8.9%, volume pace 3.28x, rising since 2026-10-16T14:20:00+00:00
-- ROK.V (ROK RESOURCES INC): +3.4% today at 0.385, last 30m +2.7%, volume pace 1.69x, rising since 2026-10-16T14:30:00+00:00
-- GAL.V (GALANTAS GOLD CORP.): +3.1% today at 0.41, last 30m +2.5%, volume pace 2.42x, rising since 2026-10-16T14:30:00+00:00
+- B.V (BCM RESOURCES CORPORATION): +10.9% today at 0.61, last 30m +1.7%, volume pace 1.78x, rising since 2026-10-16T14:50:00+00:00
+- BRW.V (BRUNSWICK EXPLORATION INC): +10.4% today at 0.265, last 30m +10.4%, volume pace 1.78x, rising since 2026-10-16T14:30:00+00:00
+- PLSR.V (PULSAR HELIUM INC): +10.0% today at 0.99, last 30m +6.5%, volume pace 2.8x, rising since 2026-10-16T14:10:00+00:00
+- RAK.V (RACKLA METALS INC): +6.4% today at 0.25, last 30m +2.0%, volume pace 2.46x, rising since 2026-10-16T14:20:00+00:00
+- CKG.V (CHESAPEAKE GOLD CORP.): +5.6% today at 3.0, last 30m +2.7%, volume pace 2.02x, rising since 2026-10-16T14:40:00+00:00
+- INTR.V (INTREPID METALS CORP): +5.6% today at 0.95, last 30m +1.1%, volume pace 3.01x, rising since 2026-10-16T14:20:00+00:00
+- SALT.V (ATLAS SALT INC): +4.9% today at 1.49, last 30m +2.0%, volume pace 4.6x, rising since 2026-10-16T14:50:00+00:00
+- KTN.V (KOOTENAY SILVER INC): +4.0% today at 1.04, last 30m +2.0%, volume pace 1.81x, rising since 2026-10-16T14:35:00+00:00
+- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): +3.7% today at 1.39, last 30m +2.2%, volume pace 5.11x, rising since 2026-10-16T15:00:00+00:00
+- GORO.V (GOLDGROUP MINING INC): +3.6% today at 4.93, last 30m +1.2%, volume pace 3.2x, rising since 2026-10-16T14:55:00+00:00
+- GAL.V (GALANTAS GOLD CORP.): +3.1% today at 0.41, last 30m +1.9%, volume pace 2.14x, rising since 2026-10-16T14:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -46,15 +48,15 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- SPX.V (STELLAR AFRICAGOLD INC): +42.9% at 0.15, volume pace 0.0x
-- RDU.V (RADIUS GOLD INC.): +18.8% at 0.285, volume pace 2.94x
-- NSU.V (NORTH SHORE URANIUM LTD): +14.7% at 0.195, volume pace 0.0x
-- VUL.V (VULCAN MINERALS INC): +13.6% at 0.375, volume pace 0.0x
+- RDU.V (RADIUS GOLD INC.): +18.8% at 0.285, volume pace 5.22x
+- EQTY.V (EQUITY METALS CORPORATION): +15.8% at 0.11, volume pace 2.05x
+- VUL.V (VULCAN MINERALS INC): +15.2% at 0.38, volume pace 0.57x
+- TBK.V (TRAILBREAKER RESOURCES LTD): +13.3% at 0.34, volume pace 12.66x
+- VML.V (VISCOUNT MINING CORP): +11.1% at 0.5, volume pace 2.29x
 - GSPR.V (GSP RESOURCE CORP): +11.1% at 0.1, volume pace 3.09x
-- EQTY.V (EQUITY METALS CORPORATION): +10.5% at 0.105, volume pace 1.83x
-- DEFN.V (DEFENSE METALS CORP): +10.5% at 0.105, volume pace 4.02x
-- BRW.V (BRUNSWICK EXPLORATION INC): +10.4% at 0.265, volume pace 1.77x
-- PLSR.V (PULSAR HELIUM INC): +10.0% at 0.99, volume pace 2.77x
+- B.V (BCM RESOURCES CORPORATION): +10.9% at 0.61, volume pace 1.78x
+- BRW.V (BRUNSWICK EXPLORATION INC): +10.4% at 0.265, volume pace 1.78x
+- PLSR.V (PULSAR HELIUM INC): +10.0% at 0.99, volume pace 2.8x
 - MRVL.V (MARVEL BIOSCIENCES CORP): +10.0% at 0.11, volume pace 1.0x
 
 # TSX
@@ -71,13 +73,11 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +13.7% today at 0.29, last 30m +3.6%, volume pace 4.59x, rising since 2026-10-16T14:00:00+00:00
-- HSTR.TO (HELIOSTAR METALS LTD): +7.2% today at 2.455, last 30m +0.4%, volume pace 2.85x, rising since 2026-10-16T13:45:00+00:00
-- ELO.TO (ELORO RESOURCES LTD): +6.3% today at 1.425, last 30m +4.0%, volume pace 8.64x, rising since 2026-10-16T14:05:00+00:00
-- ORV.TO (ORVANA MINERALS J): +5.8% today at 2.2, last 30m +0.5%, volume pace 1.68x, rising since 2026-10-16T14:10:00+00:00
-- ETG.TO (ENTREE RESOURCES LTD): +5.2% today at 3.04, last 30m +3.6%, volume pace 1.59x, rising since 2026-10-16T14:20:00+00:00
-- NFGC.TO (NEW FOUND GOLD CORP): +5.0% today at 2.33, last 30m +1.3%, volume pace 4.63x, rising since 2026-10-16T14:15:00+00:00
-- HMMC.TO (HEMLO MINING CORP): +3.4% today at 5.54, last 30m +3.4%, volume pace 2.98x, rising since 2026-10-16T14:35:00+00:00
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +14.7% today at 0.2925, last 30m +0.9%, volume pace 4.24x, rising since 2026-10-16T14:00:00+00:00
+- HSTR.TO (HELIOSTAR METALS LTD): +8.3% today at 2.48, last 30m +0.8%, volume pace 2.32x, rising since 2026-10-16T13:45:00+00:00
+- NFGC.TO (NEW FOUND GOLD CORP): +5.9% today at 2.35, last 30m +1.3%, volume pace 3.15x, rising since 2026-10-16T14:50:00+00:00
+- GENM.TO (GENERATION MINING LIMITED): +5.4% today at 0.485, last 30m +2.1%, volume pace 3.28x, rising since 2026-10-16T14:40:00+00:00
+- VGZ.TO (VISTA GOLD CORP): +3.1% today at 3.97, last 30m +0.2%, volume pace 2.67x, rising since 2026-10-16T14:55:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -94,13 +94,13 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +13.7% at 0.29, volume pace 4.59x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +10.3% at 1.07, volume pace 1.15x
-- PDI.TO (PDI GOLD LIMITED): +8.9% at 4.41, volume pace 0.45x
-- HSTR.TO (HELIOSTAR METALS LTD): +7.2% at 2.455, volume pace 2.85x
-- LGO.TO (LARGO INC): +6.6% at 0.65, volume pace 0.7x
-- ELO.TO (ELORO RESOURCES LTD): +6.3% at 1.425, volume pace 8.64x
-- IMP.TO (INTERMAP TECHNOLOGIES CORPORATI): +6.3% at 0.84, volume pace 0.0x
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +14.7% at 0.2925, volume pace 4.24x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +10.8% at 1.075, volume pace 1.04x
+- PDI.TO (PDI GOLD LIMITED): +8.9% at 4.41, volume pace 0.46x
+- HSTR.TO (HELIOSTAR METALS LTD): +8.3% at 2.48, volume pace 2.32x
+- TSK.TO (TALISKER RESOURCES LTD): +6.4% at 1.0, volume pace 1.16x
+- NFGC.TO (NEW FOUND GOLD CORP): +5.9% at 2.35, volume pace 3.15x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +5.8% at 0.365, volume pace 0.3x
-- ORV.TO (ORVANA MINERALS J): +5.8% at 2.2, volume pace 1.68x
-- TSK.TO (TALISKER RESOURCES LTD): +5.3% at 0.99, volume pace 1.4x
+- GENM.TO (GENERATION MINING LIMITED): +5.4% at 0.485, volume pace 3.28x
+- ORV.TO (ORVANA MINERALS J): +5.3% at 2.19, volume pace 1.43x
+- VGC.TO (VALOR GOLD CORP): +5.2% at 2.42, volume pace 1.21x
