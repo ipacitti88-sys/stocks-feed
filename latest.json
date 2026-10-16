@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T14:01-06:00",
+ "generated": "2026-10-16T14:06-06:00",
  "last_close_day": "2026-10-15",
  "tracked": 621,
  "tracked_by_market": {
@@ -512,6 +512,17 @@
    "rising_since": null
   },
   {
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "as_of": "2026-10-16T19:50:00+00:00",
+   "last": 0.215,
+   "pct_day": 16.22,
+   "pct_30m": 4.88,
+   "volume_pace": 1.29,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ZNX.V",
    "name": "ZINCX RESOURCES CORP",
    "as_of": "2026-10-16T19:35:00+00:00",
@@ -541,17 +552,6 @@
    "pct_day": 12.0,
    "pct_30m": 3.7,
    "volume_pace": 0.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HEVI.V",
-   "name": "HELIUM EVOLUTION INCORPORATED",
-   "as_of": "2026-10-16T18:50:00+00:00",
-   "last": 0.205,
-   "pct_day": 10.81,
-   "pct_30m": -2.38,
-   "volume_pace": 1.18,
    "rising": false,
    "rising_since": null
   },

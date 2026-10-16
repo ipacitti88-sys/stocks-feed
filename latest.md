@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-16T14:01-06:00
+# Stock feed — 2026-10-16T14:06-06:00
 
 Tracking 621 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-15. Intraday data as of: 2026-10-16T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -42,10 +42,10 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 - PWER.V (GLOBAL POWER SOLUTIONS CORP): +25.0% at 0.15, volume pace 4.42x
 - GIII.V (REGEN III CORP): +17.9% at 0.165, volume pace 0.0x
+- HEVI.V (HELIUM EVOLUTION INCORPORATED): +16.2% at 0.215, volume pace 1.29x
 - ZNX.V (ZINCX RESOURCES CORP): +14.0% at 0.285, volume pace 0.46x
 - VUL.V (VULCAN MINERALS INC): +13.6% at 0.375, volume pace 8.34x
 - SCLT.V (SEARCHLIGHT RESOURCES INC): +12.0% at 0.14, volume pace 0.67x
-- HEVI.V (HELIUM EVOLUTION INCORPORATED): +10.8% at 0.205, volume pace 1.18x
 - DEFN.V (DEFENSE METALS CORP): +10.5% at 0.105, volume pace 1.94x
 - TBK.V (TRAILBREAKER RESOURCES LTD): +10.0% at 0.33, volume pace 2.54x
 - B.V (BCM RESOURCES CORPORATION): +9.1% at 0.6, volume pace 1.92x
