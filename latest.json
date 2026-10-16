@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T12:31-06:00",
+ "generated": "2026-10-16T13:01-06:00",
  "last_close_day": "2026-10-15",
  "tracked": 621,
  "tracked_by_market": {
@@ -430,20 +430,8 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-16T18:35:00+00:00",
- "rising": [
-  {
-   "ticker": "ROK.V",
-   "name": "ROK RESOURCES INC",
-   "as_of": "2026-10-16T18:30:00+00:00",
-   "last": 0.385,
-   "pct_day": 3.36,
-   "pct_30m": 1.99,
-   "volume_pace": 3.18,
-   "rising": true,
-   "rising_since": "2026-10-16T18:30:00+00:00"
-  }
- ],
+ "live_as_of": "2026-10-16T19:05:00+00:00",
+ "rising": [],
  "top_gainers_today": [
   {
    "ticker": "GIII.V",
@@ -453,17 +441,6 @@
    "pct_day": 17.86,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "RDU.V",
-   "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-16T18:20:00+00:00",
-   "last": 0.275,
-   "pct_day": 14.58,
-   "pct_30m": 0.0,
-   "volume_pace": 2.73,
    "rising": false,
    "rising_since": null
   },
@@ -479,24 +456,24 @@
    "rising_since": null
   },
   {
-   "ticker": "HEVI.V",
-   "name": "HELIUM EVOLUTION INCORPORATED",
-   "as_of": "2026-10-16T18:20:00+00:00",
-   "last": 0.21,
-   "pct_day": 13.51,
-   "pct_30m": 0.0,
-   "volume_pace": 1.14,
+   "ticker": "RDU.V",
+   "name": "RADIUS GOLD INC.",
+   "as_of": "2026-10-16T18:40:00+00:00",
+   "last": 0.27,
+   "pct_day": 12.5,
+   "pct_30m": -3.57,
+   "volume_pace": 2.71,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ZNX.V",
    "name": "ZINCX RESOURCES CORP",
-   "as_of": "2026-10-16T17:40:00+00:00",
+   "as_of": "2026-10-16T19:00:00+00:00",
    "last": 0.28,
    "pct_day": 12.0,
    "pct_30m": 0.0,
-   "volume_pace": 0.3,
+   "volume_pace": 0.34,
    "rising": false,
    "rising_since": null
   },
@@ -512,68 +489,79 @@
    "rising_since": null
   },
   {
-   "ticker": "NSU.V",
-   "name": "NORTH SHORE URANIUM LTD",
-   "as_of": "2026-10-16T17:20:00+00:00",
-   "last": 0.19,
-   "pct_day": 11.76,
-   "pct_30m": 0.0,
-   "volume_pace": 0.37,
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "as_of": "2026-10-16T18:50:00+00:00",
+   "last": 0.205,
+   "pct_day": 10.81,
+   "pct_30m": -2.38,
+   "volume_pace": 1.17,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "DEFN.V",
+   "name": "DEFENSE METALS CORP",
+   "as_of": "2026-10-16T19:00:00+00:00",
+   "last": 0.105,
+   "pct_day": 10.53,
+   "pct_30m": 5.0,
+   "volume_pace": 1.92,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "VML.V",
    "name": "VISCOUNT MINING CORP",
-   "as_of": "2026-10-16T14:55:00+00:00",
-   "last": 0.5,
-   "pct_day": 11.11,
-   "pct_30m": 17.65,
-   "volume_pace": 2.33,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "WGT.V",
-   "name": "WESTGATE ENERGY INC",
-   "as_of": "2026-10-16T16:10:00+00:00",
-   "last": 0.235,
-   "pct_day": 9.3,
-   "pct_30m": 0.0,
-   "volume_pace": 0.36,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PLSR.V",
-   "name": "PULSAR HELIUM INC",
-   "as_of": "2026-10-16T18:30:00+00:00",
-   "last": 0.98,
+   "as_of": "2026-10-16T19:00:00+00:00",
+   "last": 0.49,
    "pct_day": 8.89,
+   "pct_30m": -2.0,
+   "volume_pace": 0.6,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ONE.V",
+   "name": "01 Quantum",
+   "as_of": "2026-10-16T18:20:00+00:00",
+   "last": 0.45,
+   "pct_day": 8.43,
    "pct_30m": 0.0,
-   "volume_pace": 0.87,
+   "volume_pace": 0.22,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PWER.V",
+   "name": "GLOBAL POWER SOLUTIONS CORP",
+   "as_of": "2026-10-16T19:00:00+00:00",
+   "last": 0.13,
+   "pct_day": 8.33,
+   "pct_30m": 8.33,
+   "volume_pace": 1.75,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "OCG.TO",
    "name": "OUTCROP SILVER & GOLD CORPORATI",
-   "as_of": "2026-10-16T18:20:00+00:00",
-   "last": 0.28,
-   "pct_day": 9.8,
-   "pct_30m": 0.0,
-   "volume_pace": 1.58,
+   "as_of": "2026-10-16T18:50:00+00:00",
+   "last": 0.275,
+   "pct_day": 7.84,
+   "pct_30m": -1.79,
+   "volume_pace": 1.71,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-16T18:30:00+00:00",
+   "as_of": "2026-10-16T19:00:00+00:00",
    "last": 1.04,
    "pct_day": 7.22,
-   "pct_30m": -1.89,
-   "volume_pace": 1.03,
+   "pct_30m": 0.0,
+   "volume_pace": 0.98,
    "rising": false,
    "rising_since": null
   },
@@ -589,46 +577,13 @@
    "rising_since": null
   },
   {
-   "ticker": "SAM.TO",
-   "name": "STARCORE INTERNATIONAL MINES LT",
-   "as_of": "2026-10-16T17:50:00+00:00",
-   "last": 0.34,
-   "pct_day": 6.25,
-   "pct_30m": 0.0,
-   "volume_pace": 1.09,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PDI.TO",
-   "name": "PDI GOLD LIMITED",
-   "as_of": "2026-10-16T17:05:00+00:00",
-   "last": 4.3,
-   "pct_day": 6.17,
-   "pct_30m": 0.94,
-   "volume_pace": 0.35,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-16T13:40:00+00:00",
-   "last": 0.365,
-   "pct_day": 5.8,
-   "pct_30m": 0.0,
-   "volume_pace": 0.3,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "LGO.TO",
    "name": "LARGO INC",
-   "as_of": "2026-10-16T18:30:00+00:00",
-   "last": 0.64,
-   "pct_day": 4.92,
+   "as_of": "2026-10-16T18:40:00+00:00",
+   "last": 0.645,
+   "pct_day": 5.74,
    "pct_30m": 0.0,
-   "volume_pace": 0.31,
+   "volume_pace": 0.35,
    "rising": false,
    "rising_since": null
   },
@@ -644,24 +599,57 @@
    "rising_since": null
   },
   {
-   "ticker": "HSTR.TO",
-   "name": "HELIOSTAR METALS LTD",
-   "as_of": "2026-10-16T18:30:00+00:00",
-   "last": 2.39,
-   "pct_day": 4.37,
-   "pct_30m": -0.42,
-   "volume_pace": 1.13,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "SYZ.TO",
    "name": "SYLOGIST LTD",
    "as_of": "2026-10-16T18:20:00+00:00",
    "last": 2.47,
    "pct_day": 4.22,
    "pct_30m": -0.4,
-   "volume_pace": 3.04,
+   "volume_pace": 3.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HSTR.TO",
+   "name": "HELIOSTAR METALS LTD",
+   "as_of": "2026-10-16T19:05:00+00:00",
+   "last": 2.38,
+   "pct_day": 3.93,
+   "pct_30m": -0.42,
+   "volume_pace": 1.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PDI.TO",
+   "name": "PDI GOLD LIMITED",
+   "as_of": "2026-10-16T18:40:00+00:00",
+   "last": 4.2,
+   "pct_day": 3.7,
+   "pct_30m": -2.33,
+   "volume_pace": 0.24,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ETG.TO",
+   "name": "ENTREE RESOURCES LTD",
+   "as_of": "2026-10-16T19:00:00+00:00",
+   "last": 2.99,
+   "pct_day": 3.46,
+   "pct_30m": 0.0,
+   "volume_pace": 0.87,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ESM.TO",
+   "name": "EURO SUN MINING INC",
+   "as_of": "2026-10-16T19:00:00+00:00",
+   "last": 0.155,
+   "pct_day": 3.33,
+   "pct_30m": 0.0,
+   "volume_pace": 1.46,
    "rising": false,
    "rising_since": null
   }
@@ -1261,9 +1249,9 @@
    "ma200": 977.32,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-16T18:35:00+00:00",
-    "last": 839.07,
-    "pct_day": -0.86
+    "as_of": "2026-10-16T19:05:00+00:00",
+    "last": 839.16,
+    "pct_day": -0.85
    }
   },
   "^GSPTSE": {
@@ -1860,9 +1848,9 @@
    "ma200": 34377.44,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-16T18:35:00+00:00",
-    "last": 36043.22,
-    "pct_day": -0.26
+    "as_of": "2026-10-16T19:05:00+00:00",
+    "last": 36057.64,
+    "pct_day": -0.22
    }
   }
  },
