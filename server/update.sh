@@ -23,7 +23,8 @@ DAILY="15 15 * * 1-5 $APP/run_daily.sh"
 INTRA="*/5 * * * 1-5 $APP/run_intraday.sh"
 WEEKLY="0 8 * * 6 $APP/run_weekly.sh"
 NEWS="30 6 * * 1-5 $APP/run_news.sh"
-( { crontab -l 2>/dev/null || true; } | { grep -v -E "stocks/run_(daily|intraday|weekly|news).sh" || true; } ; echo "$DAILY"; echo "$INTRA"; echo "$WEEKLY"; echo "$NEWS" ) | crontab -
+BACKUP="30 22 * * * $APP/run_backup.sh"
+( { crontab -l 2>/dev/null || true; } | { grep -v -E "stocks/run_(daily|intraday|weekly|news|backup).sh" || true; } ; echo "$DAILY"; echo "$INTRA"; echo "$WEEKLY"; echo "$NEWS"; echo "$BACKUP" ) | crontab -
 
 echo "== Updating the Yahoo data library"
 "$APP/venv/bin/pip" install --quiet --upgrade yfinance
