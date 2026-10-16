@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T11:31-06:00",
+ "generated": "2026-10-16T12:01-06:00",
  "last_close_day": "2026-10-15",
  "tracked": 621,
  "tracked_by_market": {
@@ -430,29 +430,40 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-16T17:35:00+00:00",
+ "live_as_of": "2026-10-16T18:05:00+00:00",
  "rising": [
   {
-   "ticker": "OCG.TO",
-   "name": "OUTCROP SILVER & GOLD CORPORATI",
-   "as_of": "2026-10-16T16:45:00+00:00",
-   "last": 0.285,
-   "pct_day": 11.76,
-   "pct_30m": 11.76,
-   "volume_pace": 2.14,
+   "ticker": "B.V",
+   "name": "BCM RESOURCES CORPORATION",
+   "as_of": "2026-10-16T18:00:00+00:00",
+   "last": 0.58,
+   "pct_day": 5.45,
+   "pct_30m": 3.57,
+   "volume_pace": 1.76,
    "rising": true,
-   "rising_since": "2026-10-16T16:45:00+00:00"
+   "rising_since": "2026-10-16T17:50:00+00:00"
   },
   {
-   "ticker": "CCDS.V",
-   "name": "CARRIER CONNECT DATA SOLUTIONS ",
-   "as_of": "2026-10-16T17:30:00+00:00",
-   "last": 1.43,
-   "pct_day": 6.72,
-   "pct_30m": 2.88,
-   "volume_pace": 3.15,
+   "ticker": "ELO.TO",
+   "name": "ELORO RESOURCES LTD",
+   "as_of": "2026-10-16T18:00:00+00:00",
+   "last": 1.39,
+   "pct_day": 3.73,
+   "pct_30m": 0.72,
+   "volume_pace": 2.39,
    "rising": true,
-   "rising_since": "2026-10-16T17:05:00+00:00"
+   "rising_since": "2026-10-16T18:00:00+00:00"
+  },
+  {
+   "ticker": "GENM.TO",
+   "name": "GENERATION MINING LIMITED",
+   "as_of": "2026-10-16T17:55:00+00:00",
+   "last": 0.475,
+   "pct_day": 3.26,
+   "pct_30m": 1.06,
+   "volume_pace": 1.8,
+   "rising": true,
+   "rising_since": "2026-10-16T17:55:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -470,11 +481,11 @@
   {
    "ticker": "RDU.V",
    "name": "RADIUS GOLD INC.",
-   "as_of": "2026-10-16T17:15:00+00:00",
-   "last": 0.275,
-   "pct_day": 14.58,
-   "pct_30m": -1.79,
-   "volume_pace": 3.23,
+   "as_of": "2026-10-16T17:55:00+00:00",
+   "last": 0.28,
+   "pct_day": 16.67,
+   "pct_30m": 1.82,
+   "volume_pace": 2.82,
    "rising": false,
    "rising_since": null
   },
@@ -490,13 +501,35 @@
    "rising_since": null
   },
   {
+   "ticker": "ZNX.V",
+   "name": "ZINCX RESOURCES CORP",
+   "as_of": "2026-10-16T17:40:00+00:00",
+   "last": 0.28,
+   "pct_day": 12.0,
+   "pct_30m": 0.0,
+   "volume_pace": 0.3,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PX.V",
+   "name": "PELANGIO EXPLORATION INC.",
+   "as_of": "2026-10-16T18:00:00+00:00",
+   "last": 0.14,
+   "pct_day": 12.0,
+   "pct_30m": 3.7,
+   "volume_pace": 0.63,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "NSU.V",
    "name": "NORTH SHORE URANIUM LTD",
    "as_of": "2026-10-16T17:20:00+00:00",
    "last": 0.19,
    "pct_day": 11.76,
    "pct_30m": 0.0,
-   "volume_pace": 0.14,
+   "volume_pace": 0.37,
    "rising": false,
    "rising_since": null
   },
@@ -512,13 +545,13 @@
    "rising_since": null
   },
   {
-   "ticker": "ZNX.V",
-   "name": "ZINCX RESOURCES CORP",
-   "as_of": "2026-10-16T17:20:00+00:00",
-   "last": 0.275,
-   "pct_day": 10.0,
-   "pct_30m": -1.79,
-   "volume_pace": 0.21,
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "as_of": "2026-10-16T18:00:00+00:00",
+   "last": 0.205,
+   "pct_day": 10.81,
+   "pct_30m": 2.5,
+   "volume_pace": 1.22,
    "rising": false,
    "rising_since": null
   },
@@ -545,56 +578,34 @@
    "rising_since": null
   },
   {
-   "ticker": "PLSR.V",
-   "name": "PULSAR HELIUM INC",
-   "as_of": "2026-10-16T17:30:00+00:00",
-   "last": 0.98,
-   "pct_day": 8.89,
-   "pct_30m": -1.01,
-   "volume_pace": 1.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ONE.V",
-   "name": "01 Quantum",
-   "as_of": "2026-10-16T16:25:00+00:00",
-   "last": 0.45,
-   "pct_day": 8.43,
-   "pct_30m": 8.43,
-   "volume_pace": 0.34,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "OCG.TO",
    "name": "OUTCROP SILVER & GOLD CORPORATI",
-   "as_of": "2026-10-16T16:45:00+00:00",
-   "last": 0.285,
-   "pct_day": 11.76,
-   "pct_30m": 11.76,
-   "volume_pace": 2.14,
-   "rising": true,
-   "rising_since": "2026-10-16T16:45:00+00:00"
+   "as_of": "2026-10-16T17:50:00+00:00",
+   "last": 0.28,
+   "pct_day": 9.8,
+   "pct_30m": -1.75,
+   "volume_pace": 1.61,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-16T17:35:00+00:00",
-   "last": 1.07,
-   "pct_day": 10.31,
+   "as_of": "2026-10-16T18:00:00+00:00",
+   "last": 1.06,
+   "pct_day": 9.28,
    "pct_30m": -0.93,
-   "volume_pace": 1.0,
+   "volume_pace": 0.93,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ECO.TO",
    "name": "ECOSYNTHETIX INC",
-   "as_of": "2026-10-16T17:25:00+00:00",
+   "as_of": "2026-10-16T18:00:00+00:00",
    "last": 1.85,
    "pct_day": 6.94,
-   "pct_30m": 1.65,
+   "pct_30m": 0.0,
    "volume_pace": 0.34,
    "rising": false,
    "rising_since": null
@@ -602,11 +613,11 @@
   {
    "ticker": "SAM.TO",
    "name": "STARCORE INTERNATIONAL MINES LT",
-   "as_of": "2026-10-16T16:35:00+00:00",
+   "as_of": "2026-10-16T17:50:00+00:00",
    "last": 0.34,
    "pct_day": 6.25,
    "pct_30m": 0.0,
-   "volume_pace": 1.52,
+   "volume_pace": 1.08,
    "rising": false,
    "rising_since": null
   },
@@ -635,33 +646,22 @@
   {
    "ticker": "HSTR.TO",
    "name": "HELIOSTAR METALS LTD",
-   "as_of": "2026-10-16T17:30:00+00:00",
+   "as_of": "2026-10-16T18:05:00+00:00",
    "last": 2.405,
    "pct_day": 5.02,
-   "pct_30m": 0.21,
-   "volume_pace": 1.23,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ILLM.TO",
-   "name": "iLLUMIN HOLDINGS INC",
-   "as_of": "2026-10-16T17:05:00+00:00",
-   "last": 0.63,
-   "pct_day": 5.0,
    "pct_30m": 0.0,
-   "volume_pace": 0.54,
+   "volume_pace": 1.16,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LGO.TO",
    "name": "LARGO INC",
-   "as_of": "2026-10-16T17:20:00+00:00",
+   "as_of": "2026-10-16T17:40:00+00:00",
    "last": 0.64,
    "pct_day": 4.92,
    "pct_30m": 0.0,
-   "volume_pace": 0.34,
+   "volume_pace": 0.33,
    "rising": false,
    "rising_since": null
   },
@@ -673,6 +673,17 @@
    "pct_day": 4.76,
    "pct_30m": 4.76,
    "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SYZ.TO",
+   "name": "SYLOGIST LTD",
+   "as_of": "2026-10-16T16:55:00+00:00",
+   "last": 2.48,
+   "pct_day": 4.64,
+   "pct_30m": 1.22,
+   "volume_pace": 4.29,
    "rising": false,
    "rising_since": null
   }
@@ -1272,9 +1283,9 @@
    "ma200": 977.32,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-16T17:35:00+00:00",
-    "last": 840.09,
-    "pct_day": -0.74
+    "as_of": "2026-10-16T18:05:00+00:00",
+    "last": 840.3,
+    "pct_day": -0.72
    }
   },
   "^GSPTSE": {
@@ -1871,9 +1882,9 @@
    "ma200": 34377.44,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-16T17:35:00+00:00",
-    "last": 36061.5,
-    "pct_day": -0.21
+    "as_of": "2026-10-16T18:05:00+00:00",
+    "last": 36053.36,
+    "pct_day": -0.23
    }
   }
  },
