@@ -18,6 +18,7 @@ The scanner only flags stocks trading enough **dollars** a day (20-day average v
 |---|---|---|
 | Weekdays, every 5 min | run_intraday.sh | Live scan, Rising flags (logged to `rising_log`), webpage; GitHub feed every 30 min |
 | Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, save 5-minute bars, dashboard, feed |
+| Weekdays 6:30 am | run_news.sh | Latest headlines for every stock (Yahoo, then Google News), published for the webpage and terminal |
 | Saturday 8:00 am | run_weekly.sh | New listings, pattern study (`patterns.json`), signal lab (`signal_lab.json`) |
 
 ## Research universe

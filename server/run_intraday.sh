@@ -8,3 +8,7 @@ if [ -d "$HOME/stocks-feed/.git" ] && [ $(( 10#$(date +%M) % 30 )) -lt 5 ]; then
   ./venv/bin/python sync_requests.py >> logs/intraday.log 2>&1
 fi
 flock -n /tmp/stocks-intraday.lock ./venv/bin/python intraday.py >> logs/intraday.log 2>&1
+# headlines for today's active stocks, every 30 minutes
+if [ $(( 10#$(date +%M) % 30 )) -lt 5 ]; then
+  flock -n /tmp/stocks-news.lock ./venv/bin/python news.py --hot >> logs/news.log 2>&1
+fi

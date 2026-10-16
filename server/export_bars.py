@@ -81,6 +81,14 @@ def main() -> int:
         with gzip.open(out / f"{t}.json.gz", "wt") as fh:
             json.dump(doc, fh, separators=(",", ":"))
         n += 1
+    # latest headlines per stock (written by news.py), for the terminal's stock panel
+    nd, src = DIR / "news", Path(os.environ.get("WEB_DIR", Path(__file__).parent / "web")) / "news"
+    nd.mkdir(exist_ok=True)
+    for f in nd.glob("*.json"):
+        f.unlink()
+    for t in tickers:
+        if (src / f"{t}.json").exists():
+            (nd / f"{t}.json").write_text((src / f"{t}.json").read_text())
     (DIR / "README.md").write_text(f"5-minute bars, last {DAYS} trading days, per stock. Updated {dt.datetime.now():%Y-%m-%d %H:%M}.\n")
 
     git("add", "-A", check=True)

@@ -127,6 +127,16 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
 .daypick button:disabled { opacity: .35; cursor: default; }
 .daypick input { font: inherit; font-size: 13px; padding: 4px 6px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); }
 .chart-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin: 12px 0 4px; }
+.news { margin-top: 16px; border-top: 1px solid var(--border); padding-top: 12px; }
+.news h3 { font-size: 13px; margin: 0 0 6px; color: var(--text-2); text-transform: uppercase; letter-spacing: .04em; }
+.news a.item { display: block; padding: 8px 0; border-bottom: 1px solid var(--grid); color: var(--text); text-decoration: none; }
+.news a.item:hover .t { text-decoration: underline; }
+.news .t { font-size: 14px; font-weight: 600; line-height: 1.35; }
+.news .m { font-size: 12px; color: var(--text-3); margin-top: 2px; }
+.news .s { font-size: 12px; color: var(--text-2); margin-top: 3px; }
+.news .new { color: var(--good); font-weight: 700; }
+.news .more { font-size: 12px; color: var(--text-3); margin-top: 8px; }
+.news .more a { color: var(--text-2); }
 .chart-note { color: var(--text-3); font-size: 12px; padding: 12px 0; }
 .legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin-right: 5px; }
 .tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 9px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); white-space: nowrap; display: none; z-index: 2; }
@@ -394,7 +404,8 @@ function renderDetail(t) {
         </div>
       </div>
     </div>
-    <div class="chart" id="chart"></div>`;
+    <div class="chart" id="chart"></div>
+    <div class="news" id="news"><h3>Latest news</h3><div class="chart-note">Loading…</div></div>`;
   $('rangeSeg').querySelectorAll('button').forEach((b) => b.addEventListener('click', () => {
     chartRange = b.dataset.r;
     try { localStorage.setItem('chartRange', chartRange); } catch (e) {}
@@ -405,6 +416,39 @@ function renderDetail(t) {
   $('dPrev').addEventListener('click', () => { pickDay(dayShown(t), -1); drawRange(t); });
   $('dNext').addEventListener('click', () => { pickDay(dayShown(t), 1); drawRange(t); });
   drawRange(t);
+  loadNews(t);
+}
+
+// ---------- latest news (server refreshes every morning, and every 30 minutes for active stocks) ----------
+const newsCache = {};
+function ago(iso) {
+  if (!iso) return '';
+  const m = (Date.now() - new Date(iso).getTime()) / 60000;
+  if (m < 60) return Math.max(1, Math.round(m)) + ' min ago';
+  if (m < 1440) return Math.round(m / 60) + ' h ago';
+  if (m < 1440 * 7) return Math.round(m / 1440) + ' d ago';
+  return new Date(iso).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+}
+function loadNews(t) {
+  const box = $('news'); if (!box) return;
+  const base = t.replace(/\.(V|TO)$/, ''), ex = t.endsWith('.TO') ? 'TSX' : 'TSXV';
+  const s = DATA.stocks.find((x) => x.t === t);
+  const more = `<div class="more">More: <a href="https://finance.yahoo.com/quote/${encodeURIComponent(t)}/news" target="_blank" rel="noopener">Yahoo Finance</a> · <a href="https://news.google.com/search?q=${encodeURIComponent((s && s.n ? s.n : base) + ' ' + ex)}" target="_blank" rel="noopener">Google News</a> · <a href="https://www.sedarplus.ca/" target="_blank" rel="noopener">SEDAR+ filings</a></div>`;
+  const draw = (j) => {
+    if (current !== t) return;
+    const items = (j && j.items) || [];
+    const head = `<h3>Latest news${j && j.fetched ? ' <span style="text-transform:none;letter-spacing:0;font-weight:400;color:var(--text-3)">· checked ' + esc(ago(j.fetched)) + '</span>' : ''}</h3>`;
+    if (!items.length) { box.innerHTML = head + `<div class="chart-note">${j ? 'No headlines in the last 90 days. Small companies often only publish news releases now and then.' : 'News appears after the server\'s next news check (every morning, and every 30 minutes for active stocks).'}</div>` + more; return; }
+    box.innerHTML = head + items.map((it) => {
+      const fresh = it.time && Date.now() - new Date(it.time).getTime() < 864e5;
+      const url = /^https?:\/\//.test(it.url || '') ? it.url : '#';
+      return `<a class="item" href="${esc(url)}" target="_blank" rel="noopener noreferrer"><div class="t">${fresh ? '<span class="new">NEW · </span>' : ''}${esc(it.title)}</div><div class="m">${esc(it.source || '')}${it.time ? ' · ' + esc(ago(it.time)) : ''}</div>${it.summary ? '<div class="s">' + esc(it.summary) + '</div>' : ''}</a>`;
+    }).join('') + more;
+  };
+  if (newsCache[t] !== undefined) { draw(newsCache[t]); return; }
+  fetch('news/' + encodeURIComponent(t) + '.json', { cache: 'no-cache' })
+    .then((r) => (r.ok ? r.json() : null)).catch(() => null)
+    .then((j) => { newsCache[t] = j; draw(j); });
 }
 
 // ---------- 1-day chart for any archived day ----------
