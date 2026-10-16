@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-16T11:01-06:00
+# Stock feed — 2026-10-16T11:31-06:00
 
-Tracking 621 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-15. Intraday data as of: 2026-10-16T17:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 621 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-15. Intraday data as of: 2026-10-16T17:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.38 on 2026-10-15 (day +1.9%, month -6.1%, year -16.9%, downtrend); live -0.3% at 17:05
-Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year +19.1%, uptrend); live +0.0% at 17:05
+Market: S&P/TSX Venture Composite 846.38 on 2026-10-15 (day +1.9%, month -6.1%, year -16.9%, downtrend); live -0.7% at 17:35
+Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year +19.1%, uptrend); live -0.2% at 17:35
 
 # TSX Venture
 
@@ -21,8 +21,7 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ROK.V (ROK RESOURCES INC): +3.4% today at 0.385, last 30m +1.3%, volume pace 3.16x, rising since 2026-10-16T16:55:00+00:00
-- INTR.V (INTREPID METALS CORP): +3.3% today at 0.93, last 30m +3.3%, volume pace 2.22x, rising since 2026-10-16T16:35:00+00:00
+- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): +6.7% today at 1.43, last 30m +2.9%, volume pace 3.15x, rising since 2026-10-16T17:05:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -40,15 +39,15 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - GIII.V (REGEN III CORP): +17.9% at 0.165, volume pace 0.0x
-- RDU.V (RADIUS GOLD INC.): +16.7% at 0.28, volume pace 4.15x
+- RDU.V (RADIUS GOLD INC.): +14.6% at 0.275, volume pace 3.23x
 - VUL.V (VULCAN MINERALS INC): +13.6% at 0.375, volume pace 8.34x
-- HEVI.V (HELIUM EVOLUTION INCORPORATED): +13.5% at 0.21, volume pace 0.96x
-- CCMM.V (COYOTE COPPER MINES INC): +13.4% at 0.55, volume pace 1.16x
-- ZNX.V (ZINCX RESOURCES CORP): +12.0% at 0.28, volume pace 0.25x
-- NSU.V (NORTH SHORE URANIUM LTD): +11.8% at 0.19, volume pace 0.24x
+- NSU.V (NORTH SHORE URANIUM LTD): +11.8% at 0.19, volume pace 0.14x
 - VML.V (VISCOUNT MINING CORP): +11.1% at 0.5, volume pace 2.33x
-- GSPR.V (GSP RESOURCE CORP): +11.1% at 0.1, volume pace 3.09x
-- PLSR.V (PULSAR HELIUM INC): +10.0% at 0.99, volume pace 1.24x
+- ZNX.V (ZINCX RESOURCES CORP): +10.0% at 0.275, volume pace 0.21x
+- MRVL.V (MARVEL BIOSCIENCES CORP): +10.0% at 0.11, volume pace 1.0x
+- WGT.V (WESTGATE ENERGY INC): +9.3% at 0.235, volume pace 0.36x
+- PLSR.V (PULSAR HELIUM INC): +8.9% at 0.98, volume pace 1.0x
+- ONE.V (01 Quantum): +8.4% at 0.45, volume pace 0.34x
 
 # TSX
 
@@ -64,8 +63,7 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +11.8% today at 0.285, last 30m +11.8%, volume pace 2.11x, rising since 2026-10-16T16:45:00+00:00
-- NFGC.TO (NEW FOUND GOLD CORP): +4.5% today at 2.32, last 30m +0.9%, volume pace 2.12x, rising since 2026-10-16T16:55:00+00:00
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +11.8% today at 0.285, last 30m +11.8%, volume pace 2.14x, rising since 2026-10-16T16:45:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -82,13 +80,13 @@ Market: S&P/TSX Composite 36,137.10 on 2026-10-15 (day +1.6%, month +1.6%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +11.8% at 0.285, volume pace 2.11x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +11.3% at 1.08, volume pace 1.07x
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +11.8% at 0.285, volume pace 2.14x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +10.3% at 1.07, volume pace 1.0x
+- ECO.TO (ECOSYNTHETIX INC): +6.9% at 1.85, volume pace 0.34x
 - SAM.TO (STARCORE INTERNATIONAL MINES LT): +6.2% at 0.34, volume pace 1.52x
+- PDI.TO (PDI GOLD LIMITED): +6.2% at 4.3, volume pace 0.35x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +5.8% at 0.365, volume pace 0.3x
-- ECO.TO (ECOSYNTHETIX INC): +5.2% at 1.82, volume pace 0.38x
-- PDI.TO (PDI GOLD LIMITED): +5.2% at 4.26, volume pace 0.28x
-- ARN.TO (ASARIAN ENERGY LIMITED): +5.0% at 0.42, volume pace 0.51x
-- ILLM.TO (iLLUMIN HOLDINGS INC): +5.0% at 0.63, volume pace 0.58x
-- LGO.TO (LARGO INC): +4.9% at 0.64, volume pace 0.5x
-- HSTR.TO (HELIOSTAR METALS LTD): +4.8% at 2.4, volume pace 1.34x
+- HSTR.TO (HELIOSTAR METALS LTD): +5.0% at 2.405, volume pace 1.23x
+- ILLM.TO (iLLUMIN HOLDINGS INC): +5.0% at 0.63, volume pace 0.54x
+- LGO.TO (LARGO INC): +4.9% at 0.64, volume pace 0.34x
+- CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
