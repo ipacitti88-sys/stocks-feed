@@ -43,6 +43,7 @@
   --bad: #f08a83; --bad-bg: #3a1a18; --accent-bg: #1c2a3d;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   margin: 0; background: var(--bg); color: var(--text);
   font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -144,7 +145,59 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
 .axis text { fill: var(--text-3); font-size: 10px; }
 .disclaimer { color: var(--text-3); font-size: 11px; margin-top: 20px; text-align: center; }
 
+/* ---------- section tabs (terminal features) ---------- */
+.views { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--border); margin: 0 0 16px; }
+.views::-webkit-scrollbar { display: none; }
+.views button { flex: none; border: 0; border-bottom: 2px solid transparent; background: none; color: var(--text-2); font: inherit; font-size: 14px; font-weight: 600; padding: 9px 12px 10px; cursor: pointer; margin-bottom: -1px; }
+.views button[aria-selected="true"] { color: var(--text); border-bottom-color: var(--series-1); }
+.views button:focus-visible, .btn:focus-visible, .star:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2px; }
+.views .cnt { font-size: 11px; font-weight: 600; color: var(--text-3); margin-left: 3px; }
+[data-view][hidden] { display: none !important; }
+.pad { padding: 0 16px 16px; }
+.lead { color: var(--text-2); font-size: 13px; margin: -4px 16px 12px; max-width: 75ch; }
+.btn { font: inherit; font-size: 12px; font-weight: 600; padding: 6px 11px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--series-1); cursor: pointer; white-space: nowrap; }
+.btn:disabled { color: var(--text-3); cursor: default; }
+.btn.on { background: var(--accent-bg); border-color: transparent; color: var(--text); }
+.btn.danger { color: var(--bad); }
+.star { color: var(--warn); margin-left: 4px; font-size: 12px; }
+.pend { font-size: 11px; color: var(--warn); font-weight: 600; }
+.listbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 0 16px 12px; }
+.listbar input::placeholder { text-transform: none; }
+.listbar input { flex: 0 1 200px; min-width: 0; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); font: inherit; text-transform: uppercase; }
+.msg { font-size: 12px; color: var(--text-2); min-height: 1.2em; padding: 0 16px 10px; }
+.msg.bad { color: var(--bad); }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+.navrow { display: flex; gap: 6px; overflow-x: auto; padding: 0 16px 12px; }
+.navrow button { flex: none; font: inherit; font-size: 12px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2); cursor: pointer; }
+.navrow button[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+.item { border-top: 1px solid var(--grid); padding: 12px 16px; }
+.item:first-child { border-top: 0; }
+.item .top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.item .k { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-3); margin-right: 6px; }
+.item p { margin: 5px 0 0; font-size: 13px; max-width: 75ch; }
+.note-text { white-space: pre-wrap; font-size: 13px; margin: 6px 0 0; max-width: 80ch; }
+.chip { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; background: var(--accent-bg); color: var(--text-2); }
+.chip.good { background: var(--good-bg); color: var(--good); }
+.chip.bad { background: var(--bad-bg); color: var(--bad); }
+.chip.warn { background: var(--warn-bg); color: var(--warn); }
+.mm { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 2px 10px; padding: 8px 16px; border-top: 1px solid var(--grid); align-items: baseline; font-size: 13px; }
+.mm .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mm .nt { grid-column: 2 / 4; color: var(--text-3); font-size: 12px; white-space: normal; }
+.mm .ex { display: block; color: var(--text-3); font-size: 10px; font-weight: 400; }
+.subh { font-size: 12px; font-weight: 600; color: var(--text-2); text-transform: uppercase; letter-spacing: .04em; margin: 14px 16px 4px; }
+.plain td, .plain th { cursor: default; }
+.plain tbody tr { cursor: default; }
+.plain thead th { cursor: default; }
+.src { color: var(--text-3); font-size: 12px; }
+.src a { color: var(--text-2); }
+.lt2 td:nth-child(2), .lt2 th:nth-child(2) { text-align: left; }
+.btn .sm { display: none; }
+details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12px; margin-top: 4px; }
+
 @media (max-width: 900px) {
+  .grid2 { grid-template-columns: minmax(0, 1fr); }
+  .btn .lg { display: none; } .btn .sm { display: inline; }
+  #myRows td, .plain th { padding: 7px 6px; }
   .main { grid-template-columns: minmax(0, 1fr); }
   .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tablewrap { max-height: 420px; }
@@ -167,6 +220,16 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
   </header>
   <!--NAV-->
 
+  <nav class="views" id="views" role="tablist" aria-label="Sections">
+    <button type="button" role="tab" data-v="scan">Scanner</button>
+    <button type="button" role="tab" data-v="mine">My list<span class="cnt" id="myCnt"></span></button>
+    <button type="button" role="tab" data-v="trk">Track record</button>
+    <button type="button" role="tab" data-v="rep">Reports</button>
+    <button type="button" role="tab" data-v="meme">Meme stocks</button>
+    <button type="button" role="tab" data-v="paper">Paper account</button>
+  </nav>
+
+  <div data-view="scan">
   <div class="kpis">
     <div class="kpi"><div class="label">Rising now</div><div class="value" id="k-rise">–</div><div class="note" id="k-rise-note">market closed</div></div>
     <div class="kpi"><div class="label">Stocks tracked</div><div class="value" id="k-tracked"></div><div class="note">active watchlist</div></div>
@@ -190,15 +253,16 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
       <h2>All stocks</h2>
       <div class="toolbar">
         <input id="q" type="search" placeholder="Search ticker or name" aria-label="Search">
-        <div class="seg" role="group" aria-label="Filter">
+        <div class="seg" role="group" aria-label="Filter" id="filterSeg">
           <button data-f="all" aria-pressed="true">All</button>
+          <button data-f="mine" aria-pressed="false">★ My list</button>
           <button data-f="rise" aria-pressed="false" class="live-col">Rising</button>
           <button data-f="flag" aria-pressed="false">Flagged</button>
           <button data-f="new" aria-pressed="false">New</button>
         </div>
       </div>
       <div class="tablewrap">
-        <table>
+        <table id="scanTable">
           <thead><tr>
             <th data-k="t">Stock</th>
             <th data-k="px">Price</th>
@@ -218,7 +282,95 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
       <div class="detail" id="detail"><div class="empty" style="padding:0">Select a stock.</div></div>
     </div>
   </div>
+  </div>
 
+  <div data-view="mine" hidden>
+    <div class="card section">
+      <h2 id="myTitle">My list</h2>
+      <p class="lead" id="myLead">The same watchlist as your trading terminal. Add or remove a stock here and the terminal picks it up at its next sync (weekdays about 6:40am, 10:40am and 3:40pm); changes made in the terminal show up here after that sync too.</p>
+      <form class="listbar" id="myAdd" autocomplete="off">
+        <input id="myAddT" list="myAddList" placeholder="Ticker, e.g. LVG" aria-label="Ticker to add" maxlength="14">
+        <datalist id="myAddList"></datalist>
+        <button class="btn" type="submit" id="myAddB">+ Add to my list</button>
+      </form>
+      <div class="msg" id="myMsg" role="status"></div>
+      <div class="tablewrap" style="max-height:none">
+        <table class="plain">
+          <thead><tr><th>Stock</th><th>Price</th><th class="live-col">Today</th><th>20d</th><th class="hide-sm">Signals</th><th class="hide-sm">Alerts</th><th></th></tr></thead>
+          <tbody id="myRows"></tbody>
+        </table>
+      </div>
+      <p class="src pad" id="myFoot" style="margin:12px 0 0"></p>
+    </div>
+  </div>
+
+  <div data-view="trk" hidden>
+    <div class="card section">
+      <h2>Did the signals work?</h2>
+      <p class="lead">Every stock your scanner flags, marks as rising, or catches breaking out is logged at that day's close and followed for 20 trading days. A win is any gain from the signal price. Small samples swing a lot.</p>
+      <div id="trkStats" class="pad"></div>
+    </div>
+    <div class="card section">
+      <h2>Signals</h2>
+      <div class="navrow" id="trkNav" role="group" aria-label="Signal type"></div>
+      <div class="tablewrap">
+        <table class="plain lt2">
+          <thead><tr><th>Date</th><th>Stock</th><th>Type</th><th>Entry</th><th>1 day</th><th>5 days</th><th>20 days</th><th>Latest</th></tr></thead>
+          <tbody id="trkRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div data-view="rep" hidden>
+    <div class="grid2">
+      <div class="card section">
+        <h2>Pre-market notes</h2>
+        <p class="lead">Written each weekday at 6:53am, before the 7:30am open.</p>
+        <div id="repMorn"></div>
+      </div>
+      <div class="card section">
+        <h2>Weekly picks</h2>
+        <p class="lead">Sunday shortlists, each checked for red flags.</p>
+        <div class="navrow" id="wkNav" role="group" aria-label="Week"></div>
+        <div id="wkBody"></div>
+      </div>
+    </div>
+  </div>
+
+  <div data-view="meme" hidden>
+    <div class="card section">
+      <h2>Meme stock review</h2>
+      <p class="lead">Written each night around 8:45pm from Reddit mention trackers (r/wallstreetbets, r/pennystocks, r/Shortsqueeze). Mentions measure attention, not conviction.</p>
+      <div class="navrow" id="mmNav" role="group" aria-label="Night"></div>
+      <div id="mmBody"></div>
+    </div>
+  </div>
+
+  <div data-view="paper" hidden>
+    <div class="kpis" id="ppK"></div>
+    <div class="grid2">
+      <div class="card section">
+        <h2>Positions</h2>
+        <div class="tablewrap" style="max-height:none">
+          <table class="plain"><thead><tr><th>Stock</th><th>Shares</th><th>Avg</th><th>Last</th><th>P&amp;L</th></tr></thead><tbody id="ppPos"></tbody></table>
+        </div>
+        <div class="subh">Recent orders</div>
+        <div id="ppLog" class="pad src"></div>
+      </div>
+      <div class="card section">
+        <h2>Price alerts</h2>
+        <div class="tablewrap" style="max-height:none">
+          <table class="plain"><thead><tr><th>Stock</th><th>Last</th><th>Buy at or below</th><th>Stop-loss</th></tr></thead><tbody id="ppAl"></tbody></table>
+        </div>
+        <div class="subh">Alerts that fired</div>
+        <div id="ppFired" class="pad src"></div>
+      </div>
+    </div>
+    <p class="src" style="text-align:center">Read-only copy of the paper account in your trading terminal. Place paper trades and set alerts there. Paper trading only: no real orders are placed.</p>
+  </div>
+
+  <p class="src" id="termNote" style="text-align:center;margin-top:16px"></p>
   <div class="disclaimer">Screening signals only — not a prediction or financial advice. Low-priced stocks can move sharply both ways.</div>
 </div>
 
@@ -322,7 +474,7 @@ let sortKey = HAS_LIVE ? 'pd' : 'rv', sortDir = -1, filter = 'all', query = '', 
 function renderTable() {
   const q = query.trim().toLowerCase();
   let list = DATA.stocks.filter((s) =>
-    (filter === 'all' || (filter === 'flag' && isFlagged(s)) || (filter === 'new' && isNew(s)) || (filter === 'rise' && isRising(s))) &&
+    (filter === 'all' || (filter === 'mine' && onMy(s.t)) || (filter === 'flag' && isFlagged(s)) || (filter === 'new' && isNew(s)) || (filter === 'rise' && isRising(s))) &&
     (!q || s.t.toLowerCase().includes(q) || (s.n || '').toLowerCase().includes(q)));
   list.sort((a, b) => {
     const x = a[sortKey], y = b[sortKey];
@@ -333,7 +485,7 @@ function renderTable() {
   });
   $('rows').innerHTML = list.length ? list.map((s) => `
     <tr data-t="${esc(s.t)}" class="${s.t === current ? 'sel' : ''}">
-      <td><strong>${esc(s.t)}</strong>${isRising(s) ? '<span class="tag up">▲ RISING</span>' : ''}${isNew(s) ? '<span class="tag">NEW</span>' : ''}<span class="nm">${esc(s.n)}</span></td>
+      <td><strong>${esc(s.t)}</strong>${onMy(s.t) ? '<span class="star" title="On my list">★</span>' : ''}${isRising(s) ? '<span class="tag up">▲ RISING</span>' : ''}${isNew(s) ? '<span class="tag">NEW</span>' : ''}<span class="nm">${esc(s.n)}</span></td>
       <td>${fmtPrice(s.px)}</td>
       <td class="live-col ${cls(s.pd)}">${fmtPct(s.pd)}</td>
       <td>${fmtX(s.rv)}</td>
@@ -341,20 +493,20 @@ function renderTable() {
       <td class="hide-sm">${fmtPct(s.fh)}</td>
       <td><span class="dots" aria-label="${s.s} of 3 signals">${'●'.repeat(s.s)}${'○'.repeat(3 - s.s)}</span></td>
     </tr>`).join('') : '<tr><td colspan="7" class="empty" style="padding:16px">No stocks match.</td></tr>';
-  document.querySelectorAll('thead th').forEach((th) =>
+  document.querySelectorAll('#scanTable thead th').forEach((th) =>
     th.setAttribute('aria-sort', th.dataset.k === sortKey ? (sortDir > 0 ? 'ascending' : 'descending') : 'none'));
 }
 
-document.querySelectorAll('thead th').forEach((th) => th.addEventListener('click', () => {
+document.querySelectorAll('#scanTable thead th').forEach((th) => th.addEventListener('click', () => {
   const k = th.dataset.k;
   if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = k === 't' ? 1 : -1; }
   renderTable();
 }));
 $('rows').addEventListener('click', (e) => { const tr = e.target.closest('tr[data-t]'); if (tr) select(tr.dataset.t, false); });
 $('q').addEventListener('input', (e) => { query = e.target.value; renderTable(); });
-document.querySelectorAll('.seg button').forEach((b) => b.addEventListener('click', () => {
+document.querySelectorAll('#filterSeg button').forEach((b) => b.addEventListener('click', () => {
   filter = b.dataset.f;
-  document.querySelectorAll('.seg button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+  document.querySelectorAll('#filterSeg button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
   renderTable();
 }));
 
@@ -376,6 +528,7 @@ function renderDetail(t) {
   $('detail').innerHTML = `
     <div class="dhead">
       <div><div class="big">${esc(s.t)} · ${fmtPrice(s.px)}</div><div class="sub">${esc(s.n)} · close ${dateLabel(s.d)}</div></div>
+      <span id="myBtn">${myButton(s.t)}</span>
     </div>
     ${s.lp != null ? `<div class="live-box"><div class="lt">${LIVE_FRESH ? 'Live' : 'Intraday'} · ${timeLabel(DATA.liveAsOf)} (15-min delay)${isRising(s) ? ' · <strong class="pos">▲ Rising since ' + timeLabel(s.since) + '</strong>' : ''}</div>
       <div class="stats">
@@ -623,6 +776,272 @@ function drawCharts(h) {
   hit.addEventListener('pointerleave', hide);
 }
 
+// ---------- shared with the trading terminal: my list, track record, reports, memes, paper account ----------
+const AK = { PRL: 'PRL.TO', XTRA: 'XTRA.TO', PNG: 'PNG.V' };   // the terminal's built-in short names
+const yt = (k) => AK[k] || k;
+const IS_TSX = !!DATA && DATA.market === 'TSX';
+const inMkt = (t) => String(t || '').endsWith('.TO') === IS_TSX;
+const TERM = (DATA && DATA.term) || null;
+const pc = (v) => v == null || isNaN(v) ? '–' : (v > 0 ? '+' : '') + (v * 100).toFixed(1) + '%';
+const money = (v) => v == null || isNaN(v) ? '–' : (v < 0 ? '−' : '') + 'C$' + Math.abs(v).toLocaleString('en-CA', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const dayLabel = (d) => { const x = new Date(String(d) + 'T12:00:00'); return isNaN(x) ? String(d || '') : x.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' }); };
+const safeUrl = (u) => /^https?:\/\//i.test(String(u || '')) ? u : null;
+const stockOf = (t) => DATA.stocks.find((x) => x.t === t);
+const termEmpty = (what) => `<div class="empty" style="padding:12px 16px">${what} appear here once your server loads the terminal's backup (daily at 7:35am and 10:30pm).</div>`;
+
+// ----- my list -----
+let MY = (DATA && DATA.my) || { items: [], pending: [], builtIn: [] };
+let apiState = 'checking';           // 'ok' once the server's list service answers
+let lastMsg = null;                  // { text, bad, at }
+const API = DATA ? location.protocol + '//' + location.hostname + ':' + (DATA.listApiPort || 8081) + '/mylist' : '';
+const myItem = (t) => (MY.items || []).find((i) => i.t === t);
+function onMy(t) { const i = myItem(t); return !!i && i.pending !== 'remove'; }
+function msgSpan() { return lastMsg && Date.now() - lastMsg.at < 10000 ? ` <span class="pend" style="${lastMsg.bad ? 'color:var(--bad)' : ''}">${esc(lastMsg.text)}</span>` : ''; }
+function myButton(t) {
+  const i = myItem(t), on = onMy(t), built = (MY.builtIn || []).includes(t);
+  const wait = i && i.pending ? ` <span class="pend">${i.pending === 'add' ? 'reaches the terminal at its next sync' : 'removal reaches the terminal at its next sync'}</span>` : '';
+  if (apiState !== 'ok') return on ? '<span class="chip good">★ On my list</span>' : '';
+  if (on) return '<span class="chip good">★ On my list</span>' + (built ? '' : ` <button type="button" class="btn danger" data-my="remove" data-t="${esc(t)}">Remove</button>`) + wait;
+  return `<button type="button" class="btn" data-my="add" data-t="${esc(t)}">☆ Add to my list</button>` + wait;
+}
+function say(text, bad) {
+  lastMsg = { text, bad: !!bad, at: Date.now() };
+  const m = $('myMsg'); m.textContent = text; m.className = 'msg' + (bad ? ' bad' : '');
+}
+function loadMy() {
+  if (!API || location.protocol === 'file:') { apiState = 'down'; listChanged(); return; }
+  const ctl = new AbortController();
+  setTimeout(() => ctl.abort(), 6000);
+  fetch(API, { cache: 'no-store', signal: ctl.signal })
+    .then((r) => r.ok ? r.json() : Promise.reject(r.status))
+    .then((j) => { if (j && Array.isArray(j.items)) MY = j; apiState = 'ok'; listChanged(); })
+    .catch(() => { apiState = 'down'; listChanged(); });
+}
+function setMy(t, action) {
+  return fetch(API, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ticker: t, action }) })
+    .then((r) => r.json().then((j) => ({ ok: r.ok, j })))
+    .then(({ ok, j }) => { if (j && Array.isArray(j.items)) MY = j; say(j.message || (ok ? 'Saved.' : 'Couldn\'t save that.'), !ok); listChanged(); })
+    .catch(() => { say('Couldn\'t reach the list service on your server. Try again.', true); listChanged(); });
+}
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-my]');
+  if (!b) return;
+  e.stopPropagation();
+  b.disabled = true;
+  setMy(b.dataset.t, b.dataset.my);
+});
+function listChanged() {
+  const n = (MY.items || []).filter((i) => i.pending !== 'remove' && inMkt(i.t)).length;
+  $('myCnt').textContent = n ? ' ' + n : '';
+  renderTable();
+  if (current && $('myBtn')) $('myBtn').innerHTML = myButton(current) + msgSpan();
+  renderMy();
+  renderWeeks();
+}
+
+function alertFor(t) {
+  const al = (TERM && TERM.paper && TERM.paper.al) || {};
+  for (const k in al) if (yt(k) === t) return al[k];
+  return null;
+}
+function renderMy() {
+  $('myTitle').textContent = 'My list · ' + (DATA.market || '');
+  const items = (MY.items || []).filter((i) => inMkt(i.t)).sort((a, b) => a.t.localeCompare(b.t));
+  $('myAdd').hidden = apiState !== 'ok';
+  $('myAddList').innerHTML = DATA.stocks.filter((s) => !onMy(s.t)).map((s) => `<option value="${esc(s.t)}">${esc(s.n)}</option>`).join('');
+  $('myRows').innerHTML = items.length ? items.map((i) => {
+    const s = stockOf(i.t), a = alertFor(i.t), gone = i.pending === 'remove';
+    const al = a && (a.buy || a.stop) ? [a.buy ? 'buy ≤ ' + fmtPrice(a.buy) : '', a.stop ? 'stop ' + fmtPrice(a.stop) : ''].filter(Boolean).join(' · ') : '–';
+    const act = apiState !== 'ok' ? '' : gone
+      ? `<button type="button" class="btn" data-my="add" data-t="${esc(i.t)}">Undo</button>`
+      : (MY.builtIn || []).includes(i.t) ? '<span class="src">built in</span>'
+      : `<button type="button" class="btn danger" data-my="remove" data-t="${esc(i.t)}" aria-label="Remove ${esc(i.t)}"><span class="lg">Remove</span><span class="sm">✕</span></button>`;
+    return `<tr data-go="${esc(i.t)}" style="${gone ? 'opacity:.55' : ''};cursor:${s ? 'pointer' : 'default'}">
+      <td><strong>${esc(i.t)}</strong>${i.pending ? ` <span class="pend">${i.pending === 'add' ? 'added here' : 'removing'}</span>` : ''}<span class="nm">${esc((s && s.n) || i.n)}</span></td>
+      <td>${s ? fmtPrice(s.px) : '<span class="src">waiting for prices</span>'}</td>
+      <td class="live-col ${cls(s && s.pd)}">${s ? fmtPct(s.pd) : ''}</td>
+      <td class="${cls(s && s.p20)}">${s ? fmtPct(s.p20) : ''}</td>
+      <td class="hide-sm">${s ? `<span class="dots">${'●'.repeat(s.s)}${'○'.repeat(3 - s.s)}</span>` : ''}</td>
+      <td class="hide-sm">${esc(al)}</td>
+      <td>${act}</td></tr>`;
+  }).join('') : `<tr><td colspan="7" class="empty" style="padding:16px;text-align:left">No ${esc(DATA.market)} stocks on your list yet.${apiState === 'ok' ? ' Add one above, or with ☆ on any stock in the Scanner.' : ''}</td></tr>`;
+  const other = (MY.items || []).filter((i) => !inMkt(i.t) && i.pending !== 'remove').length;
+  const waiting = (MY.pending || []).length;
+  const bits = [];
+  if (other) bits.push(other + ' more on the ' + (IS_TSX ? 'TSX Venture' : 'TSX') + ' page.');
+  if (waiting) bits.push(waiting + ' change' + (waiting > 1 ? 's' : '') + ' made here ' + (waiting > 1 ? 'are' : 'is') + ' waiting for the terminal\'s next sync.');
+  if (MY.terminalUpdated) bits.push('Terminal last synced ' + ago(MY.terminalUpdated) + '.');
+  else bits.push('The terminal hasn\'t shared its list yet; it does at its next sync.');
+  if (apiState === 'down') bits.push('Can\'t reach the list service on your server (port ' + (DATA.listApiPort || 8081) + '), so adding and removing is off. It restarts within 5 minutes; if not, run stocks-update.');
+  $('myFoot').textContent = bits.join(' ');
+}
+$('myRows').addEventListener('click', (e) => {
+  if (e.target.closest('[data-my]')) return;
+  const tr = e.target.closest('tr[data-go]');
+  if (tr && stockOf(tr.dataset.go)) { showView('scan'); select(tr.dataset.go, true); }
+});
+$('myAdd').addEventListener('submit', (e) => {
+  e.preventDefault();
+  let t = $('myAddT').value.trim().toUpperCase().replace(/\s+/g, '');
+  if (t.includes(':')) t = t.split(':').pop();
+  if (t && !/\.(V|TO|CN|NE)$/.test(t)) t = t.replace(/\.$/, '') + (IS_TSX ? '.TO' : '.V');
+  if (!/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(t)) { say('Enter a ticker like LVG or LVG.V.', true); return; }
+  if (onMy(t)) { say(t + ' is already on your list.'); return; }
+  $('myAddB').disabled = true;
+  setMy(t, 'add').then(() => { $('myAddB').disabled = false; $('myAddT').value = ''; });
+});
+
+// ----- track record -----
+let trkF = 'all';
+function sigEntries() {
+  const out = [];
+  ((TERM && TERM.signals) || []).forEach((d) => (d.entries || []).forEach((e) => {
+    if (!e || typeof e.entry !== 'number' || !e.entry || !inMkt(e.ticker)) return;
+    const p = (Array.isArray(e.path) ? e.path : []).filter((v) => typeof v === 'number');
+    out.push({ date: d.date || d.id, t: e.ticker, type: e.type, entry: e.entry,
+      r1: p.length >= 1 ? p[0] / e.entry - 1 : null, r5: p.length >= 5 ? p[4] / e.entry - 1 : null,
+      r20: p.length >= 20 ? p[19] / e.entry - 1 : null, rl: p.length ? p[p.length - 1] / e.entry - 1 : null, days: p.length });
+  }));
+  return out.sort((a, b) => a.date < b.date ? 1 : a.date > b.date ? -1 : (b.rl || 0) - (a.rl || 0));
+}
+function stat(list, key) {
+  const v = list.map((x) => x[key]).filter((x) => x != null);
+  if (!v.length) return null;
+  const s = v.slice().sort((a, b) => a - b);
+  return { n: v.length, win: v.filter((x) => x > 0).length / v.length, avg: v.reduce((a, b) => a + b, 0) / v.length, med: s[Math.floor(s.length / 2)], best: s[s.length - 1], worst: s[0] };
+}
+const TYPES = [['breakout', 'Breakout'], ['rising', 'Rising'], ['flagged', 'Flagged']];
+function renderTrk() {
+  if (!TERM) { $('trkStats').innerHTML = termEmpty('Results'); $('trkRows').innerHTML = ''; $('trkNav').innerHTML = ''; return; }
+  const all = sigEntries();
+  if (!all.length) $('trkStats').innerHTML = `<div class="empty" style="padding:0">No ${esc(DATA.market)} signals logged yet.</div>`;
+  else if (!all.some((x) => x.r1 != null)) $('trkStats').innerHTML = `<div class="empty" style="padding:0">${all.length} signals logged so far. Results appear after their first trading day.</div>`;
+  else {
+    const rows = [];
+    TYPES.forEach(([k, label]) => [['r1', '1 day'], ['r5', '5 days'], ['r20', '20 days']].forEach(([h, hl]) => {
+      const st = stat(all.filter((x) => x.type === k), h);
+      rows.push(`<tr><td>${label}</td><td>${hl}</td>${st ? `<td>${st.n}</td><td class="${st.win >= 0.5 ? 'pos' : 'neg'}">${Math.round(st.win * 100)}%</td>${[st.avg, st.med, st.best, st.worst].map((v) => `<td class="${cls(v)}">${pc(v)}</td>`).join('')}` : '<td colspan="6" class="src" style="text-align:left">Not enough days yet</td>'}</tr>`);
+    }));
+    $('trkStats').innerHTML = `<div class="tablewrap" style="max-height:none;border:0"><table class="plain"><thead><tr><th>Signal</th><th>Horizon</th><th>Signals</th><th>Win rate</th><th>Average</th><th>Median</th><th>Best</th><th>Worst</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
+  }
+  $('trkNav').innerHTML = [['all', 'All signals']].concat(TYPES).map(([k, l]) => `<button type="button" data-k="${k}" aria-pressed="${k === trkF}">${l}</button>`).join('');
+  const L = all.filter((x) => trkF === 'all' || x.type === trkF).slice(0, 200);
+  $('trkRows').innerHTML = L.length ? L.map((x) => `<tr><td>${esc(dateLabel(x.date))}</td><td><strong>${esc(x.t)}</strong>${onMy(x.t) ? '<span class="star">★</span>' : ''}</td><td>${x.type === 'rising' ? 'Rising' : x.type === 'breakout' ? 'Breakout' : 'Flagged'}</td><td>${fmtPrice(x.entry)}</td>${[x.r1, x.r5, x.r20].map((v) => `<td class="${cls(v)}">${pc(v)}</td>`).join('')}<td class="${cls(x.rl)}">${x.days ? pc(x.rl) + ' (' + x.days + 'd)' : '–'}</td></tr>`).join('')
+    : '<tr><td colspan="8" class="empty" style="padding:16px;text-align:left">No signals logged yet.</td></tr>';
+}
+$('trkNav').addEventListener('click', (e) => { const b = e.target.closest('button[data-k]'); if (b) { trkF = b.dataset.k; renderTrk(); } });
+
+// ----- reports: pre-market notes and weekly picks -----
+function renderMorn() {
+  const M = (TERM && TERM.mornings) || [];
+  if (!TERM) { $('repMorn').innerHTML = termEmpty('Pre-market notes'); return; }
+  $('repMorn').innerHTML = M.length ? M.map((m, i) => `<div class="item"><div class="top"><strong>${esc(dayLabel(m.date || m.id))}</strong><span class="src">${esc(m.headline || '')}</span></div>
+    ${i === 0 ? `<p class="note-text">${esc(m.text || '')}</p>` : `<details class="more-note"><summary>Show note</summary><p class="note-text">${esc(m.text || '')}</p></details>`}</div>`).join('')
+    : '<div class="empty" style="padding:12px 16px">No pre-market notes yet. They arrive weekdays at about 6:55am.</div>';
+}
+let wkSel = null;
+try { wkSel = localStorage.getItem('wk'); } catch (e) {}
+function renderWeeks() {
+  const W = (TERM && TERM.weeks) || [];
+  if (!TERM) { $('wkBody').innerHTML = termEmpty('Weekly picks'); return; }
+  if (!W.length) { $('wkBody').innerHTML = '<div class="empty" style="padding:12px 16px">The Sunday shortlist arrives Sundays at 5:50pm.</div>'; return; }
+  if (!wkSel || !W.some((w) => w.id === wkSel)) wkSel = W[0].id;
+  $('wkNav').innerHTML = W.map((w, i) => `<button type="button" data-w="${esc(w.id)}" aria-pressed="${w.id === wkSel}">${i === 0 ? 'Latest · ' : ''}${esc(dateLabel(w.date || w.id))}</button>`).join('');
+  const w = W.find((x) => x.id === wkSel);
+  const picks = (Array.isArray(w.picks) ? w.picks : []).slice().sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99));
+  const rj = Array.isArray(w.rejected) ? w.rejected : [];
+  const src = (Array.isArray(w.sources) ? w.sources : []).filter((s) => safeUrl(s && s.url));
+  $('wkBody').innerHTML = (w.summary ? `<p class="lead" style="margin-top:0">${esc(w.summary)}</p>` : '') +
+    (picks.length ? picks.map((p) => `<div class="item"><div class="top"><span><strong>${p.rank ? esc(p.rank) + '. ' : ''}${esc(p.ticker)}</strong> <span class="src">${esc(p.name)}</span></span><span>${p.price ? 'C$' + esc(p.price) : ''}</span></div>
+      <div style="margin-top:4px"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong candidate' : 'Watch'}</span></div>
+      ${[['Catalyst', p.catalyst], ['Red flags', p.redFlags], ['Verdict', p.verdict]].filter((r) => r[1]).map((r) => `<p><span class="k">${r[0]}</span>${esc(r[1])}</p>`).join('')}
+      ${stockOf(p.ticker) || onMy(p.ticker) ? `<div style="margin-top:8px">${myButton(p.ticker)}</div>` : ''}</div>`).join('')
+      : '<div class="empty" style="padding:12px 16px">No names passed the red-flag check this week.</div>') +
+    (rj.length ? `<div class="subh">Rejected</div>${rj.map((r) => `<div class="item" style="padding-top:6px;padding-bottom:6px"><strong class="neg">${esc(r.ticker)}</strong> <span class="src">${esc(r.reason)}</span></div>`).join('')}` : '') +
+    (src.length ? `<div class="subh">Sources</div><ol class="src" style="margin:0 16px 16px;padding-left:18px">${src.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a></li>`).join('')}</ol>` : '');
+}
+$('wkNav').addEventListener('click', (e) => { const b = e.target.closest('button[data-w]'); if (b) { wkSel = b.dataset.w; try { localStorage.setItem('wk', wkSel); } catch (x) {} renderWeeks(); } });
+
+// ----- meme stocks -----
+let mmSel = null;
+try { mmSel = localStorage.getItem('memeNight'); } catch (e) {}
+function renderMemes() {
+  const N = (TERM && TERM.memes) || [];
+  if (!TERM) { $('mmBody').innerHTML = termEmpty('Meme reviews'); return; }
+  if (!N.length) { $('mmBody').innerHTML = '<div class="empty" style="padding:12px 16px">The nightly meme review arrives around 8:45pm.</div>'; return; }
+  if (!mmSel || !N.some((n) => n.id === mmSel)) mmSel = N[0].id;
+  $('mmNav').innerHTML = N.map((n, i) => `<button type="button" data-n="${esc(n.id)}" aria-pressed="${n.id === mmSel}">${i === 0 ? 'Latest · ' : ''}${esc(dayLabel(n.date || n.id))}</button>`).join('');
+  const n = N.find((x) => x.id === mmSel);
+  const exs = (r) => { const x = r && r.ex; return x ? (Array.isArray(x) ? x : [x]).join(' · ') : ''; };
+  const list = (title, L) => (L && L.length) ? `<div class="subh">${title}</div>` + L.map((r) => `<div class="mm"><strong>${esc(r.ticker)}<span class="ex">${esc(exs(r))}</span></strong><span class="nm">${esc(r.name)}${r.flag ? ` <span class="chip bad">${esc(r.flag)}</span>` : ''}</span><span>${r.mentions != null ? esc(r.mentions) + ' mentions' : ''}${r.change ? ' · ' + esc(r.change) : ''}</span>${r.note ? `<span class="nt">${esc(r.note)}</span>` : ''}</div>`).join('') : '';
+  const src = (n.sources || []).filter((s) => s && safeUrl(s.url));
+  $('mmBody').innerHTML = `<div class="pad" style="padding-bottom:4px"><strong>${esc(dayLabel(n.date || n.id))}</strong> ${n.mood ? `<span class="chip ${n.mood === 'Hot' ? 'bad' : n.mood === 'Active' ? 'warn' : ''}">${esc(n.mood)}</span>` : ''}
+    ${n.summary ? `<p style="margin:6px 0 0;max-width:80ch">${esc(n.summary)}</p>` : ''}</div>` +
+    list('Top of r/wallstreetbets', n.top) + list('Fastest-rising attention', n.movers) + list('Canadian names in the chatter', n.canadian) + list('Penny stock and squeeze boards', n.penny) +
+    (n.watch && n.watch.length ? `<div class="subh">Worth a closer look</div><ul style="margin:0 16px 8px;padding-left:18px">${n.watch.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : '') +
+    (src.length ? `<p class="src pad" style="margin:8px 0 0">Sources: ${src.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join(' · ')}</p>` : '<div style="height:12px"></div>');
+}
+$('mmNav').addEventListener('click', (e) => { const b = e.target.closest('button[data-n]'); if (b) { mmSel = b.dataset.n; try { localStorage.setItem('memeNight', mmSel); } catch (x) {} renderMemes(); } });
+
+// ----- paper account (read-only copy) -----
+function renderPaper() {
+  const P = TERM && TERM.paper;
+  const kpi = (label, value, note, c) => `<div class="kpi"><div class="label">${label}</div><div class="value ${c || ''}" style="font-size:22px">${value}</div><div class="note">${note || ''}</div></div>`;
+  if (!P || typeof P.cash !== 'number') {
+    $('ppK').innerHTML = '';
+    $('ppPos').innerHTML = `<tr><td colspan="5">${TERM ? '<span class="src">No paper account in the terminal yet.</span>' : termEmpty('Your paper account will')}</td></tr>`;
+    $('ppAl').innerHTML = ''; $('ppLog').textContent = ''; $('ppFired').textContent = '';
+    return;
+  }
+  const px = (k) => { const a = DATA.allPx && DATA.allPx[yt(k)]; return a ? a[0] : null; };
+  const pos = P.pos || {};
+  let eq = P.cash, unpriced = 0;
+  const rows = Object.keys(pos).sort().map((k) => {
+    const p = pos[k], last = px(k), l = last != null ? last : p.avg;
+    if (last == null) unpriced++;
+    const val = p.qty * l, pl = (l - p.avg) * p.qty;
+    eq += val;
+    return `<tr><td><strong>${esc(yt(k))}</strong></td><td>${esc(p.qty)}</td><td>${fmtPrice(p.avg)}</td><td>${last != null ? fmtPrice(last) : '<span class="src">no price</span>'}</td><td class="${cls(pl)}">${money(pl)}</td></tr>`;
+  });
+  const n = (P.w || 0) + (P.l || 0);
+  $('ppK').innerHTML = kpi('Paper cash', money(P.cash), '') + kpi('Paper equity', money(eq), unpriced ? unpriced + ' position(s) at entry price' : 'at latest prices') +
+    kpi('P&L since start', money(eq - 10000), 'vs C$10,000 starting cash', cls(eq - 10000)) +
+    kpi('Realized P&L', money(P.real || 0), 'from closed sells', cls(P.real || 0)) +
+    kpi('Win rate', n ? Math.round((P.w || 0) / n * 100) + '%' : '–', n ? (P.w || 0) + ((P.w || 0) === 1 ? ' win, ' : ' wins, ') + (P.l || 0) + ((P.l || 0) === 1 ? ' loss' : ' losses') : 'no closed trades yet');
+  $('ppPos').innerHTML = rows.length ? rows.join('') : '<tr><td colspan="5" class="src" style="text-align:left">No open positions.</td></tr>';
+  const log = (Array.isArray(P.log) ? P.log : []).slice(-10).reverse();
+  $('ppLog').innerHTML = log.length ? log.map((x) => esc(x)).join('<br>') : 'None yet.';
+  const al = P.al || {};
+  const ar = Object.keys(al).filter((k) => al[k] && (al[k].buy || al[k].stop)).sort().map((k) => {
+    const a = al[k], last = px(k);
+    const buy = a.buy ? fmtPrice(a.buy) + (last != null && last <= a.buy ? ' <span class="chip good">hit</span>' : '') : '–';
+    const stop = a.stop ? fmtPrice(a.stop) + (last != null && last <= a.stop ? ' <span class="chip bad">below</span>' : '') : '–';
+    return `<tr><td><strong>${esc(yt(k))}</strong></td><td>${last != null ? fmtPrice(last) : '–'}</td><td>${buy}</td><td>${stop}</td></tr>`;
+  });
+  $('ppAl').innerHTML = ar.length ? ar.join('') : '<tr><td colspan="4" class="src" style="text-align:left">No alerts set. Set them on a stock in the terminal.</td></tr>';
+  const fired = (TERM.alertlog || []).slice(0, 10);
+  $('ppFired').innerHTML = fired.length ? fired.map((f) => `${esc(dateLabel(f.date))} · <strong>${esc(f.ticker)}</strong> closed at ${fmtPrice(f.close)}, ${f.kind === 'stop' ? 'below your stop-loss' : 'at or below your buy target'} ${fmtPrice(f.level)}`).join('<br>') : 'None yet.';
+}
+
+// ----- section tabs -----
+let view = 'scan';
+try { view = localStorage.getItem('view') || 'scan'; } catch (e) {}
+function showView(v) {
+  if (!document.querySelector(`[data-view="${v}"]`)) v = 'scan';
+  view = v;
+  document.querySelectorAll('[data-view]').forEach((el) => { el.hidden = el.dataset.view !== v; });
+  document.querySelectorAll('#views button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.v === v)));
+  try { localStorage.setItem('view', v); } catch (e) {}
+}
+$('views').addEventListener('click', (e) => { const b = e.target.closest('button[data-v]'); if (b) showView(b.dataset.v); });
+
+function renderTerminalViews() {
+  renderMy(); renderTrk(); renderMorn(); renderWeeks(); renderMemes(); renderPaper();
+  $('termNote').textContent = TERM && TERM.copied
+    ? 'Track record, reports, meme reviews and paper account are copied from your trading terminal; last copy ' + ago(TERM.copied) + '.'
+    : 'Track record, reports, meme reviews and paper account appear once your server loads the terminal\'s backup.';
+}
+
 // ---------- boot ----------
 if (!DATA) {
   document.querySelector('.wrap').innerHTML = '<h1>Stock Scanner</h1><p>No data embedded. Run dashboard.py on the server.</p>';
@@ -631,12 +1050,15 @@ if (!DATA) {
   renderRising();
   renderFlagged();
   renderTable();
+  renderTerminalViews();
+  showView(view);
   let keep = null;
   try { keep = sessionStorage.getItem('sel'); } catch (e) {}
   const kept = keep && DATA.stocks.find((s) => s.t === keep);
   const first = kept || DATA.stocks.filter(isRising).sort((a, b) => (b.pd ?? 0) - (a.pd ?? 0))[0] || DATA.stocks.filter(isFlagged).sort((a, b) => b.s - a.s)[0] || DATA.stocks.slice().sort((a, b) => (b.rv ?? 0) - (a.rv ?? 0))[0];
   if (first) select(first.t, false);
   if (kept) { try { const y = +sessionStorage.getItem('scrollY'); if (y) window.scrollTo(0, y); } catch (e) {} }
+  loadMy();
 }
 
 // ---------- auto-refresh while the market is open (the server rebuilds this page every 5 minutes) ----------

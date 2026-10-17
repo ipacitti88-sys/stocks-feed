@@ -104,9 +104,45 @@ def iso(v):
     return v.isoformat() if hasattr(v, "isoformat") else (str(v) if v is not None else None)
 
 
+TERM_LIMITS = {"mornings": 10, "weeks": 8, "memes": 7, "signals": 90, "alertlog": 30}
+
+
+def terminal_records(cur):
+    """The trading terminal's own records, from its latest backup (see terminal_backup.py)."""
+    cur.execute("SELECT to_regclass('terminal_backup') IS NOT NULL")
+    if not cur.fetchone()[0]:
+        return None
+    out = {}
+    for coll, n in TERM_LIMITS.items():
+        cur.execute("SELECT doc_id, data FROM terminal_backup WHERE source = 'terminal' AND collection = %s "
+                    "ORDER BY COALESCE(data->>'date', doc_id) DESC LIMIT %s", (coll, n))
+        out[coll] = [dict(d if isinstance(d, dict) else json.loads(d), id=i) for i, d in cur.fetchall()]
+    cur.execute("SELECT data FROM terminal_backup WHERE source = 'terminal' AND collection = 'paper' AND doc_id = 'account'")
+    r = cur.fetchone()
+    out["paper"] = (r[0] if isinstance(r[0], dict) else json.loads(r[0])) if r else None
+    cur.execute("SELECT MAX(changed_at), MAX(first_seen) FROM terminal_backup WHERE source = 'terminal'")
+    a, b = cur.fetchone()
+    out["copied"] = iso(max([x for x in (a, b) if x], default=None))
+    return out
+
+
 def main() -> int:
     conn = psycopg2.connect()
     try:
+        try:
+            import mylist
+            my = mylist.state(conn)
+        except Exception as e:
+            print(f"my list unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            my = None
+        try:
+            with conn.cursor() as cur:
+                term = terminal_records(cur)
+        except Exception as e:
+            print(f"terminal records unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            term = None
         with conn.cursor() as cur:
             cur.execute(SCREEN_SQL)
             screen = cur.fetchall()
@@ -180,6 +216,11 @@ def main() -> int:
             "stocks": mine,
             "hist": {t: v for t, v in hist.items() if t in keep},
             "intra": {t: v for t, v in intra.items() if t in keep},
+            # shared with the trading terminal: your list, its records, and prices for both markets
+            "my": my,
+            "term": term,
+            "allPx": {s["t"]: [s.get("lp") if s.get("lp") is not None else s["c"], s["c"], s["n"]] for s in stocks},
+            "listApiPort": int(os.environ.get("LIST_API_PORT", "8081")),
         }
         nav = '<nav class="mkt">' + "".join(
             f'<a href="{pg}"{" class=on" if k == key else ""}>{lb}</a>' for k, lb, pg, _ in MARKETS) + "</nav>"

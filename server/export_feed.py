@@ -203,6 +203,15 @@ def main() -> int:
     hist = FEED_DIR / "history"
     hist.mkdir(exist_ok=True)
     (hist / f"{dt.date.today().isoformat()}.md").write_text(md)
+    try:  # webpage edits to "my list" waiting for the terminal
+        import mylist
+        conn = psycopg2.connect()
+        try:
+            mylist.write_changes(conn, FEED_DIR)
+        finally:
+            conn.close()
+    except Exception as e:
+        print(f"list changes not exported: {e}", file=sys.stderr)
 
     git("add", "-A")
     if git("diff", "--cached", "--quiet").returncode == 0:

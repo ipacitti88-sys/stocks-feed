@@ -24,7 +24,10 @@ INTRA="*/5 * * * 1-5 $APP/run_intraday.sh"
 WEEKLY="0 8 * * 6 $APP/run_weekly.sh"
 NEWS="30 6 * * 1-5 $APP/run_news.sh"
 BACKUP="30 22 * * * $APP/run_backup.sh"
-( { crontab -l 2>/dev/null || true; } | { grep -v -E "stocks/run_(daily|intraday|weekly|news|backup).sh" || true; } ; echo "$DAILY"; echo "$INTRA"; echo "$WEEKLY"; echo "$NEWS"; echo "$BACKUP" ) | crontab -
+BACKUP_AM="35 7 * * * $APP/run_backup.sh"
+LISTAPI="*/5 * * * * $APP/run_listapi.sh"
+LISTAPI_BOOT="@reboot $APP/run_listapi.sh"
+( { crontab -l 2>/dev/null || true; } | { grep -v -E "stocks/run_(daily|intraday|weekly|news|backup|listapi).sh" || true; } ; echo "$DAILY"; echo "$INTRA"; echo "$WEEKLY"; echo "$NEWS"; echo "$BACKUP"; echo "$BACKUP_AM"; echo "$LISTAPI"; echo "$LISTAPI_BOOT" ) | crontab -
 
 echo "== Updating the Yahoo data library"
 "$APP/venv/bin/pip" install --quiet --upgrade yfinance
