@@ -104,7 +104,7 @@ def iso(v):
     return v.isoformat() if hasattr(v, "isoformat") else (str(v) if v is not None else None)
 
 
-TERM_LIMITS = {"mornings": 10, "weeks": 8, "memes": 7, "signals": 90, "alertlog": 30}
+TERM_LIMITS = {"mornings": 30, "weeks": 12, "memes": 7, "signals": 90, "alertlog": 30}
 
 
 def terminal_records(cur):

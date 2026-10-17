@@ -558,6 +558,7 @@ function renderDetail(t) {
       </div>
     </div>
     <div class="chart" id="chart"></div>
+    <div class="news" id="myNotes" hidden></div>
     <div class="news" id="news"><h3>Latest news</h3><div class="chart-note">Loading…</div></div>`;
   $('rangeSeg').querySelectorAll('button').forEach((b) => b.addEventListener('click', () => {
     chartRange = b.dataset.r;
@@ -570,6 +571,7 @@ function renderDetail(t) {
   $('dNext').addEventListener('click', () => { pickDay(dayShown(t), 1); drawRange(t); });
   drawRange(t);
   loadNews(t);
+  renderNotes(t);
 }
 
 // ---------- latest news (server refreshes every morning, and every 30 minutes for active stocks) ----------
@@ -935,7 +937,7 @@ $('trkNav').addEventListener('click', (e) => { const b = e.target.closest('butto
 function renderMorn() {
   const M = (TERM && TERM.mornings) || [];
   if (!TERM) { $('repMorn').innerHTML = termEmpty('Pre-market notes'); return; }
-  $('repMorn').innerHTML = M.length ? M.map((m, i) => `<div class="item"><div class="top"><strong>${esc(dayLabel(m.date || m.id))}</strong><span class="src">${esc(m.headline || '')}</span></div>
+  $('repMorn').innerHTML = M.length ? M.slice(0, 10).map((m, i) => `<div class="item"><div class="top"><strong>${esc(dayLabel(m.date || m.id))}</strong><span class="src">${esc(m.headline || '')}</span></div>
     ${i === 0 ? `<p class="note-text">${esc(m.text || '')}</p>` : `<details class="more-note"><summary>Show note</summary><p class="note-text">${esc(m.text || '')}</p></details>`}</div>`).join('')
     : '<div class="empty" style="padding:12px 16px">No pre-market notes yet. They arrive weekdays at about 6:55am.</div>';
 }
@@ -963,8 +965,12 @@ function renderWeeks() {
 $('wkNav').addEventListener('click', (e) => { const b = e.target.closest('button[data-w]'); if (b) { wkSel = b.dataset.w; try { localStorage.setItem('wk', wkSel); } catch (x) {} renderWeeks(); } });
 
 // ----- meme stocks -----
-let mmSel = null;
-try { mmSel = localStorage.getItem('memeNight'); } catch (e) {}
+let mmSel = null, mmEx = 'all';
+try { mmSel = localStorage.getItem('memeNight'); mmEx = localStorage.getItem('memeEx') || 'all'; } catch (e) {}
+const MM_CA = ['TSX', 'TSXV', 'CSE', 'Cboe Canada'], MM_US = ['NYSE', 'Nasdaq', 'NYSE American', 'NYSE Arca', 'OTC'];
+const MM_ORD = MM_US.concat(MM_CA);
+const exList = (r) => { const x = r && r.ex; return x ? (Array.isArray(x) ? x : [x]).map((v) => String(v).trim()).filter(Boolean) : []; };
+const mmHit = (r) => mmEx === 'all' ? true : mmEx === 'us' ? exList(r).some((x) => MM_US.includes(x)) : mmEx === 'ca' ? exList(r).some((x) => MM_CA.includes(x)) : exList(r).includes(mmEx);
 function renderMemes() {
   const N = (TERM && TERM.memes) || [];
   if (!TERM) { $('mmBody').innerHTML = termEmpty('Meme reviews'); return; }
@@ -972,15 +978,27 @@ function renderMemes() {
   if (!mmSel || !N.some((n) => n.id === mmSel)) mmSel = N[0].id;
   $('mmNav').innerHTML = N.map((n, i) => `<button type="button" data-n="${esc(n.id)}" aria-pressed="${n.id === mmSel}">${i === 0 ? 'Latest · ' : ''}${esc(dayLabel(n.date || n.id))}</button>`).join('');
   const n = N.find((x) => x.id === mmSel);
-  const exs = (r) => { const x = r && r.ex; return x ? (Array.isArray(x) ? x : [x]).join(' · ') : ''; };
-  const list = (title, L) => (L && L.length) ? `<div class="subh">${title}</div>` + L.map((r) => `<div class="mm"><strong>${esc(r.ticker)}<span class="ex">${esc(exs(r))}</span></strong><span class="nm">${esc(r.name)}${r.flag ? ` <span class="chip bad">${esc(r.flag)}</span>` : ''}</span><span>${r.mentions != null ? esc(r.mentions) + ' mentions' : ''}${r.change ? ' · ' + esc(r.change) : ''}</span>${r.note ? `<span class="nt">${esc(r.note)}</span>` : ''}</div>`).join('') : '';
+  const exs = (r) => exList(r).join(' · ');
+  const seen = new Set();
+  ['top', 'movers', 'canadian', 'penny'].forEach((k) => (n[k] || []).forEach((r) => exList(r).forEach((x) => seen.add(x))));
+  const exs2 = [...seen].sort((a, b) => ((MM_ORD.indexOf(a) + 1) || 99) - ((MM_ORD.indexOf(b) + 1) || 99) || a.localeCompare(b));
+  const opts = [['all', 'All']];
+  if (exs2.some((x) => MM_US.includes(x))) opts.push(['us', 'US']);
+  if (exs2.some((x) => MM_CA.includes(x))) opts.push(['ca', 'Canada']);
+  exs2.forEach((x) => opts.push([x, x]));
+  if (!opts.some((o) => o[0] === mmEx)) mmEx = 'all';
+  const filt = exs2.length ? `<div class="navrow" id="mmEx" role="group" aria-label="Filter by exchange" style="align-items:center"><span class="src" style="margin-right:2px">Exchange</span>${opts.map(([k, l]) => `<button type="button" data-x="${esc(k)}" aria-pressed="${k === mmEx}">${esc(l)}</button>`).join('')}</div>` : '';
+  let shown = 0;
+  const list = (title, L0) => { const L = (L0 || []).filter(mmHit); shown += L.length; return L.length ? `<div class="subh">${title}</div>` + L.map((r) => `<div class="mm"><strong>${esc(r.ticker)}<span class="ex">${esc(exs(r))}</span></strong><span class="nm">${esc(r.name)}${r.flag ? ` <span class="chip bad">${esc(r.flag)}</span>` : ''}</span><span>${r.mentions != null ? esc(r.mentions) + ' mentions' : ''}${r.change ? ' · ' + esc(r.change) : ''}</span>${r.note ? `<span class="nt">${esc(r.note)}</span>` : ''}</div>`).join('') : ''; };
   const src = (n.sources || []).filter((s) => s && safeUrl(s.url));
   $('mmBody').innerHTML = `<div class="pad" style="padding-bottom:4px"><strong>${esc(dayLabel(n.date || n.id))}</strong> ${n.mood ? `<span class="chip ${n.mood === 'Hot' ? 'bad' : n.mood === 'Active' ? 'warn' : ''}">${esc(n.mood)}</span>` : ''}
-    ${n.summary ? `<p style="margin:6px 0 0;max-width:80ch">${esc(n.summary)}</p>` : ''}</div>` +
-    list('Top of r/wallstreetbets', n.top) + list('Fastest-rising attention', n.movers) + list('Canadian names in the chatter', n.canadian) + list('Penny stock and squeeze boards', n.penny) +
+    ${n.summary ? `<p style="margin:6px 0 0;max-width:80ch">${esc(n.summary)}</p>` : ''}</div>` + filt +
+    (() => { const h = list('Top of r/wallstreetbets', n.top) + list('Fastest-rising attention', n.movers) + list('Canadian names in the chatter', n.canadian) + list('Penny stock and squeeze boards', n.penny);
+      return h || (mmEx !== 'all' ? '<div class="empty" style="padding:8px 16px">No names on that exchange in this night\'s chatter.</div>' : ''); })() +
     (n.watch && n.watch.length ? `<div class="subh">Worth a closer look</div><ul style="margin:0 16px 8px;padding-left:18px">${n.watch.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : '') +
     (src.length ? `<p class="src pad" style="margin:8px 0 0">Sources: ${src.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join(' · ')}</p>` : '<div style="height:12px"></div>');
 }
+$('mmBody').addEventListener('click', (e) => { const b = e.target.closest('#mmEx button[data-x]'); if (b) { mmEx = b.dataset.x; try { localStorage.setItem('memeEx', mmEx); } catch (x) {} renderMemes(); } });
 $('mmNav').addEventListener('click', (e) => { const b = e.target.closest('button[data-n]'); if (b) { mmSel = b.dataset.n; try { localStorage.setItem('memeNight', mmSel); } catch (x) {} renderMemes(); } });
 
 // ----- paper account (read-only copy) -----
@@ -1021,6 +1039,32 @@ function renderPaper() {
   $('ppAl').innerHTML = ar.length ? ar.join('') : '<tr><td colspan="4" class="src" style="text-align:left">No alerts set. Set them on a stock in the terminal.</td></tr>';
   const fired = (TERM.alertlog || []).slice(0, 10);
   $('ppFired').innerHTML = fired.length ? fired.map((f) => `${esc(dateLabel(f.date))} · <strong>${esc(f.ticker)}</strong> closed at ${fmtPrice(f.close)}, ${f.kind === 'stop' ? 'below your stop-loss' : 'at or below your buy target'} ${fmtPrice(f.level)}`).join('<br>') : 'None yet.';
+}
+
+// ----- what Claude's reviews said about one stock (shown on its detail panel) -----
+function notesFor(t) {
+  const base = t.split('.')[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp('(^|[^A-Z0-9])' + base + '(\\.(V|TO|CN|NE))?([^A-Z0-9]|$)');
+  const out = [];
+  ((TERM && TERM.mornings) || []).forEach((m) => String(m.text || '').split('\n').forEach((line) => {
+    if (line.length < 400 && re.test(line.toUpperCase()) && !/^(pre-market|full note)/i.test(line.trim()))
+      out.push({ d: m.date || m.id, src: 'Pre-market note', txt: line.replace(/^[-•\s]+/, '') });
+  }));
+  ((TERM && TERM.weeks) || []).forEach((w) => {
+    (w.picks || []).forEach((p) => { if (p.ticker === t) out.push({ d: w.date || w.id, src: 'Weekly picks · ' + (p.rating === 'strong' ? 'strong candidate' : 'watch'),
+      txt: [p.catalyst, p.redFlags ? 'Red flags: ' + p.redFlags : '', p.verdict ? 'Verdict: ' + p.verdict : ''].filter(Boolean).join(' ') }); });
+    (w.rejected || []).forEach((r) => { if (r.ticker === t) out.push({ d: w.date || w.id, src: 'Weekly picks · rejected', txt: r.reason || '', bad: true }); });
+  });
+  return out.sort((a, b) => a.d < b.d ? 1 : a.d > b.d ? -1 : 0);
+}
+function renderNotes(t) {
+  const box = $('myNotes'); if (!box) return;
+  const items = notesFor(t);
+  if (!items.length) { box.hidden = true; return; }
+  box.hidden = false;
+  const row = (it) => `<div class="item" style="padding:8px 0"><div class="m">${esc(dateLabel(it.d))} · ${esc(it.src)}</div><div class="s" style="font-size:13px;color:var(--text)${it.bad ? ';color:var(--bad)' : ''}">${esc(it.txt)}</div></div>`;
+  box.innerHTML = '<h3>From your morning notes and weekly picks</h3>' + items.slice(0, 4).map(row).join('') +
+    (items.length > 4 ? `<details class="more-note"><summary>${items.length - 4} more</summary>${items.slice(4, 12).map(row).join('')}</details>` : '');
 }
 
 // ----- section tabs -----

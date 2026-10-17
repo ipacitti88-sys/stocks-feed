@@ -20,7 +20,7 @@ The scanner only flags stocks trading enough **dollars** a day (20-day average v
 | Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, save 5-minute bars, dashboard, feed |
 | Weekdays 6:30 am | run_news.sh | Latest headlines for every stock (Yahoo, then Google News), published for the webpage and terminal |
 | Saturday 8:00 am | run_weekly.sh | New listings, pattern study (`patterns.json`), signal lab (`signal_lab.json`) |
-| Daily 7:35 am and 10:30 pm | run_backup.sh | Load the terminal's backup (notes, picks, memes, track record, paper account) and rebuild the webpage |
+| Daily 7:35 am and 9:30 pm | run_backup.sh | Load the terminal's backup (notes, picks, memes, track record, paper account) and rebuild the webpage |
 | Always (checked every 5 min) | run_listapi.sh | Small service on port 8081 the webpage uses to add and remove stocks on My list |
 
 ## My list (shared with the trading terminal)
@@ -34,7 +34,7 @@ Removing a stock from your list never stops the scanner tracking it. PRL, XTRA a
 
     ./venv/bin/python mylist.py --status   # your list and any changes waiting for the terminal
 
-The webpage's Track record, Reports, Meme stocks and Paper account tabs show the terminal's own records from its backup (`terminal_backup.py`), refreshed at 7:35am and 10:30pm.
+The webpage's Track record, Reports, Meme stocks and Paper account tabs show the terminal's own records from its backup (`terminal_backup.py`), refreshed at 7:35am and 9:30pm.
 
 ## Research universe
 

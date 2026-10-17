@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Run by cron at 7:35am and 10:30pm every day: load the terminal's backup (pre-market notes,
+# Run by cron at 7:35am and 9:30pm every day (just after the terminal's backup at 7:20am and 9:20pm): load the terminal's backup (pre-market notes,
 # weekly picks, meme reviews, track record, paper account) into the database, then rebuild
 # the webpage so its terminal tabs show it.
 cd "$(dirname "$0")" || exit 1
