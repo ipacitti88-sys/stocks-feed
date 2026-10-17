@@ -28,6 +28,7 @@ HERE = Path(__file__).resolve().parent
 FEED_DIR = Path(os.environ.get("FEED_DIR", Path.home() / "stocks-feed"))
 WEB_DIR = Path(os.environ.get("WEB_DIR", HERE / "web"))
 TOP_N = 10
+FUNDS = re.compile(r"\b(FUND|ETF|ETFS|SPLIT CORP|CLOSED-END)\b", re.I)  # funds, not companies: skip
 
 
 def market_of(t):
@@ -172,7 +173,7 @@ def build(hits, lab, term, my=()):
         L = lab.get(mkt)
         rows = []
         for t, h in hits.items():
-            if market_of(t) != mkt:
+            if market_of(t) != mkt or FUNDS.search(str(h.get("n") or "")):
                 continue
             sigs = []
             for key in h["sig"]:

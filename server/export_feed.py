@@ -200,6 +200,24 @@ def main() -> int:
     md = to_markdown(feed)
     (FEED_DIR / "latest.md").write_text(md)
     (FEED_DIR / "prices.json").write_text(json.dumps(collect_prices(), separators=(",", ":")))
+    try:  # Dashboard ideas, for the trading terminal's "Worth a closer look" card
+        import hashlib
+        import ideas
+        import mylist
+        conn = psycopg2.connect()
+        try:
+            with conn.cursor() as cur:
+                term = dashboard.terminal_records(cur)
+            my = [i["t"] for i in mylist.state(conn)["items"] if i.get("pending") != "remove"]
+            res = ideas.compute(conn, term, my)
+        finally:
+            conn.close()
+        body = json.dumps(res, sort_keys=True, default=str)
+        (FEED_DIR / "ideas.json").write_text(json.dumps(
+            {"generated": dt.datetime.now().astimezone().isoformat(timespec="minutes"),
+             "version": hashlib.sha1(body.encode()).hexdigest()[:12], **json.loads(body)}, separators=(",", ":")))
+    except Exception as e:
+        print(f"ideas not exported: {e}", file=sys.stderr)
     hist = FEED_DIR / "history"
     hist.mkdir(exist_ok=True)
     (hist / f"{dt.date.today().isoformat()}.md").write_text(md)
