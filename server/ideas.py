@@ -94,18 +94,35 @@ def todays_hits(conn):
     return out
 
 
-def recent_news(t, days=3):
+GENERIC = {"THE", "INC", "LTD", "CORP", "CORPORATION", "COMPANY", "CO", "LIMITED", "GROUP", "HOLDINGS", "RESOURCES",
+           "RESOURCE", "METALS", "MINING", "MINES", "MINERALS", "GOLD", "SILVER", "COPPER", "ENERGY", "EXPLORATION",
+           "TECHNOLOGIES", "TECHNOLOGY", "CAPITAL", "INTERNATIONAL", "CANADA", "CANADIAN", "NORTH", "AMERICAN", "NEW",
+           "VENTURES", "INDUSTRIES", "OIL", "GAS", "DATA", "SOLUTIONS", "SYSTEMS", "THERAPEUTICS", "BIOSCIENCES"}
+
+
+def about(title, t, name):
+    """True when a headline names the company (a distinctive word of its name) or its ticker."""
+    T = " " + re.sub(r"[^A-Z0-9]+", " ", str(title).upper()) + " "
+    base = t.split(".")[0]
+    if re.search(r"(TSXV|TSX|CVE|TSX-V|V)\s*:?\s*" + re.escape(base) + r"\b", str(title).upper()) or (len(base) >= 4 and f" {base} " in T):
+        return True
+    words = [w for w in re.sub(r"[^A-Z0-9 ]+", " ", str(name or "").upper()).split() if w not in GENERIC and len(w) >= 3]
+    return bool(words) and f" {words[0]} " in T
+
+
+def recent_news(t, days=3, name=None):
     try:
         j = json.loads((WEB_DIR / "news" / f"{t}.json").read_text())
     except (OSError, ValueError):
         return None
+    name = name or j.get("name")
     cut = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)
     for it in j.get("items") or []:
         try:
             when = dt.datetime.fromisoformat(str(it.get("time")).replace("Z", "+00:00"))
         except ValueError:
             continue
-        if when.tzinfo and when >= cut and it.get("title"):
+        if when.tzinfo and when >= cut and it.get("title") and about(it["title"], t, name):
             return {"title": str(it["title"])[:160], "url": it.get("url"), "time": it.get("time"),
                     "source": it.get("source")}
     return None
@@ -169,7 +186,7 @@ def build(hits, lab, term, my=()):
             good, bad, notes = mentions(term, t)
             score += good
             warns += bad
-            nw = recent_news(t)
+            nw = recent_news(t, name=h.get("n"))
             if nw:
                 score += 0.5
             import benchmarks
