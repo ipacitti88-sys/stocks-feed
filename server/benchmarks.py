@@ -30,8 +30,9 @@ def in_market(ticker: str, market: str) -> bool:
 
 
 # Scanner liquidity rule: average dollars traded per day (20-day average volume x price).
-# Chosen from the signal lab's 10-year liquidity test (Oct 2026).
-MIN_DOLLARS = {"tsxv": 100_000, "tsx": 50_000}
+# From the signal lab's 10-year liquidity test (Oct 2026). Venture lowered from C$100k to C$50k on
+# Oct 17 to match the TSX: about twice as many stocks qualify, and Breakout still tested Promising there.
+MIN_DOLLARS = {"tsxv": 50_000, "tsx": 50_000}
 
 
 def market_of(ticker: str) -> str:

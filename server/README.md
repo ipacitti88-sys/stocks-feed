@@ -10,7 +10,7 @@ That pulls this folder and copies the scripts into ~/stocks. Your settings (stoc
 
 ## Liquidity rule
 
-The scanner only flags stocks trading enough **dollars** a day (20-day average volume x price): **C$100k** on the Venture, **C$50k** on the TSX. Set in `benchmarks.MIN_DOLLARS`; chosen from the signal lab's 10-year liquidity test. Discovery still tracks anything with 50,000+ shares a day or that passes the dollar rule.
+The scanner only flags stocks trading enough **dollars** a day (20-day average volume x price): **C$50k** on both the Venture and the TSX. Set in `benchmarks.MIN_DOLLARS`; based on the signal lab's 10-year liquidity test (the Venture was C$100k until Oct 17, 2026). Discovery still tracks anything with 50,000+ shares a day or that passes the dollar rule.
 
 ## What runs when
 

@@ -172,7 +172,8 @@ def build(hits, lab, term, my=()):
             nw = recent_news(t)
             if nw:
                 score += 0.5
-            if h["dv"] < 2 * (100_000 if mkt == "tsxv" else 50_000):
+            import benchmarks
+            if h["dv"] < 2 * benchmarks.MIN_DOLLARS[mkt]:
                 warns.append(f"Thin: about C${round(h['dv'] / 1000)}k traded a day")
             score -= 1.0 * sum(1 for w in bad if w.startswith("Rejected"))
             top = sigs[0] if sigs else None

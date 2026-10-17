@@ -21,7 +21,7 @@ from pathlib import Path
 import psycopg2
 
 TOP_N = 25               # rows shown in the table
-import benchmarks  # liquidity rule: C$ traded per day (C$100k Venture, C$50k TSX)
+import benchmarks  # liquidity rule: C$ traded per day (C$50k a day, both markets)
 
 SCREEN_SQL = """
 WITH p AS (

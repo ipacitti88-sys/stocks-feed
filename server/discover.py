@@ -29,7 +29,7 @@ SCREEN_VOLUME = 10_000   # ask Yahoo for anything above this, then apply the rul
 
 
 def worth_tracking(q) -> bool:
-    """50,000+ shares a day, OR enough dollars traded for the scanner (C$100k Venture, C$50k TSX)."""
+    """50,000+ shares a day, OR enough dollars traded for the scanner (C$50k a day, both markets)."""
     import benchmarks
     vol, px = q.get("averageDailyVolume3Month"), q.get("regularMarketPrice")
     if vol is None or px is None:  # Yahoo left the fields out: keep it, the daily screen still applies the rule

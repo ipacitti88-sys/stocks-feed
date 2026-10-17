@@ -13,7 +13,7 @@ immediately, so the schedule doesn't need to know your time zone.
   - up RISE_PCT% or more from yesterday's close
   - still climbing: price higher than ~30 minutes ago
   - real buying behind it: volume pace >= RISE_PACE x normal for this time of day
-  - liquid: trades at least C$100k a day on average (Venture) or C$50k (TSX)
+  - liquid: trades at least C$50k a day on average (both markets)
 """
 import argparse
 import datetime as dt

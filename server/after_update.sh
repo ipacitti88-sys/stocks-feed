@@ -22,4 +22,6 @@ fi
 echo "== Loading the terminal's latest backup and rebuilding the webpage"
 ./venv/bin/python terminal_backup.py || true
 ./venv/bin/python dashboard.py || true
+echo "== Re-running the Venture signal lab with the new C$50k rule, in the background (results reach the webpage when it finishes)"
+nohup flock /tmp/stocks-research.lock ./venv/bin/python signal_lab.py --market tsxv >> logs/weekly.log 2>&1 &
 echo "Done. The webpage opens on a Dashboard (market, ranked ideas, what works) and has My list, Track record, Reports, Meme stocks and Paper account tabs, and each stock shows what your morning notes and weekly picks said about it."
