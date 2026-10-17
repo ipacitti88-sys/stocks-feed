@@ -1,0 +1,93 @@
+{
+ "updated": "2026-10-16T19:57-06:00",
+ "applied_through": 0,
+ "tickers": [
+  {
+   "ticker": "AXL.V",
+   "name": "AXL.V",
+   "added": "2026-10-11",
+   "from": "terminal"
+  },
+  {
+   "ticker": "BBB.V",
+   "name": "Brixton Metals Corp.",
+   "added": "2026-10-12",
+   "from": "terminal"
+  },
+  {
+   "ticker": "CVVY.TO",
+   "name": "CAVVY ENERGY LTD",
+   "added": "2026-10-14",
+   "from": "scanner"
+  },
+  {
+   "ticker": "DND.TO",
+   "name": "DYE AND DURHAM LIMITED",
+   "added": "2026-10-15",
+   "from": "dashboard"
+  },
+  {
+   "ticker": "DYA.TO",
+   "name": "DYNACERT INC",
+   "added": "2026-10-14",
+   "from": "scanner"
+  },
+  {
+   "ticker": "HEVI.V",
+   "name": "HELIUM EVOLUTION INCORPORATED",
+   "added": "2026-10-14",
+   "from": "dashboard"
+  },
+  {
+   "ticker": "LXM.V",
+   "name": "LUX METALS CORP",
+   "added": "2026-10-14",
+   "from": "scanner"
+  },
+  {
+   "ticker": "NOW.V",
+   "name": "NOWVERTICAL GROUP INC",
+   "added": "2026-10-14",
+   "from": "dashboard"
+  },
+  {
+   "ticker": "PPP.V",
+   "name": "PPP.V",
+   "added": "2026-10-12",
+   "from": "terminal"
+  },
+  {
+   "ticker": "RAK.V",
+   "name": "RACKLA METALS INC",
+   "added": "2026-10-14",
+   "from": "scanner"
+  },
+  {
+   "ticker": "REAL.TO",
+   "name": "Real Matters",
+   "added": "2026-10-14",
+   "from": "scanner"
+  },
+  {
+   "ticker": "SGC.V",
+   "name": "SOLSTICE GOLD CORP",
+   "added": "2026-10-13",
+   "from": "scanner"
+  },
+  {
+   "ticker": "PRL.TO",
+   "name": "Propel Holdings",
+   "from": "built-in"
+  },
+  {
+   "ticker": "XTRA.TO",
+   "name": "Xtract One Technologies",
+   "from": "built-in"
+  },
+  {
+   "ticker": "PNG.V",
+   "name": "Kraken Robotics",
+   "from": "built-in"
+  }
+ ]
+}
