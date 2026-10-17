@@ -36,6 +36,14 @@ Removing a stock from your list never stops the scanner tracking it. PRL, XTRA a
 
 The webpage's Track record, Reports, Meme stocks and Paper account tabs show the terminal's own records from its backup (`terminal_backup.py`), refreshed at 7:35am and 9:30pm.
 
+## Dashboard (webpage front page)
+
+`ideas.py` ranks the stocks that fired a buy signal at the last close by how that signal did in the signal lab for the stock's own market and price band (under / over C$0.50), then adjusts for news in the last 3 days and what the terminal's pre-market notes, weekly picks and meme reviews said. It runs inside `dashboard.py` and only recomputes when new daily prices or a new lab run arrive.
+
+    ./venv/bin/python ideas.py    # print the current ranking
+
+It's the evidence in one place, not a forecast: every signal lost money on average when held for one day; the tested edges played out over 5 to 20 days.
+
 ## Research universe
 
 `universe.py` keeps every TSX Venture listing Yahoo has ever shown us (table `universe`), with 10 years of daily prices, even after a stock stops trading. It's for research only: never screened. First load: `run_research.sh` (runs in the background, resumable). Consolidations trigger a full reload of that stock's history.

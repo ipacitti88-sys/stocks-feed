@@ -143,6 +143,20 @@ def main() -> int:
             print(f"terminal records unavailable: {e}", file=sys.stderr)
             conn.rollback()
             term = None
+        try:  # Dashboard tab: ranked ideas from the signal lab, plus context
+            import ideas as ideas_mod
+            ideas = ideas_mod.compute(conn, term, [i["t"] for i in (my or {}).get("items", []) if i.get("pending") != "remove"])
+        except Exception as e:
+            print(f"ideas unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            ideas = {}
+        try:
+            import benchmarks
+            bench = benchmarks.summary(conn)
+        except Exception as e:
+            print(f"benchmarks unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            bench = {}
         with conn.cursor() as cur:
             cur.execute(SCREEN_SQL)
             screen = cur.fetchall()
@@ -218,6 +232,9 @@ def main() -> int:
             "intra": {t: v for t, v in intra.items() if t in keep},
             # shared with the trading terminal: your list, its records, and prices for both markets
             "my": my,
+            "ideas": ideas.get(key),
+            "bench": (lambda b: b and {**{k: v for k, v in b.items() if k != "dates"}, "closes": b.get("closes", [])[-253:]})(
+                (bench or {}).get("^GSPTSE" if key == "tsx" else "^SPCDNX")),
             "term": term,
             "allPx": {s["t"]: [s.get("lp") if s.get("lp") is not None else s["c"], s["c"], s["n"]] for s in stocks},
             "listApiPort": int(os.environ.get("LIST_API_PORT", "8081")),

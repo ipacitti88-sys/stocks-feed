@@ -22,4 +22,4 @@ fi
 echo "== Loading the terminal's latest backup and rebuilding the webpage"
 ./venv/bin/python terminal_backup.py || true
 ./venv/bin/python dashboard.py || true
-echo "Done. The webpage has My list, Track record, Reports, Meme stocks and Paper account tabs, and each stock shows what your morning notes and weekly picks said about it."
+echo "Done. The webpage opens on a Dashboard (market, ranked ideas, what works) and has My list, Track record, Reports, Meme stocks and Paper account tabs, and each stock shows what your morning notes and weekly picks said about it."

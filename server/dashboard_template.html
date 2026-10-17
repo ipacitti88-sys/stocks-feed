@@ -192,9 +192,45 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
 .src a { color: var(--text-2); }
 .lt2 td:nth-child(2), .lt2 th:nth-child(2) { text-align: left; }
 .btn .sm { display: none; }
+.dgrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); gap: 16px; align-items: start; }
+.dgrid .card.section { margin-bottom: 16px; }
+.back { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 16px; padding: 14px 16px 16px; align-items: center; }
+.back .lvl { font-size: 26px; font-weight: 650; letter-spacing: -0.02em; }
+.back .trend { font-weight: 650; margin-top: 4px; }
+.back svg { display: block; width: 100%; height: 64px; }
+.back .chg { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.back .chg span { font-size: 12px; background: var(--surface-2); border-radius: 6px; padding: 2px 7px; }
+.idea { border-top: 1px solid var(--grid); padding: 12px 16px; display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; gap: 2px 10px; }
+.idea .rk { font-weight: 650; color: var(--text-3); font-size: 16px; }
+.idea .hd { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.idea .hd strong { font-size: 15px; }
+.idea .px { text-align: right; white-space: nowrap; }
+.idea .body { grid-column: 2 / 4; font-size: 13px; }
+.idea .body p { margin: 4px 0 0; max-width: 80ch; }
+.idea .sigs { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.idea .warn { color: var(--warn); }
+.idea .acts { margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.idea.weak { opacity: .75; }
+.mini { display: flex; justify-content: space-between; gap: 8px; padding: 8px 16px; border-top: 1px solid var(--grid); font-size: 13px; align-items: baseline; }
+.mini:first-of-type { border-top: 0; }
+.mini .l { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mini .l small { color: var(--text-3); margin-left: 6px; }
+.mini .r { white-space: nowrap; text-align: right; }
+.lnk { font: inherit; font-size: 12px; color: var(--series-1); background: none; border: 0; padding: 8px 16px 12px; cursor: pointer; text-decoration: underline; }
+.lt0 td:first-child { white-space: normal; min-width: 210px; }
+.lt0 td small { display: block; color: var(--text-3); font-size: 11px; }
+.g-ok { color: var(--good); font-weight: 650; } .g-no { color: var(--text-3); } .g-mid { color: var(--text-2); }
 details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12px; margin-top: 4px; }
 
+@media (max-width: 1050px) { .dgrid { grid-template-columns: minmax(0, 1fr); } }
+[data-view="mine"] .btn .lg { display: none; } [data-view="mine"] .btn .sm { display: inline; }
+[data-view="mine"] #myRows td, [data-view="mine"] .plain th { padding-left: 8px; padding-right: 8px; }
+@media (max-width: 1250px) { [data-view="mine"] .hide-md { display: none; } }
 @media (max-width: 900px) {
+  .back { grid-template-columns: minmax(0, 1fr); }
+  .lt0 td:first-child { min-width: 120px; }
+  .lt0 td:first-child small { display: none; }
+  .lt0 td, .lt0 th { padding: 7px 6px; white-space: normal; }
   .grid2 { grid-template-columns: minmax(0, 1fr); }
   .btn .lg { display: none; } .btn .sm { display: inline; }
   #myRows td, .plain th { padding: 7px 6px; }
@@ -202,6 +238,7 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
   .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tablewrap { max-height: 420px; }
   .hide-sm { display: none; }
+  .hide-md { display: none; }
 }
 </style>
 </head>
@@ -221,6 +258,7 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
   <!--NAV-->
 
   <nav class="views" id="views" role="tablist" aria-label="Sections">
+    <button type="button" role="tab" data-v="dash">Dashboard</button>
     <button type="button" role="tab" data-v="scan">Scanner</button>
     <button type="button" role="tab" data-v="mine">My list<span class="cnt" id="myCnt"></span></button>
     <button type="button" role="tab" data-v="trk">Track record</button>
@@ -229,7 +267,34 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
     <button type="button" role="tab" data-v="paper">Paper account</button>
   </nav>
 
-  <div data-view="scan">
+  <div data-view="dash" hidden>
+    <div class="dgrid">
+      <div class="dmain">
+        <div class="card section" id="dBack"></div>
+        <div class="card section">
+          <h2 id="dIdeasTitle">Worth a closer look</h2>
+          <p class="lead" id="dIdeasLead"></p>
+          <div id="dIdeas"></div>
+        </div>
+        <div class="card section">
+          <h2>Which signals have actually worked</h2>
+          <p class="lead" id="dLabLead"></p>
+          <div class="tablewrap" style="max-height:none"><table class="plain lt0"><thead><tr><th>Signal</th><th>All prices</th><th>C$0.50 and up</th><th>Under C$0.50</th><th class="hide-sm">Next day only</th></tr></thead><tbody id="dLab"></tbody></table></div>
+          <p class="src pad" id="dLabFoot" style="margin:10px 0 0"></p>
+        </div>
+      </div>
+      <div class="dside">
+        <div class="card section"><h2>My list today</h2><div id="dMine"></div></div>
+        <div class="card section"><h2>This morning</h2><div id="dMorn"></div></div>
+        <div class="card section"><h2>This week's picks</h2><div id="dPicks"></div></div>
+        <div class="card section"><h2>Rising now</h2><div id="dRise"></div></div>
+        <div class="card section"><h2>Reddit chatter, Canadian names</h2><div id="dMeme"></div></div>
+        <div class="card section"><h2>Paper account</h2><div id="dPaper"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div data-view="scan" hidden>
   <div class="kpis">
     <div class="kpi"><div class="label">Rising now</div><div class="value" id="k-rise">–</div><div class="note" id="k-rise-note">market closed</div></div>
     <div class="kpi"><div class="label">Stocks tracked</div><div class="value" id="k-tracked"></div><div class="note">active watchlist</div></div>
@@ -285,7 +350,8 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
   </div>
 
   <div data-view="mine" hidden>
-    <div class="card section">
+    <div class="main">
+    <div class="card section" style="margin-bottom:0">
       <h2 id="myTitle">My list</h2>
       <p class="lead" id="myLead">The same watchlist as your trading terminal. Add or remove a stock here and the terminal picks it up at its next sync (weekdays about 6:40am, 10:40am and 3:40pm); changes made in the terminal show up here after that sync too.</p>
       <form class="listbar" id="myAdd" autocomplete="off">
@@ -296,11 +362,13 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
       <div class="msg" id="myMsg" role="status"></div>
       <div class="tablewrap" style="max-height:none">
         <table class="plain">
-          <thead><tr><th>Stock</th><th>Price</th><th class="live-col">Today</th><th>20d</th><th class="hide-sm">Signals</th><th class="hide-sm">Alerts</th><th></th></tr></thead>
+          <thead><tr><th>Stock</th><th>Price</th><th>Today</th><th>20d</th><th class="hide-md">Alerts</th><th></th></tr></thead>
           <tbody id="myRows"></tbody>
         </table>
       </div>
       <p class="src pad" id="myFoot" style="margin:12px 0 0"></p>
+    </div>
+    <div id="mineDetailSlot"></div>
     </div>
   </div>
 
@@ -513,8 +581,9 @@ document.querySelectorAll('#filterSeg button').forEach((b) => b.addEventListener
 function select(t, scroll) {
   current = t;
   renderTable();
+  if (typeof renderMy === 'function') renderMy();
   renderDetail(t);
-  if (scroll && window.innerWidth <= 900) $('detailCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (scroll && window.innerWidth <= 900 && (view === 'scan' || view === 'mine')) $('detailCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // ---------- detail + charts ----------
@@ -839,6 +908,7 @@ function listChanged() {
   if (current && $('myBtn')) $('myBtn').innerHTML = myButton(current) + msgSpan();
   renderMy();
   renderWeeks();
+  renderDash();
 }
 
 function alertFor(t) {
@@ -858,15 +928,14 @@ function renderMy() {
       ? `<button type="button" class="btn" data-my="add" data-t="${esc(i.t)}">Undo</button>`
       : (MY.builtIn || []).includes(i.t) ? '<span class="src">built in</span>'
       : `<button type="button" class="btn danger" data-my="remove" data-t="${esc(i.t)}" aria-label="Remove ${esc(i.t)}"><span class="lg">Remove</span><span class="sm">✕</span></button>`;
-    return `<tr data-go="${esc(i.t)}" style="${gone ? 'opacity:.55' : ''};cursor:${s ? 'pointer' : 'default'}">
+    return `<tr data-row="${esc(i.t)}" class="${i.t === current ? 'sel' : ''}" style="${gone ? 'opacity:.55' : ''};cursor:${s ? 'pointer' : 'default'}">
       <td><strong>${esc(i.t)}</strong>${i.pending ? ` <span class="pend">${i.pending === 'add' ? 'added here' : 'removing'}</span>` : ''}<span class="nm">${esc((s && s.n) || i.n)}</span></td>
       <td>${s ? fmtPrice(s.px) : '<span class="src">waiting for prices</span>'}</td>
-      <td class="live-col ${cls(s && s.pd)}">${s ? fmtPct(s.pd) : ''}</td>
+      <td class="${cls(dayChange(s))}">${s ? fmtPct(dayChange(s)) : ''}</td>
       <td class="${cls(s && s.p20)}">${s ? fmtPct(s.p20) : ''}</td>
-      <td class="hide-sm">${s ? `<span class="dots">${'●'.repeat(s.s)}${'○'.repeat(3 - s.s)}</span>` : ''}</td>
-      <td class="hide-sm">${esc(al)}</td>
+      <td class="hide-md">${esc(al)}</td>
       <td>${act}</td></tr>`;
-  }).join('') : `<tr><td colspan="7" class="empty" style="padding:16px;text-align:left">No ${esc(DATA.market)} stocks on your list yet.${apiState === 'ok' ? ' Add one above, or with ☆ on any stock in the Scanner.' : ''}</td></tr>`;
+  }).join('') : `<tr><td colspan="6" class="empty" style="padding:16px;text-align:left">No ${esc(DATA.market)} stocks on your list yet.${apiState === 'ok' ? ' Add one above, or with ☆ on any stock in the Scanner.' : ''}</td></tr>`;
   const other = (MY.items || []).filter((i) => !inMkt(i.t) && i.pending !== 'remove').length;
   const waiting = (MY.pending || []).length;
   const bits = [];
@@ -879,8 +948,10 @@ function renderMy() {
 }
 $('myRows').addEventListener('click', (e) => {
   if (e.target.closest('[data-my]')) return;
-  const tr = e.target.closest('tr[data-go]');
-  if (tr && stockOf(tr.dataset.go)) { showView('scan'); select(tr.dataset.go, true); }
+  const tr = e.target.closest('tr[data-row]');
+  if (!tr) return;
+  if (stockOf(tr.dataset.row)) select(tr.dataset.row, true);
+  else say(tr.dataset.row + ' has no prices on your server yet. Its chart and news appear once the server starts tracking it (within 30 minutes on weekdays).');
 });
 $('myAdd').addEventListener('submit', (e) => {
   e.preventDefault();
@@ -1067,12 +1138,158 @@ function renderNotes(t) {
     (items.length > 4 ? `<details class="more-note"><summary>${items.length - 4} more</summary>${items.slice(4, 12).map(row).join('')}</details>` : '');
 }
 
+// ----- dashboard: everything in one place -----
+const IDEAS = (DATA && DATA.ideas) || null;
+const BENCH = (DATA && DATA.bench) || null;
+const dayChange = (s) => {
+  if (!s) return null;
+  if (s.pd != null) return s.pd;
+  const h = DATA.hist[s.t];
+  if (!h || h.c.length < 2) return null;
+  const a = h.c[h.c.length - 2], b = h.c[h.c.length - 1];
+  return a ? (b / a - 1) * 100 : null;
+};
+function openStock(t) {
+  if (!stockOf(t)) return;
+  showView(onMy(t) ? 'mine' : 'scan');
+  select(t, true);
+}
+function spark(vals, extra) {
+  const v = (vals || []).filter((x) => x != null);
+  if (v.length < 5) return '';
+  const all = v.concat(extra ? [extra] : []);
+  const lo = Math.min(...all), hi = Math.max(...all), W = 300, H = 64;
+  const y = (x) => (H - 3 - (x - lo) / ((hi - lo) || 1) * (H - 6)).toFixed(1);
+  const d = v.map((x, i) => (i ? 'L' : 'M') + (i / (v.length - 1) * W).toFixed(1) + ' ' + y(x)).join('');
+  const up = v[v.length - 1] >= v[0];
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Past year">
+    ${extra ? `<line x1="0" x2="${W}" y1="${y(extra)}" y2="${y(extra)}" stroke="var(--ma)" stroke-dasharray="4 3" vector-effect="non-scaling-stroke"/>` : ''}
+    <path d="${d}" fill="none" stroke="${up ? 'var(--good)' : 'var(--bad)'}" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>`;
+}
+function gradeCell(g) {
+  if (!g || !g.grade) return '<td class="g-no">–</td>';
+  const c = g.grade === 'Promising' ? 'g-ok' : g.grade === 'No edge' ? 'g-no' : 'g-mid';
+  const label = g.grade === 'Beats the market, still loses' ? 'Beats market, loses' : g.grade;
+  return `<td class="${c}">${esc(label)}<small>${g.avg != null ? fmtPct(g.avg) + ' a trade' : ''}${g.exit ? ' · ' + esc(g.exit) : ''}</small></td>`;
+}
+const TIER = { strong: ['good', 'Strongest evidence'], some: ['warn', 'Some evidence'], weak: ['', 'Weak evidence'] };
+
+function renderDash() {
+  const mk = DATA.market || '';
+  // market backdrop
+  const b = BENCH;
+  const nF = DATA.stocks.filter(isFlagged).length, nR = DATA.stocks.filter(isRising).length;
+  const nB = IDEAS ? (IDEAS.ideas || []).filter((i) => i.sig.includes('breakout')).length : 0;
+  if (b) {
+    const day = b.live ? b.live.pct_day : b.chg_1d, up = b.above_ma200;
+    $('dBack').innerHTML = `<h2>The market · ${esc(b.name)}</h2><div class="back"><div>
+      <div class="lvl">${Number((b.live && b.live.last) || b.last).toLocaleString(undefined, { maximumFractionDigits: 2 })} <span class="${cls(day)}" style="font-size:15px">${fmtPct(day)}</span></div>
+      <div class="sub">${b.live ? 'live, ' + timeLabel(b.live.as_of) : 'close ' + esc(dateLabel(b.date))}</div>
+      ${b.ma200 ? `<div class="trend ${up ? 'pos' : 'neg'}">${up ? '▲ Uptrend' : '▼ Downtrend'}</div><div class="src">${up ? 'Above' : 'Below'} its 200-day average (${Number(b.ma200).toLocaleString(undefined, { maximumFractionDigits: 0 })}). ${up ? 'A friendlier backdrop for small caps.' : 'A tougher backdrop for small caps: signals face a headwind.'}</div>` : ''}
+      <div class="chg">${[['5D', b.chg_5d], ['1M', b.chg_1m], ['3M', b.chg_3m], ['YTD', b.chg_ytd], ['1Y', b.chg_1y]].filter((x) => x[1] != null).map((x) => `<span class="${cls(x[1])}">${x[0]} ${fmtPct(x[1])}</span>`).join('')}</div>
+    </div><div>${spark(b.closes, b.ma200)}
+      <div class="chg"><span>${nF} flagged</span><span>${nB} breakout${nB === 1 ? '' : 's'}</span><span>${HAS_LIVE ? nR + ' rising' : 'market closed'}</span><span>${DATA.tracked} tracked</span></div></div></div>`;
+  } else {
+    $('dBack').innerHTML = `<h2>The market</h2><div class="empty" style="padding:0 16px 16px">Index data appears after the server's next daily update.</div>`;
+  }
+
+  // ideas
+  const od = IDEAS && IDEAS.oneDay ? Object.values(IDEAS.oneDay).map((x) => x.avg).filter((x) => x != null) : [];
+  $('dIdeasTitle').textContent = 'Worth a closer look' + (IDEAS && IDEAS.day ? ' · signals at the ' + dayLabel(IDEAS.day) + ' close' : '');
+  $('dIdeasLead').textContent = `Stocks that fired a buy signal at the last close, ranked by how well that signal held up over 10 years on ${mk} stocks in the same price range, then adjusted for news and what your notes and picks said. ` +
+    (od.length ? `The tested edges played out over 5 to 20 days. For a single day, every signal lost money on average after costs (${fmtPct(Math.min(...od))} to ${fmtPct(Math.max(...od))} next day), so treat this as a watchlist, not a one-day call.` : '');
+  const L = IDEAS ? IDEAS.ideas || [] : [];
+  $('dIdeas').innerHTML = !IDEAS ? '<div class="empty" style="padding:0 16px 16px">Ideas appear after the server\'s next update.</div>'
+    : !L.length ? `<div class="empty" style="padding:0 16px 16px">No ${esc(mk)} stock fired a buy signal at the last close.</div>`
+    : L.map((i, n) => {
+      const [tc, tl] = TIER[i.tier] || TIER.weak;
+      const s = stockOf(i.t);
+      return `<div class="idea${i.tier === 'weak' ? ' weak' : ''}">
+        <span class="rk">${n + 1}</span>
+        <div class="hd"><strong>${esc(i.t)}</strong>${onMy(i.t) ? '<span class="star">★</span>' : ''}<span class="src">${esc(i.n)}</span><span class="chip ${tc}">${tl}</span></div>
+        <div class="px"><strong>${fmtPrice(i.c)}</strong> <span class="${cls(i.chg)}">${fmtPct(i.chg)}</span><div class="src">vol ${fmtX(i.rv)}</div></div>
+        <div class="body">
+          ${(i.reasons || []).map((r) => `<p>${esc(r)}.</p>`).join('')}
+          <div class="sigs">${i.signals.map((g) => `<span class="chip ${g.grade === 'Promising' ? 'good' : g.grade === 'No edge' ? 'bad' : ''}" title="${esc(g.exit || '')}">${esc(g.name)} · ${esc(g.grade === 'Beats the market, still loses' ? 'beats market, loses' : g.grade)}</span>`).join('')}</div>
+          ${i.news ? `<p>📰 <a href="${esc(safeUrl(i.news.url) || '#')}" target="_blank" rel="noopener noreferrer">${esc(i.news.title)}</a> <span class="src">${esc(i.news.source || '')} · ${esc(ago(i.news.time))}</span></p>` : ''}
+          ${(i.notes || []).map((x) => `<p class="src">${esc(dateLabel(x.d))} · ${esc(x.src)}: ${esc(x.txt)}</p>`).join('')}
+          ${(i.warns || []).map((w) => `<p class="warn">⚠ ${esc(w)}</p>`).join('')}
+          <div class="acts">${s ? `<button type="button" class="btn" data-open="${esc(i.t)}">Chart, news and details</button>` : ''}${myButton(i.t)}</div>
+        </div></div>`;
+    }).join('') + (IDEAS.more ? `<p class="src pad" style="margin:8px 0 0">${IDEAS.more} more fired a weaker signal; see the Scanner.</p>` : '');
+
+  // what works
+  const lab = IDEAS && IDEAS.lab;
+  $('dLabLead').textContent = lab ? `Each signal tested on ${mk} stocks from ${lab.from} to ${lab.until}: bought at the next day's open, spread plus 0.5% in costs, using each signal's best exit. "Promising" means it made money and beat the market in both halves of the period.` : '';
+  $('dLab').innerHTML = lab ? lab.rows.map((r) => {
+    const o = IDEAS.oneDay[r.key];
+    return `<tr><td><strong>${esc(r.name)}</strong><small>${esc(r.rule || '')}</small></td>${gradeCell(r.all)}${gradeCell(r.p50)}${gradeCell(r.sub50)}<td class="hide-sm ${cls(o && o.avg)}">${o ? fmtPct(o.avg) : '–'}</td></tr>`;
+  }).join('') : '<tr><td colspan="5" class="empty" style="padding:16px;text-align:left">Appears after the signal lab runs on your server (Saturdays).</td></tr>';
+  const rt = IDEAS && IDEAS.risingTest;
+  $('dLabFoot').textContent = (lab ? 'Re-tested every Saturday; last run ' + ago(IDEAS.labGenerated) + '. ' : '') +
+    (rt && rt.status === 'ok' && rt.exits && rt.exits[0] ? `Rising (intraday) over ${rt.days} days: ${fmtPct(rt.exits[0].avg)} a trade selling at the close, across ${rt.signals} signals.` : '');
+
+  // side: my list movers
+  const mine = (MY.items || []).filter((i) => i.pending !== 'remove' && inMkt(i.t)).map((i) => ({ i, s: stockOf(i.t) })).filter((x) => x.s)
+    .map((x) => ({ ...x, d: dayChange(x.s) })).sort((a, b) => Math.abs(b.d ?? 0) - Math.abs(a.d ?? 0));
+  $('dMine').innerHTML = mine.length ? mine.slice(0, 7).map(({ s, d }) => `<div class="mini" data-open="${esc(s.t)}" style="cursor:pointer"><span class="l"><strong>${esc(s.t)}</strong><small>${esc(s.n)}</small></span><span class="r">${fmtPrice(s.px)} <span class="${cls(d)}">${fmtPct(d)}</span></span></div>`).join('') +
+    `<button type="button" class="lnk" data-go="mine">All ${mine.length} on my list</button>` : `<div class="empty" style="padding:0 16px 16px">No ${esc(mk)} stocks on your list yet.</div>`;
+  // side: this morning
+  const M = (TERM && TERM.mornings) || [];
+  $('dMorn').innerHTML = M.length ? `<div class="pad" style="padding-bottom:4px"><div class="src">${esc(dayLabel(M[0].date || M[0].id))} · ${esc(M[0].headline || '')}</div><p class="note-text" style="max-height:220px;overflow:auto">${esc(M[0].text || '')}</p></div><button type="button" class="lnk" data-go="rep">All notes</button>`
+    : '<div class="empty" style="padding:0 16px 16px">The pre-market note arrives weekdays at about 6:55am.</div>';
+  // side: picks
+  const W = (TERM && TERM.weeks) || [];
+  const P = W.length ? (W[0].picks || []).slice().sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99)) : [];
+  $('dPicks').innerHTML = P.length ? `<div class="src" style="padding:0 16px 4px">Week of ${esc(dateLabel(W[0].date || W[0].id))}</div>` + P.slice(0, 5).map((p) => {
+    const s = stockOf(p.ticker);
+    return `<div class="mini"${s ? ` data-open="${esc(p.ticker)}" style="cursor:pointer"` : ''}><span class="l"><strong>${esc(p.ticker)}</strong><small>${esc(p.name)}</small></span><span class="r"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong' : 'Watch'}</span>${s ? ` <span class="${cls(dayChange(s))}">${fmtPct(dayChange(s))}</span>` : ''}</span></div>`;
+  }).join('') + '<button type="button" class="lnk" data-go="rep">Full picks with red-flag checks</button>'
+    : `<div class="empty" style="padding:0 16px 16px">${TERM ? 'The Sunday shortlist arrives Sundays at 5:50pm.' : 'Appears once your server loads the terminal\'s backup.'}</div>`;
+  // side: rising
+  const R = DATA.stocks.filter(isRising).sort((a, b) => (b.pd ?? 0) - (a.pd ?? 0));
+  $('dRise').innerHTML = !HAS_LIVE ? '<div class="empty" style="padding:0 16px 16px">Market closed. Rising stocks appear during trading hours.</div>'
+    : (R.length ? R.slice(0, 6).map((s) => `<div class="mini" data-open="${esc(s.t)}" style="cursor:pointer"><span class="l"><strong>${esc(s.t)}</strong><small>${esc(s.n)}</small></span><span class="r pos">▲ ${fmtPct(s.pd)} <span class="src">pace ${fmtX(s.lrv)}</span></span></div>`).join('') : '<div class="empty" style="padding:0 16px 16px">Nothing rising on strong volume right now.</div>') +
+      (rt && rt.status === 'ok' && rt.exits && rt.exits[0] ? `<p class="src pad" style="margin:6px 0 0">For awareness: buying rising stocks averaged ${fmtPct(rt.exits[0].avg)} by the close in a ${rt.days}-day test.</p>` : '');
+  // side: memes
+  const N = (TERM && TERM.memes) || [];
+  const CA = ['TSX', 'TSXV', 'CSE', 'Cboe Canada'];
+  const caRows = N.length ? ['top', 'movers', 'canadian', 'penny'].flatMap((k) => N[0][k] || []).filter((r) => exList(r).some((x) => CA.includes(x))) : [];
+  const seenT = new Set();
+  const caU = caRows.filter((r) => !seenT.has(r.ticker) && seenT.add(r.ticker));
+  $('dMeme').innerHTML = N.length ? `<div class="src" style="padding:0 16px 4px">${esc(dayLabel(N[0].date || N[0].id))}${N[0].mood ? ' · ' + esc(N[0].mood) : ''}</div>` +
+    (caU.length ? caU.slice(0, 6).map((r) => `<div class="mini"><span class="l"><strong>${esc(r.ticker)}</strong><small>${esc(exList(r).join(' · '))} · ${esc(r.name)}</small></span><span class="r">${r.mentions != null ? esc(r.mentions) : '?'} <span class="src">${esc(r.change || '')}</span></span></div>`).join('') : '<div class="empty" style="padding:0 16px 8px">No Canadian names in last night\'s chatter.</div>') +
+    '<button type="button" class="lnk" data-go="meme">Full meme review</button>'
+    : `<div class="empty" style="padding:0 16px 16px">${TERM ? 'The nightly review arrives around 8:45pm.' : 'Appears once your server loads the terminal\'s backup.'}</div>`;
+  // side: paper
+  const PA = TERM && TERM.paper;
+  if (PA && typeof PA.cash === 'number') {
+    let eq = PA.cash;
+    Object.keys(PA.pos || {}).forEach((k) => { const a = DATA.allPx && DATA.allPx[yt(k)]; eq += PA.pos[k].qty * (a ? a[0] : PA.pos[k].avg); });
+    $('dPaper').innerHTML = `<div class="mini"><span class="l">Equity</span><span class="r"><strong>${money(eq)}</strong></span></div><div class="mini"><span class="l">Since start</span><span class="r ${cls(eq - 10000)}">${money(eq - 10000)}</span></div><div class="mini"><span class="l">Open positions</span><span class="r">${Object.keys(PA.pos || {}).length}</span></div><button type="button" class="lnk" data-go="paper">Paper account</button>`;
+  } else $('dPaper').innerHTML = `<div class="empty" style="padding:0 16px 16px">${TERM ? 'No paper trades yet.' : 'Appears once your server loads the terminal\'s backup.'}</div>`;
+}
+$('views').parentNode.addEventListener('click', (e) => {
+  const o = e.target.closest('[data-open]');
+  if (o && !e.target.closest('[data-my]') && !e.target.closest('a')) { openStock(o.dataset.open); return; }
+  const g = e.target.closest('button[data-go]');
+  if (g) { showView(g.dataset.go); window.scrollTo({ top: 0 }); }
+});
+
 // ----- section tabs -----
-let view = 'scan';
-try { view = localStorage.getItem('view') || 'scan'; } catch (e) {}
+let view = 'dash';
+try { view = localStorage.getItem('view') || 'dash'; } catch (e) {}
+const DETAIL_HOME = $('detailCard').parentNode;
 function showView(v) {
-  if (!document.querySelector(`[data-view="${v}"]`)) v = 'scan';
+  if (!document.querySelector(`[data-view="${v}"]`)) v = 'dash';
   view = v;
+  if (v === 'mine') {
+    $('mineDetailSlot').appendChild($('detailCard'));
+    if (!onMy(current)) {
+      const first = (MY.items || []).filter((i) => i.pending !== 'remove' && inMkt(i.t)).map((i) => i.t).sort().find((t) => stockOf(t));
+      if (first) select(first, false);
+    }
+  } else if (v === 'scan') DETAIL_HOME.appendChild($('detailCard'));
   document.querySelectorAll('[data-view]').forEach((el) => { el.hidden = el.dataset.view !== v; });
   document.querySelectorAll('#views button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.v === v)));
   try { localStorage.setItem('view', v); } catch (e) {}
@@ -1080,7 +1297,7 @@ function showView(v) {
 $('views').addEventListener('click', (e) => { const b = e.target.closest('button[data-v]'); if (b) showView(b.dataset.v); });
 
 function renderTerminalViews() {
-  renderMy(); renderTrk(); renderMorn(); renderWeeks(); renderMemes(); renderPaper();
+  renderMy(); renderTrk(); renderMorn(); renderWeeks(); renderMemes(); renderPaper(); renderDash();
   $('termNote').textContent = TERM && TERM.copied
     ? 'Track record, reports, meme reviews and paper account are copied from your trading terminal; last copy ' + ago(TERM.copied) + '.'
     : 'Track record, reports, meme reviews and paper account appear once your server loads the terminal\'s backup.';
@@ -1095,12 +1312,12 @@ if (!DATA) {
   renderFlagged();
   renderTable();
   renderTerminalViews();
-  showView(view);
   let keep = null;
   try { keep = sessionStorage.getItem('sel'); } catch (e) {}
   const kept = keep && DATA.stocks.find((s) => s.t === keep);
   const first = kept || DATA.stocks.filter(isRising).sort((a, b) => (b.pd ?? 0) - (a.pd ?? 0))[0] || DATA.stocks.filter(isFlagged).sort((a, b) => b.s - a.s)[0] || DATA.stocks.slice().sort((a, b) => (b.rv ?? 0) - (a.rv ?? 0))[0];
   if (first) select(first.t, false);
+  showView(view);
   if (kept) { try { const y = +sessionStorage.getItem('scrollY'); if (y) window.scrollTo(0, y); } catch (e) {} }
   loadMy();
 }
