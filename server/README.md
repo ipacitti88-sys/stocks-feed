@@ -27,7 +27,7 @@ The scanner only flags stocks trading enough **dollars** a day (20-day average v
 
 One watchlist, the same on the webpage and in the terminal. The terminal keeps the master copy:
 
-- **Terminal to webpage:** the terminal sync task (weekdays 6:40am, 10:40am, 3:40pm) publishes the terminal's watchlist to the `mylist` branch of this repo. The server pulls it every 30 minutes on weekdays (`mylist.py`, via `sync_requests.py`) into the `my_list` table, and starts tracking any stock it didn't have.
+- **Terminal to webpage:** the terminal sync task (hourly on weekdays, 6:40am to 1:40pm, plus 3:40pm) publishes the terminal's watchlist to the `mylist` branch of this repo. The server pulls it every 30 minutes on weekdays (`mylist.py`, via `sync_requests.py`) into the `my_list` table, and starts tracking any stock it didn't have.
 - **Webpage to terminal:** adding or removing on the webpage goes to `listapi.py` (port 8081), is saved in `list_changes` and published as `list_changes.json` right away. The terminal applies it at its next sync, then the change clears.
 
 Removing a stock from your list never stops the scanner tracking it. PRL, XTRA and PNG are built into the terminal and always on the list.

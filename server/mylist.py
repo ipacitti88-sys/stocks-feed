@@ -6,7 +6,7 @@ The terminal on claude.ai keeps the master copy. Two files in the stocks-feed re
 carry changes between them:
 
   mylist branch, mylist.json   terminal -> server. Written by the terminal sync task
-                               (weekdays 6:40am, 10:40am, 3:40pm): every stock on the
+                               (hourly on weekdays, 6:40am to 1:40pm, plus 3:40pm): every stock on the
                                terminal's watchlist, plus "applied_through", the last
                                webpage change it has applied.
   main branch, list_changes.json
