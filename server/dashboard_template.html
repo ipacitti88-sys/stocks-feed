@@ -64,6 +64,7 @@ h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
 .pill.live { background: var(--accent-bg); color: var(--series-1); }
 .pill.live .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; display: inline-block; }
 .tag.up { background: var(--good-bg); color: var(--good); }
+.tag.warn { background: var(--warn-bg); color: var(--warn); }
 .no-live .live-col { display: none; }
 .live-box { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin: 10px 0 4px; }
 .live-box .lt { font-size: 11px; color: var(--text-2); margin-bottom: 6px; }
@@ -221,6 +222,13 @@ td .nm { display: block; color: var(--text-3); font-size: 11px; max-width: 150px
 .lt0 td small { display: block; color: var(--text-3); font-size: 11px; }
 .g-ok { color: var(--good); font-weight: 650; } .g-no { color: var(--text-3); } .g-mid { color: var(--text-2); }
 details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12px; margin-top: 4px; }
+.alerts-box { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin: 10px 0 4px; font-size: 13px; }
+.alerts-box .ttl { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-3); font-weight: 600; }
+.alerts-box form { display: flex; flex-wrap: wrap; gap: 8px; align-items: flex-end; margin-top: 8px; }
+.alerts-box label { display: grid; gap: 3px; font-size: 11px; color: var(--text-2); }
+.alerts-box input { width: 104px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); font: inherit; font-size: 13px; }
+.fin-note { margin: 8px 0 0; font-size: 13px; color: var(--warn); }
+.fin-note a { color: var(--text-2); }
 
 @media (max-width: 1050px) { .dgrid { grid-template-columns: minmax(0, 1fr); } }
 [data-view="mine"] .btn .lg { display: none; } [data-view="mine"] .btn .sm { display: inline; }
@@ -353,7 +361,7 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
     <div class="main">
     <div class="card section" style="margin-bottom:0">
       <h2 id="myTitle">My list</h2>
-      <p class="lead" id="myLead">The same watchlist as your trading terminal. Add or remove a stock here and the terminal picks it up at its next sync (hourly on weekdays from 6:40am to 1:40pm, plus 3:40pm); changes made in the terminal show up here after that sync too.</p>
+      <p class="lead" id="myLead">The same watchlist as your trading terminal. Add or remove a stock here and the terminal picks it up at its next sync (hourly on weekdays from 6:40am to 1:40pm, plus 3:40pm); changes made in the terminal show up here after that sync too. Tap a stock to set its price alerts.</p>
       <form class="listbar" id="myAdd" autocomplete="off">
         <input id="myAddT" list="myAddList" placeholder="Ticker, e.g. LVG" aria-label="Ticker to add" maxlength="14">
         <datalist id="myAddList"></datalist>
@@ -373,6 +381,17 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
   </div>
 
   <div data-view="trk" hidden>
+    <div class="card section">
+      <h2>Weekly picks scorecard</h2>
+      <p class="lead">Each Sunday pick, as if bought at the open of the next trading day, then valued at the close 1, 2 and 4 weeks later and today, next to the market index over the same days. Picks that weren't tracked yet get their prices once your server starts tracking them.</p>
+      <div id="pkStats" class="pad"></div>
+      <div class="tablewrap">
+        <table class="plain lt2">
+          <thead><tr><th>Week</th><th>Stock</th><th>Rating</th><th>Entry</th><th>1 week</th><th>2 weeks</th><th>4 weeks</th><th>Latest</th><th class="hide-sm">vs index</th></tr></thead>
+          <tbody id="pkRows"></tbody>
+        </table>
+      </div>
+    </div>
     <div class="card section">
       <h2>Did the signals work?</h2>
       <p class="lead">Every stock your scanner flags, marks as rising, or catches breaking out is logged at that day's close and followed for 20 trading days. A win is any gain from the signal price. Small samples swing a lot.</p>
@@ -431,11 +450,13 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
         <div class="tablewrap" style="max-height:none">
           <table class="plain"><thead><tr><th>Stock</th><th>Last</th><th>Buy at or below</th><th>Stop-loss</th></tr></thead><tbody id="ppAl"></tbody></table>
         </div>
-        <div class="subh">Alerts that fired</div>
+        <div class="subh">Alerts that fired at the close</div>
         <div id="ppFired" class="pad src"></div>
+        <div class="subh">Sent to your phone during the day</div>
+        <div id="ppLive" class="pad src"></div>
       </div>
     </div>
-    <p class="src" style="text-align:center">Read-only copy of the paper account in your trading terminal. Place paper trades and set alerts there. Paper trading only: no real orders are placed.</p>
+    <p class="src" style="text-align:center">Copy of the paper account in your trading terminal. Place paper trades there; set price alerts there or on any stock's detail panel here. Paper trading only: no real orders are placed.</p>
   </div>
 
   <p class="src" id="termNote" style="text-align:center;margin-top:16px"></p>
@@ -553,7 +574,7 @@ function renderTable() {
   });
   $('rows').innerHTML = list.length ? list.map((s) => `
     <tr data-t="${esc(s.t)}" class="${s.t === current ? 'sel' : ''}">
-      <td><strong>${esc(s.t)}</strong>${onMy(s.t) ? '<span class="star" title="On my list">★</span>' : ''}${isRising(s) ? '<span class="tag up">▲ RISING</span>' : ''}${isNew(s) ? '<span class="tag">NEW</span>' : ''}<span class="nm">${esc(s.n)}</span></td>
+      <td><strong>${esc(s.t)}</strong>${onMy(s.t) ? '<span class="star" title="On my list">★</span>' : ''}${isRising(s) ? '<span class="tag up">▲ RISING</span>' : ''}${isNew(s) ? '<span class="tag">NEW</span>' : ''}${finTag(s.t)}<span class="nm">${esc(s.n)}</span></td>
       <td>${fmtPrice(s.px)}</td>
       <td class="live-col ${cls(s.pd)}">${fmtPct(s.pd)}</td>
       <td>${fmtX(s.rv)}</td>
@@ -609,6 +630,8 @@ function renderDetail(t) {
         <div class="stat"><div class="l">Prev close</div><div class="v">${fmtPrice(s.c)}</div></div>
       </div></div>` : ''}
     <div class="signals">${sig(s.ma, 'Above 50-day avg')}${sig(s.vs, 'Volume spike')}${sig(s.nh, 'New 52-week high')}</div>
+    ${finLine(s.t)}
+    <div id="alBox"></div>
     <div class="stats">
       <div class="stat"><div class="l">Rel volume</div><div class="v">${fmtX(s.rv)}</div></div>
       <div class="stat"><div class="l">20-day change</div><div class="v ${cls(s.p20)}">${fmtPct(s.p20)}</div></div>
@@ -641,6 +664,7 @@ function renderDetail(t) {
   drawRange(t);
   loadNews(t);
   renderNotes(t);
+  renderAlertBox(t);
 }
 
 // ---------- latest news (server refreshes every morning, and every 30 minutes for active stocks) ----------
@@ -858,6 +882,14 @@ const money = (v) => v == null || isNaN(v) ? '–' : (v < 0 ? '−' : '') + 'C$'
 const dayLabel = (d) => { const x = new Date(String(d) + 'T12:00:00'); return isNaN(x) ? String(d || '') : x.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' }); };
 const safeUrl = (u) => /^https?:\/\//i.test(String(u || '')) ? u : null;
 const stockOf = (t) => DATA.stocks.find((x) => x.t === t);
+// dilution warning: share sales found in the news (financings.py). n90 = separate raises in 90 days
+const FIN = (DATA && DATA.fin) || {};
+const finOf = (t) => { const f = FIN[t]; return f && f.n90 ? f : null; };
+const finWord = (f) => f.n90 === 1 ? '1 share sale' : f.n90 + ' share sales';
+const finTag = (t) => { const f = finOf(t); return f ? `<span class="tag warn" title="${esc(finWord(f))} in 90 days, latest ${esc(dateLabel(f.last))}: ${esc(f.title)}">${f.n90 > 1 ? f.n90 + '× ' : ''}FINANCING</span>` : ''; };
+const finLine = (t) => { const f = finOf(t); if (!f) return '';
+  const u = safeUrl(f.url);
+  return `<p class="fin-note">⚠ Dilution: ${esc(finWord(f))} in the last 90 days${f.n180 > f.n90 ? ` (${f.n180} in 6 months)` : ''}. Latest ${esc(dateLabel(f.last))}: ${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(f.title)}</a>` : esc(f.title)}</p>`; };
 const termEmpty = (what) => `<div class="empty" style="padding:12px 16px">${what} appear here once your server loads the terminal's backup (daily at 7:35am and 10:30pm).</div>`;
 
 // ----- my list -----
@@ -868,12 +900,13 @@ const API = DATA ? location.protocol + '//' + location.hostname + ':' + (DATA.li
 const myItem = (t) => (MY.items || []).find((i) => i.t === t);
 function onMy(t) { const i = myItem(t); return !!i && i.pending !== 'remove'; }
 function msgSpan() { return lastMsg && Date.now() - lastMsg.at < 10000 ? ` <span class="pend" style="${lastMsg.bad ? 'color:var(--bad)' : ''}">${esc(lastMsg.text)}</span>` : ''; }
-function myButton(t) {
+function myButton(t, name) {
   const i = myItem(t), on = onMy(t), built = (MY.builtIn || []).includes(t);
+  const dn = name ? ` data-n="${esc(name)}"` : '';
   const wait = i && i.pending ? ` <span class="pend">${i.pending === 'add' ? 'reaches the terminal at its next sync' : 'removal reaches the terminal at its next sync'}</span>` : '';
   if (apiState !== 'ok') return on ? '<span class="chip good">★ On my list</span>' : '';
   if (on) return '<span class="chip good">★ On my list</span>' + (built ? '' : ` <button type="button" class="btn danger" data-my="remove" data-t="${esc(t)}">Remove</button>`) + wait;
-  return `<button type="button" class="btn" data-my="add" data-t="${esc(t)}">☆ Add to my list</button>` + wait;
+  return `<button type="button" class="btn" data-my="add" data-t="${esc(t)}"${dn}>☆ Add to my list</button>` + wait;
 }
 function say(text, bad) {
   lastMsg = { text, bad: !!bad, at: Date.now() };
@@ -888,8 +921,8 @@ function loadMy() {
     .then((j) => { if (j && Array.isArray(j.items)) MY = j; apiState = 'ok'; listChanged(); })
     .catch(() => { apiState = 'down'; listChanged(); });
 }
-function setMy(t, action) {
-  return fetch(API, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ticker: t, action }) })
+function setMy(t, action, extra) {
+  return fetch(API, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(Object.assign({ ticker: t, action }, extra || {})) })
     .then((r) => r.json().then((j) => ({ ok: r.ok, j })))
     .then(({ ok, j }) => { if (j && Array.isArray(j.items)) MY = j; say(j.message || (ok ? 'Saved.' : 'Couldn\'t save that.'), !ok); listChanged(); })
     .catch(() => { say('Couldn\'t reach the list service on your server. Try again.', true); listChanged(); });
@@ -899,23 +932,57 @@ document.addEventListener('click', (e) => {
   if (!b) return;
   e.stopPropagation();
   b.disabled = true;
-  setMy(b.dataset.t, b.dataset.my);
+  setMy(b.dataset.t, b.dataset.my, b.dataset.n ? { name: b.dataset.n } : null);
 });
 function listChanged() {
   const n = (MY.items || []).filter((i) => i.pending !== 'remove' && inMkt(i.t)).length;
   $('myCnt').textContent = n ? ' ' + n : '';
   renderTable();
   if (current && $('myBtn')) $('myBtn').innerHTML = myButton(current) + msgSpan();
+  if (current) renderAlertBox(current);
   renderMy();
+  renderPaper();
   renderWeeks();
   renderDash();
 }
 
-function alertFor(t) {
+// price alerts: the terminal's levels (published with its list at every sync), with edits made here applied
+function allAlerts() {
+  const out = {};
   const al = (TERM && TERM.paper && TERM.paper.al) || {};
-  for (const k in al) if (yt(k) === t) return al[k];
-  return null;
+  for (const k in al) if (al[k] && (al[k].buy || al[k].stop)) out[yt(k)] = { buy: al[k].buy || null, stop: al[k].stop || null };
+  if (MY.alerts) {  // newer than the nightly backup: replaces it
+    for (const k in out) if (!(k in MY.alerts)) delete out[k];
+    for (const k in MY.alerts) { const a = MY.alerts[k]; if (a && (a.buy || a.stop)) out[k] = a; else delete out[k]; }
+  }
+  return out;
 }
+function alertFor(t) { return allAlerts()[t] || null; }
+function renderAlertBox(t) {
+  const box = $('alBox'); if (!box || current !== t) return;
+  const a = alertFor(t), pend = MY.alerts && MY.alerts[t] && MY.alerts[t].pending;
+  const now = a ? [a.buy ? 'buy at or below ' + fmtPrice(a.buy) : '', a.stop ? 'stop-loss ' + fmtPrice(a.stop) : ''].filter(Boolean).join(' · ') : 'none set';
+  const head = `<div class="ttl">Price alerts</div><div style="margin-top:3px">${esc(now)}${pend ? ' <span class="pend">reaches the terminal at its next sync</span>' : ''}</div>`;
+  if (apiState !== 'ok') { box.className = 'alerts-box'; box.innerHTML = head + '<div class="src" style="margin-top:4px">Set alerts in the terminal (the list service on your server isn\'t reachable right now).</div>'; return; }
+  box.className = 'alerts-box';
+  box.innerHTML = head + `<form id="alForm" autocomplete="off">
+      <label>Buy at or below<input id="alBuy" type="number" inputmode="decimal" step="any" min="0" placeholder="–" value="${a && a.buy ? esc(a.buy) : ''}"></label>
+      <label>Stop-loss<input id="alStop" type="number" inputmode="decimal" step="any" min="0" placeholder="–" value="${a && a.stop ? esc(a.stop) : ''}"></label>
+      <button class="btn" type="submit">Save</button>${a ? '<button class="btn danger" type="button" id="alClear">Clear</button>' : ''}
+    </form><div class="src" style="margin-top:6px">${LIVE_NOTE}</div>`;
+  const save = (buy, stop) => setMy(t, 'alert', { buy, stop });
+  $('alForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const b = parseFloat($('alBuy').value), st = parseFloat($('alStop').value);
+    if ([b, st].some((v) => !isNaN(v) && v < 0)) { say('Levels must be above 0.', true); return; }
+    e.target.querySelectorAll('button').forEach((x) => { x.disabled = true; });
+    save(isNaN(b) ? 0 : b, isNaN(st) ? 0 : st);
+  });
+  if ($('alClear')) $('alClear').addEventListener('click', (e) => { e.target.disabled = true; save(0, 0); });
+}
+const LIVE_NOTE = DATA && DATA.liveAlerts && DATA.liveAlerts.on
+  ? 'Your phone gets a notification when the price (about 15 min delayed) reaches a level during the day; the terminal also messages you at the close.'
+  : 'The terminal messages you when a close reaches a level. For alerts during the day, turn on phone notifications on your server (see the README: ntfy).';
 function renderMy() {
   $('myTitle').textContent = 'My list · ' + (DATA.market || '');
   const items = (MY.items || []).filter((i) => inMkt(i.t)).sort((a, b) => a.t.localeCompare(b.t));
@@ -929,7 +996,7 @@ function renderMy() {
       : (MY.builtIn || []).includes(i.t) ? '<span class="src">built in</span>'
       : `<button type="button" class="btn danger" data-my="remove" data-t="${esc(i.t)}" aria-label="Remove ${esc(i.t)}"><span class="lg">Remove</span><span class="sm">✕</span></button>`;
     return `<tr data-row="${esc(i.t)}" class="${i.t === current ? 'sel' : ''}" style="${gone ? 'opacity:.55' : ''};cursor:${s ? 'pointer' : 'default'}">
-      <td><strong>${esc(i.t)}</strong>${i.pending ? ` <span class="pend">${i.pending === 'add' ? 'added here' : 'removing'}</span>` : ''}<span class="nm">${esc((s && s.n) || i.n)}</span></td>
+      <td><strong>${esc(i.t)}</strong>${finTag(i.t)}${i.pending ? ` <span class="pend">${i.pending === 'add' ? 'added here' : 'removing'}</span>` : ''}<span class="nm">${esc((s && s.n) || i.n)}</span></td>
       <td>${s ? fmtPrice(s.px) : '<span class="src">waiting for prices</span>'}</td>
       <td class="${cls(dayChange(s))}">${s ? fmtPct(dayChange(s)) : ''}</td>
       <td class="${cls(s && s.p20)}">${s ? fmtPct(s.p20) : ''}</td>
@@ -963,6 +1030,46 @@ $('myAdd').addEventListener('submit', (e) => {
   $('myAddB').disabled = true;
   setMy(t, 'add').then(() => { $('myAddB').disabled = false; $('myAddT').value = ''; });
 });
+
+// ----- weekly picks scorecard -----
+const PK = (DATA && DATA.picks) || null;
+const pkRows = () => ((PK && PK.rows) || []).filter((r) => inMkt(r.t));
+const HZ = [['h5', 'x5', '1 week'], ['h10', 'x10', '2 weeks'], ['h20', 'x20', '4 weeks']];
+function pkStat(list, h, x) {
+  const L = list.filter((r) => r[h] != null);
+  if (!L.length) return null;
+  const avg = (a) => a.reduce((s, v) => s + v, 0) / a.length;
+  const X = L.filter((r) => r[x] != null);
+  return { n: L.length, win: L.filter((r) => r[h] > 0).length / L.length, avg: avg(L.map((r) => r[h])),
+    ix: X.length ? avg(X.map((r) => r[x])) : null, beat: X.length ? X.filter((r) => r[h] > r[x]).length / X.length : null };
+}
+function pickResult(w, t) {  // one pick's result so far, shown under it in Reports
+  const r = ((PK && PK.rows) || []).find((x) => x.t === t && x.w === String(w.date || w.id).slice(0, 10));
+  if (!r || r.e == null) return '';
+  const last = HZ.filter(([h]) => r[h] != null).pop();
+  return `<p><span class="k">Since the pick</span>${r.last != null ? `<span class="${cls(r.last)}">${pc(r.last)}</span> from ${fmtPrice(r.e)} (bought ${esc(dateLabel(r.ed))} open, ${r.days} day${r.days === 1 ? '' : 's'})` : ''}${r.ixl != null ? `; index ${pc(r.ixl)}` : ''}${last ? ` · ${last[2]}: <span class="${cls(r[last[0]])}">${pc(r[last[0]])}</span>` : ''}</p>`;
+}
+function pickSummaryLine() {
+  const L = pkRows(), st = pkStat(L, 'h10', 'x10') || pkStat(L, 'h5', 'x5');
+  if (!st) return L.length ? `<p class="src pad" style="margin:6px 0 0">Scorecard: results appear a week after the first picks.</p>` : '';
+  const hz = pkStat(L, 'h10', 'x10') ? '2 weeks' : '1 week';
+  return `<p class="src pad" style="margin:6px 0 0">Past picks after ${hz}: <span class="${cls(st.avg)}">${pc(st.avg)}</span> on average${st.ix != null ? ` vs index ${pc(st.ix)}` : ''} (${st.n} pick${st.n === 1 ? '' : 's'}). <button type="button" class="lnk" style="padding:0" data-go="trk">Scorecard</button></p>`;
+}
+function renderPicks() {
+  if (!PK) { $('pkStats').innerHTML = termEmpty('Pick results'); $('pkRows').innerHTML = ''; return; }
+  const L = pkRows();
+  if (!L.length) { $('pkStats').innerHTML = `<div class="empty" style="padding:0">No ${esc(DATA.market)} weekly picks yet.</div>`; $('pkRows').innerHTML = ''; return; }
+  const groups = [['strong', 'Strong'], ['watch', 'Watch'], ['all', 'All']];
+  const rows = [];
+  groups.forEach(([g, gl]) => HZ.forEach(([h, x, hl]) => {
+    const st = pkStat(L.filter((r) => g === 'all' || r.r === g), h, x);
+    rows.push(`<tr><td>${gl}</td><td>${hl}</td>${st ? `<td>${st.n}</td><td class="${st.win >= 0.5 ? 'pos' : 'neg'}">${Math.round(st.win * 100)}%</td><td class="${cls(st.avg)}">${pc(st.avg)}</td><td class="${cls(st.ix)}">${pc(st.ix)}</td><td class="hide-sm">${st.beat != null ? Math.round(st.beat * 100) + '%' : '–'}</td>` : '<td colspan="5" class="src" style="text-align:left">Not enough days yet</td>'}</tr>`);
+  }));
+  $('pkStats').innerHTML = `<div class="tablewrap" style="max-height:none;border:0"><table class="plain"><thead><tr><th>Rating</th><th>Held</th><th>Picks</th><th>Went up</th><th>Average</th><th>Index</th><th class="hide-sm">Beat index</th></tr></thead><tbody>${rows.join('')}</tbody></table></div>`;
+  $('pkRows').innerHTML = L.slice(0, 200).map((r) => `<tr><td>${esc(dateLabel(r.w))}</td><td><strong>${esc(r.t)}</strong>${onMy(r.t) ? '<span class="star">★</span>' : ''}${finTag(r.t)}</td><td><span class="chip ${r.r === 'strong' ? 'good' : 'warn'}">${r.r === 'strong' ? 'Strong' : 'Watch'}</span></td>` +
+    (r.e == null ? '<td colspan="6" class="src" style="text-align:left">No prices yet</td>'
+      : `<td>${fmtPrice(r.e)}</td>${HZ.map(([h]) => `<td class="${cls(r[h])}">${pc(r[h])}</td>`).join('')}<td class="${cls(r.last)}">${pc(r.last)} <span class="src">${r.days}d</span></td><td class="hide-sm ${cls(r.ixl == null ? null : r.last - r.ixl)}">${r.ixl == null ? '–' : pc(r.last - r.ixl)}</td>`) + '</tr>').join('');
+}
 
 // ----- track record -----
 let trkF = 'all';
@@ -1025,10 +1132,11 @@ function renderWeeks() {
   const rj = Array.isArray(w.rejected) ? w.rejected : [];
   const src = (Array.isArray(w.sources) ? w.sources : []).filter((s) => safeUrl(s && s.url));
   $('wkBody').innerHTML = (w.summary ? `<p class="lead" style="margin-top:0">${esc(w.summary)}</p>` : '') +
-    (picks.length ? picks.map((p) => `<div class="item"><div class="top"><span><strong>${p.rank ? esc(p.rank) + '. ' : ''}${esc(p.ticker)}</strong> <span class="src">${esc(p.name)}</span></span><span>${p.price ? 'C$' + esc(p.price) : ''}</span></div>
+    (picks.length ? picks.map((p) => `<div class="item"><div class="top"><span><strong>${p.rank ? esc(p.rank) + '. ' : ''}${esc(p.ticker)}</strong>${finTag(p.ticker)} <span class="src">${esc(p.name)}</span></span><span>${p.price ? 'C$' + esc(p.price) : ''}</span></div>
       <div style="margin-top:4px"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong candidate' : 'Watch'}</span></div>
       ${[['Catalyst', p.catalyst], ['Red flags', p.redFlags], ['Verdict', p.verdict]].filter((r) => r[1]).map((r) => `<p><span class="k">${r[0]}</span>${esc(r[1])}</p>`).join('')}
-      ${/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(String(p.ticker || '')) && (apiState === 'ok' || onMy(p.ticker)) ? `<div style="margin-top:8px">${myButton(p.ticker)}</div>` : ''}</div>`).join('')
+      ${finLine(p.ticker)}${pickResult(w, p.ticker)}
+      ${/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(String(p.ticker || '')) && (apiState === 'ok' || onMy(p.ticker)) ? `<div style="margin-top:8px">${myButton(p.ticker, p.name)}</div>` : ''}</div>`).join('')
       : '<div class="empty" style="padding:12px 16px">No names passed the red-flag check this week.</div>') +
     (rj.length ? `<div class="subh">Rejected</div>${rj.map((r) => `<div class="item" style="padding-top:6px;padding-bottom:6px"><strong class="neg">${esc(r.ticker)}</strong> <span class="src">${esc(r.reason)}</span></div>`).join('')}` : '') +
     (src.length ? `<div class="subh">Sources</div><ol class="src" style="margin:0 16px 16px;padding-left:18px">${src.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a></li>`).join('')}</ol>` : '');
@@ -1077,6 +1185,7 @@ function renderPaper() {
   const P = TERM && TERM.paper;
   const kpi = (label, value, note, c) => `<div class="kpi"><div class="label">${label}</div><div class="value ${c || ''}" style="font-size:22px">${value}</div><div class="note">${note || ''}</div></div>`;
   if (!P || typeof P.cash !== 'number') {
+    renderLiveAlerts();
     $('ppK').innerHTML = '';
     $('ppPos').innerHTML = `<tr><td colspan="5">${TERM ? '<span class="src">No paper account in the terminal yet.</span>' : termEmpty('Your paper account will')}</td></tr>`;
     $('ppAl').innerHTML = ''; $('ppLog').textContent = ''; $('ppFired').textContent = '';
@@ -1100,16 +1209,25 @@ function renderPaper() {
   $('ppPos').innerHTML = rows.length ? rows.join('') : '<tr><td colspan="5" class="src" style="text-align:left">No open positions.</td></tr>';
   const log = (Array.isArray(P.log) ? P.log : []).slice(-10).reverse();
   $('ppLog').innerHTML = log.length ? log.map((x) => esc(x)).join('<br>') : 'None yet.';
-  const al = P.al || {};
-  const ar = Object.keys(al).filter((k) => al[k] && (al[k].buy || al[k].stop)).sort().map((k) => {
+  const al = allAlerts();
+  const ar = Object.keys(al).sort().map((k) => {
     const a = al[k], last = px(k);
     const buy = a.buy ? fmtPrice(a.buy) + (last != null && last <= a.buy ? ' <span class="chip good">hit</span>' : '') : '–';
     const stop = a.stop ? fmtPrice(a.stop) + (last != null && last <= a.stop ? ' <span class="chip bad">below</span>' : '') : '–';
     return `<tr><td><strong>${esc(yt(k))}</strong></td><td>${last != null ? fmtPrice(last) : '–'}</td><td>${buy}</td><td>${stop}</td></tr>`;
   });
-  $('ppAl').innerHTML = ar.length ? ar.join('') : '<tr><td colspan="4" class="src" style="text-align:left">No alerts set. Set them on a stock in the terminal.</td></tr>';
+  $('ppAl').innerHTML = ar.length ? ar.join('') : '<tr><td colspan="4" class="src" style="text-align:left">No alerts set. Set them on a stock\'s detail panel here, or in the terminal.</td></tr>';
+  renderLiveAlerts();
   const fired = (TERM.alertlog || []).slice(0, 10);
   $('ppFired').innerHTML = fired.length ? fired.map((f) => `${esc(dateLabel(f.date))} · <strong>${esc(f.ticker)}</strong> closed at ${fmtPrice(f.close)}, ${f.kind === 'stop' ? 'below your stop-loss' : 'at or below your buy target'} ${fmtPrice(f.level)}`).join('<br>') : 'None yet.';
+}
+
+function renderLiveAlerts() {
+  const LA = DATA.liveAlerts;
+  const kind = { buy: 'at or below your buy level', stop: 'below your stop-loss', rising: 'started rising' };
+  $('ppLive').innerHTML = !LA ? 'Appears after your server\'s next update.'
+    : (LA.list || []).length ? LA.list.slice(0, 12).map((a) => `${esc(dayLabel(String(a.at).slice(0, 10)))} ${esc(timeLabel(a.at))} · <strong>${esc(a.t)}</strong> ${fmtPrice(a.p)}, ${kind[a.k] || esc(a.k)}${a.lvl ? ' ' + fmtPrice(a.lvl) : ''}${a.sent ? '' : ' <span class="pend">not sent</span>'}`).join('<br>')
+    : (LA.on ? 'None in the last week.' : 'Phone notifications are off. Set NTFY_TOPIC in ~/stocks/stocks.env (see the README).');
 }
 
 // ----- what Claude's reviews said about one stock (shown on its detail panel) -----
@@ -1214,6 +1332,7 @@ function renderDash() {
           ${i.news ? `<p>📰 <a href="${esc(safeUrl(i.news.url) || '#')}" target="_blank" rel="noopener noreferrer">${esc(i.news.title)}</a> <span class="src">${esc(i.news.source || '')} · ${esc(ago(i.news.time))}</span></p>` : ''}
           ${(i.notes || []).map((x) => `<p class="src">${esc(dateLabel(x.d))} · ${esc(x.src)}: ${esc(x.txt)}</p>`).join('')}
           ${(i.warns || []).map((w) => `<p class="warn">⚠ ${esc(w)}</p>`).join('')}
+          ${finOf(i.t) ? `<p class="warn">⚠ Dilution: ${esc(finWord(finOf(i.t)))} in the last 90 days (latest ${esc(dateLabel(finOf(i.t).last))})</p>` : ''}
           <div class="acts">${s ? `<button type="button" class="btn" data-open="${esc(i.t)}">Chart, news and details</button>` : ''}${myButton(i.t)}</div>
         </div></div>`;
     }).join('') + (IDEAS.more ? `<p class="src pad" style="margin:8px 0 0">${IDEAS.more} more fired a weaker signal; see the Scanner.</p>` : '');
@@ -1239,17 +1358,17 @@ function renderDash() {
   $('dMorn').innerHTML = M.length ? `<div class="pad" style="padding-bottom:4px"><div class="src">${esc(dayLabel(M[0].date || M[0].id))} · ${esc(M[0].headline || '')}</div><p class="note-text" style="max-height:220px;overflow:auto">${esc(M[0].text || '')}</p></div><button type="button" class="lnk" data-go="rep">All notes</button>`
     : '<div class="empty" style="padding:0 16px 16px">The pre-market note arrives weekdays at about 6:55am.</div>';
   // side: picks
-  const pickAdd = (t) => {
+  const pickAdd = (t, n) => {
     if (!/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(String(t || ''))) return '';
     if (onMy(t)) return ' <span class="chip good" title="On my list">★</span>';
-    return apiState === 'ok' ? ` <button type="button" class="btn" style="padding:4px 9px" data-my="add" data-t="${esc(t)}" aria-label="Add ${esc(t)} to my list">☆ Add</button>` : '';
+    return apiState === 'ok' ? ` <button type="button" class="btn" style="padding:4px 9px" data-my="add" data-t="${esc(t)}" data-n="${esc(n || '')}" aria-label="Add ${esc(t)} to my list">☆ Add</button>` : '';
   };
   const W = (TERM && TERM.weeks) || [];
   const P = W.length ? (W[0].picks || []).slice().sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99)) : [];
   $('dPicks').innerHTML = P.length ? `<div class="src" style="padding:0 16px 4px">Week of ${esc(dateLabel(W[0].date || W[0].id))}</div>` + P.slice(0, 5).map((p) => {
     const s = stockOf(p.ticker);
-    return `<div class="mini"${s ? ` data-open="${esc(p.ticker)}" style="cursor:pointer"` : ''}><span class="l"><strong>${esc(p.ticker)}</strong><small>${esc(p.name)}</small></span><span class="r"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong' : 'Watch'}</span>${s ? ` <span class="${cls(dayChange(s))}">${fmtPct(dayChange(s))}</span>` : ''}${pickAdd(p.ticker)}</span></div>`;
-  }).join('') + '<button type="button" class="lnk" data-go="rep">Full picks with red-flag checks</button>'
+    return `<div class="mini"${s ? ` data-open="${esc(p.ticker)}" style="cursor:pointer"` : ''}><span class="l"><strong>${esc(p.ticker)}</strong>${finOf(p.ticker) ? `<span class="tag warn" title="${esc(finWord(finOf(p.ticker)))} in 90 days: possible dilution">⚠</span>` : ''}<small>${esc(p.name)}</small></span><span class="r"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong' : 'Watch'}</span>${s ? ` <span class="${cls(dayChange(s))}">${fmtPct(dayChange(s))}</span>` : ''}${pickAdd(p.ticker, p.name)}</span></div>`;
+  }).join('') + pickSummaryLine() + '<button type="button" class="lnk" data-go="rep">Full picks with red-flag checks</button>'
     : `<div class="empty" style="padding:0 16px 16px">${TERM ? 'The Sunday shortlist arrives Sundays at 5:50pm.' : 'Appears once your server loads the terminal\'s backup.'}</div>`;
   // side: rising
   const R = DATA.stocks.filter(isRising).sort((a, b) => (b.pd ?? 0) - (a.pd ?? 0));
@@ -1302,7 +1421,7 @@ function showView(v) {
 $('views').addEventListener('click', (e) => { const b = e.target.closest('button[data-v]'); if (b) showView(b.dataset.v); });
 
 function renderTerminalViews() {
-  renderMy(); renderTrk(); renderMorn(); renderWeeks(); renderMemes(); renderPaper(); renderDash();
+  renderMy(); renderPicks(); renderTrk(); renderMorn(); renderWeeks(); renderMemes(); renderPaper(); renderDash();
   $('termNote').textContent = TERM && TERM.copied
     ? 'Track record, reports, meme reviews and paper account are copied from your trading terminal; last copy ' + ago(TERM.copied) + '.'
     : 'Track record, reports, meme reviews and paper account appear once your server loads the terminal\'s backup.';

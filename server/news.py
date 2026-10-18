@@ -9,6 +9,11 @@ Venture companies. Writes one small file per stock: $WEB_DIR/news/<TICKER>.json
     python3 news.py --all    # every tracked stock (morning run, ~10 minutes)
     python3 news.py --hot    # today's rising, flagged and breakout stocks (every 30 min)
     python3 news.py LVG.V PNG.V
+
+Every headline fetched also goes through financings.record(), which keeps share sales
+(private placements, offerings) for the dilution warning. The morning --all run also
+searches Google News for recent financings of the stocks that matter most (my list,
+weekly picks, today's flagged stocks and ideas).
 """
 import argparse
 import datetime as dt
@@ -26,6 +31,8 @@ from pathlib import Path
 
 import psycopg2
 import yfinance as yf
+
+import financings
 
 KEEP = 8                 # headlines per stock
 MAX_AGE_DAYS = 90
@@ -68,12 +75,12 @@ def clean_name(name):
     return re.sub(r"[^\w&' -]", " ", n).strip()
 
 
-def from_google(name):
+def from_google(name, extra="", days=MAX_AGE_DAYS):
     q = clean_name(name)
     if len(q) < 3:
         return []
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-        {"q": f'"{q}" when:{MAX_AGE_DAYS}d', "hl": "en-CA", "gl": "CA", "ceid": "CA:en"})
+        {"q": f'"{q}"{(" " + extra) if extra else ""} when:{days}d', "hl": "en-CA", "gl": "CA", "ceid": "CA:en"})
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         root = ET.fromstring(urllib.request.urlopen(req, timeout=15).read())
@@ -97,10 +104,16 @@ def from_google(name):
     return items
 
 
-def news_for(ticker, name):
+def news_for(ticker, name, conn=None):
     items = from_yahoo(ticker)
     if len(items) < 3:
         items += from_google(name)
+    if conn is not None:  # dilution warning: keep any share-sale headlines, even ones trimmed below
+        try:
+            financings.record(conn, ticker, name, items)
+        except Exception as e:
+            conn.rollback()
+            print(f"{ticker}: financing check failed: {e}", file=sys.stderr)
     cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=MAX_AGE_DAYS)
     seen, out = set(), []
     for it in sorted(items, key=lambda x: x["time"] or "", reverse=True):
@@ -137,6 +150,30 @@ def pick(conn, mode, wanted):
     return {t: names.get(t, t) for t in hot if t in names}
 
 
+def key_stocks(conn, names):
+    """My list, recent weekly picks, today's flagged/breakout stocks and ideas: worth a deeper financing search."""
+    want = set()
+    with conn.cursor() as cur:
+        for sql in ("SELECT ticker FROM my_list",
+                    "SELECT p->>'ticker' FROM terminal_backup, jsonb_array_elements(data->'picks') p "
+                    "WHERE collection = 'weeks' AND COALESCE(data->>'date', doc_id) >= to_char(CURRENT_DATE - 60, 'YYYY-MM-DD')"):
+            try:
+                cur.execute(sql)
+                want |= {r[0] for r in cur.fetchall() if r[0]}
+            except Exception:
+                conn.rollback()
+    try:
+        L = json.loads((Path.home() / "stocks-feed" / "latest.json").read_text())
+        want |= {x["ticker"] for k in ("flagged", "breakouts") for x in L.get(k) or []}
+        I = json.loads((Path.home() / "stocks-feed" / "ideas.json").read_text())
+        for m in (I.get("markets") or I).values() if isinstance(I, dict) else []:
+            if isinstance(m, dict):
+                want |= {i.get("t") for i in m.get("ideas") or [] if isinstance(i, dict)}
+    except Exception:
+        pass
+    return {t: names[t] for t in want if t in names}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true")
@@ -147,20 +184,33 @@ def main() -> int:
 
     conn = psycopg2.connect()
     try:
+        financings.ensure(conn)
         todo = pick(conn, mode, args.tickers)
+
+        OUT.mkdir(parents=True, exist_ok=True)
+        now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
+        found = 0
+        for t, name in sorted(todo.items()):
+            items = news_for(t, name, conn)
+            found += bool(items)
+            (OUT / f"{t}.json").write_text(json.dumps({"ticker": t, "name": name, "fetched": now, "items": items},
+                                                      separators=(",", ":")))
+            time.sleep(0.6)  # be gentle with Yahoo and Google
+        print(f"News updated for {len(todo)} stocks ({found} with recent headlines).")
+
+        if mode == "all":  # once a day: look back 6 months for share sales by the stocks that matter most
+            with conn.cursor() as cur:
+                cur.execute("SELECT ticker, COALESCE(name, ticker) FROM watchlist WHERE active")
+                names = dict(cur.fetchall())
+            keys = key_stocks(conn, names)
+            new = 0
+            for t, name in sorted(keys.items()):
+                hits = from_google(name, "(\"private placement\" OR financing OR offering)", 180)
+                new += financings.record(conn, t, name, hits)
+                time.sleep(0.6)
+            print(f"Financing search for {len(keys)} key stocks: {new} new financing headline(s).")
     finally:
         conn.close()
-
-    OUT.mkdir(parents=True, exist_ok=True)
-    now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
-    found = 0
-    for t, name in sorted(todo.items()):
-        items = news_for(t, name)
-        found += bool(items)
-        (OUT / f"{t}.json").write_text(json.dumps({"ticker": t, "name": name, "fetched": now, "items": items},
-                                                  separators=(",", ":")))
-        time.sleep(0.6)  # be gentle with Yahoo and Google
-    print(f"News updated for {len(todo)} stocks ({found} with recent headlines).")
     return 0
 
 

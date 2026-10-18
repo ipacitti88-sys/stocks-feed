@@ -3,7 +3,7 @@
 Intraday scan: live (~15 min delayed) prices for the whole watchlist while the
 market is open, flags stocks that are RISING, and refreshes the dashboard.
 
-Cron runs it every 30 minutes on weekdays; outside market hours it exits
+Cron runs it every 5 minutes on weekdays; outside market hours it exits
 immediately, so the schedule doesn't need to know your time zone.
 
     python3 intraday.py          # normal run (skips if market is closed)
@@ -254,6 +254,18 @@ def main() -> int:
     rising.sort(key=lambda x: -x[1])
     print(f"{now_et:%Y-%m-%d %H:%M} ET: {len(rows)} quotes, {len(rising)} rising"
           + "".join(f"\n  {t:10} +{p}%  pace {v}x" for t, p, v in rising))
+
+    # phone alerts: buy / stop-loss levels and my-list stocks starting to rise (see live_alerts.py)
+    try:
+        import live_alerts
+        conn = psycopg2.connect()
+        try:
+            for a in live_alerts.check(conn, now_et.date()):
+                print("  alert: " + live_alerts.line(a))
+        finally:
+            conn.close()
+    except Exception as e:
+        print(f"live alerts failed: {e}", file=sys.stderr)
 
     import dashboard
     rc = dashboard.main()

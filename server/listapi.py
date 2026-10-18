@@ -5,7 +5,8 @@ Tiny local service that lets the webpage add stocks to, and remove them from, "m
 network and Tailscale only; nothing on the internet can reach it.
 
     GET  /mylist                                  -> current list + changes waiting for the terminal
-    POST /mylist {"ticker": "LVG.V", "action": "add" | "remove"}
+    POST /mylist {"ticker": "LVG.V", "action": "add" | "remove", "name": optional}
+    POST /mylist {"ticker": "LVG.V", "action": "alert", "buy": 0.34, "stop": 0.28}   (0 clears a level)
 
 Each change is saved to the list_changes table and published to the stocks-feed repo
 straight away; the terminal applies it at its next sync (see mylist.py).
@@ -87,7 +88,10 @@ class Handler(BaseHTTPRequestHandler):
         try:
             conn = psycopg2.connect()
             try:
-                ok, msg = mylist.change(conn, req.get("ticker"), req.get("action"))
+                if not isinstance(req, dict):
+                    return self.reply(400, {"error": "bad request"})
+                ok, msg = mylist.change(conn, req.get("ticker"), req.get("action"), req.get("name"),
+                                        req.get("buy"), req.get("stop"))
                 st = mylist.state(conn)
             finally:
                 conn.close()

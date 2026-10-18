@@ -126,6 +126,73 @@ def terminal_records(cur):
     return out
 
 
+PICK_HORIZONS = (5, 10, 20)  # trading days held: about 1, 2 and 4 weeks
+
+
+def picks_scorecard(conn) -> dict | None:
+    """How every weekly pick did: bought at the open of the first trading day after the
+    Sunday shortlist, then the close 5, 10 and 20 trading days in (and the latest close),
+    next to the market index over the same days (TSX Venture for .V, TSX for .TO)."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT to_regclass('terminal_backup') IS NOT NULL")
+        if not cur.fetchone()[0]:
+            return None
+        cur.execute("SELECT DISTINCT ON (doc_id) doc_id, data FROM terminal_backup WHERE collection = 'weeks' "
+                    "ORDER BY doc_id, (source = 'terminal') DESC")
+        weeks = [(i, d if isinstance(d, dict) else json.loads(d)) for i, d in cur.fetchall()]
+        picks = []
+        for wid, w in weeks:
+            day = str(w.get("date") or wid)[:10]
+            try:
+                dt.date.fromisoformat(day)
+            except ValueError:
+                continue
+            seen = set()
+            for p in w.get("picks") or []:
+                t = str((p or {}).get("ticker") or "").strip().upper()
+                if not t or t in seen or not t.split(".")[-1] in ("V", "TO", "CN", "NE"):
+                    continue
+                seen.add(t)
+                picks.append({"w": day, "t": t, "n": str(p.get("name") or t)[:80],
+                              "r": "strong" if p.get("rating") == "strong" else "watch", "rank": p.get("rank")})
+        if not picks:
+            return {"rows": [], "asOf": None}
+        first = min(p["w"] for p in picks)
+        tickers = sorted({p["t"] for p in picks} | {"^SPCDNX", "^GSPTSE"})
+        cur.execute("SELECT ticker, trade_date, open, close FROM daily_prices WHERE ticker = ANY(%s) "
+                    "AND trade_date > %s ORDER BY ticker, trade_date", (tickers, first))
+        px = {}
+        for t, d, o, c in cur.fetchall():
+            if c is None:
+                continue
+            px.setdefault(t, []).append((d.isoformat(), num(o) or num(c), num(c)))
+
+    def path(t, after):
+        """[(date, open, close)] from the first trading day after `after`."""
+        return [r for r in px.get(t, []) if r[0] > after]
+
+    rows, as_of = [], None
+    for p in picks:
+        s = path(p["t"], p["w"])
+        ix = path("^GSPTSE" if p["t"].endswith(".TO") else "^SPCDNX", p["w"])
+        row = dict(p, e=None, ed=None, days=0)
+        if s:
+            e = s[0][1]
+            row.update(e=round(e, 4), ed=s[0][0], days=len(s), last=round(s[-1][2] / e - 1, 4))
+            ixe = ix[0][1] if ix and ix[0][0] == s[0][0] else None
+            if ixe:
+                row["ixl"] = round(ix[min(len(s), len(ix)) - 1][2] / ixe - 1, 4)
+            for h in PICK_HORIZONS:
+                if len(s) >= h:
+                    row[f"h{h}"] = round(s[h - 1][2] / e - 1, 4)
+                    if ixe and len(ix) >= h:
+                        row[f"x{h}"] = round(ix[h - 1][2] / ixe - 1, 4)
+            as_of = max(as_of or s[-1][0], s[-1][0])
+        rows.append(row)
+    rows.sort(key=lambda r: (r["w"], -(r["rank"] if isinstance(r["rank"], (int, float)) else 99)), reverse=True)
+    return {"rows": rows, "asOf": as_of, "horizons": list(PICK_HORIZONS)}
+
+
 def main() -> int:
     conn = psycopg2.connect()
     try:
@@ -150,6 +217,34 @@ def main() -> int:
             print(f"ideas unavailable: {e}", file=sys.stderr)
             conn.rollback()
             ideas = {}
+        try:  # Track record tab: how the Sunday picks did
+            picks = picks_scorecard(conn)
+        except Exception as e:
+            print(f"picks scorecard unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            picks = None
+        try:  # dilution warning: recent share sales found in the news (see financings.py)
+            import financings
+            fin = financings.summary(conn)
+        except Exception as e:
+            print(f"financings unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            fin = {}
+        try:  # phone alerts sent today (see live_alerts.py)
+            with conn.cursor() as cur:
+                cur.execute("SELECT to_regclass('live_alerts') IS NOT NULL")
+                live_al = []
+                if cur.fetchone()[0]:
+                    cur.execute("SELECT ticker, kind, level, price, at, sent FROM live_alerts "
+                                "WHERE trade_date >= CURRENT_DATE - 7 ORDER BY at DESC LIMIT 40")
+                    live_al = [{"t": t, "k": k, "lvl": num(l), "p": num(p), "at": iso(a), "sent": s}
+                               for t, k, l, p, a, s in cur.fetchall()]
+            import notify
+            live_al = {"on": notify.enabled(), "list": live_al}
+        except Exception as e:
+            print(f"live alerts unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            live_al = None
         try:
             import benchmarks
             bench = benchmarks.summary(conn)
@@ -238,6 +333,9 @@ def main() -> int:
             "term": term,
             "allPx": {s["t"]: [s.get("lp") if s.get("lp") is not None else s["c"], s["c"], s["n"]] for s in stocks},
             "listApiPort": int(os.environ.get("LIST_API_PORT", "8081")),
+            "picks": picks,
+            "fin": fin,
+            "liveAlerts": live_al,
         }
         nav = '<nav class="mkt">' + "".join(
             f'<a href="{pg}"{" class=on" if k == key else ""}>{lb}</a>' for k, lb, pg, _ in MARKETS) + "</nav>"
