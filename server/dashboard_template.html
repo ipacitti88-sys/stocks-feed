@@ -1028,7 +1028,7 @@ function renderWeeks() {
     (picks.length ? picks.map((p) => `<div class="item"><div class="top"><span><strong>${p.rank ? esc(p.rank) + '. ' : ''}${esc(p.ticker)}</strong> <span class="src">${esc(p.name)}</span></span><span>${p.price ? 'C$' + esc(p.price) : ''}</span></div>
       <div style="margin-top:4px"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong candidate' : 'Watch'}</span></div>
       ${[['Catalyst', p.catalyst], ['Red flags', p.redFlags], ['Verdict', p.verdict]].filter((r) => r[1]).map((r) => `<p><span class="k">${r[0]}</span>${esc(r[1])}</p>`).join('')}
-      ${stockOf(p.ticker) || onMy(p.ticker) ? `<div style="margin-top:8px">${myButton(p.ticker)}</div>` : ''}</div>`).join('')
+      ${/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(String(p.ticker || '')) && (apiState === 'ok' || onMy(p.ticker)) ? `<div style="margin-top:8px">${myButton(p.ticker)}</div>` : ''}</div>`).join('')
       : '<div class="empty" style="padding:12px 16px">No names passed the red-flag check this week.</div>') +
     (rj.length ? `<div class="subh">Rejected</div>${rj.map((r) => `<div class="item" style="padding-top:6px;padding-bottom:6px"><strong class="neg">${esc(r.ticker)}</strong> <span class="src">${esc(r.reason)}</span></div>`).join('')}` : '') +
     (src.length ? `<div class="subh">Sources</div><ol class="src" style="margin:0 16px 16px;padding-left:18px">${src.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a></li>`).join('')}</ol>` : '');
@@ -1239,11 +1239,16 @@ function renderDash() {
   $('dMorn').innerHTML = M.length ? `<div class="pad" style="padding-bottom:4px"><div class="src">${esc(dayLabel(M[0].date || M[0].id))} · ${esc(M[0].headline || '')}</div><p class="note-text" style="max-height:220px;overflow:auto">${esc(M[0].text || '')}</p></div><button type="button" class="lnk" data-go="rep">All notes</button>`
     : '<div class="empty" style="padding:0 16px 16px">The pre-market note arrives weekdays at about 6:55am.</div>';
   // side: picks
+  const pickAdd = (t) => {
+    if (!/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(String(t || ''))) return '';
+    if (onMy(t)) return ' <span class="chip good" title="On my list">★</span>';
+    return apiState === 'ok' ? ` <button type="button" class="btn" style="padding:4px 9px" data-my="add" data-t="${esc(t)}" aria-label="Add ${esc(t)} to my list">☆ Add</button>` : '';
+  };
   const W = (TERM && TERM.weeks) || [];
   const P = W.length ? (W[0].picks || []).slice().sort((a, b) => (a.rank ?? 99) - (b.rank ?? 99)) : [];
   $('dPicks').innerHTML = P.length ? `<div class="src" style="padding:0 16px 4px">Week of ${esc(dateLabel(W[0].date || W[0].id))}</div>` + P.slice(0, 5).map((p) => {
     const s = stockOf(p.ticker);
-    return `<div class="mini"${s ? ` data-open="${esc(p.ticker)}" style="cursor:pointer"` : ''}><span class="l"><strong>${esc(p.ticker)}</strong><small>${esc(p.name)}</small></span><span class="r"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong' : 'Watch'}</span>${s ? ` <span class="${cls(dayChange(s))}">${fmtPct(dayChange(s))}</span>` : ''}</span></div>`;
+    return `<div class="mini"${s ? ` data-open="${esc(p.ticker)}" style="cursor:pointer"` : ''}><span class="l"><strong>${esc(p.ticker)}</strong><small>${esc(p.name)}</small></span><span class="r"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong' : 'Watch'}</span>${s ? ` <span class="${cls(dayChange(s))}">${fmtPct(dayChange(s))}</span>` : ''}${pickAdd(p.ticker)}</span></div>`;
   }).join('') + '<button type="button" class="lnk" data-go="rep">Full picks with red-flag checks</button>'
     : `<div class="empty" style="padding:0 16px 16px">${TERM ? 'The Sunday shortlist arrives Sundays at 5:50pm.' : 'Appears once your server loads the terminal\'s backup.'}</div>`;
   // side: rising
