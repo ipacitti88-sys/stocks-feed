@@ -15,6 +15,15 @@ For every signal:
 The Rising signal is replayed from saved 5-minute bars (bars_5m) once there
 are enough days of them; see intraday_archive.py.
 
+Two extra studies, on the same trades:
+  - costs: the same best exits again, but paying each stock's ESTIMATED spread at the
+    time (costs.py) instead of one price step, and split by how costly the stock was
+    to trade (round trip under 2%, 2-5%, over 5%)
+  - stops: every signal held up to 20 days with no stop, fixed stops (10-25%),
+    trailing stops (15-25% below the highest close) and stops set by the stock's own
+    typical daily move (2x or 3x its 14-day average true range). Stops are checked
+    on closing prices and paid at that close, with estimated spreads.
+
     python3 signal_lab.py               # TSX Venture: writes signal_lab.json to stocks-feed
     python3 signal_lab.py --market tsx  # TSX: writes signal_lab_tsx.json
     python3 signal_lab.py --no-push    # just print
@@ -28,6 +37,8 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 import psycopg2
+
+import costs
 
 MIN_LIQ = 50_000
 MIN_PRICE, MAX_PRICE = 0.10, 5.00
@@ -114,6 +125,8 @@ def add_indicators(df):
     df["entry"] = df["entry"].where(df["entry"] > 0, g["close"].shift(-1))
     for k in range(1, max(HOLDS) + 1):
         df[f"f{k}"] = g["close"].shift(-k)
+    costs.add_spread(df)   # "spr": estimated spread known at that day's close
+    costs.add_atr(df)      # "atrp": 14-day average true range, fraction of the close
     return df
 
 
@@ -148,8 +161,9 @@ def dedupe(df, mask):
     return out
 
 
-def simulate(entry, path, hold, stop, target):
-    """Net return per trade. path: closes after entry day, first column = entry day's close."""
+def simulate(entry, path, hold, stop, target, cost=None):
+    """Net return per trade. path: closes after entry day, first column = entry day's close.
+    cost: per-trade spread (fraction); default one price step."""
     p = path[:, :hold]
     ok = ~np.isnan(p[:, -1]) & (entry > 0)
     entry, p = entry[ok], p[ok]
@@ -160,8 +174,104 @@ def simulate(entry, path, hold, stop, target):
     if target:
         hit |= rel >= target
     first = np.where(hit.any(1), hit.argmax(1), hold - 1)
-    r = rel[np.arange(len(rel)), first] - tick(entry) / entry - FEE
+    spread = tick(entry) / entry if cost is None else np.maximum(cost[ok], tick(entry) / entry)
+    r = rel[np.arange(len(rel)), first] - spread - FEE
     return ok, r
+
+
+# ---------- stop-loss study ----------
+STOP_HOLD = 20
+STOP_RULES = [("none", 0, "No stop (hold 20 days)"),
+              ("fixed", 0.10, "10% stop"), ("fixed", 0.15, "15% stop"), ("fixed", 0.20, "20% stop"), ("fixed", 0.25, "25% stop"),
+              ("trail", 0.15, "Trailing 15%"), ("trail", 0.20, "Trailing 20%"), ("trail", 0.25, "Trailing 25%"),
+              ("atr", 2.0, "2x daily move"), ("atr", 3.0, "3x daily move")]
+
+
+def simulate_stop(entry, path, kind, param, atrp, cost):
+    """Hold up to STOP_HOLD days with one stop rule (on closes). Returns ok, net returns, stopped flags."""
+    p = path[:, :STOP_HOLD]
+    ok = ~np.isnan(p[:, -1]) & (entry > 0)
+    e, p, a, c = entry[ok], p[ok], atrp[ok], cost[ok]
+    rel = p / e[:, None] - 1
+    if kind == "fixed":
+        hit = rel <= -param
+    elif kind == "trail":
+        peak = np.maximum.accumulate(np.maximum(p, e[:, None]), axis=1)
+        hit = p <= peak * (1 - param)
+    elif kind == "atr":
+        lvl = -np.clip(np.nan_to_num(a, nan=0.05) * param, 0.03, 0.60)
+        hit = rel <= lvl[:, None]
+    else:
+        hit = np.zeros_like(rel, bool)
+    stopped = hit.any(1)
+    first = np.where(stopped, hit.argmax(1), STOP_HOLD - 1)
+    r = rel[np.arange(len(rel)), first] - np.maximum(c, tick(e) / e) - FEE
+    return ok, r, stopped
+
+
+def stop_stats(r, stopped):
+    if len(r) < 1:
+        return None
+    return {"n": int(len(r)), "avg": round(float(r.mean()) * 100, 2), "won": round(float((r > 0).mean()) * 100),
+            "median": round(float(np.median(r)) * 100, 2), "p10": round(float(np.percentile(r, 10)) * 100, 2),
+            "stopped": round(float(stopped.mean()) * 100)}
+
+
+def run_stops(df, start, until, sels):
+    """Every stop rule on every signal's trades, per price band. sels: {signal key: row mask}."""
+    entry = df["entry"].to_numpy(float)
+    paths = df[[f"f{k}" for k in range(1, STOP_HOLD + 1)]].to_numpy(float)
+    atrp, spr, close = df["atrp"].to_numpy(float), df["spr"].to_numpy(float), df["close"].to_numpy(float)
+    bands = {"all": np.ones(len(df), bool), "p50": close >= 0.5, "sub50": close < 0.5}
+    out = {"hold": STOP_HOLD, "rules": [{"key": f"{k}{v:g}" if v else k, "label": l} for k, v, l in STOP_RULES],
+           "bands": {}}
+    for bk, bm in bands.items():
+        res = {}
+        pooled = np.zeros(len(df), bool)
+        for key, sel in sels.items():
+            pooled |= sel
+            res[key] = {}
+        res["_all"] = {}
+        for k, v, l in STOP_RULES:
+            rk = f"{k}{v:g}" if v else k
+            for key, sel in list(sels.items()) + [("_all", pooled)]:
+                m = sel & bm
+                ok, r, st = simulate_stop(entry[m], paths[m], k, v, atrp[m], spr[m])
+                res[key][rk] = stop_stats(r, st)
+        # best rule for all signals together: highest average, among rules with enough trades
+        cand = [(rk, x) for rk, x in res["_all"].items() if x and x["n"] >= 60]
+        best = max(cand, key=lambda kv: kv[1]["avg"])[0] if cand else None
+        atr = [(rk, x) for rk, x in cand if rk.startswith("atr")]
+        best_atr = max(atr, key=lambda kv: kv[1]["avg"])[0] if atr else None
+        out["bands"][bk] = {"results": res, "best": best,
+                            "best_atr": float(best_atr[3:]) if best_atr else None}
+    return out
+
+
+def run_costs(df, sels, results):
+    """Each signal's best exit again with estimated spreads, and by how costly the stock was to trade."""
+    entry = df["entry"].to_numpy(float)
+    paths = df[[f"f{k}" for k in range(1, max(HOLDS) + 1)]].to_numpy(float)
+    spr = df["spr"].to_numpy(float)
+    rt = np.maximum(spr, tick(df["close"].to_numpy(float)) / df["close"].to_numpy(float)) + FEE
+    tiers = [("low", rt < 0.02), ("medium", (rt >= 0.02) & (rt <= 0.05)), ("high", rt > 0.05)]
+    out = []
+    for res in results:
+        b = res["best"]
+        if "exit" not in b:
+            continue
+        h, st, tg = next((h, s_, t_) for h in HOLDS for s_ in STOPS for t_ in TARGETS if exit_label(h, s_, t_) == b["exit"])
+        sel = sels[res["key"]]
+        ok, r = simulate(entry[sel], paths[sel], h, st, tg, spr[sel])
+        row = {"key": res["key"], "exit": b["exit"], "avg_step": b["avg"], "avg_est": round(float(r.mean()) * 100, 2) if len(r) else None,
+               "won_est": round(float((r > 0).mean()) * 100) if len(r) else None, "n": int(len(r)),
+               "median_rt": round(float(np.median(rt[sel])) * 100, 1) if sel.any() else None}
+        for name, tm in tiers:
+            m = sel & tm
+            ok2, r2 = simulate(entry[m], paths[m], h, st, tg, spr[m])
+            row[name] = {"n": int(len(r2)), "avg": round(float(r2.mean()) * 100, 2) if len(r2) else None}
+        out.append(row)
+    return out
 
 
 def stats(r, halves):
@@ -225,9 +335,11 @@ def run_daily(df, start, until, lo=MIN_PRICE, hi=MAX_PRICE, min_dollar=None):
         base[exit_label(h, s, t)] = stats(r, second[sel][ok])
 
     results = []
+    run_daily.sels = {}
     latest_day = df.loc[df["date"] < until, "date"].max()
     for key, mask in signal_masks(df).items():
         sel = dedupe(df, mask & elig)
+        run_daily.sels[key] = sel
         rows = []
         for h, s, t in exits:
             ok, r = simulate(entry_all[sel], paths[sel], h, s, t)
@@ -384,6 +496,17 @@ def main() -> int:
         raw = raw[raw["ticker"].map(lambda t: benchmarks.in_market(t, args.market))].reset_index(drop=True)
         df = add_indicators(raw)
         results, base, mid, latest, today = run_daily(df, start, until)
+        sels = dict(run_daily.sels)
+        try:
+            stops = run_stops(df, start, until, sels)
+        except Exception as e:
+            print(f"stop study skipped: {e}", file=sys.stderr)
+            stops = None
+        try:
+            cost_check = run_costs(df, sels, results)
+        except Exception as e:
+            print(f"cost study skipped: {e}", file=sys.stderr)
+            cost_check = None
         old = run_daily(df, start, until, min_dollar="shares")[0]
         liquidity = [{"key": "shares50k", "label": "50,000+ shares a day (old rule)",
                       "stocks_per_day": round(run_daily.per_day), "signals": compact(old)}]
@@ -423,6 +546,7 @@ def main() -> int:
                    "Baseline = buying any liquid tracked stock that day with the same exit. "
                    "Half 1 / half 2 = the two halves of the period."),
         "baseline": base, "signals": results, "bands": bands, "liquidity": liquidity, "market": market, "rising": rising, "today": today,
+        "stops": stops, "costs": cost_check,
     }
 
     print(f"Signal lab, {M['label']}: {start} to {until} (halves split {mid})")
@@ -443,6 +567,18 @@ def main() -> int:
                 line += (f"  | best: {b['exit']}: avg {b['avg']:+.1f}%  halves {b['h1']:+.1f}% / {b['h2']:+.1f}%"
                          f"  vs baseline {b['edge']:+.1f}%")
             print(line)
+    if cost_check:
+        print(" With estimated spreads instead of one price step (best exit; low / medium / high cost stocks):")
+        for c in cost_check:
+            tiers = "  ".join(f"{k} {('-' if c[k]['avg'] is None else format(c[k]['avg'], '+.1f'))} (n={c[k]['n']})" for k in ("low", "medium", "high"))
+            print(f"  {c['key']:10} {c['avg_step']:+.1f}% -> {c['avg_est'] if c['avg_est'] is None else format(c['avg_est'], '+.1f')}%"
+                  f"  median round trip {c['median_rt']}%  | {tiers}")
+    if stops:
+        print(f" Stop-losses, all signals together, held up to {stops['hold']} days (avg per trade / % stopped out):")
+        for bk, b in stops["bands"].items():
+            cells = "  ".join(f"{r['label']}: {x['avg']:+.1f}%/{x['stopped']}%" for r in stops["rules"]
+                              for x in [b["results"]["_all"].get(r["key"])] if x)
+            print(f"  {bk:6} best {b['best']}: {cells}")
     if rising.get("status") == "ok":
         print(f"  Rising (5-minute replay, {rising['days']} days): {rising['signals']} signals")
         for e in rising["exits"]:

@@ -224,7 +224,8 @@ def lab_summary(L):
             b = (src or {}).get("best") or {}
             r[bk] = {"grade": b.get("grade"), "avg": b.get("avg"), "exit": b.get("exit"), "won": b.get("won")}
         rows.append(r)
-    return {"rows": rows, "from": L.get("from"), "until": L.get("until"), "market": L.get("market")}
+    return {"rows": rows, "from": L.get("from"), "until": L.get("until"), "market": L.get("market"),
+            "stops": L.get("stops"), "costs": L.get("costs")}
 
 
 def mkt_label(m):

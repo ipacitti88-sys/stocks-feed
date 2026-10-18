@@ -228,6 +228,10 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
 .alerts-box label { display: grid; gap: 3px; font-size: 11px; color: var(--text-2); }
 .alerts-box input { width: 104px; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text); font: inherit; font-size: 13px; }
 .fin-note { margin: 8px 0 0; font-size: 13px; color: var(--warn); }
+.cost-box { border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin: 10px 0 4px; font-size: 13px; }
+.cost-box .ttl { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-3); font-weight: 600; display: flex; gap: 8px; align-items: center; }
+.cost-box p { margin: 4px 0 0; }
+.best-row td { font-weight: 650; }
 .fin-note a { color: var(--text-2); }
 
 @media (max-width: 1050px) { .dgrid { grid-template-columns: minmax(0, 1fr); } }
@@ -289,6 +293,18 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
           <p class="lead" id="dLabLead"></p>
           <div class="tablewrap" style="max-height:none"><table class="plain lt0"><thead><tr><th>Signal</th><th>All prices</th><th>C$0.50 and up</th><th>Under C$0.50</th><th class="hide-sm">Next day only</th></tr></thead><tbody id="dLab"></tbody></table></div>
           <p class="src pad" id="dLabFoot" style="margin:10px 0 0"></p>
+        </div>
+        <div class="card section">
+          <h2>What trading costs do to the signals</h2>
+          <p class="lead" id="dCostLead"></p>
+          <div class="tablewrap" style="max-height:none"><table class="plain lt0"><thead><tr><th>Signal</th><th>1 price step</th><th>Estimated spreads</th><th>Cheap to trade</th><th class="hide-sm">Medium</th><th>Costly</th></tr></thead><tbody id="dCost"></tbody></table></div>
+          <p class="src pad" id="dCostFoot" style="margin:10px 0 0"></p>
+        </div>
+        <div class="card section">
+          <h2>Which stop-loss works</h2>
+          <p class="lead" id="dStopLead"></p>
+          <div class="tablewrap" style="max-height:none"><table class="plain lt0"><thead><tr><th>Stop</th><th>All prices</th><th>C$0.50 and up</th><th>Under C$0.50</th></tr></thead><tbody id="dStop"></tbody></table></div>
+          <p class="src pad" id="dStopFoot" style="margin:10px 0 0"></p>
         </div>
       </div>
       <div class="dside">
@@ -574,7 +590,7 @@ function renderTable() {
   });
   $('rows').innerHTML = list.length ? list.map((s) => `
     <tr data-t="${esc(s.t)}" class="${s.t === current ? 'sel' : ''}">
-      <td><strong>${esc(s.t)}</strong>${onMy(s.t) ? '<span class="star" title="On my list">★</span>' : ''}${isRising(s) ? '<span class="tag up">▲ RISING</span>' : ''}${isNew(s) ? '<span class="tag">NEW</span>' : ''}${finTag(s.t)}<span class="nm">${esc(s.n)}</span></td>
+      <td><strong>${esc(s.t)}</strong>${onMy(s.t) ? '<span class="star" title="On my list">★</span>' : ''}${isRising(s) ? '<span class="tag up">▲ RISING</span>' : ''}${isNew(s) ? '<span class="tag">NEW</span>' : ''}${finTag(s.t)}${costTag(s.t)}<span class="nm">${esc(s.n)}</span></td>
       <td>${fmtPrice(s.px)}</td>
       <td class="live-col ${cls(s.pd)}">${fmtPct(s.pd)}</td>
       <td>${fmtX(s.rv)}</td>
@@ -631,6 +647,7 @@ function renderDetail(t) {
       </div></div>` : ''}
     <div class="signals">${sig(s.ma, 'Above 50-day avg')}${sig(s.vs, 'Volume spike')}${sig(s.nh, 'New 52-week high')}</div>
     ${finLine(s.t)}
+    ${costBox(s.t)}
     <div id="alBox"></div>
     <div class="stats">
       <div class="stat"><div class="l">Rel volume</div><div class="v">${fmtX(s.rv)}</div></div>
@@ -882,6 +899,22 @@ const money = (v) => v == null || isNaN(v) ? '–' : (v < 0 ? '−' : '') + 'C$'
 const dayLabel = (d) => { const x = new Date(String(d) + 'T12:00:00'); return isNaN(x) ? String(d || '') : x.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' }); };
 const safeUrl = (u) => /^https?:\/\//i.test(String(u || '')) ? u : null;
 const stockOf = (t) => DATA.stocks.find((x) => x.t === t);
+// trading cost: estimated spread, round trip, position size, suggested stop (costs.py)
+const COST = (DATA && DATA.cost) || {};
+const costOf = (t) => COST[t] || null;
+const fmtK = (v) => v == null ? '–' : 'C$' + (v >= 1e6 ? (v / 1e6).toFixed(1) + 'M' : v >= 1e3 ? Math.round(v / 1e3) + 'k' : Math.round(v));
+const GRADE_CHIP = { low: ['good', 'Cheap to trade'], medium: ['warn', 'Medium cost'], high: ['bad', 'Costly to trade'] };
+const costTag = (t) => { const c = costOf(t); return c && c.grade === 'high' ? `<span class="tag warn" title="Estimated round trip ${pc(c.rt)}">COSTLY</span>` : ''; };
+const costShort = (t) => { const c = costOf(t); return c ? `Est. round trip ${pc(c.rt).replace('+', '')}; positions under ${fmtK(c.maxpos)} sell in about a day` : ''; };
+function costBox(t) {
+  const c = costOf(t); if (!c) return '';
+  const [gc, gl] = GRADE_CHIP[c.grade] || ['', ''];
+  return `<div class="cost-box"><div class="ttl">Trading cost <span class="chip ${gc}">${gl}</span></div>
+    <p>Buying and selling costs about <strong>${pc(c.rt).replace('+', '')}</strong>: an estimated spread of ${pc(c.spread).replace('+', '')} plus 0.5% for fees and slippage. A trade has to gain more than that just to break even.</p>
+    <p>Trades about ${fmtK(c.mdv)} a day (median of 20 days). Keep a position under <strong>${fmtK(c.maxpos)}</strong> to sell it in about a day without moving the price much.${c.quiet != null && c.quiet >= 0.3 ? ` No trades at all in ${Math.round(c.quiet * 100)}% of 5-minute stretches lately: orders can sit unfilled.` : ''}</p>
+    ${c.atr != null ? `<p class="src">Typical daily move ${pc(c.atr).replace('+', '')}.${c.stop ? ` Suggested stop-loss ${fmtPrice(c.stop)} (${c.stopK}× that move below the last close, the multiple that did best in the 10-year test).` : ''} Estimates from daily prices, not live quotes.</p>` : ''}</div>`;
+}
+
 // dilution warning: share sales found in the news (financings.py). n90 = separate raises in 90 days
 const FIN = (DATA && DATA.fin) || {};
 const finOf = (t) => { const f = FIN[t]; return f && f.n90 ? f : null; };
@@ -969,7 +1002,7 @@ function renderAlertBox(t) {
       <label>Buy at or below<input id="alBuy" type="number" inputmode="decimal" step="any" min="0" placeholder="–" value="${a && a.buy ? esc(a.buy) : ''}"></label>
       <label>Stop-loss<input id="alStop" type="number" inputmode="decimal" step="any" min="0" placeholder="–" value="${a && a.stop ? esc(a.stop) : ''}"></label>
       <button class="btn" type="submit">Save</button>${a ? '<button class="btn danger" type="button" id="alClear">Clear</button>' : ''}
-    </form><div class="src" style="margin-top:6px">${LIVE_NOTE}</div>`;
+    </form>${costOf(t) && costOf(t).stop ? `<div class="src" style="margin-top:6px">Suggested stop-loss for this stock: ${fmtPrice(costOf(t).stop)} <button type="button" class="lnk" style="padding:0" id="alUse">use it</button></div>` : ''}<div class="src" style="margin-top:6px">${LIVE_NOTE}</div>`;
   const save = (buy, stop) => setMy(t, 'alert', { buy, stop });
   $('alForm').addEventListener('submit', (e) => {
     e.preventDefault();
@@ -979,6 +1012,7 @@ function renderAlertBox(t) {
     save(isNaN(b) ? 0 : b, isNaN(st) ? 0 : st);
   });
   if ($('alClear')) $('alClear').addEventListener('click', (e) => { e.target.disabled = true; save(0, 0); });
+  if ($('alUse')) $('alUse').addEventListener('click', () => { $('alStop').value = costOf(t).stop; $('alStop').focus(); });
 }
 const LIVE_NOTE = DATA && DATA.liveAlerts && DATA.liveAlerts.on
   ? 'Your phone gets a notification when the price (about 15 min delayed) reaches a level during the day; the terminal also messages you at the close.'
@@ -996,7 +1030,7 @@ function renderMy() {
       : (MY.builtIn || []).includes(i.t) ? '<span class="src">built in</span>'
       : `<button type="button" class="btn danger" data-my="remove" data-t="${esc(i.t)}" aria-label="Remove ${esc(i.t)}"><span class="lg">Remove</span><span class="sm">✕</span></button>`;
     return `<tr data-row="${esc(i.t)}" class="${i.t === current ? 'sel' : ''}" style="${gone ? 'opacity:.55' : ''};cursor:${s ? 'pointer' : 'default'}">
-      <td><strong>${esc(i.t)}</strong>${finTag(i.t)}${i.pending ? ` <span class="pend">${i.pending === 'add' ? 'added here' : 'removing'}</span>` : ''}<span class="nm">${esc((s && s.n) || i.n)}</span></td>
+      <td><strong>${esc(i.t)}</strong>${finTag(i.t)}${costTag(i.t)}${i.pending ? ` <span class="pend">${i.pending === 'add' ? 'added here' : 'removing'}</span>` : ''}<span class="nm">${esc((s && s.n) || i.n)}</span></td>
       <td>${s ? fmtPrice(s.px) : '<span class="src">waiting for prices</span>'}</td>
       <td class="${cls(dayChange(s))}">${s ? fmtPct(dayChange(s)) : ''}</td>
       <td class="${cls(s && s.p20)}">${s ? fmtPct(s.p20) : ''}</td>
@@ -1135,7 +1169,7 @@ function renderWeeks() {
     (picks.length ? picks.map((p) => `<div class="item"><div class="top"><span><strong>${p.rank ? esc(p.rank) + '. ' : ''}${esc(p.ticker)}</strong>${finTag(p.ticker)} <span class="src">${esc(p.name)}</span></span><span>${p.price ? 'C$' + esc(p.price) : ''}</span></div>
       <div style="margin-top:4px"><span class="chip ${p.rating === 'strong' ? 'good' : 'warn'}">${p.rating === 'strong' ? 'Strong candidate' : 'Watch'}</span></div>
       ${[['Catalyst', p.catalyst], ['Red flags', p.redFlags], ['Verdict', p.verdict]].filter((r) => r[1]).map((r) => `<p><span class="k">${r[0]}</span>${esc(r[1])}</p>`).join('')}
-      ${finLine(p.ticker)}${pickResult(w, p.ticker)}
+      ${finLine(p.ticker)}${pickResult(w, p.ticker)}${costOf(p.ticker) ? `<p><span class="k">Cost</span>${esc(costShort(p.ticker))}</p>` : ''}
       ${/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(String(p.ticker || '')) && (apiState === 'ok' || onMy(p.ticker)) ? `<div style="margin-top:8px">${myButton(p.ticker, p.name)}</div>` : ''}</div>`).join('')
       : '<div class="empty" style="padding:12px 16px">No names passed the red-flag check this week.</div>') +
     (rj.length ? `<div class="subh">Rejected</div>${rj.map((r) => `<div class="item" style="padding-top:6px;padding-bottom:6px"><strong class="neg">${esc(r.ticker)}</strong> <span class="src">${esc(r.reason)}</span></div>`).join('')}` : '') +
@@ -1333,6 +1367,10 @@ function renderDash() {
           ${(i.notes || []).map((x) => `<p class="src">${esc(dateLabel(x.d))} · ${esc(x.src)}: ${esc(x.txt)}</p>`).join('')}
           ${(i.warns || []).map((w) => `<p class="warn">⚠ ${esc(w)}</p>`).join('')}
           ${finOf(i.t) ? `<p class="warn">⚠ Dilution: ${esc(finWord(finOf(i.t)))} in the last 90 days (latest ${esc(dateLabel(finOf(i.t).last))})</p>` : ''}
+          ${(() => { const c = costOf(i.t), top = (i.signals || [])[0]; if (!c) return '';
+            const extra = (c.spread - (i.c < 0.5 ? 0.005 : 0.01) / i.c) * 100;  // spread beyond the one price step the test allowed
+            const net = top && top.avg != null ? top.avg - Math.max(extra, 0) : null;
+            return `<p class="src">${esc(costShort(i.t))}.</p>` + (net != null && top.avg > 0 && net <= 0 ? `<p class="warn">⚠ At this stock's estimated spread, ${esc(top.name)}'s average gain of ${fmtPct(top.avg)} would be gone</p>` : ''); })()}
           <div class="acts">${s ? `<button type="button" class="btn" data-open="${esc(i.t)}">Chart, news and details</button>` : ''}${myButton(i.t)}</div>
         </div></div>`;
     }).join('') + (IDEAS.more ? `<p class="src pad" style="margin:8px 0 0">${IDEAS.more} more fired a weaker signal; see the Scanner.</p>` : '');
@@ -1347,6 +1385,27 @@ function renderDash() {
   const rt = IDEAS && IDEAS.risingTest;
   $('dLabFoot').textContent = (lab ? 'Re-tested every Saturday; last run ' + ago(IDEAS.labGenerated) + '. ' : '') +
     (rt && rt.status === 'ok' && rt.exits && rt.exits[0] ? `Rising (intraday) over ${rt.days} days: ${fmtPct(rt.exits[0].avg)} a trade selling at the close, across ${rt.signals} signals.` : '');
+
+  // trading costs vs the signals
+  const CC = lab && lab.costs;
+  const nm = (k) => ((lab && lab.rows) || []).find((r) => r.key === k);
+  $('dCostLead').textContent = 'The test above charges one price step of spread plus 0.5% per trade. Real spreads on small stocks are often wider. Here each signal\'s best exit is re-run with every stock\'s estimated spread at the time, then split by how costly the stock was to trade (round trip under 2%, 2 to 5%, over 5%). Average per trade after costs.';
+  const cell = (x) => !x || x.avg == null ? '<td class="src">–</td>' : `<td class="${cls(x.avg)}">${fmtPct(x.avg)}${x.n != null ? `<small>${x.n} trades</small>` : ''}</td>`;
+  $('dCost').innerHTML = CC && CC.length ? CC.map((c) => `<tr><td><strong>${esc((nm(c.key) || {}).name || c.key)}</strong><small>${esc(c.exit)}</small></td><td class="${cls(c.avg_step)}">${fmtPct(c.avg_step)}</td>${cell({ avg: c.avg_est, n: c.n })}${cell(c.low)}<td class="hide-sm ${cls(c.medium && c.medium.avg)}">${c.medium && c.medium.avg != null ? fmtPct(c.medium.avg) : '–'}</td>${cell(c.high)}</tr>`).join('')
+    : '<tr><td colspan="6" class="empty" style="padding:16px;text-align:left">Appears after the next signal lab run on your server (Saturdays).</td></tr>';
+  const allC = Object.values(COST).filter((c) => c && c.rt != null);
+  const nHigh = allC.filter((c) => c.grade === 'high').length;
+  $('dCostFoot').textContent = allC.length ? `Today: ${allC.filter((c) => c.grade === 'low').length} of your tracked stocks are cheap to trade, ${allC.filter((c) => c.grade === 'medium').length} medium and ${nHigh} costly (over 5% round trip, tagged COSTLY in the Scanner). Each stock's page shows its own estimate.` : '';
+
+  // stop-losses
+  const ST = lab && lab.stops;
+  $('dStopLead').textContent = ST ? `Every signal's trades held up to ${ST.hold} trading days with each stop rule, checked on closing prices and paying estimated spreads. Average per trade, and how often the stop was hit. "Daily move" stops are set from each stock's own 14-day average range, so a jumpy stock gets more room.` : '';
+  $('dStop').innerHTML = ST ? ST.rules.map((r) => {
+    const td = (bk) => { const B = ST.bands[bk]; const x = B && B.results && B.results._all && B.results._all[r.key];
+      return x ? `<td class="${cls(x.avg)}" style="${B.best === r.key ? 'font-weight:700' : ''}">${fmtPct(x.avg)}${B.best === r.key ? ' ✓' : ''}<small>${r.key === 'none' ? 'worst 10%: ' + fmtPct(x.p10) : x.stopped + '% stopped'}</small></td>` : '<td class="src">–</td>'; };
+    return `<tr><td><strong>${esc(r.label)}</strong></td>${td('all')}${td('p50')}${td('sub50')}</tr>`;
+  }).join('') : '<tr><td colspan="4" class="empty" style="padding:16px;text-align:left">Appears after the next signal lab run on your server (Saturdays).</td></tr>';
+  $('dStopFoot').textContent = ST ? '✓ = best average for that price range. A stop that rarely helps the average can still cap a disaster: compare the worst 10% of trades with no stop. Real stops can fill worse than the close after a gap down.' : '';
 
   // side: my list movers
   const mine = (MY.items || []).filter((i) => i.pending !== 'remove' && inMkt(i.t)).map((i) => ({ i, s: stockOf(i.t) })).filter((x) => x.s)

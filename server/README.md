@@ -57,6 +57,17 @@ The Track record tab scores every Sunday pick: bought at the open of the next tr
     ./venv/bin/python financings.py          # stocks that raised money in the last 90 days
     ./venv/bin/python financings.py LVG.V
 
+## Trading costs and stop-losses
+
+`costs.py` estimates what each stock really costs to trade. Yahoo has no bid/ask, so the spread is estimated from 60 days of daily highs, lows and closes (the Abdi-Ranaldo method), never below one price step. Each stock's page shows the round trip (spread + 0.5%), the median dollars traded a day, a position size you could sell in about a day (10% of that), how often it goes 5 minutes without a trade, and a COSTLY tag in the Scanner and My list when the round trip is over 5%.
+
+The signal lab (Saturdays) now also:
+- re-runs each signal's best exit paying every stock's estimated spread at the time, split by cheap (under 2% round trip), medium and costly stocks: Dashboard, "What trading costs do to the signals";
+- tests stop-losses on every signal's trades held up to 20 days: none, fixed 10-25%, trailing 15-25%, and 2x or 3x the stock's own average daily move: Dashboard, "Which stop-loss works". The multiple of the daily move that did best for the stock's market and price range sets the suggested stop on each stock's page (one tap fills it into the alert).
+
+    ./venv/bin/python costs.py              # costliest and cheapest stocks to trade
+    ./venv/bin/python costs.py LVG.V
+
 ## Dashboard (webpage front page)
 
 `ideas.py` ranks the stocks that fired a buy signal at the last close by how that signal did in the signal lab for the stock's own market and price band (under / over C$0.50), then adjusts for news in the last 3 days and what the terminal's pre-market notes, weekly picks and meme reviews said. It runs inside `dashboard.py` and only recomputes when new daily prices or a new lab run arrive.

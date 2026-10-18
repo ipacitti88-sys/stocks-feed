@@ -193,6 +193,30 @@ def picks_scorecard(conn) -> dict | None:
     return {"rows": rows, "asOf": as_of, "horizons": list(PICK_HORIZONS)}
 
 
+def suggest_stops(cost: dict) -> dict:
+    """Add a suggested stop-loss to each stock: k x its typical daily move below the last close,
+    where k is the multiple that did best in the signal lab for its market and price band."""
+    try:
+        import ideas
+        lab = ideas.load_lab()
+    except Exception:
+        lab = {}
+    for t, v in cost.items():
+        px, atr = v.get("px"), v.get("atr")
+        if not px or not atr:
+            continue
+        L = lab.get("tsx" if t.endswith(".TO") else "tsxv") or {}
+        bands = ((L.get("stops") or {}).get("bands") or {})
+        b = bands.get("sub50" if px < 0.5 else "p50") or bands.get("all") or {}
+        k = b.get("best_atr") or 2.5
+        step = 0.005 if px < 0.5 else 0.01
+        lvl = max(px * (1 - min(max(k * atr, 0.03), 0.6)), step)
+        v["stop"] = round(int(lvl / step) * step, 3)
+        v["stopK"] = k
+        v["stopBest"] = b.get("best")
+    return cost
+
+
 def main() -> int:
     conn = psycopg2.connect()
     try:
@@ -230,6 +254,13 @@ def main() -> int:
             print(f"financings unavailable: {e}", file=sys.stderr)
             conn.rollback()
             fin = {}
+        try:  # trading cost, position size and a suggested stop for every stock (see costs.py)
+            import costs
+            cost = suggest_stops(costs.current(conn))
+        except Exception as e:
+            print(f"trading costs unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            cost = {}
         try:  # phone alerts sent today (see live_alerts.py)
             with conn.cursor() as cur:
                 cur.execute("SELECT to_regclass('live_alerts') IS NOT NULL")
@@ -335,6 +366,7 @@ def main() -> int:
             "listApiPort": int(os.environ.get("LIST_API_PORT", "8081")),
             "picks": picks,
             "fin": fin,
+            "cost": cost,
             "liveAlerts": live_al,
         }
         nav = '<nav class="mkt">' + "".join(
