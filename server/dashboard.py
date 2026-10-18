@@ -193,6 +193,34 @@ def picks_scorecard(conn) -> dict | None:
     return {"rows": rows, "asOf": as_of, "horizons": list(PICK_HORIZONS)}
 
 
+def scoreboard_cached(conn):
+    """The scoreboard only changes with new daily prices or new terminal records: cache it."""
+    import scoreboard
+    with conn.cursor() as cur:
+        cur.execute("SELECT MAX(trade_date), MAX(loaded_at)::date FROM daily_prices")
+        key = [str(x) for x in cur.fetchone()]
+        for sql in ("SELECT MAX(changed_at), COUNT(*) FROM terminal_backup", "SELECT COUNT(*) FROM ideas_log",
+                    "SELECT COUNT(*) FROM financings"):
+            cur.execute("SELECT to_regclass(%s) IS NOT NULL", (sql.split("FROM ")[1],))
+            if cur.fetchone()[0]:
+                cur.execute(sql)
+                key += [str(x) for x in cur.fetchone()]
+    cache = Path(os.environ.get("WEB_DIR", Path(__file__).parent / "web")) / ".scoreboard_cache.json"
+    try:
+        c = json.loads(cache.read_text())
+        if c.get("key") == key:
+            return c["score"]
+    except (OSError, ValueError, KeyError):
+        pass
+    score = scoreboard.compute(conn)
+    try:
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        cache.write_text(json.dumps({"key": key, "score": score}, default=str))
+    except OSError:
+        pass
+    return score
+
+
 def suggest_stops(cost: dict) -> dict:
     """Add a suggested stop-loss to each stock: k x its typical daily move below the last close,
     where k is the multiple that did best in the signal lab for its market and price band."""
@@ -241,6 +269,14 @@ def main() -> int:
             print(f"ideas unavailable: {e}", file=sys.stderr)
             conn.rollback()
             ideas = {}
+        try:  # which analysis works best (see scoreboard.py): log today's ideas, then score every source
+            import scoreboard
+            scoreboard.log_ideas(conn, ideas)
+            score = scoreboard_cached(conn)
+        except Exception as e:
+            print(f"scoreboard unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            score = None
         try:  # Track record tab: how the Sunday picks did
             picks = picks_scorecard(conn)
         except Exception as e:
@@ -367,6 +403,7 @@ def main() -> int:
             "picks": picks,
             "fin": fin,
             "cost": cost,
+            "score": score,
             "liveAlerts": live_al,
         }
         nav = '<nav class="mkt">' + "".join(

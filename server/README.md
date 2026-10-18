@@ -57,6 +57,12 @@ The Track record tab scores every Sunday pick: bought at the open of the next tr
     ./venv/bin/python financings.py          # stocks that raised money in the last 90 days
     ./venv/bin/python financings.py LVG.V
 
+## Which analysis works best (scoreboard)
+
+`scoreboard.py` scores every source of calls the same way: scanner signals (Flagged, Breakout, Rising), the Dashboard's ideas by tier (logged daily in `ideas_log` from this version on), weekly picks (Strong, Watch and Rejected), the pre-market note's verdicts (Backed, Unclear, Caution, read from each line that ends with one), Canadian names in the Reddit review, and stocks right after a share-sale headline. Each call is bought at the next open (the same morning for the pre-market note) and valued after 5, 10 and 20 trading days, both after estimated costs and against the average liquid tracked stock over the same days. A source gets a verdict once it has 20 calls with a 2-week result: Ahead, Behind or No edge yet (roughly a 95% range around its average edge). Track record tab, plus a "What's working" card on the Dashboard.
+
+    ./venv/bin/python scoreboard.py
+
 ## Trading costs and stop-losses
 
 `costs.py` estimates what each stock really costs to trade. Yahoo has no bid/ask, so the spread is estimated from 60 days of daily highs, lows and closes (the Abdi-Ranaldo method), never below one price step. Each stock's page shows the round trip (spread + 0.5%), the median dollars traded a day, a position size you could sell in about a day (10% of that), how often it goes 5 minutes without a trade, and a COSTLY tag in the Scanner and My list when the round trip is over 5%.

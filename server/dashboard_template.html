@@ -232,6 +232,8 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
 .cost-box .ttl { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-3); font-weight: 600; display: flex; gap: 8px; align-items: center; }
 .cost-box p { margin: 4px 0 0; }
 .best-row td { font-weight: 650; }
+.show-sm { display: none; }
+@media (max-width: 900px) { .show-sm { display: inline; } }
 .fin-note a { color: var(--text-2); }
 
 @media (max-width: 1050px) { .dgrid { grid-template-columns: minmax(0, 1fr); } }
@@ -310,6 +312,7 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
       <div class="dside">
         <div class="card section"><h2>My list today</h2><div id="dMine"></div></div>
         <div class="card section"><h2>This morning</h2><div id="dMorn"></div></div>
+        <div class="card section"><h2>What's working</h2><div id="dScore"></div></div>
         <div class="card section"><h2>This week's picks</h2><div id="dPicks"></div></div>
         <div class="card section"><h2>Rising now</h2><div id="dRise"></div></div>
         <div class="card section"><h2>Reddit chatter, Canadian names</h2><div id="dMeme"></div></div>
@@ -397,6 +400,17 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
   </div>
 
   <div data-view="trk" hidden>
+    <div class="card section">
+      <h2>Which analysis works best</h2>
+      <p class="lead">Every call from every source, measured the same way: bought at the next open (the same morning for the pre-market note), then valued 1, 2 and 4 weeks later. "Vs average stock" is the gain beyond the average liquid stock you track over the same days, before costs, so a rising market doesn't flatter anyone. "Net" is what you'd have kept, paying each stock's estimated spread plus 0.5%.</p>
+      <div class="tablewrap" style="max-height:none">
+        <table class="plain lt0">
+          <thead><tr><th>Source</th><th class="hide-sm">Calls</th><th class="hide-sm">1 week</th><th>vs avg stock, 2 wk</th><th class="hide-sm">4 weeks</th><th>Net, 2 wk</th><th>Verdict</th></tr></thead>
+          <tbody id="scRows"></tbody>
+        </table>
+      </div>
+      <p class="src pad" id="scFoot" style="margin:10px 0 0"></p>
+    </div>
     <div class="card section">
       <h2>Weekly picks scorecard</h2>
       <p class="lead">Each Sunday pick, as if bought at the open of the next trading day, then valued at the close 1, 2 and 4 weeks later and today, next to the market index over the same days. Picks that weren't tracked yet get their prices once your server starts tracking them.</p>
@@ -1065,6 +1079,36 @@ $('myAdd').addEventListener('submit', (e) => {
   setMy(t, 'add').then(() => { $('myAddB').disabled = false; $('myAddT').value = ''; });
 });
 
+// ----- which analysis works best (scoreboard.py) -----
+const SC = (DATA && DATA.score) || null;
+const VERDICT = { ahead: ['good', 'Ahead'], behind: ['bad', 'Behind'], unclear: ['', 'No edge yet'], early: ['', 'Too early'] };
+const scH = (s, h) => (s.h || {})[h] || null;
+function renderScore() {
+  if (!SC || !SC.sources) { $('scRows').innerHTML = `<tr><td colspan="7">${termEmpty('Results')}</td></tr>`; $('scFoot').textContent = ''; return; }
+  const exCell = (x, cl) => !x || x.ex == null ? `<td class="src ${cl || ''}">–</td>`
+    : `<td class="${cls(x.ex)} ${cl || ''}">${fmtPct(x.ex)}${x.exSe != null && x.n >= 3 ? `<small>±${x.exSe.toFixed(1)} · ${x.won}% up</small>` : ''}</td>`;
+  const L = SC.sources.slice().sort((a, b) => {
+    const o = { ahead: 0, unclear: 1, behind: 2, early: 3 };
+    const xa = scH(a, 10) || scH(a, 5), xb = scH(b, 10) || scH(b, 5);
+    return (o[a.verdict] - o[b.verdict]) || ((xb && xb.ex != null ? xb.ex : -99) - (xa && xa.ex != null ? xa.ex : -99)) || (b.calls - a.calls);
+  });
+  $('scRows').innerHTML = L.map((s) => {
+    const [vc, vl] = VERDICT[s.verdict] || VERDICT.early, x10 = scH(s, 10);
+    return `<tr${SC.best === s.key ? ' class="best-row"' : ''}><td><strong>${esc(s.label)}</strong><span class="src" style="display:block;font-size:11px">${esc(s.group)}<span class="show-sm"> · ${s.calls} call${s.calls === 1 ? '' : 's'}</span></span></td><td class="hide-sm">${s.calls}</td>${exCell(scH(s, 5), 'hide-sm')}${exCell(x10)}${exCell(scH(s, 20), 'hide-sm')}<td class="${cls(x10 && x10.net)}">${x10 ? fmtPct(x10.net) : '–'}</td><td><span class="chip ${vc}" style="white-space:nowrap">${vl}</span></td></tr>`;
+  }).join('');
+  $('scFoot').textContent = `${SC.calls} calls scored, prices to ${dateLabel(SC.asOf)}. A verdict needs ${SC.minN} calls with a 2-week result. "Ahead" means the average edge stayed above zero even at the low end of its range (± is roughly a 95% range); "No edge yet" means the range still covers zero. Ideas are logged from now on, so they start at zero calls. The 10-year signal test on the Dashboard is the bigger sample for the scanner's signals.`;
+}
+function renderScoreCard() {
+  const box = $('dScore'); if (!box) return;
+  if (!SC || !SC.sources) { box.innerHTML = `<div class="empty" style="padding:0 16px 16px">Appears after your server's next update.</div>`; return; }
+  const rated = SC.sources.filter((s) => s.verdict !== 'early').map((s) => ({ s, x: scH(s, 10) || scH(s, 5) })).sort((a, b) => b.x.ex - a.x.ex);
+  const scored = SC.sources.reduce((n, s) => n + s.calls, 0);
+  box.innerHTML = (rated.length ? rated.slice(0, 4).map(({ s, x }) => { const [vc, vl] = VERDICT[s.verdict];
+      return `<div class="mini"><span class="l"><strong>${esc(s.label)}</strong><small>${esc(s.group)}</small></span><span class="r"><span class="${cls(x.ex)}">${fmtPct(x.ex)}</span> <span class="chip ${vc}">${vl}</span></span></div>`; }).join('')
+    : `<div class="pad src" style="padding-bottom:4px">Too early to call: ${scored} calls scored so far, and each source needs ${SC.minN} with a 2-week result.</div>`) +
+    '<button type="button" class="lnk" data-go="trk">Full scoreboard</button>';
+}
+
 // ----- weekly picks scorecard -----
 const PK = (DATA && DATA.picks) || null;
 const pkRows = () => ((PK && PK.rows) || []).filter((r) => inMkt(r.t));
@@ -1416,6 +1460,7 @@ function renderDash() {
   const M = (TERM && TERM.mornings) || [];
   $('dMorn').innerHTML = M.length ? `<div class="pad" style="padding-bottom:4px"><div class="src">${esc(dayLabel(M[0].date || M[0].id))} · ${esc(M[0].headline || '')}</div><p class="note-text" style="max-height:220px;overflow:auto">${esc(M[0].text || '')}</p></div><button type="button" class="lnk" data-go="rep">All notes</button>`
     : '<div class="empty" style="padding:0 16px 16px">The pre-market note arrives weekdays at about 6:55am.</div>';
+  renderScoreCard();
   // side: picks
   const pickAdd = (t, n) => {
     if (!/^[A-Z0-9-]{1,10}\.(V|TO|CN|NE)$/.test(String(t || ''))) return '';
@@ -1480,7 +1525,7 @@ function showView(v) {
 $('views').addEventListener('click', (e) => { const b = e.target.closest('button[data-v]'); if (b) showView(b.dataset.v); });
 
 function renderTerminalViews() {
-  renderMy(); renderPicks(); renderTrk(); renderMorn(); renderWeeks(); renderMemes(); renderPaper(); renderDash();
+  renderMy(); renderScore(); renderPicks(); renderTrk(); renderMorn(); renderWeeks(); renderMemes(); renderPaper(); renderDash();
   $('termNote').textContent = TERM && TERM.copied
     ? 'Track record, reports, meme reviews and paper account are copied from your trading terminal; last copy ' + ago(TERM.copied) + '.'
     : 'Track record, reports, meme reviews and paper account appear once your server loads the terminal\'s backup.';

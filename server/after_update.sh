@@ -27,4 +27,7 @@ echo "== Trading costs for every tracked stock"
 ./venv/bin/python dashboard.py >/dev/null || true
 echo "== Re-running the signal lab with the new cost and stop-loss studies, in the background (about an hour; results reach the webpage and terminal when it finishes)"
 nohup bash -c "flock /tmp/stocks-research.lock ./venv/bin/python signal_lab.py --market tsxv && flock /tmp/stocks-research.lock ./venv/bin/python signal_lab.py --market tsx && ./venv/bin/python dashboard.py" >> logs/weekly.log 2>&1 &
-echo "Done. Each stock's page now shows its trading cost, a position size you can get out of, and a suggested stop-loss."
+echo "== Scoreboard: which analysis works best so far"
+./venv/bin/python scoreboard.py || true
+./venv/bin/python dashboard.py >/dev/null || true
+echo "Done. New: a scoreboard of every analysis (Track record tab). Each stock's page also shows its trading cost, a position size you can get out of, and a suggested stop-loss."
