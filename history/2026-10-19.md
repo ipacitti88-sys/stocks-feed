@@ -1,26 +1,30 @@
-# Stock feed — 2026-10-19T14:06-06:00
+# Stock feed — 2026-10-19T15:26-06:00
 
-Tracking 624 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-16. Intraday data as of: 2026-10-19T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 646 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-19. Intraday data as of: 2026-10-19T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 845.30 on 2026-10-16 (day -0.1%, month -5.7%, year -17.7%, downtrend); live +0.0% at 20:00
-Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year +18.1%, uptrend); live -0.7% at 20:00
+Market: S&P/TSX Venture Composite 846.71 on 2026-10-19 (day +0.2%, month -7.9%, year -15.9%, downtrend)
+Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year +18.0%, uptrend)
 
 # TSX Venture
 
 ## TSX Venture: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)
 
-- none
+- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): close 1.54, volume 6.1x
+- TDG.V (TDG GOLD CORP): close 0.55, volume 3.1x
+- MACK.V (MACKAY GOLD AND SILVER CORP): close 3.29, volume 2.9x
 
 ## TSX Venture: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- RDU.V (RADIUS GOLD INC.): 3/3, close 0.255, rel vol 3.23x, 20d +70.0%, +0.0% vs 52w high
-- LVG.V (LAKE VICTORIA GOLD LTD): 2/3, close 0.34, rel vol 6.58x, 20d +9.7%, -11.7% vs 52w high
-- MMET.V (MIATA METALS CORP): 2/3, close 0.74, rel vol 3.41x, 20d -3.9%, -9.8% vs 52w high
-- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): 2/3, close 1.45, rel vol 3.17x, 20d +21.8%, -34.1% vs 52w high
-- GORO.V (GOLDGROUP MINING INC): 2/3, close 4.77, rel vol 2.4x, 20d -3.8%, -44.0% vs 52w high
-- FCI.V (FIRST CANADIAN GRAPHITE INC): 2/3, close 0.56, rel vol 2.14x, 20d -3.4%, -6.7% vs 52w high
-- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.27, rel vol 1.93x, 20d +5.0%, +0.0% vs 52w high
-- ZNX.V (ZINCX RESOURCES CORP): 2/3, close 0.29, rel vol 0.46x, 20d +38.1%, +0.0% vs 52w high
+- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): 2/3, close 1.54, rel vol 6.07x, 20d +28.3%, -30.0% vs 52w high
+- TDG.V (TDG GOLD CORP): 2/3, close 0.55, rel vol 3.12x, 20d +19.6%, -48.6% vs 52w high
+- MACK.V (MACKAY GOLD AND SILVER CORP): 2/3, close 3.29, rel vol 2.87x, 20d +13.4%, -22.4% vs 52w high
+- BMM.V (BLACK MAMMOTH METALS CORP): 2/3, close 4.9, rel vol 2.86x, 20d +33.2%, -31.1% vs 52w high
+- ROK.V (ROK RESOURCES INC): 2/3, close 0.38, rel vol 2.81x, 20d +0.0%, -7.3% vs 52w high
+- EM.V (ERRINGTON METALS CORP): 2/3, close 4.775, rel vol 2.6x, 20d -10.2%, -10.2% vs 52w high
+- BZ.V (BENZ MINING CORP): 2/3, close 4.62, rel vol 2.36x, 20d +0.4%, -14.6% vs 52w high
+- SERV.V (ELEVATE SERVICE GROUP INC): 2/3, close 3.12, rel vol 1.35x, 20d +9.5%, +0.0% vs 52w high
+- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.27, rel vol 0.93x, 20d +4.1%, +0.0% vs 52w high
+- YTY.V (WI2WI CORPORATION): 2/3, close 0.12, rel vol 0.91x, 20d +33.3%, +0.0% vs 52w high
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -32,16 +36,16 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX Venture: top by relative volume at last close
 
-- LVG.V (LAKE VICTORIA GOLD LTD): rel vol 6.58x, close 0.34, 20d +9.7%
-- GSR.V (GOLD STRIKE RESOURCES CORP): rel vol 5.64x, close 0.3, 20d -34.8%
-- KRY.V (KORYX COPPER S A): rel vol 3.64x, close 2.945, 20d -16.3%
-- MMET.V (MIATA METALS CORP): rel vol 3.41x, close 0.74, 20d -3.9%
-- RDU.V (RADIUS GOLD INC.): rel vol 3.23x, close 0.255, 20d +70.0%
-- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): rel vol 3.17x, close 1.45, 20d +21.8%
-- SOMA.V (SOMA GOLD CORP): rel vol 2.96x, close 0.57, 20d -16.2%
-- CCMM.V (COYOTE COPPER MINES INC): rel vol 2.89x, close 0.485, 20d -3.0%
-- EMO.V (EMERITA RESOURCES CORP): rel vol 2.87x, close 0.34, 20d -10.5%
-- DMGI.V (DMG BLOCKCHAIN SOLUTIONS INC): rel vol 2.47x, close 0.405, 20d -21.4%
+- FL.V (FRONTIER LITHIUM INC): rel vol 8.69x, close 0.39, 20d -13.3%
+- PLSR.V (PULSAR HELIUM INC): rel vol 6.85x, close 1.155, 20d -11.2%
+- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): rel vol 6.07x, close 1.54, 20d +28.3%
+- THX.V (THOR EXPLORATIONS LTD.): rel vol 3.45x, close 1.035, 20d -22.2%
+- GTC.V (GETTY COPPER INC.): rel vol 3.38x, close 0.68, 20d -28.4%
+- TDG.V (TDG GOLD CORP): rel vol 3.12x, close 0.55, 20d +19.6%
+- MACK.V (MACKAY GOLD AND SILVER CORP): rel vol 2.87x, close 3.29, 20d +13.4%
+- BMM.V (BLACK MAMMOTH METALS CORP): rel vol 2.86x, close 4.9, 20d +33.2%
+- ROK.V (ROK RESOURCES INC): rel vol 2.81x, close 0.38, 20d +0.0%
+- GGO.V (GALLEON GOLD CORP): rel vol 2.71x, close 1.16, 20d +7.4%
 
 ## TSX Venture: top gainers in latest intraday pass
 
@@ -64,8 +68,8 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- RBY.TO (RUBELLITE ENERGY CORP): 2/3, close 4.54, rel vol 2.9x, 20d +3.7%, -3.0% vs 52w high
-- CVVY.TO (CAVVY ENERGY LTD): 2/3, close 2.66, rel vol 0.52x, 20d +16.7%, +0.0% vs 52w high
+- YGR.TO (YANGARRA RESOURCES LTD): 2/3, close 1.81, rel vol 1.83x, 20d +16.8%, +0.0% vs 52w high
+- WM.TO (WALLBRIDGE MINING COMPANY LTD): 2/3, close 1.7, rel vol 0.3x, 20d +1600.0%, +0.0% vs 52w high
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -73,16 +77,16 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX: top by relative volume at last close
 
-- FSZ.TO (FIERA CAPITAL CORP): rel vol 2.95x, close 3.32, 20d -21.9%
-- RBY.TO (RUBELLITE ENERGY CORP): rel vol 2.9x, close 4.54, 20d +3.7%
-- LAM.TO (LARAMIDE RESOURCES LTD.): rel vol 2.78x, close 0.46, 20d -19.3%
-- LUC.TO (LUCARA DIAMOND CORP): rel vol 2.76x, close 0.13, 20d -23.5%
-- STLR.TO (STLLR GOLD INC): rel vol 2.7x, close 1.27, 20d -19.1%
-- FDY.TO (FARADAY COPPER CORP): rel vol 1.89x, close 4.72, 20d -5.6%
-- TAL.TO (PETROTAL CORP): rel vol 1.88x, close 0.6, 20d +5.3%
-- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): rel vol 1.87x, close 1.26, 20d -29.2%
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): rel vol 1.87x, close 0.275, 20d -19.1%
-- PRQ.TO (PETRUS RESOURCES LTD): rel vol 1.86x, close 1.75, 20d -2.8%
+- FSZ.TO (FIERA CAPITAL CORP): rel vol 3.23x, close 3.21, 20d -24.8%
+- LUC.TO (LUCARA DIAMOND CORP): rel vol 3.22x, close 0.12, 20d -33.3%
+- AIDX.TO (HEALWELL AI INC): rel vol 1.92x, close 0.66, 20d -9.6%
+- DND.TO (DYE AND DURHAM LIMITED): rel vol 1.92x, close 1.53, 20d +159.3%
+- BNKR.TO (BUNKER HILL MINING CORP): rel vol 1.84x, close 3.07, 20d -30.4%
+- YGR.TO (YANGARRA RESOURCES LTD): rel vol 1.83x, close 1.81, 20d +16.8%
+- FAR.TO (FORACO INTERNATIONAL SA): rel vol 1.68x, close 2.55, 20d -4.1%
+- FDY.TO (FARADAY COPPER CORP): rel vol 1.64x, close 4.75, 20d -6.9%
+- DIV.TO (DIVERSIFIED ROYALTY CORP): rel vol 1.56x, close 4.06, 20d -0.7%
+- ANRG.TO (ANAERGIA INC): rel vol 1.46x, close 2.03, 20d -22.2%
 
 ## TSX: top gainers in latest intraday pass
 
