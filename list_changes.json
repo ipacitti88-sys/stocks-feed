@@ -1,26 +1,4 @@
 {
- "generated": "2026-10-18T21:26-06:00",
- "changes": [
-  {
-   "id": 1,
-   "ticker": "RBY.TO",
-   "action": "add",
-   "name": "RUBELLITE ENERGY CORP",
-   "at": "2026-10-19T01:52+00:00"
-  },
-  {
-   "id": 2,
-   "ticker": "SMN.V",
-   "action": "add",
-   "name": "SUN SUMMIT MINERALS CORP",
-   "at": "2026-10-19T03:26+00:00"
-  },
-  {
-   "id": 3,
-   "ticker": "ALDE.V",
-   "action": "add",
-   "name": "ALDEBARAN RESOURCES INC",
-   "at": "2026-10-19T03:26+00:00"
-  }
- ]
+ "generated": "2026-10-19T08:01-06:00",
+ "changes": []
 }
