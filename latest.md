@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-19T13:31-06:00
+# Stock feed — 2026-10-19T14:01-06:00
 
-Tracking 624 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-16. Intraday data as of: 2026-10-19T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 624 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-16. Intraday data as of: 2026-10-19T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 845.30 on 2026-10-16 (day -0.1%, month -5.7%, year -17.7%, downtrend); live -0.1% at 19:35
-Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year +18.1%, uptrend); live -0.6% at 19:35
+Market: S&P/TSX Venture Composite 845.30 on 2026-10-16 (day -0.1%, month -5.7%, year -17.7%, downtrend); live +0.0% at 20:00
+Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year +18.1%, uptrend); live -0.7% at 20:00
 
 # TSX Venture
 
@@ -24,8 +24,11 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- BZ.V (BENZ MINING CORP): +18.9% today at 4.6, last 30m +0.2%, volume pace 3.34x, rising since 2026-10-19T18:35:00+00:00
-- TECT.V (TECTONIC METALS INC): +3.6% today at 1.74, last 30m +3.6%, volume pace 2.27x, rising since 2026-10-19T18:30:00+00:00
+- PLSR.V (PULSAR HELIUM INC): +20.8% today at 1.16, last 30m +1.8%, volume pace 6.66x, rising since 2026-10-19T20:00:00+00:00
+- BZ.V (BENZ MINING CORP): +19.4% today at 4.62, last 30m +0.4%, volume pace 3.14x, rising since 2026-10-19T18:35:00+00:00
+- MACK.V (MACKAY GOLD AND SILVER CORP): +5.8% today at 3.28, last 30m +0.3%, volume pace 2.46x, rising since 2026-10-19T19:45:00+00:00
+- KRY.V (KORYX COPPER S A): +3.6% today at 3.05, last 30m +0.7%, volume pace 2.36x, rising since 2026-10-19T19:35:00+00:00
+- GG.V (GOLCONDA GOLD LTD): +3.1% today at 2.99, last 30m +0.7%, volume pace 1.71x, rising since 2026-10-19T19:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,15 +45,15 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- SCLT.V (SEARCHLIGHT RESOURCES INC): +28.6% at 0.18, volume pace 3.54x
-- BZ.V (BENZ MINING CORP): +18.9% at 4.6, volume pace 3.34x
-- PLSR.V (PULSAR HELIUM INC): +18.8% at 1.14, volume pace 7.06x
-- OPW.V (OPAWICA EXPLORATIONS INC): +16.7% at 0.14, volume pace 3.2x
-- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +12.9% at 0.175, volume pace 2.09x
+- PLSR.V (PULSAR HELIUM INC): +20.8% at 1.16, volume pace 6.66x
+- BZ.V (BENZ MINING CORP): +19.4% at 4.62, volume pace 3.14x
+- OPW.V (OPAWICA EXPLORATIONS INC): +16.7% at 0.14, volume pace 3.82x
+- SCLT.V (SEARCHLIGHT RESOURCES INC): +14.3% at 0.16, volume pace 3.51x
+- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +12.9% at 0.175, volume pace 2.42x
 - MMM.V (MINCO CAPITAL CORP): +11.5% at 0.145, volume pace 0.0x
-- TDG.V (TDG GOLD CORP): +11.1% at 0.55, volume pace 3.17x
-- MLP.V (MILLENNIAL POTASH CORP): +10.9% at 2.23, volume pace 0.6x
+- TDG.V (TDG GOLD CORP): +11.1% at 0.55, volume pace 3.19x
 - IMR.V (IMETAL RESOURCES INC): +10.5% at 0.21, volume pace 0.0x
+- MLP.V (MILLENNIAL POTASH CORP): +9.4% at 2.2, volume pace 0.6x
 - NICE.V (NI CO ENERGY INC): +9.3% at 0.47, volume pace 12.26x
 
 # TSX
@@ -66,7 +69,7 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- YGR.TO (YANGARRA RESOURCES LTD): +3.4% today at 1.82, last 30m +0.6%, volume pace 1.75x, rising since 2026-10-19T20:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -83,13 +86,13 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDT.TO (SPECTRAL MEDICAL INC): +10.3% at 1.18, volume pace 0.26x
-- VGC.TO (VALOR GOLD CORP): +9.1% at 2.51, volume pace 1.33x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +8.2% at 0.995, volume pace 1.34x
-- PYR.TO (PYROGENESIS INC): +7.1% at 0.225, volume pace 0.37x
-- TXP.TO (TOUCHSTONE EXPLORATION INC): +6.2% at 0.17, volume pace 1.15x
-- SYZ.TO (SYLOGIST LTD): +5.6% at 2.64, volume pace 0.51x
-- TI.TO (TITAN MINING CORPORATION): +4.7% at 2.89, volume pace 0.44x
-- BOIL.TO (BEYOND OIL LTD): +4.5% at 2.3, volume pace 0.84x
-- FLT.TO (VOLATUS AEROSPACE INC): +4.0% at 0.52, volume pace 0.76x
-- NFGC.TO (NEW FOUND GOLD CORP): +4.0% at 2.34, volume pace 0.79x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +11.9% at 0.375, volume pace 0.97x
+- VGC.TO (VALOR GOLD CORP): +9.6% at 2.52, volume pace 1.3x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +8.7% at 1.0, volume pace 1.23x
+- SYZ.TO (SYLOGIST LTD): +8.0% at 2.7, volume pace 0.59x
+- PYR.TO (PYROGENESIS INC): +7.1% at 0.225, volume pace 0.39x
+- TXP.TO (TOUCHSTONE EXPLORATION INC): +6.2% at 0.17, volume pace 1.16x
+- BOIL.TO (BEYOND OIL LTD): +4.5% at 2.3, volume pace 0.85x
+- GLO.TO (GLOBAL ATOMIC CORPORATION): +4.3% at 0.36, volume pace 0.14x
+- TI.TO (TITAN MINING CORPORATION): +4.2% at 2.875, volume pace 0.45x
+- NFGC.TO (NEW FOUND GOLD CORP): +4.0% at 2.34, volume pace 0.87x
