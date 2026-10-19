@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-19T12:31-06:00
+# Stock feed — 2026-10-19T13:01-06:00
 
-Tracking 624 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-16. Intraday data as of: 2026-10-19T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 624 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-16. Intraday data as of: 2026-10-19T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 845.30 on 2026-10-16 (day -0.1%, month -5.7%, year -17.7%, downtrend); live -0.1% at 18:35
-Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year +18.1%, uptrend); live -0.7% at 18:35
+Market: S&P/TSX Venture Composite 845.30 on 2026-10-16 (day -0.1%, month -5.7%, year -17.7%, downtrend); live -0.1% at 19:05
+Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year +18.1%, uptrend); live -0.7% at 19:05
 
 # TSX Venture
 
@@ -24,11 +24,11 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
+- PLSR.V (PULSAR HELIUM INC): +22.9% today at 1.18, last 30m +0.8%, volume pace 7.24x, rising since 2026-10-19T18:50:00+00:00
+- BZ.V (BENZ MINING CORP): +18.6% today at 4.59, last 30m +0.2%, volume pace 3.89x, rising since 2026-10-19T18:35:00+00:00
 - TDG.V (TDG GOLD CORP): +13.1% today at 0.56, last 30m +1.8%, volume pace 3.96x, rising since 2026-10-19T17:45:00+00:00
-- CCDS.V (CARRIER CONNECT DATA SOLUTIONS ): +8.3% today at 1.57, last 30m +2.6%, volume pace 6.08x, rising since 2026-10-19T17:40:00+00:00
-- MACK.V (MACKAY GOLD AND SILVER CORP): +6.1% today at 3.29, last 30m +0.6%, volume pace 3.22x, rising since 2026-10-19T18:15:00+00:00
-- TECT.V (TECTONIC METALS INC): +3.6% today at 1.74, last 30m +3.6%, volume pace 2.34x, rising since 2026-10-19T18:30:00+00:00
-- GG.V (GOLCONDA GOLD LTD): +3.1% today at 2.99, last 30m +0.3%, volume pace 2.02x, rising since 2026-10-19T17:40:00+00:00
+- CERT.V (CERRADO GOLD INC): +5.3% today at 2.4, last 30m +0.4%, volume pace 3.57x, rising since 2026-10-19T18:45:00+00:00
+- TECT.V (TECTONIC METALS INC): +3.6% today at 1.74, last 30m +3.6%, volume pace 2.27x, rising since 2026-10-19T18:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -45,16 +45,16 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- PLSR.V (PULSAR HELIUM INC): +21.9% at 1.17, volume pace 8.0x
-- BZ.V (BENZ MINING CORP): +18.6% at 4.59, volume pace 3.98x
-- SCLT.V (SEARCHLIGHT RESOURCES INC): +17.9% at 0.165, volume pace 2.77x
+- PLSR.V (PULSAR HELIUM INC): +22.9% at 1.18, volume pace 7.24x
+- BZ.V (BENZ MINING CORP): +18.6% at 4.59, volume pace 3.89x
+- SCLT.V (SEARCHLIGHT RESOURCES INC): +17.9% at 0.165, volume pace 2.53x
 - TDG.V (TDG GOLD CORP): +13.1% at 0.56, volume pace 3.96x
-- NICN.V (NICAN LIMITED): +13.0% at 0.13, volume pace 0.59x
-- OPW.V (OPAWICA EXPLORATIONS INC): +12.5% at 0.135, volume pace 2.76x
-- LXE.V (LATIN EXPLORE INC): +11.6% at 0.24, volume pace 0.27x
+- OPW.V (OPAWICA EXPLORATIONS INC): +12.5% at 0.135, volume pace 2.99x
+- LXE.V (LATIN EXPLORE INC): +11.6% at 0.24, volume pace 0.29x
+- MMM.V (MINCO CAPITAL CORP): +11.5% at 0.145, volume pace 0.0x
 - IMR.V (IMETAL RESOURCES INC): +10.5% at 0.21, volume pace 0.0x
-- NMC.V (NUVAU MINERALS INC): +10.0% at 0.66, volume pace 0.52x
-- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +9.7% at 0.17, volume pace 2.98x
+- MLP.V (MILLENNIAL POTASH CORP): +10.4% at 2.22, volume pace 0.65x
+- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +9.7% at 0.17, volume pace 1.88x
 
 # TSX
 
@@ -86,13 +86,13 @@ Market: S&P/TSX Composite 36,176.55 on 2026-10-16 (day +0.1%, month +1.9%, year 
 
 ## TSX: top gainers in latest intraday pass
 
+- EDT.TO (SPECTRAL MEDICAL INC): +10.3% at 1.18, volume pace 0.08x
+- VGC.TO (VALOR GOLD CORP): +9.6% at 2.52, volume pace 1.43x
 - PYR.TO (PYROGENESIS INC): +9.5% at 0.23, volume pace 0.46x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +6.5% at 0.98, volume pace 0.89x
-- VGC.TO (VALOR GOLD CORP): +6.5% at 2.45, volume pace 1.41x
-- TXP.TO (TOUCHSTONE EXPLORATION INC): +6.2% at 0.17, volume pace 1.22x
-- SYZ.TO (SYLOGIST LTD): +4.4% at 2.61, volume pace 0.44x
-- BOIL.TO (BEYOND OIL LTD): +4.1% at 2.29, volume pace 1.0x
-- EDT.TO (SPECTRAL MEDICAL INC): +3.7% at 1.11, volume pace 0.1x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +7.6% at 0.99, volume pace 0.89x
+- TXP.TO (TOUCHSTONE EXPLORATION INC): +6.2% at 0.17, volume pace 1.28x
+- NFGC.TO (NEW FOUND GOLD CORP): +4.0% at 2.34, volume pace 0.74x
 - PDI.TO (PDI GOLD LIMITED): +3.7% at 4.2, volume pace 0.08x
-- NFGC.TO (NEW FOUND GOLD CORP): +3.6% at 2.33, volume pace 0.77x
-- YGR.TO (YANGARRA RESOURCES LTD): +3.4% at 1.82, volume pace 1.99x
+- TI.TO (TITAN MINING CORPORATION): +3.6% at 2.86, volume pace 0.46x
+- ESM.TO (EURO SUN MINING INC): +3.2% at 0.16, volume pace 0.2x
+- BOIL.TO (BEYOND OIL LTD): +3.2% at 2.27, volume pace 0.9x

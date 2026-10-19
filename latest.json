@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T12:31-06:00",
+ "generated": "2026-10-19T13:01-06:00",
  "last_close_day": "2026-10-16",
  "tracked": 624,
  "tracked_by_market": {
@@ -460,8 +460,30 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-19T18:35:00+00:00",
+ "live_as_of": "2026-10-19T19:05:00+00:00",
  "rising": [
+  {
+   "ticker": "PLSR.V",
+   "name": "PULSAR HELIUM INC",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 1.18,
+   "pct_day": 22.92,
+   "pct_30m": 0.85,
+   "volume_pace": 7.24,
+   "rising": true,
+   "rising_since": "2026-10-19T18:50:00+00:00"
+  },
+  {
+   "ticker": "BZ.V",
+   "name": "BENZ MINING CORP",
+   "as_of": "2026-10-19T18:35:00+00:00",
+   "last": 4.59,
+   "pct_day": 18.6,
+   "pct_30m": 0.22,
+   "volume_pace": 3.89,
+   "rising": true,
+   "rising_since": "2026-10-19T18:35:00+00:00"
+  },
   {
    "ticker": "TDG.V",
    "name": "TDG GOLD CORP",
@@ -474,81 +496,59 @@
    "rising_since": "2026-10-19T17:45:00+00:00"
   },
   {
-   "ticker": "CCDS.V",
-   "name": "CARRIER CONNECT DATA SOLUTIONS ",
-   "as_of": "2026-10-19T18:20:00+00:00",
-   "last": 1.57,
-   "pct_day": 8.28,
-   "pct_30m": 2.61,
-   "volume_pace": 6.08,
+   "ticker": "CERT.V",
+   "name": "CERRADO GOLD INC",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 2.4,
+   "pct_day": 5.26,
+   "pct_30m": 0.42,
+   "volume_pace": 3.57,
    "rising": true,
-   "rising_since": "2026-10-19T17:40:00+00:00"
-  },
-  {
-   "ticker": "MACK.V",
-   "name": "MACKAY GOLD AND SILVER CORP",
-   "as_of": "2026-10-19T18:20:00+00:00",
-   "last": 3.29,
-   "pct_day": 6.13,
-   "pct_30m": 0.61,
-   "volume_pace": 3.22,
-   "rising": true,
-   "rising_since": "2026-10-19T18:15:00+00:00"
+   "rising_since": "2026-10-19T18:45:00+00:00"
   },
   {
    "ticker": "TECT.V",
    "name": "TECTONIC METALS INC",
-   "as_of": "2026-10-19T18:30:00+00:00",
+   "as_of": "2026-10-19T18:40:00+00:00",
    "last": 1.74,
    "pct_day": 3.57,
    "pct_30m": 3.57,
-   "volume_pace": 2.34,
+   "volume_pace": 2.27,
    "rising": true,
    "rising_since": "2026-10-19T18:30:00+00:00"
-  },
-  {
-   "ticker": "GG.V",
-   "name": "GOLCONDA GOLD LTD",
-   "as_of": "2026-10-19T17:40:00+00:00",
-   "last": 2.99,
-   "pct_day": 3.1,
-   "pct_30m": 0.34,
-   "volume_pace": 2.02,
-   "rising": true,
-   "rising_since": "2026-10-19T17:40:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "PLSR.V",
    "name": "PULSAR HELIUM INC",
-   "as_of": "2026-10-19T18:25:00+00:00",
-   "last": 1.17,
-   "pct_day": 21.87,
-   "pct_30m": -0.85,
-   "volume_pace": 8.0,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 1.18,
+   "pct_day": 22.92,
+   "pct_30m": 0.85,
+   "volume_pace": 7.24,
+   "rising": true,
+   "rising_since": "2026-10-19T18:50:00+00:00"
   },
   {
    "ticker": "BZ.V",
    "name": "BENZ MINING CORP",
-   "as_of": "2026-10-19T18:25:00+00:00",
+   "as_of": "2026-10-19T18:35:00+00:00",
    "last": 4.59,
    "pct_day": 18.6,
-   "pct_30m": -0.22,
-   "volume_pace": 3.98,
-   "rising": false,
-   "rising_since": null
+   "pct_30m": 0.22,
+   "volume_pace": 3.89,
+   "rising": true,
+   "rising_since": "2026-10-19T18:35:00+00:00"
   },
   {
    "ticker": "SCLT.V",
    "name": "SEARCHLIGHT RESOURCES INC",
-   "as_of": "2026-10-19T18:15:00+00:00",
+   "as_of": "2026-10-19T18:45:00+00:00",
    "last": 0.165,
    "pct_day": 17.86,
-   "pct_30m": 10.0,
-   "volume_pace": 2.77,
+   "pct_30m": 0.0,
+   "volume_pace": 2.53,
    "rising": false,
    "rising_since": null
   },
@@ -564,35 +564,35 @@
    "rising_since": "2026-10-19T17:45:00+00:00"
   },
   {
-   "ticker": "NICN.V",
-   "name": "NICAN LIMITED",
-   "as_of": "2026-10-19T17:00:00+00:00",
-   "last": 0.13,
-   "pct_day": 13.04,
-   "pct_30m": 4.0,
-   "volume_pace": 0.59,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "OPW.V",
    "name": "OPAWICA EXPLORATIONS INC",
-   "as_of": "2026-10-19T18:05:00+00:00",
+   "as_of": "2026-10-19T19:00:00+00:00",
    "last": 0.135,
    "pct_day": 12.5,
-   "pct_30m": 12.5,
-   "volume_pace": 2.76,
+   "pct_30m": 0.0,
+   "volume_pace": 2.99,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LXE.V",
    "name": "LATIN EXPLORE INC",
-   "as_of": "2026-10-19T18:30:00+00:00",
+   "as_of": "2026-10-19T18:50:00+00:00",
    "last": 0.24,
    "pct_day": 11.63,
    "pct_30m": 0.0,
-   "volume_pace": 0.27,
+   "volume_pace": 0.29,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MMM.V",
+   "name": "MINCO CAPITAL CORP",
+   "as_of": "2026-10-19T18:40:00+00:00",
+   "last": 0.145,
+   "pct_day": 11.54,
+   "pct_30m": 3.57,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -608,24 +608,46 @@
    "rising_since": null
   },
   {
-   "ticker": "NMC.V",
-   "name": "NUVAU MINERALS INC",
-   "as_of": "2026-10-19T18:25:00+00:00",
-   "last": 0.66,
-   "pct_day": 10.0,
-   "pct_30m": 3.13,
-   "volume_pace": 0.52,
+   "ticker": "MLP.V",
+   "name": "MILLENNIAL POTASH CORP",
+   "as_of": "2026-10-19T18:40:00+00:00",
+   "last": 2.22,
+   "pct_day": 10.45,
+   "pct_30m": 2.3,
+   "volume_pace": 0.65,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CGM.V",
    "name": "CANADIAN GOLDFIELDS DISCOVERY C",
-   "as_of": "2026-10-19T16:55:00+00:00",
+   "as_of": "2026-10-19T18:55:00+00:00",
    "last": 0.17,
    "pct_day": 9.68,
-   "pct_30m": 13.33,
-   "volume_pace": 2.98,
+   "pct_30m": 0.0,
+   "volume_pace": 1.88,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "EDT.TO",
+   "name": "SPECTRAL MEDICAL INC",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 1.18,
+   "pct_day": 10.28,
+   "pct_30m": 6.31,
+   "volume_pace": 0.08,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VGC.TO",
+   "name": "VALOR GOLD CORP",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 2.52,
+   "pct_day": 9.57,
+   "pct_30m": 2.86,
+   "volume_pace": 1.43,
    "rising": false,
    "rising_since": null
   },
@@ -643,22 +665,11 @@
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-19T18:35:00+00:00",
-   "last": 0.98,
-   "pct_day": 6.52,
-   "pct_30m": -1.01,
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 0.99,
+   "pct_day": 7.61,
+   "pct_30m": 0.51,
    "volume_pace": 0.89,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "VGC.TO",
-   "name": "VALOR GOLD CORP",
-   "as_of": "2026-10-19T18:35:00+00:00",
-   "last": 2.45,
-   "pct_day": 6.52,
-   "pct_30m": 0.0,
-   "volume_pace": 1.41,
    "rising": false,
    "rising_since": null
   },
@@ -669,40 +680,18 @@
    "last": 0.17,
    "pct_day": 6.25,
    "pct_30m": -2.86,
-   "volume_pace": 1.22,
+   "volume_pace": 1.28,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "SYZ.TO",
-   "name": "SYLOGIST LTD",
-   "as_of": "2026-10-19T14:00:00+00:00",
-   "last": 2.61,
-   "pct_day": 4.4,
-   "pct_30m": -4.04,
-   "volume_pace": 0.44,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BOIL.TO",
-   "name": "BEYOND OIL LTD",
-   "as_of": "2026-10-19T18:25:00+00:00",
-   "last": 2.29,
-   "pct_day": 4.09,
-   "pct_30m": 0.44,
-   "volume_pace": 1.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "EDT.TO",
-   "name": "SPECTRAL MEDICAL INC",
-   "as_of": "2026-10-19T18:00:00+00:00",
-   "last": 1.11,
-   "pct_day": 3.74,
-   "pct_30m": 0.0,
-   "volume_pace": 0.1,
+   "ticker": "NFGC.TO",
+   "name": "NEW FOUND GOLD CORP",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 2.34,
+   "pct_day": 4.0,
+   "pct_30m": 0.43,
+   "volume_pace": 0.74,
    "rising": false,
    "rising_since": null
   },
@@ -718,24 +707,35 @@
    "rising_since": null
   },
   {
-   "ticker": "NFGC.TO",
-   "name": "NEW FOUND GOLD CORP",
-   "as_of": "2026-10-19T18:30:00+00:00",
-   "last": 2.33,
-   "pct_day": 3.56,
-   "pct_30m": -0.43,
-   "volume_pace": 0.77,
+   "ticker": "TI.TO",
+   "name": "TITAN MINING CORPORATION",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 2.86,
+   "pct_day": 3.62,
+   "pct_30m": 1.06,
+   "volume_pace": 0.46,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "YGR.TO",
-   "name": "YANGARRA RESOURCES LTD",
-   "as_of": "2026-10-19T18:35:00+00:00",
-   "last": 1.82,
-   "pct_day": 3.41,
+   "ticker": "ESM.TO",
+   "name": "EURO SUN MINING INC",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 0.16,
+   "pct_day": 3.23,
    "pct_30m": 0.0,
-   "volume_pace": 1.99,
+   "volume_pace": 0.2,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BOIL.TO",
+   "name": "BEYOND OIL LTD",
+   "as_of": "2026-10-19T19:00:00+00:00",
+   "last": 2.27,
+   "pct_day": 3.18,
+   "pct_30m": -0.87,
+   "volume_pace": 0.9,
    "rising": false,
    "rising_since": null
   }
@@ -1335,8 +1335,8 @@
    "ma200": 976.57,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-19T18:35:00+00:00",
-    "last": 844.85,
+    "as_of": "2026-10-19T19:05:00+00:00",
+    "last": 844.86,
     "pct_day": -0.05
    }
   },
@@ -1934,9 +1934,9 @@
    "ma200": 34398.99,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-19T18:35:00+00:00",
-    "last": 35910.72,
-    "pct_day": -0.73
+    "as_of": "2026-10-19T19:05:00+00:00",
+    "last": 35939.29,
+    "pct_day": -0.66
    }
   }
  },
