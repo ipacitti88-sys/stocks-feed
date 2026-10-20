@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-20T10:01-06:00
+# Stock feed — 2026-10-20T10:31-06:00
 
-Tracking 646 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-19. Intraday data as of: 2026-10-20T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 646 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-19. Intraday data as of: 2026-10-20T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.71 on 2026-10-19 (day +0.2%, month -7.9%, year -15.9%, downtrend); live +0.6% at 16:05
-Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year +18.0%, uptrend); live +0.5% at 16:05
+Market: S&P/TSX Venture Composite 846.71 on 2026-10-19 (day +0.2%, month -7.9%, year -15.9%, downtrend); live +0.4% at 16:35
+Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year +18.0%, uptrend); live +0.5% at 16:35
 
 # TSX Venture
 
@@ -28,8 +28,8 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SLI.V (STANDARD LITHIUM LTD): +5.7% today at 2.21, last 30m +1.4%, volume pace 2.58x, rising since 2026-10-20T15:45:00+00:00
-- CAD.V (COLONIAL COAL INTERNATIONAL COR): +4.0% today at 2.37, last 30m +0.4%, volume pace 1.65x, rising since 2026-10-20T15:20:00+00:00
+- PLSR.V (PULSAR HELIUM INC): +4.8% today at 1.21, last 30m +0.4%, volume pace 4.1x, rising since 2026-10-20T16:05:00+00:00
+- CAD.V (COLONIAL COAL INTERNATIONAL COR): +4.0% today at 2.37, last 30m +0.4%, volume pace 1.71x, rising since 2026-10-20T15:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -46,16 +46,16 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- ADZ.V (ADAMERA MINERALS CORP): +25.0% at 0.15, volume pace 0.3x
 - COCO.V (COAST COPPER CORP): +16.1% at 0.36, volume pace 0.0x
-- PER.V (PERUVIAN METALS CORP): +13.6% at 0.125, volume pace 7.45x
-- KTO.V (K2 GOLD CORPORATION): +13.0% at 0.78, volume pace 8.63x
-- OMI.V (OROSUR MINING INC): +11.4% at 0.245, volume pace 1.57x
-- GLAD.V (GLADIATOR METALS CORP): +10.0% at 1.98, volume pace 0.62x
-- BBB.V (BRIXTON METALS CORPORATION): +9.8% at 0.67, volume pace 0.88x
-- HWY.V (HIGHWAY 50 GOLD CORP): +9.8% at 0.56, volume pace 0.04x
-- SILV.V (SILVER VALLEY METALS CORP): +9.5% at 0.115, volume pace 0.0x
+- PER.V (PERUVIAN METALS CORP): +13.6% at 0.125, volume pace 7.43x
+- KTO.V (K2 GOLD CORPORATION): +11.6% at 0.77, volume pace 6.4x
+- OMI.V (OROSUR MINING INC): +11.4% at 0.245, volume pace 1.0x
+- GLAD.V (GLADIATOR METALS CORP): +10.0% at 1.98, volume pace 0.49x
+- BBB.V (BRIXTON METALS CORPORATION): +9.8% at 0.67, volume pace 0.9x
+- SILV.V (SILVER VALLEY METALS CORP): +9.5% at 0.115, volume pace 0.51x
 - BKM.V (Pacific Booker Minerals Inc.): +9.4% at 4.3, volume pace 17.3x
-- FHR.V (FIDDLEHEAD RESOURCES CORP): +9.1% at 0.12, volume pace 3.35x
+- MCC.V (MOROCCO STRATEGIC MINERALS CORP): +9.4% at 0.175, volume pace 0.0x
 
 # TSX
 
@@ -70,9 +70,9 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +7.8% today at 4.27, last 30m +0.5%, volume pace 7.1x, rising since 2026-10-20T15:55:00+00:00
-- PSD.TO (PULSE SEISMIC INC.): +3.5% today at 3.26, last 30m +0.6%, volume pace 2.65x, rising since 2026-10-20T15:45:00+00:00
-- OM.TO (OSISKO METALS INCORPORATED): +3.2% today at 1.63, last 30m +0.6%, volume pace 1.88x, rising since 2026-10-20T15:45:00+00:00
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +4.1% today at 2.54, last 30m +1.6%, volume pace 1.97x, rising since 2026-10-20T16:30:00+00:00
+- PSD.TO (PULSE SEISMIC INC.): +3.8% today at 3.27, last 30m +0.3%, volume pace 2.18x, rising since 2026-10-20T16:30:00+00:00
+- GRA.TO (NANOXPLORE INC): +3.3% today at 1.25, last 30m +1.6%, volume pace 2.2x, rising since 2026-10-20T16:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -89,13 +89,13 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +9.4% at 0.175, volume pace 0.64x
-- TXP.TO (TOUCHSTONE EXPLORATION INC): +8.8% at 0.185, volume pace 7.73x
-- DND.TO (DYE AND DURHAM LIMITED): +8.5% at 1.66, volume pace 0.97x
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +7.8% at 4.27, volume pace 7.1x
-- STGO.TO (STEPPE GOLD LTD): +5.3% at 1.58, volume pace 0.72x
-- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +5.0% at 1.25, volume pace 1.23x
-- BRC.TO (BLACKROCK SILVER CORP): +4.8% at 0.88, volume pace 0.4x
-- THNC.TO (THINKIFIC LABS INC): +4.2% at 2.105, volume pace 0.28x
-- SLVR.TO (SILVER TIGER METALS INC): +3.9% at 0.8, volume pace 0.91x
-- CRDL.TO (CARDIOL THERAPEUTICS INC): +3.8% at 1.63, volume pace 0.72x
+- DND.TO (DYE AND DURHAM LIMITED): +12.4% at 1.72, volume pace 0.93x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +9.4% at 0.175, volume pace 0.94x
+- TXP.TO (TOUCHSTONE EXPLORATION INC): +8.8% at 0.185, volume pace 3.65x
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +7.6% at 4.26, volume pace 6.41x
+- ESM.TO (EURO SUN MINING INC): +4.7% at 0.1675, volume pace 3.16x
+- STGO.TO (STEPPE GOLD LTD): +4.7% at 1.57, volume pace 0.67x
+- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +4.6% at 1.245, volume pace 1.23x
+- SLVR.TO (SILVER TIGER METALS INC): +4.5% at 0.805, volume pace 0.77x
+- EDT.TO (SPECTRAL MEDICAL INC): +4.5% at 1.15, volume pace 0.24x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.4% at 4.27, volume pace 0.75x
