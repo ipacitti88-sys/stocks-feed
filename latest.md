@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-19T15:26-06:00
+# Stock feed — 2026-10-20T08:01-06:00
 
-Tracking 646 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-19. Intraday data as of: 2026-10-19T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 646 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-19. Intraday data as of: 2026-10-20T14:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.71 on 2026-10-19 (day +0.2%, month -7.9%, year -15.9%, downtrend)
-Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year +18.0%, uptrend)
+Market: S&P/TSX Venture Composite 846.71 on 2026-10-19 (day +0.2%, month -7.9%, year -15.9%, downtrend); live -0.2% at 14:05
+Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year +18.0%, uptrend); live +0.3% at 14:05
 
 # TSX Venture
 
@@ -28,11 +28,9 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PLSR.V (PULSAR HELIUM INC): +20.8% today at 1.16, last 30m +1.8%, volume pace 6.66x, rising since 2026-10-19T20:00:00+00:00
-- BZ.V (BENZ MINING CORP): +19.4% today at 4.62, last 30m +0.4%, volume pace 3.14x, rising since 2026-10-19T18:35:00+00:00
-- MACK.V (MACKAY GOLD AND SILVER CORP): +5.8% today at 3.28, last 30m +0.3%, volume pace 2.46x, rising since 2026-10-19T19:45:00+00:00
-- KRY.V (KORYX COPPER S A): +3.6% today at 3.05, last 30m +0.7%, volume pace 2.36x, rising since 2026-10-19T19:35:00+00:00
-- GG.V (GOLCONDA GOLD LTD): +3.1% today at 2.99, last 30m +0.7%, volume pace 1.71x, rising since 2026-10-19T19:45:00+00:00
+- KTO.V (K2 GOLD CORPORATION): +10.1% today at 0.76, last 30m +4.1%, volume pace 7.48x, rising since 2026-10-20T13:55:00+00:00
+- NEXM.V (NEXMETALS MINING CORP): +7.8% today at 2.21, last 30m +5.2%, volume pace 2.28x, rising since 2026-10-20T14:05:00+00:00
+- ONAU.V (ONGOLD RESOURCES LTD): +7.1% today at 0.6, last 30m +5.3%, volume pace 1.91x, rising since 2026-10-20T13:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -49,16 +47,16 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- PLSR.V (PULSAR HELIUM INC): +20.8% at 1.16, volume pace 6.66x
-- BZ.V (BENZ MINING CORP): +19.4% at 4.62, volume pace 3.14x
-- OPW.V (OPAWICA EXPLORATIONS INC): +16.7% at 0.14, volume pace 3.82x
-- SCLT.V (SEARCHLIGHT RESOURCES INC): +14.3% at 0.16, volume pace 3.51x
-- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +12.9% at 0.175, volume pace 2.42x
-- MMM.V (MINCO CAPITAL CORP): +11.5% at 0.145, volume pace 0.0x
-- TDG.V (TDG GOLD CORP): +11.1% at 0.55, volume pace 3.19x
-- IMR.V (IMETAL RESOURCES INC): +10.5% at 0.21, volume pace 0.0x
-- MLP.V (MILLENNIAL POTASH CORP): +9.4% at 2.2, volume pace 0.6x
-- NICE.V (NI CO ENERGY INC): +9.3% at 0.47, volume pace 12.26x
+- HDRO.V (PRIMARY HYDROGEN CORP): +12.9% at 1.05, volume pace 0.0x
+- DAU.V (DESERT GOLD VENTURES INC.): +12.0% at 0.14, volume pace 0.84x
+- OMI.V (OROSUR MINING INC): +11.4% at 0.245, volume pace 0.17x
+- KTO.V (K2 GOLD CORPORATION): +10.1% at 0.76, volume pace 7.48x
+- BKM.V (Pacific Booker Minerals Inc.): +9.4% at 4.3, volume pace 34.5x
+- JG.V (JAPAN GOLD CORP): +9.1% at 0.12, volume pace 0.0x
+- MOGL.V (MOGUL MOUNTAIN VENTURES CORPORA): +9.1% at 0.24, volume pace 4.67x
+- NICN.V (NICAN LIMITED): +8.7% at 0.125, volume pace 0.0x
+- EML.V (ELECTRIC METALS USA LIMITED): +8.7% at 0.125, volume pace 3.63x
+- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +8.6% at 0.19, volume pace 1.11x
 
 # TSX
 
@@ -73,7 +71,8 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- YGR.TO (YANGARRA RESOURCES LTD): +3.4% today at 1.82, last 30m +0.6%, volume pace 1.75x, rising since 2026-10-19T20:00:00+00:00
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +3.9% today at 4.115, last 30m +2.9%, volume pace 9.08x, rising since 2026-10-20T13:45:00+00:00
+- STGO.TO (STEPPE GOLD LTD): +3.3% today at 1.55, last 30m +3.3%, volume pace 1.71x, rising since 2026-10-20T13:50:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -90,13 +89,13 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +11.9% at 0.375, volume pace 0.97x
-- VGC.TO (VALOR GOLD CORP): +9.6% at 2.52, volume pace 1.3x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +8.7% at 1.0, volume pace 1.23x
-- SYZ.TO (SYLOGIST LTD): +8.0% at 2.7, volume pace 0.59x
-- PYR.TO (PYROGENESIS INC): +7.1% at 0.225, volume pace 0.39x
-- TXP.TO (TOUCHSTONE EXPLORATION INC): +6.2% at 0.17, volume pace 1.16x
-- BOIL.TO (BEYOND OIL LTD): +4.5% at 2.3, volume pace 0.85x
-- GLO.TO (GLOBAL ATOMIC CORPORATION): +4.3% at 0.36, volume pace 0.14x
-- TI.TO (TITAN MINING CORPORATION): +4.2% at 2.875, volume pace 0.45x
-- NFGC.TO (NEW FOUND GOLD CORP): +4.0% at 2.34, volume pace 0.87x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +12.5% at 0.18, volume pace 2.65x
+- DND.TO (DYE AND DURHAM LIMITED): +10.5% at 1.69, volume pace 0.9x
+- THNC.TO (THINKIFIC LABS INC): +6.9% at 2.16, volume pace 0.13x
+- TXP.TO (TOUCHSTONE EXPLORATION INC): +5.9% at 0.18, volume pace 0.0x
+- LUC.TO (LUCARA DIAMOND CORP): +4.2% at 0.125, volume pace 0.26x
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +3.9% at 4.115, volume pace 9.08x
+- STGO.TO (STEPPE GOLD LTD): +3.3% at 1.55, volume pace 1.71x
+- ILLM.TO (iLLUMIN HOLDINGS INC): +3.3% at 0.62, volume pace 0.0x
+- CVO.TO (COVEO SOLUTIONS INC): +2.7% at 4.93, volume pace 0.68x
+- PRL.TO (PROPEL HOLDINGS INC): +2.4% at 24.41, volume pace 1.12x
