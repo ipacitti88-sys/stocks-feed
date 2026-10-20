@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-20T14:01-06:00
+# Stock feed — 2026-10-20T14:06-06:00
 
 Tracking 646 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-19. Intraday data as of: 2026-10-20T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -46,7 +46,7 @@ Market: S&P/TSX Composite 35,928.63 on 2026-10-19 (day -0.7%, month +0.1%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - ADZ.V (ADAMERA MINERALS CORP): +33.3% at 0.16, volume pace 0.86x
-- PWER.V (GLOBAL POWER SOLUTIONS CORP): +28.6% at 0.18, volume pace 0.48x
+- PWER.V (GLOBAL POWER SOLUTIONS CORP): +32.1% at 0.185, volume pace 0.67x
 - KTO.V (K2 GOLD CORPORATION): +24.6% at 0.86, volume pace 5.49x
 - MRVL.V (MARVEL BIOSCIENCES CORP): +21.1% at 0.115, volume pace 3.08x
 - NICN.V (NICAN LIMITED): +17.4% at 0.135, volume pace 0.69x

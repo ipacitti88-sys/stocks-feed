@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T14:01-06:00",
+ "generated": "2026-10-20T14:06-06:00",
  "last_close_day": "2026-10-19",
  "tracked": 646,
  "tracked_by_market": {
@@ -530,11 +530,11 @@
   {
    "ticker": "PWER.V",
    "name": "GLOBAL POWER SOLUTIONS CORP",
-   "as_of": "2026-10-20T19:25:00+00:00",
-   "last": 0.18,
-   "pct_day": 28.57,
-   "pct_30m": 20.0,
-   "volume_pace": 0.48,
+   "as_of": "2026-10-20T19:40:00+00:00",
+   "last": 0.185,
+   "pct_day": 32.14,
+   "pct_30m": 23.33,
+   "volume_pace": 0.67,
    "rising": false,
    "rising_since": null
   },
