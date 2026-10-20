@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T13:31-06:00",
+ "generated": "2026-10-20T14:01-06:00",
  "last_close_day": "2026-10-19",
  "tracked": 646,
  "tracked_by_market": {
@@ -490,62 +490,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-20T19:35:00+00:00",
+ "live_as_of": "2026-10-20T20:00:00+00:00",
  "rising": [
   {
-   "ticker": "LUC.TO",
-   "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 0.13,
-   "pct_day": 8.33,
-   "pct_30m": 8.33,
-   "volume_pace": 7.17,
+   "ticker": "KTO.V",
+   "name": "K2 GOLD CORPORATION",
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.86,
+   "pct_day": 24.64,
+   "pct_30m": 1.18,
+   "volume_pace": 5.49,
    "rising": true,
-   "rising_since": "2026-10-20T19:30:00+00:00"
-  },
-  {
-   "ticker": "ESI.TO",
-   "name": "ENSIGN ENERGY SERVICES INC.",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 4.22,
-   "pct_day": 6.57,
-   "pct_30m": 1.44,
-   "volume_pace": 3.99,
-   "rising": true,
-   "rising_since": "2026-10-20T19:10:00+00:00"
-  },
-  {
-   "ticker": "ASTR.V",
-   "name": "ASTRA EXPLORATION INC",
-   "as_of": "2026-10-20T18:55:00+00:00",
-   "last": 0.355,
-   "pct_day": 4.41,
-   "pct_30m": 4.41,
-   "volume_pace": 2.56,
-   "rising": true,
-   "rising_since": "2026-10-20T18:55:00+00:00"
-  },
-  {
-   "ticker": "WELL.TO",
-   "name": "WELL HEALTH TECHNOLOGIES CORP",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 4.32,
-   "pct_day": 3.1,
-   "pct_30m": 0.23,
-   "volume_pace": 1.76,
-   "rising": true,
-   "rising_since": "2026-10-20T19:30:00+00:00"
+   "rising_since": "2026-10-20T20:00:00+00:00"
   },
   {
    "ticker": "AIDX.TO",
    "name": "HEALWELL AI INC",
-   "as_of": "2026-10-20T19:20:00+00:00",
-   "last": 0.68,
-   "pct_day": 3.03,
-   "pct_30m": 3.03,
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.69,
+   "pct_day": 4.55,
+   "pct_30m": 1.47,
    "volume_pace": 1.67,
    "rising": true,
-   "rising_since": "2026-10-20T19:20:00+00:00"
+   "rising_since": "2026-10-20T20:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -567,20 +534,20 @@
    "last": 0.18,
    "pct_day": 28.57,
    "pct_30m": 20.0,
-   "volume_pace": 0.47,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "KTO.V",
    "name": "K2 GOLD CORPORATION",
-   "as_of": "2026-10-20T19:35:00+00:00",
-   "last": 0.85,
-   "pct_day": 23.19,
-   "pct_30m": 0.0,
-   "volume_pace": 5.47,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.86,
+   "pct_day": 24.64,
+   "pct_30m": 1.18,
+   "volume_pace": 5.49,
+   "rising": true,
+   "rising_since": "2026-10-20T20:00:00+00:00"
   },
   {
    "ticker": "MRVL.V",
@@ -605,68 +572,68 @@
    "rising_since": null
   },
   {
-   "ticker": "COCO.V",
-   "name": "COAST COPPER CORP",
-   "as_of": "2026-10-20T14:00:00+00:00",
-   "last": 0.36,
-   "pct_day": 16.13,
-   "pct_30m": 10.77,
-   "volume_pace": 0.0,
+   "ticker": "BBB.V",
+   "name": "BRIXTON METALS CORPORATION",
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.69,
+   "pct_day": 13.11,
+   "pct_30m": 2.99,
+   "volume_pace": 1.05,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VM.V",
+   "name": "VOYAGEUR PHARMACEUTICALS LTD",
+   "as_of": "2026-10-20T19:40:00+00:00",
+   "last": 0.14,
+   "pct_day": 12.0,
+   "pct_30m": 3.7,
+   "volume_pace": 12.02,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PLSR.V",
    "name": "PULSAR HELIUM INC",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 1.335,
-   "pct_day": 15.58,
-   "pct_30m": -1.11,
-   "volume_pace": 3.12,
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 1.28,
+   "pct_day": 10.82,
+   "pct_30m": -4.12,
+   "volume_pace": 3.02,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ARCH.V",
-   "name": "ARCH BIOPARTNERS INC",
-   "as_of": "2026-10-20T19:10:00+00:00",
-   "last": 0.88,
-   "pct_day": 11.39,
-   "pct_30m": 7.32,
-   "volume_pace": 5.06,
+   "ticker": "SGLD.V",
+   "name": "SCORPIO GOLD CORPORATION",
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.26,
+   "pct_day": 10.64,
+   "pct_30m": 4.0,
+   "volume_pace": 1.13,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "BBB.V",
-   "name": "BRIXTON METALS CORPORATION",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 0.67,
-   "pct_day": 9.84,
-   "pct_30m": 0.0,
-   "volume_pace": 1.05,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SILV.V",
-   "name": "SILVER VALLEY METALS CORP",
-   "as_of": "2026-10-20T19:25:00+00:00",
-   "last": 0.115,
-   "pct_day": 9.52,
-   "pct_30m": 0.0,
-   "volume_pace": 0.2,
+   "ticker": "GLAD.V",
+   "name": "GLADIATOR METALS CORP",
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 1.99,
+   "pct_day": 10.56,
+   "pct_30m": 2.05,
+   "volume_pace": 0.38,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TXP.TO",
    "name": "TOUCHSTONE EXPLORATION INC",
-   "as_of": "2026-10-20T19:20:00+00:00",
-   "last": 0.19,
-   "pct_day": 11.76,
-   "pct_30m": 1.33,
-   "volume_pace": 3.74,
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.195,
+   "pct_day": 14.71,
+   "pct_30m": 2.63,
+   "volume_pace": 3.46,
    "rising": false,
    "rising_since": null
   },
@@ -677,95 +644,95 @@
    "last": 0.175,
    "pct_day": 9.37,
    "pct_30m": 0.0,
-   "volume_pace": 0.38,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "LUC.TO",
-   "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 0.13,
-   "pct_day": 8.33,
-   "pct_30m": 8.33,
-   "volume_pace": 7.17,
-   "rising": true,
-   "rising_since": "2026-10-20T19:30:00+00:00"
-  },
-  {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 1.645,
-   "pct_day": 7.52,
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 1.65,
+   "pct_day": 7.84,
    "pct_30m": 0.3,
-   "volume_pace": 0.63,
+   "volume_pace": 0.71,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ESI.TO",
    "name": "ENSIGN ENERGY SERVICES INC.",
-   "as_of": "2026-10-20T19:30:00+00:00",
+   "as_of": "2026-10-20T20:00:00+00:00",
    "last": 4.22,
    "pct_day": 6.57,
-   "pct_30m": 1.44,
-   "volume_pace": 3.99,
-   "rising": true,
-   "rising_since": "2026-10-20T19:10:00+00:00"
-  },
-  {
-   "ticker": "SYZ.TO",
-   "name": "SYLOGIST LTD",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 2.85,
-   "pct_day": 5.56,
-   "pct_30m": 1.42,
-   "volume_pace": 1.13,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SLVR.TO",
-   "name": "SILVER TIGER METALS INC",
-   "as_of": "2026-10-20T19:30:00+00:00",
-   "last": 0.81,
-   "pct_day": 5.19,
    "pct_30m": 0.0,
-   "volume_pace": 0.44,
+   "volume_pace": 4.1,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "ESM.TO",
+   "name": "EURO SUN MINING INC",
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.17,
+   "pct_day": 6.25,
+   "pct_30m": 3.03,
+   "volume_pace": 1.56,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AIDX.TO",
+   "name": "HEALWELL AI INC",
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 0.69,
+   "pct_day": 4.55,
+   "pct_30m": 1.47,
+   "volume_pace": 1.67,
+   "rising": true,
+   "rising_since": "2026-10-20T20:00:00+00:00"
   },
   {
    "ticker": "PTM.TO",
    "name": "PLATINUM GROUP METALS LTD.",
-   "as_of": "2026-10-20T19:30:00+00:00",
+   "as_of": "2026-10-20T20:00:00+00:00",
    "last": 1.64,
    "pct_day": 4.46,
-   "pct_30m": -0.3,
-   "volume_pace": 1.06,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NDM.TO",
-   "name": "NORTHERN DYNASTY MINERALS LTD.",
-   "as_of": "2026-10-20T19:35:00+00:00",
-   "last": 1.24,
-   "pct_day": 4.2,
-   "pct_30m": -0.4,
-   "volume_pace": 1.46,
+   "pct_30m": 0.0,
+   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GRID.TO",
    "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-10-20T19:30:00+00:00",
+   "as_of": "2026-10-20T20:00:00+00:00",
    "last": 4.26,
    "pct_day": 4.16,
    "pct_30m": 0.0,
-   "volume_pace": 0.63,
+   "volume_pace": 0.7,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SYZ.TO",
+   "name": "SYLOGIST LTD",
+   "as_of": "2026-10-20T20:00:00+00:00",
+   "last": 2.81,
+   "pct_day": 4.07,
+   "pct_30m": -1.4,
+   "volume_pace": 1.31,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ECO.TO",
+   "name": "ECOSYNTHETIX INC",
+   "as_of": "2026-10-20T19:45:00+00:00",
+   "last": 1.81,
+   "pct_day": 4.02,
+   "pct_30m": 0.0,
+   "volume_pace": 0.16,
    "rising": false,
    "rising_since": null
   }
@@ -1365,9 +1332,9 @@
    "ma200": 975.87,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-20T19:35:00+00:00",
-    "last": 847.65,
-    "pct_day": 0.11
+    "as_of": "2026-10-20T20:00:00+00:00",
+    "last": 844.96,
+    "pct_day": -0.21
    }
   },
   "^GSPTSE": {
@@ -1964,9 +1931,9 @@
    "ma200": 34420.07,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-20T19:35:00+00:00",
-    "last": 36137.96,
-    "pct_day": 0.58
+    "as_of": "2026-10-20T20:00:00+00:00",
+    "last": 36100.92,
+    "pct_day": 0.48
    }
   }
  },
