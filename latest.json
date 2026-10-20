@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T12:01-06:00",
+ "generated": "2026-10-20T12:31-06:00",
  "last_close_day": "2026-10-19",
  "tracked": 646,
  "tracked_by_market": {
@@ -490,15 +490,15 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-20T18:05:00+00:00",
+ "live_as_of": "2026-10-20T18:35:00+00:00",
  "rising": [
   {
    "ticker": "KTO.V",
    "name": "K2 GOLD CORPORATION",
-   "as_of": "2026-10-20T18:00:00+00:00",
-   "last": 0.8,
-   "pct_day": 15.94,
-   "pct_30m": 1.27,
+   "as_of": "2026-10-20T18:15:00+00:00",
+   "last": 0.81,
+   "pct_day": 17.39,
+   "pct_30m": 2.53,
    "volume_pace": 5.63,
    "rising": true,
    "rising_since": "2026-10-20T18:00:00+00:00"
@@ -506,46 +506,35 @@
   {
    "ticker": "PLSR.V",
    "name": "PULSAR HELIUM INC",
-   "as_of": "2026-10-20T18:00:00+00:00",
-   "last": 1.24,
-   "pct_day": 7.36,
-   "pct_30m": 2.48,
-   "volume_pace": 3.27,
+   "as_of": "2026-10-20T18:30:00+00:00",
+   "last": 1.3,
+   "pct_day": 12.55,
+   "pct_30m": 4.84,
+   "volume_pace": 3.21,
    "rising": true,
    "rising_since": "2026-10-20T17:10:00+00:00"
   },
   {
-   "ticker": "OM.TO",
-   "name": "OSISKO METALS INCORPORATED",
-   "as_of": "2026-10-20T18:00:00+00:00",
-   "last": 1.64,
-   "pct_day": 3.8,
-   "pct_30m": 0.31,
-   "volume_pace": 1.52,
+   "ticker": "PSD.TO",
+   "name": "PULSE SEISMIC INC.",
+   "as_of": "2026-10-20T18:20:00+00:00",
+   "last": 3.28,
+   "pct_day": 4.13,
+   "pct_30m": 0.61,
+   "volume_pace": 1.93,
    "rising": true,
-   "rising_since": "2026-10-20T17:50:00+00:00"
-  },
-  {
-   "ticker": "S.TO",
-   "name": "SHERRITT INTL RV",
-   "as_of": "2026-10-20T17:45:00+00:00",
-   "last": 0.275,
-   "pct_day": 3.77,
-   "pct_30m": 1.85,
-   "volume_pace": 5.13,
-   "rising": true,
-   "rising_since": "2026-10-20T17:45:00+00:00"
+   "rising_since": "2026-10-20T18:20:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "ADZ.V",
    "name": "ADAMERA MINERALS CORP",
-   "as_of": "2026-10-20T17:35:00+00:00",
-   "last": 0.16,
-   "pct_day": 33.33,
-   "pct_30m": 6.67,
-   "volume_pace": 0.99,
+   "as_of": "2026-10-20T18:15:00+00:00",
+   "last": 0.17,
+   "pct_day": 41.67,
+   "pct_30m": 6.25,
+   "volume_pace": 0.94,
    "rising": false,
    "rising_since": null
   },
@@ -572,6 +561,17 @@
    "rising_since": null
   },
   {
+   "ticker": "KTO.V",
+   "name": "K2 GOLD CORPORATION",
+   "as_of": "2026-10-20T18:15:00+00:00",
+   "last": 0.81,
+   "pct_day": 17.39,
+   "pct_30m": 2.53,
+   "volume_pace": 5.63,
+   "rising": true,
+   "rising_since": "2026-10-20T18:00:00+00:00"
+  },
+  {
    "ticker": "COCO.V",
    "name": "COAST COPPER CORP",
    "as_of": "2026-10-20T14:00:00+00:00",
@@ -583,35 +583,24 @@
    "rising_since": null
   },
   {
-   "ticker": "KTO.V",
-   "name": "K2 GOLD CORPORATION",
-   "as_of": "2026-10-20T18:00:00+00:00",
-   "last": 0.8,
-   "pct_day": 15.94,
-   "pct_30m": 1.27,
-   "volume_pace": 5.63,
+   "ticker": "PLSR.V",
+   "name": "PULSAR HELIUM INC",
+   "as_of": "2026-10-20T18:30:00+00:00",
+   "last": 1.3,
+   "pct_day": 12.55,
+   "pct_30m": 4.84,
+   "volume_pace": 3.21,
    "rising": true,
-   "rising_since": "2026-10-20T18:00:00+00:00"
-  },
-  {
-   "ticker": "PER.V",
-   "name": "PERUVIAN METALS CORP",
-   "as_of": "2026-10-20T16:10:00+00:00",
-   "last": 0.125,
-   "pct_day": 13.64,
-   "pct_30m": 4.17,
-   "volume_pace": 7.43,
-   "rising": false,
-   "rising_since": null
+   "rising_since": "2026-10-20T17:10:00+00:00"
   },
   {
    "ticker": "OMI.V",
    "name": "OROSUR MINING INC",
-   "as_of": "2026-10-20T17:35:00+00:00",
+   "as_of": "2026-10-20T18:15:00+00:00",
    "last": 0.245,
    "pct_day": 11.36,
    "pct_30m": 0.0,
-   "volume_pace": 0.71,
+   "volume_pace": 0.61,
    "rising": false,
    "rising_since": null
   },
@@ -671,92 +660,92 @@
    "rising_since": null
   },
   {
+   "ticker": "SYZ.TO",
+   "name": "SYLOGIST LTD",
+   "as_of": "2026-10-20T18:30:00+00:00",
+   "last": 2.93,
+   "pct_day": 8.52,
+   "pct_30m": 3.17,
+   "volume_pace": 1.16,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-10-20T18:00:00+00:00",
-   "last": 1.645,
-   "pct_day": 7.52,
-   "pct_30m": 0.3,
-   "volume_pace": 0.8,
+   "as_of": "2026-10-20T18:30:00+00:00",
+   "last": 1.64,
+   "pct_day": 7.19,
+   "pct_30m": -0.3,
+   "volume_pace": 0.73,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ESI.TO",
    "name": "ENSIGN ENERGY SERVICES INC.",
-   "as_of": "2026-10-20T18:05:00+00:00",
-   "last": 4.23,
-   "pct_day": 6.82,
-   "pct_30m": -0.94,
-   "volume_pace": 4.57,
+   "as_of": "2026-10-20T18:30:00+00:00",
+   "last": 4.19,
+   "pct_day": 5.81,
+   "pct_30m": -1.18,
+   "volume_pace": 4.49,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GRID.TO",
    "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-10-20T17:55:00+00:00",
-   "last": 4.34,
-   "pct_day": 6.11,
-   "pct_30m": 1.17,
-   "volume_pace": 0.69,
+   "as_of": "2026-10-20T18:25:00+00:00",
+   "last": 4.32,
+   "pct_day": 5.62,
+   "pct_30m": -0.46,
+   "volume_pace": 0.63,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PTM.TO",
    "name": "PLATINUM GROUP METALS LTD.",
-   "as_of": "2026-10-20T18:00:00+00:00",
+   "as_of": "2026-10-20T18:30:00+00:00",
    "last": 1.655,
    "pct_day": 5.41,
-   "pct_30m": 0.3,
-   "volume_pace": 1.21,
+   "pct_30m": 0.0,
+   "volume_pace": 1.16,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "SLVR.TO",
    "name": "SILVER TIGER METALS INC",
-   "as_of": "2026-10-20T18:00:00+00:00",
+   "as_of": "2026-10-20T18:35:00+00:00",
    "last": 0.81,
    "pct_day": 5.19,
-   "pct_30m": 0.0,
-   "volume_pace": 0.52,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SYZ.TO",
-   "name": "SYLOGIST LTD",
-   "as_of": "2026-10-20T17:45:00+00:00",
-   "last": 2.84,
-   "pct_day": 5.19,
-   "pct_30m": 3.27,
-   "volume_pace": 1.28,
+   "pct_30m": 0.62,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BRC.TO",
    "name": "BLACKROCK SILVER CORP",
-   "as_of": "2026-10-20T17:40:00+00:00",
+   "as_of": "2026-10-20T18:30:00+00:00",
    "last": 0.88,
    "pct_day": 4.76,
-   "pct_30m": 1.15,
-   "volume_pace": 0.28,
+   "pct_30m": 0.0,
+   "volume_pace": 0.24,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-20T17:50:00+00:00",
-   "last": 0.365,
-   "pct_day": 4.29,
-   "pct_30m": 1.39,
-   "volume_pace": 0.02,
-   "rising": false,
-   "rising_since": null
+   "ticker": "PSD.TO",
+   "name": "PULSE SEISMIC INC.",
+   "as_of": "2026-10-20T18:20:00+00:00",
+   "last": 3.28,
+   "pct_day": 4.13,
+   "pct_30m": 0.61,
+   "volume_pace": 1.93,
+   "rising": true,
+   "rising_since": "2026-10-20T18:20:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1354,9 +1343,9 @@
    "ma200": 975.87,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-20T18:05:00+00:00",
-    "last": 849.86,
-    "pct_day": 0.37
+    "as_of": "2026-10-20T18:35:00+00:00",
+    "last": 849.1,
+    "pct_day": 0.28
    }
   },
   "^GSPTSE": {
@@ -1953,9 +1942,9 @@
    "ma200": 34420.07,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-20T18:05:00+00:00",
-    "last": 36185.99,
-    "pct_day": 0.72
+    "as_of": "2026-10-20T18:35:00+00:00",
+    "last": 36152.79,
+    "pct_day": 0.62
    }
   }
  },
