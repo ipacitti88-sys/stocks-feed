@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-21T13:31-06:00
+# Stock feed — 2026-10-21T14:01-06:00
 
-Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.1% at 19:35
-Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.6% at 19:35
+Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.2% at 20:00
+Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.6% at 20:00
 
 # TSX Venture
 
@@ -20,7 +20,7 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- B.V (BCM RESOURCES CORPORATION): +10.3% today at 0.64, last 30m +3.2%, volume pace 1.57x, rising since 2026-10-21T19:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -37,16 +37,16 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- UTWO.V (U92 ENERGY CORP): +22.0% at 0.36, volume pace 0.36x
-- SAGE.V (SAGE POTASH CORP): +21.7% at 0.14, volume pace 7.51x
-- DEC.V (DECADE RESOURCES LTD.): +17.4% at 0.135, volume pace 0.68x
-- GSTM.V (GOLDSTORM METALS CORP): +13.3% at 0.17, volume pace 12.67x
+- SAGE.V (SAGE POTASH CORP): +21.7% at 0.14, volume pace 7.47x
+- UTWO.V (U92 ENERGY CORP): +16.9% at 0.345, volume pace 0.69x
+- GSTM.V (GOLDSTORM METALS CORP): +16.7% at 0.175, volume pace 10.11x
+- HDRO.V (PRIMARY HYDROGEN CORP): +16.7% at 1.05, volume pace 0.39x
+- PURO.V (PLATAURO METALS CORP): +14.3% at 0.12, volume pace 0.27x
 - CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +13.3% at 0.17, volume pace 1.44x
+- DEC.V (DECADE RESOURCES LTD.): +13.0% at 0.13, volume pace 0.69x
 - ONE.V (01 Quantum): +12.2% at 0.46, volume pace 0.9x
-- KFR.V (KINGFISHER METALS CORP): +12.1% at 1.02, volume pace 3.06x
-- VRR.V (VR RESOURCES LTD): +11.2% at 0.445, volume pace 0.07x
-- CCMM.V (COYOTE COPPER MINES INC): +10.0% at 0.44, volume pace 0.51x
-- LCE.V (CENTURY LITHIUM CORP): +9.5% at 0.23, volume pace 0.1x
+- KFR.V (KINGFISHER METALS CORP): +12.1% at 1.02, volume pace 3.08x
+- SCLT.V (SEARCHLIGHT RESOURCES INC): +11.4% at 0.195, volume pace 1.12x
 
 # TSX
 
@@ -66,7 +66,8 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- MCB.TO (MCCOY GLOBAL INC): +7.0% today at 2.59, last 30m +0.4%, volume pace 2.78x, rising since 2026-10-21T19:50:00+00:00
+- WGX.TO (WESTGOLD RESOURCES LIMITED): +4.6% today at 5.03, last 30m +0.6%, volume pace 1.59x, rising since 2026-10-21T20:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -84,12 +85,12 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 ## TSX: top gainers in latest intraday pass
 
 - BYL.TO (BAYLIN TECHNOLOGIES INC): +15.7% at 0.2025, volume pace 9.19x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.13, volume pace 0.77x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +10.7% at 1.14, volume pace 1.23x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +9.1% at 0.12, volume pace 0.51x
-- URE.TO (UR-ENERGY INC.): +8.7% at 1.25, volume pace 1.85x
+- THNC.TO (THINKIFIC LABS INC): +9.1% at 2.28, volume pace 0.27x
 - LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.44x
-- MCB.TO (MCCOY GLOBAL INC): +6.6% at 2.58, volume pace 2.95x
-- THNC.TO (THINKIFIC LABS INC): +5.5% at 2.205, volume pace 0.21x
+- URE.TO (UR-ENERGY INC.): +7.8% at 1.24, volume pace 1.89x
+- MCB.TO (MCCOY GLOBAL INC): +7.0% at 2.59, volume pace 2.78x
 - COPR.TO (COPPERNICO METALS INC): +5.4% at 0.39, volume pace 0.14x
-- EDCU.TO (EDGE COPPER CORPORATION): +5.3% at 0.4, volume pace 0.72x
 - DYA.TO (DYNACERT INC): +5.0% at 0.105, volume pace 0.84x
+- ILLM.TO (iLLUMIN HOLDINGS INC): +5.0% at 0.63, volume pace 1.83x
