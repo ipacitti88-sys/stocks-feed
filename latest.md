@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-21T12:31-06:00
+# Stock feed — 2026-10-21T13:01-06:00
 
-Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.4% at 18:35
-Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.7% at 18:35
+Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.1% at 19:05
+Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.4% at 19:05
 
 # TSX Venture
 
@@ -20,8 +20,8 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- KFR.V (KINGFISHER METALS CORP): +14.3% today at 1.04, last 30m +0.5%, volume pace 3.19x, rising since 2026-10-21T18:30:00+00:00
-- B.V (BCM RESOURCES CORPORATION): +6.9% today at 0.62, last 30m +1.6%, volume pace 1.76x, rising since 2026-10-21T18:30:00+00:00
+- KFR.V (KINGFISHER METALS CORP): +15.4% today at 1.05, last 30m +1.0%, volume pace 3.3x, rising since 2026-10-21T18:30:00+00:00
+- B.V (BCM RESOURCES CORPORATION): +6.9% today at 0.62, last 30m +1.6%, volume pace 1.65x, rising since 2026-10-21T18:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -38,16 +38,16 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- SAGE.V (SAGE POTASH CORP): +21.7% at 0.14, volume pace 10.52x
-- DEC.V (DECADE RESOURCES LTD.): +17.4% at 0.135, volume pace 0.65x
-- GSTM.V (GOLDSTORM METALS CORP): +16.7% at 0.175, volume pace 12.96x
-- UTWO.V (U92 ENERGY CORP): +15.2% at 0.34, volume pace 0.37x
-- KFR.V (KINGFISHER METALS CORP): +14.3% at 1.04, volume pace 3.19x
+- SAGE.V (SAGE POTASH CORP): +21.7% at 0.14, volume pace 7.61x
+- DEC.V (DECADE RESOURCES LTD.): +17.4% at 0.135, volume pace 0.61x
+- KFR.V (KINGFISHER METALS CORP): +15.4% at 1.05, volume pace 3.3x
+- GSTM.V (GOLDSTORM METALS CORP): +13.3% at 0.17, volume pace 12.67x
 - CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +13.3% at 0.17, volume pace 1.44x
+- UTWO.V (U92 ENERGY CORP): +11.9% at 0.33, volume pace 0.35x
+- VRR.V (VR RESOURCES LTD): +11.2% at 0.445, volume pace 0.07x
 - CCMM.V (COYOTE COPPER MINES INC): +10.0% at 0.44, volume pace 0.51x
-- LCE.V (CENTURY LITHIUM CORP): +9.5% at 0.23, volume pace 0.02x
+- LCE.V (CENTURY LITHIUM CORP): +9.5% at 0.23, volume pace 0.1x
 - KNOX.V (VAULT STRATEGIC MINING CORP): +9.1% at 0.12, volume pace 0.65x
-- SCLT.V (SEARCHLIGHT RESOURCES INC): +8.6% at 0.19, volume pace 1.29x
 
 # TSX
 
@@ -84,13 +84,13 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +14.3% at 0.2, volume pace 12.87x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.13, volume pace 0.86x
-- URE.TO (UR-ENERGY INC.): +9.6% at 1.26, volume pace 2.11x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +15.7% at 0.2025, volume pace 9.17x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.13, volume pace 0.76x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +9.1% at 0.12, volume pace 0.51x
-- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.5x
-- MCB.TO (MCCOY GLOBAL INC): +7.4% at 2.6, volume pace 0.69x
+- URE.TO (UR-ENERGY INC.): +8.7% at 1.25, volume pace 1.98x
+- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.43x
+- MCB.TO (MCCOY GLOBAL INC): +7.0% at 2.59, volume pace 1.57x
+- COPR.TO (COPPERNICO METALS INC): +6.8% at 0.395, volume pace 0.14x
 - EDCU.TO (EDGE COPPER CORPORATION): +5.3% at 0.4, volume pace 0.72x
 - DYA.TO (DYNACERT INC): +5.0% at 0.105, volume pace 0.84x
-- HMMC.TO (HEMLO MINING CORP): +4.9% at 5.55, volume pace 2.41x
-- PYR.TO (PYROGENESIS INC): +4.8% at 0.22, volume pace 0.39x
+- PYR.TO (PYROGENESIS INC): +4.8% at 0.22, volume pace 0.41x
