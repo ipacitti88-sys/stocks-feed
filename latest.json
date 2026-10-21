@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T13:01-06:00",
+ "generated": "2026-10-21T13:31-06:00",
  "last_close_day": "2026-10-20",
  "tracked": 653,
  "tracked_by_market": {
@@ -475,64 +475,41 @@
    "added": "2026-10-15"
   }
  ],
- "live_as_of": "2026-10-21T19:05:00+00:00",
- "rising": [
-  {
-   "ticker": "KFR.V",
-   "name": "KINGFISHER METALS CORP",
-   "as_of": "2026-10-21T19:00:00+00:00",
-   "last": 1.05,
-   "pct_day": 15.38,
-   "pct_30m": 0.96,
-   "volume_pace": 3.3,
-   "rising": true,
-   "rising_since": "2026-10-21T18:30:00+00:00"
-  },
-  {
-   "ticker": "B.V",
-   "name": "BCM RESOURCES CORPORATION",
-   "as_of": "2026-10-21T18:50:00+00:00",
-   "last": 0.62,
-   "pct_day": 6.9,
-   "pct_30m": 1.64,
-   "volume_pace": 1.65,
-   "rising": true,
-   "rising_since": "2026-10-21T18:30:00+00:00"
-  }
- ],
+ "live_as_of": "2026-10-21T19:35:00+00:00",
+ "rising": [],
  "top_gainers_today": [
+  {
+   "ticker": "UTWO.V",
+   "name": "U92 ENERGY CORP",
+   "as_of": "2026-10-21T19:30:00+00:00",
+   "last": 0.36,
+   "pct_day": 22.03,
+   "pct_30m": 9.09,
+   "volume_pace": 0.36,
+   "rising": false,
+   "rising_since": null
+  },
   {
    "ticker": "SAGE.V",
    "name": "SAGE POTASH CORP",
-   "as_of": "2026-10-21T18:55:00+00:00",
+   "as_of": "2026-10-21T19:15:00+00:00",
    "last": 0.14,
    "pct_day": 21.74,
    "pct_30m": 0.0,
-   "volume_pace": 7.61,
+   "volume_pace": 7.51,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DEC.V",
    "name": "DECADE RESOURCES LTD.",
-   "as_of": "2026-10-21T19:00:00+00:00",
+   "as_of": "2026-10-21T19:30:00+00:00",
    "last": 0.135,
    "pct_day": 17.39,
    "pct_30m": 0.0,
-   "volume_pace": 0.61,
+   "volume_pace": 0.68,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "KFR.V",
-   "name": "KINGFISHER METALS CORP",
-   "as_of": "2026-10-21T19:00:00+00:00",
-   "last": 1.05,
-   "pct_day": 15.38,
-   "pct_30m": 0.96,
-   "volume_pace": 3.3,
-   "rising": true,
-   "rising_since": "2026-10-21T18:30:00+00:00"
   },
   {
    "ticker": "GSTM.V",
@@ -557,13 +534,24 @@
    "rising_since": null
   },
   {
-   "ticker": "UTWO.V",
-   "name": "U92 ENERGY CORP",
-   "as_of": "2026-10-21T18:50:00+00:00",
-   "last": 0.33,
-   "pct_day": 11.86,
-   "pct_30m": -2.94,
-   "volume_pace": 0.35,
+   "ticker": "ONE.V",
+   "name": "01 Quantum",
+   "as_of": "2026-10-21T19:10:00+00:00",
+   "last": 0.46,
+   "pct_day": 12.2,
+   "pct_30m": 4.55,
+   "volume_pace": 0.9,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "KFR.V",
+   "name": "KINGFISHER METALS CORP",
+   "as_of": "2026-10-21T19:30:00+00:00",
+   "last": 1.02,
+   "pct_day": 12.09,
+   "pct_30m": -2.86,
+   "volume_pace": 3.06,
    "rising": false,
    "rising_since": null
   },
@@ -601,24 +589,13 @@
    "rising_since": null
   },
   {
-   "ticker": "KNOX.V",
-   "name": "VAULT STRATEGIC MINING CORP",
-   "as_of": "2026-10-21T17:10:00+00:00",
-   "last": 0.12,
-   "pct_day": 9.09,
-   "pct_30m": 0.0,
-   "volume_pace": 0.65,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "BYL.TO",
    "name": "BAYLIN TECHNOLOGIES INC",
    "as_of": "2026-10-21T19:00:00+00:00",
    "last": 0.2025,
    "pct_day": 15.71,
    "pct_30m": 1.25,
-   "volume_pace": 9.17,
+   "volume_pace": 9.19,
    "rising": false,
    "rising_since": null
   },
@@ -629,7 +606,7 @@
    "last": 1.13,
    "pct_day": 9.71,
    "pct_30m": 0.0,
-   "volume_pace": 0.76,
+   "volume_pace": 0.77,
    "rising": false,
    "rising_since": null
   },
@@ -647,11 +624,11 @@
   {
    "ticker": "URE.TO",
    "name": "UR-ENERGY INC.",
-   "as_of": "2026-10-21T19:05:00+00:00",
+   "as_of": "2026-10-21T19:35:00+00:00",
    "last": 1.25,
    "pct_day": 8.7,
-   "pct_30m": -0.79,
-   "volume_pace": 1.98,
+   "pct_30m": 0.0,
+   "volume_pace": 1.85,
    "rising": false,
    "rising_since": null
   },
@@ -662,28 +639,39 @@
    "last": 0.13,
    "pct_day": 8.33,
    "pct_30m": 0.0,
-   "volume_pace": 0.43,
+   "volume_pace": 0.44,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "MCB.TO",
    "name": "MCCOY GLOBAL INC",
-   "as_of": "2026-10-21T18:55:00+00:00",
-   "last": 2.59,
-   "pct_day": 7.02,
-   "pct_30m": -0.38,
-   "volume_pace": 1.57,
+   "as_of": "2026-10-21T19:30:00+00:00",
+   "last": 2.58,
+   "pct_day": 6.61,
+   "pct_30m": -0.39,
+   "volume_pace": 2.95,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "THNC.TO",
+   "name": "THINKIFIC LABS INC",
+   "as_of": "2026-10-21T19:30:00+00:00",
+   "last": 2.205,
+   "pct_day": 5.5,
+   "pct_30m": 2.56,
+   "volume_pace": 0.21,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "COPR.TO",
    "name": "COPPERNICO METALS INC",
-   "as_of": "2026-10-21T18:40:00+00:00",
-   "last": 0.395,
-   "pct_day": 6.76,
-   "pct_30m": 3.95,
+   "as_of": "2026-10-21T19:20:00+00:00",
+   "last": 0.39,
+   "pct_day": 5.41,
+   "pct_30m": -1.27,
    "volume_pace": 0.14,
    "rising": false,
    "rising_since": null
@@ -707,17 +695,6 @@
    "pct_day": 5.0,
    "pct_30m": 5.0,
    "volume_pace": 0.84,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PYR.TO",
-   "name": "PYROGENESIS INC",
-   "as_of": "2026-10-21T18:25:00+00:00",
-   "last": 0.22,
-   "pct_day": 4.76,
-   "pct_30m": 0.0,
-   "volume_pace": 0.41,
    "rising": false,
    "rising_since": null
   }
@@ -1317,8 +1294,8 @@
    "ma200": 975.13,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-21T19:05:00+00:00",
-    "last": 846.4,
+    "as_of": "2026-10-21T19:35:00+00:00",
+    "last": 846.42,
     "pct_day": 0.05
    }
   },
@@ -1916,9 +1893,9 @@
    "ma200": 34441.2,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-21T19:05:00+00:00",
-    "last": 36266.91,
-    "pct_day": 0.44
+    "as_of": "2026-10-21T19:35:00+00:00",
+    "last": 36333.18,
+    "pct_day": 0.62
    }
   }
  },
