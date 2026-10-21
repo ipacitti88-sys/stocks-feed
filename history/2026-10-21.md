@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-21T12:01-06:00
+# Stock feed — 2026-10-21T12:31-06:00
 
-Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T18:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T18:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.3% at 18:05
-Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.8% at 18:05
+Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.4% at 18:35
+Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.7% at 18:35
 
 # TSX Venture
 
@@ -20,7 +20,8 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- MMA.V (MIDNIGHT SUN MINING CORP): +3.8% today at 0.41, last 30m +1.2%, volume pace 1.51x, rising since 2026-10-21T17:50:00+00:00
+- KFR.V (KINGFISHER METALS CORP): +14.3% today at 1.04, last 30m +0.5%, volume pace 3.19x, rising since 2026-10-21T18:30:00+00:00
+- B.V (BCM RESOURCES CORPORATION): +6.9% today at 0.62, last 30m +1.6%, volume pace 1.76x, rising since 2026-10-21T18:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -38,13 +39,13 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - SAGE.V (SAGE POTASH CORP): +21.7% at 0.14, volume pace 10.52x
-- DEC.V (DECADE RESOURCES LTD.): +17.4% at 0.135, volume pace 0.66x
-- GSTM.V (GOLDSTORM METALS CORP): +16.7% at 0.175, volume pace 15.59x
-- UTWO.V (U92 ENERGY CORP): +15.2% at 0.34, volume pace 0.4x
-- ONE.V (01 Quantum): +14.6% at 0.47, volume pace 0.48x
-- KFR.V (KINGFISHER METALS CORP): +13.7% at 1.035, volume pace 3.56x
+- DEC.V (DECADE RESOURCES LTD.): +17.4% at 0.135, volume pace 0.65x
+- GSTM.V (GOLDSTORM METALS CORP): +16.7% at 0.175, volume pace 12.96x
+- UTWO.V (U92 ENERGY CORP): +15.2% at 0.34, volume pace 0.37x
+- KFR.V (KINGFISHER METALS CORP): +14.3% at 1.04, volume pace 3.19x
 - CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +13.3% at 0.17, volume pace 1.44x
 - CCMM.V (COYOTE COPPER MINES INC): +10.0% at 0.44, volume pace 0.51x
+- LCE.V (CENTURY LITHIUM CORP): +9.5% at 0.23, volume pace 0.02x
 - KNOX.V (VAULT STRATEGIC MINING CORP): +9.1% at 0.12, volume pace 0.65x
 - SCLT.V (SEARCHLIGHT RESOURCES INC): +8.6% at 0.19, volume pace 1.29x
 
@@ -66,9 +67,7 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- URE.TO (UR-ENERGY INC.): +10.4% today at 1.27, last 30m +0.8%, volume pace 2.21x, rising since 2026-10-21T17:35:00+00:00
-- HMMC.TO (HEMLO MINING CORP): +5.1% today at 5.56, last 30m +1.1%, volume pace 2.66x, rising since 2026-10-21T17:40:00+00:00
-- CRON.TO (CRONOS GROUP INC): +4.3% today at 4.83, last 30m +0.2%, volume pace 1.62x, rising since 2026-10-21T17:55:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -86,12 +85,12 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 ## TSX: top gainers in latest intraday pass
 
 - BYL.TO (BAYLIN TECHNOLOGIES INC): +14.3% at 0.2, volume pace 12.87x
-- URE.TO (UR-ENERGY INC.): +10.4% at 1.27, volume pace 2.21x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +8.7% at 1.12, volume pace 0.94x
-- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.67x
-- MCB.TO (MCCOY GLOBAL INC): +8.3% at 2.62, volume pace 0.65x
-- SAM.TO (STARCORE INTERNATIONAL MINES LT): +6.3% at 0.335, volume pace 0.25x
-- EDCU.TO (EDGE COPPER CORPORATION): +5.3% at 0.4, volume pace 0.68x
-- HMMC.TO (HEMLO MINING CORP): +5.1% at 5.56, volume pace 2.66x
-- PYR.TO (PYROGENESIS INC): +4.8% at 0.22, volume pace 0.38x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.5% at 4.44, volume pace 0.82x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.13, volume pace 0.86x
+- URE.TO (UR-ENERGY INC.): +9.6% at 1.26, volume pace 2.11x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +9.1% at 0.12, volume pace 0.51x
+- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.5x
+- MCB.TO (MCCOY GLOBAL INC): +7.4% at 2.6, volume pace 0.69x
+- EDCU.TO (EDGE COPPER CORPORATION): +5.3% at 0.4, volume pace 0.72x
+- DYA.TO (DYNACERT INC): +5.0% at 0.105, volume pace 0.84x
+- HMMC.TO (HEMLO MINING CORP): +4.9% at 5.55, volume pace 2.41x
+- PYR.TO (PYROGENESIS INC): +4.8% at 0.22, volume pace 0.39x
