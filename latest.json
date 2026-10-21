@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T08:31-06:00",
+ "generated": "2026-10-21T09:01-06:00",
  "last_close_day": "2026-10-20",
  "tracked": 653,
  "tracked_by_market": {
@@ -475,75 +475,97 @@
    "added": "2026-10-15"
   }
  ],
- "live_as_of": "2026-10-21T14:35:00+00:00",
+ "live_as_of": "2026-10-21T15:05:00+00:00",
  "rising": [
   {
-   "ticker": "B.V",
-   "name": "BCM RESOURCES CORPORATION",
-   "as_of": "2026-10-21T14:25:00+00:00",
-   "last": 0.65,
-   "pct_day": 12.07,
-   "pct_30m": 8.33,
-   "volume_pace": 4.86,
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-10-21T14:50:00+00:00",
+   "last": 1.12,
+   "pct_day": 8.74,
+   "pct_30m": 2.75,
+   "volume_pace": 2.63,
    "rising": true,
-   "rising_since": "2026-10-21T13:40:00+00:00"
+   "rising_since": "2026-10-21T14:40:00+00:00"
+  },
+  {
+   "ticker": "URE.TO",
+   "name": "UR-ENERGY INC.",
+   "as_of": "2026-10-21T15:00:00+00:00",
+   "last": 1.22,
+   "pct_day": 6.09,
+   "pct_30m": 0.83,
+   "volume_pace": 1.57,
+   "rising": true,
+   "rising_since": "2026-10-21T14:55:00+00:00"
   },
   {
    "ticker": "GRID.TO",
    "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-10-21T14:30:00+00:00",
-   "last": 4.4,
-   "pct_day": 3.53,
-   "pct_30m": 1.62,
-   "volume_pace": 1.72,
+   "as_of": "2026-10-21T15:05:00+00:00",
+   "last": 4.44,
+   "pct_day": 4.47,
+   "pct_30m": 0.45,
+   "volume_pace": 1.57,
    "rising": true,
    "rising_since": "2026-10-21T14:30:00+00:00"
+  },
+  {
+   "ticker": "SGLD.V",
+   "name": "SCORPIO GOLD CORPORATION",
+   "as_of": "2026-10-21T15:00:00+00:00",
+   "last": 0.275,
+   "pct_day": 3.77,
+   "pct_30m": 5.77,
+   "volume_pace": 10.58,
+   "rising": true,
+   "rising_since": "2026-10-21T15:00:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "UTWO.V",
    "name": "U92 ENERGY CORP",
-   "as_of": "2026-10-21T14:15:00+00:00",
-   "last": 0.35,
-   "pct_day": 18.64,
-   "pct_30m": 0.0,
-   "volume_pace": 1.08,
+   "as_of": "2026-10-21T15:05:00+00:00",
+   "last": 0.36,
+   "pct_day": 22.03,
+   "pct_30m": 2.86,
+   "volume_pace": 0.58,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "SAGE.V",
    "name": "SAGE POTASH CORP",
-   "as_of": "2026-10-21T14:30:00+00:00",
+   "as_of": "2026-10-21T14:55:00+00:00",
    "last": 0.135,
    "pct_day": 17.39,
-   "pct_30m": -6.9,
-   "volume_pace": 19.38,
+   "pct_30m": -3.57,
+   "volume_pace": 15.65,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GSTM.V",
    "name": "GOLDSTORM METALS CORP",
-   "as_of": "2026-10-21T14:30:00+00:00",
-   "last": 0.175,
-   "pct_day": 16.67,
-   "pct_30m": 0.0,
-   "volume_pace": 24.83,
+   "as_of": "2026-10-21T15:00:00+00:00",
+   "last": 0.17,
+   "pct_day": 13.33,
+   "pct_30m": -2.86,
+   "volume_pace": 28.74,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "B.V",
-   "name": "BCM RESOURCES CORPORATION",
-   "as_of": "2026-10-21T14:25:00+00:00",
-   "last": 0.65,
-   "pct_day": 12.07,
-   "pct_30m": 8.33,
-   "volume_pace": 4.86,
-   "rising": true,
-   "rising_since": "2026-10-21T13:40:00+00:00"
+   "ticker": "CGM.V",
+   "name": "CANADIAN GOLDFIELDS DISCOVERY C",
+   "as_of": "2026-10-21T14:35:00+00:00",
+   "last": 0.17,
+   "pct_day": 13.33,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "ONE.V",
@@ -568,6 +590,17 @@
    "rising_since": null
   },
   {
+   "ticker": "B.V",
+   "name": "BCM RESOURCES CORPORATION",
+   "as_of": "2026-10-21T14:45:00+00:00",
+   "last": 0.63,
+   "pct_day": 8.62,
+   "pct_30m": -1.56,
+   "volume_pace": 3.98,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ZAU.V",
    "name": "ZODIAC GOLD INC",
    "as_of": "2026-10-21T14:00:00+00:00",
@@ -581,90 +614,68 @@
   {
    "ticker": "EML.V",
    "name": "ELECTRIC METALS USA LIMITED",
-   "as_of": "2026-10-21T14:20:00+00:00",
+   "as_of": "2026-10-21T14:35:00+00:00",
    "last": 0.13,
    "pct_day": 8.33,
    "pct_30m": 0.0,
-   "volume_pace": 0.67,
+   "volume_pace": 2.77,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CENT.V",
    "name": "CENTAURI MINERALS INC",
-   "as_of": "2026-10-21T14:25:00+00:00",
+   "as_of": "2026-10-21T14:45:00+00:00",
    "last": 1.19,
    "pct_day": 8.18,
-   "pct_30m": 8.18,
-   "volume_pace": 0.36,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BRW.V",
-   "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-10-21T14:25:00+00:00",
-   "last": 0.24,
-   "pct_day": 6.67,
-   "pct_30m": 6.67,
-   "volume_pace": 0.03,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PCA.TO",
-   "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-10-21T14:30:00+00:00",
-   "last": 1.12,
-   "pct_day": 8.74,
    "pct_30m": 0.0,
-   "volume_pace": 3.11,
+   "volume_pace": 0.28,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-21T14:15:00+00:00",
-   "last": 0.13,
-   "pct_day": 8.33,
-   "pct_30m": 0.0,
-   "volume_pace": 0.33,
+   "as_of": "2026-10-21T15:00:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": 3.85,
+   "volume_pace": 0.63,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-10-21T14:50:00+00:00",
+   "last": 1.12,
+   "pct_day": 8.74,
+   "pct_30m": 2.75,
+   "volume_pace": 2.63,
+   "rising": true,
+   "rising_since": "2026-10-21T14:40:00+00:00"
   },
   {
    "ticker": "HMMC.TO",
    "name": "HEMLO MINING CORP",
-   "as_of": "2026-10-21T14:30:00+00:00",
+   "as_of": "2026-10-21T15:00:00+00:00",
    "last": 5.65,
    "pct_day": 6.81,
-   "pct_30m": -1.4,
-   "volume_pace": 7.33,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "EDCU.TO",
-   "name": "EDGE COPPER CORPORATION",
-   "as_of": "2026-10-21T14:05:00+00:00",
-   "last": 0.405,
-   "pct_day": 6.58,
-   "pct_30m": 3.85,
-   "volume_pace": 0.2,
+   "pct_30m": 0.0,
+   "volume_pace": 5.09,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "URE.TO",
    "name": "UR-ENERGY INC.",
-   "as_of": "2026-10-21T14:30:00+00:00",
-   "last": 1.21,
-   "pct_day": 5.22,
-   "pct_30m": 2.54,
-   "volume_pace": 0.89,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-21T15:00:00+00:00",
+   "last": 1.22,
+   "pct_day": 6.09,
+   "pct_30m": 0.83,
+   "volume_pace": 1.57,
+   "rising": true,
+   "rising_since": "2026-10-21T14:55:00+00:00"
   },
   {
    "ticker": "PYR.TO",
@@ -678,15 +689,15 @@
    "rising_since": null
   },
   {
-   "ticker": "SAM.TO",
-   "name": "STARCORE INTERNATIONAL MINES LT",
-   "as_of": "2026-10-21T14:35:00+00:00",
-   "last": 0.33,
-   "pct_day": 4.76,
-   "pct_30m": 1.54,
-   "volume_pace": 0.05,
-   "rising": false,
-   "rising_since": null
+   "ticker": "GRID.TO",
+   "name": "TANTALUS SYSTEMS HOLDINGS INC",
+   "as_of": "2026-10-21T15:05:00+00:00",
+   "last": 4.44,
+   "pct_day": 4.47,
+   "pct_30m": 0.45,
+   "volume_pace": 1.57,
+   "rising": true,
+   "rising_since": "2026-10-21T14:30:00+00:00"
   },
   {
    "ticker": "CWEB.TO",
@@ -702,24 +713,35 @@
   {
    "ticker": "WGX.TO",
    "name": "WESTGOLD RESOURCES LIMITED",
-   "as_of": "2026-10-21T14:30:00+00:00",
-   "last": 5.01,
-   "pct_day": 4.16,
-   "pct_30m": -0.2,
-   "volume_pace": 2.95,
+   "as_of": "2026-10-21T15:00:00+00:00",
+   "last": 4.99,
+   "pct_day": 3.74,
+   "pct_30m": -0.4,
+   "volume_pace": 2.15,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "GRID.TO",
-   "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-10-21T14:30:00+00:00",
-   "last": 4.4,
-   "pct_day": 3.53,
-   "pct_30m": 1.62,
-   "volume_pace": 1.72,
-   "rising": true,
-   "rising_since": "2026-10-21T14:30:00+00:00"
+   "ticker": "MCB.TO",
+   "name": "MCCOY GLOBAL INC",
+   "as_of": "2026-10-21T14:55:00+00:00",
+   "last": 2.5,
+   "pct_day": 3.31,
+   "pct_30m": 0.0,
+   "volume_pace": 0.11,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MGA.TO",
+   "name": "MEGA URANIUM LTD.",
+   "as_of": "2026-10-21T14:55:00+00:00",
+   "last": 0.48,
+   "pct_day": 3.23,
+   "pct_30m": 0.0,
+   "volume_pace": 0.53,
+   "rising": false,
+   "rising_since": null
   }
  ],
  "benchmarks": {
@@ -1317,9 +1339,9 @@
    "ma200": 975.13,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-21T14:35:00+00:00",
-    "last": 845.68,
-    "pct_day": -0.04
+    "as_of": "2026-10-21T15:05:00+00:00",
+    "last": 845.61,
+    "pct_day": -0.05
    }
   },
   "^GSPTSE": {
@@ -1916,9 +1938,9 @@
    "ma200": 34441.2,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-21T14:35:00+00:00",
-    "last": 36321.21,
-    "pct_day": 0.59
+    "as_of": "2026-10-21T15:05:00+00:00",
+    "last": 36355.46,
+    "pct_day": 0.69
    }
   }
  },
