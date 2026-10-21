@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-21T14:01-06:00
+# Stock feed — 2026-10-21T14:06-06:00
 
 Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -91,6 +91,6 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 - LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.44x
 - URE.TO (UR-ENERGY INC.): +7.8% at 1.24, volume pace 1.89x
 - MCB.TO (MCCOY GLOBAL INC): +7.0% at 2.59, volume pace 2.78x
-- COPR.TO (COPPERNICO METALS INC): +5.4% at 0.39, volume pace 0.14x
+- COPR.TO (COPPERNICO METALS INC): +5.4% at 0.39, volume pace 0.16x
 - DYA.TO (DYNACERT INC): +5.0% at 0.105, volume pace 0.84x
 - ILLM.TO (iLLUMIN HOLDINGS INC): +5.0% at 0.63, volume pace 1.83x
