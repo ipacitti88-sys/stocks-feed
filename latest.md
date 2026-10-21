@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-21T11:01-06:00
+# Stock feed — 2026-10-21T11:31-06:00
 
-Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T17:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 653 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-20. Intraday data as of: 2026-10-21T17:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.4% at 17:05
-Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.7% at 17:05
+Market: S&P/TSX Venture Composite 846.00 on 2026-10-20 (day -0.1%, month -8.3%, year -12.4%, downtrend); live +0.3% at 17:35
+Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year +19.9%, uptrend); live +0.8% at 17:35
 
 # TSX Venture
 
@@ -20,8 +20,6 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- KFR.V (KINGFISHER METALS CORP): +15.4% today at 1.05, last 30m +6.1%, volume pace 4.12x, rising since 2026-10-21T15:30:00+00:00
-- GSI.V (GATEKEEPER SYSTEMS INC): +5.0% today at 1.67, last 30m +3.1%, volume pace 1.61x, rising since 2026-10-21T16:35:00+00:00
 - BKM.V (Pacific Booker Minerals Inc.): +4.1% today at 4.34, last 30m +3.3%, volume pace 6.35x, rising since 2026-10-21T15:15:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -39,16 +37,16 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- SAGE.V (SAGE POTASH CORP): +26.1% at 0.145, volume pace 12.28x
-- KFR.V (KINGFISHER METALS CORP): +15.4% at 1.05, volume pace 4.12x
-- UTWO.V (U92 ENERGY CORP): +15.2% at 0.34, volume pace 0.42x
+- SAGE.V (SAGE POTASH CORP): +21.7% at 0.14, volume pace 10.04x
+- DEC.V (DECADE RESOURCES LTD.): +17.4% at 0.135, volume pace 0.67x
+- GSTM.V (GOLDSTORM METALS CORP): +16.7% at 0.175, volume pace 15.56x
+- UTWO.V (U92 ENERGY CORP): +15.2% at 0.34, volume pace 0.34x
+- ONE.V (01 Quantum): +14.6% at 0.47, volume pace 0.19x
+- KFR.V (KINGFISHER METALS CORP): +14.3% at 1.04, volume pace 3.62x
 - CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +13.3% at 0.17, volume pace 1.44x
+- SCLT.V (SEARCHLIGHT RESOURCES INC): +11.4% at 0.195, volume pace 1.04x
 - XGC.V (XALI GOLD CORP): +11.1% at 0.2, volume pace 1.65x
-- CCMM.V (COYOTE COPPER MINES INC): +10.0% at 0.44, volume pace 0.35x
-- GSTM.V (GOLDSTORM METALS CORP): +10.0% at 0.165, volume pace 20.79x
-- KNOX.V (VAULT STRATEGIC MINING CORP): +9.1% at 0.12, volume pace 0.36x
-- DEC.V (DECADE RESOURCES LTD.): +8.7% at 0.125, volume pace 0.41x
-- B.V (BCM RESOURCES CORPORATION): +8.6% at 0.63, volume pace 1.65x
+- CCMM.V (COYOTE COPPER MINES INC): +10.0% at 0.44, volume pace 0.51x
 
 # TSX
 
@@ -68,8 +66,7 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- URE.TO (UR-ENERGY INC.): +9.6% today at 1.26, last 30m +1.6%, volume pace 2.08x, rising since 2026-10-21T16:50:00+00:00
-- WGX.TO (WESTGOLD RESOURCES LIMITED): +3.7% today at 4.99, last 30m +0.1%, volume pace 1.68x, rising since 2026-10-21T16:45:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -86,13 +83,13 @@ Market: S&P/TSX Composite 36,107.96 on 2026-10-20 (day +0.5%, month +0.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- URE.TO (UR-ENERGY INC.): +9.6% at 1.26, volume pace 2.08x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +8.7% at 1.12, volume pace 1.27x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +8.6% at 0.19, volume pace 13.43x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +14.3% at 0.2, volume pace 12.26x
+- URE.TO (UR-ENERGY INC.): +9.6% at 1.26, volume pace 1.94x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +8.7% at 1.12, volume pace 1.03x
 - LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.67x
-- HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +7.5% at 0.57, volume pace 0.0x
-- PYR.TO (PYROGENESIS INC): +7.1% at 0.225, volume pace 0.44x
-- SAM.TO (STARCORE INTERNATIONAL MINES LT): +4.8% at 0.33, volume pace 0.29x
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): +6.3% at 0.335, volume pace 0.28x
+- PYR.TO (PYROGENESIS INC): +4.8% at 0.22, volume pace 0.28x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.4% at 0.355, volume pace 0.0x
-- CRON.TO (CRONOS GROUP INC): +4.3% at 4.83, volume pace 1.93x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.0% at 4.42, volume pace 1.1x
+- TSND.TO (TERRASCEND CORP): +4.3% at 0.72, volume pace 0.3x
+- CRON.TO (CRONOS GROUP INC): +4.1% at 4.82, volume pace 1.77x
+- HMMC.TO (HEMLO MINING CORP): +4.0% at 5.5, volume pace 2.91x
