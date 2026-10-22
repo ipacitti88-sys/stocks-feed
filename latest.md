@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-22T11:01-06:00
+# Stock feed — 2026-10-22T11:31-06:00
 
-Tracking 655 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-21. Intraday data as of: 2026-10-22T17:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 655 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-21. Intraday data as of: 2026-10-22T17:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 848.54 on 2026-10-21 (day +0.3%, month -7.8%, year -13.7%, downtrend); live -2.8% at 17:05
-Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year +19.4%, uptrend); live -1.0% at 17:05
+Market: S&P/TSX Venture Composite 848.54 on 2026-10-21 (day +0.3%, month -7.8%, year -13.7%, downtrend); live -3.0% at 17:35
+Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year +19.4%, uptrend); live -1.0% at 17:35
 
 # TSX Venture
 
@@ -21,8 +21,10 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- IDEX.V (IDEX METALS CORP): +8.4% today at 0.385, last 30m +2.7%, volume pace 2.8x, rising since 2026-10-22T16:40:00+00:00
-- BUFF.V (BUFFALO POTASH CORPORATION): +7.1% today at 0.75, last 30m +4.2%, volume pace 2.47x, rising since 2026-10-22T16:35:00+00:00
+- IDEX.V (IDEX METALS CORP): +8.4% today at 0.385, last 30m +2.7%, volume pace 3.74x, rising since 2026-10-22T16:40:00+00:00
+- AXL.V (ARROW EXPLORATION CORP): +8.0% today at 0.81, last 30m +1.2%, volume pace 6.0x, rising since 2026-10-22T17:05:00+00:00
+- BUFF.V (BUFFALO POTASH CORPORATION): +7.1% today at 0.75, last 30m +4.2%, volume pace 2.62x, rising since 2026-10-22T16:35:00+00:00
+- PESO.V (PESORAMA INC): +6.7% today at 0.64, last 30m +3.2%, volume pace 2.16x, rising since 2026-10-22T17:10:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -40,15 +42,15 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - MINE.V (INOMIN MINES INC): +16.7% at 0.105, volume pace 0.0x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +9.7% at 0.17, volume pace 4.9x
-- IDEX.V (IDEX METALS CORP): +8.4% at 0.385, volume pace 2.8x
+- TLT.V (THERALASE TECHNOLOGIES INC.): +13.2% at 0.215, volume pace 4.53x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +9.7% at 0.17, volume pace 2.97x
+- IDEX.V (IDEX METALS CORP): +8.4% at 0.385, volume pace 3.74x
+- AXL.V (ARROW EXPLORATION CORP): +8.0% at 0.81, volume pace 6.0x
+- STUD.V (STALLION URANIUM CORP): +7.7% at 0.14, volume pace 0.23x
 - NBM.V (NEO BATTERY MATERIALS LTD): +7.4% at 0.145, volume pace 0.13x
-- BUFF.V (BUFFALO POTASH CORPORATION): +7.1% at 0.75, volume pace 2.47x
+- BUFF.V (BUFFALO POTASH CORPORATION): +7.1% at 0.75, volume pace 2.62x
 - NICE.V (NI CO ENERGY INC): +7.1% at 0.45, volume pace 0.0x
-- AXL.V (ARROW EXPLORATION CORP): +6.7% at 0.8, volume pace 6.2x
-- NSU.V (NORTH SHORE URANIUM LTD): +5.6% at 0.19, volume pace 2.38x
-- MERG.V (METAL ENERGY CORP): +5.4% at 0.39, volume pace 0.04x
-- BEEP.V (GEIGER ENERGY CORPORATION): +5.3% at 0.2, volume pace 0.0x
+- PESO.V (PESORAMA INC): +6.7% at 0.64, volume pace 2.16x
 
 # TSX
 
@@ -62,7 +64,9 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PCA.TO (PHOENIX METALS CORP CLASS A): +5.3% today at 1.2, last 30m +2.6%, volume pace 2.9x, rising since 2026-10-22T16:40:00+00:00
+- PCA.TO (PHOENIX METALS CORP CLASS A): +4.4% today at 1.19, last 30m +1.7%, volume pace 2.92x, rising since 2026-10-22T16:40:00+00:00
+- REAL.TO (Real Matters): +3.6% today at 3.2, last 30m +2.2%, volume pace 3.2x, rising since 2026-10-22T17:20:00+00:00
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +3.4% today at 2.15, last 30m +1.4%, volume pace 5.17x, rising since 2026-10-22T17:20:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -79,13 +83,13 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- DND.TO (DYE AND DURHAM LIMITED): +6.3% at 1.69, volume pace 0.52x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +5.3% at 1.2, volume pace 2.9x
-- CLCH.TO (CLINCH RESOURCES LTD): +3.1% at 1.01, volume pace 5.99x
+- DND.TO (DYE AND DURHAM LIMITED): +4.4% at 1.66, volume pace 0.61x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +4.4% at 1.19, volume pace 2.92x
+- REAL.TO (Real Matters): +3.6% at 3.2, volume pace 3.2x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +3.4% at 2.15, volume pace 5.17x
 - SYZ.TO (SYLOGIST LTD): +2.9% at 2.86, volume pace 0.04x
 - TXP.TO (TOUCHSTONE EXPLORATION INC): +2.6% at 0.2, volume pace 0.78x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +1.9% at 2.12, volume pace 5.43x
-- CRON.TO (CRONOS GROUP INC): +1.8% at 4.825, volume pace 1.52x
-- REAL.TO (Real Matters): +1.6% at 3.14, volume pace 2.88x
-- TSND.TO (TERRASCEND CORP): +1.4% at 0.71, volume pace 0.49x
+- CRON.TO (CRONOS GROUP INC): +1.6% at 4.815, volume pace 1.37x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +1.5% at 0.335, volume pace 0.61x
 - ECO.TO (ECOSYNTHETIX INC): +1.2% at 1.72, volume pace 0.0x
+- WEED.TO (CANOPY GROWTH CORPORATION): +1.1% at 0.95, volume pace 0.97x
