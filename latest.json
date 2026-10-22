@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T13:31-06:00",
+ "generated": "2026-10-22T14:01-06:00",
  "last_close_day": "2026-10-21",
  "tracked": 655,
  "tracked_by_market": {
@@ -400,7 +400,7 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-22T19:35:00+00:00",
+ "live_as_of": "2026-10-22T20:00:00+00:00",
  "rising": [
   {
    "ticker": "IDEX.V",
@@ -411,7 +411,18 @@
    "pct_30m": 2.67,
    "volume_pace": 3.74,
    "rising": true,
-   "rising_since": "2026-10-22T16:40:00+00:00"
+   "rising_since": "2026-10-22T17:00:00+00:00"
+  },
+  {
+   "ticker": "DCM.TO",
+   "name": "DATA COMMUNICATIONS MGMT CORP",
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 2.145,
+   "pct_day": 3.12,
+   "pct_30m": 0.23,
+   "volume_pace": 3.18,
+   "rising": true,
+   "rising_since": "2026-10-22T20:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -429,11 +440,11 @@
   {
    "ticker": "TLT.V",
    "name": "THERALASE TECHNOLOGIES INC.",
-   "as_of": "2026-10-22T19:30:00+00:00",
-   "last": 0.21,
-   "pct_day": 10.53,
-   "pct_30m": -2.33,
-   "volume_pace": 5.69,
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 0.22,
+   "pct_day": 15.79,
+   "pct_30m": 4.76,
+   "volume_pace": 5.9,
    "rising": false,
    "rising_since": null
   },
@@ -457,18 +468,7 @@
    "pct_30m": 2.67,
    "volume_pace": 3.74,
    "rising": true,
-   "rising_since": "2026-10-22T16:40:00+00:00"
-  },
-  {
-   "ticker": "NBM.V",
-   "name": "NEO BATTERY MATERIALS LTD",
-   "as_of": "2026-10-22T16:20:00+00:00",
-   "last": 0.145,
-   "pct_day": 7.41,
-   "pct_30m": 0.0,
-   "volume_pace": 0.13,
-   "rising": false,
-   "rising_since": null
+   "rising_since": "2026-10-22T17:00:00+00:00"
   },
   {
    "ticker": "KRI.V",
@@ -482,23 +482,12 @@
    "rising_since": null
   },
   {
-   "ticker": "MOGL.V",
-   "name": "MOGUL MOUNTAIN VENTURES CORPORA",
-   "as_of": "2026-10-22T18:55:00+00:00",
+   "ticker": "NOAL.V",
+   "name": "NOA LITHIUM BRINES INC",
+   "as_of": "2026-10-22T20:00:00+00:00",
    "last": 0.225,
    "pct_day": 7.14,
    "pct_30m": 0.0,
-   "volume_pace": 1.39,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NOAL.V",
-   "name": "NOA LITHIUM BRINES INC",
-   "as_of": "2026-10-22T19:25:00+00:00",
-   "last": 0.225,
-   "pct_day": 7.14,
-   "pct_30m": 2.27,
    "volume_pace": 0.52,
    "rising": false,
    "rising_since": null
@@ -521,75 +510,97 @@
    "last": 0.25,
    "pct_day": 6.38,
    "pct_30m": 0.0,
-   "volume_pace": 2.4,
+   "volume_pace": 2.85,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "COLT.V",
+   "name": "Colt Silver Corp.",
+   "as_of": "2026-10-22T17:45:00+00:00",
+   "last": 0.18,
+   "pct_day": 5.88,
+   "pct_30m": 12.5,
+   "volume_pace": 0.95,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "OTMC.V",
+   "name": "ORETERRA METALS CORP",
+   "as_of": "2026-10-22T17:10:00+00:00",
+   "last": 0.38,
+   "pct_day": 5.56,
+   "pct_30m": 4.11,
+   "volume_pace": 0.07,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-10-22T19:35:00+00:00",
-   "last": 1.66,
-   "pct_day": 4.4,
-   "pct_30m": 1.22,
-   "volume_pace": 0.6,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "REAL.TO",
-   "name": "Real Matters",
-   "as_of": "2026-10-22T19:30:00+00:00",
-   "last": 3.21,
-   "pct_day": 3.88,
-   "pct_30m": -0.93,
-   "volume_pace": 5.87,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BRE.TO",
-   "name": "BRIDGEMARQ REAL ESTATE SERVICES",
-   "as_of": "2026-10-22T19:00:00+00:00",
-   "last": 2.48,
-   "pct_day": 3.77,
-   "pct_30m": 3.33,
-   "volume_pace": 0.43,
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 1.67,
+   "pct_day": 5.03,
+   "pct_30m": 0.6,
+   "volume_pace": 0.75,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PCA.TO",
    "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-10-22T19:25:00+00:00",
+   "as_of": "2026-10-22T20:00:00+00:00",
    "last": 1.18,
    "pct_day": 3.51,
-   "pct_30m": -0.84,
-   "volume_pace": 2.53,
+   "pct_30m": 0.0,
+   "volume_pace": 2.63,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "CMG.TO",
-   "name": "COMPUTER MODELLING GROUP LTD",
-   "as_of": "2026-10-22T19:30:00+00:00",
-   "last": 4.32,
+   "ticker": "BRE.TO",
+   "name": "BRIDGEMARQ REAL ESTATE SERVICES",
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 2.47,
    "pct_day": 3.35,
-   "pct_30m": 2.37,
-   "volume_pace": 1.41,
+   "pct_30m": -0.4,
+   "volume_pace": 0.4,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "REAL.TO",
+   "name": "Real Matters",
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 3.19,
+   "pct_day": 3.24,
+   "pct_30m": -0.62,
+   "volume_pace": 10.29,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SYZ.TO",
+   "name": "SYLOGIST LTD",
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 2.87,
+   "pct_day": 3.24,
+   "pct_30m": 1.06,
+   "volume_pace": 0.09,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DCM.TO",
    "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-10-22T19:30:00+00:00",
-   "last": 2.14,
-   "pct_day": 2.88,
-   "pct_30m": 0.0,
-   "volume_pace": 3.35,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 2.145,
+   "pct_day": 3.12,
+   "pct_30m": 0.23,
+   "volume_pace": 3.18,
+   "rising": true,
+   "rising_since": "2026-10-22T20:00:00+00:00"
   },
   {
    "ticker": "EDCU.TO",
@@ -599,17 +610,6 @@
    "pct_day": 2.63,
    "pct_30m": 2.63,
    "volume_pace": 0.15,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ECO.TO",
-   "name": "ECOSYNTHETIX INC",
-   "as_of": "2026-10-22T19:05:00+00:00",
-   "last": 1.74,
-   "pct_day": 2.35,
-   "pct_30m": 0.0,
-   "volume_pace": 0.01,
    "rising": false,
    "rising_since": null
   },
@@ -625,13 +625,24 @@
    "rising_since": null
   },
   {
-   "ticker": "SYZ.TO",
-   "name": "SYLOGIST LTD",
-   "as_of": "2026-10-22T19:10:00+00:00",
-   "last": 2.84,
-   "pct_day": 2.16,
-   "pct_30m": -0.35,
-   "volume_pace": 0.04,
+   "ticker": "PRL.TO",
+   "name": "PROPEL HOLDINGS INC",
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 24.75,
+   "pct_day": 1.85,
+   "pct_30m": 0.16,
+   "volume_pace": 1.11,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CRON.TO",
+   "name": "CRONOS GROUP INC",
+   "as_of": "2026-10-22T20:00:00+00:00",
+   "last": 4.82,
+   "pct_day": 1.69,
+   "pct_30m": 0.0,
+   "volume_pace": 1.14,
    "rising": false,
    "rising_since": null
   }
@@ -1231,9 +1242,9 @@
    "ma200": 974.27,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-22T19:35:00+00:00",
-    "last": 822.18,
-    "pct_day": -3.11
+    "as_of": "2026-10-22T20:00:00+00:00",
+    "last": 822.2,
+    "pct_day": -3.1
    }
   },
   "^GSPTSE": {
@@ -1830,9 +1841,9 @@
    "ma200": 34461.72,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-22T19:35:00+00:00",
-    "last": 36005.15,
-    "pct_day": -0.88
+    "as_of": "2026-10-22T20:00:00+00:00",
+    "last": 35982.32,
+    "pct_day": -0.94
    }
   }
  },
