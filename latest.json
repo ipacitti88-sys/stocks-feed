@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:31-06:00",
+ "generated": "2026-10-22T11:01-06:00",
  "last_close_day": "2026-10-21",
  "tracked": 655,
  "tracked_by_market": {
@@ -400,18 +400,40 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-22T16:35:00+00:00",
+ "live_as_of": "2026-10-22T17:05:00+00:00",
  "rising": [
   {
-   "ticker": "AXL.V",
-   "name": "ARROW EXPLORATION CORP",
-   "as_of": "2026-10-22T16:30:00+00:00",
-   "last": 0.8,
-   "pct_day": 6.67,
-   "pct_30m": 1.27,
-   "volume_pace": 7.02,
+   "ticker": "IDEX.V",
+   "name": "IDEX METALS CORP",
+   "as_of": "2026-10-22T17:00:00+00:00",
+   "last": 0.385,
+   "pct_day": 8.45,
+   "pct_30m": 2.67,
+   "volume_pace": 2.8,
    "rising": true,
-   "rising_since": "2026-10-22T15:45:00+00:00"
+   "rising_since": "2026-10-22T16:40:00+00:00"
+  },
+  {
+   "ticker": "BUFF.V",
+   "name": "BUFFALO POTASH CORPORATION",
+   "as_of": "2026-10-22T17:00:00+00:00",
+   "last": 0.75,
+   "pct_day": 7.14,
+   "pct_30m": 4.17,
+   "volume_pace": 2.47,
+   "rising": true,
+   "rising_since": "2026-10-22T16:35:00+00:00"
+  },
+  {
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-10-22T16:55:00+00:00",
+   "last": 1.2,
+   "pct_day": 5.26,
+   "pct_30m": 2.56,
+   "volume_pace": 2.9,
+   "rising": true,
+   "rising_since": "2026-10-22T16:40:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -438,15 +460,15 @@
    "rising_since": null
   },
   {
-   "ticker": "NOAL.V",
-   "name": "NOA LITHIUM BRINES INC",
-   "as_of": "2026-10-22T15:35:00+00:00",
-   "last": 0.23,
-   "pct_day": 9.52,
-   "pct_30m": 2.22,
-   "volume_pace": 1.0,
-   "rising": false,
-   "rising_since": null
+   "ticker": "IDEX.V",
+   "name": "IDEX METALS CORP",
+   "as_of": "2026-10-22T17:00:00+00:00",
+   "last": 0.385,
+   "pct_day": 8.45,
+   "pct_30m": 2.67,
+   "volume_pace": 2.8,
+   "rising": true,
+   "rising_since": "2026-10-22T16:40:00+00:00"
   },
   {
    "ticker": "NBM.V",
@@ -455,20 +477,20 @@
    "last": 0.145,
    "pct_day": 7.41,
    "pct_30m": 0.0,
-   "volume_pace": 0.12,
+   "volume_pace": 0.13,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "YES.V",
-   "name": "CHAR TECHNOLOGIES LTD",
-   "as_of": "2026-10-22T15:40:00+00:00",
-   "last": 0.225,
+   "ticker": "BUFF.V",
+   "name": "BUFFALO POTASH CORPORATION",
+   "as_of": "2026-10-22T17:00:00+00:00",
+   "last": 0.75,
    "pct_day": 7.14,
-   "pct_30m": 7.14,
-   "volume_pace": 1.34,
-   "rising": false,
-   "rising_since": null
+   "pct_30m": 4.17,
+   "volume_pace": 2.47,
+   "rising": true,
+   "rising_since": "2026-10-22T16:35:00+00:00"
   },
   {
    "ticker": "NICE.V",
@@ -484,33 +506,11 @@
   {
    "ticker": "AXL.V",
    "name": "ARROW EXPLORATION CORP",
-   "as_of": "2026-10-22T16:30:00+00:00",
+   "as_of": "2026-10-22T17:00:00+00:00",
    "last": 0.8,
    "pct_day": 6.67,
-   "pct_30m": 1.27,
-   "volume_pace": 7.02,
-   "rising": true,
-   "rising_since": "2026-10-22T15:45:00+00:00"
-  },
-  {
-   "ticker": "GPUS.V",
-   "name": "ALSET AI VENTURES INC",
-   "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 0.245,
-   "pct_day": 6.52,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "IDEX.V",
-   "name": "IDEX METALS CORP",
-   "as_of": "2026-10-22T16:30:00+00:00",
-   "last": 0.375,
-   "pct_day": 5.63,
-   "pct_30m": -1.32,
-   "volume_pace": 2.64,
+   "volume_pace": 6.2,
    "rising": false,
    "rising_since": null
   },
@@ -526,57 +526,57 @@
    "rising_since": null
   },
   {
+   "ticker": "MERG.V",
+   "name": "METAL ENERGY CORP",
+   "as_of": "2026-10-22T14:25:00+00:00",
+   "last": 0.39,
+   "pct_day": 5.41,
+   "pct_30m": -2.5,
+   "volume_pace": 0.04,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BEEP.V",
+   "name": "GEIGER ENERGY CORPORATION",
+   "as_of": "2026-10-22T13:35:00+00:00",
+   "last": 0.2,
+   "pct_day": 5.26,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-10-22T16:30:00+00:00",
+   "as_of": "2026-10-22T17:05:00+00:00",
    "last": 1.69,
    "pct_day": 6.29,
-   "pct_30m": 1.81,
-   "volume_pace": 0.35,
+   "pct_30m": -0.59,
+   "volume_pace": 0.52,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "BOIL.TO",
-   "name": "BEYOND OIL LTD",
-   "as_of": "2026-10-22T16:25:00+00:00",
-   "last": 2.38,
-   "pct_day": 5.78,
-   "pct_30m": 2.59,
-   "volume_pace": 1.36,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-10-22T16:20:00+00:00",
-   "last": 0.725,
-   "pct_day": 3.57,
-   "pct_30m": 0.0,
-   "volume_pace": 0.26,
-   "rising": false,
-   "rising_since": null
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-10-22T16:55:00+00:00",
+   "last": 1.2,
+   "pct_day": 5.26,
+   "pct_30m": 2.56,
+   "volume_pace": 2.9,
+   "rising": true,
+   "rising_since": "2026-10-22T16:40:00+00:00"
   },
   {
    "ticker": "CLCH.TO",
    "name": "CLINCH RESOURCES LTD",
-   "as_of": "2026-10-22T16:35:00+00:00",
+   "as_of": "2026-10-22T17:00:00+00:00",
    "last": 1.01,
    "pct_day": 3.06,
    "pct_30m": 0.0,
-   "volume_pace": 6.53,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NCF.TO",
-   "name": "NORTHCLIFF RESOURCES LTD",
-   "as_of": "2026-10-22T16:20:00+00:00",
-   "last": 0.34,
-   "pct_day": 3.03,
-   "pct_30m": -1.45,
-   "volume_pace": 0.58,
+   "volume_pace": 5.99,
    "rising": false,
    "rising_since": null
   },
@@ -592,28 +592,6 @@
    "rising_since": null
   },
   {
-   "ticker": "PCA.TO",
-   "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-10-22T16:30:00+00:00",
-   "last": 1.17,
-   "pct_day": 2.63,
-   "pct_30m": -0.85,
-   "volume_pace": 3.02,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "REAL.TO",
-   "name": "Real Matters",
-   "as_of": "2026-10-22T16:30:00+00:00",
-   "last": 3.17,
-   "pct_day": 2.59,
-   "pct_30m": -0.63,
-   "volume_pace": 2.52,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "TXP.TO",
    "name": "TOUCHSTONE EXPLORATION INC",
    "as_of": "2026-10-22T15:20:00+00:00",
@@ -625,13 +603,57 @@
    "rising_since": null
   },
   {
+   "ticker": "DCM.TO",
+   "name": "DATA COMMUNICATIONS MGMT CORP",
+   "as_of": "2026-10-22T17:00:00+00:00",
+   "last": 2.12,
+   "pct_day": 1.92,
+   "pct_30m": 0.0,
+   "volume_pace": 5.43,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "CRON.TO",
    "name": "CRONOS GROUP INC",
-   "as_of": "2026-10-22T16:30:00+00:00",
-   "last": 4.85,
-   "pct_day": 2.32,
+   "as_of": "2026-10-22T17:00:00+00:00",
+   "last": 4.825,
+   "pct_day": 1.79,
+   "pct_30m": -0.52,
+   "volume_pace": 1.52,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "REAL.TO",
+   "name": "Real Matters",
+   "as_of": "2026-10-22T17:05:00+00:00",
+   "last": 3.14,
+   "pct_day": 1.62,
+   "pct_30m": -0.95,
+   "volume_pace": 2.88,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-10-22T16:55:00+00:00",
+   "last": 0.71,
+   "pct_day": 1.43,
+   "pct_30m": -2.07,
+   "volume_pace": 0.49,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ECO.TO",
+   "name": "ECOSYNTHETIX INC",
+   "as_of": "2026-10-22T13:50:00+00:00",
+   "last": 1.72,
+   "pct_day": 1.18,
    "pct_30m": 0.0,
-   "volume_pace": 1.67,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   }
@@ -1231,9 +1253,9 @@
    "ma200": 974.27,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-22T16:35:00+00:00",
-    "last": 827.09,
-    "pct_day": -2.53
+    "as_of": "2026-10-22T17:05:00+00:00",
+    "last": 824.54,
+    "pct_day": -2.83
    }
   },
   "^GSPTSE": {
@@ -1830,9 +1852,9 @@
    "ma200": 34461.72,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-22T16:35:00+00:00",
-    "last": 35966.63,
-    "pct_day": -0.99
+    "as_of": "2026-10-22T17:05:00+00:00",
+    "last": 35962.36,
+    "pct_day": -1.0
    }
   }
  },

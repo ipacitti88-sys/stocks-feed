@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-22T10:31-06:00
+# Stock feed — 2026-10-22T11:01-06:00
 
-Tracking 655 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-21. Intraday data as of: 2026-10-22T16:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 655 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-21. Intraday data as of: 2026-10-22T17:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 848.54 on 2026-10-21 (day +0.3%, month -7.8%, year -13.7%, downtrend); live -2.5% at 16:35
-Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year +19.4%, uptrend); live -1.0% at 16:35
+Market: S&P/TSX Venture Composite 848.54 on 2026-10-21 (day +0.3%, month -7.8%, year -13.7%, downtrend); live -2.8% at 17:05
+Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year +19.4%, uptrend); live -1.0% at 17:05
 
 # TSX Venture
 
@@ -21,7 +21,8 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- AXL.V (ARROW EXPLORATION CORP): +6.7% today at 0.8, last 30m +1.3%, volume pace 7.02x, rising since 2026-10-22T15:45:00+00:00
+- IDEX.V (IDEX METALS CORP): +8.4% today at 0.385, last 30m +2.7%, volume pace 2.8x, rising since 2026-10-22T16:40:00+00:00
+- BUFF.V (BUFFALO POTASH CORPORATION): +7.1% today at 0.75, last 30m +4.2%, volume pace 2.47x, rising since 2026-10-22T16:35:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -40,14 +41,14 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 - MINE.V (INOMIN MINES INC): +16.7% at 0.105, volume pace 0.0x
 - SME.V (SAMA RESOURCES INC RESSOURCES S): +9.7% at 0.17, volume pace 4.9x
-- NOAL.V (NOA LITHIUM BRINES INC): +9.5% at 0.23, volume pace 1.0x
-- NBM.V (NEO BATTERY MATERIALS LTD): +7.4% at 0.145, volume pace 0.12x
-- YES.V (CHAR TECHNOLOGIES LTD): +7.1% at 0.225, volume pace 1.34x
+- IDEX.V (IDEX METALS CORP): +8.4% at 0.385, volume pace 2.8x
+- NBM.V (NEO BATTERY MATERIALS LTD): +7.4% at 0.145, volume pace 0.13x
+- BUFF.V (BUFFALO POTASH CORPORATION): +7.1% at 0.75, volume pace 2.47x
 - NICE.V (NI CO ENERGY INC): +7.1% at 0.45, volume pace 0.0x
-- AXL.V (ARROW EXPLORATION CORP): +6.7% at 0.8, volume pace 7.02x
-- GPUS.V (ALSET AI VENTURES INC): +6.5% at 0.245, volume pace 0.0x
-- IDEX.V (IDEX METALS CORP): +5.6% at 0.375, volume pace 2.64x
+- AXL.V (ARROW EXPLORATION CORP): +6.7% at 0.8, volume pace 6.2x
 - NSU.V (NORTH SHORE URANIUM LTD): +5.6% at 0.19, volume pace 2.38x
+- MERG.V (METAL ENERGY CORP): +5.4% at 0.39, volume pace 0.04x
+- BEEP.V (GEIGER ENERGY CORPORATION): +5.3% at 0.2, volume pace 0.0x
 
 # TSX
 
@@ -61,7 +62,7 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- PCA.TO (PHOENIX METALS CORP CLASS A): +5.3% today at 1.2, last 30m +2.6%, volume pace 2.9x, rising since 2026-10-22T16:40:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -78,13 +79,13 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- DND.TO (DYE AND DURHAM LIMITED): +6.3% at 1.69, volume pace 0.35x
-- BOIL.TO (BEYOND OIL LTD): +5.8% at 2.38, volume pace 1.36x
-- TSND.TO (TERRASCEND CORP): +3.6% at 0.725, volume pace 0.26x
-- CLCH.TO (CLINCH RESOURCES LTD): +3.1% at 1.01, volume pace 6.53x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +3.0% at 0.34, volume pace 0.58x
+- DND.TO (DYE AND DURHAM LIMITED): +6.3% at 1.69, volume pace 0.52x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +5.3% at 1.2, volume pace 2.9x
+- CLCH.TO (CLINCH RESOURCES LTD): +3.1% at 1.01, volume pace 5.99x
 - SYZ.TO (SYLOGIST LTD): +2.9% at 2.86, volume pace 0.04x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +2.6% at 1.17, volume pace 3.02x
-- REAL.TO (Real Matters): +2.6% at 3.17, volume pace 2.52x
 - TXP.TO (TOUCHSTONE EXPLORATION INC): +2.6% at 0.2, volume pace 0.78x
-- CRON.TO (CRONOS GROUP INC): +2.3% at 4.85, volume pace 1.67x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +1.9% at 2.12, volume pace 5.43x
+- CRON.TO (CRONOS GROUP INC): +1.8% at 4.825, volume pace 1.52x
+- REAL.TO (Real Matters): +1.6% at 3.14, volume pace 2.88x
+- TSND.TO (TERRASCEND CORP): +1.4% at 0.71, volume pace 0.49x
+- ECO.TO (ECOSYNTHETIX INC): +1.2% at 1.72, volume pace 0.0x
