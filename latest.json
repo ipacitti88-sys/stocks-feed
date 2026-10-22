@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T08:01-06:00",
+ "generated": "2026-10-22T08:31-06:00",
  "last_close_day": "2026-10-21",
  "tracked": 655,
  "tracked_by_market": {
@@ -400,7 +400,7 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-22T14:05:00+00:00",
+ "live_as_of": "2026-10-22T14:35:00+00:00",
  "rising": [
   {
    "ticker": "FL.V",
@@ -414,26 +414,26 @@
    "rising_since": "2026-10-22T13:50:00+00:00"
   },
   {
-   "ticker": "WEED.TO",
-   "name": "CANOPY GROWTH CORPORATION",
-   "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 0.97,
-   "pct_day": 3.19,
-   "pct_30m": 5.43,
-   "volume_pace": 3.31,
+   "ticker": "BMM.V",
+   "name": "BLACK MAMMOTH METALS CORP",
+   "as_of": "2026-10-22T14:35:00+00:00",
+   "last": 4.48,
+   "pct_day": 4.19,
+   "pct_30m": 6.67,
+   "volume_pace": 1.96,
    "rising": true,
-   "rising_since": "2026-10-22T13:50:00+00:00"
+   "rising_since": "2026-10-22T14:35:00+00:00"
   },
   {
-   "ticker": "NILI.V",
-   "name": "SURGE BATTERY METALS INC",
-   "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 0.66,
-   "pct_day": 3.13,
-   "pct_30m": 3.13,
-   "volume_pace": 1.6,
+   "ticker": "PAIN.V",
+   "name": "VECTOR SCIENCE AND THERAPEUTICS",
+   "as_of": "2026-10-22T14:15:00+00:00",
+   "last": 1.65,
+   "pct_day": 3.77,
+   "pct_30m": 3.12,
+   "volume_pace": 2.59,
    "rising": true,
-   "rising_since": "2026-10-22T14:00:00+00:00"
+   "rising_since": "2026-10-22T14:10:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -449,24 +449,13 @@
    "rising_since": null
   },
   {
-   "ticker": "IDEX.V",
-   "name": "IDEX METALS CORP",
-   "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 0.39,
-   "pct_day": 9.86,
-   "pct_30m": 0.0,
-   "volume_pace": 7.63,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MERG.V",
-   "name": "METAL ENERGY CORP",
-   "as_of": "2026-10-22T13:35:00+00:00",
-   "last": 0.4,
-   "pct_day": 8.11,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "ticker": "NBM.V",
+   "name": "NEO BATTERY MATERIALS LTD",
+   "as_of": "2026-10-22T14:20:00+00:00",
+   "last": 0.145,
+   "pct_day": 7.41,
+   "pct_30m": 3.57,
+   "volume_pace": 0.13,
    "rising": false,
    "rising_since": null
   },
@@ -493,13 +482,24 @@
    "rising_since": null
   },
   {
-   "ticker": "DBAY.V",
-   "name": "Elton Resources Corp.",
+   "ticker": "IDEX.V",
+   "name": "IDEX METALS CORP",
+   "as_of": "2026-10-22T14:25:00+00:00",
+   "last": 0.38,
+   "pct_day": 7.04,
+   "pct_30m": -6.17,
+   "volume_pace": 6.38,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GPUS.V",
+   "name": "ALSET AI VENTURES INC",
    "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 0.165,
-   "pct_day": 6.45,
+   "last": 0.245,
+   "pct_day": 6.52,
    "pct_30m": 0.0,
-   "volume_pace": 0.27,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -515,13 +515,13 @@
    "rising_since": null
   },
   {
-   "ticker": "PWER.V",
-   "name": "GLOBAL POWER SOLUTIONS CORP",
-   "as_of": "2026-10-22T13:35:00+00:00",
-   "last": 0.19,
-   "pct_day": 5.56,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "ticker": "FCI.V",
+   "name": "FIRST CANADIAN GRAPHITE INC",
+   "as_of": "2026-10-22T14:25:00+00:00",
+   "last": 0.56,
+   "pct_day": 5.66,
+   "pct_30m": 1.82,
+   "volume_pace": 3.07,
    "rising": false,
    "rising_since": null
   },
@@ -537,12 +537,12 @@
    "rising_since": null
   },
   {
-   "ticker": "BEEP.V",
-   "name": "GEIGER ENERGY CORPORATION",
-   "as_of": "2026-10-22T13:35:00+00:00",
-   "last": 0.2,
-   "pct_day": 5.26,
-   "pct_30m": 0.0,
+   "ticker": "MERG.V",
+   "name": "METAL ENERGY CORP",
+   "as_of": "2026-10-22T14:25:00+00:00",
+   "last": 0.39,
+   "pct_day": 5.41,
+   "pct_30m": -2.5,
    "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
@@ -559,46 +559,68 @@
    "rising_since": null
   },
   {
+   "ticker": "NEXT.TO",
+   "name": "NEXTSOURCE MATERIALS INC",
+   "as_of": "2026-10-22T14:00:00+00:00",
+   "last": 0.24,
+   "pct_day": 4.35,
+   "pct_30m": 2.13,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "TSND.TO",
    "name": "TERRASCEND CORP",
-   "as_of": "2026-10-22T13:45:00+00:00",
+   "as_of": "2026-10-22T14:20:00+00:00",
    "last": 0.73,
    "pct_day": 4.29,
    "pct_30m": 0.0,
-   "volume_pace": 0.29,
+   "volume_pace": 0.18,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SYZ.TO",
+   "name": "SYLOGIST LTD",
+   "as_of": "2026-10-22T14:25:00+00:00",
+   "last": 2.86,
+   "pct_day": 2.88,
+   "pct_30m": 0.35,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "WEED.TO",
    "name": "CANOPY GROWTH CORPORATION",
-   "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 0.97,
-   "pct_day": 3.19,
-   "pct_30m": 5.43,
-   "volume_pace": 3.31,
-   "rising": true,
-   "rising_since": "2026-10-22T13:50:00+00:00"
-  },
-  {
-   "ticker": "SYZ.TO",
-   "name": "SYLOGIST LTD",
-   "as_of": "2026-10-22T13:40:00+00:00",
-   "last": 2.85,
-   "pct_day": 2.52,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "as_of": "2026-10-22T14:25:00+00:00",
+   "last": 0.96,
+   "pct_day": 2.13,
+   "pct_30m": -1.03,
+   "volume_pace": 2.83,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TLRY.TO",
    "name": "TILRAY BRANDS INC",
-   "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 4.19,
-   "pct_day": 2.2,
-   "pct_30m": 2.95,
-   "volume_pace": 2.53,
+   "as_of": "2026-10-22T14:30:00+00:00",
+   "last": 4.18,
+   "pct_day": 1.95,
+   "pct_30m": -0.24,
+   "volume_pace": 1.92,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "DCM.TO",
+   "name": "DATA COMMUNICATIONS MGMT CORP",
+   "as_of": "2026-10-22T14:20:00+00:00",
+   "last": 2.12,
+   "pct_day": 1.92,
+   "pct_30m": 1.44,
+   "volume_pace": 17.8,
    "rising": false,
    "rising_since": null
   },
@@ -614,39 +636,6 @@
    "rising_since": null
   },
   {
-   "ticker": "PCA.TO",
-   "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-10-22T13:50:00+00:00",
-   "last": 1.16,
-   "pct_day": 1.75,
-   "pct_30m": -3.33,
-   "volume_pace": 7.1,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TRZ.TO",
-   "name": "TRANSAT AT INC",
-   "as_of": "2026-10-22T14:00:00+00:00",
-   "last": 1.92,
-   "pct_day": 1.59,
-   "pct_30m": 1.59,
-   "volume_pace": 4.55,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CRON.TO",
-   "name": "CRONOS GROUP INC",
-   "as_of": "2026-10-22T14:05:00+00:00",
-   "last": 4.81,
-   "pct_day": 1.48,
-   "pct_30m": 1.48,
-   "volume_pace": 3.1,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "EDCU.TO",
    "name": "EDGE COPPER CORPORATION",
    "as_of": "2026-10-22T13:50:00+00:00",
@@ -654,6 +643,17 @@
    "pct_day": 1.32,
    "pct_30m": -2.53,
    "volume_pace": 0.24,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ECO.TO",
+   "name": "ECOSYNTHETIX INC",
+   "as_of": "2026-10-22T13:50:00+00:00",
+   "last": 1.72,
+   "pct_day": 1.18,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   }
@@ -1253,9 +1253,9 @@
    "ma200": 974.27,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-22T14:05:00+00:00",
-    "last": 830.73,
-    "pct_day": -2.1
+    "as_of": "2026-10-22T14:35:00+00:00",
+    "last": 827.0,
+    "pct_day": -2.54
    }
   },
   "^GSPTSE": {
@@ -1852,9 +1852,9 @@
    "ma200": 34461.72,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-22T14:05:00+00:00",
-    "last": 36083.32,
-    "pct_day": -0.67
+    "as_of": "2026-10-22T14:35:00+00:00",
+    "last": 35917.47,
+    "pct_day": -1.12
    }
   }
  },
