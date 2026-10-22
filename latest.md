@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-22T13:01-06:00
+# Stock feed — 2026-10-22T13:31-06:00
 
-Tracking 655 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-21. Intraday data as of: 2026-10-22T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 655 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-21. Intraday data as of: 2026-10-22T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 848.54 on 2026-10-21 (day +0.3%, month -7.8%, year -13.7%, downtrend); live -3.4% at 19:05
-Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year +19.4%, uptrend); live -1.1% at 19:05
+Market: S&P/TSX Venture Composite 848.54 on 2026-10-21 (day +0.3%, month -7.8%, year -13.7%, downtrend); live -3.1% at 19:35
+Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year +19.4%, uptrend); live -0.9% at 19:35
 
 # TSX Venture
 
@@ -39,15 +39,15 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - MINE.V (INOMIN MINES INC): +16.7% at 0.105, volume pace 0.0x
-- TLT.V (THERALASE TECHNOLOGIES INC.): +13.2% at 0.215, volume pace 5.68x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +9.7% at 0.17, volume pace 3.34x
+- TLT.V (THERALASE TECHNOLOGIES INC.): +10.5% at 0.21, volume pace 5.69x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +9.7% at 0.17, volume pace 2.88x
 - IDEX.V (IDEX METALS CORP): +8.4% at 0.385, volume pace 3.74x
 - NBM.V (NEO BATTERY MATERIALS LTD): +7.4% at 0.145, volume pace 0.13x
-- BUFF.V (BUFFALO POTASH CORPORATION): +7.1% at 0.75, volume pace 2.06x
 - KRI.V (KOBO RESOURCES INC): +7.1% at 0.225, volume pace 0.02x
-- MOGL.V (MOGUL MOUNTAIN VENTURES CORPORA): +7.1% at 0.225, volume pace 1.37x
-- NICE.V (NI CO ENERGY INC): +7.1% at 0.45, volume pace 0.0x
-- AXL.V (ARROW EXPLORATION CORP): +6.7% at 0.8, volume pace 4.91x
+- MOGL.V (MOGUL MOUNTAIN VENTURES CORPORA): +7.1% at 0.225, volume pace 1.39x
+- NOAL.V (NOA LITHIUM BRINES INC): +7.1% at 0.225, volume pace 0.52x
+- ONE.V (01 Quantum): +6.5% at 0.49, volume pace 0.62x
+- CD.V (CANTEX MINE DEVELOPMENT CORP): +6.4% at 0.25, volume pace 2.4x
 
 # TSX
 
@@ -61,7 +61,7 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- REAL.TO (Real Matters): +4.8% today at 3.24, last 30m +1.2%, volume pace 4.15x, rising since 2026-10-22T19:00:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -78,13 +78,13 @@ Market: S&P/TSX Composite 36,324.99 on 2026-10-21 (day +0.6%, month +0.9%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- REAL.TO (Real Matters): +4.8% at 3.24, volume pace 4.15x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +4.4% at 1.19, volume pace 2.55x
-- DND.TO (DYE AND DURHAM LIMITED): +3.8% at 1.65, volume pace 0.62x
+- DND.TO (DYE AND DURHAM LIMITED): +4.4% at 1.66, volume pace 0.6x
+- REAL.TO (Real Matters): +3.9% at 3.21, volume pace 5.87x
 - BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +3.8% at 2.48, volume pace 0.43x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +2.9% at 2.14, volume pace 3.64x
-- SYZ.TO (SYLOGIST LTD): +2.5% at 2.85, volume pace 0.05x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +3.5% at 1.18, volume pace 2.53x
+- CMG.TO (COMPUTER MODELLING GROUP LTD): +3.4% at 4.32, volume pace 1.41x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +2.9% at 2.14, volume pace 3.35x
+- EDCU.TO (EDGE COPPER CORPORATION): +2.6% at 0.39, volume pace 0.15x
 - ECO.TO (ECOSYNTHETIX INC): +2.4% at 1.74, volume pace 0.01x
 - BOIL.TO (BEYOND OIL LTD): +2.2% at 2.3, volume pace 1.17x
-- CLCH.TO (CLINCH RESOURCES LTD): +2.0% at 1.0, volume pace 4.95x
-- ILLM.TO (iLLUMIN HOLDINGS INC): +1.6% at 0.64, volume pace 0.13x
+- SYZ.TO (SYLOGIST LTD): +2.2% at 2.84, volume pace 0.04x
