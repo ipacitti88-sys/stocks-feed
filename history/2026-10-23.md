@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-23T13:31-06:00
+# Stock feed — 2026-10-23T14:01-06:00
 
-Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.2% at 19:35
-Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.3% at 19:35
+Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.4% at 20:00
+Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.5% at 20:00
 
 # TSX Venture
 
@@ -23,9 +23,12 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ECU.V (ELEMENT 29 RESOURCES INC): +13.5% today at 1.68, last 30m +1.8%, volume pace 9.02x, rising since 2026-10-23T19:10:00+00:00
-- LGN.V (LOGAN ENERGY CORP): +9.2% today at 1.42, last 30m +2.2%, volume pace 3.9x, rising since 2026-10-23T19:10:00+00:00
-- PGLD.V (P2 GOLD INC): +4.8% today at 1.195, last 30m +0.4%, volume pace 1.55x, rising since 2026-10-23T19:30:00+00:00
+- LGN.V (LOGAN ENERGY CORP): +11.5% today at 1.45, last 30m +2.1%, volume pace 4.74x, rising since 2026-10-23T20:00:00+00:00
+- RML.V (RUSORO MINING LTD): +10.0% today at 1.1, last 30m +10.0%, volume pace 1.65x, rising since 2026-10-23T20:00:00+00:00
+- GSI.V (GATEKEEPER SYSTEMS INC): +9.3% today at 1.7, last 30m +6.2%, volume pace 1.7x, rising since 2026-10-23T19:55:00+00:00
+- NAU.V (NEVGOLD CORP): +8.6% today at 0.63, last 30m +3.3%, volume pace 1.9x, rising since 2026-10-23T19:55:00+00:00
+- PML.V (PANORO MINERALS LTD): +6.7% today at 1.28, last 30m +3.2%, volume pace 1.61x, rising since 2026-10-23T19:45:00+00:00
+- AVN.V (AVANTI HELIUM CORP): +4.9% today at 0.43, last 30m +2.4%, volume pace 1.54x, rising since 2026-10-23T19:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +45,16 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- W.V (SPARTAN METALS CORP): +17.5% at 0.335, volume pace 3.72x
-- GTC.V (GETTY COPPER INC.): +17.3% at 0.61, volume pace 0.75x
+- W.V (SPARTAN METALS CORP): +17.5% at 0.335, volume pace 4.02x
+- GTC.V (GETTY COPPER INC.): +17.3% at 0.61, volume pace 0.82x
 - FROG.V (BULLFROG GOLD CORPORATION): +15.4% at 0.15, volume pace 0.7x
-- OPW.V (OPAWICA EXPLORATIONS INC): +15.4% at 0.15, volume pace 2.55x
-- ECU.V (ELEMENT 29 RESOURCES INC): +13.5% at 1.68, volume pace 9.02x
-- SEVA.V (SEVA MINING CORP): +13.0% at 0.305, volume pace 3.16x
-- ELBM.V (ELECTRA BATTERY MATERIALS CORP): +12.3% at 0.64, volume pace 1.41x
+- ECU.V (ELEMENT 29 RESOURCES INC): +13.5% at 1.68, volume pace 8.5x
+- GFG.V (GFG RESOURCES INC): +12.5% at 0.18, volume pace 3.36x
+- LGN.V (LOGAN ENERGY CORP): +11.5% at 1.45, volume pace 4.74x
+- SEVA.V (SEVA MINING CORP): +11.1% at 0.3, volume pace 3.08x
 - MINE.V (INOMIN MINES INC): +11.1% at 0.1, volume pace 0.01x
-- LI.V (AMERICAN LITHIUM CORP): +10.6% at 0.365, volume pace 1.94x
-- ROAR.V (LION ROCK RESOURCES INC): +10.0% at 0.22, volume pace 0.47x
+- RML.V (RUSORO MINING LTD): +10.0% at 1.1, volume pace 1.65x
+- ROAR.V (LION ROCK RESOURCES INC): +10.0% at 0.22, volume pace 0.5x
 
 # TSX
 
@@ -66,7 +69,8 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- YGR.TO (YANGARRA RESOURCES LTD): +4.7% today at 1.8, last 30m +1.7%, volume pace 2.6x, rising since 2026-10-23T19:30:00+00:00
+- NICU.TO (MAGNA MINING INC): +5.3% today at 1.98, last 30m +0.8%, volume pace 3.16x, rising since 2026-10-23T20:00:00+00:00
+- HLS.TO (HLS THERAPEUTICS INC): +4.3% today at 4.33, last 30m +3.8%, volume pace 2.67x, rising since 2026-10-23T19:55:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -83,13 +87,13 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +16.7% at 0.385, volume pace 1.05x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +7.4% at 1.02, volume pace 0.11x
-- SNDY.TO (Sunday Lake Gold Corp.): +6.0% at 1.59, volume pace 0.89x
-- GENM.TO (GENERATION MINING LIMITED): +6.0% at 0.445, volume pace 0.67x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +18.2% at 0.39, volume pace 0.7x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +7.4% at 1.02, volume pace 0.18x
 - NOU.TO (NOUVEAU MONDE GRAPHITE INC): +5.6% at 1.32, volume pace 0.85x
 - FT.TO (FORTUNE MNRL J): +5.6% at 0.095, volume pace 0.27x
-- GCU.TO (GUNNISON COPPER CORP): +5.4% at 0.39, volume pace 1.27x
-- HMMC.TO (HEMLO MINING CORP): +5.2% at 5.06, volume pace 0.73x
-- LAM.TO (LARAMIDE RESOURCES LTD.): +4.7% at 0.45, volume pace 0.19x
-- YGR.TO (YANGARRA RESOURCES LTD): +4.7% at 1.8, volume pace 2.6x
+- ARA.TO (ACLARA RESOURCES INC): +5.3% at 2.76, volume pace 0.97x
+- NICU.TO (MAGNA MINING INC): +5.3% at 1.98, volume pace 3.16x
+- FF.TO (FIRST MINING GOLD CORP): +5.2% at 0.61, volume pace 0.33x
+- HLS.TO (HLS THERAPEUTICS INC): +4.3% at 4.33, volume pace 2.67x
+- HMMC.TO (HEMLO MINING CORP): +4.2% at 5.01, volume pace 0.8x
+- GCU.TO (GUNNISON COPPER CORP): +4.0% at 0.385, volume pace 1.42x

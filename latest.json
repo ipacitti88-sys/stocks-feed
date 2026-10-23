@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T13:31-06:00",
+ "generated": "2026-10-23T14:01-06:00",
  "last_close_day": "2026-10-22",
  "tracked": 657,
  "tracked_by_market": {
@@ -430,73 +430,117 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-23T19:35:00+00:00",
+ "live_as_of": "2026-10-23T20:00:00+00:00",
  "rising": [
-  {
-   "ticker": "ECU.V",
-   "name": "ELEMENT 29 RESOURCES INC",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 1.68,
-   "pct_day": 13.51,
-   "pct_30m": 1.82,
-   "volume_pace": 9.02,
-   "rising": true,
-   "rising_since": "2026-10-23T19:10:00+00:00"
-  },
   {
    "ticker": "LGN.V",
    "name": "LOGAN ENERGY CORP",
-   "as_of": "2026-10-23T19:25:00+00:00",
-   "last": 1.42,
-   "pct_day": 9.23,
-   "pct_30m": 2.16,
-   "volume_pace": 3.9,
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.45,
+   "pct_day": 11.54,
+   "pct_30m": 2.11,
+   "volume_pace": 4.74,
    "rising": true,
-   "rising_since": "2026-10-23T19:10:00+00:00"
+   "rising_since": "2026-10-23T20:00:00+00:00"
   },
   {
-   "ticker": "PGLD.V",
-   "name": "P2 GOLD INC",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 1.195,
-   "pct_day": 4.82,
-   "pct_30m": 0.42,
-   "volume_pace": 1.55,
+   "ticker": "RML.V",
+   "name": "RUSORO MINING LTD",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.1,
+   "pct_day": 10.0,
+   "pct_30m": 10.0,
+   "volume_pace": 1.65,
    "rising": true,
-   "rising_since": "2026-10-23T19:30:00+00:00"
+   "rising_since": "2026-10-23T20:00:00+00:00"
   },
   {
-   "ticker": "YGR.TO",
-   "name": "YANGARRA RESOURCES LTD",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 1.8,
-   "pct_day": 4.65,
-   "pct_30m": 1.69,
-   "volume_pace": 2.6,
+   "ticker": "GSI.V",
+   "name": "GATEKEEPER SYSTEMS INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.7,
+   "pct_day": 9.32,
+   "pct_30m": 6.25,
+   "volume_pace": 1.7,
    "rising": true,
-   "rising_since": "2026-10-23T19:30:00+00:00"
+   "rising_since": "2026-10-23T19:55:00+00:00"
+  },
+  {
+   "ticker": "NAU.V",
+   "name": "NEVGOLD CORP",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 0.63,
+   "pct_day": 8.62,
+   "pct_30m": 3.28,
+   "volume_pace": 1.9,
+   "rising": true,
+   "rising_since": "2026-10-23T19:55:00+00:00"
+  },
+  {
+   "ticker": "PML.V",
+   "name": "PANORO MINERALS LTD",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.28,
+   "pct_day": 6.67,
+   "pct_30m": 3.23,
+   "volume_pace": 1.61,
+   "rising": true,
+   "rising_since": "2026-10-23T19:45:00+00:00"
+  },
+  {
+   "ticker": "NICU.TO",
+   "name": "MAGNA MINING INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.98,
+   "pct_day": 5.32,
+   "pct_30m": 0.76,
+   "volume_pace": 3.16,
+   "rising": true,
+   "rising_since": "2026-10-23T20:00:00+00:00"
+  },
+  {
+   "ticker": "AVN.V",
+   "name": "AVANTI HELIUM CORP",
+   "as_of": "2026-10-23T19:50:00+00:00",
+   "last": 0.43,
+   "pct_day": 4.88,
+   "pct_30m": 2.38,
+   "volume_pace": 1.54,
+   "rising": true,
+   "rising_since": "2026-10-23T19:50:00+00:00"
+  },
+  {
+   "ticker": "HLS.TO",
+   "name": "HLS THERAPEUTICS INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 4.33,
+   "pct_day": 4.34,
+   "pct_30m": 3.84,
+   "volume_pace": 2.67,
+   "rising": true,
+   "rising_since": "2026-10-23T19:55:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "W.V",
    "name": "SPARTAN METALS CORP",
-   "as_of": "2026-10-23T19:15:00+00:00",
+   "as_of": "2026-10-23T20:00:00+00:00",
    "last": 0.335,
    "pct_day": 17.54,
-   "pct_30m": 1.52,
-   "volume_pace": 3.72,
+   "pct_30m": 0.0,
+   "volume_pace": 4.02,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GTC.V",
    "name": "GETTY COPPER INC.",
-   "as_of": "2026-10-23T19:30:00+00:00",
+   "as_of": "2026-10-23T20:00:00+00:00",
    "last": 0.61,
    "pct_day": 17.31,
-   "pct_30m": -1.61,
-   "volume_pace": 0.75,
+   "pct_30m": 0.0,
+   "volume_pace": 0.82,
    "rising": false,
    "rising_since": null
   },
@@ -512,46 +556,46 @@
    "rising_since": null
   },
   {
-   "ticker": "OPW.V",
-   "name": "OPAWICA EXPLORATIONS INC",
-   "as_of": "2026-10-23T19:25:00+00:00",
-   "last": 0.15,
-   "pct_day": 15.38,
+   "ticker": "ECU.V",
+   "name": "ELEMENT 29 RESOURCES INC",
+   "as_of": "2026-10-23T19:55:00+00:00",
+   "last": 1.68,
+   "pct_day": 13.51,
    "pct_30m": 0.0,
-   "volume_pace": 2.55,
+   "volume_pace": 8.5,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ECU.V",
-   "name": "ELEMENT 29 RESOURCES INC",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 1.68,
-   "pct_day": 13.51,
-   "pct_30m": 1.82,
-   "volume_pace": 9.02,
+   "ticker": "GFG.V",
+   "name": "GFG RESOURCES INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 0.18,
+   "pct_day": 12.5,
+   "pct_30m": 2.86,
+   "volume_pace": 3.36,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LGN.V",
+   "name": "LOGAN ENERGY CORP",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.45,
+   "pct_day": 11.54,
+   "pct_30m": 2.11,
+   "volume_pace": 4.74,
    "rising": true,
-   "rising_since": "2026-10-23T19:10:00+00:00"
+   "rising_since": "2026-10-23T20:00:00+00:00"
   },
   {
    "ticker": "SEVA.V",
    "name": "SEVA MINING CORP",
-   "as_of": "2026-10-23T19:10:00+00:00",
-   "last": 0.305,
-   "pct_day": 12.96,
-   "pct_30m": 8.93,
-   "volume_pace": 3.16,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ELBM.V",
-   "name": "ELECTRA BATTERY MATERIALS CORP",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 0.64,
-   "pct_day": 12.28,
-   "pct_30m": -1.54,
-   "volume_pace": 1.41,
+   "as_of": "2026-10-23T19:40:00+00:00",
+   "last": 0.3,
+   "pct_day": 11.11,
+   "pct_30m": -1.64,
+   "volume_pace": 3.08,
    "rising": false,
    "rising_since": null
   },
@@ -567,15 +611,15 @@
    "rising_since": null
   },
   {
-   "ticker": "LI.V",
-   "name": "AMERICAN LITHIUM CORP",
-   "as_of": "2026-10-23T18:10:00+00:00",
-   "last": 0.365,
-   "pct_day": 10.61,
-   "pct_30m": 1.39,
-   "volume_pace": 1.94,
-   "rising": false,
-   "rising_since": null
+   "ticker": "RML.V",
+   "name": "RUSORO MINING LTD",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.1,
+   "pct_day": 10.0,
+   "pct_30m": 10.0,
+   "volume_pace": 1.65,
+   "rising": true,
+   "rising_since": "2026-10-23T20:00:00+00:00"
   },
   {
    "ticker": "ROAR.V",
@@ -584,61 +628,39 @@
    "last": 0.22,
    "pct_day": 10.0,
    "pct_30m": 2.33,
-   "volume_pace": 0.47,
+   "volume_pace": 0.5,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-23T17:25:00+00:00",
-   "last": 0.385,
-   "pct_day": 16.67,
-   "pct_30m": 0.0,
-   "volume_pace": 1.05,
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 0.39,
+   "pct_day": 18.18,
+   "pct_30m": 1.3,
+   "volume_pace": 0.7,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-23T19:30:00+00:00",
+   "as_of": "2026-10-23T20:00:00+00:00",
    "last": 1.02,
    "pct_day": 7.37,
-   "pct_30m": 0.49,
-   "volume_pace": 0.11,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SNDY.TO",
-   "name": "Sunday Lake Gold Corp.",
-   "as_of": "2026-10-23T19:35:00+00:00",
-   "last": 1.59,
-   "pct_day": 6.0,
-   "pct_30m": 3.25,
-   "volume_pace": 0.89,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GENM.TO",
-   "name": "GENERATION MINING LIMITED",
-   "as_of": "2026-10-23T19:20:00+00:00",
-   "last": 0.445,
-   "pct_day": 5.95,
-   "pct_30m": 0.56,
-   "volume_pace": 0.67,
+   "pct_30m": 0.0,
+   "volume_pace": 0.18,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "NOU.TO",
    "name": "NOUVEAU MONDE GRAPHITE INC",
-   "as_of": "2026-10-23T19:35:00+00:00",
+   "as_of": "2026-10-23T20:00:00+00:00",
    "last": 1.32,
    "pct_day": 5.6,
-   "pct_30m": -0.38,
+   "pct_30m": 0.38,
    "volume_pace": 0.85,
    "rising": false,
    "rising_since": null
@@ -655,48 +677,70 @@
    "rising_since": null
   },
   {
-   "ticker": "GCU.TO",
-   "name": "GUNNISON COPPER CORP",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 0.39,
-   "pct_day": 5.41,
-   "pct_30m": 0.0,
-   "volume_pace": 1.27,
+   "ticker": "ARA.TO",
+   "name": "ACLARA RESOURCES INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 2.76,
+   "pct_day": 5.34,
+   "pct_30m": 0.73,
+   "volume_pace": 0.97,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "NICU.TO",
+   "name": "MAGNA MINING INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 1.98,
+   "pct_day": 5.32,
+   "pct_30m": 0.76,
+   "volume_pace": 3.16,
+   "rising": true,
+   "rising_since": "2026-10-23T20:00:00+00:00"
+  },
+  {
+   "ticker": "FF.TO",
+   "name": "FIRST MINING GOLD CORP",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 0.61,
+   "pct_day": 5.17,
+   "pct_30m": 0.83,
+   "volume_pace": 0.33,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HLS.TO",
+   "name": "HLS THERAPEUTICS INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 4.33,
+   "pct_day": 4.34,
+   "pct_30m": 3.84,
+   "volume_pace": 2.67,
+   "rising": true,
+   "rising_since": "2026-10-23T19:55:00+00:00"
   },
   {
    "ticker": "HMMC.TO",
    "name": "HEMLO MINING CORP",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 5.06,
-   "pct_day": 5.2,
-   "pct_30m": 0.0,
-   "volume_pace": 0.73,
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 5.01,
+   "pct_day": 4.16,
+   "pct_30m": -0.99,
+   "volume_pace": 0.8,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "LAM.TO",
-   "name": "LARAMIDE RESOURCES LTD.",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 0.45,
-   "pct_day": 4.65,
-   "pct_30m": 0.0,
-   "volume_pace": 0.19,
+   "ticker": "GCU.TO",
+   "name": "GUNNISON COPPER CORP",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 0.385,
+   "pct_day": 4.05,
+   "pct_30m": -1.28,
+   "volume_pace": 1.42,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "YGR.TO",
-   "name": "YANGARRA RESOURCES LTD",
-   "as_of": "2026-10-23T19:30:00+00:00",
-   "last": 1.8,
-   "pct_day": 4.65,
-   "pct_30m": 1.69,
-   "volume_pace": 2.6,
-   "rising": true,
-   "rising_since": "2026-10-23T19:30:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1294,9 +1338,9 @@
    "ma200": 973.21,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-23T19:35:00+00:00",
-    "last": 819.87,
-    "pct_day": -0.25
+    "as_of": "2026-10-23T20:00:00+00:00",
+    "last": 818.75,
+    "pct_day": -0.39
    }
   },
   "^GSPTSE": {
@@ -1893,9 +1937,9 @@
    "ma200": 34479.55,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-23T19:35:00+00:00",
-    "last": 35870.2,
-    "pct_day": -0.29
+    "as_of": "2026-10-23T20:00:00+00:00",
+    "last": 35789.45,
+    "pct_day": -0.51
    }
   }
  },
