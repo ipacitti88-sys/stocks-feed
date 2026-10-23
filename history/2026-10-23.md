@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-23T09:01-06:00
+# Stock feed — 2026-10-23T09:31-06:00
 
-Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.6% at 15:05
-Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.6% at 15:05
+Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.4% at 15:35
+Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.4% at 15:35
 
 # TSX Venture
 
@@ -23,9 +23,11 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ECU.V (ELEMENT 29 RESOURCES INC): +9.5% today at 1.62, last 30m +2.5%, volume pace 24.0x, rising since 2026-10-23T14:00:00+00:00
-- LGN.V (LOGAN ENERGY CORP): +6.2% today at 1.38, last 30m +1.1%, volume pace 8.01x, rising since 2026-10-23T14:35:00+00:00
-- ROCK.V (TRIDENT RESOURCES CORP): +3.7% today at 3.36, last 30m +1.5%, volume pace 3.79x, rising since 2026-10-23T15:00:00+00:00
+- ECU.V (ELEMENT 29 RESOURCES INC): +12.2% today at 1.66, last 30m +3.8%, volume pace 20.09x, rising since 2026-10-23T14:00:00+00:00
+- LGN.V (LOGAN ENERGY CORP): +8.5% today at 1.41, last 30m +2.2%, volume pace 7.34x, rising since 2026-10-23T15:10:00+00:00
+- BIG.V (HERCULES METALS CORP): +4.3% today at 0.98, last 30m +1.0%, volume pace 1.74x, rising since 2026-10-23T15:25:00+00:00
+- CDPR.V (CERRO DE PASCO RESOURCES INC): +4.1% today at 0.635, last 30m +0.8%, volume pace 2.27x, rising since 2026-10-23T15:05:00+00:00
+- GSVR.V (GUANAJUATO SILVER COMPANY LTD): +3.2% today at 0.32, last 30m +4.1%, volume pace 1.58x, rising since 2026-10-23T15:25:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -44,14 +46,14 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 - CRE.V (CRITICAL ELEMENTS LITHIUM CORPO): +21.4% at 0.34, volume pace 0.0x
 - BEAR.V (BIG BEAR GOLD CORP): +16.7% at 0.105, volume pace 0.36x
-- GTC.V (GETTY COPPER INC.): +15.4% at 0.6, volume pace 1.03x
+- GFG.V (GFG RESOURCES INC): +12.5% at 0.18, volume pace 7.42x
 - CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +12.5% at 0.18, volume pace 1.4x
+- ECU.V (ELEMENT 29 RESOURCES INC): +12.2% at 1.66, volume pace 20.09x
 - KIRO.V (KAIROS GOLD INC): +12.1% at 0.465, volume pace 2.72x
-- OPW.V (OPAWICA EXPLORATIONS INC): +11.5% at 0.145, volume pace 7.49x
+- GTC.V (GETTY COPPER INC.): +11.5% at 0.58, volume pace 0.88x
 - HEVI.V (HELIUM EVOLUTION INCORPORATED): +10.0% at 0.22, volume pace 0.23x
-- ECU.V (ELEMENT 29 RESOURCES INC): +9.5% at 1.62, volume pace 24.0x
-- WAM.V (ALASKA SILVER CORP): +9.3% at 0.53, volume pace 1.17x
-- GSP.V (GENSOURCE POTASH CORPORATION): +8.7% at 0.125, volume pace 0.0x
+- LGN.V (LOGAN ENERGY CORP): +8.5% at 1.41, volume pace 7.34x
+- LPS.V (LEGEND POWER SYSTEMS INC.): +8.3% at 0.13, volume pace 0.91x
 
 # TSX
 
@@ -66,8 +68,7 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +4.2% today at 4.27, last 30m +1.2%, volume pace 1.7x, rising since 2026-10-23T14:40:00+00:00
-- NOU.TO (NOUVEAU MONDE GRAPHITE INC): +3.2% today at 1.29, last 30m +2.0%, volume pace 2.3x, rising since 2026-10-23T14:45:00+00:00
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +4.4% today at 4.28, last 30m +0.2%, volume pace 1.81x, rising since 2026-10-23T15:20:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -85,12 +86,12 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 ## TSX: top gainers in latest intraday pass
 
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +10.6% at 0.365, volume pace 3.35x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +5.3% at 1.0, volume pace 0.15x
-- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.5% at 0.115, volume pace 0.05x
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +4.2% at 4.27, volume pace 1.7x
-- NOU.TO (NOUVEAU MONDE GRAPHITE INC): +3.2% at 1.29, volume pace 2.3x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +5.3% at 1.0, volume pace 0.14x
+- GENM.TO (GENERATION MINING LIMITED): +4.8% at 0.44, volume pace 1.26x
+- NEXT.TO (NEXTSOURCE MATERIALS INC): +4.8% at 0.22, volume pace 0.06x
+- NFGC.TO (NEW FOUND GOLD CORP): +4.6% at 2.29, volume pace 1.49x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.5% at 0.115, volume pace 0.09x
+- ELR.TO (EASTERN PLATINUM LIMITED): +4.5% at 0.23, volume pace 0.79x
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +4.4% at 4.28, volume pace 1.81x
+- XTRA.TO (XTRACT ONE TECHNOLGIES INC): +3.5% at 0.45, volume pace 0.9x
 - ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.0% at 0.17, volume pace 0.03x
-- CVVY.TO (CAVVY ENERGY LTD): +2.9% at 2.625, volume pace 0.39x
-- RBY.TO (RUBELLITE ENERGY CORP): +2.9% at 4.59, volume pace 19.63x
-- YGR.TO (YANGARRA RESOURCES LTD): +2.6% at 1.765, volume pace 3.12x
-- LOVE.TO (CANNARA BIOTECH INC): +2.5% at 2.04, volume pace 1.22x
