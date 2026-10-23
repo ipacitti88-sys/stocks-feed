@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-23T08:01-06:00
+# Stock feed — 2026-10-23T08:31-06:00
 
-Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T14:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T14:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.2% at 14:05
-Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.7% at 14:05
+Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -1.0% at 14:35
+Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -1.2% at 14:35
 
 # TSX Venture
 
@@ -23,13 +23,9 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- EMPR.V (EMPRESS ROYALTY CORP): +6.6% today at 0.97, last 30m +7.8%, volume pace 2.61x, rising since 2026-10-23T13:55:00+00:00
-- LGN.V (LOGAN ENERGY CORP): +4.6% today at 1.36, last 30m +2.3%, volume pace 14.04x, rising since 2026-10-23T13:50:00+00:00
-- SCOT.V (SCOTTIE RESOURCES CORP): +4.2% today at 2.46, last 30m +0.8%, volume pace 2.07x, rising since 2026-10-23T13:55:00+00:00
-- ECU.V (ELEMENT 29 RESOURCES INC): +4.0% today at 1.54, last 30m +6.2%, volume pace 44.33x, rising since 2026-10-23T14:00:00+00:00
-- TDG.V (TDG GOLD CORP): +3.9% today at 0.54, last 30m +3.9%, volume pace 5.18x, rising since 2026-10-23T13:45:00+00:00
-- WPG.V (WEST POINT GOLD CORP): +3.1% today at 1.0, last 30m +5.3%, volume pace 6.09x, rising since 2026-10-23T13:55:00+00:00
-- APGO.V (APOLLO SILVER CORP): +3.1% today at 2.01, last 30m +4.7%, volume pace 2.5x, rising since 2026-10-23T14:00:00+00:00
+- ECU.V (ELEMENT 29 RESOURCES INC): +6.8% today at 1.58, last 30m +2.6%, volume pace 36.02x, rising since 2026-10-23T14:00:00+00:00
+- MMET.V (MIATA METALS CORP): +6.3% today at 0.67, last 30m +4.7%, volume pace 1.58x, rising since 2026-10-23T14:35:00+00:00
+- LGN.V (LOGAN ENERGY CORP): +5.4% today at 1.37, last 30m +0.7%, volume pace 7.39x, rising since 2026-10-23T14:35:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -47,15 +43,15 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - CRE.V (CRITICAL ELEMENTS LITHIUM CORPO): +21.4% at 0.34, volume pace 0.0x
+- BEAR.V (BIG BEAR GOLD CORP): +16.7% at 0.105, volume pace 0.14x
+- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +12.5% at 0.18, volume pace 1.28x
+- KIRO.V (KAIROS GOLD INC): +12.1% at 0.465, volume pace 2.46x
+- GTC.V (GETTY COPPER INC.): +11.5% at 0.58, volume pace 1.16x
 - OPW.V (OPAWICA EXPLORATIONS INC): +11.5% at 0.145, volume pace 7.49x
+- HEVI.V (HELIUM EVOLUTION INCORPORATED): +10.0% at 0.22, volume pace 0.0x
 - EXG.V (EXGEN RESOURCES INC): +9.5% at 0.115, volume pace 0.0x
+- TOM.V (TRINITY SILVER CORP): +9.1% at 0.12, volume pace 0.0x
 - GSP.V (GENSOURCE POTASH CORPORATION): +8.7% at 0.125, volume pace 0.0x
-- DAN.V (ARIANNE PHOSPHATE INC): +8.0% at 0.27, volume pace 0.0x
-- FROG.V (BULLFROG GOLD CORPORATION): +7.7% at 0.14, volume pace 0.0x
-- GTC.V (GETTY COPPER INC.): +7.7% at 0.56, volume pace 0.06x
-- SEVA.V (SEVA MINING CORP): +7.4% at 0.29, volume pace 0.0x
-- KIRO.V (KAIROS GOLD INC): +7.2% at 0.445, volume pace 3.04x
-- PX.V (PELANGIO EXPLORATION INC.): +7.1% at 0.15, volume pace 0.0x
 
 # TSX
 
@@ -70,8 +66,7 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- YGR.TO (YANGARRA RESOURCES LTD): +3.5% today at 1.78, last 30m +3.5%, volume pace 8.1x, rising since 2026-10-23T14:00:00+00:00
-- RBY.TO (RUBELLITE ENERGY CORP): +3.4% today at 4.61, last 30m +4.8%, volume pace 22.69x, rising since 2026-10-23T13:55:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -88,13 +83,13 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +9.1% at 0.36, volume pace 0.33x
-- XTRA.TO (XTRACT ONE TECHNOLGIES INC): +4.6% at 0.455, volume pace 1.05x
-- NFGC.TO (NEW FOUND GOLD CORP): +4.6% at 2.29, volume pace 0.69x
-- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.5% at 0.115, volume pace 0.0x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +10.6% at 0.365, volume pace 3.2x
+- XTRA.TO (XTRACT ONE TECHNOLGIES INC): +4.6% at 0.455, volume pace 1.14x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.5% at 0.115, volume pace 0.14x
 - RUA.TO (RUA GOLD INC): +4.4% at 1.19, volume pace 0.0x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +4.2% at 0.99, volume pace 0.12x
-- YGR.TO (YANGARRA RESOURCES LTD): +3.5% at 1.78, volume pace 8.1x
-- RBY.TO (RUBELLITE ENERGY CORP): +3.4% at 4.61, volume pace 22.69x
-- CVVY.TO (CAVVY ENERGY LTD): +3.1% at 2.63, volume pace 0.65x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +4.2% at 0.99, volume pace 0.13x
 - EDCU.TO (EDGE COPPER CORPORATION): +2.6% at 0.39, volume pace 0.0x
+- YGR.TO (YANGARRA RESOURCES LTD): +2.6% at 1.765, volume pace 4.65x
+- LOVE.TO (CANNARA BIOTECH INC): +2.5% at 2.04, volume pace 1.22x
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +2.4% at 4.2, volume pace 0.85x
+- CVVY.TO (CAVVY ENERGY LTD): +2.4% at 2.61, volume pace 0.46x
