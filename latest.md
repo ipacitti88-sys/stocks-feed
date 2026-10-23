@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-23T11:31-06:00
+# Stock feed — 2026-10-23T12:01-06:00
 
-Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.5% at 17:35
-Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.6% at 17:35
+Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.6% at 18:05
+Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.5% at 18:05
 
 # TSX Venture
 
@@ -23,9 +23,9 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ECU.V (ELEMENT 29 RESOURCES INC): +10.5% today at 1.635, last 30m +0.3%, volume pace 13.26x, rising since 2026-10-23T17:30:00+00:00
-- BIG.V (HERCULES METALS CORP): +7.5% today at 1.01, last 30m +1.0%, volume pace 1.61x, rising since 2026-10-23T17:10:00+00:00
-- ROCK.V (TRIDENT RESOURCES CORP): +4.3% today at 3.38, last 30m +1.8%, volume pace 1.68x, rising since 2026-10-23T16:50:00+00:00
+- LGN.V (LOGAN ENERGY CORP): +6.2% today at 1.38, last 30m +0.4%, volume pace 4.84x, rising since 2026-10-23T17:50:00+00:00
+- MMA.V (MIDNIGHT SUN MINING CORP): +5.4% today at 0.39, last 30m +6.1%, volume pace 1.84x, rising since 2026-10-23T17:40:00+00:00
+- PGLD.V (P2 GOLD INC): +4.4% today at 1.19, last 30m +1.7%, volume pace 1.84x, rising since 2026-10-23T17:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -44,14 +44,14 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 - CRE.V (CRITICAL ELEMENTS LITHIUM CORPO): +21.4% at 0.34, volume pace 0.0x
 - BEAR.V (BIG BEAR GOLD CORP): +16.7% at 0.105, volume pace 0.36x
-- ROAR.V (LION ROCK RESOURCES INC): +12.5% at 0.225, volume pace 0.26x
+- GTC.V (GETTY COPPER INC.): +15.4% at 0.6, volume pace 0.58x
+- TLT.V (THERALASE TECHNOLOGIES INC.): +13.6% at 0.25, volume pace 4.56x
+- ROAR.V (LION ROCK RESOURCES INC): +12.5% at 0.225, volume pace 0.32x
 - FROG.V (BULLFROG GOLD CORPORATION): +11.5% at 0.145, volume pace 0.91x
-- GTC.V (GETTY COPPER INC.): +11.5% at 0.58, volume pace 0.68x
-- ECU.V (ELEMENT 29 RESOURCES INC): +10.5% at 1.635, volume pace 13.26x
-- HEVI.V (HELIUM EVOLUTION INCORPORATED): +10.0% at 0.22, volume pace 0.23x
+- ECU.V (ELEMENT 29 RESOURCES INC): +10.5% at 1.635, volume pace 12.12x
+- HEVI.V (HELIUM EVOLUTION INCORPORATED): +10.0% at 0.22, volume pace 0.07x
+- DGC.V (DAURA GOLD CORP): +9.8% at 0.225, volume pace 1.87x
 - GFG.V (GFG RESOURCES INC): +9.4% at 0.175, volume pace 6.81x
-- TLT.V (THERALASE TECHNOLOGIES INC.): +9.1% at 0.24, volume pace 3.16x
-- LI.V (AMERICAN LITHIUM CORP): +9.1% at 0.36, volume pace 1.85x
 
 # TSX
 
@@ -66,7 +66,7 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TAL.TO (PETROTAL CORP): +3.5% today at 0.6, last 30m +3.5%, volume pace 1.57x, rising since 2026-10-23T17:05:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -83,13 +83,13 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +16.7% at 0.385, volume pace 0.98x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +16.7% at 0.385, volume pace 1.05x
 - GASX.TO (NG ENERGY INTERNATIONAL CORP): +7.4% at 1.02, volume pace 0.14x
+- ELR.TO (EASTERN PLATINUM LIMITED): +6.8% at 0.235, volume pace 0.7x
+- GENM.TO (GENERATION MINING LIMITED): +6.0% at 0.445, volume pace 0.68x
 - SNDY.TO (Sunday Lake Gold Corp.): +5.3% at 1.58, volume pace 1.22x
-- GENM.TO (GENERATION MINING LIMITED): +4.8% at 0.44, volume pace 0.7x
+- BNKR.TO (BUNKER HILL MINING CORP): +4.9% at 2.99, volume pace 0.56x
+- NEXT.TO (NEXTSOURCE MATERIALS INC): +4.8% at 0.22, volume pace 1.11x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.5% at 0.115, volume pace 0.09x
-- ELR.TO (EASTERN PLATINUM LIMITED): +4.5% at 0.23, volume pace 1.52x
-- NICU.TO (MAGNA MINING INC): +3.7% at 1.95, volume pace 3.14x
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +3.7% at 4.25, volume pace 1.31x
-- NFGC.TO (NEW FOUND GOLD CORP): +3.6% at 2.27, volume pace 1.06x
-- BNKR.TO (BUNKER HILL MINING CORP): +3.5% at 2.95, volume pace 0.4x
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +4.2% at 4.27, volume pace 1.29x
+- GCU.TO (GUNNISON COPPER CORP): +4.0% at 0.385, volume pace 1.33x
