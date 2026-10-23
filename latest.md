@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-23T12:31-06:00
+# Stock feed — 2026-10-23T13:01-06:00
 
-Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.5% at 18:35
-Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.4% at 18:35
+Market: S&P/TSX Venture Composite 821.96 on 2026-10-22 (day -3.1%, month -12.5%, year -13.6%, downtrend); live -0.4% at 19:05
+Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year +20.4%, uptrend); live -0.4% at 19:05
 
 # TSX Venture
 
@@ -23,9 +23,9 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ECU.V (ELEMENT 29 RESOURCES INC): +11.5% today at 1.65, last 30m +0.9%, volume pace 10.78x, rising since 2026-10-23T18:05:00+00:00
-- LGN.V (LOGAN ENERGY CORP): +7.3% today at 1.395, last 30m +1.1%, volume pace 4.3x, rising since 2026-10-23T17:50:00+00:00
-- DBG.V (DOUBLEVIEW GOLD CORP): +3.0% today at 1.36, last 30m +1.5%, volume pace 2.3x, rising since 2026-10-23T18:15:00+00:00
+- PML.V (PANORO MINERALS LTD): +5.8% today at 1.27, last 30m +1.6%, volume pace 1.74x, rising since 2026-10-23T18:50:00+00:00
+- NAU.V (NEVGOLD CORP): +5.2% today at 0.61, last 30m +5.2%, volume pace 1.68x, rising since 2026-10-23T19:00:00+00:00
+- PGLD.V (P2 GOLD INC): +4.4% today at 1.19, last 30m +0.8%, volume pace 1.62x, rising since 2026-10-23T18:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- W.V (SPARTAN METALS CORP): +28.1% at 0.365, volume pace 3.52x
 - CRE.V (CRITICAL ELEMENTS LITHIUM CORPO): +21.4% at 0.34, volume pace 0.0x
+- GTC.V (GETTY COPPER INC.): +19.2% at 0.62, volume pace 0.67x
 - BEAR.V (BIG BEAR GOLD CORP): +16.7% at 0.105, volume pace 0.36x
 - FROG.V (BULLFROG GOLD CORPORATION): +15.4% at 0.15, volume pace 0.7x
-- OPW.V (OPAWICA EXPLORATIONS INC): +15.4% at 0.15, volume pace 0.8x
-- ROAR.V (LION ROCK RESOURCES INC): +12.5% at 0.225, volume pace 0.32x
-- GTC.V (GETTY COPPER INC.): +11.5% at 0.58, volume pace 0.58x
-- ECU.V (ELEMENT 29 RESOURCES INC): +11.5% at 1.65, volume pace 10.78x
+- OPW.V (OPAWICA EXPLORATIONS INC): +15.4% at 0.15, volume pace 3.07x
+- ELBM.V (ELECTRA BATTERY MATERIALS CORP): +14.0% at 0.65, volume pace 1.46x
+- ECU.V (ELEMENT 29 RESOURCES INC): +11.5% at 1.65, volume pace 10.27x
+- MINE.V (INOMIN MINES INC): +11.1% at 0.1, volume pace 0.0x
 - LI.V (AMERICAN LITHIUM CORP): +10.6% at 0.365, volume pace 1.94x
-- ELBM.V (ELECTRA BATTERY MATERIALS CORP): +10.5% at 0.63, volume pace 1.44x
-- W.V (SPARTAN METALS CORP): +10.5% at 0.315, volume pace 2.11x
 
 # TSX
 
@@ -66,8 +66,8 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- NICU.TO (MAGNA MINING INC): +4.3% today at 1.96, last 30m +0.5%, volume pace 2.71x, rising since 2026-10-23T18:10:00+00:00
-- PCA.TO (PHOENIX METALS CORP CLASS A): +4.2% today at 1.23, last 30m +3.4%, volume pace 2.25x, rising since 2026-10-23T18:25:00+00:00
+- NICU.TO (MAGNA MINING INC): +4.5% today at 1.965, last 30m +0.5%, volume pace 2.69x, rising since 2026-10-23T19:00:00+00:00
+- PCA.TO (PHOENIX METALS CORP CLASS A): +4.2% today at 1.23, last 30m +3.4%, volume pace 2.56x, rising since 2026-10-23T18:25:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -85,12 +85,12 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 ## TSX: top gainers in latest intraday pass
 
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +16.7% at 0.385, volume pace 1.05x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +7.4% at 1.02, volume pace 0.14x
-- ELR.TO (EASTERN PLATINUM LIMITED): +6.8% at 0.235, volume pace 1.09x
-- FT.TO (FORTUNE MNRL J): +5.6% at 0.095, volume pace 0.26x
-- GCU.TO (GUNNISON COPPER CORP): +5.4% at 0.39, volume pace 1.35x
-- GENM.TO (GENERATION MINING LIMITED): +5.4% at 0.4425, volume pace 0.64x
-- SNDY.TO (Sunday Lake Gold Corp.): +5.3% at 1.58, volume pace 1.22x
-- HMMC.TO (HEMLO MINING CORP): +5.2% at 5.06, volume pace 0.69x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +6.8% at 1.015, volume pace 0.13x
+- ELR.TO (EASTERN PLATINUM LIMITED): +6.8% at 0.235, volume pace 1.25x
+- NOU.TO (NOUVEAU MONDE GRAPHITE INC): +6.0% at 1.325, volume pace 0.88x
+- GENM.TO (GENERATION MINING LIMITED): +6.0% at 0.445, volume pace 0.7x
+- LAM.TO (LARAMIDE RESOURCES LTD.): +5.8% at 0.455, volume pace 0.1x
+- FT.TO (FORTUNE MNRL J): +5.6% at 0.095, volume pace 0.24x
+- GCU.TO (GUNNISON COPPER CORP): +5.4% at 0.39, volume pace 1.36x
+- HMMC.TO (HEMLO MINING CORP): +5.2% at 5.06, volume pace 0.7x
 - NEXT.TO (NEXTSOURCE MATERIALS INC): +4.8% at 0.22, volume pace 1.12x
-- NICU.TO (MAGNA MINING INC): +4.3% at 1.96, volume pace 2.71x
