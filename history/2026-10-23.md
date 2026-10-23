@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-23T14:01-06:00
+# Stock feed — 2026-10-23T14:06-06:00
 
 Tracking 657 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-22. Intraday data as of: 2026-10-23T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -91,9 +91,9 @@ Market: S&P/TSX Composite 35,973.45 on 2026-10-22 (day -1.0%, month -1.0%, year 
 - GASX.TO (NG ENERGY INTERNATIONAL CORP): +7.4% at 1.02, volume pace 0.18x
 - NOU.TO (NOUVEAU MONDE GRAPHITE INC): +5.6% at 1.32, volume pace 0.85x
 - FT.TO (FORTUNE MNRL J): +5.6% at 0.095, volume pace 0.27x
-- ARA.TO (ACLARA RESOURCES INC): +5.3% at 2.76, volume pace 0.97x
 - NICU.TO (MAGNA MINING INC): +5.3% at 1.98, volume pace 3.16x
 - FF.TO (FIRST MINING GOLD CORP): +5.2% at 0.61, volume pace 0.33x
+- ARA.TO (ACLARA RESOURCES INC): +5.2% at 2.755, volume pace 0.99x
 - HLS.TO (HLS THERAPEUTICS INC): +4.3% at 4.33, volume pace 2.67x
 - HMMC.TO (HEMLO MINING CORP): +4.2% at 5.01, volume pace 0.8x
 - GCU.TO (GUNNISON COPPER CORP): +4.0% at 0.385, volume pace 1.42x

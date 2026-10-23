@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T14:01-06:00",
+ "generated": "2026-10-23T14:06-06:00",
  "last_close_day": "2026-10-22",
  "tracked": 657,
  "tracked_by_market": {
@@ -677,17 +677,6 @@
    "rising_since": null
   },
   {
-   "ticker": "ARA.TO",
-   "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-10-23T20:00:00+00:00",
-   "last": 2.76,
-   "pct_day": 5.34,
-   "pct_30m": 0.73,
-   "volume_pace": 0.97,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "NICU.TO",
    "name": "MAGNA MINING INC",
    "as_of": "2026-10-23T20:00:00+00:00",
@@ -706,6 +695,17 @@
    "pct_day": 5.17,
    "pct_30m": 0.83,
    "volume_pace": 0.33,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ARA.TO",
+   "name": "ACLARA RESOURCES INC",
+   "as_of": "2026-10-23T20:00:00+00:00",
+   "last": 2.755,
+   "pct_day": 5.15,
+   "pct_30m": 0.55,
+   "volume_pace": 0.99,
    "rising": false,
    "rising_since": null
   },
