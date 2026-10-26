@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-26T08:31-06:00
+# Stock feed — 2026-10-26T09:01-06:00
 
-Tracking 660 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-23. Intraday data as of: 2026-10-26T14:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 660 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-23. Intraday data as of: 2026-10-26T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 820.95 on 2026-10-23 (day -0.1%, month -11.2%, year -13.4%, downtrend); live -0.7% at 14:35
-Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year +19.4%, uptrend); live +0.6% at 14:35
+Market: S&P/TSX Venture Composite 820.95 on 2026-10-23 (day -0.1%, month -11.2%, year -13.4%, downtrend); live -0.2% at 15:05
+Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year +19.4%, uptrend); live +0.6% at 15:05
 
 # TSX Venture
 
@@ -21,11 +21,13 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CNC.V (CANADA NICKEL COMPANY INC): +8.7% today at 1.0, last 30m +1.0%, volume pace 4.18x, rising since 2026-10-26T13:45:00+00:00
-- ECU.V (ELEMENT 29 RESOURCES INC): +6.9% today at 1.87, last 30m +1.1%, volume pace 3.59x, rising since 2026-10-26T14:30:00+00:00
-- DBG.V (DOUBLEVIEW GOLD CORP): +6.7% today at 1.44, last 30m +3.6%, volume pace 1.75x, rising since 2026-10-26T14:05:00+00:00
-- AAG.V (AFTERMATH SILVER LTD): +4.7% today at 0.45, last 30m +3.5%, volume pace 1.59x, rising since 2026-10-26T14:30:00+00:00
-- GSKR.V (GOLDSKY RESOURCES CORP): +3.6% today at 2.58, last 30m +2.4%, volume pace 13.19x, rising since 2026-10-26T14:20:00+00:00
+- AVN.V (AVANTI HELIUM CORP): +11.6% today at 0.48, last 30m +1.1%, volume pace 6.45x, rising since 2026-10-26T14:45:00+00:00
+- PLSR.V (PULSAR HELIUM INC): +9.6% today at 1.48, last 30m +2.1%, volume pace 5.31x, rising since 2026-10-26T14:45:00+00:00
+- ECU.V (ELEMENT 29 RESOURCES INC): +7.4% today at 1.88, last 30m +0.5%, volume pace 4.41x, rising since 2026-10-26T14:30:00+00:00
+- ZNX.V (ZINCX RESOURCES CORP): +7.3% today at 0.295, last 30m +7.3%, volume pace 1.56x, rising since 2026-10-26T14:25:00+00:00
+- GGO.V (GALLEON GOLD CORP): +3.7% today at 1.12, last 30m +0.9%, volume pace 3.6x, rising since 2026-10-26T14:40:00+00:00
+- PML.V (PANORO MINERALS LTD): +3.2% today at 1.3, last 30m +2.4%, volume pace 2.99x, rising since 2026-10-26T14:40:00+00:00
+- ALDE.V (ALDEBARAN RESOURCES INC): +3.1% today at 3.35, last 30m +1.5%, volume pace 2.67x, rising since 2026-10-26T14:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +44,16 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- LVX.V (LEVIATHAN METALS CORP): +23.1% at 0.32, volume pace 8.4x
-- GRG.V (GRG RESOURCES CORP): +17.6% at 0.1, volume pace 18.27x
+- LVX.V (LEVIATHAN METALS CORP): +34.6% at 0.35, volume pace 6.21x
 - PRG.V (PRECIPITATE GOLD CORP): +17.4% at 0.135, volume pace 0.0x
+- COCO.V (COAST COPPER CORP): +16.7% at 0.35, volume pace 1.84x
 - EXG.V (EXGEN RESOURCES INC): +15.0% at 0.115, volume pace 0.0x
+- FOXT.V (FOX TUNGSTEN LTD): +13.6% at 0.125, volume pace 0.6x
 - ALCH.V (ALCHEMY LABS INC): +11.8% at 0.85, volume pace 3.64x
-- AVN.V (AVANTI HELIUM CORP): +10.5% at 0.475, volume pace 10.09x
+- GRG.V (GRG RESOURCES CORP): +11.8% at 0.095, volume pace 6.28x
+- AVN.V (AVANTI HELIUM CORP): +11.6% at 0.48, volume pace 6.45x
 - NICE.V (NI CO ENERGY INC): +10.3% at 0.43, volume pace 0.0x
-- TITI.V (TITIMINAS SILVER INC): +9.3% at 0.59, volume pace 0.46x
-- FOXT.V (FOX TUNGSTEN LTD): +9.1% at 0.12, volume pace 0.2x
-- CNC.V (CANADA NICKEL COMPANY INC): +8.7% at 1.0, volume pace 4.18x
+- PLSR.V (PULSAR HELIUM INC): +9.6% at 1.48, volume pace 5.31x
 
 # TSX
 
@@ -68,7 +70,10 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- PDI.TO (PDI GOLD LIMITED): +8.2% today at 3.81, last 30m +1.1%, volume pace 6.35x, rising since 2026-10-26T14:40:00+00:00
+- HMMC.TO (HEMLO MINING CORP): +4.8% today at 5.23, last 30m +2.1%, volume pace 1.8x, rising since 2026-10-26T14:40:00+00:00
+- PMET.TO (PMET RESOURCES INC): +4.1% today at 3.175, last 30m +1.6%, volume pace 1.96x, rising since 2026-10-26T14:35:00+00:00
+- WGX.TO (WESTGOLD RESOURCES LIMITED): +3.8% today at 4.88, last 30m +1.2%, volume pace 2.38x, rising since 2026-10-26T14:45:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -85,13 +90,13 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- PDI.TO (PDI GOLD LIMITED): +7.4% at 3.78, volume pace 8.29x
-- BOIL.TO (BEYOND OIL LTD): +6.4% at 2.5, volume pace 1.06x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +6.1% at 0.175, volume pace 1.02x
-- FFM.TO (FIREFLY METALS LTD): +5.4% at 1.265, volume pace 0.97x
+- ILLM.TO (iLLUMIN HOLDINGS INC): +9.7% at 0.68, volume pace 4.24x
+- PDI.TO (PDI GOLD LIMITED): +8.2% at 3.81, volume pace 6.35x
+- FFM.TO (FIREFLY METALS LTD): +6.7% at 1.28, volume pace 0.66x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +6.1% at 0.175, volume pace 0.72x
+- COPR.TO (COPPERNICO METALS INC): +5.1% at 0.41, volume pace 1.78x
+- HMMC.TO (HEMLO MINING CORP): +4.8% at 5.23, volume pace 1.8x
+- PMET.TO (PMET RESOURCES INC): +4.1% at 3.175, volume pace 1.96x
+- BRC.TO (BLACKROCK SILVER CORP): +4.0% at 0.77, volume pace 0.87x
 - HLS.TO (HLS THERAPEUTICS INC): +3.9% at 4.5, volume pace 0.79x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +3.6% at 0.29, volume pace 2.12x
-- BRC.TO (BLACKROCK SILVER CORP): +3.4% at 0.765, volume pace 0.78x
-- ILLM.TO (iLLUMIN HOLDINGS INC): +3.2% at 0.64, volume pace 0.0x
-- FVL.TO (FREEGOLD LIMITED): +3.2% at 0.815, volume pace 1.11x
-- GRN.TO (GREENLANE RENEWABLES INC): +3.1% at 0.165, volume pace 0.35x
+- WGX.TO (WESTGOLD RESOURCES LIMITED): +3.8% at 4.88, volume pace 2.38x
