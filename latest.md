@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-26T08:01-06:00
+# Stock feed — 2026-10-26T08:31-06:00
 
-Tracking 660 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-23. Intraday data as of: 2026-10-26T14:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 660 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-23. Intraday data as of: 2026-10-26T14:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 820.95 on 2026-10-23 (day -0.1%, month -11.2%, year -13.4%, downtrend); live -1.2% at 14:05
-Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year +19.4%, uptrend); live +0.3% at 14:05
+Market: S&P/TSX Venture Composite 820.95 on 2026-10-23 (day -0.1%, month -11.2%, year -13.4%, downtrend); live -0.7% at 14:35
+Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year +19.4%, uptrend); live +0.6% at 14:35
 
 # TSX Venture
 
@@ -21,11 +21,11 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- AVN.V (AVANTI HELIUM CORP): +10.5% today at 0.475, last 30m +3.3%, volume pace 9.91x, rising since 2026-10-26T13:45:00+00:00
-- PLSR.V (PULSAR HELIUM INC): +9.6% today at 1.48, last 30m +6.5%, volume pace 9.06x, rising since 2026-10-26T13:45:00+00:00
-- CNC.V (CANADA NICKEL COMPANY INC): +6.5% today at 0.98, last 30m +3.2%, volume pace 4.73x, rising since 2026-10-26T13:45:00+00:00
-- BRAU.V (BIG RIDGE GOLD CORP): +6.4% today at 0.5, last 30m +2.0%, volume pace 2.22x, rising since 2026-10-26T13:45:00+00:00
-- ECU.V (ELEMENT 29 RESOURCES INC): +5.7% today at 1.85, last 30m +5.7%, volume pace 2.9x, rising since 2026-10-26T13:55:00+00:00
+- CNC.V (CANADA NICKEL COMPANY INC): +8.7% today at 1.0, last 30m +1.0%, volume pace 4.18x, rising since 2026-10-26T13:45:00+00:00
+- ECU.V (ELEMENT 29 RESOURCES INC): +6.9% today at 1.87, last 30m +1.1%, volume pace 3.59x, rising since 2026-10-26T14:30:00+00:00
+- DBG.V (DOUBLEVIEW GOLD CORP): +6.7% today at 1.44, last 30m +3.6%, volume pace 1.75x, rising since 2026-10-26T14:05:00+00:00
+- AAG.V (AFTERMATH SILVER LTD): +4.7% today at 0.45, last 30m +3.5%, volume pace 1.59x, rising since 2026-10-26T14:30:00+00:00
+- GSKR.V (GOLDSKY RESOURCES CORP): +3.6% today at 2.58, last 30m +2.4%, volume pace 13.19x, rising since 2026-10-26T14:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- LVX.V (LEVIATHAN METALS CORP): +21.1% at 0.315, volume pace 9.93x
-- GRG.V (GRG RESOURCES CORP): +17.6% at 0.1, volume pace 9.81x
+- LVX.V (LEVIATHAN METALS CORP): +23.1% at 0.32, volume pace 8.4x
+- GRG.V (GRG RESOURCES CORP): +17.6% at 0.1, volume pace 18.27x
 - PRG.V (PRECIPITATE GOLD CORP): +17.4% at 0.135, volume pace 0.0x
 - EXG.V (EXGEN RESOURCES INC): +15.0% at 0.115, volume pace 0.0x
-- ANOR.V (ANORTECH INC): +13.3% at 0.17, volume pace 0.0x
-- ALCH.V (ALCHEMY LABS INC): +11.8% at 0.85, volume pace 1.66x
-- AVN.V (AVANTI HELIUM CORP): +10.5% at 0.475, volume pace 9.91x
-- TK.V (TINKA RESOURCES LTD): +9.7% at 0.395, volume pace 0.0x
-- PLSR.V (PULSAR HELIUM INC): +9.6% at 1.48, volume pace 9.06x
-- TITI.V (TITIMINAS SILVER INC): +9.3% at 0.59, volume pace 0.0x
+- ALCH.V (ALCHEMY LABS INC): +11.8% at 0.85, volume pace 3.64x
+- AVN.V (AVANTI HELIUM CORP): +10.5% at 0.475, volume pace 10.09x
+- NICE.V (NI CO ENERGY INC): +10.3% at 0.43, volume pace 0.0x
+- TITI.V (TITIMINAS SILVER INC): +9.3% at 0.59, volume pace 0.46x
+- FOXT.V (FOX TUNGSTEN LTD): +9.1% at 0.12, volume pace 0.2x
+- CNC.V (CANADA NICKEL COMPANY INC): +8.7% at 1.0, volume pace 4.18x
 
 # TSX
 
@@ -68,7 +68,7 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PDI.TO (PDI GOLD LIMITED): +8.2% today at 3.81, last 30m +5.2%, volume pace 6.11x, rising since 2026-10-26T14:00:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -85,13 +85,13 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +8.9% at 0.305, volume pace 0.0x
-- PDI.TO (PDI GOLD LIMITED): +8.2% at 3.81, volume pace 6.11x
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +8.0% at 0.27, volume pace 0.0x
-- FFM.TO (FIREFLY METALS LTD): +5.0% at 1.26, volume pace 1.4x
-- S.TO (SHERRITT INTL RV): +4.4% at 0.235, volume pace 0.0x
-- BOIL.TO (BEYOND OIL LTD): +4.3% at 2.45, volume pace 0.79x
-- HLS.TO (HLS THERAPEUTICS INC): +3.5% at 4.48, volume pace 0.76x
+- PDI.TO (PDI GOLD LIMITED): +7.4% at 3.78, volume pace 8.29x
+- BOIL.TO (BEYOND OIL LTD): +6.4% at 2.5, volume pace 1.06x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +6.1% at 0.175, volume pace 1.02x
+- FFM.TO (FIREFLY METALS LTD): +5.4% at 1.265, volume pace 0.97x
+- HLS.TO (HLS THERAPEUTICS INC): +3.9% at 4.5, volume pace 0.79x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +3.6% at 0.29, volume pace 2.12x
+- BRC.TO (BLACKROCK SILVER CORP): +3.4% at 0.765, volume pace 0.78x
 - ILLM.TO (iLLUMIN HOLDINGS INC): +3.2% at 0.64, volume pace 0.0x
-- GRN.TO (GREENLANE RENEWABLES INC): +3.1% at 0.165, volume pace 0.2x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +3.0% at 0.17, volume pace 0.0x
+- FVL.TO (FREEGOLD LIMITED): +3.2% at 0.815, volume pace 1.11x
+- GRN.TO (GREENLANE RENEWABLES INC): +3.1% at 0.165, volume pace 0.35x
