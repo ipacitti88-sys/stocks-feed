@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-26T10:31-06:00
+# Stock feed — 2026-10-26T11:01-06:00
 
-Tracking 660 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-23. Intraday data as of: 2026-10-26T16:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 660 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-23. Intraday data as of: 2026-10-26T17:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 820.95 on 2026-10-23 (day -0.1%, month -11.2%, year -13.4%, downtrend); live +0.2% at 16:35
-Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year +19.4%, uptrend); live +0.5% at 16:35
+Market: S&P/TSX Venture Composite 820.95 on 2026-10-23 (day -0.1%, month -11.2%, year -13.4%, downtrend); live +0.3% at 17:05
+Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year +19.4%, uptrend); live +0.5% at 17:05
 
 # TSX Venture
 
@@ -21,12 +21,10 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PLSR.V (PULSAR HELIUM INC): +11.8% today at 1.51, last 30m +0.3%, volume pace 3.49x, rising since 2026-10-26T16:30:00+00:00
-- SURG.V (SURGE COPPER CORP): +9.8% today at 0.45, last 30m +1.1%, volume pace 1.53x, rising since 2026-10-26T16:05:00+00:00
-- DBG.V (DOUBLEVIEW GOLD CORP): +8.9% today at 1.47, last 30m +0.7%, volume pace 1.56x, rising since 2026-10-26T15:30:00+00:00
-- LGN.V (LOGAN ENERGY CORP): +8.3% today at 1.57, last 30m +2.6%, volume pace 6.95x, rising since 2026-10-26T16:15:00+00:00
-- ALDE.V (ALDEBARAN RESOURCES INC): +4.9% today at 3.41, last 30m +1.2%, volume pace 1.62x, rising since 2026-10-26T15:50:00+00:00
-- GMG.V (GRAPHENE MANUFACTURING GROUP LT): +3.0% today at 2.04, last 30m +0.5%, volume pace 1.53x, rising since 2026-10-26T16:25:00+00:00
+- PLSR.V (PULSAR HELIUM INC): +14.1% today at 1.54, last 30m +2.0%, volume pace 3.17x, rising since 2026-10-26T17:00:00+00:00
+- LGN.V (LOGAN ENERGY CORP): +8.6% today at 1.575, last 30m +0.3%, volume pace 6.88x, rising since 2026-10-26T16:15:00+00:00
+- ECU.V (ELEMENT 29 RESOURCES INC): +6.3% today at 1.86, last 30m +1.1%, volume pace 2.88x, rising since 2026-10-26T17:05:00+00:00
+- MGM.V (MAPLE GOLD MINES LTD): +4.2% today at 2.5, last 30m +1.2%, volume pace 1.93x, rising since 2026-10-26T17:05:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -43,16 +41,16 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- GRG.V (GRG RESOURCES CORP): +35.3% at 0.115, volume pace 12.32x
-- LVX.V (LEVIATHAN METALS CORP): +28.9% at 0.335, volume pace 3.9x
+- SCY.V (SCANDIUM INTERNATIONAL MINING C): +38.9% at 0.125, volume pace 3.89x
+- LVX.V (LEVIATHAN METALS CORP): +30.8% at 0.34, volume pace 3.43x
+- GRG.V (GRG RESOURCES CORP): +29.4% at 0.11, volume pace 9.68x
 - PRG.V (PRECIPITATE GOLD CORP): +17.4% at 0.135, volume pace 0.0x
-- SCY.V (SCANDIUM INTERNATIONAL MINING C): +16.7% at 0.105, volume pace 2.55x
-- AVN.V (AVANTI HELIUM CORP): +15.1% at 0.495, volume pace 7.78x
+- COCO.V (COAST COPPER CORP): +15.0% at 0.345, volume pace 6.47x
 - EXG.V (EXGEN RESOURCES INC): +15.0% at 0.115, volume pace 0.0x
-- FOXT.V (FOX TUNGSTEN LTD): +13.6% at 0.125, volume pace 0.35x
-- B.V (BCM RESOURCES CORPORATION): +13.3% at 0.68, volume pace 1.16x
-- PTU.V (PUREPOINT URANIUM GROUP INC.): +12.8% at 0.22, volume pace 1.92x
-- PLSR.V (PULSAR HELIUM INC): +11.8% at 1.51, volume pace 3.49x
+- PLSR.V (PULSAR HELIUM INC): +14.1% at 1.54, volume pace 3.17x
+- FOXT.V (FOX TUNGSTEN LTD): +13.6% at 0.125, volume pace 0.29x
+- B.V (BCM RESOURCES CORPORATION): +13.3% at 0.68, volume pace 1.12x
+- PTU.V (PUREPOINT URANIUM GROUP INC.): +12.8% at 0.22, volume pace 1.97x
 
 # TSX
 
@@ -69,8 +67,7 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CEMX.TO (CEMATRIX): +5.3% today at 0.5, last 30m +1.0%, volume pace 4.28x, rising since 2026-10-26T15:05:00+00:00
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +3.9% today at 4.365, last 30m +0.3%, volume pace 2.65x, rising since 2026-10-26T16:10:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -89,11 +86,11 @@ Market: S&P/TSX Composite 35,788.18 on 2026-10-23 (day -0.5%, month +0.1%, year 
 
 - NCF.TO (NORTHCLIFF RESOURCES LTD): +10.7% at 0.31, volume pace 0.88x
 - PDI.TO (PDI GOLD LIMITED): +8.0% at 3.8, volume pace 4.02x
-- FFM.TO (FIREFLY METALS LTD): +7.5% at 1.29, volume pace 0.44x
-- ILLM.TO (iLLUMIN HOLDINGS INC): +6.5% at 0.66, volume pace 2.36x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +6.1% at 0.175, volume pace 0.66x
-- HMMC.TO (HEMLO MINING CORP): +5.5% at 5.265, volume pace 1.35x
-- BRC.TO (BLACKROCK SILVER CORP): +5.4% at 0.78, volume pace 0.76x
-- IMP.TO (INTERMAP TECHNOLOGIES CORPORATI): +5.3% at 0.79, volume pace 3.63x
-- CEMX.TO (CEMATRIX): +5.3% at 0.5, volume pace 4.28x
-- PMET.TO (PMET RESOURCES INC): +4.4% at 3.185, volume pace 1.45x
+- FFM.TO (FIREFLY METALS LTD): +7.1% at 1.285, volume pace 0.34x
+- ILLM.TO (iLLUMIN HOLDINGS INC): +6.5% at 0.66, volume pace 2.4x
+- BRC.TO (BLACKROCK SILVER CORP): +5.4% at 0.78, volume pace 0.58x
+- IMP.TO (INTERMAP TECHNOLOGIES CORPORATI): +5.3% at 0.79, volume pace 3.68x
+- CEMX.TO (CEMATRIX): +5.3% at 0.5, volume pace 3.31x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +4.8% at 3.185, volume pace 0.84x
+- HMMC.TO (HEMLO MINING CORP): +4.2% at 5.2, volume pace 1.25x
+- PMET.TO (PMET RESOURCES INC): +3.9% at 3.17, volume pace 1.29x
