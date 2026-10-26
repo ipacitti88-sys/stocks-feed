@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T09:01-06:00",
+ "generated": "2026-10-26T09:31-06:00",
  "last_close_day": "2026-10-23",
  "tracked": 660,
  "tracked_by_market": {
@@ -445,51 +445,51 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-26T15:05:00+00:00",
+ "live_as_of": "2026-10-26T15:35:00+00:00",
  "rising": [
   {
    "ticker": "AVN.V",
    "name": "AVANTI HELIUM CORP",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 0.48,
-   "pct_day": 11.63,
-   "pct_30m": 1.05,
-   "volume_pace": 6.45,
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 0.51,
+   "pct_day": 18.6,
+   "pct_30m": 6.25,
+   "volume_pace": 9.68,
    "rising": true,
    "rising_since": "2026-10-26T14:45:00+00:00"
   },
   {
    "ticker": "PLSR.V",
    "name": "PULSAR HELIUM INC",
-   "as_of": "2026-10-26T14:55:00+00:00",
-   "last": 1.48,
-   "pct_day": 9.63,
-   "pct_30m": 2.07,
-   "volume_pace": 5.31,
+   "as_of": "2026-10-26T15:35:00+00:00",
+   "last": 1.53,
+   "pct_day": 13.33,
+   "pct_30m": 3.38,
+   "volume_pace": 4.43,
    "rising": true,
    "rising_since": "2026-10-26T14:45:00+00:00"
   },
   {
    "ticker": "PDI.TO",
    "name": "PDI GOLD LIMITED",
-   "as_of": "2026-10-26T14:40:00+00:00",
-   "last": 3.81,
-   "pct_day": 8.24,
-   "pct_30m": 1.06,
-   "volume_pace": 6.35,
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 3.83,
+   "pct_day": 8.81,
+   "pct_30m": 0.52,
+   "volume_pace": 3.7,
    "rising": true,
    "rising_since": "2026-10-26T14:40:00+00:00"
   },
   {
-   "ticker": "ECU.V",
-   "name": "ELEMENT 29 RESOURCES INC",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 1.88,
-   "pct_day": 7.43,
-   "pct_30m": 0.53,
-   "volume_pace": 4.41,
+   "ticker": "DBG.V",
+   "name": "DOUBLEVIEW GOLD CORP",
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 1.45,
+   "pct_day": 7.41,
+   "pct_30m": 1.4,
+   "volume_pace": 2.24,
    "rising": true,
-   "rising_since": "2026-10-26T14:30:00+00:00"
+   "rising_since": "2026-10-26T15:30:00+00:00"
   },
   {
    "ticker": "ZNX.V",
@@ -503,68 +503,68 @@
    "rising_since": "2026-10-26T14:25:00+00:00"
   },
   {
-   "ticker": "HMMC.TO",
-   "name": "HEMLO MINING CORP",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 5.23,
-   "pct_day": 4.81,
-   "pct_30m": 2.15,
-   "volume_pace": 1.8,
-   "rising": true,
-   "rising_since": "2026-10-26T14:40:00+00:00"
-  },
-  {
-   "ticker": "PMET.TO",
-   "name": "PMET RESOURCES INC",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 3.175,
-   "pct_day": 4.1,
-   "pct_30m": 1.6,
-   "volume_pace": 1.96,
-   "rising": true,
-   "rising_since": "2026-10-26T14:35:00+00:00"
-  },
-  {
-   "ticker": "WGX.TO",
-   "name": "WESTGOLD RESOURCES LIMITED",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 4.88,
-   "pct_day": 3.83,
-   "pct_30m": 1.24,
-   "volume_pace": 2.38,
-   "rising": true,
-   "rising_since": "2026-10-26T14:45:00+00:00"
-  },
-  {
    "ticker": "GGO.V",
    "name": "GALLEON GOLD CORP",
-   "as_of": "2026-10-26T14:50:00+00:00",
-   "last": 1.12,
-   "pct_day": 3.7,
-   "pct_30m": 0.9,
-   "volume_pace": 3.6,
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 1.13,
+   "pct_day": 4.63,
+   "pct_30m": 0.89,
+   "volume_pace": 2.48,
    "rising": true,
-   "rising_since": "2026-10-26T14:40:00+00:00"
+   "rising_since": "2026-10-26T15:25:00+00:00"
   },
   {
-   "ticker": "PML.V",
-   "name": "PANORO MINERALS LTD",
-   "as_of": "2026-10-26T14:40:00+00:00",
-   "last": 1.3,
-   "pct_day": 3.17,
-   "pct_30m": 2.36,
-   "volume_pace": 2.99,
+   "ticker": "ESI.TO",
+   "name": "ENSIGN ENERGY SERVICES INC.",
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 4.38,
+   "pct_day": 4.29,
+   "pct_30m": 0.69,
+   "volume_pace": 2.19,
    "rising": true,
-   "rising_since": "2026-10-26T14:40:00+00:00"
+   "rising_since": "2026-10-26T15:20:00+00:00"
+  },
+  {
+   "ticker": "CEMX.TO",
+   "name": "CEMATRIX",
+   "as_of": "2026-10-26T15:25:00+00:00",
+   "last": 0.495,
+   "pct_day": 4.21,
+   "pct_30m": 2.06,
+   "volume_pace": 1.6,
+   "rising": true,
+   "rising_since": "2026-10-26T15:05:00+00:00"
+  },
+  {
+   "ticker": "FWZ.V",
+   "name": "FIREWEED METALS CORP",
+   "as_of": "2026-10-26T15:15:00+00:00",
+   "last": 2.39,
+   "pct_day": 3.46,
+   "pct_30m": 1.49,
+   "volume_pace": 1.93,
+   "rising": true,
+   "rising_since": "2026-10-26T15:10:00+00:00"
+  },
+  {
+   "ticker": "BRAU.V",
+   "name": "BIG RIDGE GOLD CORP",
+   "as_of": "2026-10-26T15:25:00+00:00",
+   "last": 0.485,
+   "pct_day": 3.19,
+   "pct_30m": 1.04,
+   "volume_pace": 1.72,
+   "rising": true,
+   "rising_since": "2026-10-26T15:25:00+00:00"
   },
   {
    "ticker": "ALDE.V",
    "name": "ALDEBARAN RESOURCES INC",
-   "as_of": "2026-10-26T15:00:00+00:00",
+   "as_of": "2026-10-26T15:15:00+00:00",
    "last": 3.35,
    "pct_day": 3.08,
-   "pct_30m": 1.52,
-   "volume_pace": 2.67,
+   "pct_30m": 1.21,
+   "volume_pace": 2.29,
    "rising": true,
    "rising_since": "2026-10-26T14:50:00+00:00"
   }
@@ -573,11 +573,33 @@
   {
    "ticker": "LVX.V",
    "name": "LEVIATHAN METALS CORP",
-   "as_of": "2026-10-26T14:55:00+00:00",
-   "last": 0.35,
-   "pct_day": 34.62,
-   "pct_30m": 12.9,
-   "volume_pace": 6.21,
+   "as_of": "2026-10-26T15:10:00+00:00",
+   "last": 0.36,
+   "pct_day": 38.46,
+   "pct_30m": 12.5,
+   "volume_pace": 5.58,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AVN.V",
+   "name": "AVANTI HELIUM CORP",
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 0.51,
+   "pct_day": 18.6,
+   "pct_30m": 6.25,
+   "volume_pace": 9.68,
+   "rising": true,
+   "rising_since": "2026-10-26T14:45:00+00:00"
+  },
+  {
+   "ticker": "GRG.V",
+   "name": "GRG RESOURCES CORP",
+   "as_of": "2026-10-26T15:15:00+00:00",
+   "last": 0.1,
+   "pct_day": 17.65,
+   "pct_30m": 0.0,
+   "volume_pace": 7.69,
    "rising": false,
    "rising_since": null
   },
@@ -595,11 +617,11 @@
   {
    "ticker": "COCO.V",
    "name": "COAST COPPER CORP",
-   "as_of": "2026-10-26T14:55:00+00:00",
+   "as_of": "2026-10-26T15:15:00+00:00",
    "last": 0.35,
    "pct_day": 16.67,
    "pct_30m": 16.67,
-   "volume_pace": 1.84,
+   "volume_pace": 4.66,
    "rising": false,
    "rising_since": null
   },
@@ -621,9 +643,20 @@
    "last": 0.125,
    "pct_day": 13.64,
    "pct_30m": 8.7,
-   "volume_pace": 0.6,
+   "volume_pace": 0.66,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "PLSR.V",
+   "name": "PULSAR HELIUM INC",
+   "as_of": "2026-10-26T15:35:00+00:00",
+   "last": 1.53,
+   "pct_day": 13.33,
+   "pct_30m": 3.38,
+   "volume_pace": 4.43,
+   "rising": true,
+   "rising_since": "2026-10-26T14:45:00+00:00"
   },
   {
    "ticker": "ALCH.V",
@@ -637,28 +670,6 @@
    "rising_since": null
   },
   {
-   "ticker": "GRG.V",
-   "name": "GRG RESOURCES CORP",
-   "as_of": "2026-10-26T15:05:00+00:00",
-   "last": 0.095,
-   "pct_day": 11.76,
-   "pct_30m": -5.0,
-   "volume_pace": 6.28,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AVN.V",
-   "name": "AVANTI HELIUM CORP",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 0.48,
-   "pct_day": 11.63,
-   "pct_30m": 1.05,
-   "volume_pace": 6.45,
-   "rising": true,
-   "rising_since": "2026-10-26T14:45:00+00:00"
-  },
-  {
    "ticker": "NICE.V",
    "name": "NI CO ENERGY INC",
    "as_of": "2026-10-26T13:55:00+00:00",
@@ -670,46 +681,35 @@
    "rising_since": null
   },
   {
-   "ticker": "PLSR.V",
-   "name": "PULSAR HELIUM INC",
-   "as_of": "2026-10-26T14:55:00+00:00",
-   "last": 1.48,
-   "pct_day": 9.63,
-   "pct_30m": 2.07,
-   "volume_pace": 5.31,
-   "rising": true,
-   "rising_since": "2026-10-26T14:45:00+00:00"
-  },
-  {
-   "ticker": "ILLM.TO",
-   "name": "iLLUMIN HOLDINGS INC",
-   "as_of": "2026-10-26T14:50:00+00:00",
-   "last": 0.68,
-   "pct_day": 9.68,
-   "pct_30m": 6.25,
-   "volume_pace": 4.24,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "PDI.TO",
    "name": "PDI GOLD LIMITED",
-   "as_of": "2026-10-26T14:40:00+00:00",
-   "last": 3.81,
-   "pct_day": 8.24,
-   "pct_30m": 1.06,
-   "volume_pace": 6.35,
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 3.83,
+   "pct_day": 8.81,
+   "pct_30m": 0.52,
+   "volume_pace": 3.7,
    "rising": true,
    "rising_since": "2026-10-26T14:40:00+00:00"
   },
   {
+   "ticker": "ILLM.TO",
+   "name": "iLLUMIN HOLDINGS INC",
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 0.67,
+   "pct_day": 8.06,
+   "pct_30m": -1.47,
+   "volume_pace": 3.27,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "FFM.TO",
    "name": "FIREFLY METALS LTD",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 1.28,
-   "pct_day": 6.67,
-   "pct_30m": 1.19,
-   "volume_pace": 0.66,
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 1.285,
+   "pct_day": 7.08,
+   "pct_30m": 0.39,
+   "volume_pace": 0.5,
    "rising": false,
    "rising_since": null
   },
@@ -720,75 +720,75 @@
    "last": 0.175,
    "pct_day": 6.06,
    "pct_30m": 0.0,
-   "volume_pace": 0.72,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "COPR.TO",
-   "name": "COPPERNICO METALS INC",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 0.41,
-   "pct_day": 5.13,
-   "pct_30m": 2.5,
-   "volume_pace": 1.78,
+   "volume_pace": 1.5,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HMMC.TO",
    "name": "HEMLO MINING CORP",
-   "as_of": "2026-10-26T15:00:00+00:00",
+   "as_of": "2026-10-26T15:30:00+00:00",
    "last": 5.23,
    "pct_day": 4.81,
-   "pct_30m": 2.15,
-   "volume_pace": 1.8,
-   "rising": true,
-   "rising_since": "2026-10-26T14:40:00+00:00"
-  },
-  {
-   "ticker": "PMET.TO",
-   "name": "PMET RESOURCES INC",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 3.175,
-   "pct_day": 4.1,
-   "pct_30m": 1.6,
-   "volume_pace": 1.96,
-   "rising": true,
-   "rising_since": "2026-10-26T14:35:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 1.49,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "BRC.TO",
    "name": "BLACKROCK SILVER CORP",
-   "as_of": "2026-10-26T14:55:00+00:00",
-   "last": 0.77,
-   "pct_day": 4.05,
+   "as_of": "2026-10-26T15:25:00+00:00",
+   "last": 0.775,
+   "pct_day": 4.73,
    "pct_30m": 0.65,
-   "volume_pace": 0.87,
+   "volume_pace": 0.68,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ESI.TO",
+   "name": "ENSIGN ENERGY SERVICES INC.",
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 4.38,
+   "pct_day": 4.29,
+   "pct_30m": 0.69,
+   "volume_pace": 2.19,
+   "rising": true,
+   "rising_since": "2026-10-26T15:20:00+00:00"
+  },
+  {
+   "ticker": "CEMX.TO",
+   "name": "CEMATRIX",
+   "as_of": "2026-10-26T15:25:00+00:00",
+   "last": 0.495,
+   "pct_day": 4.21,
+   "pct_30m": 2.06,
+   "volume_pace": 1.6,
+   "rising": true,
+   "rising_since": "2026-10-26T15:05:00+00:00"
+  },
+  {
+   "ticker": "PMET.TO",
+   "name": "PMET RESOURCES INC",
+   "as_of": "2026-10-26T15:30:00+00:00",
+   "last": 3.17,
+   "pct_day": 3.93,
+   "pct_30m": -0.16,
+   "volume_pace": 1.84,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HLS.TO",
    "name": "HLS THERAPEUTICS INC",
-   "as_of": "2026-10-26T14:00:00+00:00",
+   "as_of": "2026-10-26T15:15:00+00:00",
    "last": 4.5,
    "pct_day": 3.93,
-   "pct_30m": 4.65,
-   "volume_pace": 0.79,
+   "pct_30m": 0.0,
+   "volume_pace": 0.23,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "WGX.TO",
-   "name": "WESTGOLD RESOURCES LIMITED",
-   "as_of": "2026-10-26T15:00:00+00:00",
-   "last": 4.88,
-   "pct_day": 3.83,
-   "pct_30m": 1.24,
-   "volume_pace": 2.38,
-   "rising": true,
-   "rising_since": "2026-10-26T14:45:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1386,9 +1386,9 @@
    "ma200": 972.14,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-26T15:05:00+00:00",
-    "last": 819.06,
-    "pct_day": -0.23
+    "as_of": "2026-10-26T15:35:00+00:00",
+    "last": 820.82,
+    "pct_day": -0.02
    }
   },
   "^GSPTSE": {
@@ -1985,9 +1985,9 @@
    "ma200": 34497.82,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-26T15:05:00+00:00",
-    "last": 36016.83,
-    "pct_day": 0.64
+    "as_of": "2026-10-26T15:35:00+00:00",
+    "last": 35998.66,
+    "pct_day": 0.59
    }
   }
  },
