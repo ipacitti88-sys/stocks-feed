@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-27T09:01-06:00
+# Stock feed — 2026-10-27T09:31-06:00
 
-Tracking 666 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-26. Intraday data as of: 2026-10-27T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 666 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-26. Intraday data as of: 2026-10-27T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 825.28 on 2026-10-26 (day +0.5%, month -9.7%, year -14.4%, downtrend); live +1.0% at 15:05
-Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year +19.1%, uptrend); live +0.2% at 15:05
+Market: S&P/TSX Venture Composite 825.28 on 2026-10-26 (day +0.5%, month -9.7%, year -14.4%, downtrend); live +1.4% at 15:35
+Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year +19.1%, uptrend); live +0.4% at 15:35
 
 # TSX Venture
 
@@ -28,21 +28,24 @@ Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- B.V (BCM RESOURCES CORPORATION): +10.4% today at 0.74, last 30m +7.2%, volume pace 2.54x, rising since 2026-10-27T14:30:00+00:00
-- SYH.V (SKYHARBOUR RESOURCES LTD.): +9.0% today at 0.365, last 30m +1.4%, volume pace 2.97x, rising since 2026-10-27T14:00:00+00:00
-- RCK.V (ROCK TECH LITHIUM INC): +8.1% today at 0.67, last 30m +9.8%, volume pace 2.02x, rising since 2026-10-27T14:35:00+00:00
-- CAM.V (CASCADIA MINERALS LTD): +8.1% today at 0.47, last 30m +3.3%, volume pace 2.89x, rising since 2026-10-27T14:50:00+00:00
-- KDK.V (KODIAK COPPER CORP): +7.9% today at 0.68, last 30m +1.5%, volume pace 9.06x, rising since 2026-10-27T14:20:00+00:00
-- ZNG.V (GROUP ELEVEN RESOURCES CORP): +7.6% today at 0.71, last 30m +4.4%, volume pace 2.99x, rising since 2026-10-27T14:30:00+00:00
-- EXN.V (EXCELLON RESOURCES INC): +6.2% today at 0.255, last 30m +3.0%, volume pace 2.26x, rising since 2026-10-27T15:00:00+00:00
+- SASK.V (ATHA ENERGY CORP): +8.2% today at 0.92, last 30m +0.6%, volume pace 2.01x, rising since 2026-10-27T15:30:00+00:00
+- ZNG.V (GROUP ELEVEN RESOURCES CORP): +7.6% today at 0.71, last 30m +1.4%, volume pace 3.06x, rising since 2026-10-27T14:30:00+00:00
+- CAM.V (CASCADIA MINERALS LTD): +6.9% today at 0.465, last 30m +1.1%, volume pace 3.03x, rising since 2026-10-27T15:15:00+00:00
+- SLI.V (STANDARD LITHIUM LTD): +6.7% today at 2.08, last 30m +1.5%, volume pace 1.72x, rising since 2026-10-27T15:20:00+00:00
+- SIG.V (SITKA GOLD CORP): +6.1% today at 0.87, last 30m +2.4%, volume pace 2.97x, rising since 2026-10-27T15:20:00+00:00
+- AAG.V (AFTERMATH SILVER LTD): +5.8% today at 0.46, last 30m +1.7%, volume pace 2.21x, rising since 2026-10-27T14:55:00+00:00
+- AEC.V (ANFIELD ENERGY INC): +5.3% today at 4.15, last 30m +2.0%, volume pace 1.69x, rising since 2026-10-27T15:10:00+00:00
+- SVRS.V (SILVER STORM MINING LTD): +5.3% today at 0.4, last 30m +3.9%, volume pace 1.8x, rising since 2026-10-27T15:15:00+00:00
 - KCP.V (KING COPPER DISCOVERY CORP): +5.3% today at 0.6, last 30m +5.3%, volume pace 3.56x, rising since 2026-10-27T14:40:00+00:00
-- KTN.V (KOOTENAY SILVER INC): +4.9% today at 0.85, last 30m +4.9%, volume pace 1.75x, rising since 2026-10-27T15:00:00+00:00
-- PLSR.V (PULSAR HELIUM INC): +4.7% today at 1.56, last 30m +2.0%, volume pace 2.09x, rising since 2026-10-27T14:30:00+00:00
-- PALI.V (PALISADES GOLDCORP LTD): +4.6% today at 4.35, last 30m +2.8%, volume pace 4.01x, rising since 2026-10-27T14:15:00+00:00
-- QTWO.V (Q2 METALS CORP): +4.5% today at 1.61, last 30m +3.2%, volume pace 4.37x, rising since 2026-10-27T14:45:00+00:00
-- GOT.V (GOLIATH RESOURCES LIMITED): +4.2% today at 1.23, last 30m +0.8%, volume pace 1.93x, rising since 2026-10-27T14:30:00+00:00
-- AAG.V (AFTERMATH SILVER LTD): +4.0% today at 0.4525, last 30m +4.0%, volume pace 2.49x, rising since 2026-10-27T14:55:00+00:00
-- LTC.V (LOTUS CREEK EXPLORATION INC): +3.4% today at 4.51, last 30m +2.4%, volume pace 84.59x, rising since 2026-10-27T15:00:00+00:00
+- KTN.V (KOOTENAY SILVER INC): +4.9% today at 0.85, last 30m +2.4%, volume pace 1.61x, rising since 2026-10-27T15:00:00+00:00
+- RDS.V (Radisson Mining Resources Inc.): +4.3% today at 0.97, last 30m +1.0%, volume pace 1.55x, rising since 2026-10-27T15:30:00+00:00
+- GSKR.V (GOLDSKY RESOURCES CORP): +3.9% today at 2.7, last 30m +0.4%, volume pace 2.84x, rising since 2026-10-27T15:15:00+00:00
+- APGO.V (APOLLO SILVER CORP): +3.9% today at 1.89, last 30m +3.3%, volume pace 1.75x, rising since 2026-10-27T15:30:00+00:00
+- XXIX.V (XXIX METAL CORP): +3.7% today at 0.14, last 30m +3.7%, volume pace 1.8x, rising since 2026-10-27T15:15:00+00:00
+- PLSR.V (PULSAR HELIUM INC): +3.7% today at 1.545, last 30m +0.3%, volume pace 1.52x, rising since 2026-10-27T15:35:00+00:00
+- PCRX.V (PHARMACORP RX INC): +3.6% today at 0.435, last 30m +3.6%, volume pace 12.91x, rising since 2026-10-27T15:15:00+00:00
+- THX.V (THOR EXPLORATIONS LTD.): +3.4% today at 0.92, last 30m +1.1%, volume pace 2.3x, rising since 2026-10-27T15:10:00+00:00
+- GAL.V (GALANTAS GOLD CORP.): +3.4% today at 0.385, last 30m +1.3%, volume pace 2.94x, rising since 2026-10-27T15:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -59,16 +62,16 @@ Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- LVX.V (LEVIATHAN METALS CORP): +15.9% at 0.4, volume pace 2.09x
-- JUNO.V (Juno Industries Ltd.): +14.7% at 0.975, volume pace 1.05x
-- FRLX.V (Feral X Systems Inc.): +13.2% at 0.6, volume pace 3.16x
-- MKA.V (MKANGO MAGNETIC MATERIALS LIMIT): +12.0% at 0.56, volume pace 0.07x
+- LVX.V (LEVIATHAN METALS CORP): +15.9% at 0.4, volume pace 2.51x
+- WGO.V (WHITE GOLD CORP): +12.8% at 1.59, volume pace 1.12x
+- EQTY.V (EQUITY METALS CORPORATION): +12.5% at 0.09, volume pace 2.28x
+- CVV.V (CANALASKA URANIUM LTD): +12.0% at 0.28, volume pace 1.03x
+- MKA.V (MKANGO MAGNETIC MATERIALS LIMIT): +12.0% at 0.56, volume pace 0.7x
+- JUNO.V (Juno Industries Ltd.): +11.8% at 0.95, volume pace 1.13x
 - OMI.V (OROSUR MINING INC): +11.4% at 0.245, volume pace 2.79x
-- WGO.V (WHITE GOLD CORP): +10.6% at 1.56, volume pace 1.27x
-- B.V (BCM RESOURCES CORPORATION): +10.4% at 0.74, volume pace 2.54x
-- CVV.V (CANALASKA URANIUM LTD): +10.0% at 0.275, volume pace 1.47x
-- PALS.V (PARAGON ADVANCED LABS INC): +9.6% at 2.74, volume pace 0.0x
-- DEC.V (DECADE RESOURCES LTD.): +9.5% at 0.115, volume pace 0.44x
+- BZ.V (BENZ MINING CORP): +10.5% at 4.41, volume pace 0.6x
+- B.V (BCM RESOURCES CORPORATION): +10.4% at 0.74, volume pace 2.3x
+- COSA.V (COSA RESOURCES CORP): +10.4% at 0.37, volume pace 0.04x
 
 # TSX
 
@@ -86,19 +89,15 @@ Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- LAC.TO (LITHIUM AMERICAS CORP): +8.9% today at 3.06, last 30m +1.7%, volume pace 2.24x, rising since 2026-10-27T14:25:00+00:00
-- BLDP.TO (BALLARD POWER SYSTEMS INC): +7.5% today at 2.16, last 30m +1.4%, volume pace 1.6x, rising since 2026-10-27T14:20:00+00:00
-- TMQ.TO (TRILOGY METALS INC): +7.4% today at 3.05, last 30m +1.3%, volume pace 1.87x, rising since 2026-10-27T14:20:00+00:00
-- PMET.TO (PMET RESOURCES INC): +7.2% today at 3.42, last 30m +1.2%, volume pace 3.04x, rising since 2026-10-27T14:45:00+00:00
-- ELO.TO (ELORO RESOURCES LTD): +5.9% today at 1.355, last 30m +1.1%, volume pace 2.67x, rising since 2026-10-27T14:45:00+00:00
-- LGD.TO (LIBERTY GOLD CORP): +5.8% today at 2.02, last 30m +0.8%, volume pace 1.7x, rising since 2026-10-27T14:55:00+00:00
-- ORV.TO (ORVANA MINERALS J): +5.5% today at 1.74, last 30m +1.8%, volume pace 1.68x, rising since 2026-10-27T15:00:00+00:00
-- WGX.TO (WESTGOLD RESOURCES LIMITED): +5.0% today at 5.07, last 30m +0.6%, volume pace 3.61x, rising since 2026-10-27T14:50:00+00:00
-- NFGC.TO (NEW FOUND GOLD CORP): +4.5% today at 2.33, last 30m +3.1%, volume pace 2.14x, rising since 2026-10-27T14:55:00+00:00
-- VZLA.TO (VIZSLA SILVER CORP): +4.3% today at 4.495, last 30m +1.5%, volume pace 1.97x, rising since 2026-10-27T14:35:00+00:00
-- CIA.TO (CHAMPION IRON LIMITED): +3.7% today at 2.25, last 30m +0.9%, volume pace 1.9x, rising since 2026-10-27T14:55:00+00:00
-- TRX.TO (TRX GOLD CORPORATION): +3.7% today at 1.41, last 30m +2.2%, volume pace 1.73x, rising since 2026-10-27T14:55:00+00:00
-- USA.TO (AMERICAS GOLD AND SILVER CORPOR): +3.2% today at 4.375, last 30m +0.1%, volume pace 1.82x, rising since 2026-10-27T14:45:00+00:00
+- FFM.TO (FIREFLY METALS LTD): +8.5% today at 1.41, last 30m +1.1%, volume pace 1.54x, rising since 2026-10-27T15:30:00+00:00
+- TMQ.TO (TRILOGY METALS INC): +8.4% today at 3.08, last 30m +1.0%, volume pace 1.82x, rising since 2026-10-27T14:20:00+00:00
+- PMET.TO (PMET RESOURCES INC): +8.0% today at 3.445, last 30m +0.9%, volume pace 5.35x, rising since 2026-10-27T14:45:00+00:00
+- NFGC.TO (NEW FOUND GOLD CORP): +6.7% today at 2.38, last 30m +1.7%, volume pace 2.14x, rising since 2026-10-27T14:55:00+00:00
+- ELO.TO (ELORO RESOURCES LTD): +5.9% today at 1.355, last 30m +0.4%, volume pace 2.16x, rising since 2026-10-27T14:45:00+00:00
+- WGX.TO (WESTGOLD RESOURCES LIMITED): +5.6% today at 5.1, last 30m +0.6%, volume pace 2.8x, rising since 2026-10-27T14:50:00+00:00
+- BSX.TO (BELO SUN MINING CORP): +5.2% today at 0.905, last 30m +1.1%, volume pace 1.88x, rising since 2026-10-27T15:05:00+00:00
+- VZLA.TO (VIZSLA SILVER CORP): +4.9% today at 4.52, last 30m +0.7%, volume pace 1.6x, rising since 2026-10-27T14:35:00+00:00
+- USA.TO (AMERICAS GOLD AND SILVER CORPOR): +4.1% today at 4.415, last 30m +1.0%, volume pace 1.85x, rising since 2026-10-27T14:45:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -115,13 +114,13 @@ Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- HAI.TO (HAIVISION SYSTEMS INC): +12.2% at 3.85, volume pace 8.2x
-- LAM.TO (LARAMIDE RESOURCES LTD.): +11.1% at 0.4775, volume pace 1.3x
-- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +10.3% at 1.18, volume pace 0.79x
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +9.2% at 3.91, volume pace 0.74x
-- GLO.TO (GLOBAL ATOMIC CORPORATION): +9.0% at 0.365, volume pace 0.93x
-- LAC.TO (LITHIUM AMERICAS CORP): +8.9% at 3.06, volume pace 2.24x
+- ARN.TO (ASARIAN ENERGY LIMITED): +15.1% at 0.42, volume pace 1.39x
+- LAM.TO (LARAMIDE RESOURCES LTD.): +11.1% at 0.4775, volume pace 1.15x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +10.9% at 3.97, volume pace 0.86x
+- GLO.TO (GLOBAL ATOMIC CORPORATION): +9.0% at 0.365, volume pace 0.84x
+- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +8.9% at 1.165, volume pace 0.71x
+- FF.TO (FIRST MINING GOLD CORP): +8.6% at 0.63, volume pace 0.85x
 - FT.TO (FORTUNE MNRL J): +8.6% at 0.095, volume pace 0.7x
-- ARN.TO (ASARIAN ENERGY LIMITED): +8.2% at 0.395, volume pace 1.75x
-- ALK.TO (ALKANE RESOURCES LIMITED): +7.7% at 1.54, volume pace 1.41x
-- BLDP.TO (BALLARD POWER SYSTEMS INC): +7.5% at 2.16, volume pace 1.6x
+- FFM.TO (FIREFLY METALS LTD): +8.5% at 1.41, volume pace 1.54x
+- TMQ.TO (TRILOGY METALS INC): +8.4% at 3.08, volume pace 1.82x
+- ALK.TO (ALKANE RESOURCES LIMITED): +8.0% at 1.545, volume pace 1.22x
