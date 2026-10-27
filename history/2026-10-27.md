@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-27T14:01-06:00
+# Stock feed — 2026-10-27T14:06-06:00
 
 Tracking 666 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-26. Intraday data as of: 2026-10-27T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -56,6 +56,7 @@ Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year 
 
 - COSA.V (COSA RESOURCES CORP): +17.9% at 0.395, volume pace 0.15x
 - PUR.V (PREMIER AMERICAN URANIUM INC): +16.9% at 0.345, volume pace 0.4x
+- DBAY.V (Elton Resources Corp.): +16.0% at 0.145, volume pace 0.19x
 - LVX.V (LEVIATHAN METALS CORP): +14.5% at 0.395, volume pace 3.5x
 - WGO.V (WHITE GOLD CORP): +14.2% at 1.61, volume pace 0.73x
 - CVV.V (CANALASKA URANIUM LTD): +14.0% at 0.285, volume pace 0.62x
@@ -63,7 +64,6 @@ Market: S&P/TSX Composite 35,944.16 on 2026-10-26 (day +0.4%, month +0.7%, year 
 - OMI.V (OROSUR MINING INC): +13.6% at 0.25, volume pace 0.66x
 - NMC.V (NUVAU MINERALS INC): +13.5% at 0.59, volume pace 0.47x
 - GSPR.V (GSP RESOURCE CORP): +13.3% at 0.085, volume pace 1.67x
-- TSG.V (TRISTAR GOLD INC.): +13.0% at 0.26, volume pace 0.28x
 
 # TSX
 

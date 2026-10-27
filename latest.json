@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T14:01-06:00",
+ "generated": "2026-10-27T14:06-06:00",
  "last_close_day": "2026-10-26",
  "tracked": 666,
  "tracked_by_market": {
@@ -727,6 +727,17 @@
    "rising_since": null
   },
   {
+   "ticker": "DBAY.V",
+   "name": "Elton Resources Corp.",
+   "as_of": "2026-10-27T19:55:00+00:00",
+   "last": 0.145,
+   "pct_day": 16.0,
+   "pct_30m": 7.41,
+   "volume_pace": 0.19,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "LVX.V",
    "name": "LEVIATHAN METALS CORP",
    "as_of": "2026-10-27T18:45:00+00:00",
@@ -800,17 +811,6 @@
    "pct_day": 13.33,
    "pct_30m": 0.0,
    "volume_pace": 1.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TSG.V",
-   "name": "TRISTAR GOLD INC.",
-   "as_of": "2026-10-27T19:25:00+00:00",
-   "last": 0.26,
-   "pct_day": 13.04,
-   "pct_30m": 6.12,
-   "volume_pace": 0.28,
    "rising": false,
    "rising_since": null
   },
