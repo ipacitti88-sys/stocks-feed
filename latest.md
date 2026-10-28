@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-28T08:31-06:00
+# Stock feed — 2026-10-28T09:01-06:00
 
-Tracking 667 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-27. Intraday data as of: 2026-10-28T14:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 667 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-27. Intraday data as of: 2026-10-28T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 838.48 on 2026-10-27 (day +1.6%, month -9.0%, year -13.0%, downtrend); live -0.1% at 14:35
-Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year +19.2%, uptrend); live -0.1% at 14:35
+Market: S&P/TSX Venture Composite 838.48 on 2026-10-27 (day +1.6%, month -9.0%, year -13.0%, downtrend); live -0.3% at 15:05
+Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year +19.2%, uptrend); live -0.2% at 15:05
 
 # TSX Venture
 
@@ -25,8 +25,7 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- GG.V (GOLCONDA GOLD LTD): +8.2% today at 3.02, last 30m +6.7%, volume pace 7.24x, rising since 2026-10-28T13:50:00+00:00
-- CCMM.V (COYOTE COPPER MINES INC): +5.4% today at 0.39, last 30m +1.3%, volume pace 9.53x, rising since 2026-10-28T13:45:00+00:00
+- ALGR.V (ALGO GRANDE COPPER CORP): +4.8% today at 0.65, last 30m +3.2%, volume pace 7.1x, rising since 2026-10-28T14:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -43,16 +42,16 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- FRLX.V (Feral X Systems Inc.): +13.3% at 0.68, volume pace 0.78x
-- RDU.V (RADIUS GOLD INC.): +11.1% at 0.25, volume pace 1.03x
+- RDU.V (RADIUS GOLD INC.): +11.1% at 0.25, volume pace 1.01x
+- LIFT.V (LI FT POWER LTD): +11.1% at 1.6, volume pace 0.53x
 - DMCU.V (DOMESTIC METALS CORP): +10.7% at 0.155, volume pace 0.0x
-- TRR.V (TERRA ROSSA GOLD LTD): +9.3% at 0.295, volume pace 1.16x
-- STS.V (SOUTH STAR BATTERY METALS CORP): +9.1% at 0.24, volume pace 0.0x
+- STS.V (SOUTH STAR BATTERY METALS CORP): +9.1% at 0.24, volume pace 0.08x
 - ANK.V (ANGKOR RESOURCES CORP): +8.6% at 0.38, volume pace 0.0x
 - AGLD.V (AUSTRAL GOLD LIMITED): +8.3% at 0.13, volume pace 4.43x
 - MMM.V (MINCO CAPITAL CORP): +8.3% at 0.13, volume pace 0.0x
-- GG.V (GOLCONDA GOLD LTD): +8.2% at 3.02, volume pace 7.24x
+- FRLX.V (Feral X Systems Inc.): +8.3% at 0.65, volume pace 0.91x
 - FROG.V (BULLFROG GOLD CORPORATION): +8.0% at 0.135, volume pace 2.3x
+- LVX.V (LEVIATHAN METALS CORP): +7.6% at 0.425, volume pace 2.92x
 
 # TSX
 
@@ -66,8 +65,7 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +3.6% today at 4.61, last 30m +2.0%, volume pace 4.08x, rising since 2026-10-28T14:30:00+00:00
-- FFM.TO (FIREFLY METALS LTD): +3.5% today at 1.46, last 30m +2.1%, volume pace 5.66x, rising since 2026-10-28T14:30:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -85,12 +83,12 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 ## TSX: top gainers in latest intraday pass
 
 - GRN.TO (GREENLANE RENEWABLES INC): +6.1% at 0.175, volume pace 18.21x
-- E.TO (EVOLUTION POWERX CORP): +5.3% at 1.79, volume pace 7.53x
-- SBI.TO (SERABI GOLD PLC): +5.0% at 3.33, volume pace 0.88x
+- SBI.TO (SERABI GOLD PLC): +5.4% at 3.34, volume pace 0.64x
 - TXP.TO (TOUCHSTONE EXPLORATION INC): +5.0% at 0.21, volume pace 0.0x
 - AVCN.TO (AVICANNA INC): +5.0% at 0.105, volume pace 0.0x
-- HAI.TO (HAIVISION SYSTEMS INC): +3.9% at 3.75, volume pace 0.0x
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +3.6% at 4.61, volume pace 4.08x
-- FFM.TO (FIREFLY METALS LTD): +3.5% at 1.46, volume pace 5.66x
-- YGR.TO (YANGARRA RESOURCES LTD): +2.9% at 1.75, volume pace 0.47x
-- COPR.TO (COPPERNICO METALS INC): +2.6% at 0.4, volume pace 0.0x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +4.6% at 4.32, volume pace 1.3x
+- E.TO (EVOLUTION POWERX CORP): +4.1% at 1.77, volume pace 5.64x
+- AMC.TO (ARIZONA METALS CORP): +3.3% at 0.155, volume pace 0.0x
+- YGR.TO (YANGARRA RESOURCES LTD): +2.9% at 1.75, volume pace 0.22x
+- RBY.TO (RUBELLITE ENERGY CORP): +2.5% at 4.5, volume pace 0.1x
+- PDI.TO (PDI GOLD LIMITED): +2.2% at 4.17, volume pace 0.0x
