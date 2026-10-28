@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-28T09:01-06:00
+# Stock feed — 2026-10-28T09:31-06:00
 
-Tracking 667 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-27. Intraday data as of: 2026-10-28T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 667 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-27. Intraday data as of: 2026-10-28T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 838.48 on 2026-10-27 (day +1.6%, month -9.0%, year -13.0%, downtrend); live -0.3% at 15:05
-Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year +19.2%, uptrend); live -0.2% at 15:05
+Market: S&P/TSX Venture Composite 838.48 on 2026-10-27 (day +1.6%, month -9.0%, year -13.0%, downtrend); live -0.5% at 15:35
+Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year +19.2%, uptrend); live +0.0% at 15:35
 
 # TSX Venture
 
@@ -25,7 +25,11 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ALGR.V (ALGO GRANDE COPPER CORP): +4.8% today at 0.65, last 30m +3.2%, volume pace 7.1x, rising since 2026-10-28T14:45:00+00:00
+- NCAU.V (NEWCORE GOLD LTD): +8.9% today at 0.305, last 30m +7.0%, volume pace 9.25x, rising since 2026-10-28T15:05:00+00:00
+- ALGR.V (ALGO GRANDE COPPER CORP): +8.1% today at 0.67, last 30m +3.1%, volume pace 7.01x, rising since 2026-10-28T14:45:00+00:00
+- GG.V (GOLCONDA GOLD LTD): +7.5% today at 3.0, last 30m +0.7%, volume pace 3.24x, rising since 2026-10-28T15:25:00+00:00
+- GORO.V (GOLDGROUP MINING INC): +4.0% today at 4.66, last 30m +0.4%, volume pace 3.59x, rising since 2026-10-28T15:10:00+00:00
+- KRY.V (KORYX COPPER S A): +3.6% today at 3.19, last 30m +2.2%, volume pace 2.92x, rising since 2026-10-28T15:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +46,16 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- RDU.V (RADIUS GOLD INC.): +11.1% at 0.25, volume pace 1.01x
-- LIFT.V (LI FT POWER LTD): +11.1% at 1.6, volume pace 0.53x
+- ADE.V (ADEX MINING INC.): +11.8% at 0.095, volume pace 1.15x
 - DMCU.V (DOMESTIC METALS CORP): +10.7% at 0.155, volume pace 0.0x
+- HMR.V (HOMERUN RESOURCES INC): +9.9% at 0.39, volume pace 1.58x
+- JUNO.V (Juno Industries Ltd.): +9.7% at 1.02, volume pace 1.38x
 - STS.V (SOUTH STAR BATTERY METALS CORP): +9.1% at 0.24, volume pace 0.08x
+- NCAU.V (NEWCORE GOLD LTD): +8.9% at 0.305, volume pace 9.25x
+- RDU.V (RADIUS GOLD INC.): +8.9% at 0.245, volume pace 0.79x
 - ANK.V (ANGKOR RESOURCES CORP): +8.6% at 0.38, volume pace 0.0x
-- AGLD.V (AUSTRAL GOLD LIMITED): +8.3% at 0.13, volume pace 4.43x
 - MMM.V (MINCO CAPITAL CORP): +8.3% at 0.13, volume pace 0.0x
-- FRLX.V (Feral X Systems Inc.): +8.3% at 0.65, volume pace 0.91x
-- FROG.V (BULLFROG GOLD CORPORATION): +8.0% at 0.135, volume pace 2.3x
-- LVX.V (LEVIATHAN METALS CORP): +7.6% at 0.425, volume pace 2.92x
+- ALGR.V (ALGO GRANDE COPPER CORP): +8.1% at 0.67, volume pace 7.01x
 
 # TSX
 
@@ -65,7 +69,8 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- E.TO (EVOLUTION POWERX CORP): +5.9% today at 1.8, last 30m +1.7%, volume pace 6.52x, rising since 2026-10-28T15:15:00+00:00
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +4.6% today at 4.32, last 30m +0.2%, volume pace 1.67x, rising since 2026-10-28T15:25:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -82,13 +87,13 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- GRN.TO (GREENLANE RENEWABLES INC): +6.1% at 0.175, volume pace 18.21x
-- SBI.TO (SERABI GOLD PLC): +5.4% at 3.34, volume pace 0.64x
-- TXP.TO (TOUCHSTONE EXPLORATION INC): +5.0% at 0.21, volume pace 0.0x
+- SBI.TO (SERABI GOLD PLC): +7.9% at 3.42, volume pace 0.59x
+- GRN.TO (GREENLANE RENEWABLES INC): +6.1% at 0.175, volume pace 4.94x
+- E.TO (EVOLUTION POWERX CORP): +5.9% at 1.8, volume pace 6.52x
 - AVCN.TO (AVICANNA INC): +5.0% at 0.105, volume pace 0.0x
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +4.6% at 4.32, volume pace 1.3x
-- E.TO (EVOLUTION POWERX CORP): +4.1% at 1.77, volume pace 5.64x
-- AMC.TO (ARIZONA METALS CORP): +3.3% at 0.155, volume pace 0.0x
-- YGR.TO (YANGARRA RESOURCES LTD): +2.9% at 1.75, volume pace 0.22x
-- RBY.TO (RUBELLITE ENERGY CORP): +2.5% at 4.5, volume pace 0.1x
-- PDI.TO (PDI GOLD LIMITED): +2.2% at 4.17, volume pace 0.0x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.7% at 4.45, volume pace 1.09x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +4.6% at 4.32, volume pace 1.67x
+- YGR.TO (YANGARRA RESOURCES LTD): +3.5% at 1.76, volume pace 0.19x
+- AMC.TO (ARIZONA METALS CORP): +3.3% at 0.155, volume pace 0.24x
+- RBY.TO (RUBELLITE ENERGY CORP): +3.2% at 4.53, volume pace 0.11x
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +3.0% at 2.44, volume pace 0.21x
