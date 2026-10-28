@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-28T14:01-06:00
+# Stock feed — 2026-10-28T14:06-06:00
 
 Tracking 667 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-27. Intraday data as of: 2026-10-28T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -29,9 +29,10 @@ Market: S&P/TSX Composite 36,171.49 on 2026-10-27 (day +0.6%, month +1.0%, year 
 - NURS.V (HYDREIGHT TECHNOLOGIES INC): +12.0% today at 3.5, last 30m +2.0%, volume pace 2.33x, rising since 2026-10-28T19:40:00+00:00
 - ALGR.V (ALGO GRANDE COPPER CORP): +11.3% today at 0.69, last 30m +3.0%, volume pace 4.51x, rising since 2026-10-28T19:55:00+00:00
 - NCAU.V (NEWCORE GOLD LTD): +10.7% today at 0.31, last 30m +1.6%, volume pace 3.37x, rising since 2026-10-28T19:00:00+00:00
+- SLI.V (STANDARD LITHIUM LTD): +3.9% today at 2.14, last 30m +1.9%, volume pace 1.65x, rising since 2026-10-28T20:00:00+00:00
 - GORO.V (GOLDGROUP MINING INC): +3.8% today at 4.65, last 30m +0.2%, volume pace 2.45x, rising since 2026-10-28T19:35:00+00:00
 - GSI.V (GATEKEEPER SYSTEMS INC): +3.6% today at 1.71, last 30m +0.6%, volume pace 1.54x, rising since 2026-10-28T19:55:00+00:00
-- FRLX.V (Feral X Systems Inc.): +3.3% today at 0.62, last 30m +3.3%, volume pace 5.32x, rising since 2026-10-28T19:50:00+00:00
+- FRLX.V (Feral X Systems Inc.): +3.3% today at 0.62, last 30m +3.3%, volume pace 5.41x, rising since 2026-10-28T19:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
