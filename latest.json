@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T11:31-06:00",
+ "generated": "2026-10-28T12:01-06:00",
  "last_close_day": "2026-10-27",
  "tracked": 667,
  "tracked_by_market": {
@@ -460,31 +460,42 @@
    "added": "2026-10-22"
   }
  ],
- "live_as_of": "2026-10-28T17:35:00+00:00",
+ "live_as_of": "2026-10-28T18:05:00+00:00",
  "rising": [
   {
-   "ticker": "GG.V",
-   "name": "GOLCONDA GOLD LTD",
-   "as_of": "2026-10-28T17:30:00+00:00",
-   "last": 3.35,
-   "pct_day": 20.07,
-   "pct_30m": 9.12,
-   "volume_pace": 6.82,
+   "ticker": "NURS.V",
+   "name": "HYDREIGHT TECHNOLOGIES INC",
+   "as_of": "2026-10-28T17:50:00+00:00",
+   "last": 3.3,
+   "pct_day": 5.6,
+   "pct_30m": 3.77,
+   "volume_pace": 2.7,
    "rising": true,
-   "rising_since": "2026-10-28T17:15:00+00:00"
+   "rising_since": "2026-10-28T17:30:00+00:00"
+  },
+  {
+   "ticker": "GORO.V",
+   "name": "GOLDGROUP MINING INC",
+   "as_of": "2026-10-28T18:05:00+00:00",
+   "last": 4.63,
+   "pct_day": 3.35,
+   "pct_30m": 0.43,
+   "volume_pace": 2.4,
+   "rising": true,
+   "rising_since": "2026-10-28T18:05:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
-   "ticker": "GG.V",
-   "name": "GOLCONDA GOLD LTD",
-   "as_of": "2026-10-28T17:30:00+00:00",
-   "last": 3.35,
-   "pct_day": 20.07,
-   "pct_30m": 9.12,
-   "volume_pace": 6.82,
-   "rising": true,
-   "rising_since": "2026-10-28T17:15:00+00:00"
+   "ticker": "DME.V",
+   "name": "DESERT MOUNTAIN ENERGY CORP",
+   "as_of": "2026-10-28T18:00:00+00:00",
+   "last": 0.22,
+   "pct_day": 25.71,
+   "pct_30m": 10.0,
+   "volume_pace": 4.11,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "ADE.V",
@@ -504,18 +515,29 @@
    "last": 0.21,
    "pct_day": 16.67,
    "pct_30m": 10.53,
-   "volume_pace": 1.24,
+   "volume_pace": 1.48,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "DME.V",
-   "name": "DESERT MOUNTAIN ENERGY CORP",
-   "as_of": "2026-10-28T17:05:00+00:00",
-   "last": 0.2,
-   "pct_day": 14.29,
-   "pct_30m": 0.0,
-   "volume_pace": 5.16,
+   "ticker": "GG.V",
+   "name": "GOLCONDA GOLD LTD",
+   "as_of": "2026-10-28T17:55:00+00:00",
+   "last": 3.2,
+   "pct_day": 14.7,
+   "pct_30m": -1.54,
+   "volume_pace": 8.44,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TIG.V",
+   "name": "TRIUMPH GOLD CORP",
+   "as_of": "2026-10-28T18:00:00+00:00",
+   "last": 0.89,
+   "pct_day": 14.1,
+   "pct_30m": 3.49,
+   "volume_pace": 1.01,
    "rising": false,
    "rising_since": null
   },
@@ -526,7 +548,7 @@
    "last": 0.1,
    "pct_day": 11.11,
    "pct_30m": 0.0,
-   "volume_pace": 2.07,
+   "volume_pace": 2.2,
    "rising": false,
    "rising_since": null
   },
@@ -553,17 +575,6 @@
    "rising_since": null
   },
   {
-   "ticker": "TIG.V",
-   "name": "TRIUMPH GOLD CORP",
-   "as_of": "2026-10-28T17:30:00+00:00",
-   "last": 0.86,
-   "pct_day": 10.26,
-   "pct_30m": 1.18,
-   "volume_pace": 0.81,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "NSU.V",
    "name": "NORTH SHORE URANIUM LTD",
    "as_of": "2026-10-28T17:00:00+00:00",
@@ -581,18 +592,29 @@
    "last": 0.68,
    "pct_day": 9.68,
    "pct_30m": 0.0,
-   "volume_pace": 4.45,
+   "volume_pace": 4.52,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AMC.TO",
    "name": "ARIZONA METALS CORP",
-   "as_of": "2026-10-28T17:35:00+00:00",
+   "as_of": "2026-10-28T18:05:00+00:00",
    "last": 0.165,
    "pct_day": 10.0,
-   "pct_30m": 3.13,
-   "volume_pace": 0.45,
+   "pct_30m": 0.0,
+   "volume_pace": 0.49,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AVCN.TO",
+   "name": "AVICANNA INC",
+   "as_of": "2026-10-28T17:45:00+00:00",
+   "last": 0.11,
+   "pct_day": 10.0,
+   "pct_30m": 4.76,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -610,11 +632,11 @@
   {
    "ticker": "SBI.TO",
    "name": "SERABI GOLD PLC",
-   "as_of": "2026-10-28T16:50:00+00:00",
-   "last": 3.45,
-   "pct_day": 8.83,
-   "pct_30m": 1.47,
-   "volume_pace": 0.75,
+   "as_of": "2026-10-28T17:40:00+00:00",
+   "last": 3.44,
+   "pct_day": 8.52,
+   "pct_30m": -0.29,
+   "volume_pace": 0.6,
    "rising": false,
    "rising_since": null
   },
@@ -632,22 +654,33 @@
   {
    "ticker": "TXP.TO",
    "name": "TOUCHSTONE EXPLORATION INC",
-   "as_of": "2026-10-28T17:30:00+00:00",
+   "as_of": "2026-10-28T17:35:00+00:00",
    "last": 0.215,
    "pct_day": 7.5,
    "pct_30m": 4.88,
-   "volume_pace": 0.25,
+   "volume_pace": 7.51,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "XNDU.TO",
    "name": "XANADU QUANTUM TECHNOLOGIES LIM",
-   "as_of": "2026-10-28T17:30:00+00:00",
-   "last": 4.38,
-   "pct_day": 6.05,
-   "pct_30m": 0.46,
-   "volume_pace": 1.41,
+   "as_of": "2026-10-28T18:05:00+00:00",
+   "last": 4.39,
+   "pct_day": 6.3,
+   "pct_30m": -1.13,
+   "volume_pace": 1.33,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GRID.TO",
+   "name": "TANTALUS SYSTEMS HOLDINGS INC",
+   "as_of": "2026-10-28T17:55:00+00:00",
+   "last": 4.49,
+   "pct_day": 5.65,
+   "pct_30m": 0.9,
+   "volume_pace": 1.27,
    "rising": false,
    "rising_since": null
   },
@@ -665,33 +698,11 @@
   {
    "ticker": "E.TO",
    "name": "EVOLUTION POWERX CORP",
-   "as_of": "2026-10-28T17:05:00+00:00",
+   "as_of": "2026-10-28T17:45:00+00:00",
    "last": 1.79,
    "pct_day": 5.29,
    "pct_30m": 0.0,
-   "volume_pace": 4.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AVCN.TO",
-   "name": "AVICANNA INC",
-   "as_of": "2026-10-28T13:50:00+00:00",
-   "last": 0.105,
-   "pct_day": 5.0,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GRID.TO",
-   "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-10-28T17:25:00+00:00",
-   "last": 4.45,
-   "pct_day": 4.71,
-   "pct_30m": -0.22,
-   "volume_pace": 1.23,
+   "volume_pace": 3.41,
    "rising": false,
    "rising_since": null
   }
@@ -1293,9 +1304,9 @@
    "ma200": 970.0,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-28T17:35:00+00:00",
-    "last": 834.45,
-    "pct_day": -0.48
+    "as_of": "2026-10-28T18:05:00+00:00",
+    "last": 835.97,
+    "pct_day": -0.3
    }
   },
   "^GSPTSE": {
@@ -1894,9 +1905,9 @@
    "ma200": 34533.44,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-28T17:35:00+00:00",
-    "last": 36256.26,
-    "pct_day": 0.23
+    "as_of": "2026-10-28T18:05:00+00:00",
+    "last": 36263.58,
+    "pct_day": 0.25
    }
   }
  },
