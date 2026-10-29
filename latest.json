@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T12:31-06:00",
+ "generated": "2026-10-29T13:01-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,42 +535,8 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T18:35:00+00:00",
- "rising": [
-  {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-10-29T18:30:00+00:00",
-   "last": 1.85,
-   "pct_day": 10.78,
-   "pct_30m": 5.11,
-   "volume_pace": 3.13,
-   "rising": true,
-   "rising_since": "2026-10-29T17:50:00+00:00"
-  },
-  {
-   "ticker": "REVX.V",
-   "name": "REV EXPLORATION CORP",
-   "as_of": "2026-10-29T18:30:00+00:00",
-   "last": 1.62,
-   "pct_day": 6.58,
-   "pct_30m": 5.19,
-   "volume_pace": 2.08,
-   "rising": true,
-   "rising_since": "2026-10-29T18:20:00+00:00"
-  },
-  {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T18:30:00+00:00",
-   "last": 2.83,
-   "pct_day": 4.04,
-   "pct_30m": 0.35,
-   "volume_pace": 2.08,
-   "rising": true,
-   "rising_since": "2026-10-29T18:25:00+00:00"
-  }
- ],
+ "live_as_of": "2026-10-29T19:05:00+00:00",
+ "rising": [],
  "top_gainers_today": [
   {
    "ticker": "DMCU.V",
@@ -584,13 +550,24 @@
    "rising_since": null
   },
   {
+   "ticker": "AUGC.V",
+   "name": "AU GOLD CORP",
+   "as_of": "2026-10-29T18:40:00+00:00",
+   "last": 0.275,
+   "pct_day": 17.02,
+   "pct_30m": 10.0,
+   "volume_pace": 0.08,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "V.V",
    "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-29T18:25:00+00:00",
+   "as_of": "2026-10-29T18:35:00+00:00",
    "last": 0.31,
    "pct_day": 14.81,
    "pct_30m": -1.59,
-   "volume_pace": 0.2,
+   "volume_pace": 0.23,
    "rising": false,
    "rising_since": null
   },
@@ -606,24 +583,46 @@
    "rising_since": null
   },
   {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-10-29T18:30:00+00:00",
-   "last": 1.85,
-   "pct_day": 10.78,
-   "pct_30m": 5.11,
-   "volume_pace": 3.13,
-   "rising": true,
-   "rising_since": "2026-10-29T17:50:00+00:00"
+   "ticker": "JG.V",
+   "name": "JAPAN GOLD CORP",
+   "as_of": "2026-10-29T18:55:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": 3.85,
+   "volume_pace": 1.48,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "LEM.V",
    "name": "LEADING EDGE MATERIALS CORP",
-   "as_of": "2026-10-29T18:25:00+00:00",
-   "last": 0.185,
-   "pct_day": 8.82,
+   "as_of": "2026-10-29T18:45:00+00:00",
+   "last": 0.19,
+   "pct_day": 11.76,
+   "pct_30m": 2.7,
+   "volume_pace": 1.78,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PAIN.V",
+   "name": "VECTOR SCIENCE AND THERAPEUTICS",
+   "as_of": "2026-10-29T18:55:00+00:00",
+   "last": 1.85,
+   "pct_day": 10.78,
+   "pct_30m": -2.63,
+   "volume_pace": 3.01,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PWER.V",
+   "name": "GLOBAL POWER SOLUTIONS CORP",
+   "as_of": "2026-10-29T18:45:00+00:00",
+   "last": 0.165,
+   "pct_day": 10.0,
    "pct_30m": 0.0,
-   "volume_pace": 1.63,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -650,46 +649,13 @@
    "rising_since": null
   },
   {
-   "ticker": "JG.V",
-   "name": "JAPAN GOLD CORP",
-   "as_of": "2026-10-29T17:15:00+00:00",
-   "last": 0.13,
-   "pct_day": 8.33,
-   "pct_30m": 4.0,
-   "volume_pace": 0.61,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GTC.V",
-   "name": "GETTY COPPER INC.",
-   "as_of": "2026-10-29T18:30:00+00:00",
-   "last": 0.58,
-   "pct_day": 7.41,
-   "pct_30m": 9.43,
-   "volume_pace": 1.1,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GPUS.V",
-   "name": "ALSET AI VENTURES INC",
-   "as_of": "2026-10-29T14:15:00+00:00",
-   "last": 0.22,
-   "pct_day": 7.32,
-   "pct_30m": 0.0,
-   "volume_pace": 0.48,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-29T17:30:00+00:00",
+   "as_of": "2026-10-29T18:55:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 0.2,
+   "volume_pace": 0.15,
    "rising": false,
    "rising_since": null
   },
@@ -700,7 +666,7 @@
    "last": 0.94,
    "pct_day": 6.82,
    "pct_30m": 0.0,
-   "volume_pace": 1.87,
+   "volume_pace": 2.28,
    "rising": false,
    "rising_since": null
   },
@@ -711,36 +677,36 @@
    "last": 1.26,
    "pct_day": 6.78,
    "pct_30m": 0.0,
-   "volume_pace": 1.42,
+   "volume_pace": 1.43,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-29T14:10:00+00:00",
+   "as_of": "2026-10-29T18:55:00+00:00",
    "last": 0.33,
    "pct_day": 6.45,
-   "pct_30m": -4.35,
-   "volume_pace": 0.4,
+   "pct_30m": 0.0,
+   "volume_pace": 0.05,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "RUA.TO",
    "name": "RUA GOLD INC",
-   "as_of": "2026-10-29T18:30:00+00:00",
-   "last": 1.23,
-   "pct_day": 6.03,
-   "pct_30m": 2.5,
-   "volume_pace": 0.14,
+   "as_of": "2026-10-29T18:35:00+00:00",
+   "last": 1.22,
+   "pct_day": 5.17,
+   "pct_30m": 1.67,
+   "volume_pace": 0.2,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TELY.TO",
    "name": "TELYRX HOLDINGS INC",
-   "as_of": "2026-10-29T18:30:00+00:00",
+   "as_of": "2026-10-29T18:35:00+00:00",
    "last": 2.45,
    "pct_day": 4.26,
    "pct_30m": 0.0,
@@ -751,13 +717,13 @@
   {
    "ticker": "QTRH.TO",
    "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T18:30:00+00:00",
+   "as_of": "2026-10-29T19:00:00+00:00",
    "last": 2.83,
    "pct_day": 4.04,
-   "pct_30m": 0.35,
-   "volume_pace": 2.08,
-   "rising": true,
-   "rising_since": "2026-10-29T18:25:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 1.9,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "ESM.TO",
@@ -766,18 +732,18 @@
    "last": 0.155,
    "pct_day": 3.33,
    "pct_30m": 0.0,
-   "volume_pace": 0.29,
+   "volume_pace": 0.31,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PRL.TO",
    "name": "PROPEL HOLDINGS INC",
-   "as_of": "2026-10-29T18:30:00+00:00",
-   "last": 26.32,
-   "pct_day": 2.69,
-   "pct_30m": 0.77,
-   "volume_pace": 1.8,
+   "as_of": "2026-10-29T19:00:00+00:00",
+   "last": 26.3,
+   "pct_day": 2.61,
+   "pct_30m": -0.08,
+   "volume_pace": 1.7,
    "rising": false,
    "rising_since": null
   },
@@ -1390,9 +1356,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T18:35:00+00:00",
-    "last": 825.8,
-    "pct_day": -1.57
+    "as_of": "2026-10-29T19:05:00+00:00",
+    "last": 825.7,
+    "pct_day": -1.59
    }
   },
   "^GSPTSE": {
@@ -1991,9 +1957,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T18:35:00+00:00",
-    "last": 36103.3,
-    "pct_day": -0.45
+    "as_of": "2026-10-29T19:05:00+00:00",
+    "last": 36121.26,
+    "pct_day": -0.4
    }
   }
  },
