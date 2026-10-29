@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T09:01-06:00",
+ "generated": "2026-10-29T09:31-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,29 +535,18 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T15:05:00+00:00",
+ "live_as_of": "2026-10-29T15:35:00+00:00",
  "rising": [
   {
-   "ticker": "LIFT.V",
-   "name": "LI FT POWER LTD",
-   "as_of": "2026-10-29T14:45:00+00:00",
-   "last": 1.65,
-   "pct_day": 6.45,
-   "pct_30m": 3.12,
-   "volume_pace": 1.62,
+   "ticker": "QTRH.TO",
+   "name": "QUARTERHILL INC",
+   "as_of": "2026-10-29T15:30:00+00:00",
+   "last": 2.88,
+   "pct_day": 5.88,
+   "pct_30m": 1.05,
+   "volume_pace": 1.9,
    "rising": true,
-   "rising_since": "2026-10-29T14:45:00+00:00"
-  },
-  {
-   "ticker": "WPG.V",
-   "name": "WEST POINT GOLD CORP",
-   "as_of": "2026-10-29T14:30:00+00:00",
-   "last": 1.04,
-   "pct_day": 6.12,
-   "pct_30m": 0.97,
-   "volume_pace": 17.74,
-   "rising": true,
-   "rising_since": "2026-10-29T13:50:00+00:00"
+   "rising_since": "2026-10-29T15:25:00+00:00"
   },
   {
    "ticker": "ZNX.V",
@@ -566,42 +555,53 @@
    "last": 0.295,
    "pct_day": 5.36,
    "pct_30m": 5.36,
-   "volume_pace": 1.59,
+   "volume_pace": 1.64,
    "rising": true,
    "rising_since": "2026-10-29T14:50:00+00:00"
   },
   {
-   "ticker": "DEF.V",
-   "name": "DEFIANCE SILVER CORP",
-   "as_of": "2026-10-29T14:50:00+00:00",
-   "last": 0.115,
-   "pct_day": 4.55,
-   "pct_30m": 4.55,
-   "volume_pace": 4.02,
+   "ticker": "FAN.V",
+   "name": "FIRST ATLANTIC NICKEL AND COBAL",
+   "as_of": "2026-10-29T15:30:00+00:00",
+   "last": 0.62,
+   "pct_day": 5.08,
+   "pct_30m": 1.64,
+   "volume_pace": 1.86,
    "rising": true,
-   "rising_since": "2026-10-29T14:50:00+00:00"
+   "rising_since": "2026-10-29T15:25:00+00:00"
   },
   {
-   "ticker": "NURS.V",
-   "name": "HYDREIGHT TECHNOLOGIES INC",
-   "as_of": "2026-10-29T14:45:00+00:00",
-   "last": 3.63,
-   "pct_day": 3.42,
-   "pct_30m": 0.83,
-   "volume_pace": 4.47,
+   "ticker": "PGLD.V",
+   "name": "P2 GOLD INC",
+   "as_of": "2026-10-29T15:30:00+00:00",
+   "last": 1.24,
+   "pct_day": 4.2,
+   "pct_30m": 0.81,
+   "volume_pace": 1.69,
    "rising": true,
-   "rising_since": "2026-10-29T14:45:00+00:00"
+   "rising_since": "2026-10-29T15:30:00+00:00"
+  },
+  {
+   "ticker": "VRR.V",
+   "name": "VR RESOURCES LTD",
+   "as_of": "2026-10-29T15:05:00+00:00",
+   "last": 0.4,
+   "pct_day": 3.9,
+   "pct_30m": 5.26,
+   "volume_pace": 1.62,
+   "rising": true,
+   "rising_since": "2026-10-29T15:05:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
-   "ticker": "LTNG.V",
-   "name": "LIGHTNING RESOURCE CORP",
-   "as_of": "2026-10-29T14:55:00+00:00",
-   "last": 0.28,
-   "pct_day": 12.0,
-   "pct_30m": 3.7,
-   "volume_pace": 2.93,
+   "ticker": "DMCU.V",
+   "name": "DOMESTIC METALS CORP",
+   "as_of": "2026-10-29T15:30:00+00:00",
+   "last": 0.16,
+   "pct_day": 14.29,
+   "pct_30m": 6.67,
+   "volume_pace": 0.86,
    "rising": false,
    "rising_since": null
   },
@@ -612,18 +612,18 @@
    "last": 0.105,
    "pct_day": 10.53,
    "pct_30m": 0.0,
-   "volume_pace": 24.26,
+   "volume_pace": 24.5,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "LEM.V",
-   "name": "LEADING EDGE MATERIALS CORP",
-   "as_of": "2026-10-29T14:55:00+00:00",
-   "last": 0.185,
-   "pct_day": 8.82,
-   "pct_30m": 2.78,
-   "volume_pace": 4.01,
+   "ticker": "LTNG.V",
+   "name": "LIGHTNING RESOURCE CORP",
+   "as_of": "2026-10-29T15:25:00+00:00",
+   "last": 0.275,
+   "pct_day": 10.0,
+   "pct_30m": -1.79,
+   "volume_pace": 2.49,
    "rising": false,
    "rising_since": null
   },
@@ -635,17 +635,6 @@
    "pct_day": 8.7,
    "pct_30m": 0.0,
    "volume_pace": 2.24,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PLAN.V",
-   "name": "PROGRESSIVE PLANET SOLUTIONS IN",
-   "as_of": "2026-10-29T13:40:00+00:00",
-   "last": 0.345,
-   "pct_day": 7.81,
-   "pct_30m": 4.55,
-   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -672,17 +661,6 @@
    "rising_since": null
   },
   {
-   "ticker": "DMCU.V",
-   "name": "DOMESTIC METALS CORP",
-   "as_of": "2026-10-29T14:50:00+00:00",
-   "last": 0.15,
-   "pct_day": 7.14,
-   "pct_30m": 0.0,
-   "volume_pace": 1.3,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "TRR.V",
    "name": "TERRA ROSSA GOLD LTD",
    "as_of": "2026-10-29T13:55:00+00:00",
@@ -705,13 +683,35 @@
    "rising_since": null
   },
   {
+   "ticker": "TMG.V",
+   "name": "Thermal Energy International In",
+   "as_of": "2026-10-29T14:20:00+00:00",
+   "last": 0.155,
+   "pct_day": 6.9,
+   "pct_30m": 3.33,
+   "volume_pace": 8.04,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AUGC.V",
+   "name": "AU GOLD CORP",
+   "as_of": "2026-10-29T14:55:00+00:00",
+   "last": 0.25,
+   "pct_day": 6.38,
+   "pct_30m": 0.0,
+   "volume_pace": 0.12,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-29T15:00:00+00:00",
+   "as_of": "2026-10-29T15:25:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 0.19,
    "rising": false,
    "rising_since": null
   },
@@ -729,24 +729,24 @@
   {
    "ticker": "TELY.TO",
    "name": "TELYRX HOLDINGS INC",
-   "as_of": "2026-10-29T15:00:00+00:00",
-   "last": 2.49,
-   "pct_day": 5.96,
-   "pct_30m": 4.62,
-   "volume_pace": 0.0,
+   "as_of": "2026-10-29T15:20:00+00:00",
+   "last": 2.5,
+   "pct_day": 6.38,
+   "pct_30m": 5.04,
+   "volume_pace": 27.8,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "QTRH.TO",
    "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T15:00:00+00:00",
-   "last": 2.85,
-   "pct_day": 4.78,
-   "pct_30m": 0.0,
-   "volume_pace": 1.94,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-10-29T15:30:00+00:00",
+   "last": 2.88,
+   "pct_day": 5.88,
+   "pct_30m": 1.05,
+   "volume_pace": 1.9,
+   "rising": true,
+   "rising_since": "2026-10-29T15:25:00+00:00"
   },
   {
    "ticker": "S.TO",
@@ -766,51 +766,51 @@
    "last": 1.37,
    "pct_day": 3.79,
    "pct_30m": 0.0,
-   "volume_pace": 15.76,
+   "volume_pace": 15.77,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "RUA.TO",
+   "name": "RUA GOLD INC",
+   "as_of": "2026-10-29T15:10:00+00:00",
+   "last": 1.2,
+   "pct_day": 3.45,
+   "pct_30m": 0.84,
+   "volume_pace": 0.41,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ESM.TO",
    "name": "EURO SUN MINING INC",
-   "as_of": "2026-10-29T14:50:00+00:00",
+   "as_of": "2026-10-29T15:10:00+00:00",
    "last": 0.155,
    "pct_day": 3.33,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "COPR.TO",
-   "name": "COPPERNICO METALS INC",
-   "as_of": "2026-10-29T14:25:00+00:00",
-   "last": 0.395,
-   "pct_day": 2.6,
-   "pct_30m": 2.6,
-   "volume_pace": 0.93,
+   "volume_pace": 0.43,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-29T14:45:00+00:00",
-   "last": 0.995,
-   "pct_day": 2.58,
-   "pct_30m": -0.5,
-   "volume_pace": 0.07,
+   "as_of": "2026-10-29T15:20:00+00:00",
+   "last": 1.0,
+   "pct_day": 3.09,
+   "pct_30m": 0.5,
+   "volume_pace": 0.09,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "XLY.TO",
    "name": "AUXLY CANNABIS GROUP INC",
-   "as_of": "2026-10-29T15:00:00+00:00",
-   "last": 3.67,
-   "pct_day": 2.51,
-   "pct_30m": -0.27,
-   "volume_pace": 2.83,
+   "as_of": "2026-10-29T15:30:00+00:00",
+   "last": 3.68,
+   "pct_day": 2.79,
+   "pct_30m": 0.27,
+   "volume_pace": 2.26,
    "rising": false,
    "rising_since": null
   }
@@ -1412,9 +1412,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T15:05:00+00:00",
-    "last": 827.01,
-    "pct_day": -1.43
+    "as_of": "2026-10-29T15:35:00+00:00",
+    "last": 828.71,
+    "pct_day": -1.23
    }
   },
   "^GSPTSE": {
@@ -2013,9 +2013,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T15:05:00+00:00",
-    "last": 36253.5,
-    "pct_day": -0.03
+    "as_of": "2026-10-29T15:35:00+00:00",
+    "last": 36312.04,
+    "pct_day": 0.13
    }
   }
  },
