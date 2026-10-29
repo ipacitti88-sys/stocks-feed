@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T13:01-06:00",
+ "generated": "2026-10-29T13:31-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,8 +535,31 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T19:05:00+00:00",
- "rising": [],
+ "live_as_of": "2026-10-29T19:35:00+00:00",
+ "rising": [
+  {
+   "ticker": "PAIN.V",
+   "name": "VECTOR SCIENCE AND THERAPEUTICS",
+   "as_of": "2026-10-29T19:30:00+00:00",
+   "last": 1.87,
+   "pct_day": 11.98,
+   "pct_30m": 1.08,
+   "volume_pace": 2.77,
+   "rising": true,
+   "rising_since": "2026-10-29T19:15:00+00:00"
+  },
+  {
+   "ticker": "REVX.V",
+   "name": "REV EXPLORATION CORP",
+   "as_of": "2026-10-29T19:30:00+00:00",
+   "last": 1.61,
+   "pct_day": 5.92,
+   "pct_30m": 1.26,
+   "volume_pace": 1.98,
+   "rising": true,
+   "rising_since": "2026-10-29T19:30:00+00:00"
+  }
+ ],
  "top_gainers_today": [
   {
    "ticker": "DMCU.V",
@@ -556,29 +579,29 @@
    "last": 0.275,
    "pct_day": 17.02,
    "pct_30m": 10.0,
-   "volume_pace": 0.08,
+   "volume_pace": 0.1,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "V.V",
    "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-29T18:35:00+00:00",
+   "as_of": "2026-10-29T19:30:00+00:00",
    "last": 0.31,
    "pct_day": 14.81,
-   "pct_30m": -1.59,
-   "volume_pace": 0.23,
+   "pct_30m": 0.0,
+   "volume_pace": 0.2,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ZIGY.V",
-   "name": "STARDUST METAL CORP",
-   "as_of": "2026-10-29T17:35:00+00:00",
-   "last": 1.7,
-   "pct_day": 13.33,
-   "pct_30m": -2.86,
-   "volume_pace": 0.19,
+   "ticker": "LEM.V",
+   "name": "LEADING EDGE MATERIALS CORP",
+   "as_of": "2026-10-29T19:25:00+00:00",
+   "last": 0.195,
+   "pct_day": 14.71,
+   "pct_30m": 2.63,
+   "volume_pace": 1.64,
    "rising": false,
    "rising_since": null
   },
@@ -589,29 +612,51 @@
    "last": 0.135,
    "pct_day": 12.5,
    "pct_30m": 3.85,
-   "volume_pace": 1.48,
+   "volume_pace": 2.14,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "LEM.V",
-   "name": "LEADING EDGE MATERIALS CORP",
-   "as_of": "2026-10-29T18:45:00+00:00",
-   "last": 0.19,
-   "pct_day": 11.76,
-   "pct_30m": 2.7,
-   "volume_pace": 1.78,
+   "ticker": "TGOL.V",
+   "name": "THUNDER GOLD CORP",
+   "as_of": "2026-10-29T19:20:00+00:00",
+   "last": 0.14,
+   "pct_day": 12.0,
+   "pct_30m": 7.69,
+   "volume_pace": 0.07,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PAIN.V",
    "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-10-29T18:55:00+00:00",
-   "last": 1.85,
-   "pct_day": 10.78,
-   "pct_30m": -2.63,
-   "volume_pace": 3.01,
+   "as_of": "2026-10-29T19:30:00+00:00",
+   "last": 1.87,
+   "pct_day": 11.98,
+   "pct_30m": 1.08,
+   "volume_pace": 2.77,
+   "rising": true,
+   "rising_since": "2026-10-29T19:15:00+00:00"
+  },
+  {
+   "ticker": "ZNX.V",
+   "name": "ZINCX RESOURCES CORP",
+   "as_of": "2026-10-29T19:30:00+00:00",
+   "last": 0.31,
+   "pct_day": 10.71,
+   "pct_30m": 3.33,
+   "volume_pace": 0.77,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VCV.V",
+   "name": "VATIC VENTURES CORP",
+   "as_of": "2026-10-29T19:20:00+00:00",
+   "last": 0.105,
+   "pct_day": 10.53,
+   "pct_30m": 10.53,
+   "volume_pace": 0.12,
    "rising": false,
    "rising_since": null
   },
@@ -627,28 +672,6 @@
    "rising_since": null
   },
   {
-   "ticker": "SEVA.V",
-   "name": "SEVA MINING CORP",
-   "as_of": "2026-10-29T17:10:00+00:00",
-   "last": 0.31,
-   "pct_day": 8.77,
-   "pct_30m": 0.0,
-   "volume_pace": 2.52,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "IGO.V",
-   "name": "INDEPENDENCE GOLD CORP",
-   "as_of": "2026-10-29T14:35:00+00:00",
-   "last": 0.125,
-   "pct_day": 8.7,
-   "pct_30m": 0.0,
-   "volume_pace": 2.24,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
    "as_of": "2026-10-29T18:55:00+00:00",
@@ -660,46 +683,35 @@
    "rising_since": null
   },
   {
-   "ticker": "EDT.TO",
-   "name": "SPECTRAL MEDICAL INC",
-   "as_of": "2026-10-29T18:15:00+00:00",
-   "last": 0.94,
-   "pct_day": 6.82,
-   "pct_30m": 0.0,
-   "volume_pace": 2.28,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-10-29T18:20:00+00:00",
-   "last": 1.26,
-   "pct_day": 6.78,
-   "pct_30m": 0.0,
-   "volume_pace": 1.43,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
    "as_of": "2026-10-29T18:55:00+00:00",
    "last": 0.33,
    "pct_day": 6.45,
    "pct_30m": 0.0,
-   "volume_pace": 0.05,
+   "volume_pace": 0.19,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "RUA.TO",
-   "name": "RUA GOLD INC",
-   "as_of": "2026-10-29T18:35:00+00:00",
-   "last": 1.22,
-   "pct_day": 5.17,
-   "pct_30m": 1.67,
-   "volume_pace": 0.2,
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-10-29T19:20:00+00:00",
+   "last": 1.25,
+   "pct_day": 5.93,
+   "pct_30m": -0.79,
+   "volume_pace": 1.21,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "EDT.TO",
+   "name": "SPECTRAL MEDICAL INC",
+   "as_of": "2026-10-29T19:30:00+00:00",
+   "last": 0.93,
+   "pct_day": 5.68,
+   "pct_30m": -1.06,
+   "volume_pace": 2.29,
    "rising": false,
    "rising_since": null
   },
@@ -711,17 +723,6 @@
    "pct_day": 4.26,
    "pct_30m": 0.0,
    "volume_pace": 10.36,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T19:00:00+00:00",
-   "last": 2.83,
-   "pct_day": 4.04,
-   "pct_30m": 0.0,
-   "volume_pace": 1.9,
    "rising": false,
    "rising_since": null
   },
@@ -739,11 +740,11 @@
   {
    "ticker": "PRL.TO",
    "name": "PROPEL HOLDINGS INC",
-   "as_of": "2026-10-29T19:00:00+00:00",
-   "last": 26.3,
-   "pct_day": 2.61,
-   "pct_30m": -0.08,
-   "volume_pace": 1.7,
+   "as_of": "2026-10-29T19:35:00+00:00",
+   "last": 26.33,
+   "pct_day": 2.73,
+   "pct_30m": 0.15,
+   "volume_pace": 1.63,
    "rising": false,
    "rising_since": null
   },
@@ -755,6 +756,28 @@
    "pct_day": 2.6,
    "pct_30m": 1.28,
    "volume_pace": 0.11,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-10-29T19:25:00+00:00",
+   "last": 3.67,
+   "pct_day": 2.51,
+   "pct_30m": 0.0,
+   "volume_pace": 1.15,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GASX.TO",
+   "name": "NG ENERGY INTERNATIONAL CORP",
+   "as_of": "2026-10-29T19:05:00+00:00",
+   "last": 0.99,
+   "pct_day": 2.06,
+   "pct_30m": 0.0,
+   "volume_pace": 0.18,
    "rising": false,
    "rising_since": null
   }
@@ -1356,9 +1379,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T19:05:00+00:00",
-    "last": 825.7,
-    "pct_day": -1.59
+    "as_of": "2026-10-29T19:35:00+00:00",
+    "last": 826.16,
+    "pct_day": -1.53
    }
   },
   "^GSPTSE": {
@@ -1957,9 +1980,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T19:05:00+00:00",
-    "last": 36121.26,
-    "pct_day": -0.4
+    "as_of": "2026-10-29T19:35:00+00:00",
+    "last": 36177.89,
+    "pct_day": -0.24
    }
   }
  },
