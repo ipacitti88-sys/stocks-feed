@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-29T14:01-06:00
+# Stock feed — 2026-10-29T14:06-06:00
 
 Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -89,11 +89,11 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 - LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 0.13x
 - GRA.TO (NANOXPLORE INC): +6.8% at 1.26, volume pace 1.29x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +6.5% at 0.33, volume pace 0.19x
+- TELY.TO (TELYRX HOLDINGS INC): +6.4% at 2.5, volume pace 8.62x
 - EDT.TO (SPECTRAL MEDICAL INC): +5.7% at 0.93, volume pace 2.36x
-- TELY.TO (TELYRX HOLDINGS INC): +4.3% at 2.45, volume pace 10.36x
 - ESM.TO (EURO SUN MINING INC): +3.3% at 0.155, volume pace 0.34x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +3.2% at 0.32, volume pace 0.25x
+- ECO.TO (ECOSYNTHETIX INC): +2.9% at 1.42, volume pace 0.33x
 - FT.TO (FORTUNE MNRL J): +2.7% at 0.095, volume pace 0.82x
 - QTRH.TO (QUARTERHILL INC): +2.6% at 2.79, volume pace 1.77x
-- HAI.TO (HAIVISION SYSTEMS INC): +2.3% at 3.6, volume pace 0.06x
 - XLY.TO (AUXLY CANNABIS GROUP INC): +2.2% at 3.66, volume pace 1.17x

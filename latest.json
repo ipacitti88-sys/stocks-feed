@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T14:01-06:00",
+ "generated": "2026-10-29T14:06-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -683,13 +683,13 @@
    "rising_since": null
   },
   {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-29T19:55:00+00:00",
-   "last": 0.33,
-   "pct_day": 6.45,
-   "pct_30m": 0.0,
-   "volume_pace": 0.19,
+   "ticker": "TELY.TO",
+   "name": "TELYRX HOLDINGS INC",
+   "as_of": "2026-10-29T19:40:00+00:00",
+   "last": 2.5,
+   "pct_day": 6.38,
+   "pct_30m": 2.04,
+   "volume_pace": 8.62,
    "rising": false,
    "rising_since": null
   },
@@ -705,17 +705,6 @@
    "rising_since": null
   },
   {
-   "ticker": "TELY.TO",
-   "name": "TELYRX HOLDINGS INC",
-   "as_of": "2026-10-29T18:35:00+00:00",
-   "last": 2.45,
-   "pct_day": 4.26,
-   "pct_30m": 0.0,
-   "volume_pace": 10.36,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "ESM.TO",
    "name": "EURO SUN MINING INC",
    "as_of": "2026-10-29T19:55:00+00:00",
@@ -723,6 +712,28 @@
    "pct_day": 3.33,
    "pct_30m": 0.0,
    "volume_pace": 0.34,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CWEB.TO",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "as_of": "2026-10-29T20:00:00+00:00",
+   "last": 0.32,
+   "pct_day": 3.23,
+   "pct_30m": -3.03,
+   "volume_pace": 0.25,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ECO.TO",
+   "name": "ECOSYNTHETIX INC",
+   "as_of": "2026-10-29T19:40:00+00:00",
+   "last": 1.42,
+   "pct_day": 2.9,
+   "pct_30m": 3.65,
+   "volume_pace": 0.33,
    "rising": false,
    "rising_since": null
   },
@@ -745,17 +756,6 @@
    "pct_day": 2.57,
    "pct_30m": 0.72,
    "volume_pace": 1.77,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HAI.TO",
-   "name": "HAIVISION SYSTEMS INC",
-   "as_of": "2026-10-29T19:40:00+00:00",
-   "last": 3.6,
-   "pct_day": 2.27,
-   "pct_30m": 1.12,
-   "volume_pace": 0.06,
    "rising": false,
    "rising_since": null
   },
