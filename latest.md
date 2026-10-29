@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-29T08:31-06:00
+# Stock feed — 2026-10-29T09:01-06:00
 
-Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T14:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 839.00 on 2026-10-28 (day +0.1%, month -6.2%, year -11.7%, downtrend); live -1.3% at 14:35
-Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year +19.8%, uptrend); live +0.0% at 14:35
+Market: S&P/TSX Venture Composite 839.00 on 2026-10-28 (day +0.1%, month -6.2%, year -11.7%, downtrend); live -1.4% at 15:05
+Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year +19.8%, uptrend); live -0.0% at 15:05
 
 # TSX Venture
 
@@ -28,9 +28,11 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- WPG.V (WEST POINT GOLD CORP): +6.1% today at 1.04, last 30m +1.0%, volume pace 17.11x, rising since 2026-10-29T13:50:00+00:00
-- LIFT.V (LI FT POWER LTD): +5.8% today at 1.64, last 30m +2.5%, volume pace 1.62x, rising since 2026-10-29T13:55:00+00:00
-- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): +3.4% today at 0.61, last 30m +1.7%, volume pace 1.74x, rising since 2026-10-29T14:30:00+00:00
+- LIFT.V (LI FT POWER LTD): +6.5% today at 1.65, last 30m +3.1%, volume pace 1.62x, rising since 2026-10-29T14:45:00+00:00
+- WPG.V (WEST POINT GOLD CORP): +6.1% today at 1.04, last 30m +1.0%, volume pace 17.74x, rising since 2026-10-29T13:50:00+00:00
+- ZNX.V (ZINCX RESOURCES CORP): +5.4% today at 0.295, last 30m +5.4%, volume pace 1.59x, rising since 2026-10-29T14:50:00+00:00
+- DEF.V (DEFIANCE SILVER CORP): +4.5% today at 0.115, last 30m +4.5%, volume pace 4.02x, rising since 2026-10-29T14:50:00+00:00
+- NURS.V (HYDREIGHT TECHNOLOGIES INC): +3.4% today at 3.63, last 30m +0.8%, volume pace 4.47x, rising since 2026-10-29T14:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -47,14 +49,14 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- ADE.V (ADEX MINING INC.): +10.5% at 0.105, volume pace 30.28x
-- IGO.V (INDEPENDENCE GOLD CORP): +8.7% at 0.125, volume pace 0.71x
-- LTNG.V (LIGHTNING RESOURCE CORP): +8.0% at 0.27, volume pace 0.78x
+- LTNG.V (LIGHTNING RESOURCE CORP): +12.0% at 0.28, volume pace 2.93x
+- ADE.V (ADEX MINING INC.): +10.5% at 0.105, volume pace 24.26x
+- LEM.V (LEADING EDGE MATERIALS CORP): +8.8% at 0.185, volume pace 4.01x
+- IGO.V (INDEPENDENCE GOLD CORP): +8.7% at 0.125, volume pace 2.24x
 - PLAN.V (PROGRESSIVE PLANET SOLUTIONS IN): +7.8% at 0.345, volume pace 0.0x
 - MOGL.V (MOGUL MOUNTAIN VENTURES CORPORA): +7.7% at 0.21, volume pace 11.11x
-- V.V (VERDERA ENERGY CORP): +7.4% at 0.29, volume pace 0.04x
-- GPUS.V (ALSET AI VENTURES INC): +7.3% at 0.22, volume pace 0.0x
-- DME.V (DESERT MOUNTAIN ENERGY CORP): +7.3% at 0.22, volume pace 0.0x
+- GPUS.V (ALSET AI VENTURES INC): +7.3% at 0.22, volume pace 0.48x
+- DMCU.V (DOMESTIC METALS CORP): +7.1% at 0.15, volume pace 1.3x
 - TRR.V (TERRA ROSSA GOLD LTD): +7.1% at 0.3, volume pace 0.0x
 - TAJ.V (TAJIRI RESOURCES CORP): +7.1% at 0.15, volume pace 0.0x
 
@@ -72,8 +74,7 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- WILD.TO (WILDBRAIN LTD): +5.3% today at 1.39, last 30m +1.5%, volume pace 18.76x, rising since 2026-10-29T14:30:00+00:00
-- QTRH.TO (QUARTERHILL INC): +4.8% today at 2.85, last 30m +2.9%, volume pace 2.44x, rising since 2026-10-29T14:15:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -92,11 +93,11 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 - LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 0.0x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +6.5% at 0.33, volume pace 0.4x
-- WILD.TO (WILDBRAIN LTD): +5.3% at 1.39, volume pace 18.76x
-- QTRH.TO (QUARTERHILL INC): +4.8% at 2.85, volume pace 2.44x
+- TELY.TO (TELYRX HOLDINGS INC): +6.0% at 2.49, volume pace 0.0x
+- QTRH.TO (QUARTERHILL INC): +4.8% at 2.85, volume pace 1.94x
 - S.TO (SHERRITT INTL RV): +4.8% at 0.22, volume pace 0.0x
+- WILD.TO (WILDBRAIN LTD): +3.8% at 1.37, volume pace 15.76x
 - ESM.TO (EURO SUN MINING INC): +3.3% at 0.155, volume pace 0.0x
-- SBI.TO (SERABI GOLD PLC): +2.9% at 3.6, volume pace 1.68x
-- XLY.TO (AUXLY CANNABIS GROUP INC): +2.8% at 3.68, volume pace 2.65x
-- COPR.TO (COPPERNICO METALS INC): +2.6% at 0.395, volume pace 0.84x
-- RUA.TO (RUA GOLD INC): +2.6% at 1.19, volume pace 0.0x
+- COPR.TO (COPPERNICO METALS INC): +2.6% at 0.395, volume pace 0.93x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.6% at 0.995, volume pace 0.07x
+- XLY.TO (AUXLY CANNABIS GROUP INC): +2.5% at 3.67, volume pace 2.83x

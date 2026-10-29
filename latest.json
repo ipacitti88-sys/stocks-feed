@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T08:31-06:00",
+ "generated": "2026-10-29T09:01-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,8 +535,19 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T14:35:00+00:00",
+ "live_as_of": "2026-10-29T15:05:00+00:00",
  "rising": [
+  {
+   "ticker": "LIFT.V",
+   "name": "LI FT POWER LTD",
+   "as_of": "2026-10-29T14:45:00+00:00",
+   "last": 1.65,
+   "pct_day": 6.45,
+   "pct_30m": 3.12,
+   "volume_pace": 1.62,
+   "rising": true,
+   "rising_since": "2026-10-29T14:45:00+00:00"
+  },
   {
    "ticker": "WPG.V",
    "name": "WEST POINT GOLD CORP",
@@ -544,86 +555,86 @@
    "last": 1.04,
    "pct_day": 6.12,
    "pct_30m": 0.97,
-   "volume_pace": 17.11,
+   "volume_pace": 17.74,
    "rising": true,
    "rising_since": "2026-10-29T13:50:00+00:00"
   },
   {
-   "ticker": "LIFT.V",
-   "name": "LI FT POWER LTD",
-   "as_of": "2026-10-29T14:25:00+00:00",
-   "last": 1.64,
-   "pct_day": 5.81,
-   "pct_30m": 2.5,
-   "volume_pace": 1.62,
+   "ticker": "ZNX.V",
+   "name": "ZINCX RESOURCES CORP",
+   "as_of": "2026-10-29T14:50:00+00:00",
+   "last": 0.295,
+   "pct_day": 5.36,
+   "pct_30m": 5.36,
+   "volume_pace": 1.59,
    "rising": true,
-   "rising_since": "2026-10-29T13:55:00+00:00"
+   "rising_since": "2026-10-29T14:50:00+00:00"
   },
   {
-   "ticker": "WILD.TO",
-   "name": "WILDBRAIN LTD",
-   "as_of": "2026-10-29T14:30:00+00:00",
-   "last": 1.39,
-   "pct_day": 5.3,
-   "pct_30m": 1.46,
-   "volume_pace": 18.76,
+   "ticker": "DEF.V",
+   "name": "DEFIANCE SILVER CORP",
+   "as_of": "2026-10-29T14:50:00+00:00",
+   "last": 0.115,
+   "pct_day": 4.55,
+   "pct_30m": 4.55,
+   "volume_pace": 4.02,
    "rising": true,
-   "rising_since": "2026-10-29T14:30:00+00:00"
+   "rising_since": "2026-10-29T14:50:00+00:00"
   },
   {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T14:30:00+00:00",
-   "last": 2.85,
-   "pct_day": 4.78,
-   "pct_30m": 2.89,
-   "volume_pace": 2.44,
+   "ticker": "NURS.V",
+   "name": "HYDREIGHT TECHNOLOGIES INC",
+   "as_of": "2026-10-29T14:45:00+00:00",
+   "last": 3.63,
+   "pct_day": 3.42,
+   "pct_30m": 0.83,
+   "volume_pace": 4.47,
    "rising": true,
-   "rising_since": "2026-10-29T14:15:00+00:00"
-  },
-  {
-   "ticker": "FAN.V",
-   "name": "FIRST ATLANTIC NICKEL AND COBAL",
-   "as_of": "2026-10-29T14:30:00+00:00",
-   "last": 0.61,
-   "pct_day": 3.39,
-   "pct_30m": 1.67,
-   "volume_pace": 1.74,
-   "rising": true,
-   "rising_since": "2026-10-29T14:30:00+00:00"
+   "rising_since": "2026-10-29T14:45:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
+   "ticker": "LTNG.V",
+   "name": "LIGHTNING RESOURCE CORP",
+   "as_of": "2026-10-29T14:55:00+00:00",
+   "last": 0.28,
+   "pct_day": 12.0,
+   "pct_30m": 3.7,
+   "volume_pace": 2.93,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ADE.V",
    "name": "ADEX MINING INC.",
-   "as_of": "2026-10-29T14:25:00+00:00",
+   "as_of": "2026-10-29T14:40:00+00:00",
    "last": 0.105,
    "pct_day": 10.53,
    "pct_30m": 0.0,
-   "volume_pace": 30.28,
+   "volume_pace": 24.26,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LEM.V",
+   "name": "LEADING EDGE MATERIALS CORP",
+   "as_of": "2026-10-29T14:55:00+00:00",
+   "last": 0.185,
+   "pct_day": 8.82,
+   "pct_30m": 2.78,
+   "volume_pace": 4.01,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "IGO.V",
    "name": "INDEPENDENCE GOLD CORP",
-   "as_of": "2026-10-29T13:50:00+00:00",
+   "as_of": "2026-10-29T14:35:00+00:00",
    "last": 0.125,
    "pct_day": 8.7,
-   "pct_30m": -3.85,
-   "volume_pace": 0.71,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "LTNG.V",
-   "name": "LIGHTNING RESOURCE CORP",
-   "as_of": "2026-10-29T14:05:00+00:00",
-   "last": 0.27,
-   "pct_day": 8.0,
-   "pct_30m": 8.0,
-   "volume_pace": 0.78,
+   "pct_30m": 0.0,
+   "volume_pace": 2.24,
    "rising": false,
    "rising_since": null
   },
@@ -650,35 +661,24 @@
    "rising_since": null
   },
   {
-   "ticker": "V.V",
-   "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-29T14:30:00+00:00",
-   "last": 0.29,
-   "pct_day": 7.41,
-   "pct_30m": -3.33,
-   "volume_pace": 0.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "GPUS.V",
    "name": "ALSET AI VENTURES INC",
    "as_of": "2026-10-29T14:15:00+00:00",
    "last": 0.22,
    "pct_day": 7.32,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "DME.V",
-   "name": "DESERT MOUNTAIN ENERGY CORP",
-   "as_of": "2026-10-29T13:35:00+00:00",
-   "last": 0.22,
-   "pct_day": 7.32,
-   "pct_30m": 2.33,
-   "volume_pace": 0.0,
+   "ticker": "DMCU.V",
+   "name": "DOMESTIC METALS CORP",
+   "as_of": "2026-10-29T14:50:00+00:00",
+   "last": 0.15,
+   "pct_day": 7.14,
+   "pct_30m": 0.0,
+   "volume_pace": 1.3,
    "rising": false,
    "rising_since": null
   },
@@ -707,10 +707,10 @@
   {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-29T13:55:00+00:00",
+   "as_of": "2026-10-29T15:00:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
-   "pct_30m": 4.0,
+   "pct_30m": 0.0,
    "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
@@ -727,26 +727,26 @@
    "rising_since": null
   },
   {
-   "ticker": "WILD.TO",
-   "name": "WILDBRAIN LTD",
-   "as_of": "2026-10-29T14:30:00+00:00",
-   "last": 1.39,
-   "pct_day": 5.3,
-   "pct_30m": 1.46,
-   "volume_pace": 18.76,
-   "rising": true,
-   "rising_since": "2026-10-29T14:30:00+00:00"
+   "ticker": "TELY.TO",
+   "name": "TELYRX HOLDINGS INC",
+   "as_of": "2026-10-29T15:00:00+00:00",
+   "last": 2.49,
+   "pct_day": 5.96,
+   "pct_30m": 4.62,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "QTRH.TO",
    "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T14:30:00+00:00",
+   "as_of": "2026-10-29T15:00:00+00:00",
    "last": 2.85,
    "pct_day": 4.78,
-   "pct_30m": 2.89,
-   "volume_pace": 2.44,
-   "rising": true,
-   "rising_since": "2026-10-29T14:15:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 1.94,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "S.TO",
@@ -760,35 +760,24 @@
    "rising_since": null
   },
   {
+   "ticker": "WILD.TO",
+   "name": "WILDBRAIN LTD",
+   "as_of": "2026-10-29T14:45:00+00:00",
+   "last": 1.37,
+   "pct_day": 3.79,
+   "pct_30m": 0.0,
+   "volume_pace": 15.76,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ESM.TO",
    "name": "EURO SUN MINING INC",
-   "as_of": "2026-10-29T13:35:00+00:00",
+   "as_of": "2026-10-29T14:50:00+00:00",
    "last": 0.155,
    "pct_day": 3.33,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SBI.TO",
-   "name": "SERABI GOLD PLC",
-   "as_of": "2026-10-29T14:25:00+00:00",
-   "last": 3.6,
-   "pct_day": 2.86,
-   "pct_30m": 0.98,
-   "volume_pace": 1.68,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "XLY.TO",
-   "name": "AUXLY CANNABIS GROUP INC",
-   "as_of": "2026-10-29T14:30:00+00:00",
-   "last": 3.68,
-   "pct_day": 2.79,
-   "pct_30m": 1.38,
-   "volume_pace": 2.65,
    "rising": false,
    "rising_since": null
   },
@@ -799,18 +788,29 @@
    "last": 0.395,
    "pct_day": 2.6,
    "pct_30m": 2.6,
-   "volume_pace": 0.84,
+   "volume_pace": 0.93,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "RUA.TO",
-   "name": "RUA GOLD INC",
-   "as_of": "2026-10-29T13:35:00+00:00",
-   "last": 1.19,
-   "pct_day": 2.59,
-   "pct_30m": 1.71,
-   "volume_pace": 0.0,
+   "ticker": "GASX.TO",
+   "name": "NG ENERGY INTERNATIONAL CORP",
+   "as_of": "2026-10-29T14:45:00+00:00",
+   "last": 0.995,
+   "pct_day": 2.58,
+   "pct_30m": -0.5,
+   "volume_pace": 0.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-10-29T15:00:00+00:00",
+   "last": 3.67,
+   "pct_day": 2.51,
+   "pct_30m": -0.27,
+   "volume_pace": 2.83,
    "rising": false,
    "rising_since": null
   }
@@ -1412,9 +1412,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T14:35:00+00:00",
-    "last": 828.37,
-    "pct_day": -1.27
+    "as_of": "2026-10-29T15:05:00+00:00",
+    "last": 827.01,
+    "pct_day": -1.43
    }
   },
   "^GSPTSE": {
@@ -2013,9 +2013,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T14:35:00+00:00",
-    "last": 36280.41,
-    "pct_day": 0.04
+    "as_of": "2026-10-29T15:05:00+00:00",
+    "last": 36253.5,
+    "pct_day": -0.03
    }
   }
  },
