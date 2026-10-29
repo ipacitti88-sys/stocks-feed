@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-29T10:01-06:00
+# Stock feed — 2026-10-29T10:31-06:00
 
-Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 839.00 on 2026-10-28 (day +0.1%, month -6.2%, year -11.7%, downtrend); live -1.2% at 16:05
-Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year +19.8%, uptrend); live -0.1% at 16:05
+Market: S&P/TSX Venture Composite 839.00 on 2026-10-28 (day +0.1%, month -6.2%, year -11.7%, downtrend); live -1.1% at 16:35
+Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year +19.8%, uptrend); live -0.2% at 16:35
 
 # TSX Venture
 
@@ -28,7 +28,6 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PGLD.V (P2 GOLD INC): +5.0% today at 1.25, last 30m +0.8%, volume pace 1.61x, rising since 2026-10-29T15:30:00+00:00
 - VRR.V (VR RESOURCES LTD): +3.9% today at 0.4, last 30m +5.3%, volume pace 1.62x, rising since 2026-10-29T15:05:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -47,15 +46,15 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - DMCU.V (DOMESTIC METALS CORP): +21.4% at 0.17, volume pace 2.79x
-- ZIGY.V (STARDUST METAL CORP): +16.7% at 1.75, volume pace 0.0x
-- ADE.V (ADEX MINING INC.): +10.5% at 0.105, volume pace 12.7x
-- TT.V (TOTAL METALS CORP): +10.0% at 0.22, volume pace 6.18x
+- ZIGY.V (STARDUST METAL CORP): +16.7% at 1.75, volume pace 0.04x
+- ADE.V (ADEX MINING INC.): +10.5% at 0.105, volume pace 13.26x
+- SEVA.V (SEVA MINING CORP): +8.8% at 0.31, volume pace 2.16x
 - IGO.V (INDEPENDENCE GOLD CORP): +8.7% at 0.125, volume pace 2.24x
-- LTNG.V (LIGHTNING RESOURCE CORP): +8.0% at 0.27, volume pace 1.99x
+- LTNG.V (LIGHTNING RESOURCE CORP): +8.0% at 0.27, volume pace 1.75x
 - MOGL.V (MOGUL MOUNTAIN VENTURES CORPORA): +7.7% at 0.21, volume pace 11.11x
+- BRAU.V (BIG RIDGE GOLD CORP): +7.5% at 0.57, volume pace 1.07x
+- TT.V (TOTAL METALS CORP): +7.5% at 0.215, volume pace 5.65x
 - GPUS.V (ALSET AI VENTURES INC): +7.3% at 0.22, volume pace 0.48x
-- TRR.V (TERRA ROSSA GOLD LTD): +7.1% at 0.3, volume pace 0.0x
-- TAJ.V (TAJIRI RESOURCES CORP): +7.1% at 0.15, volume pace 0.0x
 
 # TSX
 
@@ -71,7 +70,8 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- GRA.TO (NANOXPLORE INC): +5.9% today at 1.25, last 30m +1.6%, volume pace 1.59x, rising since 2026-10-29T16:20:00+00:00
+- WILD.TO (WILDBRAIN LTD): +3.8% today at 1.37, last 30m +0.4%, volume pace 7.79x, rising since 2026-10-29T16:35:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -88,13 +88,13 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 0.15x
+- LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 0.13x
+- ESM.TO (EURO SUN MINING INC): +6.7% at 0.16, volume pace 0.42x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +6.5% at 0.33, volume pace 0.4x
 - TELY.TO (TELYRX HOLDINGS INC): +6.4% at 2.5, volume pace 27.92x
-- QTRH.TO (QUARTERHILL INC): +5.5% at 2.87, volume pace 1.75x
-- GRA.TO (NANOXPLORE INC): +4.2% at 1.23, volume pace 1.41x
+- GRA.TO (NANOXPLORE INC): +5.9% at 1.25, volume pace 1.59x
+- QTRH.TO (QUARTERHILL INC): +4.4% at 2.84, volume pace 1.67x
+- WILD.TO (WILDBRAIN LTD): +3.8% at 1.37, volume pace 7.79x
 - RUA.TO (RUA GOLD INC): +3.5% at 1.2, volume pace 0.41x
-- WILD.TO (WILDBRAIN LTD): +3.4% at 1.365, volume pace 7.63x
-- ESM.TO (EURO SUN MINING INC): +3.3% at 0.155, volume pace 0.29x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +3.1% at 1.0, volume pace 0.09x
-- WELL.TO (WELL HEALTH TECHNOLOGIES CORP): +2.5% at 4.245, volume pace 0.94x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +3.1% at 1.0, volume pace 0.1x
+- HAI.TO (HAIVISION SYSTEMS INC): +2.8% at 3.62, volume pace 0.02x

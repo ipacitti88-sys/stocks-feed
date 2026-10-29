@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T10:01-06:00",
+ "generated": "2026-10-29T10:31-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,18 +535,18 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T16:05:00+00:00",
+ "live_as_of": "2026-10-29T16:35:00+00:00",
  "rising": [
   {
-   "ticker": "PGLD.V",
-   "name": "P2 GOLD INC",
-   "as_of": "2026-10-29T16:00:00+00:00",
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-10-29T16:30:00+00:00",
    "last": 1.25,
-   "pct_day": 5.04,
-   "pct_30m": 0.81,
-   "volume_pace": 1.61,
+   "pct_day": 5.93,
+   "pct_30m": 1.63,
+   "volume_pace": 1.59,
    "rising": true,
-   "rising_since": "2026-10-29T15:30:00+00:00"
+   "rising_since": "2026-10-29T16:20:00+00:00"
   },
   {
    "ticker": "VRR.V",
@@ -558,6 +558,17 @@
    "volume_pace": 1.62,
    "rising": true,
    "rising_since": "2026-10-29T15:05:00+00:00"
+  },
+  {
+   "ticker": "WILD.TO",
+   "name": "WILDBRAIN LTD",
+   "as_of": "2026-10-29T16:35:00+00:00",
+   "last": 1.37,
+   "pct_day": 3.79,
+   "pct_30m": 0.37,
+   "volume_pace": 7.79,
+   "rising": true,
+   "rising_since": "2026-10-29T16:35:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -579,7 +590,7 @@
    "last": 1.75,
    "pct_day": 16.67,
    "pct_30m": 12.9,
-   "volume_pace": 0.0,
+   "volume_pace": 0.04,
    "rising": false,
    "rising_since": null
   },
@@ -590,18 +601,18 @@
    "last": 0.105,
    "pct_day": 10.53,
    "pct_30m": 0.0,
-   "volume_pace": 12.7,
+   "volume_pace": 13.26,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TT.V",
-   "name": "TOTAL METALS CORP",
-   "as_of": "2026-10-29T15:45:00+00:00",
-   "last": 0.22,
-   "pct_day": 10.0,
-   "pct_30m": 7.32,
-   "volume_pace": 6.18,
+   "ticker": "SEVA.V",
+   "name": "SEVA MINING CORP",
+   "as_of": "2026-10-29T16:30:00+00:00",
+   "last": 0.31,
+   "pct_day": 8.77,
+   "pct_30m": 6.9,
+   "volume_pace": 2.16,
    "rising": false,
    "rising_since": null
   },
@@ -619,11 +630,11 @@
   {
    "ticker": "LTNG.V",
    "name": "LIGHTNING RESOURCE CORP",
-   "as_of": "2026-10-29T15:55:00+00:00",
+   "as_of": "2026-10-29T16:25:00+00:00",
    "last": 0.27,
    "pct_day": 8.0,
-   "pct_30m": -1.82,
-   "volume_pace": 1.99,
+   "pct_30m": 0.0,
+   "volume_pace": 1.75,
    "rising": false,
    "rising_since": null
   },
@@ -639,6 +650,28 @@
    "rising_since": null
   },
   {
+   "ticker": "BRAU.V",
+   "name": "BIG RIDGE GOLD CORP",
+   "as_of": "2026-10-29T16:30:00+00:00",
+   "last": 0.57,
+   "pct_day": 7.55,
+   "pct_30m": 3.64,
+   "volume_pace": 1.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TT.V",
+   "name": "TOTAL METALS CORP",
+   "as_of": "2026-10-29T16:30:00+00:00",
+   "last": 0.215,
+   "pct_day": 7.5,
+   "pct_30m": -2.27,
+   "volume_pace": 5.65,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "GPUS.V",
    "name": "ALSET AI VENTURES INC",
    "as_of": "2026-10-29T14:15:00+00:00",
@@ -650,35 +683,24 @@
    "rising_since": null
   },
   {
-   "ticker": "TRR.V",
-   "name": "TERRA ROSSA GOLD LTD",
-   "as_of": "2026-10-29T13:55:00+00:00",
-   "last": 0.3,
-   "pct_day": 7.14,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TAJ.V",
-   "name": "TAJIRI RESOURCES CORP",
-   "as_of": "2026-10-29T13:35:00+00:00",
-   "last": 0.15,
-   "pct_day": 7.14,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-29T16:00:00+00:00",
+   "as_of": "2026-10-29T16:30:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 0.15,
+   "volume_pace": 0.13,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ESM.TO",
+   "name": "EURO SUN MINING INC",
+   "as_of": "2026-10-29T16:15:00+00:00",
+   "last": 0.16,
+   "pct_day": 6.67,
+   "pct_30m": 3.23,
+   "volume_pace": 0.42,
    "rising": false,
    "rising_since": null
   },
@@ -705,26 +727,37 @@
    "rising_since": null
   },
   {
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-10-29T16:30:00+00:00",
+   "last": 1.25,
+   "pct_day": 5.93,
+   "pct_30m": 1.63,
+   "volume_pace": 1.59,
+   "rising": true,
+   "rising_since": "2026-10-29T16:20:00+00:00"
+  },
+  {
    "ticker": "QTRH.TO",
    "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T16:00:00+00:00",
-   "last": 2.87,
-   "pct_day": 5.51,
-   "pct_30m": -0.35,
-   "volume_pace": 1.75,
+   "as_of": "2026-10-29T16:25:00+00:00",
+   "last": 2.84,
+   "pct_day": 4.41,
+   "pct_30m": -0.87,
+   "volume_pace": 1.67,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-10-29T16:00:00+00:00",
-   "last": 1.23,
-   "pct_day": 4.24,
-   "pct_30m": 5.13,
-   "volume_pace": 1.41,
-   "rising": false,
-   "rising_since": null
+   "ticker": "WILD.TO",
+   "name": "WILDBRAIN LTD",
+   "as_of": "2026-10-29T16:35:00+00:00",
+   "last": 1.37,
+   "pct_day": 3.79,
+   "pct_30m": 0.37,
+   "volume_pace": 7.79,
+   "rising": true,
+   "rising_since": "2026-10-29T16:35:00+00:00"
   },
   {
    "ticker": "RUA.TO",
@@ -738,46 +771,24 @@
    "rising_since": null
   },
   {
-   "ticker": "WILD.TO",
-   "name": "WILDBRAIN LTD",
-   "as_of": "2026-10-29T16:05:00+00:00",
-   "last": 1.365,
-   "pct_day": 3.41,
-   "pct_30m": -0.36,
-   "volume_pace": 7.63,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ESM.TO",
-   "name": "EURO SUN MINING INC",
-   "as_of": "2026-10-29T16:00:00+00:00",
-   "last": 0.155,
-   "pct_day": 3.33,
-   "pct_30m": 0.0,
-   "volume_pace": 0.29,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-29T15:45:00+00:00",
+   "as_of": "2026-10-29T16:25:00+00:00",
    "last": 1.0,
    "pct_day": 3.09,
    "pct_30m": 0.0,
-   "volume_pace": 0.09,
+   "volume_pace": 0.1,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "WELL.TO",
-   "name": "WELL HEALTH TECHNOLOGIES CORP",
-   "as_of": "2026-10-29T16:05:00+00:00",
-   "last": 4.245,
-   "pct_day": 2.54,
-   "pct_30m": -0.24,
-   "volume_pace": 0.94,
+   "ticker": "HAI.TO",
+   "name": "HAIVISION SYSTEMS INC",
+   "as_of": "2026-10-29T16:15:00+00:00",
+   "last": 3.62,
+   "pct_day": 2.84,
+   "pct_30m": 1.97,
+   "volume_pace": 0.02,
    "rising": false,
    "rising_since": null
   }
@@ -1379,9 +1390,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T16:05:00+00:00",
-    "last": 829.18,
-    "pct_day": -1.17
+    "as_of": "2026-10-29T16:35:00+00:00",
+    "last": 829.41,
+    "pct_day": -1.14
    }
   },
   "^GSPTSE": {
@@ -1980,9 +1991,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T16:05:00+00:00",
-    "last": 36214.47,
-    "pct_day": -0.14
+    "as_of": "2026-10-29T16:35:00+00:00",
+    "last": 36206.64,
+    "pct_day": -0.16
    }
   }
  },
