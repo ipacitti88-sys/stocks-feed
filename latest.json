@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T11:01-06:00",
+ "generated": "2026-10-29T11:31-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,30 +535,8 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T17:05:00+00:00",
+ "live_as_of": "2026-10-29T17:35:00+00:00",
  "rising": [
-  {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-10-29T16:45:00+00:00",
-   "last": 1.26,
-   "pct_day": 6.78,
-   "pct_30m": 2.86,
-   "volume_pace": 1.6,
-   "rising": true,
-   "rising_since": "2026-10-29T16:45:00+00:00"
-  },
-  {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-10-29T16:55:00+00:00",
-   "last": 1.74,
-   "pct_day": 4.19,
-   "pct_30m": 4.19,
-   "volume_pace": 4.09,
-   "rising": true,
-   "rising_since": "2026-10-29T16:40:00+00:00"
-  },
   {
    "ticker": "AXO.V",
    "name": "AXO METALS CORP",
@@ -569,6 +547,17 @@
    "volume_pace": 1.66,
    "rising": true,
    "rising_since": "2026-10-29T16:35:00+00:00"
+  },
+  {
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-10-29T17:30:00+00:00",
+   "last": 3.69,
+   "pct_day": 3.07,
+   "pct_30m": 1.1,
+   "volume_pace": 1.51,
+   "rising": true,
+   "rising_since": "2026-10-29T17:25:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -579,7 +568,7 @@
    "last": 0.17,
    "pct_day": 21.43,
    "pct_30m": 13.33,
-   "volume_pace": 2.79,
+   "volume_pace": 2.8,
    "rising": false,
    "rising_since": null
   },
@@ -606,13 +595,46 @@
    "rising_since": null
   },
   {
+   "ticker": "V.V",
+   "name": "VERDERA ENERGY CORP",
+   "as_of": "2026-10-29T17:30:00+00:00",
+   "last": 0.295,
+   "pct_day": 9.26,
+   "pct_30m": 7.27,
+   "volume_pace": 0.15,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LEM.V",
+   "name": "LEADING EDGE MATERIALS CORP",
+   "as_of": "2026-10-29T17:05:00+00:00",
+   "last": 0.185,
+   "pct_day": 8.82,
+   "pct_30m": 2.78,
+   "volume_pace": 2.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CYBE.V",
+   "name": "CYBERCATCH HOLDINGS INC",
+   "as_of": "2026-10-29T17:10:00+00:00",
+   "last": 1.85,
+   "pct_day": 8.82,
+   "pct_30m": 2.78,
+   "volume_pace": 0.84,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "SEVA.V",
    "name": "SEVA MINING CORP",
-   "as_of": "2026-10-29T16:30:00+00:00",
+   "as_of": "2026-10-29T17:10:00+00:00",
    "last": 0.31,
    "pct_day": 8.77,
-   "pct_30m": 6.9,
-   "volume_pace": 2.66,
+   "pct_30m": 0.0,
+   "volume_pace": 2.33,
    "rising": false,
    "rising_since": null
   },
@@ -628,6 +650,17 @@
    "rising_since": null
   },
   {
+   "ticker": "JG.V",
+   "name": "JAPAN GOLD CORP",
+   "as_of": "2026-10-29T17:15:00+00:00",
+   "last": 0.13,
+   "pct_day": 8.33,
+   "pct_30m": 4.0,
+   "volume_pace": 0.61,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "MOGL.V",
    "name": "MOGUL MOUNTAIN VENTURES CORPORA",
    "as_of": "2026-10-29T13:50:00+00:00",
@@ -639,79 +672,24 @@
    "rising_since": null
   },
   {
-   "ticker": "GPUS.V",
-   "name": "ALSET AI VENTURES INC",
-   "as_of": "2026-10-29T14:15:00+00:00",
-   "last": 0.22,
-   "pct_day": 7.32,
-   "pct_30m": 0.0,
-   "volume_pace": 0.48,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ZNX.V",
-   "name": "ZINCX RESOURCES CORP",
-   "as_of": "2026-10-29T16:20:00+00:00",
-   "last": 0.3,
-   "pct_day": 7.14,
-   "pct_30m": 1.69,
-   "volume_pace": 0.94,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ZAU.V",
-   "name": "ZODIAC GOLD INC",
-   "as_of": "2026-10-29T16:35:00+00:00",
-   "last": 0.3,
-   "pct_day": 7.14,
-   "pct_30m": 3.45,
-   "volume_pace": 0.03,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TRR.V",
-   "name": "TERRA ROSSA GOLD LTD",
-   "as_of": "2026-10-29T13:55:00+00:00",
-   "last": 0.3,
-   "pct_day": 7.14,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-29T17:00:00+00:00",
+   "as_of": "2026-10-29T17:30:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 0.11,
+   "volume_pace": 0.2,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-10-29T16:45:00+00:00",
-   "last": 1.26,
-   "pct_day": 6.78,
-   "pct_30m": 2.86,
-   "volume_pace": 1.6,
-   "rising": true,
-   "rising_since": "2026-10-29T16:45:00+00:00"
-  },
-  {
-   "ticker": "ESM.TO",
-   "name": "EURO SUN MINING INC",
-   "as_of": "2026-10-29T16:15:00+00:00",
-   "last": 0.16,
-   "pct_day": 6.67,
-   "pct_30m": 3.23,
-   "volume_pace": 0.48,
+   "ticker": "EDT.TO",
+   "name": "SPECTRAL MEDICAL INC",
+   "as_of": "2026-10-29T17:30:00+00:00",
+   "last": 0.94,
+   "pct_day": 6.82,
+   "pct_30m": 4.44,
+   "volume_pace": 1.51,
    "rising": false,
    "rising_since": null
   },
@@ -727,35 +705,35 @@
    "rising_since": null
   },
   {
-   "ticker": "TELY.TO",
-   "name": "TELYRX HOLDINGS INC",
-   "as_of": "2026-10-29T15:20:00+00:00",
-   "last": 2.5,
-   "pct_day": 6.38,
-   "pct_30m": 5.04,
-   "volume_pace": 27.92,
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-10-29T17:30:00+00:00",
+   "last": 1.25,
+   "pct_day": 5.93,
+   "pct_30m": -0.79,
+   "volume_pace": 1.43,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "QTRH.TO",
    "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T17:00:00+00:00",
-   "last": 2.85,
-   "pct_day": 4.78,
-   "pct_30m": 0.35,
-   "volume_pace": 1.43,
+   "as_of": "2026-10-29T17:30:00+00:00",
+   "last": 2.84,
+   "pct_day": 4.41,
+   "pct_30m": -0.35,
+   "volume_pace": 1.27,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "WILD.TO",
-   "name": "WILDBRAIN LTD",
-   "as_of": "2026-10-29T16:50:00+00:00",
-   "last": 1.37,
-   "pct_day": 3.79,
-   "pct_30m": -0.72,
-   "volume_pace": 7.22,
+   "ticker": "TELY.TO",
+   "name": "TELYRX HOLDINGS INC",
+   "as_of": "2026-10-29T17:15:00+00:00",
+   "last": 2.45,
+   "pct_day": 4.26,
+   "pct_30m": -2.0,
+   "volume_pace": 13.65,
    "rising": false,
    "rising_since": null
   },
@@ -782,13 +760,24 @@
    "rising_since": null
   },
   {
-   "ticker": "IMP.TO",
-   "name": "INTERMAP TECHNOLOGIES CORPORATI",
-   "as_of": "2026-10-29T16:15:00+00:00",
-   "last": 0.79,
-   "pct_day": 2.6,
-   "pct_30m": 1.28,
-   "volume_pace": 0.11,
+   "ticker": "WILD.TO",
+   "name": "WILDBRAIN LTD",
+   "as_of": "2026-10-29T17:30:00+00:00",
+   "last": 1.365,
+   "pct_day": 3.41,
+   "pct_30m": -0.36,
+   "volume_pace": 6.24,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ESM.TO",
+   "name": "EURO SUN MINING INC",
+   "as_of": "2026-10-29T17:15:00+00:00",
+   "last": 0.155,
+   "pct_day": 3.33,
+   "pct_30m": -3.12,
+   "volume_pace": 0.35,
    "rising": false,
    "rising_since": null
   }
@@ -1390,9 +1379,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T17:05:00+00:00",
-    "last": 828.29,
-    "pct_day": -1.28
+    "as_of": "2026-10-29T17:35:00+00:00",
+    "last": 828.19,
+    "pct_day": -1.29
    }
   },
   "^GSPTSE": {
@@ -1991,9 +1980,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T17:05:00+00:00",
-    "last": 36198.98,
-    "pct_day": -0.18
+    "as_of": "2026-10-29T17:35:00+00:00",
+    "last": 36184.56,
+    "pct_day": -0.22
    }
   }
  },
