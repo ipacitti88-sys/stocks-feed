@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-29T13:31-06:00
+# Stock feed — 2026-10-29T14:01-06:00
 
-Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 839.00 on 2026-10-28 (day +0.1%, month -6.2%, year -11.7%, downtrend); live -1.5% at 19:35
-Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year +19.8%, uptrend); live -0.2% at 19:35
+Market: S&P/TSX Venture Composite 839.00 on 2026-10-28 (day +0.1%, month -6.2%, year -11.7%, downtrend); live -1.4% at 20:00
+Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year +19.8%, uptrend); live -0.1% at 20:00
 
 # TSX Venture
 
@@ -28,8 +28,7 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +12.0% today at 1.87, last 30m +1.1%, volume pace 2.77x, rising since 2026-10-29T19:15:00+00:00
-- REVX.V (REV EXPLORATION CORP): +5.9% today at 1.61, last 30m +1.3%, volume pace 1.98x, rising since 2026-10-29T19:30:00+00:00
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.8% today at 1.95, last 30m +4.3%, volume pace 2.76x, rising since 2026-10-29T19:15:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -46,16 +45,16 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- GMV.V (GMV MINERALS INC.): +39.3% at 0.195, volume pace 0.0x
+- V.V (VERDERA ENERGY CORP): +24.1% at 0.335, volume pace 0.33x
 - DMCU.V (DOMESTIC METALS CORP): +21.4% at 0.17, volume pace 2.8x
-- AUGC.V (AU GOLD CORP): +17.0% at 0.275, volume pace 0.1x
-- V.V (VERDERA ENERGY CORP): +14.8% at 0.31, volume pace 0.2x
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.8% at 1.95, volume pace 2.76x
 - LEM.V (LEADING EDGE MATERIALS CORP): +14.7% at 0.195, volume pace 1.64x
-- JG.V (JAPAN GOLD CORP): +12.5% at 0.135, volume pace 2.14x
-- TGOL.V (THUNDER GOLD CORP): +12.0% at 0.14, volume pace 0.07x
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +12.0% at 1.87, volume pace 2.77x
-- ZNX.V (ZINCX RESOURCES CORP): +10.7% at 0.31, volume pace 0.77x
-- VCV.V (VATIC VENTURES CORP): +10.5% at 0.105, volume pace 0.12x
-- PWER.V (GLOBAL POWER SOLUTIONS CORP): +10.0% at 0.165, volume pace 0.0x
+- TGOL.V (THUNDER GOLD CORP): +12.0% at 0.14, volume pace 0.12x
+- VCV.V (VATIC VENTURES CORP): +10.5% at 0.105, volume pace 0.41x
+- PWER.V (GLOBAL POWER SOLUTIONS CORP): +10.0% at 0.165, volume pace 0.04x
+- SAGA.V (SAGA METALS CORP): +9.8% at 0.335, volume pace 2.71x
+- ZNX.V (ZINCX RESOURCES CORP): +8.9% at 0.305, volume pace 0.9x
 
 # TSX
 
@@ -88,13 +87,13 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 0.15x
+- LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 0.13x
+- GRA.TO (NANOXPLORE INC): +6.8% at 1.26, volume pace 1.29x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +6.5% at 0.33, volume pace 0.19x
-- GRA.TO (NANOXPLORE INC): +5.9% at 1.25, volume pace 1.21x
-- EDT.TO (SPECTRAL MEDICAL INC): +5.7% at 0.93, volume pace 2.29x
+- EDT.TO (SPECTRAL MEDICAL INC): +5.7% at 0.93, volume pace 2.36x
 - TELY.TO (TELYRX HOLDINGS INC): +4.3% at 2.45, volume pace 10.36x
-- ESM.TO (EURO SUN MINING INC): +3.3% at 0.155, volume pace 0.31x
-- PRL.TO (PROPEL HOLDINGS INC): +2.7% at 26.33, volume pace 1.63x
-- IMP.TO (INTERMAP TECHNOLOGIES CORPORATI): +2.6% at 0.79, volume pace 0.11x
-- XLY.TO (AUXLY CANNABIS GROUP INC): +2.5% at 3.67, volume pace 1.15x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.99, volume pace 0.18x
+- ESM.TO (EURO SUN MINING INC): +3.3% at 0.155, volume pace 0.34x
+- FT.TO (FORTUNE MNRL J): +2.7% at 0.095, volume pace 0.82x
+- QTRH.TO (QUARTERHILL INC): +2.6% at 2.79, volume pace 1.77x
+- HAI.TO (HAIVISION SYSTEMS INC): +2.3% at 3.6, volume pace 0.06x
+- XLY.TO (AUXLY CANNABIS GROUP INC): +2.2% at 3.66, volume pace 1.17x
