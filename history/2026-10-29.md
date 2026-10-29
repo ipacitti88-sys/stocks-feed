@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-29T14:06-06:00
+# Stock feed — 2026-10-29T15:26-06:00
 
-Tracking 673 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-28. Intraday data as of: 2026-10-29T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-29T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 839.00 on 2026-10-28 (day +0.1%, month -6.2%, year -11.7%, downtrend); live -1.4% at 20:00
-Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year +19.8%, uptrend); live -0.1% at 20:00
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend)
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend)
 
 # TSX Venture
 
@@ -13,18 +13,15 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX Venture: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- GG.V (GOLCONDA GOLD LTD): 2/3, close 3.19, rel vol 6.04x, 20d +8.1%, -22.2% vs 52w high
-- ALGR.V (ALGO GRANDE COPPER CORP): 2/3, close 0.69, rel vol 5.61x, 20d +6.2%, -27.4% vs 52w high
-- BRO.V (BARKSDALE RESOURCES CORP): 2/3, close 0.245, rel vol 3.79x, 20d -15.5%, -53.8% vs 52w high
-- NURS.V (HYDREIGHT TECHNOLOGIES INC): 2/3, close 3.51, rel vol 2.42x, 20d +10.7%, -34.5% vs 52w high
-- PCU.V (PECOY COPPER CORP): 2/3, close 1.86, rel vol 2.33x, 20d +3.3%, -17.0% vs 52w high
-- LTC.V (LOTUS CREEK EXPLORATION INC): 2/3, close 4.67, rel vol 1.63x, 20d +21.3%, +0.0% vs 52w high
-- YTY.V (WI2WI CORPORATION): 2/3, close 0.125, rel vol 1.13x, 20d +38.9%, +0.0% vs 52w high
-- ECU.V (ELEMENT 29 RESOURCES INC): 2/3, close 2.02, rel vol 0.69x, 20d +13.2%, +0.0% vs 52w high
-- JUNO.V (Juno Industries Ltd.): 2/3, close 0.97, rel vol 0.61x, 20d -, +0.0% vs 52w high
-- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.55, rel vol 0.54x, 20d +37.2%, +0.0% vs 52w high
-- SRR.V (SOURCE ROCK ROYALTIES LTD): 2/3, close 1.15, rel vol 0.08x, 20d +4.5%, +0.0% vs 52w high
-- SDI.V (STAMPEDE DRILLING INC): 2/3, close 0.24, rel vol 0.05x, 20d +4.3%, +0.0% vs 52w high
+- NURS.V (HYDREIGHT TECHNOLOGIES INC): 2/3, close 3.55, rel vol 2.81x, 20d +6.6%, -33.8% vs 52w high
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): 2/3, close 1.95, rel vol 2.77x, 20d +2.1%, -24.1% vs 52w high
+- CEI.V (COELACANTH ENERGY INC): 2/3, close 0.72, rel vol 2.26x, 20d +7.5%, -25.0% vs 52w high
+- YTY.V (WI2WI CORPORATION): 2/3, close 0.125, rel vol 0.8x, 20d +38.9%, +0.0% vs 52w high
+- LTC.V (LOTUS CREEK EXPLORATION INC): 2/3, close 4.78, rel vol 0.49x, 20d +21.3%, +0.0% vs 52w high
+- NACM.V (North Atlantic Critical Metals Corp.): 2/3, close 0.45, rel vol 0.46x, 20d -, +0.0% vs 52w high
+- TAG.V (Trusilver Metals Corp.): 2/3, close 0.33, rel vol 0.33x, 20d -, +0.0% vs 52w high
+- SRR.V (SOURCE ROCK ROYALTIES LTD): 2/3, close 1.18, rel vol 0.24x, 20d +9.3%, +0.0% vs 52w high
+- SDI.V (STAMPEDE DRILLING INC): 2/3, close 0.24, rel vol 0.02x, 20d +9.1%, +0.0% vs 52w high
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -32,16 +29,16 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX Venture: top by relative volume at last close
 
-- GG.V (GOLCONDA GOLD LTD): rel vol 6.04x, close 3.19, 20d +8.1%
-- ALGR.V (ALGO GRANDE COPPER CORP): rel vol 5.61x, close 0.69, 20d +6.2%
-- FRLX.V (Feral X Systems Inc.): rel vol 5.49x, close 0.62, 20d -
-- BRO.V (BARKSDALE RESOURCES CORP): rel vol 3.79x, close 0.245, 20d -15.5%
-- PCRX.V (PHARMACORP RX INC): rel vol 3.41x, close 0.42, 20d +0.0%
-- AAG.V (AFTERMATH SILVER LTD): rel vol 3.35x, close 0.48, 20d -25.0%
-- EM.V (ERRINGTON METALS CORP): rel vol 3.14x, close 4.7, 20d +1.1%
-- NCAU.V (NEWCORE GOLD LTD): rel vol 2.86x, close 0.31, 20d -13.9%
-- PML.V (PANORO MINERALS LTD): rel vol 2.69x, close 1.38, 20d -17.4%
-- EMPR.V (EMPRESS ROYALTY CORP): rel vol 2.67x, close 0.91, 20d -6.2%
+- TECT.V (TECTONIC METALS INC): rel vol 3.0x, close 1.41, 20d -30.5%
+- NURS.V (HYDREIGHT TECHNOLOGIES INC): rel vol 2.81x, close 3.55, 20d +6.6%
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): rel vol 2.77x, close 1.95, 20d +2.1%
+- WPG.V (WEST POINT GOLD CORP): rel vol 2.7x, close 0.94, 20d -21.7%
+- AXO.V (AXO METALS CORP): rel vol 2.32x, close 1.0, 20d -7.8%
+- CEI.V (COELACANTH ENERGY INC): rel vol 2.26x, close 0.72, 20d +7.5%
+- REVX.V (REV EXPLORATION CORP): rel vol 2.1x, close 1.55, 20d -20.5%
+- PALI.V (PALISADES GOLDCORP LTD): rel vol 1.94x, close 4.27, 20d -18.4%
+- ELBM.V (ELECTRA BATTERY MATERIALS CORP): rel vol 1.91x, close 0.6, 20d -15.5%
+- GHRT.V (GREENHEART GOLD INC): rel vol 1.9x, close 0.58, 20d -15.9%
 
 ## TSX Venture: top gainers in latest intraday pass
 
@@ -64,9 +61,8 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- E.TO (EVOLUTION POWERX CORP): 2/3, close 1.82, rel vol 2.32x, 20d +13.0%, -3.2% vs 52w high
-- DBO.TO (DBOX TECHNOLOGIES INC): 2/3, close 1.13, rel vol 2.28x, 20d +0.0%, -13.1% vs 52w high
-- CVVY.TO (CAVVY ENERGY LTD): 2/3, close 2.66, rel vol 1.38x, 20d +21.5%, +0.0% vs 52w high
+- DIV.TO (DIVERSIFIED ROYALTY CORP): 2/3, close 4.1, rel vol 2.2x, 20d +0.2%, -16.8% vs 52w high
+- HLS.TO (HLS THERAPEUTICS INC): 2/3, close 4.56, rel vol 2.02x, 20d +8.6%, -18.3% vs 52w high
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -74,16 +70,16 @@ Market: S&P/TSX Composite 36,265.09 on 2026-10-28 (day +0.3%, month +2.2%, year 
 
 ## TSX: top by relative volume at last close
 
-- FAR.TO (FORACO INTERNATIONAL SA): rel vol 6.57x, close 2.5, 20d -4.6%
-- E.TO (EVOLUTION POWERX CORP): rel vol 2.32x, close 1.82, 20d +13.0%
-- DBO.TO (DBOX TECHNOLOGIES INC): rel vol 2.28x, close 1.13, 20d +0.0%
-- USA.TO (AMERICAS GOLD AND SILVER CORPOR): rel vol 2.16x, close 4.47, 20d -30.0%
-- FFM.TO (FIREFLY METALS LTD): rel vol 2.04x, close 1.43, 20d -13.3%
-- AIDX.TO (HEALWELL AI INC): rel vol 1.9x, close 0.69, 20d -10.4%
-- WGX.TO (WESTGOLD RESOURCES LIMITED): rel vol 1.81x, close 5.25, 20d -2.2%
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): rel vol 1.65x, close 4.5, 20d -33.5%
-- BTB-UN.TO (BTB REIT UNITS): rel vol 1.56x, close 3.67, 20d +1.1%
-- VITL-UN.TO (VITAL INFRASTRUCTURE PROPERTY T): rel vol 1.48x, close 4.77, 20d -8.6%
+- CIA.TO (CHAMPION IRON LIMITED): rel vol 7.19x, close 1.87, 20d -37.9%
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): rel vol 6.8x, close 4.32, 20d -39.2%
+- WILD.TO (WILDBRAIN LTD): rel vol 6.13x, close 1.33, 20d +3.9%
+- LOVE.TO (CANNARA BIOTECH INC): rel vol 2.6x, close 1.94, 20d -9.8%
+- SNDY.TO (Sunday Lake Gold Corp.): rel vol 2.48x, close 1.44, 20d -28.0%
+- DIV.TO (DIVERSIFIED ROYALTY CORP): rel vol 2.2x, close 4.1, 20d +0.2%
+- HLS.TO (HLS THERAPEUTICS INC): rel vol 2.02x, close 4.56, 20d +8.6%
+- ETG.TO (ENTREE RESOURCES LTD): rel vol 1.95x, close 2.66, 20d -2.9%
+- DBO.TO (DBOX TECHNOLOGIES INC): rel vol 1.93x, close 1.13, 20d +2.7%
+- SLVR.TO (SILVER TIGER METALS INC): rel vol 1.93x, close 0.72, 20d -17.2%
 
 ## TSX: top gainers in latest intraday pass
 
