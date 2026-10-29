@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T09:31-06:00",
+ "generated": "2026-10-29T10:01-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,49 +535,16 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T15:35:00+00:00",
+ "live_as_of": "2026-10-29T16:05:00+00:00",
  "rising": [
-  {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T15:30:00+00:00",
-   "last": 2.88,
-   "pct_day": 5.88,
-   "pct_30m": 1.05,
-   "volume_pace": 1.9,
-   "rising": true,
-   "rising_since": "2026-10-29T15:25:00+00:00"
-  },
-  {
-   "ticker": "ZNX.V",
-   "name": "ZINCX RESOURCES CORP",
-   "as_of": "2026-10-29T14:50:00+00:00",
-   "last": 0.295,
-   "pct_day": 5.36,
-   "pct_30m": 5.36,
-   "volume_pace": 1.64,
-   "rising": true,
-   "rising_since": "2026-10-29T14:50:00+00:00"
-  },
-  {
-   "ticker": "FAN.V",
-   "name": "FIRST ATLANTIC NICKEL AND COBAL",
-   "as_of": "2026-10-29T15:30:00+00:00",
-   "last": 0.62,
-   "pct_day": 5.08,
-   "pct_30m": 1.64,
-   "volume_pace": 1.86,
-   "rising": true,
-   "rising_since": "2026-10-29T15:25:00+00:00"
-  },
   {
    "ticker": "PGLD.V",
    "name": "P2 GOLD INC",
-   "as_of": "2026-10-29T15:30:00+00:00",
-   "last": 1.24,
-   "pct_day": 4.2,
+   "as_of": "2026-10-29T16:00:00+00:00",
+   "last": 1.25,
+   "pct_day": 5.04,
    "pct_30m": 0.81,
-   "volume_pace": 1.69,
+   "volume_pace": 1.61,
    "rising": true,
    "rising_since": "2026-10-29T15:30:00+00:00"
   },
@@ -597,33 +564,44 @@
   {
    "ticker": "DMCU.V",
    "name": "DOMESTIC METALS CORP",
-   "as_of": "2026-10-29T15:30:00+00:00",
-   "last": 0.16,
-   "pct_day": 14.29,
-   "pct_30m": 6.67,
-   "volume_pace": 0.86,
+   "as_of": "2026-10-29T15:35:00+00:00",
+   "last": 0.17,
+   "pct_day": 21.43,
+   "pct_30m": 13.33,
+   "volume_pace": 2.79,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ZIGY.V",
+   "name": "STARDUST METAL CORP",
+   "as_of": "2026-10-29T16:05:00+00:00",
+   "last": 1.75,
+   "pct_day": 16.67,
+   "pct_30m": 12.9,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ADE.V",
    "name": "ADEX MINING INC.",
-   "as_of": "2026-10-29T14:40:00+00:00",
+   "as_of": "2026-10-29T15:45:00+00:00",
    "last": 0.105,
    "pct_day": 10.53,
    "pct_30m": 0.0,
-   "volume_pace": 24.5,
+   "volume_pace": 12.7,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "LTNG.V",
-   "name": "LIGHTNING RESOURCE CORP",
-   "as_of": "2026-10-29T15:25:00+00:00",
-   "last": 0.275,
+   "ticker": "TT.V",
+   "name": "TOTAL METALS CORP",
+   "as_of": "2026-10-29T15:45:00+00:00",
+   "last": 0.22,
    "pct_day": 10.0,
-   "pct_30m": -1.79,
-   "volume_pace": 2.49,
+   "pct_30m": 7.32,
+   "volume_pace": 6.18,
    "rising": false,
    "rising_since": null
   },
@@ -635,6 +613,17 @@
    "pct_day": 8.7,
    "pct_30m": 0.0,
    "volume_pace": 2.24,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LTNG.V",
+   "name": "LIGHTNING RESOURCE CORP",
+   "as_of": "2026-10-29T15:55:00+00:00",
+   "last": 0.27,
+   "pct_day": 8.0,
+   "pct_30m": -1.82,
+   "volume_pace": 1.99,
    "rising": false,
    "rising_since": null
   },
@@ -683,35 +672,13 @@
    "rising_since": null
   },
   {
-   "ticker": "TMG.V",
-   "name": "Thermal Energy International In",
-   "as_of": "2026-10-29T14:20:00+00:00",
-   "last": 0.155,
-   "pct_day": 6.9,
-   "pct_30m": 3.33,
-   "volume_pace": 8.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AUGC.V",
-   "name": "AU GOLD CORP",
-   "as_of": "2026-10-29T14:55:00+00:00",
-   "last": 0.25,
-   "pct_day": 6.38,
-   "pct_30m": 0.0,
-   "volume_pace": 0.12,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-29T15:25:00+00:00",
+   "as_of": "2026-10-29T16:00:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 0.19,
+   "volume_pace": 0.15,
    "rising": false,
    "rising_since": null
   },
@@ -733,40 +700,29 @@
    "last": 2.5,
    "pct_day": 6.38,
    "pct_30m": 5.04,
-   "volume_pace": 27.8,
+   "volume_pace": 27.92,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "QTRH.TO",
    "name": "QUARTERHILL INC",
-   "as_of": "2026-10-29T15:30:00+00:00",
-   "last": 2.88,
-   "pct_day": 5.88,
-   "pct_30m": 1.05,
-   "volume_pace": 1.9,
-   "rising": true,
-   "rising_since": "2026-10-29T15:25:00+00:00"
-  },
-  {
-   "ticker": "S.TO",
-   "name": "SHERRITT INTL RV",
-   "as_of": "2026-10-29T13:35:00+00:00",
-   "last": 0.22,
-   "pct_day": 4.76,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "as_of": "2026-10-29T16:00:00+00:00",
+   "last": 2.87,
+   "pct_day": 5.51,
+   "pct_30m": -0.35,
+   "volume_pace": 1.75,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "WILD.TO",
-   "name": "WILDBRAIN LTD",
-   "as_of": "2026-10-29T14:45:00+00:00",
-   "last": 1.37,
-   "pct_day": 3.79,
-   "pct_30m": 0.0,
-   "volume_pace": 15.77,
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-10-29T16:00:00+00:00",
+   "last": 1.23,
+   "pct_day": 4.24,
+   "pct_30m": 5.13,
+   "volume_pace": 1.41,
    "rising": false,
    "rising_since": null
   },
@@ -782,35 +738,46 @@
    "rising_since": null
   },
   {
+   "ticker": "WILD.TO",
+   "name": "WILDBRAIN LTD",
+   "as_of": "2026-10-29T16:05:00+00:00",
+   "last": 1.365,
+   "pct_day": 3.41,
+   "pct_30m": -0.36,
+   "volume_pace": 7.63,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ESM.TO",
    "name": "EURO SUN MINING INC",
-   "as_of": "2026-10-29T15:10:00+00:00",
+   "as_of": "2026-10-29T16:00:00+00:00",
    "last": 0.155,
    "pct_day": 3.33,
    "pct_30m": 0.0,
-   "volume_pace": 0.43,
+   "volume_pace": 0.29,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-29T15:20:00+00:00",
+   "as_of": "2026-10-29T15:45:00+00:00",
    "last": 1.0,
    "pct_day": 3.09,
-   "pct_30m": 0.5,
+   "pct_30m": 0.0,
    "volume_pace": 0.09,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "XLY.TO",
-   "name": "AUXLY CANNABIS GROUP INC",
-   "as_of": "2026-10-29T15:30:00+00:00",
-   "last": 3.68,
-   "pct_day": 2.79,
-   "pct_30m": 0.27,
-   "volume_pace": 2.26,
+   "ticker": "WELL.TO",
+   "name": "WELL HEALTH TECHNOLOGIES CORP",
+   "as_of": "2026-10-29T16:05:00+00:00",
+   "last": 4.245,
+   "pct_day": 2.54,
+   "pct_30m": -0.24,
+   "volume_pace": 0.94,
    "rising": false,
    "rising_since": null
   }
@@ -1412,9 +1379,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T15:35:00+00:00",
-    "last": 828.71,
-    "pct_day": -1.23
+    "as_of": "2026-10-29T16:05:00+00:00",
+    "last": 829.18,
+    "pct_day": -1.17
    }
   },
   "^GSPTSE": {
@@ -2013,9 +1980,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T15:35:00+00:00",
-    "last": 36312.04,
-    "pct_day": 0.13
+    "as_of": "2026-10-29T16:05:00+00:00",
+    "last": 36214.47,
+    "pct_day": -0.14
    }
   }
  },
