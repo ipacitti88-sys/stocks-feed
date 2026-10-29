@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T08:01-06:00",
+ "generated": "2026-10-29T08:31-06:00",
  "last_close_day": "2026-10-28",
  "tracked": 673,
  "tracked_by_market": {
@@ -535,106 +535,73 @@
    "added": "2026-10-26"
   }
  ],
- "live_as_of": "2026-10-29T14:05:00+00:00",
+ "live_as_of": "2026-10-29T14:35:00+00:00",
  "rising": [
-  {
-   "ticker": "SHL.V",
-   "name": "HOMELAND NICKEL INC",
-   "as_of": "2026-10-29T13:45:00+00:00",
-   "last": 0.435,
-   "pct_day": 12.99,
-   "pct_30m": 14.47,
-   "volume_pace": 1.77,
-   "rising": true,
-   "rising_since": "2026-10-29T13:45:00+00:00"
-  },
   {
    "ticker": "WPG.V",
    "name": "WEST POINT GOLD CORP",
-   "as_of": "2026-10-29T14:05:00+00:00",
+   "as_of": "2026-10-29T14:30:00+00:00",
    "last": 1.04,
    "pct_day": 6.12,
-   "pct_30m": 7.22,
-   "volume_pace": 21.98,
+   "pct_30m": 0.97,
+   "volume_pace": 17.11,
    "rising": true,
    "rising_since": "2026-10-29T13:50:00+00:00"
   },
   {
-   "ticker": "NURS.V",
-   "name": "HYDREIGHT TECHNOLOGIES INC",
-   "as_of": "2026-10-29T14:00:00+00:00",
-   "last": 3.69,
-   "pct_day": 5.13,
-   "pct_30m": 5.13,
-   "volume_pace": 9.82,
+   "ticker": "LIFT.V",
+   "name": "LI FT POWER LTD",
+   "as_of": "2026-10-29T14:25:00+00:00",
+   "last": 1.64,
+   "pct_day": 5.81,
+   "pct_30m": 2.5,
+   "volume_pace": 1.62,
    "rising": true,
-   "rising_since": "2026-10-29T13:45:00+00:00"
-  },
-  {
-   "ticker": "BRAU.V",
-   "name": "BIG RIDGE GOLD CORP",
-   "as_of": "2026-10-29T13:40:00+00:00",
-   "last": 0.55,
-   "pct_day": 3.77,
-   "pct_30m": 1.85,
-   "volume_pace": 2.11,
-   "rising": true,
-   "rising_since": "2026-10-29T13:40:00+00:00"
+   "rising_since": "2026-10-29T13:55:00+00:00"
   },
   {
    "ticker": "WILD.TO",
    "name": "WILDBRAIN LTD",
-   "as_of": "2026-10-29T14:05:00+00:00",
-   "last": 1.365,
-   "pct_day": 3.41,
-   "pct_30m": 2.63,
-   "volume_pace": 29.09,
+   "as_of": "2026-10-29T14:30:00+00:00",
+   "last": 1.39,
+   "pct_day": 5.3,
+   "pct_30m": 1.46,
+   "volume_pace": 18.76,
    "rising": true,
-   "rising_since": "2026-10-29T13:45:00+00:00"
+   "rising_since": "2026-10-29T14:30:00+00:00"
   },
   {
-   "ticker": "LIFT.V",
-   "name": "LI FT POWER LTD",
-   "as_of": "2026-10-29T14:00:00+00:00",
-   "last": 1.6,
-   "pct_day": 3.23,
-   "pct_30m": 1.91,
-   "volume_pace": 2.75,
+   "ticker": "QTRH.TO",
+   "name": "QUARTERHILL INC",
+   "as_of": "2026-10-29T14:30:00+00:00",
+   "last": 2.85,
+   "pct_day": 4.78,
+   "pct_30m": 2.89,
+   "volume_pace": 2.44,
    "rising": true,
-   "rising_since": "2026-10-29T13:55:00+00:00"
+   "rising_since": "2026-10-29T14:15:00+00:00"
+  },
+  {
+   "ticker": "FAN.V",
+   "name": "FIRST ATLANTIC NICKEL AND COBAL",
+   "as_of": "2026-10-29T14:30:00+00:00",
+   "last": 0.61,
+   "pct_day": 3.39,
+   "pct_30m": 1.67,
+   "volume_pace": 1.74,
+   "rising": true,
+   "rising_since": "2026-10-29T14:30:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
-   "ticker": "SHL.V",
-   "name": "HOMELAND NICKEL INC",
-   "as_of": "2026-10-29T13:45:00+00:00",
-   "last": 0.435,
-   "pct_day": 12.99,
-   "pct_30m": 14.47,
-   "volume_pace": 1.77,
-   "rising": true,
-   "rising_since": "2026-10-29T13:45:00+00:00"
-  },
-  {
-   "ticker": "V.V",
-   "name": "VERDERA ENERGY CORP",
-   "as_of": "2026-10-29T13:35:00+00:00",
-   "last": 0.3,
-   "pct_day": 11.11,
-   "pct_30m": 1.69,
-   "volume_pace": 0.08,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "ADE.V",
    "name": "ADEX MINING INC.",
-   "as_of": "2026-10-29T13:45:00+00:00",
+   "as_of": "2026-10-29T14:25:00+00:00",
    "last": 0.105,
    "pct_day": 10.53,
    "pct_30m": 0.0,
-   "volume_pace": 38.72,
+   "volume_pace": 30.28,
    "rising": false,
    "rising_since": null
   },
@@ -645,7 +612,7 @@
    "last": 0.125,
    "pct_day": 8.7,
    "pct_30m": -3.85,
-   "volume_pace": 0.69,
+   "volume_pace": 0.71,
    "rising": false,
    "rising_since": null
   },
@@ -656,7 +623,7 @@
    "last": 0.27,
    "pct_day": 8.0,
    "pct_30m": 8.0,
-   "volume_pace": 0.45,
+   "volume_pace": 0.78,
    "rising": false,
    "rising_since": null
   },
@@ -678,7 +645,29 @@
    "last": 0.21,
    "pct_day": 7.69,
    "pct_30m": 2.44,
-   "volume_pace": 10.34,
+   "volume_pace": 11.11,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "V.V",
+   "name": "VERDERA ENERGY CORP",
+   "as_of": "2026-10-29T14:30:00+00:00",
+   "last": 0.29,
+   "pct_day": 7.41,
+   "pct_30m": -3.33,
+   "volume_pace": 0.04,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GPUS.V",
+   "name": "ALSET AI VENTURES INC",
+   "as_of": "2026-10-29T14:15:00+00:00",
+   "last": 0.22,
+   "pct_day": 7.32,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -694,10 +683,10 @@
    "rising_since": null
   },
   {
-   "ticker": "TAJ.V",
-   "name": "TAJIRI RESOURCES CORP",
-   "as_of": "2026-10-29T13:35:00+00:00",
-   "last": 0.15,
+   "ticker": "TRR.V",
+   "name": "TERRA ROSSA GOLD LTD",
+   "as_of": "2026-10-29T13:55:00+00:00",
+   "last": 0.3,
    "pct_day": 7.14,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
@@ -705,13 +694,13 @@
    "rising_since": null
   },
   {
-   "ticker": "PINK.V",
-   "name": "PERIMETER MEDICAL IMAGING AI IN",
-   "as_of": "2026-10-29T14:00:00+00:00",
-   "last": 0.165,
-   "pct_day": 6.45,
-   "pct_30m": 10.0,
-   "volume_pace": 1.49,
+   "ticker": "TAJ.V",
+   "name": "TAJIRI RESOURCES CORP",
+   "as_of": "2026-10-29T13:35:00+00:00",
+   "last": 0.15,
+   "pct_day": 7.14,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -729,13 +718,35 @@
   {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-29T14:00:00+00:00",
+   "as_of": "2026-10-29T14:10:00+00:00",
    "last": 0.33,
    "pct_day": 6.45,
    "pct_30m": -4.35,
-   "volume_pace": 0.0,
+   "volume_pace": 0.4,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "WILD.TO",
+   "name": "WILDBRAIN LTD",
+   "as_of": "2026-10-29T14:30:00+00:00",
+   "last": 1.39,
+   "pct_day": 5.3,
+   "pct_30m": 1.46,
+   "volume_pace": 18.76,
+   "rising": true,
+   "rising_since": "2026-10-29T14:30:00+00:00"
+  },
+  {
+   "ticker": "QTRH.TO",
+   "name": "QUARTERHILL INC",
+   "as_of": "2026-10-29T14:30:00+00:00",
+   "last": 2.85,
+   "pct_day": 4.78,
+   "pct_30m": 2.89,
+   "volume_pace": 2.44,
+   "rising": true,
+   "rising_since": "2026-10-29T14:15:00+00:00"
   },
   {
    "ticker": "S.TO",
@@ -749,17 +760,6 @@
    "rising_since": null
   },
   {
-   "ticker": "WILD.TO",
-   "name": "WILDBRAIN LTD",
-   "as_of": "2026-10-29T14:05:00+00:00",
-   "last": 1.365,
-   "pct_day": 3.41,
-   "pct_30m": 2.63,
-   "volume_pace": 29.09,
-   "rising": true,
-   "rising_since": "2026-10-29T13:45:00+00:00"
-  },
-  {
    "ticker": "ESM.TO",
    "name": "EURO SUN MINING INC",
    "as_of": "2026-10-29T13:35:00+00:00",
@@ -771,13 +771,35 @@
    "rising_since": null
   },
   {
-   "ticker": "FT.TO",
-   "name": "FORTUNE MNRL J",
-   "as_of": "2026-10-29T13:35:00+00:00",
-   "last": 0.095,
-   "pct_day": 2.7,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "ticker": "SBI.TO",
+   "name": "SERABI GOLD PLC",
+   "as_of": "2026-10-29T14:25:00+00:00",
+   "last": 3.6,
+   "pct_day": 2.86,
+   "pct_30m": 0.98,
+   "volume_pace": 1.68,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-10-29T14:30:00+00:00",
+   "last": 3.68,
+   "pct_day": 2.79,
+   "pct_30m": 1.38,
+   "volume_pace": 2.65,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "COPR.TO",
+   "name": "COPPERNICO METALS INC",
+   "as_of": "2026-10-29T14:25:00+00:00",
+   "last": 0.395,
+   "pct_day": 2.6,
+   "pct_30m": 2.6,
+   "volume_pace": 0.84,
    "rising": false,
    "rising_since": null
   },
@@ -789,39 +811,6 @@
    "pct_day": 2.59,
    "pct_30m": 1.71,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TXP.TO",
-   "name": "TOUCHSTONE EXPLORATION INC",
-   "as_of": "2026-10-29T13:45:00+00:00",
-   "last": 0.22,
-   "pct_day": 2.33,
-   "pct_30m": 2.33,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SBI.TO",
-   "name": "SERABI GOLD PLC",
-   "as_of": "2026-10-29T14:00:00+00:00",
-   "last": 3.58,
-   "pct_day": 2.29,
-   "pct_30m": -2.45,
-   "volume_pace": 2.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BOIL.TO",
-   "name": "BEYOND OIL LTD",
-   "as_of": "2026-10-29T13:45:00+00:00",
-   "last": 2.3,
-   "pct_day": 2.22,
-   "pct_30m": 0.0,
-   "volume_pace": 2.76,
    "rising": false,
    "rising_since": null
   }
@@ -1423,9 +1412,9 @@
    "ma200": 968.74,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-29T14:05:00+00:00",
-    "last": 826.05,
-    "pct_day": -1.54
+    "as_of": "2026-10-29T14:35:00+00:00",
+    "last": 828.37,
+    "pct_day": -1.27
    }
   },
   "^GSPTSE": {
@@ -2024,9 +2013,9 @@
    "ma200": 34550.39,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-29T14:05:00+00:00",
-    "last": 36211.5,
-    "pct_day": -0.15
+    "as_of": "2026-10-29T14:35:00+00:00",
+    "last": 36280.41,
+    "pct_day": 0.04
    }
   }
  },
