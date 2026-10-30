@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-29T15:26-06:00
+# Stock feed — 2026-10-30T08:01-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-29T20:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T14:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend)
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend)
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.6% at 14:05
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.3% at 14:05
 
 # TSX Venture
 
@@ -25,7 +25,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.8% today at 1.95, last 30m +4.3%, volume pace 2.76x, rising since 2026-10-29T19:15:00+00:00
+- none
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- GMV.V (GMV MINERALS INC.): +39.3% at 0.195, volume pace 0.0x
-- V.V (VERDERA ENERGY CORP): +24.1% at 0.335, volume pace 0.33x
-- DMCU.V (DOMESTIC METALS CORP): +21.4% at 0.17, volume pace 2.8x
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.8% at 1.95, volume pace 2.76x
-- LEM.V (LEADING EDGE MATERIALS CORP): +14.7% at 0.195, volume pace 1.64x
-- TGOL.V (THUNDER GOLD CORP): +12.0% at 0.14, volume pace 0.12x
-- VCV.V (VATIC VENTURES CORP): +10.5% at 0.105, volume pace 0.41x
-- PWER.V (GLOBAL POWER SOLUTIONS CORP): +10.0% at 0.165, volume pace 0.04x
-- SAGA.V (SAGA METALS CORP): +9.8% at 0.335, volume pace 2.71x
-- ZNX.V (ZINCX RESOURCES CORP): +8.9% at 0.305, volume pace 0.9x
+- HART.V (GOLD HART COPPER CORP): +11.8% at 0.19, volume pace 0.0x
+- CUU.V (COPPER FOX METALS INC): +10.2% at 0.65, volume pace 0.0x
+- BRW.V (BRUNSWICK EXPLORATION INC): +7.9% at 0.205, volume pace 0.76x
+- XXIX.V (XXIX METAL CORP): +7.7% at 0.14, volume pace 0.0x
+- ROS.V (ROSCAN GOLD CORPORATION): +7.7% at 0.14, volume pace 0.0x
+- ROB.V (ROBINSON ENERGY LIMITED): +5.7% at 3.33, volume pace 0.0x
+- HAN.V (HANNAN METALS LTD): +5.7% at 0.56, volume pace 3.43x
+- UGD.V (UNIGOLD INC.): +5.6% at 0.19, volume pace 0.0x
+- ABM.V (ABEN GOLD CORP): +5.3% at 0.1, volume pace 0.0x
+- MINE.V (INOMIN MINES INC): +5.0% at 0.105, volume pace 0.0x
 
 # TSX
 
@@ -83,13 +83,13 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 0.13x
-- GRA.TO (NANOXPLORE INC): +6.8% at 1.26, volume pace 1.29x
-- TELY.TO (TELYRX HOLDINGS INC): +6.4% at 2.5, volume pace 8.62x
-- EDT.TO (SPECTRAL MEDICAL INC): +5.7% at 0.93, volume pace 2.36x
-- ESM.TO (EURO SUN MINING INC): +3.3% at 0.155, volume pace 0.34x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +3.2% at 0.32, volume pace 0.25x
-- ECO.TO (ECOSYNTHETIX INC): +2.9% at 1.42, volume pace 0.33x
-- FT.TO (FORTUNE MNRL J): +2.7% at 0.095, volume pace 0.82x
-- QTRH.TO (QUARTERHILL INC): +2.6% at 2.79, volume pace 1.77x
-- XLY.TO (AUXLY CANNABIS GROUP INC): +2.2% at 3.66, volume pace 1.17x
+- EDT.TO (SPECTRAL MEDICAL INC): +9.7% at 1.02, volume pace 12.16x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +7.8% at 0.345, volume pace 0.0x
+- FT.TO (FORTUNE MNRL J): +5.3% at 0.1, volume pace 0.0x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.0x
+- TAL.TO (PETROTAL CORP): +1.8% at 0.57, volume pace 0.0x
+- CVO.TO (COVEO SOLUTIONS INC): +1.5% at 4.84, volume pace 1.67x
+- CEMX.TO (CEMATRIX): +1.0% at 0.49, volume pace 0.53x
+- LOVE.TO (CANNARA BIOTECH INC): +1.0% at 1.96, volume pace 0.18x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +0.9% at 2.24, volume pace 0.0x
+- CIA.TO (CHAMPION IRON LIMITED): +0.8% at 1.885, volume pace 1.45x
