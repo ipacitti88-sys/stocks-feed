@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-30T10:31-06:00
+# Stock feed — 2026-10-30T11:01-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T16:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T17:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.6% at 16:35
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.9% at 16:35
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.9% at 17:05
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.9% at 17:05
 
 # TSX Venture
 
@@ -25,7 +25,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- CAD.V (COLONIAL COAL INTERNATIONAL COR): +3.4% today at 2.42, last 30m +0.4%, volume pace 4.9x, rising since 2026-10-30T16:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- BRW.V (BRUNSWICK EXPLORATION INC): +13.2% at 0.215, volume pace 0.99x
+- MERG.V (METAL ENERGY CORP): +18.9% at 0.44, volume pace 0.84x
 - ANOR.V (ANORTECH INC): +12.5% at 0.135, volume pace 0.26x
-- HART.V (GOLD HART COPPER CORP): +11.8% at 0.19, volume pace 0.0x
 - PJX.V (PJX RESOURCES INC): +8.7% at 0.125, volume pace 1.12x
 - LITH.V (LITHIUM CHILE INC): +8.1% at 0.335, volume pace 2.31x
+- BRW.V (BRUNSWICK EXPLORATION INC): +7.9% at 0.205, volume pace 0.89x
 - MANU.V (MANHATTAN URANIUM DISCOVERY COR): +7.7% at 0.14, volume pace 0.19x
-- ZNX.V (ZINCX RESOURCES CORP): +6.9% at 0.31, volume pace 0.07x
-- FEO.V (OCEANIC IRON ORE CORP): +6.7% at 0.64, volume pace 0.03x
-- RSMX.V (REGENCY SILVER CORP): +5.9% at 0.09, volume pace 1.3x
+- IVS.V (INVENTUS MINING CORP): +6.8% at 0.235, volume pace 1.21x
+- RSMX.V (REGENCY SILVER CORP): +5.9% at 0.09, volume pace 0.78x
 - DMCU.V (DOMESTIC METALS CORP): +5.9% at 0.18, volume pace 0.0x
+- PURO.V (PLATAURO METALS CORP): +5.9% at 0.09, volume pace 0.0x
 
 # TSX
 
@@ -66,8 +66,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- HAI.TO (HAIVISION SYSTEMS INC): +11.7% today at 4.01, last 30m +9.3%, volume pace 1.85x, rising since 2026-10-30T16:30:00+00:00
-- LOVE.TO (CANNARA BIOTECH INC): +3.6% today at 2.01, last 30m +0.5%, volume pace 1.97x, rising since 2026-10-30T15:20:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -84,13 +83,13 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- HAI.TO (HAIVISION SYSTEMS INC): +11.7% at 4.01, volume pace 1.85x
 - EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 6.16x
-- ELR.TO (EASTERN PLATINUM LIMITED): +4.8% at 0.22, volume pace 5.07x
-- GRA.TO (NANOXPLORE INC): +4.4% at 1.305, volume pace 0.93x
+- HAI.TO (HAIVISION SYSTEMS INC): +6.1% at 3.81, volume pace 1.59x
+- ELR.TO (EASTERN PLATINUM LIMITED): +4.8% at 0.22, volume pace 1.71x
 - LUC.TO (LUCARA DIAMOND CORP): +3.9% at 0.135, volume pace 0.18x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.24x
-- LOVE.TO (CANNARA BIOTECH INC): +3.6% at 2.01, volume pace 1.97x
-- TAL.TO (PETROTAL CORP): +3.6% at 0.58, volume pace 0.66x
-- HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +1.9% at 0.53, volume pace 0.92x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.4x
+- LOVE.TO (CANNARA BIOTECH INC): +3.6% at 2.01, volume pace 1.69x
+- TAL.TO (PETROTAL CORP): +3.6% at 0.58, volume pace 0.55x
+- GRA.TO (NANOXPLORE INC): +3.2% at 1.29, volume pace 0.97x
+- HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +1.9% at 0.53, volume pace 9.44x
 - THNC.TO (THINKIFIC LABS INC): +1.8% at 2.24, volume pace 0.67x
