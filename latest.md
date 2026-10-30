@@ -1,4 +1,4 @@
-# Stock feed — 2026-10-30T14:01-06:00
+# Stock feed — 2026-10-30T14:06-06:00
 
 Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -85,7 +85,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 - AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.0x
 - EDT.TO (SPECTRAL MEDICAL INC): +9.7% at 1.02, volume pace 1.57x
-- HAI.TO (HAIVISION SYSTEMS INC): +5.6% at 3.79, volume pace 2.19x
+- HAI.TO (HAIVISION SYSTEMS INC): +4.6% at 3.755, volume pace 2.16x
 - LOVE.TO (CANNARA BIOTECH INC): +3.6% at 2.01, volume pace 2.65x
 - TAL.TO (PETROTAL CORP): +3.6% at 0.58, volume pace 1.46x
 - GEO.TO (GEODRILL LIMITED): +3.2% at 2.86, volume pace 1.15x

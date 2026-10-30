@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T14:01-06:00",
+ "generated": "2026-10-30T14:06-06:00",
  "last_close_day": "2026-10-29",
  "tracked": 675,
  "tracked_by_market": {
@@ -636,11 +636,11 @@
   {
    "ticker": "HAI.TO",
    "name": "HAIVISION SYSTEMS INC",
-   "as_of": "2026-10-30T19:55:00+00:00",
-   "last": 3.79,
-   "pct_day": 5.57,
-   "pct_30m": -2.82,
-   "volume_pace": 2.19,
+   "as_of": "2026-10-30T20:00:00+00:00",
+   "last": 3.755,
+   "pct_day": 4.6,
+   "pct_30m": -3.72,
+   "volume_pace": 2.16,
    "rising": false,
    "rising_since": null
   },
