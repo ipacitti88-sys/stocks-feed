@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T11:01-06:00",
+ "generated": "2026-10-30T11:31-06:00",
  "last_close_day": "2026-10-29",
  "tracked": 675,
  "tracked_by_market": {
@@ -475,29 +475,17 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-30T17:05:00+00:00",
- "rising": [
-  {
-   "ticker": "CAD.V",
-   "name": "COLONIAL COAL INTERNATIONAL COR",
-   "as_of": "2026-10-30T17:00:00+00:00",
-   "last": 2.42,
-   "pct_day": 3.42,
-   "pct_30m": 0.41,
-   "volume_pace": 4.9,
-   "rising": true,
-   "rising_since": "2026-10-30T16:55:00+00:00"
-  }
- ],
+ "live_as_of": "2026-10-30T17:35:00+00:00",
+ "rising": [],
  "top_gainers_today": [
   {
    "ticker": "MERG.V",
    "name": "METAL ENERGY CORP",
-   "as_of": "2026-10-30T16:55:00+00:00",
-   "last": 0.44,
-   "pct_day": 18.92,
-   "pct_30m": 23.94,
-   "volume_pace": 0.84,
+   "as_of": "2026-10-30T17:10:00+00:00",
+   "last": 0.48,
+   "pct_day": 29.73,
+   "pct_30m": 29.73,
+   "volume_pace": 0.96,
    "rising": false,
    "rising_since": null
   },
@@ -509,6 +497,28 @@
    "pct_day": 12.5,
    "pct_30m": 0.0,
    "volume_pace": 0.26,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ZNX.V",
+   "name": "ZINCX RESOURCES CORP",
+   "as_of": "2026-10-30T17:30:00+00:00",
+   "last": 0.32,
+   "pct_day": 10.34,
+   "pct_30m": 6.67,
+   "volume_pace": 0.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FOXT.V",
+   "name": "FOX TUNGSTEN LTD",
+   "as_of": "2026-10-30T17:25:00+00:00",
+   "last": 0.12,
+   "pct_day": 9.09,
+   "pct_30m": 9.09,
+   "volume_pace": 0.09,
    "rising": false,
    "rising_since": null
   },
@@ -526,11 +536,11 @@
   {
    "ticker": "LITH.V",
    "name": "LITHIUM CHILE INC",
-   "as_of": "2026-10-30T15:40:00+00:00",
+   "as_of": "2026-10-30T17:25:00+00:00",
    "last": 0.335,
    "pct_day": 8.06,
    "pct_30m": 0.0,
-   "volume_pace": 2.31,
+   "volume_pace": 1.28,
    "rising": false,
    "rising_since": null
   },
@@ -541,18 +551,7 @@
    "last": 0.205,
    "pct_day": 7.89,
    "pct_30m": -4.65,
-   "volume_pace": 0.89,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MANU.V",
-   "name": "MANHATTAN URANIUM DISCOVERY COR",
-   "as_of": "2026-10-30T15:50:00+00:00",
-   "last": 0.14,
-   "pct_day": 7.69,
-   "pct_30m": 12.0,
-   "volume_pace": 0.19,
+   "volume_pace": 0.92,
    "rising": false,
    "rising_since": null
   },
@@ -568,6 +567,17 @@
    "rising_since": null
   },
   {
+   "ticker": "COCO.V",
+   "name": "COAST COPPER CORP",
+   "as_of": "2026-10-30T17:25:00+00:00",
+   "last": 0.33,
+   "pct_day": 6.45,
+   "pct_30m": 6.45,
+   "volume_pace": 0.04,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "RSMX.V",
    "name": "REGENCY SILVER CORP",
    "as_of": "2026-10-30T16:45:00+00:00",
@@ -575,28 +585,6 @@
    "pct_day": 5.88,
    "pct_30m": 0.0,
    "volume_pace": 0.78,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "DMCU.V",
-   "name": "DOMESTIC METALS CORP",
-   "as_of": "2026-10-30T15:10:00+00:00",
-   "last": 0.18,
-   "pct_day": 5.88,
-   "pct_30m": 5.88,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PURO.V",
-   "name": "PLATAURO METALS CORP",
-   "as_of": "2026-10-30T15:55:00+00:00",
-   "last": 0.09,
-   "pct_day": 5.88,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -618,7 +606,18 @@
    "last": 3.81,
    "pct_day": 6.13,
    "pct_30m": -4.99,
-   "volume_pace": 1.59,
+   "volume_pace": 1.6,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TAL.TO",
+   "name": "PETROTAL CORP",
+   "as_of": "2026-10-30T17:20:00+00:00",
+   "last": 0.59,
+   "pct_day": 5.36,
+   "pct_30m": 0.0,
+   "volume_pace": 0.59,
    "rising": false,
    "rising_since": null
   },
@@ -629,18 +628,18 @@
    "last": 0.22,
    "pct_day": 4.76,
    "pct_30m": 0.0,
-   "volume_pace": 1.71,
+   "volume_pace": 1.9,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "LUC.TO",
-   "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-10-30T16:15:00+00:00",
-   "last": 0.135,
-   "pct_day": 3.85,
-   "pct_30m": 3.85,
-   "volume_pace": 0.18,
+   "ticker": "LOVE.TO",
+   "name": "CANNARA BIOTECH INC",
+   "as_of": "2026-10-30T17:25:00+00:00",
+   "last": 2.02,
+   "pct_day": 4.12,
+   "pct_30m": 0.5,
+   "volume_pace": 1.44,
    "rising": false,
    "rising_since": null
   },
@@ -656,35 +655,35 @@
    "rising_since": null
   },
   {
-   "ticker": "LOVE.TO",
-   "name": "CANNARA BIOTECH INC",
-   "as_of": "2026-10-30T16:50:00+00:00",
-   "last": 2.01,
-   "pct_day": 3.61,
-   "pct_30m": 0.0,
-   "volume_pace": 1.69,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-10-30T17:00:00+00:00",
-   "last": 0.58,
-   "pct_day": 3.57,
-   "pct_30m": 0.0,
-   "volume_pace": 0.55,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "GRA.TO",
    "name": "NANOXPLORE INC",
-   "as_of": "2026-10-30T17:00:00+00:00",
-   "last": 1.29,
-   "pct_day": 3.2,
-   "pct_30m": -1.15,
-   "volume_pace": 0.97,
+   "as_of": "2026-10-30T17:25:00+00:00",
+   "last": 1.285,
+   "pct_day": 2.8,
+   "pct_30m": -0.39,
+   "volume_pace": 0.91,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ECO.TO",
+   "name": "ECOSYNTHETIX INC",
+   "as_of": "2026-10-30T17:10:00+00:00",
+   "last": 1.45,
+   "pct_day": 2.11,
+   "pct_30m": 11.54,
+   "volume_pace": 0.59,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GASX.TO",
+   "name": "NG ENERGY INTERNATIONAL CORP",
+   "as_of": "2026-10-30T17:20:00+00:00",
+   "last": 0.98,
+   "pct_day": 2.08,
+   "pct_30m": 1.03,
+   "volume_pace": 0.2,
    "rising": false,
    "rising_since": null
   },
@@ -696,17 +695,6 @@
    "pct_day": 1.92,
    "pct_30m": 0.0,
    "volume_pace": 9.44,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "THNC.TO",
-   "name": "THINKIFIC LABS INC",
-   "as_of": "2026-10-30T16:00:00+00:00",
-   "last": 2.24,
-   "pct_day": 1.82,
-   "pct_30m": 1.36,
-   "volume_pace": 0.67,
    "rising": false,
    "rising_since": null
   }
@@ -1308,9 +1296,9 @@
    "ma200": 967.38,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-30T17:05:00+00:00",
-    "last": 802.99,
-    "pct_day": -2.86
+    "as_of": "2026-10-30T17:35:00+00:00",
+    "last": 801.5,
+    "pct_day": -3.04
    }
   },
   "^GSPTSE": {
@@ -1909,9 +1897,9 @@
    "ma200": 34567.28,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-30T17:05:00+00:00",
-    "last": 35545.5,
-    "pct_day": -1.94
+    "as_of": "2026-10-30T17:35:00+00:00",
+    "last": 35513.59,
+    "pct_day": -2.03
    }
   }
  },
