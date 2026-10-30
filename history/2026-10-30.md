@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-30T13:31-06:00
+# Stock feed — 2026-10-30T14:01-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T20:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.9% at 19:35
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -2.2% at 19:35
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.6% at 20:00
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.8% at 20:00
 
 # TSX Venture
 
@@ -25,7 +25,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- FTZ.V (FITZROY MINERALS INC): +4.0% today at 0.52, last 30m +4.0%, volume pace 4.32x, rising since 2026-10-30T19:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- ADE.V (ADEX MINING INC.): +40.0% at 0.14, volume pace 13.0x
-- PINK.V (PERIMETER MEDICAL IMAGING AI IN): +29.6% at 0.175, volume pace 4.37x
+- ADE.V (ADEX MINING INC.): +40.0% at 0.14, volume pace 15.87x
+- RUSH.V (CAROLINA RUSH CORPORATION): +38.5% at 0.09, volume pace 4.47x
+- PINK.V (PERIMETER MEDICAL IMAGING AI IN): +25.9% at 0.17, volume pace 5.79x
 - ZNX.V (ZINCX RESOURCES CORP): +20.7% at 0.35, volume pace 1.06x
 - ANOR.V (ANORTECH INC): +16.7% at 0.14, volume pace 0.34x
-- DGC.V (DAURA GOLD CORP): +10.9% at 0.255, volume pace 3.54x
+- CD.V (CANTEX MINE DEVELOPMENT CORP): +11.1% at 0.25, volume pace 1.26x
+- DGC.V (DAURA GOLD CORP): +10.9% at 0.255, volume pace 5.0x
+- BRW.V (BRUNSWICK EXPLORATION INC): +10.5% at 0.21, volume pace 1.12x
 - VTX.V (VERTEX RESOURCE GROUP LTD): +10.0% at 0.22, volume pace 3.07x
 - BEAR.V (BIG BEAR GOLD CORP): +10.0% at 0.11, volume pace 0.0x
-- FOXT.V (FOX TUNGSTEN LTD): +9.1% at 0.12, volume pace 0.1x
-- PJX.V (PJX RESOURCES INC): +8.7% at 0.125, volume pace 0.34x
-- MERG.V (METAL ENERGY CORP): +8.1% at 0.4, volume pace 0.85x
 
 # TSX
 
@@ -66,7 +66,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- GRA.TO (NANOXPLORE INC): +3.2% today at 1.29, last 30m +0.8%, volume pace 1.94x, rising since 2026-10-30T20:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -83,13 +83,13 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 1.99x
 - AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.0x
-- HAI.TO (HAIVISION SYSTEMS INC): +8.6% at 3.9, volume pace 1.16x
-- TAL.TO (PETROTAL CORP): +5.4% at 0.59, volume pace 0.81x
+- EDT.TO (SPECTRAL MEDICAL INC): +9.7% at 1.02, volume pace 1.57x
+- HAI.TO (HAIVISION SYSTEMS INC): +5.6% at 3.79, volume pace 2.19x
 - LOVE.TO (CANNARA BIOTECH INC): +3.6% at 2.01, volume pace 2.65x
-- GRA.TO (NANOXPLORE INC): +2.4% at 1.28, volume pace 1.5x
-- ELR.TO (EASTERN PLATINUM LIMITED): +2.4% at 0.215, volume pace 1.96x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.26x
+- TAL.TO (PETROTAL CORP): +3.6% at 0.58, volume pace 1.46x
+- GEO.TO (GEODRILL LIMITED): +3.2% at 2.86, volume pace 1.15x
+- GRA.TO (NANOXPLORE INC): +3.2% at 1.29, volume pace 1.94x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.3x
 - HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +1.9% at 0.53, volume pace 5.07x
-- CLCH.TO (CLINCH RESOURCES LTD): +1.8% at 1.11, volume pace 4.48x
+- RBY.TO (RUBELLITE ENERGY CORP): +1.8% at 4.53, volume pace 0.8x
