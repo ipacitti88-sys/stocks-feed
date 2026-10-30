@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-30T11:31-06:00
+# Stock feed — 2026-10-30T12:01-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -3.0% at 17:35
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -2.0% at 17:35
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -3.2% at 18:05
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -2.3% at 18:05
 
 # TSX Venture
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- MERG.V (METAL ENERGY CORP): +29.7% at 0.48, volume pace 0.96x
+- MERG.V (METAL ENERGY CORP): +29.7% at 0.48, volume pace 1.12x
+- ZNX.V (ZINCX RESOURCES CORP): +13.8% at 0.33, volume pace 1.26x
 - ANOR.V (ANORTECH INC): +12.5% at 0.135, volume pace 0.26x
-- ZNX.V (ZINCX RESOURCES CORP): +10.3% at 0.32, volume pace 0.07x
-- FOXT.V (FOX TUNGSTEN LTD): +9.1% at 0.12, volume pace 0.09x
+- BEAR.V (BIG BEAR GOLD CORP): +10.0% at 0.11, volume pace 0.0x
+- FOXT.V (FOX TUNGSTEN LTD): +9.1% at 0.12, volume pace 0.1x
+- TAG.V (Trusilver Metals Corp.): +9.1% at 0.36, volume pace 0.25x
 - PJX.V (PJX RESOURCES INC): +8.7% at 0.125, volume pace 1.12x
-- LITH.V (LITHIUM CHILE INC): +8.1% at 0.335, volume pace 1.28x
-- BRW.V (BRUNSWICK EXPLORATION INC): +7.9% at 0.205, volume pace 0.92x
-- IVS.V (INVENTUS MINING CORP): +6.8% at 0.235, volume pace 1.21x
-- COCO.V (COAST COPPER CORP): +6.5% at 0.33, volume pace 0.04x
-- RSMX.V (REGENCY SILVER CORP): +5.9% at 0.09, volume pace 0.78x
+- LITH.V (LITHIUM CHILE INC): +8.1% at 0.335, volume pace 1.31x
+- BRW.V (BRUNSWICK EXPLORATION INC): +7.9% at 0.205, volume pace 0.94x
+- ZAU.V (ZODIAC GOLD INC): +7.4% at 0.29, volume pace 1.46x
 
 # TSX
 
@@ -66,7 +66,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- LOVE.TO (CANNARA BIOTECH INC): +4.1% today at 2.02, last 30m +0.5%, volume pace 3.21x, rising since 2026-10-30T17:45:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -83,13 +83,13 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 6.16x
-- HAI.TO (HAIVISION SYSTEMS INC): +6.1% at 3.81, volume pace 1.6x
-- TAL.TO (PETROTAL CORP): +5.4% at 0.59, volume pace 0.59x
-- ELR.TO (EASTERN PLATINUM LIMITED): +4.8% at 0.22, volume pace 1.9x
-- LOVE.TO (CANNARA BIOTECH INC): +4.1% at 2.02, volume pace 1.44x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.4x
-- GRA.TO (NANOXPLORE INC): +2.8% at 1.285, volume pace 0.91x
-- ECO.TO (ECOSYNTHETIX INC): +2.1% at 1.45, volume pace 0.59x
+- EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 1.92x
+- AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.0x
+- TAL.TO (PETROTAL CORP): +5.4% at 0.59, volume pace 0.84x
+- LOVE.TO (CANNARA BIOTECH INC): +4.1% at 2.02, volume pace 3.21x
+- HAI.TO (HAIVISION SYSTEMS INC): +3.9% at 3.73, volume pace 1.25x
+- ECO.TO (ECOSYNTHETIX INC): +2.8% at 1.46, volume pace 0.52x
+- GRA.TO (NANOXPLORE INC): +2.4% at 1.28, volume pace 1.04x
+- ELR.TO (EASTERN PLATINUM LIMITED): +2.4% at 0.215, volume pace 1.5x
 - GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.2x
 - HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +1.9% at 0.53, volume pace 9.44x
