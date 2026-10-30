@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T08:01-06:00",
+ "generated": "2026-10-30T08:31-06:00",
  "last_close_day": "2026-10-29",
  "tracked": 675,
  "tracked_by_market": {
@@ -475,15 +475,37 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-30T14:05:00+00:00",
+ "live_as_of": "2026-10-30T14:35:00+00:00",
  "rising": [],
  "top_gainers_today": [
+  {
+   "ticker": "ANOR.V",
+   "name": "ANORTECH INC",
+   "as_of": "2026-10-30T14:05:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": 3.85,
+   "volume_pace": 0.99,
+   "rising": false,
+   "rising_since": null
+  },
   {
    "ticker": "HART.V",
    "name": "GOLD HART COPPER CORP",
    "as_of": "2026-10-30T13:35:00+00:00",
    "last": 0.19,
    "pct_day": 11.76,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FHR.V",
+   "name": "FIDDLEHEAD RESOURCES CORP",
+   "as_of": "2026-10-30T14:15:00+00:00",
+   "last": 0.1,
+   "pct_day": 11.11,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
    "rising": false,
@@ -501,35 +523,46 @@
    "rising_since": null
   },
   {
-   "ticker": "BRW.V",
-   "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-10-30T14:00:00+00:00",
-   "last": 0.205,
-   "pct_day": 7.89,
-   "pct_30m": 2.5,
-   "volume_pace": 0.76,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "XXIX.V",
-   "name": "XXIX METAL CORP",
-   "as_of": "2026-10-30T13:50:00+00:00",
-   "last": 0.14,
-   "pct_day": 7.69,
-   "pct_30m": 7.69,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ROS.V",
-   "name": "ROSCAN GOLD CORPORATION",
-   "as_of": "2026-10-30T13:55:00+00:00",
-   "last": 0.14,
-   "pct_day": 7.69,
+   "ticker": "IVS.V",
+   "name": "INVENTUS MINING CORP",
+   "as_of": "2026-10-30T14:05:00+00:00",
+   "last": 0.24,
+   "pct_day": 9.09,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BRW.V",
+   "name": "BRUNSWICK EXPLORATION INC",
+   "as_of": "2026-10-30T14:30:00+00:00",
+   "last": 0.205,
+   "pct_day": 7.89,
+   "pct_30m": 0.0,
+   "volume_pace": 0.62,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "RRI.V",
+   "name": "RIVERSIDE RESOURCES INC.",
+   "as_of": "2026-10-30T14:15:00+00:00",
+   "last": 0.365,
+   "pct_day": 7.35,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LITH.V",
+   "name": "LITHIUM CHILE INC",
+   "as_of": "2026-10-30T14:30:00+00:00",
+   "last": 0.33,
+   "pct_day": 6.45,
+   "pct_30m": 3.13,
+   "volume_pace": 3.75,
    "rising": false,
    "rising_since": null
   },
@@ -540,84 +573,29 @@
    "last": 3.33,
    "pct_day": 5.71,
    "pct_30m": 3.74,
-   "volume_pace": 0.0,
+   "volume_pace": 1.28,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "HAN.V",
-   "name": "HANNAN METALS LTD",
-   "as_of": "2026-10-30T14:00:00+00:00",
-   "last": 0.56,
-   "pct_day": 5.66,
-   "pct_30m": 5.66,
-   "volume_pace": 3.43,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "UGD.V",
-   "name": "UNIGOLD INC.",
-   "as_of": "2026-10-30T13:35:00+00:00",
-   "last": 0.19,
-   "pct_day": 5.56,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ABM.V",
-   "name": "ABEN GOLD CORP",
-   "as_of": "2026-10-30T13:50:00+00:00",
-   "last": 0.1,
-   "pct_day": 5.26,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MINE.V",
-   "name": "INOMIN MINES INC",
-   "as_of": "2026-10-30T13:35:00+00:00",
-   "last": 0.105,
-   "pct_day": 5.0,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "ticker": "STRM.V",
+   "name": "STORM EXPLORATION INC",
+   "as_of": "2026-10-30T14:15:00+00:00",
+   "last": 0.465,
+   "pct_day": 5.68,
+   "pct_30m": 3.33,
+   "volume_pace": 0.15,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "EDT.TO",
    "name": "SPECTRAL MEDICAL INC",
-   "as_of": "2026-10-30T13:50:00+00:00",
-   "last": 1.02,
-   "pct_day": 9.68,
-   "pct_30m": 4.08,
-   "volume_pace": 12.16,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-10-30T13:35:00+00:00",
-   "last": 0.345,
-   "pct_day": 7.81,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "FT.TO",
-   "name": "FORTUNE MNRL J",
-   "as_of": "2026-10-30T13:35:00+00:00",
-   "last": 0.1,
-   "pct_day": 5.26,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "as_of": "2026-10-30T14:30:00+00:00",
+   "last": 1.03,
+   "pct_day": 10.75,
+   "pct_30m": 0.98,
+   "volume_pace": 6.32,
    "rising": false,
    "rising_since": null
   },
@@ -628,51 +606,73 @@
    "last": 0.135,
    "pct_day": 3.85,
    "pct_30m": 3.85,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-10-30T13:45:00+00:00",
-   "last": 0.57,
-   "pct_day": 1.79,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CVO.TO",
-   "name": "COVEO SOLUTIONS INC",
-   "as_of": "2026-10-30T14:00:00+00:00",
-   "last": 4.84,
-   "pct_day": 1.47,
-   "pct_30m": 2.11,
-   "volume_pace": 1.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CEMX.TO",
-   "name": "CEMATRIX",
-   "as_of": "2026-10-30T14:05:00+00:00",
-   "last": 0.49,
-   "pct_day": 1.03,
-   "pct_30m": -1.01,
-   "volume_pace": 0.53,
+   "volume_pace": 0.94,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LOVE.TO",
    "name": "CANNARA BIOTECH INC",
-   "as_of": "2026-10-30T13:35:00+00:00",
-   "last": 1.96,
-   "pct_day": 1.03,
+   "as_of": "2026-10-30T14:15:00+00:00",
+   "last": 1.99,
+   "pct_day": 2.58,
+   "pct_30m": 1.53,
+   "volume_pace": 0.38,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TAL.TO",
+   "name": "PETROTAL CORP",
+   "as_of": "2026-10-30T14:25:00+00:00",
+   "last": 0.57,
+   "pct_day": 1.79,
    "pct_30m": 0.0,
+   "volume_pace": 0.03,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-10-30T14:05:00+00:00",
+   "last": 1.27,
+   "pct_day": 1.6,
+   "pct_30m": 0.79,
+   "volume_pace": 1.25,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CIA.TO",
+   "name": "CHAMPION IRON LIMITED",
+   "as_of": "2026-10-30T14:35:00+00:00",
+   "last": 1.895,
+   "pct_day": 1.34,
+   "pct_30m": -0.26,
+   "volume_pace": 1.38,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "YGR.TO",
+   "name": "YANGARRA RESOURCES LTD",
+   "as_of": "2026-10-30T14:30:00+00:00",
+   "last": 1.74,
+   "pct_day": 1.16,
+   "pct_30m": 0.58,
    "volume_pace": 0.18,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "RBY.TO",
+   "name": "RUBELLITE ENERGY CORP",
+   "as_of": "2026-10-30T14:20:00+00:00",
+   "last": 4.5,
+   "pct_day": 1.12,
+   "pct_30m": 0.45,
+   "volume_pace": 0.75,
    "rising": false,
    "rising_since": null
   },
@@ -683,18 +683,18 @@
    "last": 2.24,
    "pct_day": 0.9,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 0.03,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "CIA.TO",
-   "name": "CHAMPION IRON LIMITED",
-   "as_of": "2026-10-30T14:00:00+00:00",
-   "last": 1.885,
-   "pct_day": 0.8,
-   "pct_30m": 0.8,
-   "volume_pace": 1.45,
+   "ticker": "FSZ.TO",
+   "name": "FIERA CAPITAL CORP",
+   "as_of": "2026-10-30T14:30:00+00:00",
+   "last": 2.83,
+   "pct_day": 0.71,
+   "pct_30m": -0.35,
+   "volume_pace": 0.7,
    "rising": false,
    "rising_since": null
   }
@@ -1296,9 +1296,9 @@
    "ma200": 967.38,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-30T14:05:00+00:00",
-    "last": 805.21,
-    "pct_day": -2.59
+    "as_of": "2026-10-30T14:35:00+00:00",
+    "last": 804.41,
+    "pct_day": -2.69
    }
   },
   "^GSPTSE": {
@@ -1897,9 +1897,9 @@
    "ma200": 34567.28,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-30T14:05:00+00:00",
-    "last": 35767.46,
-    "pct_day": -1.33
+    "as_of": "2026-10-30T14:35:00+00:00",
+    "last": 35673.95,
+    "pct_day": -1.59
    }
   }
  },

@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-30T08:01-06:00
+# Stock feed — 2026-10-30T08:31-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T14:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T14:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.6% at 14:05
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.3% at 14:05
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.7% at 14:35
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.6% at 14:35
 
 # TSX Venture
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- ANOR.V (ANORTECH INC): +12.5% at 0.135, volume pace 0.99x
 - HART.V (GOLD HART COPPER CORP): +11.8% at 0.19, volume pace 0.0x
+- FHR.V (FIDDLEHEAD RESOURCES CORP): +11.1% at 0.1, volume pace 0.0x
 - CUU.V (COPPER FOX METALS INC): +10.2% at 0.65, volume pace 0.0x
-- BRW.V (BRUNSWICK EXPLORATION INC): +7.9% at 0.205, volume pace 0.76x
-- XXIX.V (XXIX METAL CORP): +7.7% at 0.14, volume pace 0.0x
-- ROS.V (ROSCAN GOLD CORPORATION): +7.7% at 0.14, volume pace 0.0x
-- ROB.V (ROBINSON ENERGY LIMITED): +5.7% at 3.33, volume pace 0.0x
-- HAN.V (HANNAN METALS LTD): +5.7% at 0.56, volume pace 3.43x
-- UGD.V (UNIGOLD INC.): +5.6% at 0.19, volume pace 0.0x
-- ABM.V (ABEN GOLD CORP): +5.3% at 0.1, volume pace 0.0x
-- MINE.V (INOMIN MINES INC): +5.0% at 0.105, volume pace 0.0x
+- IVS.V (INVENTUS MINING CORP): +9.1% at 0.24, volume pace 0.0x
+- BRW.V (BRUNSWICK EXPLORATION INC): +7.9% at 0.205, volume pace 0.62x
+- RRI.V (RIVERSIDE RESOURCES INC.): +7.3% at 0.365, volume pace 0.0x
+- LITH.V (LITHIUM CHILE INC): +6.5% at 0.33, volume pace 3.75x
+- ROB.V (ROBINSON ENERGY LIMITED): +5.7% at 3.33, volume pace 1.28x
+- STRM.V (STORM EXPLORATION INC): +5.7% at 0.465, volume pace 0.15x
 
 # TSX
 
@@ -83,13 +83,13 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDT.TO (SPECTRAL MEDICAL INC): +9.7% at 1.02, volume pace 12.16x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +7.8% at 0.345, volume pace 0.0x
-- FT.TO (FORTUNE MNRL J): +5.3% at 0.1, volume pace 0.0x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.0x
-- TAL.TO (PETROTAL CORP): +1.8% at 0.57, volume pace 0.0x
-- CVO.TO (COVEO SOLUTIONS INC): +1.5% at 4.84, volume pace 1.67x
-- CEMX.TO (CEMATRIX): +1.0% at 0.49, volume pace 0.53x
-- LOVE.TO (CANNARA BIOTECH INC): +1.0% at 1.96, volume pace 0.18x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +0.9% at 2.24, volume pace 0.0x
-- CIA.TO (CHAMPION IRON LIMITED): +0.8% at 1.885, volume pace 1.45x
+- EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 6.32x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.94x
+- LOVE.TO (CANNARA BIOTECH INC): +2.6% at 1.99, volume pace 0.38x
+- TAL.TO (PETROTAL CORP): +1.8% at 0.57, volume pace 0.03x
+- GRA.TO (NANOXPLORE INC): +1.6% at 1.27, volume pace 1.25x
+- CIA.TO (CHAMPION IRON LIMITED): +1.3% at 1.895, volume pace 1.38x
+- YGR.TO (YANGARRA RESOURCES LTD): +1.2% at 1.74, volume pace 0.18x
+- RBY.TO (RUBELLITE ENERGY CORP): +1.1% at 4.5, volume pace 0.75x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +0.9% at 2.24, volume pace 0.03x
+- FSZ.TO (FIERA CAPITAL CORP): +0.7% at 2.83, volume pace 0.7x
