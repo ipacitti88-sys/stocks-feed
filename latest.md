@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-30T08:31-06:00
+# Stock feed — 2026-10-30T09:01-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T14:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.7% at 14:35
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.6% at 14:35
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.3% at 15:05
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.7% at 15:05
 
 # TSX Venture
 
@@ -44,14 +44,14 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 - ANOR.V (ANORTECH INC): +12.5% at 0.135, volume pace 0.99x
 - HART.V (GOLD HART COPPER CORP): +11.8% at 0.19, volume pace 0.0x
-- FHR.V (FIDDLEHEAD RESOURCES CORP): +11.1% at 0.1, volume pace 0.0x
 - CUU.V (COPPER FOX METALS INC): +10.2% at 0.65, volume pace 0.0x
-- IVS.V (INVENTUS MINING CORP): +9.1% at 0.24, volume pace 0.0x
-- BRW.V (BRUNSWICK EXPLORATION INC): +7.9% at 0.205, volume pace 0.62x
+- MINE.V (INOMIN MINES INC): +10.0% at 0.11, volume pace 0.0x
+- PJX.V (PJX RESOURCES INC): +8.7% at 0.125, volume pace 1.12x
+- LITH.V (LITHIUM CHILE INC): +8.1% at 0.335, volume pace 3.17x
 - RRI.V (RIVERSIDE RESOURCES INC.): +7.3% at 0.365, volume pace 0.0x
-- LITH.V (LITHIUM CHILE INC): +6.5% at 0.33, volume pace 3.75x
 - ROB.V (ROBINSON ENERGY LIMITED): +5.7% at 3.33, volume pace 1.28x
-- STRM.V (STORM EXPLORATION INC): +5.7% at 0.465, volume pace 0.15x
+- UGD.V (UNIGOLD INC.): +5.6% at 0.19, volume pace 0.0x
+- FTUR.V (FUTURE FUELS INC): +5.4% at 0.195, volume pace 1.76x
 
 # TSX
 
@@ -83,13 +83,13 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 6.32x
+- EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 6.16x
+- ELR.TO (EASTERN PLATINUM LIMITED): +4.8% at 0.22, volume pace 5.07x
+- GRA.TO (NANOXPLORE INC): +4.0% at 1.3, volume pace 0.88x
 - ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.94x
 - LOVE.TO (CANNARA BIOTECH INC): +2.6% at 1.99, volume pace 0.38x
-- TAL.TO (PETROTAL CORP): +1.8% at 0.57, volume pace 0.03x
-- GRA.TO (NANOXPLORE INC): +1.6% at 1.27, volume pace 1.25x
-- CIA.TO (CHAMPION IRON LIMITED): +1.3% at 1.895, volume pace 1.38x
-- YGR.TO (YANGARRA RESOURCES LTD): +1.2% at 1.74, volume pace 0.18x
-- RBY.TO (RUBELLITE ENERGY CORP): +1.1% at 4.5, volume pace 0.75x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +0.9% at 2.24, volume pace 0.03x
-- FSZ.TO (FIERA CAPITAL CORP): +0.7% at 2.83, volume pace 0.7x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.32x
+- HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +1.9% at 0.53, volume pace 2.2x
+- TAL.TO (PETROTAL CORP): +1.8% at 0.57, volume pace 0.28x
+- CVO.TO (COVEO SOLUTIONS INC): +1.7% at 4.85, volume pace 2.16x
+- COPR.TO (COPPERNICO METALS INC): +1.4% at 0.37, volume pace 0.0x
