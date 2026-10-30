@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-30T09:01-06:00
+# Stock feed — 2026-10-30T09:31-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.3% at 15:05
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.7% at 15:05
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.4% at 15:35
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -1.9% at 15:35
 
 # TSX Venture
 
@@ -25,7 +25,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- NSE.V (NEW STRATUS ENERGY INC): +4.1% today at 0.76, last 30m +4.1%, volume pace 1.67x, rising since 2026-10-30T15:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -44,14 +44,14 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 - ANOR.V (ANORTECH INC): +12.5% at 0.135, volume pace 0.99x
 - HART.V (GOLD HART COPPER CORP): +11.8% at 0.19, volume pace 0.0x
-- CUU.V (COPPER FOX METALS INC): +10.2% at 0.65, volume pace 0.0x
-- MINE.V (INOMIN MINES INC): +10.0% at 0.11, volume pace 0.0x
+- BRW.V (BRUNSWICK EXPLORATION INC): +10.5% at 0.21, volume pace 1.15x
+- MINE.V (INOMIN MINES INC): +10.0% at 0.11, volume pace 0.27x
 - PJX.V (PJX RESOURCES INC): +8.7% at 0.125, volume pace 1.12x
-- LITH.V (LITHIUM CHILE INC): +8.1% at 0.335, volume pace 3.17x
+- LITH.V (LITHIUM CHILE INC): +8.1% at 0.335, volume pace 3.43x
 - RRI.V (RIVERSIDE RESOURCES INC.): +7.3% at 0.365, volume pace 0.0x
+- RSMX.V (REGENCY SILVER CORP): +5.9% at 0.09, volume pace 1.27x
+- DMCU.V (DOMESTIC METALS CORP): +5.9% at 0.18, volume pace 0.0x
 - ROB.V (ROBINSON ENERGY LIMITED): +5.7% at 3.33, volume pace 1.28x
-- UGD.V (UNIGOLD INC.): +5.6% at 0.19, volume pace 0.0x
-- FTUR.V (FUTURE FUELS INC): +5.4% at 0.195, volume pace 1.76x
 
 # TSX
 
@@ -66,7 +66,7 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- LOVE.TO (CANNARA BIOTECH INC): +3.1% today at 2.0, last 30m +0.5%, volume pace 2.53x, rising since 2026-10-30T15:20:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -84,12 +84,12 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 ## TSX: top gainers in latest intraday pass
 
 - EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 6.16x
+- GRA.TO (NANOXPLORE INC): +4.8% at 1.31, volume pace 1.02x
 - ELR.TO (EASTERN PLATINUM LIMITED): +4.8% at 0.22, volume pace 5.07x
-- GRA.TO (NANOXPLORE INC): +4.0% at 1.3, volume pace 0.88x
+- COPR.TO (COPPERNICO METALS INC): +4.1% at 0.38, volume pace 0.35x
 - ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +3.9% at 0.135, volume pace 0.94x
-- LOVE.TO (CANNARA BIOTECH INC): +2.6% at 1.99, volume pace 0.38x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.32x
+- LOVE.TO (CANNARA BIOTECH INC): +3.1% at 2.0, volume pace 2.53x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.33x
 - HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +1.9% at 0.53, volume pace 2.2x
 - TAL.TO (PETROTAL CORP): +1.8% at 0.57, volume pace 0.28x
-- CVO.TO (COVEO SOLUTIONS INC): +1.7% at 4.85, volume pace 2.16x
-- COPR.TO (COPPERNICO METALS INC): +1.4% at 0.37, volume pace 0.0x
+- CVO.TO (COVEO SOLUTIONS INC): +1.5% at 4.84, volume pace 1.75x
