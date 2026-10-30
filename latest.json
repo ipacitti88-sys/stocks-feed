@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T12:31-06:00",
+ "generated": "2026-10-30T13:01-06:00",
  "last_close_day": "2026-10-29",
  "tracked": 675,
  "tracked_by_market": {
@@ -475,21 +475,20 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-10-30T18:35:00+00:00",
- "rising": [
-  {
-   "ticker": "LOVE.TO",
-   "name": "CANNARA BIOTECH INC",
-   "as_of": "2026-10-30T17:45:00+00:00",
-   "last": 2.02,
-   "pct_day": 4.12,
-   "pct_30m": 0.5,
-   "volume_pace": 3.21,
-   "rising": true,
-   "rising_since": "2026-10-30T17:45:00+00:00"
-  }
- ],
+ "live_as_of": "2026-10-30T19:05:00+00:00",
+ "rising": [],
  "top_gainers_today": [
+  {
+   "ticker": "ZNX.V",
+   "name": "ZINCX RESOURCES CORP",
+   "as_of": "2026-10-30T18:40:00+00:00",
+   "last": 0.35,
+   "pct_day": 20.69,
+   "pct_30m": 6.06,
+   "volume_pace": 1.06,
+   "rising": false,
+   "rising_since": null
+  },
   {
    "ticker": "ANOR.V",
    "name": "ANORTECH INC",
@@ -502,13 +501,13 @@
    "rising_since": null
   },
   {
-   "ticker": "ZNX.V",
-   "name": "ZINCX RESOURCES CORP",
-   "as_of": "2026-10-30T17:50:00+00:00",
-   "last": 0.33,
-   "pct_day": 13.79,
-   "pct_30m": 10.0,
-   "volume_pace": 1.26,
+   "ticker": "ADE.V",
+   "name": "ADEX MINING INC.",
+   "as_of": "2026-10-30T19:00:00+00:00",
+   "last": 0.115,
+   "pct_day": 15.0,
+   "pct_30m": 15.0,
+   "volume_pace": 2.03,
    "rising": false,
    "rising_since": null
   },
@@ -519,7 +518,18 @@
    "last": 0.15,
    "pct_day": 11.11,
    "pct_30m": 11.11,
-   "volume_pace": 3.56,
+   "volume_pace": 4.2,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VTX.V",
+   "name": "VERTEX RESOURCE GROUP LTD",
+   "as_of": "2026-10-30T18:35:00+00:00",
+   "last": 0.22,
+   "pct_day": 10.0,
+   "pct_30m": 12.82,
+   "volume_pace": 3.07,
    "rising": false,
    "rising_since": null
   },
@@ -548,11 +558,11 @@
   {
    "ticker": "PJX.V",
    "name": "PJX RESOURCES INC",
-   "as_of": "2026-10-30T14:40:00+00:00",
+   "as_of": "2026-10-30T18:35:00+00:00",
    "last": 0.125,
    "pct_day": 8.7,
-   "pct_30m": 4.17,
-   "volume_pace": 1.12,
+   "pct_30m": 0.0,
+   "volume_pace": 0.34,
    "rising": false,
    "rising_since": null
   },
@@ -563,18 +573,7 @@
    "last": 0.4,
    "pct_day": 8.11,
    "pct_30m": -16.67,
-   "volume_pace": 0.86,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BRW.V",
-   "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-10-30T17:50:00+00:00",
-   "last": 0.205,
-   "pct_day": 7.89,
-   "pct_30m": 0.0,
-   "volume_pace": 0.94,
+   "volume_pace": 0.88,
    "rising": false,
    "rising_since": null
   },
@@ -586,17 +585,6 @@
    "pct_day": 7.41,
    "pct_30m": 7.41,
    "volume_pace": 1.47,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "IVS.V",
-   "name": "INVENTUS MINING CORP",
-   "as_of": "2026-10-30T16:35:00+00:00",
-   "last": 0.235,
-   "pct_day": 6.82,
-   "pct_30m": 4.44,
-   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
   },
@@ -623,46 +611,35 @@
    "rising_since": null
   },
   {
+   "ticker": "HAI.TO",
+   "name": "HAIVISION SYSTEMS INC",
+   "as_of": "2026-10-30T19:00:00+00:00",
+   "last": 3.82,
+   "pct_day": 6.41,
+   "pct_30m": 2.41,
+   "volume_pace": 1.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "TAL.TO",
    "name": "PETROTAL CORP",
-   "as_of": "2026-10-30T18:25:00+00:00",
+   "as_of": "2026-10-30T19:00:00+00:00",
    "last": 0.59,
    "pct_day": 5.36,
    "pct_30m": 0.0,
-   "volume_pace": 0.86,
+   "volume_pace": 0.83,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LOVE.TO",
    "name": "CANNARA BIOTECH INC",
-   "as_of": "2026-10-30T17:45:00+00:00",
-   "last": 2.02,
-   "pct_day": 4.12,
-   "pct_30m": 0.5,
-   "volume_pace": 3.21,
-   "rising": true,
-   "rising_since": "2026-10-30T17:45:00+00:00"
-  },
-  {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-10-30T18:30:00+00:00",
-   "last": 1.3,
-   "pct_day": 4.0,
-   "pct_30m": 1.56,
-   "volume_pace": 1.12,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HAI.TO",
-   "name": "HAIVISION SYSTEMS INC",
-   "as_of": "2026-10-30T18:00:00+00:00",
-   "last": 3.73,
-   "pct_day": 3.9,
-   "pct_30m": -2.1,
-   "volume_pace": 1.25,
+   "as_of": "2026-10-30T18:40:00+00:00",
+   "last": 2.01,
+   "pct_day": 3.61,
+   "pct_30m": -0.5,
+   "volume_pace": 2.65,
    "rising": false,
    "rising_since": null
   },
@@ -678,35 +655,46 @@
    "rising_since": null
   },
   {
+   "ticker": "CLCH.TO",
+   "name": "CLINCH RESOURCES LTD",
+   "as_of": "2026-10-30T19:00:00+00:00",
+   "last": 1.12,
+   "pct_day": 2.75,
+   "pct_30m": 1.82,
+   "volume_pace": 4.64,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-10-30T19:00:00+00:00",
+   "last": 1.28,
+   "pct_day": 2.4,
+   "pct_30m": -1.54,
+   "volume_pace": 1.2,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ELR.TO",
    "name": "EASTERN PLATINUM LIMITED",
-   "as_of": "2026-10-30T18:10:00+00:00",
+   "as_of": "2026-10-30T19:05:00+00:00",
    "last": 0.215,
    "pct_day": 2.38,
-   "pct_30m": -2.27,
-   "volume_pace": 1.54,
+   "pct_30m": 0.0,
+   "volume_pace": 2.04,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-10-30T18:25:00+00:00",
+   "as_of": "2026-10-30T18:55:00+00:00",
    "last": 0.98,
    "pct_day": 2.08,
    "pct_30m": 0.0,
-   "volume_pace": 0.16,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HOT-UN.TO",
-   "name": "AMERICAN HOTEL INCOME PROPERTIE",
-   "as_of": "2026-10-30T16:25:00+00:00",
-   "last": 0.53,
-   "pct_day": 1.92,
-   "pct_30m": 0.0,
-   "volume_pace": 9.44,
+   "volume_pace": 0.27,
    "rising": false,
    "rising_since": null
   }
@@ -1308,9 +1296,9 @@
    "ma200": 967.38,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-10-30T18:35:00+00:00",
-    "last": 797.86,
-    "pct_day": -3.48
+    "as_of": "2026-10-30T19:05:00+00:00",
+    "last": 799.39,
+    "pct_day": -3.3
    }
   },
   "^GSPTSE": {
@@ -1909,9 +1897,9 @@
    "ma200": 34567.28,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-10-30T18:35:00+00:00",
-    "last": 35331.37,
-    "pct_day": -2.53
+    "as_of": "2026-10-30T19:05:00+00:00",
+    "last": 35386.89,
+    "pct_day": -2.38
    }
   }
  },
