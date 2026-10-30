@@ -1,9 +1,9 @@
-# Stock feed — 2026-10-30T13:01-06:00
+# Stock feed — 2026-10-30T13:31-06:00
 
-Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 675 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-29. Intraday data as of: 2026-10-30T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -3.3% at 19:05
-Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -2.4% at 19:05
+Market: S&P/TSX Venture Composite 826.64 on 2026-10-29 (day -1.5%, month -6.8%, year -13.5%, downtrend); live -2.9% at 19:35
+Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year +19.2%, uptrend); live -2.2% at 19:35
 
 # TSX Venture
 
@@ -42,16 +42,16 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- ADE.V (ADEX MINING INC.): +40.0% at 0.14, volume pace 13.0x
+- PINK.V (PERIMETER MEDICAL IMAGING AI IN): +29.6% at 0.175, volume pace 4.37x
 - ZNX.V (ZINCX RESOURCES CORP): +20.7% at 0.35, volume pace 1.06x
 - ANOR.V (ANORTECH INC): +16.7% at 0.14, volume pace 0.34x
-- ADE.V (ADEX MINING INC.): +15.0% at 0.115, volume pace 2.03x
-- PINK.V (PERIMETER MEDICAL IMAGING AI IN): +11.1% at 0.15, volume pace 4.2x
+- DGC.V (DAURA GOLD CORP): +10.9% at 0.255, volume pace 3.54x
 - VTX.V (VERTEX RESOURCE GROUP LTD): +10.0% at 0.22, volume pace 3.07x
 - BEAR.V (BIG BEAR GOLD CORP): +10.0% at 0.11, volume pace 0.0x
 - FOXT.V (FOX TUNGSTEN LTD): +9.1% at 0.12, volume pace 0.1x
 - PJX.V (PJX RESOURCES INC): +8.7% at 0.125, volume pace 0.34x
-- MERG.V (METAL ENERGY CORP): +8.1% at 0.4, volume pace 0.88x
-- ZAU.V (ZODIAC GOLD INC): +7.4% at 0.29, volume pace 1.47x
+- MERG.V (METAL ENERGY CORP): +8.1% at 0.4, volume pace 0.85x
 
 # TSX
 
@@ -85,11 +85,11 @@ Market: S&P/TSX Composite 36,249.03 on 2026-10-29 (day -0.0%, month +2.2%, year 
 
 - EDT.TO (SPECTRAL MEDICAL INC): +10.8% at 1.03, volume pace 1.99x
 - AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.0x
-- HAI.TO (HAIVISION SYSTEMS INC): +6.4% at 3.82, volume pace 1.07x
-- TAL.TO (PETROTAL CORP): +5.4% at 0.59, volume pace 0.83x
+- HAI.TO (HAIVISION SYSTEMS INC): +8.6% at 3.9, volume pace 1.16x
+- TAL.TO (PETROTAL CORP): +5.4% at 0.59, volume pace 0.81x
 - LOVE.TO (CANNARA BIOTECH INC): +3.6% at 2.01, volume pace 2.65x
-- ECO.TO (ECOSYNTHETIX INC): +2.8% at 1.46, volume pace 0.52x
-- CLCH.TO (CLINCH RESOURCES LTD): +2.8% at 1.12, volume pace 4.64x
-- GRA.TO (NANOXPLORE INC): +2.4% at 1.28, volume pace 1.2x
-- ELR.TO (EASTERN PLATINUM LIMITED): +2.4% at 0.215, volume pace 2.04x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.27x
+- GRA.TO (NANOXPLORE INC): +2.4% at 1.28, volume pace 1.5x
+- ELR.TO (EASTERN PLATINUM LIMITED): +2.4% at 0.215, volume pace 1.96x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +2.1% at 0.98, volume pace 0.26x
+- HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +1.9% at 0.53, volume pace 5.07x
+- CLCH.TO (CLINCH RESOURCES LTD): +1.8% at 1.11, volume pace 4.48x
