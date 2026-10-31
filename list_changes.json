@@ -14,6 +14,13 @@
    "action": "add",
    "name": "NORTHWEST COPPER CORP",
    "at": "2026-10-31T02:13+00:00"
+  },
+  {
+   "id": 7,
+   "ticker": "CWEB.TO",
+   "action": "remove",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "at": "2026-10-31T02:13+00:00"
   }
  ]
 }
