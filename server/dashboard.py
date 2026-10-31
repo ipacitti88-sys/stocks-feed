@@ -312,6 +312,14 @@ def main() -> int:
             print(f"live alerts unavailable: {e}", file=sys.stderr)
             conn.rollback()
             live_al = None
+        try:  # washout watch (see washout.py), with each market's 10-year result after real spreads
+            import washout
+            wash = washout.scan(conn)
+            wash["lab"] = {m: washout.lab_result(m) for m in ("tsx", "tsxv")}
+        except Exception as e:
+            print(f"washout watch unavailable: {e}", file=sys.stderr)
+            conn.rollback()
+            wash = None
         try:
             import benchmarks
             bench = benchmarks.summary(conn)
@@ -405,6 +413,9 @@ def main() -> int:
             "cost": cost,
             "score": score,
             "liveAlerts": live_al,
+            "washout": wash and {"date": wash["date"], "lab": wash["lab"].get(key),
+                                 "fired": [x for x in wash["fired"] if x["market"] == key],
+                                 "watch": [x for x in wash["watch"] if x["market"] == key]},
         }
         nav = '<nav class="mkt">' + "".join(
             f'<a href="{pg}"{" class=on" if k == key else ""}>{lb}</a>' for k, lb, pg, _ in MARKETS) + "</nav>"

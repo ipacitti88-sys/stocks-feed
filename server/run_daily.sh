@@ -7,6 +7,7 @@ cd "$(dirname "$0")" || exit 1
   ./venv/bin/python discover.py || echo "discover failed; continuing with existing watchlist"
   [ -d "$HOME/stocks-feed/.git" ] && ./venv/bin/python sync_requests.py
   ./venv/bin/python load_history.py --period 5d && ./venv/bin/python screen.py
+  ./venv/bin/python washout.py --alert || echo "washout check failed; continuing"
   ./venv/bin/python intraday_archive.py || echo "5-minute archive failed; continuing"
   flock /tmp/stocks-news.lock ./venv/bin/python news.py --hot || echo "news check failed; continuing"
   ./venv/bin/python export_bars.py || echo "1-day chart export failed; continuing"

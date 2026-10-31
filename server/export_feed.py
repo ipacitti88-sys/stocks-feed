@@ -65,6 +65,13 @@ def collect():
             breakouts.sort(key=lambda x: -(x["rel_vol"] or 0))
         except Exception as e:
             print(f"breakout scan failed: {e}", file=sys.stderr)
+        try:  # washout watch: fired at the last close, plus stocks down 15%+ in 5 days (see washout.py)
+            import washout
+            wash = washout.scan(conn)
+        except Exception as e:
+            print(f"washout scan failed: {e}", file=sys.stderr)
+            conn.rollback()
+            wash = {"fired": [], "watch": []}
         try:
             import benchmarks
             bench = benchmarks.summary(conn)
@@ -103,7 +110,8 @@ def collect():
                 tracked_by_market={"tsxv": int(tracked - tracked_tsx), "tsx": int(tracked_tsx)},
                 flagged=flagged, top_rel_volume=by_relvol,
                 live_as_of=live_as_of, rising=rising, top_gainers_today=gainers,
-                benchmarks=bench, breakouts=breakouts)
+                benchmarks=bench, breakouts=breakouts,
+                washouts=wash.get("fired", []), washout_watch=wash.get("watch", []))
 
 
 PRICES_SQL = """
@@ -168,6 +176,13 @@ def to_markdown(f):
         L += [f"## {label}: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)", ""]
         L += [f"- {b['ticker']} ({b['name']}): close {b['close']}, volume {fmt(b['rel_vol'], 'x')}"
               for b in mine(f.get("breakouts"))] or ["- none"]
+        L += ["", f"## {label}: washouts at last close (down 20%+ over 5 days, then an up day on above-normal volume; hold ~20 days)", ""]
+        L += [f"- {x['ticker']} ({x['name']}): close {x['close']}, 5d {fmt(x['pct_5d'], '%')}, day {fmt(x['pct_day'], '%')}, "
+              f"rel vol {fmt(x['rel_vol'], 'x')}" for x in mine(f.get("washouts"))] or ["- none"]
+        L += ["", f"## {label}: washout watch (down 15%+ over 5 days, not fired yet; ready = already down 20%+)", ""]
+        L += [f"- {x['ticker']} ({x['name']}): close {x['close']}, 5d {fmt(x['pct_5d'], '%')}"
+              f"{', ready' if x.get('ready') else ''}, C${(x['dollars_day'] or 0) / 1000:,.0f}k a day"
+              for x in mine(f.get("washout_watch"))] or ["- none"]
         L += ["", f"## {label}: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)", ""]
         L += [f"- {s['ticker']} ({s['name']}): {s['signals']}/3, close {s['close']}, rel vol {fmt(s['rel_vol'], 'x')}, "
               f"20d {fmt(s['pct_20d'], '%')}, {fmt(s['from_52w_high'], '%')} vs 52w high" for s in mine(f["flagged"])] or ["- none"]

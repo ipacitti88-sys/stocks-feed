@@ -5,7 +5,9 @@ Alerts during the trading day, pushed to your phone (see notify.py).
 intraday.py calls check() after every 5-minute pass. It sends a notification when:
   - a stock with a buy level trades at or below it      ("buy")
   - a stock with a stop-loss trades at or below it      ("stop")
-  - a stock on my list starts Rising (up 3%+, still climbing, heavy volume)  ("rising")
+  - a stock on my list starts Rising (up 3%+, still climbing, heavy volume)  ("rising"),
+    only if RISING_ALERTS=1 in stocks.env. Off by default since Oct 30, 2026: three months
+    of live Rising flags lost money on average, behind buying any liquid stock at the same time.
 
 The levels are the terminal's price alerts, with any you set on the webpage applied
 (mylist.alert_levels). Prices are Yahoo's, about 15 minutes delayed. Each alert fires
@@ -30,12 +32,13 @@ import notify
 
 ET = ZoneInfo("America/Toronto")
 CLICK = os.environ.get("DASHBOARD_URL", "")
+RISING = os.environ.get("RISING_ALERTS", "0").strip().lower() in ("1", "yes", "true", "on")
 
 CREATE_SQL = """
 CREATE TABLE IF NOT EXISTS live_alerts (
     trade_date DATE NOT NULL,
     ticker     TEXT NOT NULL,
-    kind       TEXT NOT NULL,          -- buy, stop or rising
+    kind       TEXT NOT NULL,          -- buy, stop, rising or washout (washout.py)
     level      NUMERIC(14,4),
     price      NUMERIC(14,4),
     pct_day    NUMERIC(8,2),
@@ -87,7 +90,7 @@ def check(conn, today: dt.date | None = None) -> list[dict]:
             lvl = a.get(kind)
             if lvl and last <= float(lvl):
                 cand.append({"ticker": t, "kind": kind, "level": float(lvl), "price": last, "pct_day": pday, "pace": pace})
-    for t in mine:
+    for t in (mine if RISING else ()):
         q = quotes.get(t)
         if q and q[3]:
             cand.append({"ticker": t, "kind": "rising", "level": None, "price": q[0], "pct_day": q[1], "pace": q[2]})
@@ -138,7 +141,8 @@ def main() -> int:
             for at, t, k, lvl, p, sent in rows:
                 print(f"  {at.astimezone(ET):%H:%M} ET  {t:10} {k:6} price {p}  level {lvl or '-'}  {'sent' if sent else 'not sent'}")
             levels = mylist.alert_levels(conn)
-            print(f"{len(levels)} stock(s) with buy or stop-loss levels.")
+            print(f"{len(levels)} stock(s) with buy or stop-loss levels. "
+                  f"Rising alerts {'on' if RISING else 'off (RISING_ALERTS=1 turns them back on)'}.")
             return 0
         new = check(conn)
         print(f"{len(new)} new alert(s)." + "".join("\n  " + line(c) for c in new))

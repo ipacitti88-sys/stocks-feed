@@ -81,6 +81,7 @@ h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
 .card h2 { font-size: 14px; margin: 0; padding: 14px 16px 10px; }
 .section { margin-bottom: 16px; }
 
+.wnote { margin: 0; padding: 0 16px 12px; font-size: 13px; color: var(--text-2); max-width: 80ch; }
 .flagged { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; padding: 0 16px 16px; }
 .fcard { text-align: left; border: 1px solid var(--border); background: var(--surface-2); border-radius: 10px; padding: 10px 12px; cursor: pointer; color: inherit; font: inherit; }
 .fcard:hover, .fcard:focus-visible { border-color: var(--series-1); outline: none; }
@@ -335,6 +336,12 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
     <div class="flagged" id="rising"></div>
   </div>
 
+  <div class="card section" id="washCard" hidden>
+    <h2>Washout watch</h2>
+    <p class="wnote" id="washNote"></p>
+    <div class="flagged" id="washout"></div>
+  </div>
+
   <div class="card section">
     <h2>Flagged today</h2>
     <div class="flagged" id="flagged"></div>
@@ -567,6 +574,29 @@ function renderFlagged() {
       <div class="nm">${esc(s.n)}</div>
       <div class="row"><span>${s.s}/3 signals</span><span>vol ${fmtX(s.rv)}</span><span class="${cls(s.p20)}">${fmtPct(s.p20)}</span></div>
     </button>`).join('');
+  el.querySelectorAll('.fcard').forEach((b) => b.addEventListener('click', () => select(b.dataset.t, true)));
+}
+
+// ---------- washout watch ----------
+function renderWashout() {
+  const W = DATA.washout;
+  if (!W) return;
+  $('washCard').hidden = false;
+  const L = W.lab;
+  $('washNote').textContent = 'Down 20%+ over 5 days, then an up day on above-normal volume. '
+    + (L ? `Over 10 years here: ${L.avg >= 0 ? '+' : ''}${L.avg.toFixed(1)}% a trade after real spreads (${L.exit}, no tight stop, ${L.n} trades)`
+         + (L.avg < 0 ? ', so it loses money in this market.' : '; held 1–5 days it lost money.') : '')
+    + ' Watch = down 15%+, not fired yet; ready = already down 20%+, one up day on normal volume fires it.';
+  const card = (x, fired) => `
+    <button class="fcard" data-t="${esc(x.ticker)}" type="button">
+      <div style="display:flex;justify-content:space-between"><span class="tk">${esc(x.ticker)}</span><span>${fmtPrice(x.close)}</span></div>
+      <div class="nm">${esc(x.name)}</div>
+      <div class="row"><span class="${fired ? 'pos' : ''}">${fired ? '● Fired' : x.ready ? 'Ready' : 'Watch'}</span><span class="neg">5d ${fmtPct(x.pct_5d)}</span><span>${fired ? 'vol ' + fmtX(x.rel_vol) : 'C$' + Math.round((x.dollars_day || 0) / 1000).toLocaleString() + 'k/day'}</span></div>
+    </button>`;
+  const el = $('washout');
+  const html = W.fired.map((x) => card(x, true)).join('') + W.watch.map((x) => card(x, false)).join('');
+  if (!html) { el.innerHTML = '<div class="empty" style="padding:0">No liquid stock is down 15%+ over the last 5 days.</div>'; return; }
+  el.innerHTML = html;
   el.querySelectorAll('.fcard').forEach((b) => b.addEventListener('click', () => select(b.dataset.t, true)));
 }
 
@@ -1302,7 +1332,7 @@ function renderPaper() {
 
 function renderLiveAlerts() {
   const LA = DATA.liveAlerts;
-  const kind = { buy: 'at or below your buy level', stop: 'below your stop-loss', rising: 'started rising' };
+  const kind = { buy: 'at or below your buy level', stop: 'below your stop-loss', rising: 'started rising', washout: 'washout at the close' };
   $('ppLive').innerHTML = !LA ? 'Appears after your server\'s next update.'
     : (LA.list || []).length ? LA.list.slice(0, 12).map((a) => `${esc(dayLabel(String(a.at).slice(0, 10)))} ${esc(timeLabel(a.at))} · <strong>${esc(a.t)}</strong> ${fmtPrice(a.p)}, ${kind[a.k] || esc(a.k)}${a.lvl ? ' ' + fmtPrice(a.lvl) : ''}${a.sent ? '' : ' <span class="pend">not sent</span>'}`).join('<br>')
     : (LA.on ? 'None in the last week.' : 'Phone notifications are off. Set NTFY_TOPIC in ~/stocks/stocks.env (see the README).');
@@ -1537,6 +1567,7 @@ if (!DATA) {
 } else {
   renderHeader();
   renderRising();
+  renderWashout();
   renderFlagged();
   renderTable();
   renderTerminalViews();

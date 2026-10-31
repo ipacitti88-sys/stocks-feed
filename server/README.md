@@ -17,7 +17,7 @@ The scanner only flags stocks trading enough **dollars** a day (20-day average v
 | When (server time) | Script | What it does |
 |---|---|---|
 | Weekdays, every 5 min | run_intraday.sh | Live scan, Rising flags (logged to `rising_log`), phone alerts, webpage; GitHub feed every 30 min |
-| Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, save 5-minute bars, dashboard, feed |
+| Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, washout alerts, save 5-minute bars, dashboard, feed |
 | Weekdays 6:30 am | run_news.sh | Latest headlines for every stock (Yahoo, then Google News), published for the webpage and terminal |
 | Saturday 8:00 am | run_weekly.sh | New listings, pattern study (`patterns.json`), signal lab (`signal_lab.json`) |
 | Daily 7:35 am and 9:30 pm | run_backup.sh | Load the terminal's backup (notes, picks, memes, track record, paper account) and rebuild the webpage |
@@ -39,12 +39,27 @@ The webpage's Track record, Reports, Meme stocks and Paper account tabs show the
 
 ## Phone alerts during the day (ntfy)
 
-`live_alerts.py` runs after every 5-minute intraday pass and pushes a notification when a stock reaches your buy level or stop-loss, or when a stock on your list starts Rising. Prices are Yahoo's, about 15 minutes delayed; each alert fires once per stock and kind per day. The terminal still messages you at the close as before.
+`live_alerts.py` runs after every 5-minute intraday pass and pushes a notification when a stock reaches your buy level or stop-loss. Prices are Yahoo's, about 15 minutes delayed; each alert fires once per stock and kind per day. The terminal still messages you at the close as before.
+
+Rising alerts (a stock on your list up 3%+, still climbing, on heavy volume) are **off** since Oct 30, 2026: in three months of live flags they lost money on average and did worse than buying any liquid stock at the same moment. The Rising list itself stays on the webpage, in the feed and in `rising_log`, so the scoreboard keeps grading it. `RISING_ALERTS=1` in stocks.env turns the alerts back on.
+
+After the close, `washout.py --alert` (in run_daily.sh) also pushes a notification for each new washout (below).
 
 Notifications go through [ntfy](https://ntfy.sh), a free push service: install the ntfy app and subscribe to the topic in `NTFY_TOPIC` (stocks.env; `stocks-update` created a private one). Anyone who knows the topic name can read it, so keep it to yourself. Empty `NTFY_TOPIC` turns them off. Optional: `DASHBOARD_URL` (opened when you tap a notification), `NTFY_URL` (your own ntfy server).
 
     ./venv/bin/python notify.py --test       # send a test notification
     ./venv/bin/python live_alerts.py --status
+
+## Washout watch
+
+The signal lab's strongest TSX signal after real bid/ask spreads is "Bounce after a sharp drop": down 20%+ over 5 trading days, then an up day on above-normal volume. Over 10 years it averaged about +5.6% a trade, but only held about 20 trading days with no tight stop; held 1 to 5 days it lost money. On the TSX Venture it loses money after spreads.
+
+It needs a 20% drop first, so it fires with no warning. `washout.py` lists, for the last close, every liquid stock (C$50k a day, C$0.10-5.00) where it **fired**, and a **watch** list of stocks down 15%+ over 5 days that haven't fired yet (**ready** = already down 20%+, so one up day on normal volume fires it). Both show in the Scanner tab's Washout watch card and in the feed (`latest.md`, `latest.json`: `washouts`, `washout_watch`).
+
+A phone alert goes out for each new TSX washout at the close (once per stock per day). `WASHOUT_ALERT_MARKETS` in stocks.env picks the markets: `tsx` (default), `tsx,tsxv`, or empty for none.
+
+    ./venv/bin/python washout.py           # both lists
+    ./venv/bin/python washout.py --alert   # and send any new alerts
 
 ## Weekly picks scorecard
 
