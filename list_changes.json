@@ -21,6 +21,13 @@
    "action": "remove",
    "name": "CHARLOTTES WEB HOLDINGS INC",
    "at": "2026-10-31T02:13+00:00"
+  },
+  {
+   "id": 8,
+   "ticker": "HSTR.TO",
+   "action": "remove",
+   "name": "HELIOSTAR METALS LTD",
+   "at": "2026-10-31T02:13+00:00"
   }
  ]
 }
