@@ -7,6 +7,13 @@
    "action": "add",
    "name": "PULSAR HELIUM INC",
    "at": "2026-10-31T02:13+00:00"
+  },
+  {
+   "id": 6,
+   "ticker": "NWST.V",
+   "action": "add",
+   "name": "NORTHWEST COPPER CORP",
+   "at": "2026-10-31T02:13+00:00"
   }
  ]
 }
