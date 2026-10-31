@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T20:13-06:00",
+ "generated": "2026-10-30T20:14-06:00",
  "changes": [
   {
    "id": 5,
@@ -35,6 +35,13 @@
    "action": "remove",
    "name": "Real Matters",
    "at": "2026-10-31T02:13+00:00"
+  },
+  {
+   "id": 10,
+   "ticker": "CLCH.TO",
+   "action": "add",
+   "name": "CLINCH RESOURCES LTD",
+   "at": "2026-10-31T02:14+00:00"
   }
  ]
 }
