@@ -1,4 +1,12 @@
 {
- "generated": "2026-10-30T15:26-06:00",
- "changes": []
+ "generated": "2026-10-30T20:13-06:00",
+ "changes": [
+  {
+   "id": 5,
+   "ticker": "PLSR.V",
+   "action": "add",
+   "name": "PULSAR HELIUM INC",
+   "at": "2026-10-31T02:13+00:00"
+  }
+ ]
 }
