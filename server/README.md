@@ -17,7 +17,7 @@ The scanner only flags stocks trading enough **dollars** a day (20-day average v
 | When (server time) | Script | What it does |
 |---|---|---|
 | Weekdays, every 5 min | run_intraday.sh | Live scan, Rising flags (logged to `rising_log`), phone alerts, webpage; GitHub feed every 30 min |
-| Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, washout alerts, save 5-minute bars, dashboard, feed |
+| Weekdays 3:15 pm | run_daily.sh | Find new TSXV stocks, daily prices, screen, washout alerts, save 5-minute bars, dashboard, feed, weekly recap |
 | Weekdays 6:30 am | run_news.sh | Latest headlines for every stock (Yahoo, then Google News), published for the webpage and terminal |
 | Saturday 8:00 am | run_weekly.sh | New listings, pattern study (`patterns.json`), signal lab (`signal_lab.json`) |
 | Daily 7:35 am and 9:30 pm | run_backup.sh | Load the terminal's backup (notes, picks, memes, track record, paper account) and rebuild the webpage |
@@ -60,6 +60,12 @@ A phone alert goes out for each new TSX washout at the close (once per stock per
 
     ./venv/bin/python washout.py           # both lists
     ./venv/bin/python washout.py --alert   # and send any new alerts
+
+## Weekly recap tab
+
+`weekly_recap.py` runs at the end of run_daily.sh, after the feed is written, and builds `web/recap.html`, shown in the webpage's **Weekly recap** tab. It covers the week so far: TSX setups with each stock's own spread, how this week's breakouts did 1 and 5 days later against the index, and every live flag logged as a paper trade next to its 10-year backtest. The paper trades are kept in `~/recap/ledger.json`; keep that file, since it holds the live record.
+
+    ./venv/bin/python weekly_recap.py ~/stocks-feed web/recap.html ~/recap/ledger.json
 
 ## Weekly picks scorecard
 

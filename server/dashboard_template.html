@@ -280,6 +280,7 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
     <button type="button" role="tab" data-v="rep">Reports</button>
     <button type="button" role="tab" data-v="meme">Meme stocks</button>
     <button type="button" role="tab" data-v="paper">Paper account</button>
+    <button type="button" role="tab" data-v="recap">Weekly recap</button>
   </nav>
 
   <div data-view="dash" hidden>
@@ -469,6 +470,11 @@ details.more-note summary { cursor: pointer; color: var(--text-2); font-size: 12
       <div class="navrow" id="mmNav" role="group" aria-label="Night"></div>
       <div id="mmBody"></div>
     </div>
+  </div>
+
+  <div data-view="recap" hidden>
+    <div class="card section" id="recapEmpty" hidden><div class="empty" style="padding:16px">The weekly recap appears after the server's next daily run (weekdays 3:15 pm).</div></div>
+    <iframe id="recapFrame" title="Weekly recap" style="display:block;width:100%;height:80vh;border:0;border-radius:12px;background:var(--surface)" hidden></iframe>
   </div>
 
   <div data-view="paper" hidden>
@@ -1534,6 +1540,24 @@ $('views').parentNode.addEventListener('click', (e) => {
   if (g) { showView(g.dataset.go); window.scrollTo({ top: 0 }); }
 });
 
+// ----- weekly recap tab: recap.html, built by run_daily.sh next to this page -----
+let recapLoaded = false;
+function loadRecap() {
+  if (recapLoaded) return;
+  recapLoaded = true;
+  const f = $('recapFrame');
+  const fit = () => { try { const d = f.contentDocument; if (d && d.body) f.style.height = d.documentElement.scrollHeight + 'px'; } catch (e) {} };
+  f.addEventListener('load', () => {
+    let ok = true;
+    try { ok = !!(f.contentDocument && f.contentDocument.querySelector('section')); } catch (e) {}
+    if (!ok) { f.hidden = true; $('recapEmpty').hidden = false; return; }
+    fit(); setTimeout(fit, 300);
+    try { new ResizeObserver(fit).observe(f.contentDocument.body); } catch (e) {}
+  });
+  f.hidden = false;
+  f.src = 'recap.html?' + Date.now();
+}
+
 // ----- section tabs -----
 let view = 'dash';
 try { view = localStorage.getItem('view') || 'dash'; } catch (e) {}
@@ -1548,6 +1572,7 @@ function showView(v) {
       if (first) select(first, false);
     }
   } else if (v === 'scan') DETAIL_HOME.appendChild($('detailCard'));
+  else if (v === 'recap') loadRecap();
   document.querySelectorAll('[data-view]').forEach((el) => { el.hidden = el.dataset.view !== v; });
   document.querySelectorAll('#views button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.v === v)));
   try { localStorage.setItem('view', v); } catch (e) {}

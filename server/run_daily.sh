@@ -14,4 +14,5 @@ cd "$(dirname "$0")" || exit 1
   flock -n /tmp/stocks-research.lock ./venv/bin/python universe.py --daily || echo "universe update skipped"
   ./venv/bin/python dashboard.py
   [ -d "$HOME/stocks-feed/.git" ] && ./venv/bin/python export_feed.py
+  [ -d "$HOME/stocks-feed/history" ] && ./venv/bin/python weekly_recap.py "$HOME/stocks-feed" "${WEB_DIR:-$PWD/web}/recap.html" "$HOME/recap/ledger.json" || echo "weekly recap failed; continuing"
 } >> logs/daily.log 2>&1

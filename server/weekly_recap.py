@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """Build the Weekly Market Recap page from a clone of ipacitti88-sys/stocks-feed.
 
-Usage: python3 weekly_recap.py <path-to-stocks-feed-clone> <output.html>
+Usage: python3 weekly_recap.py <path-to-stocks-feed-clone> <output.html> [ledger.json]
 Reads history/*.md, prices.json, signal_lab*.json, patterns*.json.
-Writes ledger.json (every live signal as a paper trade) next to the output file.
-Keep that ledger.json between runs (or commit it): old entries are kept and open ones updated.
+Writes the ledger (every live signal as a paper trade) to the third argument, or next to
+the output file. Keep it between runs: old entries are kept and open ones updated.
+run_daily.sh builds it into the webpage's Weekly recap tab (web/recap.html, ledger in ~/recap).
 """
 import json, re, sys, os, glob, html, math
 from datetime import date, timedelta, datetime
 
 repo, out = sys.argv[1], sys.argv[2]
+ledger_arg = sys.argv[3] if len(sys.argv) > 3 else None
 J = lambda f: json.load(open(os.path.join(repo, f)))
 E = html.escape
 
@@ -207,7 +209,8 @@ KIND = (("washout", "washout"), ("breakout", "breakout"), ("flag", "flagged"), (
 def sig_key(kind):   # "top by relative volume" / "top gainers" are rankings, not signals
     k = kind.lower()
     return None if k.startswith("top") else next((v for s, v in KIND if s in k), None)
-ledger_path = os.path.join(os.path.dirname(os.path.abspath(out)), "ledger.json")
+ledger_path = ledger_arg or os.path.join(os.path.dirname(os.path.abspath(out)), "ledger.json")
+os.makedirs(os.path.dirname(os.path.abspath(ledger_path)), exist_ok=True)
 try: ledger = {e["id"]: e for e in json.load(open(ledger_path))}
 except (OSError, ValueError): ledger = {}
 for d, _ in dated:
