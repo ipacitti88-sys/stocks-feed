@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T13:01-07:00",
+ "generated": "2026-11-02T13:31-07:00",
  "last_close_day": "2026-10-30",
  "tracked": 678,
  "tracked_by_market": {
@@ -475,7 +475,7 @@
    "added": "2026-10-22"
   }
  ],
- "live_as_of": "2026-11-02T20:05:00+00:00",
+ "live_as_of": "2026-11-02T20:35:00+00:00",
  "rising": [
   {
    "ticker": "TECT.V",
@@ -484,42 +484,75 @@
    "last": 1.52,
    "pct_day": 10.95,
    "pct_30m": 3.4,
-   "volume_pace": 2.08,
+   "volume_pace": 2.18,
    "rising": true,
    "rising_since": "2026-11-02T20:05:00+00:00"
   },
   {
-   "ticker": "PCU.V",
-   "name": "PECOY COPPER CORP",
-   "as_of": "2026-11-02T20:00:00+00:00",
-   "last": 2.0,
-   "pct_day": 9.89,
-   "pct_30m": 1.01,
-   "volume_pace": 1.74,
+   "ticker": "MFG.V",
+   "name": "MAYFAIR GOLD CORP",
+   "as_of": "2026-11-02T20:35:00+00:00",
+   "last": 3.39,
+   "pct_day": 9.35,
+   "pct_30m": 0.59,
+   "volume_pace": 5.64,
    "rising": true,
-   "rising_since": "2026-11-02T20:00:00+00:00"
+   "rising_since": "2026-11-02T20:05:00+00:00"
+  },
+  {
+   "ticker": "GG.V",
+   "name": "GOLCONDA GOLD LTD",
+   "as_of": "2026-11-02T20:25:00+00:00",
+   "last": 3.24,
+   "pct_day": 8.72,
+   "pct_30m": 0.31,
+   "volume_pace": 2.81,
+   "rising": true,
+   "rising_since": "2026-11-02T20:25:00+00:00"
   },
   {
    "ticker": "ALDE.V",
    "name": "ALDEBARAN RESOURCES INC",
-   "as_of": "2026-11-02T20:00:00+00:00",
-   "last": 3.49,
-   "pct_day": 5.44,
-   "pct_30m": 0.29,
-   "volume_pace": 1.97,
+   "as_of": "2026-11-02T20:05:00+00:00",
+   "last": 3.5,
+   "pct_day": 5.74,
+   "pct_30m": 0.57,
+   "volume_pace": 1.95,
    "rising": true,
    "rising_since": "2026-11-02T20:00:00+00:00"
   },
   {
+   "ticker": "FPC.V",
+   "name": "FALCO RESOURCES LTD",
+   "as_of": "2026-11-02T20:25:00+00:00",
+   "last": 0.43,
+   "pct_day": 4.88,
+   "pct_30m": 2.38,
+   "volume_pace": 2.09,
+   "rising": true,
+   "rising_since": "2026-11-02T20:20:00+00:00"
+  },
+  {
    "ticker": "MOLY.TO",
    "name": "GREENLAND RESOURCES INC",
-   "as_of": "2026-11-02T20:00:00+00:00",
-   "last": 1.405,
-   "pct_day": 3.31,
+   "as_of": "2026-11-02T20:30:00+00:00",
+   "last": 1.41,
+   "pct_day": 3.68,
    "pct_30m": 0.36,
-   "volume_pace": 8.76,
+   "volume_pace": 8.06,
    "rising": true,
-   "rising_since": "2026-11-02T20:00:00+00:00"
+   "rising_since": "2026-11-02T20:25:00+00:00"
+  },
+  {
+   "ticker": "CAM.V",
+   "name": "CASCADIA MINERALS LTD",
+   "as_of": "2026-11-02T20:30:00+00:00",
+   "last": 0.43,
+   "pct_day": 3.61,
+   "pct_30m": 1.18,
+   "volume_pace": 1.64,
+   "rising": true,
+   "rising_since": "2026-11-02T20:25:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -537,11 +570,11 @@
   {
    "ticker": "HMR.V",
    "name": "HOMERUN RESOURCES INC",
-   "as_of": "2026-11-02T20:00:00+00:00",
+   "as_of": "2026-11-02T20:05:00+00:00",
    "last": 0.49,
    "pct_day": 30.67,
-   "pct_30m": 4.26,
-   "volume_pace": 2.45,
+   "pct_30m": -2.0,
+   "volume_pace": 2.47,
    "rising": false,
    "rising_since": null
   },
@@ -553,17 +586,6 @@
    "pct_day": 26.67,
    "pct_30m": 0.0,
    "volume_pace": 0.28,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "VCV.V",
-   "name": "VATIC VENTURES CORP",
-   "as_of": "2026-11-02T20:00:00+00:00",
-   "last": 0.105,
-   "pct_day": 23.53,
-   "pct_30m": 5.0,
-   "volume_pace": 0.64,
    "rising": false,
    "rising_since": null
   },
@@ -592,11 +614,22 @@
   {
    "ticker": "UCU.V",
    "name": "UCORE RARE METALS INC",
-   "as_of": "2026-11-02T20:00:00+00:00",
+   "as_of": "2026-11-02T20:30:00+00:00",
    "last": 2.4,
    "pct_day": 17.65,
    "pct_30m": 0.0,
-   "volume_pace": 2.55,
+   "volume_pace": 2.56,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VCV.V",
+   "name": "VATIC VENTURES CORP",
+   "as_of": "2026-11-02T20:15:00+00:00",
+   "last": 0.1,
+   "pct_day": 17.65,
+   "pct_30m": 0.0,
+   "volume_pace": 0.73,
    "rising": false,
    "rising_since": null
   },
@@ -614,11 +647,11 @@
   {
    "ticker": "OZ.V",
    "name": "VALKEA RESOURCES CORP",
-   "as_of": "2026-11-02T19:15:00+00:00",
+   "as_of": "2026-11-02T20:10:00+00:00",
    "last": 0.28,
    "pct_day": 16.67,
-   "pct_30m": 3.7,
-   "volume_pace": 37.41,
+   "pct_30m": 0.0,
+   "volume_pace": 31.42,
    "rising": false,
    "rising_since": null
   },
@@ -658,77 +691,66 @@
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-02T20:00:00+00:00",
+   "as_of": "2026-11-02T20:30:00+00:00",
    "last": 1.63,
    "pct_day": 10.88,
-   "pct_30m": 0.31,
-   "volume_pace": 0.73,
+   "pct_30m": 0.0,
+   "volume_pace": 0.72,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PCA.TO",
    "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-11-02T20:00:00+00:00",
+   "as_of": "2026-11-02T20:35:00+00:00",
    "last": 1.24,
    "pct_day": 9.73,
    "pct_30m": 0.0,
-   "volume_pace": 3.11,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SBI.TO",
-   "name": "SERABI GOLD PLC",
-   "as_of": "2026-11-02T19:55:00+00:00",
-   "last": 3.56,
-   "pct_day": 9.54,
-   "pct_30m": 0.85,
-   "volume_pace": 0.35,
+   "volume_pace": 2.92,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "S.TO",
    "name": "SHERRITT INTL RV",
-   "as_of": "2026-11-02T19:55:00+00:00",
+   "as_of": "2026-11-02T20:25:00+00:00",
    "last": 0.23,
    "pct_day": 9.52,
    "pct_30m": 0.0,
-   "volume_pace": 0.75,
+   "volume_pace": 0.69,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SBI.TO",
+   "name": "SERABI GOLD PLC",
+   "as_of": "2026-11-02T20:10:00+00:00",
+   "last": 3.55,
+   "pct_day": 9.23,
+   "pct_30m": 0.57,
+   "volume_pace": 0.52,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TSND.TO",
    "name": "TERRASCEND CORP",
-   "as_of": "2026-11-02T19:30:00+00:00",
+   "as_of": "2026-11-02T20:30:00+00:00",
    "last": 0.72,
    "pct_day": 9.09,
-   "pct_30m": -3.36,
-   "volume_pace": 1.83,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SAM.TO",
-   "name": "STARCORE INTERNATIONAL MINES LT",
-   "as_of": "2026-11-02T19:35:00+00:00",
-   "last": 0.27,
-   "pct_day": 8.0,
-   "pct_30m": -3.57,
-   "volume_pace": 0.44,
+   "pct_30m": 0.0,
+   "volume_pace": 1.53,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "FURY.TO",
    "name": "FURY GOLD MINES LIMITED",
-   "as_of": "2026-11-02T19:55:00+00:00",
+   "as_of": "2026-11-02T20:30:00+00:00",
    "last": 0.68,
    "pct_day": 7.94,
-   "pct_30m": -1.45,
-   "volume_pace": 1.63,
+   "pct_30m": 0.0,
+   "volume_pace": 1.49,
    "rising": false,
    "rising_since": null
   },
@@ -740,6 +762,17 @@
    "pct_day": 7.5,
    "pct_30m": -2.27,
    "volume_pace": 0.11,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AMC.TO",
+   "name": "ARIZONA METALS CORP",
+   "as_of": "2026-11-02T20:25:00+00:00",
+   "last": 0.155,
+   "pct_day": 6.9,
+   "pct_30m": 0.0,
+   "volume_pace": 1.89,
    "rising": false,
    "rising_since": null
   }
@@ -1341,9 +1374,9 @@
    "ma200": 965.95,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-02T20:05:00+00:00",
-    "last": 799.71,
-    "pct_day": -0.51
+    "as_of": "2026-11-02T20:35:00+00:00",
+    "last": 801.75,
+    "pct_day": -0.25
    }
   },
   "^GSPTSE": {
@@ -1942,9 +1975,9 @@
    "ma200": 34580.8,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-02T20:05:00+00:00",
-    "last": 35885.99,
-    "pct_day": 0.75
+    "as_of": "2026-11-02T20:35:00+00:00",
+    "last": 35869.57,
+    "pct_day": 0.7
    }
   }
  },
