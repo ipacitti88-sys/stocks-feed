@@ -1,47 +1,4 @@
 {
- "generated": "2026-10-30T20:14-06:00",
- "changes": [
-  {
-   "id": 5,
-   "ticker": "PLSR.V",
-   "action": "add",
-   "name": "PULSAR HELIUM INC",
-   "at": "2026-10-31T02:13+00:00"
-  },
-  {
-   "id": 6,
-   "ticker": "NWST.V",
-   "action": "add",
-   "name": "NORTHWEST COPPER CORP",
-   "at": "2026-10-31T02:13+00:00"
-  },
-  {
-   "id": 7,
-   "ticker": "CWEB.TO",
-   "action": "remove",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "at": "2026-10-31T02:13+00:00"
-  },
-  {
-   "id": 8,
-   "ticker": "HSTR.TO",
-   "action": "remove",
-   "name": "HELIOSTAR METALS LTD",
-   "at": "2026-10-31T02:13+00:00"
-  },
-  {
-   "id": 9,
-   "ticker": "REAL.TO",
-   "action": "remove",
-   "name": "Real Matters",
-   "at": "2026-10-31T02:13+00:00"
-  },
-  {
-   "id": 10,
-   "ticker": "CLCH.TO",
-   "action": "add",
-   "name": "CLINCH RESOURCES LTD",
-   "at": "2026-10-31T02:14+00:00"
-  }
- ]
+ "generated": "2026-11-02T08:01-07:00",
+ "changes": []
 }
