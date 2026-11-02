@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-02T09:31-07:00
+# Stock feed — 2026-11-02T10:01-07:00
 
-Tracking 678 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-30. Intraday data as of: 2026-11-02T16:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 678 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-30. Intraday data as of: 2026-11-02T17:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 803.78 on 2026-10-30 (day -2.8%, month -8.9%, year -14.8%, downtrend); live +1.3% at 16:35
-Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year +18.2%, uptrend); live +1.0% at 16:35
+Market: S&P/TSX Venture Composite 803.78 on 2026-10-30 (day -2.8%, month -8.9%, year -14.8%, downtrend); live +1.2% at 17:05
+Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year +18.2%, uptrend); live +1.1% at 17:05
 
 # TSX Venture
 
@@ -48,17 +48,17 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- UCU.V (UCORE RARE METALS INC): +19.6% today at 2.44, last 30m +0.4%, volume pace 4.19x, rising since 2026-11-02T16:30:00+00:00
-- CAPT.V (CAPITAN SILVER CORP): +9.4% today at 1.87, last 30m +1.1%, volume pace 1.55x, rising since 2026-11-02T15:50:00+00:00
+- UCU.V (UCORE RARE METALS INC): +26.0% today at 2.57, last 30m +4.9%, volume pace 3.93x, rising since 2026-11-02T16:30:00+00:00
+- SHL.V (HOMELAND NICKEL INC): +10.1% today at 0.435, last 30m +11.5%, volume pace 4.49x, rising since 2026-11-02T16:30:00+00:00
+- CAPT.V (CAPITAN SILVER CORP): +9.4% today at 1.87, last 30m +1.1%, volume pace 1.56x, rising since 2026-11-02T15:50:00+00:00
+- PCU.V (PECOY COPPER CORP): +8.2% today at 1.97, last 30m +0.5%, volume pace 2.33x, rising since 2026-11-02T16:50:00+00:00
 - BMM.V (BLACK MAMMOTH METALS CORP): +8.0% today at 4.21, last 30m +2.7%, volume pace 4.26x, rising since 2026-11-02T15:10:00+00:00
-- PCU.V (PECOY COPPER CORP): +7.7% today at 1.96, last 30m +1.6%, volume pace 2.84x, rising since 2026-11-02T16:05:00+00:00
 - MMET.V (MIATA METALS CORP): +7.3% today at 0.59, last 30m +5.4%, volume pace 1.85x, rising since 2026-11-02T16:05:00+00:00
 - BKM.V (Pacific Booker Minerals Inc.): +6.7% today at 4.0, last 30m +3.9%, volume pace 1.93x, rising since 2026-11-02T15:45:00+00:00
-- QTWO.V (Q2 METALS CORP): +6.6% today at 1.45, last 30m +0.3%, volume pace 1.61x, rising since 2026-11-02T16:25:00+00:00
-- ZDC.V (ZEDCOR INC): +6.3% today at 5.43, last 30m +1.1%, volume pace 1.55x, rising since 2026-11-02T16:25:00+00:00
-- ADK.V (DIAGNOS INC.): +6.0% today at 0.355, last 30m +1.4%, volume pace 1.72x, rising since 2026-11-02T16:30:00+00:00
-- FRED.V (FREDONIA MINING INC): +5.4% today at 0.485, last 30m +2.1%, volume pace 2.29x, rising since 2026-11-02T15:40:00+00:00
-- NAU.V (NEVGOLD CORP): +3.8% today at 0.55, last 30m +1.9%, volume pace 1.54x, rising since 2026-11-02T16:10:00+00:00
+- NAU.V (NEVGOLD CORP): +5.7% today at 0.56, last 30m +1.8%, volume pace 1.76x, rising since 2026-11-02T16:10:00+00:00
+- BIG.V (HERCULES METALS CORP): +4.8% today at 0.975, last 30m +0.5%, volume pace 3.75x, rising since 2026-11-02T16:40:00+00:00
+- FPC.V (FALCO RESOURCES LTD): +3.7% today at 0.425, last 30m +3.7%, volume pace 3.47x, rising since 2026-11-02T17:00:00+00:00
+- COV.V (COVALON TECHNOLOGIES LTD): +3.2% today at 4.57, last 30m +0.4%, volume pace 3.96x, rising since 2026-11-02T16:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -77,14 +77,14 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 
 - TOM.V (TRINITY SILVER CORP): +30.4% at 0.15, volume pace 1.64x
 - TNX.V (TENX PROTOCOLS INC): +26.7% at 0.095, volume pace 0.0x
+- UCU.V (UCORE RARE METALS INC): +26.0% at 2.57, volume pace 3.93x
+- SCLT.V (SEARCHLIGHT RESOURCES INC): +21.7% at 0.14, volume pace 0.27x
 - ANOR.V (ANORTECH INC): +21.4% at 0.17, volume pace 0.58x
-- UCU.V (UCORE RARE METALS INC): +19.6% at 2.44, volume pace 4.19x
+- PHNM.V (PHENOM RESOURCES CORP): +20.7% at 0.35, volume pace 0.95x
 - VML.V (VISCOUNT MINING CORP): +17.6% at 0.435, volume pace 1.94x
-- CCCM.V (C3 METALS INC): +17.2% at 0.68, volume pace 18.41x
-- PHNM.V (PHENOM RESOURCES CORP): +17.2% at 0.34, volume pace 0.8x
-- PRG.V (PRECIPITATE GOLD CORP): +16.7% at 0.14, volume pace 2.53x
-- CRG.V (CROSSROADS GOLD CORP): +16.7% at 0.21, volume pace 1.86x
-- VIPR.V (SILVER VIPER MINERALS CORP): +15.0% at 0.23, volume pace 1.33x
+- VIPR.V (SILVER VIPER MINERALS CORP): +17.5% at 0.235, volume pace 1.01x
+- FROG.V (BULLFROG GOLD CORPORATION): +16.7% at 0.14, volume pace 1.47x
+- PRG.V (PRECIPITATE GOLD CORP): +16.7% at 0.14, volume pace 4.22x
 
 # TSX
 
@@ -110,8 +110,10 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- XLY.TO (AUXLY CANNABIS GROUP INC): +3.9% today at 3.76, last 30m +0.3%, volume pace 3.36x, rising since 2026-11-02T16:15:00+00:00
-- FAR.TO (FORACO INTERNATIONAL SA): +3.6% today at 2.3, last 30m +0.4%, volume pace 1.95x, rising since 2026-11-02T16:30:00+00:00
+- TSND.TO (TERRASCEND CORP): +10.6% today at 0.73, last 30m +1.4%, volume pace 2.31x, rising since 2026-11-02T16:45:00+00:00
+- ALK.TO (ALKANE RESOURCES LIMITED): +5.7% today at 1.565, last 30m +0.3%, volume pace 1.91x, rising since 2026-11-02T16:45:00+00:00
+- XLY.TO (AUXLY CANNABIS GROUP INC): +4.7% today at 3.79, last 30m +0.8%, volume pace 2.69x, rising since 2026-11-02T17:00:00+00:00
+- MAI.TO (MINING AMERICAS INC): +3.3% today at 4.06, last 30m +0.5%, volume pace 1.78x, rising since 2026-11-02T16:55:00+00:00
 - OGI.TO (ORGANIGRAM GLOBAL INC): +3.0% today at 1.36, last 30m +0.7%, volume pace 3.0x, rising since 2026-11-02T16:10:00+00:00
 
 ## TSX: top by relative volume at last close
@@ -129,13 +131,13 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- AMAP.TO (AMAPA MINERALS HOLDINGS INC): +13.2% at 0.86, volume pace 0.5x
+- AMAP.TO (AMAPA MINERALS HOLDINGS INC): +13.2% at 0.86, volume pace 0.51x
+- TSND.TO (TERRASCEND CORP): +10.6% at 0.73, volume pace 2.31x
 - ELR.TO (EASTERN PLATINUM LIMITED): +10.0% at 0.22, volume pace 0.23x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.24, volume pace 5.51x
-- TSND.TO (TERRASCEND CORP): +9.1% at 0.72, volume pace 2.31x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.24, volume pace 5.52x
 - SBI.TO (SERABI GOLD PLC): +8.6% at 3.53, volume pace 0.77x
-- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.14x
+- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.15x
 - NEXT.TO (NEXTSOURCE MATERIALS INC): +8.1% at 0.2, volume pace 0.24x
 - SAM.TO (STARCORE INTERNATIONAL MINES LT): +8.0% at 0.27, volume pace 0.17x
-- REAL.TO (Real Matters): +7.0% at 3.21, volume pace 0.99x
-- FT.TO (FORTUNE MNRL J): +6.2% at 0.085, volume pace 2.31x
+- REAL.TO (Real Matters): +7.0% at 3.21, volume pace 0.49x
+- ORV.TO (ORVANA MINERALS J): +5.9% at 1.62, volume pace 0.39x

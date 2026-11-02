@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T09:31-07:00",
+ "generated": "2026-11-02T10:01-07:00",
  "last_close_day": "2026-10-30",
  "tracked": 678,
  "tracked_by_market": {
@@ -475,16 +475,38 @@
    "added": "2026-10-22"
   }
  ],
- "live_as_of": "2026-11-02T16:35:00+00:00",
+ "live_as_of": "2026-11-02T17:05:00+00:00",
  "rising": [
   {
    "ticker": "UCU.V",
    "name": "UCORE RARE METALS INC",
-   "as_of": "2026-11-02T16:35:00+00:00",
-   "last": 2.44,
-   "pct_day": 19.61,
-   "pct_30m": 0.41,
-   "volume_pace": 4.19,
+   "as_of": "2026-11-02T17:00:00+00:00",
+   "last": 2.57,
+   "pct_day": 25.98,
+   "pct_30m": 4.9,
+   "volume_pace": 3.93,
+   "rising": true,
+   "rising_since": "2026-11-02T16:30:00+00:00"
+  },
+  {
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-02T16:45:00+00:00",
+   "last": 0.73,
+   "pct_day": 10.61,
+   "pct_30m": 1.39,
+   "volume_pace": 2.31,
+   "rising": true,
+   "rising_since": "2026-11-02T16:45:00+00:00"
+  },
+  {
+   "ticker": "SHL.V",
+   "name": "HOMELAND NICKEL INC",
+   "as_of": "2026-11-02T16:30:00+00:00",
+   "last": 0.435,
+   "pct_day": 10.13,
+   "pct_30m": 11.54,
+   "volume_pace": 4.49,
    "rising": true,
    "rising_since": "2026-11-02T16:30:00+00:00"
   },
@@ -495,9 +517,20 @@
    "last": 1.87,
    "pct_day": 9.36,
    "pct_30m": 1.08,
-   "volume_pace": 1.55,
+   "volume_pace": 1.56,
    "rising": true,
    "rising_since": "2026-11-02T15:50:00+00:00"
+  },
+  {
+   "ticker": "PCU.V",
+   "name": "PECOY COPPER CORP",
+   "as_of": "2026-11-02T17:05:00+00:00",
+   "last": 1.97,
+   "pct_day": 8.24,
+   "pct_30m": 0.51,
+   "volume_pace": 2.33,
+   "rising": true,
+   "rising_since": "2026-11-02T16:50:00+00:00"
   },
   {
    "ticker": "BMM.V",
@@ -509,17 +542,6 @@
    "volume_pace": 4.26,
    "rising": true,
    "rising_since": "2026-11-02T15:10:00+00:00"
-  },
-  {
-   "ticker": "PCU.V",
-   "name": "PECOY COPPER CORP",
-   "as_of": "2026-11-02T16:35:00+00:00",
-   "last": 1.96,
-   "pct_day": 7.69,
-   "pct_30m": 1.55,
-   "volume_pace": 2.84,
-   "rising": true,
-   "rising_since": "2026-11-02T16:05:00+00:00"
   },
   {
    "ticker": "MMET.V",
@@ -544,81 +566,81 @@
    "rising_since": "2026-11-02T15:45:00+00:00"
   },
   {
-   "ticker": "QTWO.V",
-   "name": "Q2 METALS CORP",
-   "as_of": "2026-11-02T16:30:00+00:00",
-   "last": 1.45,
-   "pct_day": 6.62,
-   "pct_30m": 0.35,
-   "volume_pace": 1.61,
+   "ticker": "ALK.TO",
+   "name": "ALKANE RESOURCES LIMITED",
+   "as_of": "2026-11-02T17:05:00+00:00",
+   "last": 1.565,
+   "pct_day": 5.74,
+   "pct_30m": 0.32,
+   "volume_pace": 1.91,
    "rising": true,
-   "rising_since": "2026-11-02T16:25:00+00:00"
-  },
-  {
-   "ticker": "ZDC.V",
-   "name": "ZEDCOR INC",
-   "as_of": "2026-11-02T16:35:00+00:00",
-   "last": 5.43,
-   "pct_day": 6.26,
-   "pct_30m": 1.12,
-   "volume_pace": 1.55,
-   "rising": true,
-   "rising_since": "2026-11-02T16:25:00+00:00"
-  },
-  {
-   "ticker": "ADK.V",
-   "name": "DIAGNOS INC.",
-   "as_of": "2026-11-02T16:30:00+00:00",
-   "last": 0.355,
-   "pct_day": 5.97,
-   "pct_30m": 1.43,
-   "volume_pace": 1.72,
-   "rising": true,
-   "rising_since": "2026-11-02T16:30:00+00:00"
-  },
-  {
-   "ticker": "FRED.V",
-   "name": "FREDONIA MINING INC",
-   "as_of": "2026-11-02T15:40:00+00:00",
-   "last": 0.485,
-   "pct_day": 5.43,
-   "pct_30m": 2.11,
-   "volume_pace": 2.29,
-   "rising": true,
-   "rising_since": "2026-11-02T15:40:00+00:00"
-  },
-  {
-   "ticker": "XLY.TO",
-   "name": "AUXLY CANNABIS GROUP INC",
-   "as_of": "2026-11-02T16:25:00+00:00",
-   "last": 3.76,
-   "pct_day": 3.87,
-   "pct_30m": 0.27,
-   "volume_pace": 3.36,
-   "rising": true,
-   "rising_since": "2026-11-02T16:15:00+00:00"
+   "rising_since": "2026-11-02T16:45:00+00:00"
   },
   {
    "ticker": "NAU.V",
    "name": "NEVGOLD CORP",
-   "as_of": "2026-11-02T16:10:00+00:00",
-   "last": 0.55,
-   "pct_day": 3.77,
-   "pct_30m": 1.85,
-   "volume_pace": 1.54,
+   "as_of": "2026-11-02T16:45:00+00:00",
+   "last": 0.56,
+   "pct_day": 5.66,
+   "pct_30m": 1.82,
+   "volume_pace": 1.76,
    "rising": true,
    "rising_since": "2026-11-02T16:10:00+00:00"
   },
   {
-   "ticker": "FAR.TO",
-   "name": "FORACO INTERNATIONAL SA",
-   "as_of": "2026-11-02T16:30:00+00:00",
-   "last": 2.3,
-   "pct_day": 3.6,
-   "pct_30m": 0.44,
-   "volume_pace": 1.95,
+   "ticker": "BIG.V",
+   "name": "HERCULES METALS CORP",
+   "as_of": "2026-11-02T16:40:00+00:00",
+   "last": 0.975,
+   "pct_day": 4.84,
+   "pct_30m": 0.52,
+   "volume_pace": 3.75,
    "rising": true,
-   "rising_since": "2026-11-02T16:30:00+00:00"
+   "rising_since": "2026-11-02T16:40:00+00:00"
+  },
+  {
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-11-02T17:00:00+00:00",
+   "last": 3.79,
+   "pct_day": 4.7,
+   "pct_30m": 0.8,
+   "volume_pace": 2.69,
+   "rising": true,
+   "rising_since": "2026-11-02T17:00:00+00:00"
+  },
+  {
+   "ticker": "FPC.V",
+   "name": "FALCO RESOURCES LTD",
+   "as_of": "2026-11-02T17:00:00+00:00",
+   "last": 0.425,
+   "pct_day": 3.66,
+   "pct_30m": 3.66,
+   "volume_pace": 3.47,
+   "rising": true,
+   "rising_since": "2026-11-02T17:00:00+00:00"
+  },
+  {
+   "ticker": "MAI.TO",
+   "name": "MINING AMERICAS INC",
+   "as_of": "2026-11-02T17:00:00+00:00",
+   "last": 4.06,
+   "pct_day": 3.31,
+   "pct_30m": 0.5,
+   "volume_pace": 1.78,
+   "rising": true,
+   "rising_since": "2026-11-02T16:55:00+00:00"
+  },
+  {
+   "ticker": "COV.V",
+   "name": "COVALON TECHNOLOGIES LTD",
+   "as_of": "2026-11-02T16:45:00+00:00",
+   "last": 4.57,
+   "pct_day": 3.16,
+   "pct_30m": 0.44,
+   "volume_pace": 3.96,
+   "rising": true,
+   "rising_since": "2026-11-02T16:45:00+00:00"
   },
   {
    "ticker": "OGI.TO",
@@ -656,6 +678,28 @@
    "rising_since": null
   },
   {
+   "ticker": "UCU.V",
+   "name": "UCORE RARE METALS INC",
+   "as_of": "2026-11-02T17:00:00+00:00",
+   "last": 2.57,
+   "pct_day": 25.98,
+   "pct_30m": 4.9,
+   "volume_pace": 3.93,
+   "rising": true,
+   "rising_since": "2026-11-02T16:30:00+00:00"
+  },
+  {
+   "ticker": "SCLT.V",
+   "name": "SEARCHLIGHT RESOURCES INC",
+   "as_of": "2026-11-02T16:35:00+00:00",
+   "last": 0.14,
+   "pct_day": 21.74,
+   "pct_30m": 7.69,
+   "volume_pace": 0.27,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ANOR.V",
    "name": "ANORTECH INC",
    "as_of": "2026-11-02T14:55:00+00:00",
@@ -667,15 +711,15 @@
    "rising_since": null
   },
   {
-   "ticker": "UCU.V",
-   "name": "UCORE RARE METALS INC",
+   "ticker": "PHNM.V",
+   "name": "PHENOM RESOURCES CORP",
    "as_of": "2026-11-02T16:35:00+00:00",
-   "last": 2.44,
-   "pct_day": 19.61,
-   "pct_30m": 0.41,
-   "volume_pace": 4.19,
-   "rising": true,
-   "rising_since": "2026-11-02T16:30:00+00:00"
+   "last": 0.35,
+   "pct_day": 20.69,
+   "pct_30m": 2.94,
+   "volume_pace": 0.95,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "VML.V",
@@ -689,57 +733,35 @@
    "rising_since": null
   },
   {
-   "ticker": "CCCM.V",
-   "name": "C3 METALS INC",
-   "as_of": "2026-11-02T16:15:00+00:00",
-   "last": 0.68,
-   "pct_day": 17.24,
-   "pct_30m": 3.03,
-   "volume_pace": 18.41,
+   "ticker": "VIPR.V",
+   "name": "SILVER VIPER MINERALS CORP",
+   "as_of": "2026-11-02T17:00:00+00:00",
+   "last": 0.235,
+   "pct_day": 17.5,
+   "pct_30m": 2.17,
+   "volume_pace": 1.01,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "PHNM.V",
-   "name": "PHENOM RESOURCES CORP",
-   "as_of": "2026-11-02T15:35:00+00:00",
-   "last": 0.34,
-   "pct_day": 17.24,
-   "pct_30m": -1.45,
-   "volume_pace": 0.8,
+   "ticker": "FROG.V",
+   "name": "BULLFROG GOLD CORPORATION",
+   "as_of": "2026-11-02T16:45:00+00:00",
+   "last": 0.14,
+   "pct_day": 16.67,
+   "pct_30m": 3.7,
+   "volume_pace": 1.47,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PRG.V",
    "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-11-02T16:35:00+00:00",
+   "as_of": "2026-11-02T17:05:00+00:00",
    "last": 0.14,
    "pct_day": 16.67,
-   "pct_30m": 7.69,
-   "volume_pace": 2.53,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CRG.V",
-   "name": "CROSSROADS GOLD CORP",
-   "as_of": "2026-11-02T14:55:00+00:00",
-   "last": 0.21,
-   "pct_day": 16.67,
    "pct_30m": 0.0,
-   "volume_pace": 1.86,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "VIPR.V",
-   "name": "SILVER VIPER MINERALS CORP",
-   "as_of": "2026-11-02T16:20:00+00:00",
-   "last": 0.23,
-   "pct_day": 15.0,
-   "pct_30m": -4.17,
-   "volume_pace": 1.33,
+   "volume_pace": 4.22,
    "rising": false,
    "rising_since": null
   },
@@ -750,9 +772,20 @@
    "last": 0.86,
    "pct_day": 13.16,
    "pct_30m": 6.17,
-   "volume_pace": 0.5,
+   "volume_pace": 0.51,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-02T16:45:00+00:00",
+   "last": 0.73,
+   "pct_day": 10.61,
+   "pct_30m": 1.39,
+   "volume_pace": 2.31,
+   "rising": true,
+   "rising_since": "2026-11-02T16:45:00+00:00"
   },
   {
    "ticker": "ELR.TO",
@@ -772,18 +805,7 @@
    "last": 1.24,
    "pct_day": 9.73,
    "pct_30m": 0.0,
-   "volume_pace": 5.51,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-02T16:25:00+00:00",
-   "last": 0.72,
-   "pct_day": 9.09,
-   "pct_30m": 0.0,
-   "volume_pace": 2.31,
+   "volume_pace": 5.52,
    "rising": false,
    "rising_since": null
   },
@@ -801,11 +823,11 @@
   {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-11-02T15:35:00+00:00",
+   "as_of": "2026-11-02T16:40:00+00:00",
    "last": 0.13,
    "pct_day": 8.33,
    "pct_30m": 0.0,
-   "volume_pace": 0.14,
+   "volume_pace": 0.15,
    "rising": false,
    "rising_since": null
   },
@@ -834,22 +856,22 @@
   {
    "ticker": "REAL.TO",
    "name": "Real Matters",
-   "as_of": "2026-11-02T15:35:00+00:00",
+   "as_of": "2026-11-02T17:00:00+00:00",
    "last": 3.21,
    "pct_day": 7.0,
-   "pct_30m": -0.62,
-   "volume_pace": 0.99,
+   "pct_30m": 0.0,
+   "volume_pace": 0.49,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "FT.TO",
-   "name": "FORTUNE MNRL J",
-   "as_of": "2026-11-02T16:10:00+00:00",
-   "last": 0.085,
-   "pct_day": 6.25,
-   "pct_30m": 0.0,
-   "volume_pace": 2.31,
+   "ticker": "ORV.TO",
+   "name": "ORVANA MINERALS J",
+   "as_of": "2026-11-02T17:00:00+00:00",
+   "last": 1.62,
+   "pct_day": 5.88,
+   "pct_30m": 0.62,
+   "volume_pace": 0.39,
    "rising": false,
    "rising_since": null
   }
@@ -1451,9 +1473,9 @@
    "ma200": 965.95,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-02T16:35:00+00:00",
-    "last": 813.93,
-    "pct_day": 1.26
+    "as_of": "2026-11-02T17:05:00+00:00",
+    "last": 813.25,
+    "pct_day": 1.18
    }
   },
   "^GSPTSE": {
@@ -2052,9 +2074,9 @@
    "ma200": 34580.8,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-02T16:35:00+00:00",
-    "last": 35962.69,
-    "pct_day": 0.96
+    "as_of": "2026-11-02T17:05:00+00:00",
+    "last": 36001.62,
+    "pct_day": 1.07
    }
   }
  },
