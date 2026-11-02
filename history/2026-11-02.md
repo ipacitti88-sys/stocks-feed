@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-02T14:01-07:00
+# Stock feed — 2026-11-02T14:06-07:00
 
 Tracking 678 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-30. Intraday data as of: 2026-11-02T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -123,7 +123,7 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 - BYL.TO (BAYLIN TECHNOLOGIES INC): +11.1% at 0.15, volume pace 0.11x
 - PCA.TO (PHOENIX METALS CORP CLASS A): +10.6% at 1.25, volume pace 3.04x
 - TSND.TO (TERRASCEND CORP): +10.6% at 0.73, volume pace 1.58x
-- DND.TO (DYE AND DURHAM LIMITED): +10.2% at 1.62, volume pace 0.74x
+- DND.TO (DYE AND DURHAM LIMITED): +10.2% at 1.62, volume pace 0.76x
 - S.TO (SHERRITT INTL RV): +9.5% at 0.23, volume pace 0.68x
 - FURY.TO (FURY GOLD MINES LIMITED): +9.5% at 0.69, volume pace 1.43x
 - SAM.TO (STARCORE INTERNATIONAL MINES LT): +8.0% at 0.27, volume pace 0.48x

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T14:01-07:00",
+ "generated": "2026-11-02T14:06-07:00",
  "last_close_day": "2026-10-30",
  "tracked": 678,
  "tracked_by_market": {
@@ -684,7 +684,7 @@
    "last": 1.62,
    "pct_day": 10.2,
    "pct_30m": -0.61,
-   "volume_pace": 0.74,
+   "volume_pace": 0.76,
    "rising": false,
    "rising_since": null
   },
