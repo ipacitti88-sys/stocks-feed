@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-02T11:31-07:00
+# Stock feed — 2026-11-02T12:01-07:00
 
-Tracking 678 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-30. Intraday data as of: 2026-11-02T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 678 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-10-30. Intraday data as of: 2026-11-02T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 803.78 on 2026-10-30 (day -2.8%, month -8.9%, year -14.8%, downtrend); live +0.7% at 18:35
-Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year +18.2%, uptrend); live +1.2% at 18:35
+Market: S&P/TSX Venture Composite 803.78 on 2026-10-30 (day -2.8%, month -8.9%, year -14.8%, downtrend); live +0.4% at 19:05
+Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year +18.2%, uptrend); live +1.0% at 19:05
 
 # TSX Venture
 
@@ -50,9 +50,9 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 
 - SHL.V (HOMELAND NICKEL INC): +10.1% today at 0.435, last 30m +11.5%, volume pace 4.49x, rising since 2026-11-02T16:30:00+00:00
 - BMM.V (BLACK MAMMOTH METALS CORP): +8.5% today at 4.23, last 30m +0.5%, volume pace 2.21x, rising since 2026-11-02T15:10:00+00:00
-- PCU.V (PECOY COPPER CORP): +7.1% today at 1.95, last 30m +0.5%, volume pace 1.85x, rising since 2026-11-02T18:25:00+00:00
+- PCU.V (PECOY COPPER CORP): +7.7% today at 1.96, last 30m +0.5%, volume pace 1.84x, rising since 2026-11-02T18:55:00+00:00
 - BKM.V (Pacific Booker Minerals Inc.): +6.7% today at 4.0, last 30m +3.9%, volume pace 1.93x, rising since 2026-11-02T15:45:00+00:00
-- ALDE.V (ALDEBARAN RESOURCES INC): +5.4% today at 3.49, last 30m +0.3%, volume pace 2.4x, rising since 2026-11-02T18:20:00+00:00
+- CAM.V (CASCADIA MINERALS LTD): +6.0% today at 0.44, last 30m +1.1%, volume pace 2.1x, rising since 2026-11-02T18:40:00+00:00
 - JAY.V (BLUE JAY GOLD CORP): +4.0% today at 0.77, last 30m +1.3%, volume pace 2.11x, rising since 2026-11-02T17:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -70,16 +70,16 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- ANOR.V (ANORTECH INC): +57.1% at 0.22, volume pace 2.71x
 - TOM.V (TRINITY SILVER CORP): +30.4% at 0.15, volume pace 1.64x
 - PHNM.V (PHENOM RESOURCES CORP): +27.6% at 0.37, volume pace 1.13x
 - TNX.V (TENX PROTOCOLS INC): +26.7% at 0.095, volume pace 0.28x
-- SCLT.V (SEARCHLIGHT RESOURCES INC): +21.7% at 0.14, volume pace 0.15x
-- ANOR.V (ANORTECH INC): +21.4% at 0.17, volume pace 0.58x
-- UCU.V (UCORE RARE METALS INC): +20.6% at 2.46, volume pace 2.86x
-- VCV.V (VATIC VENTURES CORP): +17.6% at 0.1, volume pace 0.02x
+- SCLT.V (SEARCHLIGHT RESOURCES INC): +21.7% at 0.14, volume pace 0.18x
+- BAG.V (BLENDE SILVER CORP): +20.0% at 0.15, volume pace 0.6x
+- UCU.V (UCORE RARE METALS INC): +19.6% at 2.44, volume pace 2.7x
+- VCV.V (VATIC VENTURES CORP): +17.6% at 0.1, volume pace 0.86x
 - VML.V (VISCOUNT MINING CORP): +17.6% at 0.435, volume pace 1.94x
-- VIPR.V (SILVER VIPER MINERALS CORP): +15.0% at 0.23, volume pace 1.01x
-- ADZ.V (ADAMERA MINERALS CORP): +15.0% at 0.115, volume pace 2.75x
+- HMR.V (HOMERUN RESOURCES INC): +17.3% at 0.44, volume pace 2.12x
 
 # TSX
 
@@ -105,9 +105,7 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TSND.TO (TERRASCEND CORP): +12.1% today at 0.74, last 30m +2.8%, volume pace 2.09x, rising since 2026-11-02T18:20:00+00:00
-- ALK.TO (ALKANE RESOURCES LIMITED): +6.1% today at 1.57, last 30m +0.3%, volume pace 1.57x, rising since 2026-11-02T18:20:00+00:00
-- XLY.TO (AUXLY CANNABIS GROUP INC): +5.0% today at 3.8, last 30m +0.3%, volume pace 1.82x, rising since 2026-11-02T18:30:00+00:00
+- TSND.TO (TERRASCEND CORP): +12.9% today at 0.745, last 30m +0.7%, volume pace 2.02x, rising since 2026-11-02T18:55:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -125,12 +123,12 @@ Market: S&P/TSX Composite 35,620.03 on 2026-10-30 (day -1.7%, month +1.1%, year 
 ## TSX: top gainers in latest intraday pass
 
 - AMAP.TO (AMAPA MINERALS HOLDINGS INC): +13.2% at 0.86, volume pace 0.51x
-- TSND.TO (TERRASCEND CORP): +12.1% at 0.74, volume pace 2.09x
+- TSND.TO (TERRASCEND CORP): +12.9% at 0.745, volume pace 2.02x
 - SAM.TO (STARCORE INTERNATIONAL MINES LT): +12.0% at 0.28, volume pace 0.19x
-- DND.TO (DYE AND DURHAM LIMITED): +10.2% at 1.62, volume pace 0.86x
+- DND.TO (DYE AND DURHAM LIMITED): +11.6% at 1.64, volume pace 0.82x
 - ELR.TO (EASTERN PLATINUM LIMITED): +10.0% at 0.22, volume pace 0.13x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.24, volume pace 3.67x
-- SBI.TO (SERABI GOLD PLC): +8.6% at 3.53, volume pace 0.47x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +9.7% at 1.24, volume pace 3.59x
+- S.TO (SHERRITT INTL RV): +9.5% at 0.23, volume pace 0.79x
+- SBI.TO (SERABI GOLD PLC): +8.6% at 3.53, volume pace 0.48x
 - NEXT.TO (NEXTSOURCE MATERIALS INC): +8.1% at 0.2, volume pace 0.24x
-- FURY.TO (FURY GOLD MINES LIMITED): +7.9% at 0.68, volume pace 2.08x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +7.4% at 0.145, volume pace 0.14x
+- FURY.TO (FURY GOLD MINES LIMITED): +7.9% at 0.68, volume pace 1.89x
