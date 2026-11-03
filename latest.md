@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-03T09:01-07:00
+# Stock feed — 2026-11-03T09:31-07:00
 
-Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend); live -0.1% at 16:05
-Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend); live -0.3% at 16:05
+Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend); live -0.1% at 16:35
+Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend); live -0.4% at 16:35
 
 # TSX Venture
 
@@ -40,12 +40,10 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- KCP.V (KING COPPER DISCOVERY CORP): +11.1% today at 0.55, last 30m +1.9%, volume pace 1.78x, rising since 2026-11-03T15:50:00+00:00
-- DMGI.V (DMG BLOCKCHAIN SOLUTIONS INC): +10.1% today at 0.38, last 30m +1.3%, volume pace 1.86x, rising since 2026-11-03T16:00:00+00:00
-- REG.V (REGULUS RESOURCES INC): +5.5% today at 4.81, last 30m +5.2%, volume pace 2.13x, rising since 2026-11-03T15:45:00+00:00
-- YTY.V (WI2WI CORPORATION): +4.0% today at 0.13, last 30m +8.3%, volume pace 2.46x, rising since 2026-11-03T15:45:00+00:00
-- ECU.V (ELEMENT 29 RESOURCES INC): +3.3% today at 2.015, last 30m +0.2%, volume pace 2.1x, rising since 2026-11-03T16:00:00+00:00
-- CCMM.V (COYOTE COPPER MINES INC): +3.0% today at 0.34, last 30m +6.2%, volume pace 1.89x, rising since 2026-11-03T15:35:00+00:00
+- KCP.V (KING COPPER DISCOVERY CORP): +11.1% today at 0.55, last 30m +1.9%, volume pace 1.87x, rising since 2026-11-03T15:50:00+00:00
+- GMG.V (GRAPHENE MANUFACTURING GROUP LT): +4.2% today at 1.99, last 30m +6.4%, volume pace 2.19x, rising since 2026-11-03T16:30:00+00:00
+- YTY.V (WI2WI CORPORATION): +4.0% today at 0.13, last 30m +8.3%, volume pace 2.52x, rising since 2026-11-03T15:45:00+00:00
+- REG.V (REGULUS RESOURCES INC): +4.0% today at 4.74, last 30m +3.0%, volume pace 2.15x, rising since 2026-11-03T15:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -62,16 +60,16 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- AUGC.V (AU GOLD CORP): +47.4% at 0.35, volume pace 17.69x
-- MYID.V (REKLAIM LTD): +37.5% at 0.385, volume pace 79.81x
-- HMR.V (HOMERUN RESOURCES INC): +21.7% at 0.56, volume pace 11.11x
+- AUGC.V (AU GOLD CORP): +41.0% at 0.335, volume pace 10.88x
+- MYID.V (REKLAIM LTD): +37.5% at 0.385, volume pace 73.78x
+- GIII.V (REGEN III CORP): +25.0% at 0.15, volume pace 5.59x
 - ROS.V (ROSCAN GOLD CORPORATION): +20.0% at 0.12, volume pace 1.55x
+- DGC.V (DAURA GOLD CORP): +20.0% at 0.3, volume pace 11.2x
+- HMR.V (HOMERUN RESOURCES INC): +15.2% at 0.53, volume pace 7.9x
 - TORC.V (TINONE RESOURCES INC): +14.3% at 0.16, volume pace 0.0x
-- WEX.V (WESTERN EXPLORATION INC): +14.3% at 0.64, volume pace 5.04x
-- AUX.V (GOLDEN CROSS RESOURCES INC): +14.3% at 0.08, volume pace 1.6x
-- DGC.V (DAURA GOLD CORP): +14.0% at 0.285, volume pace 14.57x
+- AUX.V (GOLDEN CROSS RESOURCES INC): +14.3% at 0.08, volume pace 0.8x
 - NAM.V (NEW AGE METALS INC): +13.8% at 0.165, volume pace 1.15x
-- JG.V (JAPAN GOLD CORP): +13.6% at 0.125, volume pace 0.0x
+- JG.V (JAPAN GOLD CORP): +13.6% at 0.125, volume pace 0.01x
 
 # TSX
 
@@ -98,7 +96,7 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- LGO.TO (LARGO INC): +3.2% today at 0.48, last 30m +1.1%, volume pace 2.74x, rising since 2026-11-03T15:50:00+00:00
+- WEED.TO (CANOPY GROWTH CORPORATION): +4.2% today at 1.0, last 30m +1.0%, volume pace 1.91x, rising since 2026-11-03T16:35:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -115,13 +113,13 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +11.7% at 2.97, volume pace 1.34x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +11.7% at 2.97, volume pace 1.19x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +10.0% at 0.11, volume pace 1.13x
-- AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.0x
-- TLRY.TO (TILRAY BRANDS INC): +7.0% at 3.8, volume pace 4.6x
-- TSND.TO (TERRASCEND CORP): +6.9% at 0.77, volume pace 3.96x
-- BSX.TO (BELO SUN MINING CORP): +5.8% at 0.73, volume pace 0.43x
-- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.0% at 2.51, volume pace 1.3x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.9% at 0.32, volume pace 0.91x
-- QTRH.TO (QUARTERHILL INC): +4.8% at 2.84, volume pace 0.53x
-- WEED.TO (CANOPY GROWTH CORPORATION): +4.2% at 1.0, volume pace 2.1x
+- AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.04x
+- BSX.TO (BELO SUN MINING CORP): +5.8% at 0.73, volume pace 0.35x
+- TLRY.TO (TILRAY BRANDS INC): +5.6% at 3.75, volume pace 3.86x
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.0% at 2.51, volume pace 1.21x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.9% at 0.32, volume pace 1.01x
+- E.TO (EVOLUTION POWERX CORP): +4.7% at 1.77, volume pace 1.37x
+- WEED.TO (CANOPY GROWTH CORPORATION): +4.2% at 1.0, volume pace 1.91x
+- LUC.TO (LUCARA DIAMOND CORP): +4.0% at 0.13, volume pace 1.02x

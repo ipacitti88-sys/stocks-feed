@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T09:01-07:00",
+ "generated": "2026-11-03T09:31-07:00",
  "last_close_day": "2026-11-02",
  "tracked": 682,
  "tracked_by_market": {
@@ -460,7 +460,7 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-03T16:05:00+00:00",
+ "live_as_of": "2026-11-03T16:35:00+00:00",
  "rising": [
   {
    "ticker": "KCP.V",
@@ -469,31 +469,31 @@
    "last": 0.55,
    "pct_day": 11.11,
    "pct_30m": 1.85,
-   "volume_pace": 1.78,
+   "volume_pace": 1.87,
    "rising": true,
    "rising_since": "2026-11-03T15:50:00+00:00"
   },
   {
-   "ticker": "DMGI.V",
-   "name": "DMG BLOCKCHAIN SOLUTIONS INC",
-   "as_of": "2026-11-03T16:00:00+00:00",
-   "last": 0.38,
-   "pct_day": 10.14,
-   "pct_30m": 1.33,
-   "volume_pace": 1.86,
+   "ticker": "GMG.V",
+   "name": "GRAPHENE MANUFACTURING GROUP LT",
+   "as_of": "2026-11-03T16:30:00+00:00",
+   "last": 1.99,
+   "pct_day": 4.19,
+   "pct_30m": 6.42,
+   "volume_pace": 2.19,
    "rising": true,
-   "rising_since": "2026-11-03T16:00:00+00:00"
+   "rising_since": "2026-11-03T16:30:00+00:00"
   },
   {
-   "ticker": "REG.V",
-   "name": "REGULUS RESOURCES INC",
-   "as_of": "2026-11-03T15:55:00+00:00",
-   "last": 4.81,
-   "pct_day": 5.48,
-   "pct_30m": 5.25,
-   "volume_pace": 2.13,
+   "ticker": "WEED.TO",
+   "name": "CANOPY GROWTH CORPORATION",
+   "as_of": "2026-11-03T16:35:00+00:00",
+   "last": 1.0,
+   "pct_day": 4.17,
+   "pct_30m": 1.01,
+   "volume_pace": 1.91,
    "rising": true,
-   "rising_since": "2026-11-03T15:45:00+00:00"
+   "rising_since": "2026-11-03T16:35:00+00:00"
   },
   {
    "ticker": "YTY.V",
@@ -502,75 +502,53 @@
    "last": 0.13,
    "pct_day": 4.0,
    "pct_30m": 8.33,
-   "volume_pace": 2.46,
+   "volume_pace": 2.52,
    "rising": true,
    "rising_since": "2026-11-03T15:45:00+00:00"
   },
   {
-   "ticker": "ECU.V",
-   "name": "ELEMENT 29 RESOURCES INC",
-   "as_of": "2026-11-03T16:00:00+00:00",
-   "last": 2.015,
-   "pct_day": 3.33,
-   "pct_30m": 0.25,
-   "volume_pace": 2.1,
+   "ticker": "REG.V",
+   "name": "REGULUS RESOURCES INC",
+   "as_of": "2026-11-03T16:05:00+00:00",
+   "last": 4.74,
+   "pct_day": 3.95,
+   "pct_30m": 3.04,
+   "volume_pace": 2.15,
    "rising": true,
-   "rising_since": "2026-11-03T16:00:00+00:00"
-  },
-  {
-   "ticker": "LGO.TO",
-   "name": "LARGO INC",
-   "as_of": "2026-11-03T15:50:00+00:00",
-   "last": 0.48,
-   "pct_day": 3.23,
-   "pct_30m": 1.05,
-   "volume_pace": 2.74,
-   "rising": true,
-   "rising_since": "2026-11-03T15:50:00+00:00"
-  },
-  {
-   "ticker": "CCMM.V",
-   "name": "COYOTE COPPER MINES INC",
-   "as_of": "2026-11-03T15:35:00+00:00",
-   "last": 0.34,
-   "pct_day": 3.03,
-   "pct_30m": 6.25,
-   "volume_pace": 1.89,
-   "rising": true,
-   "rising_since": "2026-11-03T15:35:00+00:00"
+   "rising_since": "2026-11-03T15:45:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
-   "as_of": "2026-11-03T15:40:00+00:00",
-   "last": 0.35,
-   "pct_day": 47.37,
-   "pct_30m": 7.69,
-   "volume_pace": 17.69,
+   "as_of": "2026-11-03T16:25:00+00:00",
+   "last": 0.335,
+   "pct_day": 41.05,
+   "pct_30m": -4.29,
+   "volume_pace": 10.88,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "MYID.V",
    "name": "REKLAIM LTD",
-   "as_of": "2026-11-03T15:55:00+00:00",
+   "as_of": "2026-11-03T16:10:00+00:00",
    "last": 0.385,
    "pct_day": 37.5,
-   "pct_30m": -1.28,
-   "volume_pace": 79.81,
+   "pct_30m": 0.0,
+   "volume_pace": 73.78,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "HMR.V",
-   "name": "HOMERUN RESOURCES INC",
-   "as_of": "2026-11-03T15:45:00+00:00",
-   "last": 0.56,
-   "pct_day": 21.74,
-   "pct_30m": 9.8,
-   "volume_pace": 11.11,
+   "ticker": "GIII.V",
+   "name": "REGEN III CORP",
+   "as_of": "2026-11-03T16:10:00+00:00",
+   "last": 0.15,
+   "pct_day": 25.0,
+   "pct_30m": 15.38,
+   "volume_pace": 5.59,
    "rising": false,
    "rising_since": null
   },
@@ -586,6 +564,28 @@
    "rising_since": null
   },
   {
+   "ticker": "DGC.V",
+   "name": "DAURA GOLD CORP",
+   "as_of": "2026-11-03T16:25:00+00:00",
+   "last": 0.3,
+   "pct_day": 20.0,
+   "pct_30m": 5.26,
+   "volume_pace": 11.2,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HMR.V",
+   "name": "HOMERUN RESOURCES INC",
+   "as_of": "2026-11-03T16:20:00+00:00",
+   "last": 0.53,
+   "pct_day": 15.22,
+   "pct_30m": -5.36,
+   "volume_pace": 7.9,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "TORC.V",
    "name": "TINONE RESOURCES INC",
    "as_of": "2026-11-03T15:00:00+00:00",
@@ -597,35 +597,13 @@
    "rising_since": null
   },
   {
-   "ticker": "WEX.V",
-   "name": "WESTERN EXPLORATION INC",
-   "as_of": "2026-11-03T15:45:00+00:00",
-   "last": 0.64,
-   "pct_day": 14.29,
-   "pct_30m": 10.34,
-   "volume_pace": 5.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "AUX.V",
    "name": "GOLDEN CROSS RESOURCES INC",
-   "as_of": "2026-11-03T15:15:00+00:00",
+   "as_of": "2026-11-03T16:15:00+00:00",
    "last": 0.08,
    "pct_day": 14.29,
-   "pct_30m": 6.67,
-   "volume_pace": 1.6,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "DGC.V",
-   "name": "DAURA GOLD CORP",
-   "as_of": "2026-11-03T15:50:00+00:00",
-   "last": 0.285,
-   "pct_day": 14.0,
    "pct_30m": 0.0,
-   "volume_pace": 14.57,
+   "volume_pace": 0.8,
    "rising": false,
    "rising_since": null
   },
@@ -643,22 +621,22 @@
   {
    "ticker": "JG.V",
    "name": "JAPAN GOLD CORP",
-   "as_of": "2026-11-03T15:50:00+00:00",
+   "as_of": "2026-11-03T16:25:00+00:00",
    "last": 0.125,
    "pct_day": 13.64,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 0.01,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-03T16:05:00+00:00",
+   "as_of": "2026-11-03T16:35:00+00:00",
    "last": 2.97,
    "pct_day": 11.65,
-   "pct_30m": 1.71,
-   "volume_pace": 1.34,
+   "pct_30m": 0.0,
+   "volume_pace": 1.19,
    "rising": false,
    "rising_since": null
   },
@@ -680,84 +658,84 @@
    "last": 0.11,
    "pct_day": 10.0,
    "pct_30m": -4.35,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TLRY.TO",
-   "name": "TILRAY BRANDS INC",
-   "as_of": "2026-11-03T16:05:00+00:00",
-   "last": 3.8,
-   "pct_day": 7.04,
-   "pct_30m": -0.26,
-   "volume_pace": 4.6,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-03T16:00:00+00:00",
-   "last": 0.77,
-   "pct_day": 6.94,
-   "pct_30m": 0.0,
-   "volume_pace": 3.96,
+   "volume_pace": 0.04,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BSX.TO",
    "name": "BELO SUN MINING CORP",
-   "as_of": "2026-11-03T16:00:00+00:00",
+   "as_of": "2026-11-03T16:30:00+00:00",
    "last": 0.73,
    "pct_day": 5.8,
    "pct_30m": 0.0,
-   "volume_pace": 0.43,
+   "volume_pace": 0.35,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TLRY.TO",
+   "name": "TILRAY BRANDS INC",
+   "as_of": "2026-11-03T16:30:00+00:00",
+   "last": 3.75,
+   "pct_day": 5.63,
+   "pct_30m": -1.32,
+   "volume_pace": 3.86,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-03T16:05:00+00:00",
+   "as_of": "2026-11-03T16:30:00+00:00",
    "last": 2.51,
    "pct_day": 5.02,
-   "pct_30m": 0.4,
-   "volume_pace": 1.3,
+   "pct_30m": 0.0,
+   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-03T16:00:00+00:00",
+   "as_of": "2026-11-03T16:15:00+00:00",
    "last": 0.32,
    "pct_day": 4.92,
    "pct_30m": 0.0,
-   "volume_pace": 0.91,
+   "volume_pace": 1.01,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-11-03T16:00:00+00:00",
-   "last": 2.84,
-   "pct_day": 4.8,
-   "pct_30m": 1.07,
-   "volume_pace": 0.53,
+   "ticker": "E.TO",
+   "name": "EVOLUTION POWERX CORP",
+   "as_of": "2026-11-03T16:30:00+00:00",
+   "last": 1.77,
+   "pct_day": 4.73,
+   "pct_30m": 1.72,
+   "volume_pace": 1.37,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "WEED.TO",
    "name": "CANOPY GROWTH CORPORATION",
-   "as_of": "2026-11-03T16:00:00+00:00",
+   "as_of": "2026-11-03T16:35:00+00:00",
    "last": 1.0,
    "pct_day": 4.17,
-   "pct_30m": -0.99,
-   "volume_pace": 2.1,
+   "pct_30m": 1.01,
+   "volume_pace": 1.91,
+   "rising": true,
+   "rising_since": "2026-11-03T16:35:00+00:00"
+  },
+  {
+   "ticker": "LUC.TO",
+   "name": "LUCARA DIAMOND CORP",
+   "as_of": "2026-11-03T15:55:00+00:00",
+   "last": 0.13,
+   "pct_day": 4.0,
+   "pct_30m": 0.0,
+   "volume_pace": 1.02,
    "rising": false,
    "rising_since": null
   }
@@ -1359,9 +1337,9 @@
    "ma200": 964.52,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-03T16:05:00+00:00",
-    "last": 799.83,
-    "pct_day": -0.12
+    "as_of": "2026-11-03T16:35:00+00:00",
+    "last": 799.75,
+    "pct_day": -0.13
    }
   },
   "^GSPTSE": {
@@ -1960,9 +1938,9 @@
    "ma200": 34594.66,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-03T16:05:00+00:00",
-    "last": 35679.52,
-    "pct_day": -0.34
+    "as_of": "2026-11-03T16:35:00+00:00",
+    "last": 35646.24,
+    "pct_day": -0.43
    }
   }
  },
