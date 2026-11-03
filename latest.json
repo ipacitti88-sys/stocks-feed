@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T12:01-07:00",
+ "generated": "2026-11-03T12:31-07:00",
  "last_close_day": "2026-11-02",
  "tracked": 682,
  "tracked_by_market": {
@@ -460,51 +460,62 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-03T19:05:00+00:00",
+ "live_as_of": "2026-11-03T19:35:00+00:00",
  "rising": [
   {
-   "ticker": "TLRY.TO",
-   "name": "TILRAY BRANDS INC",
-   "as_of": "2026-11-03T18:55:00+00:00",
-   "last": 3.72,
-   "pct_day": 4.79,
-   "pct_30m": 0.27,
-   "volume_pace": 2.07,
+   "ticker": "FWZ.V",
+   "name": "FIREWEED METALS CORP",
+   "as_of": "2026-11-03T19:05:00+00:00",
+   "last": 2.44,
+   "pct_day": 7.96,
+   "pct_30m": 0.83,
+   "volume_pace": 1.81,
    "rising": true,
-   "rising_since": "2026-11-03T18:50:00+00:00"
+   "rising_since": "2026-11-03T19:05:00+00:00"
+  },
+  {
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-03T19:15:00+00:00",
+   "last": 0.77,
+   "pct_day": 6.94,
+   "pct_30m": 4.05,
+   "volume_pace": 1.86,
+   "rising": true,
+   "rising_since": "2026-11-03T19:15:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "MYID.V",
    "name": "REKLAIM LTD",
-   "as_of": "2026-11-03T18:50:00+00:00",
+   "as_of": "2026-11-03T19:05:00+00:00",
    "last": 0.405,
    "pct_day": 44.64,
-   "pct_30m": -1.22,
-   "volume_pace": 36.42,
+   "pct_30m": 0.0,
+   "volume_pace": 35.46,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
-   "as_of": "2026-11-03T18:45:00+00:00",
-   "last": 0.3,
-   "pct_day": 26.32,
-   "pct_30m": -3.23,
-   "volume_pace": 5.73,
+   "as_of": "2026-11-03T19:20:00+00:00",
+   "last": 0.31,
+   "pct_day": 30.53,
+   "pct_30m": 3.33,
+   "volume_pace": 5.19,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "GIII.V",
-   "name": "REGEN III CORP",
-   "as_of": "2026-11-03T17:15:00+00:00",
-   "last": 0.15,
-   "pct_day": 25.0,
-   "pct_30m": 0.0,
-   "volume_pace": 5.03,
+   "ticker": "HMR.V",
+   "name": "HOMERUN RESOURCES INC",
+   "as_of": "2026-11-03T19:30:00+00:00",
+   "last": 0.56,
+   "pct_day": 21.74,
+   "pct_30m": 1.82,
+   "volume_pace": 3.07,
    "rising": false,
    "rising_since": null
   },
@@ -520,24 +531,35 @@
    "rising_since": null
   },
   {
-   "ticker": "HMR.V",
-   "name": "HOMERUN RESOURCES INC",
-   "as_of": "2026-11-03T18:25:00+00:00",
-   "last": 0.55,
-   "pct_day": 19.57,
-   "pct_30m": 3.77,
-   "volume_pace": 3.93,
+   "ticker": "TAG.V",
+   "name": "Trusilver Metals Corp.",
+   "as_of": "2026-11-03T19:30:00+00:00",
+   "last": 0.4,
+   "pct_day": 17.65,
+   "pct_30m": 12.68,
+   "volume_pace": 0.55,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SVE.V",
+   "name": "SILVER ONE RESOURCES INC",
+   "as_of": "2026-11-03T19:30:00+00:00",
+   "last": 0.36,
+   "pct_day": 16.13,
+   "pct_30m": 12.5,
+   "volume_pace": 0.99,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AUX.V",
    "name": "GOLDEN CROSS RESOURCES INC",
-   "as_of": "2026-11-03T16:15:00+00:00",
+   "as_of": "2026-11-03T19:15:00+00:00",
    "last": 0.08,
    "pct_day": 14.29,
    "pct_30m": 0.0,
-   "volume_pace": 0.8,
+   "volume_pace": 0.36,
    "rising": false,
    "rising_since": null
   },
@@ -564,35 +586,24 @@
    "rising_since": null
   },
   {
-   "ticker": "MMM.V",
-   "name": "MINCO CAPITAL CORP",
-   "as_of": "2026-11-03T14:35:00+00:00",
-   "last": 0.145,
-   "pct_day": 11.54,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GPAC.V",
-   "name": "GREAT PACIFIC GOLD CORP",
-   "as_of": "2026-11-03T18:35:00+00:00",
-   "last": 0.15,
-   "pct_day": 11.11,
-   "pct_30m": 3.45,
-   "volume_pace": 0.36,
+   "ticker": "KLDC.V",
+   "name": "KIRKLAND LAKE DISCOVERIES CORP",
+   "as_of": "2026-11-03T19:25:00+00:00",
+   "last": 0.315,
+   "pct_day": 12.5,
+   "pct_30m": 3.28,
+   "volume_pace": 0.61,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-03T19:05:00+00:00",
-   "last": 3.03,
-   "pct_day": 13.91,
-   "pct_30m": -0.98,
-   "volume_pace": 0.94,
+   "as_of": "2026-11-03T19:35:00+00:00",
+   "last": 3.015,
+   "pct_day": 13.35,
+   "pct_30m": -0.33,
+   "volume_pace": 0.88,
    "rising": false,
    "rising_since": null
   },
@@ -621,13 +632,24 @@
   {
    "ticker": "BSX.TO",
    "name": "BELO SUN MINING CORP",
-   "as_of": "2026-11-03T19:00:00+00:00",
-   "last": 0.75,
-   "pct_day": 8.7,
-   "pct_30m": 0.0,
-   "volume_pace": 0.44,
+   "as_of": "2026-11-03T19:35:00+00:00",
+   "last": 0.745,
+   "pct_day": 7.97,
+   "pct_30m": -0.67,
+   "volume_pace": 0.5,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-03T19:15:00+00:00",
+   "last": 0.77,
+   "pct_day": 6.94,
+   "pct_30m": 4.05,
+   "volume_pace": 1.86,
+   "rising": true,
+   "rising_since": "2026-11-03T19:15:00+00:00"
   },
   {
    "ticker": "ECO.TO",
@@ -643,22 +665,11 @@
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-03T19:00:00+00:00",
-   "last": 2.54,
-   "pct_day": 6.28,
-   "pct_30m": 0.4,
-   "volume_pace": 0.86,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-11-03T19:00:00+00:00",
-   "last": 2.88,
-   "pct_day": 6.27,
+   "as_of": "2026-11-03T19:35:00+00:00",
+   "last": 2.52,
+   "pct_day": 5.44,
    "pct_30m": 0.0,
-   "volume_pace": 0.49,
+   "volume_pace": 0.82,
    "rising": false,
    "rising_since": null
   },
@@ -676,22 +687,22 @@
   {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-03T16:15:00+00:00",
+   "as_of": "2026-11-03T19:25:00+00:00",
    "last": 0.32,
    "pct_day": 4.92,
    "pct_30m": 0.0,
-   "volume_pace": 1.23,
+   "volume_pace": 0.44,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "GRID.TO",
-   "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-03T18:05:00+00:00",
-   "last": 4.37,
+   "ticker": "QTRH.TO",
+   "name": "QUARTERHILL INC",
+   "as_of": "2026-11-03T19:30:00+00:00",
+   "last": 2.84,
    "pct_day": 4.8,
-   "pct_30m": -0.23,
-   "volume_pace": 0.3,
+   "pct_30m": -1.39,
+   "volume_pace": 0.49,
    "rising": false,
    "rising_since": null
   }
@@ -1293,9 +1304,9 @@
    "ma200": 964.52,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-03T19:05:00+00:00",
-    "last": 795.3,
-    "pct_day": -0.69
+    "as_of": "2026-11-03T19:35:00+00:00",
+    "last": 793.61,
+    "pct_day": -0.9
    }
   },
   "^GSPTSE": {
@@ -1894,9 +1905,9 @@
    "ma200": 34594.66,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-03T19:05:00+00:00",
-    "last": 35605.75,
-    "pct_day": -0.55
+    "as_of": "2026-11-03T19:35:00+00:00",
+    "last": 35564.07,
+    "pct_day": -0.66
    }
   }
  },
