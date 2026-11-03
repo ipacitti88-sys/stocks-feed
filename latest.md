@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-03T14:01-07:00
+# Stock feed — 2026-11-03T14:06-07:00
 
 Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -113,11 +113,11 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +20.0% at 0.12, volume pace 1.76x
 - ECO.TO (ECOSYNTHETIX INC): +16.3% at 1.57, volume pace 0.12x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +15.0% at 3.06, volume pace 1.02x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +15.4% at 3.07, volume pace 1.02x
 - AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.04x
 - BSX.TO (BELO SUN MINING CORP): +7.2% at 0.74, volume pace 0.53x
 - HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +6.7% at 2.55, volume pace 1.15x
 - GRN.TO (GREENLANE RENEWABLES INC): +6.1% at 0.175, volume pace 0.97x
+- QTRH.TO (QUARTERHILL INC): +5.5% at 2.86, volume pace 0.59x
 - E.TO (EVOLUTION POWERX CORP): +5.3% at 1.78, volume pace 0.57x
 - MTEK.TO (METATEK GROUP LTD): +5.2% at 2.64, volume pace 0.6x
-- QTRH.TO (QUARTERHILL INC): +5.2% at 2.85, volume pace 0.59x

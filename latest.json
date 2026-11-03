@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T14:01-07:00",
+ "generated": "2026-11-03T14:06-07:00",
  "last_close_day": "2026-11-02",
  "tracked": 682,
  "tracked_by_market": {
@@ -633,9 +633,9 @@
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
    "as_of": "2026-11-03T21:00:00+00:00",
-   "last": 3.06,
-   "pct_day": 15.04,
-   "pct_30m": 1.49,
+   "last": 3.07,
+   "pct_day": 15.41,
+   "pct_30m": 1.82,
    "volume_pace": 1.02,
    "rising": false,
    "rising_since": null
@@ -685,6 +685,17 @@
    "rising_since": null
   },
   {
+   "ticker": "QTRH.TO",
+   "name": "QUARTERHILL INC",
+   "as_of": "2026-11-03T21:00:00+00:00",
+   "last": 2.86,
+   "pct_day": 5.54,
+   "pct_30m": 0.35,
+   "volume_pace": 0.59,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "E.TO",
    "name": "EVOLUTION POWERX CORP",
    "as_of": "2026-11-03T21:00:00+00:00",
@@ -703,17 +714,6 @@
    "pct_day": 5.18,
    "pct_30m": 2.72,
    "volume_pace": 0.6,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-11-03T21:00:00+00:00",
-   "last": 2.85,
-   "pct_day": 5.17,
-   "pct_30m": 0.0,
-   "volume_pace": 0.59,
    "rising": false,
    "rising_since": null
   }
