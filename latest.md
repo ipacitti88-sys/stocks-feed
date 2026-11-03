@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-02T15:27-07:00
+# Stock feed — 2026-11-03T08:01-07:00
 
-Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-02T21:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend)
-Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend)
+Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend); live -0.1% at 15:05
+Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend); live -0.7% at 15:05
 
 # TSX Venture
 
@@ -40,7 +40,11 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- GG.V (GOLCONDA GOLD LTD): +9.1% today at 3.25, last 30m +0.3%, volume pace 2.62x, rising since 2026-11-02T21:00:00+00:00
+- DMGI.V (DMG BLOCKCHAIN SOLUTIONS INC): +8.7% today at 0.375, last 30m +4.2%, volume pace 3.02x, rising since 2026-11-03T14:45:00+00:00
+- BRVO.V (BRAVO MINING CORP): +7.5% today at 2.44, last 30m +6.1%, volume pace 10.97x, rising since 2026-11-03T14:50:00+00:00
+- REVX.V (REV EXPLORATION CORP): +5.2% today at 1.43, last 30m +5.9%, volume pace 2.55x, rising since 2026-11-03T15:00:00+00:00
+- QNC.V (QUANTUM EMOTION CORP): +3.8% today at 1.38, last 30m +3.0%, volume pace 3.98x, rising since 2026-11-03T14:50:00+00:00
+- CAM.V (CASCADIA MINERALS LTD): +3.5% today at 0.44, last 30m +6.0%, volume pace 4.58x, rising since 2026-11-03T14:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -57,16 +61,16 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- ANOR.V (ANORTECH INC): +46.4% at 0.205, volume pace 1.97x
-- TNX.V (TENX PROTOCOLS INC): +26.7% at 0.095, volume pace 0.28x
-- HMR.V (HOMERUN RESOURCES INC): +25.3% at 0.47, volume pace 2.29x
-- SCLT.V (SEARCHLIGHT RESOURCES INC): +21.7% at 0.14, volume pace 0.18x
-- BAG.V (BLENDE SILVER CORP): +20.0% at 0.15, volume pace 0.61x
-- UCU.V (UCORE RARE METALS INC): +17.6% at 2.4, volume pace 2.48x
-- VCV.V (VATIC VENTURES CORP): +17.6% at 0.1, volume pace 0.78x
-- GIII.V (REGEN III CORP): +16.7% at 0.14, volume pace 3.47x
-- CCCM.V (C3 METALS INC): +15.5% at 0.67, volume pace 9.83x
-- ADZ.V (ADAMERA MINERALS CORP): +15.0% at 0.115, volume pace 2.75x
+- MYID.V (REKLAIM LTD): +37.5% at 0.385, volume pace 159.53x
+- AUGC.V (AU GOLD CORP): +36.8% at 0.325, volume pace 19.79x
+- NAM.V (NEW AGE METALS INC): +13.8% at 0.165, volume pace 1.15x
+- DLP.V (DLP RESOURCES INC): +13.0% at 0.26, volume pace 0.0x
+- HMR.V (HOMERUN RESOURCES INC): +13.0% at 0.52, volume pace 9.17x
+- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +12.0% at 0.14, volume pace 0.98x
+- MMM.V (MINCO CAPITAL CORP): +11.5% at 0.145, volume pace 0.0x
+- ANDC.V (ANDINA COPPER CORPORATION): +11.5% at 0.97, volume pace 0.18x
+- KCP.V (KING COPPER DISCOVERY CORP): +11.1% at 0.55, volume pace 0.64x
+- ALTU.V (ALTURA ENERGY CORP): +9.7% at 0.17, volume pace 0.14x
 
 # TSX
 
@@ -93,9 +97,11 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PCA.TO (PHOENIX METALS CORP CLASS A): +10.6% today at 1.25, last 30m +0.8%, volume pace 3.04x, rising since 2026-11-02T21:00:00+00:00
-- TSND.TO (TERRASCEND CORP): +10.6% today at 0.73, last 30m +1.4%, volume pace 1.58x, rising since 2026-11-02T20:35:00+00:00
-- XLY.TO (AUXLY CANNABIS GROUP INC): +3.9% today at 3.76, last 30m +0.1%, volume pace 1.52x, rising since 2026-11-02T21:00:00+00:00
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.7% today at 2.89, last 30m +8.2%, volume pace 2.73x, rising since 2026-11-03T14:50:00+00:00
+- WEED.TO (CANOPY GROWTH CORPORATION): +6.2% today at 1.02, last 30m +6.2%, volume pace 3.43x, rising since 2026-11-03T14:55:00+00:00
+- TLRY.TO (TILRAY BRANDS INC): +5.9% today at 3.76, last 30m +1.4%, volume pace 10.68x, rising since 2026-11-03T14:50:00+00:00
+- TSND.TO (TERRASCEND CORP): +5.6% today at 0.76, last 30m +2.7%, volume pace 7.0x, rising since 2026-11-03T14:55:00+00:00
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.0% today at 2.51, last 30m +3.7%, volume pace 2.72x, rising since 2026-11-03T14:50:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -112,13 +118,13 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- AMAP.TO (AMAPA MINERALS HOLDINGS INC): +13.2% at 0.86, volume pace 0.51x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +11.1% at 0.15, volume pace 0.11x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +10.6% at 1.25, volume pace 3.04x
-- TSND.TO (TERRASCEND CORP): +10.6% at 0.73, volume pace 1.58x
-- DND.TO (DYE AND DURHAM LIMITED): +10.2% at 1.62, volume pace 0.76x
-- S.TO (SHERRITT INTL RV): +9.5% at 0.23, volume pace 0.68x
-- FURY.TO (FURY GOLD MINES LIMITED): +9.5% at 0.69, volume pace 1.43x
-- SAM.TO (STARCORE INTERNATIONAL MINES LT): +8.0% at 0.27, volume pace 0.48x
-- SBI.TO (SERABI GOLD PLC): +8.0% at 3.51, volume pace 0.46x
-- ELR.TO (EASTERN PLATINUM LIMITED): +7.5% at 0.215, volume pace 0.11x
+- AVCN.TO (AVICANNA INC): +15.0% at 0.115, volume pace 0.0x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.7% at 2.89, volume pace 2.73x
+- WEED.TO (CANOPY GROWTH CORPORATION): +6.2% at 1.02, volume pace 3.43x
+- TLRY.TO (TILRAY BRANDS INC): +5.9% at 3.76, volume pace 10.68x
+- TSND.TO (TERRASCEND CORP): +5.6% at 0.76, volume pace 7.0x
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.0% at 2.51, volume pace 2.72x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +5.0% at 0.105, volume pace 0.0x
+- BSX.TO (BELO SUN MINING CORP): +4.3% at 0.72, volume pace 0.48x
+- LUC.TO (LUCARA DIAMOND CORP): +4.0% at 0.13, volume pace 1.34x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +3.8% at 4.33, volume pace 0.87x
