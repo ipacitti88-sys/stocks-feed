@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T10:01-07:00",
+ "generated": "2026-11-03T10:31-07:00",
  "last_close_day": "2026-11-02",
  "tracked": 682,
  "tracked_by_market": {
@@ -460,41 +460,8 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-03T17:05:00+00:00",
+ "live_as_of": "2026-11-03T17:35:00+00:00",
  "rising": [
-  {
-   "ticker": "GMG.V",
-   "name": "GRAPHENE MANUFACTURING GROUP LT",
-   "as_of": "2026-11-03T16:55:00+00:00",
-   "last": 2.05,
-   "pct_day": 7.33,
-   "pct_30m": 5.67,
-   "volume_pace": 4.74,
-   "rising": true,
-   "rising_since": "2026-11-03T16:30:00+00:00"
-  },
-  {
-   "ticker": "NOW.V",
-   "name": "NOWVERTICAL GROUP INC",
-   "as_of": "2026-11-03T16:50:00+00:00",
-   "last": 0.155,
-   "pct_day": 6.9,
-   "pct_30m": 6.9,
-   "volume_pace": 3.74,
-   "rising": true,
-   "rising_since": "2026-11-03T16:30:00+00:00"
-  },
-  {
-   "ticker": "KRY.V",
-   "name": "KORYX COPPER S A",
-   "as_of": "2026-11-03T17:00:00+00:00",
-   "last": 3.25,
-   "pct_day": 5.18,
-   "pct_30m": 0.31,
-   "volume_pace": 1.56,
-   "rising": true,
-   "rising_since": "2026-11-03T16:45:00+00:00"
-  },
   {
    "ticker": "YTY.V",
    "name": "WI2WI CORPORATION",
@@ -522,11 +489,11 @@
   {
    "ticker": "MYID.V",
    "name": "REKLAIM LTD",
-   "as_of": "2026-11-03T16:55:00+00:00",
-   "last": 0.395,
-   "pct_day": 41.07,
-   "pct_30m": 2.6,
-   "volume_pace": 52.24,
+   "as_of": "2026-11-03T17:25:00+00:00",
+   "last": 0.4,
+   "pct_day": 42.86,
+   "pct_30m": 1.27,
+   "volume_pace": 48.21,
    "rising": false,
    "rising_since": null
   },
@@ -537,18 +504,18 @@
    "last": 0.31,
    "pct_day": 30.53,
    "pct_30m": -7.46,
-   "volume_pace": 8.35,
+   "volume_pace": 8.39,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GIII.V",
    "name": "REGEN III CORP",
-   "as_of": "2026-11-03T16:10:00+00:00",
+   "as_of": "2026-11-03T17:15:00+00:00",
    "last": 0.15,
    "pct_day": 25.0,
-   "pct_30m": 15.38,
-   "volume_pace": 5.59,
+   "pct_30m": 0.0,
+   "volume_pace": 5.03,
    "rising": false,
    "rising_since": null
   },
@@ -564,17 +531,6 @@
    "rising_since": null
   },
   {
-   "ticker": "DGC.V",
-   "name": "DAURA GOLD CORP",
-   "as_of": "2026-11-03T16:45:00+00:00",
-   "last": 0.3,
-   "pct_day": 20.0,
-   "pct_30m": -6.25,
-   "volume_pace": 12.56,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "BTT.V",
    "name": "BITTERROOT RESOURCES LTD",
    "as_of": "2026-11-03T16:35:00+00:00",
@@ -586,24 +542,24 @@
    "rising_since": null
   },
   {
+   "ticker": "DGC.V",
+   "name": "DAURA GOLD CORP",
+   "as_of": "2026-11-03T17:10:00+00:00",
+   "last": 0.29,
+   "pct_day": 16.0,
+   "pct_30m": -3.33,
+   "volume_pace": 10.76,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "HMR.V",
    "name": "HOMERUN RESOURCES INC",
    "as_of": "2026-11-03T16:50:00+00:00",
    "last": 0.53,
    "pct_day": 15.22,
    "pct_30m": 0.0,
-   "volume_pace": 6.27,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TORC.V",
-   "name": "TINONE RESOURCES INC",
-   "as_of": "2026-11-03T15:00:00+00:00",
-   "last": 0.16,
-   "pct_day": 14.29,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 6.3,
    "rising": false,
    "rising_since": null
   },
@@ -630,13 +586,24 @@
    "rising_since": null
   },
   {
+   "ticker": "JG.V",
+   "name": "JAPAN GOLD CORP",
+   "as_of": "2026-11-03T16:25:00+00:00",
+   "last": 0.125,
+   "pct_day": 13.64,
+   "pct_30m": 0.0,
+   "volume_pace": 0.07,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-03T17:05:00+00:00",
-   "last": 2.98,
-   "pct_day": 12.03,
-   "pct_30m": 1.19,
-   "volume_pace": 1.17,
+   "as_of": "2026-11-03T17:30:00+00:00",
+   "last": 2.99,
+   "pct_day": 12.41,
+   "pct_30m": 0.34,
+   "volume_pace": 1.03,
    "rising": false,
    "rising_since": null
   },
@@ -658,18 +625,18 @@
    "last": 1.45,
    "pct_day": 7.41,
    "pct_30m": 4.32,
-   "volume_pace": 0.06,
+   "volume_pace": 0.12,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BSX.TO",
    "name": "BELO SUN MINING CORP",
-   "as_of": "2026-11-03T17:00:00+00:00",
+   "as_of": "2026-11-03T17:30:00+00:00",
    "last": 0.74,
    "pct_day": 7.25,
-   "pct_30m": 1.37,
-   "volume_pace": 0.31,
+   "pct_30m": 0.0,
+   "volume_pace": 0.27,
    "rising": false,
    "rising_since": null
   },
@@ -680,18 +647,29 @@
    "last": 1.78,
    "pct_day": 5.33,
    "pct_30m": 0.56,
-   "volume_pace": 1.15,
+   "volume_pace": 1.16,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GRID.TO",
+   "name": "TANTALUS SYSTEMS HOLDINGS INC",
+   "as_of": "2026-11-03T17:30:00+00:00",
+   "last": 4.38,
+   "pct_day": 5.04,
+   "pct_30m": 1.62,
+   "volume_pace": 0.33,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-03T17:00:00+00:00",
+   "as_of": "2026-11-03T17:30:00+00:00",
    "last": 2.51,
    "pct_day": 5.02,
    "pct_30m": 0.0,
-   "volume_pace": 1.02,
+   "volume_pace": 0.95,
    "rising": false,
    "rising_since": null
   },
@@ -720,22 +698,11 @@
   {
    "ticker": "TLRY.TO",
    "name": "TILRAY BRANDS INC",
-   "as_of": "2026-11-03T17:00:00+00:00",
+   "as_of": "2026-11-03T17:30:00+00:00",
    "last": 3.7,
    "pct_day": 4.23,
-   "pct_30m": -1.33,
-   "volume_pace": 3.18,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "LUC.TO",
-   "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-11-03T16:45:00+00:00",
-   "last": 0.13,
-   "pct_day": 4.0,
    "pct_30m": 0.0,
-   "volume_pace": 1.86,
+   "volume_pace": 2.76,
    "rising": false,
    "rising_since": null
   }
@@ -1337,9 +1304,9 @@
    "ma200": 964.52,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-03T17:05:00+00:00",
-    "last": 797.02,
-    "pct_day": -0.48
+    "as_of": "2026-11-03T17:35:00+00:00",
+    "last": 797.03,
+    "pct_day": -0.47
    }
   },
   "^GSPTSE": {
@@ -1938,9 +1905,9 @@
    "ma200": 34594.66,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-03T17:05:00+00:00",
-    "last": 35594.32,
-    "pct_day": -0.58
+    "as_of": "2026-11-03T17:35:00+00:00",
+    "last": 35611.88,
+    "pct_day": -0.53
    }
   }
  },
