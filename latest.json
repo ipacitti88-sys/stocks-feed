@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T12:31-07:00",
+ "generated": "2026-11-03T13:01-07:00",
  "last_close_day": "2026-11-02",
  "tracked": 682,
  "tracked_by_market": {
@@ -460,7 +460,7 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-03T19:35:00+00:00",
+ "live_as_of": "2026-11-03T20:05:00+00:00",
  "rising": [
   {
    "ticker": "FWZ.V",
@@ -472,28 +472,17 @@
    "volume_pace": 1.81,
    "rising": true,
    "rising_since": "2026-11-03T19:05:00+00:00"
-  },
-  {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-03T19:15:00+00:00",
-   "last": 0.77,
-   "pct_day": 6.94,
-   "pct_30m": 4.05,
-   "volume_pace": 1.86,
-   "rising": true,
-   "rising_since": "2026-11-03T19:15:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "MYID.V",
    "name": "REKLAIM LTD",
-   "as_of": "2026-11-03T19:05:00+00:00",
-   "last": 0.405,
-   "pct_day": 44.64,
-   "pct_30m": 0.0,
-   "volume_pace": 35.46,
+   "as_of": "2026-11-03T19:45:00+00:00",
+   "last": 0.41,
+   "pct_day": 46.43,
+   "pct_30m": 1.23,
+   "volume_pace": 31.17,
    "rising": false,
    "rising_since": null
   },
@@ -504,18 +493,18 @@
    "last": 0.31,
    "pct_day": 30.53,
    "pct_30m": 3.33,
-   "volume_pace": 5.19,
+   "volume_pace": 5.24,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HMR.V",
    "name": "HOMERUN RESOURCES INC",
-   "as_of": "2026-11-03T19:30:00+00:00",
+   "as_of": "2026-11-03T20:00:00+00:00",
    "last": 0.56,
    "pct_day": 21.74,
-   "pct_30m": 1.82,
-   "volume_pace": 3.07,
+   "pct_30m": 0.0,
+   "volume_pace": 2.81,
    "rising": false,
    "rising_since": null
   },
@@ -531,24 +520,13 @@
    "rising_since": null
   },
   {
-   "ticker": "TAG.V",
-   "name": "Trusilver Metals Corp.",
-   "as_of": "2026-11-03T19:30:00+00:00",
-   "last": 0.4,
-   "pct_day": 17.65,
-   "pct_30m": 12.68,
-   "volume_pace": 0.55,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "SVE.V",
    "name": "SILVER ONE RESOURCES INC",
-   "as_of": "2026-11-03T19:30:00+00:00",
-   "last": 0.36,
-   "pct_day": 16.13,
-   "pct_30m": 12.5,
-   "volume_pace": 0.99,
+   "as_of": "2026-11-03T20:00:00+00:00",
+   "last": 0.355,
+   "pct_day": 14.52,
+   "pct_30m": -1.39,
+   "volume_pace": 1.24,
    "rising": false,
    "rising_since": null
   },
@@ -588,22 +566,33 @@
   {
    "ticker": "KLDC.V",
    "name": "KIRKLAND LAKE DISCOVERIES CORP",
-   "as_of": "2026-11-03T19:25:00+00:00",
+   "as_of": "2026-11-03T19:55:00+00:00",
    "last": 0.315,
    "pct_day": 12.5,
-   "pct_30m": 3.28,
-   "volume_pace": 0.61,
+   "pct_30m": 0.0,
+   "volume_pace": 0.55,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TAG.V",
+   "name": "Trusilver Metals Corp.",
+   "as_of": "2026-11-03T19:55:00+00:00",
+   "last": 0.38,
+   "pct_day": 11.76,
+   "pct_30m": -5.0,
+   "volume_pace": 0.52,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-03T19:35:00+00:00",
-   "last": 3.015,
-   "pct_day": 13.35,
-   "pct_30m": -0.33,
-   "volume_pace": 0.88,
+   "as_of": "2026-11-03T20:00:00+00:00",
+   "last": 3.01,
+   "pct_day": 13.16,
+   "pct_30m": -0.66,
+   "volume_pace": 0.85,
    "rising": false,
    "rising_since": null
   },
@@ -632,24 +621,13 @@
   {
    "ticker": "BSX.TO",
    "name": "BELO SUN MINING CORP",
-   "as_of": "2026-11-03T19:35:00+00:00",
+   "as_of": "2026-11-03T20:00:00+00:00",
    "last": 0.745,
    "pct_day": 7.97,
-   "pct_30m": -0.67,
-   "volume_pace": 0.5,
+   "pct_30m": 0.0,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-03T19:15:00+00:00",
-   "last": 0.77,
-   "pct_day": 6.94,
-   "pct_30m": 4.05,
-   "volume_pace": 1.86,
-   "rising": true,
-   "rising_since": "2026-11-03T19:15:00+00:00"
   },
   {
    "ticker": "ECO.TO",
@@ -665,11 +643,33 @@
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-03T19:35:00+00:00",
-   "last": 2.52,
-   "pct_day": 5.44,
-   "pct_30m": 0.0,
-   "volume_pace": 0.82,
+   "as_of": "2026-11-03T20:00:00+00:00",
+   "last": 2.53,
+   "pct_day": 5.86,
+   "pct_30m": 0.4,
+   "volume_pace": 0.8,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-03T20:00:00+00:00",
+   "last": 0.76,
+   "pct_day": 5.56,
+   "pct_30m": -1.3,
+   "volume_pace": 1.66,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "E.TO",
+   "name": "EVOLUTION POWERX CORP",
+   "as_of": "2026-11-03T19:55:00+00:00",
+   "last": 1.78,
+   "pct_day": 5.33,
+   "pct_30m": 0.28,
+   "volume_pace": 0.64,
    "rising": false,
    "rising_since": null
   },
@@ -691,18 +691,7 @@
    "last": 0.32,
    "pct_day": 4.92,
    "pct_30m": 0.0,
-   "volume_pace": 0.44,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "QTRH.TO",
-   "name": "QUARTERHILL INC",
-   "as_of": "2026-11-03T19:30:00+00:00",
-   "last": 2.84,
-   "pct_day": 4.8,
-   "pct_30m": -1.39,
-   "volume_pace": 0.49,
+   "volume_pace": 0.45,
    "rising": false,
    "rising_since": null
   }
@@ -1304,9 +1293,9 @@
    "ma200": 964.52,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-03T19:35:00+00:00",
-    "last": 793.61,
-    "pct_day": -0.9
+    "as_of": "2026-11-03T20:05:00+00:00",
+    "last": 793.79,
+    "pct_day": -0.88
    }
   },
   "^GSPTSE": {
@@ -1905,9 +1894,9 @@
    "ma200": 34594.66,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-03T19:35:00+00:00",
-    "last": 35564.07,
-    "pct_day": -0.66
+    "as_of": "2026-11-03T20:05:00+00:00",
+    "last": 35542.51,
+    "pct_day": -0.72
    }
   }
  },

@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-03T12:31-07:00
+# Stock feed — 2026-11-03T13:01-07:00
 
-Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T20:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend); live -0.9% at 19:35
-Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend); live -0.7% at 19:35
+Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend); live -0.9% at 20:05
+Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend); live -0.7% at 20:05
 
 # TSX Venture
 
@@ -57,16 +57,16 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- MYID.V (REKLAIM LTD): +44.6% at 0.405, volume pace 35.46x
-- AUGC.V (AU GOLD CORP): +30.5% at 0.31, volume pace 5.19x
-- HMR.V (HOMERUN RESOURCES INC): +21.7% at 0.56, volume pace 3.07x
+- MYID.V (REKLAIM LTD): +46.4% at 0.41, volume pace 31.17x
+- AUGC.V (AU GOLD CORP): +30.5% at 0.31, volume pace 5.24x
+- HMR.V (HOMERUN RESOURCES INC): +21.7% at 0.56, volume pace 2.81x
 - ROS.V (ROSCAN GOLD CORPORATION): +20.0% at 0.12, volume pace 1.24x
-- TAG.V (Trusilver Metals Corp.): +17.6% at 0.4, volume pace 0.55x
-- SVE.V (SILVER ONE RESOURCES INC): +16.1% at 0.36, volume pace 0.99x
+- SVE.V (SILVER ONE RESOURCES INC): +14.5% at 0.355, volume pace 1.24x
 - AUX.V (GOLDEN CROSS RESOURCES INC): +14.3% at 0.08, volume pace 0.36x
 - NAM.V (NEW AGE METALS INC): +13.8% at 0.165, volume pace 1.18x
 - DLP.V (DLP RESOURCES INC): +13.0% at 0.26, volume pace 0.05x
-- KLDC.V (KIRKLAND LAKE DISCOVERIES CORP): +12.5% at 0.315, volume pace 0.61x
+- KLDC.V (KIRKLAND LAKE DISCOVERIES CORP): +12.5% at 0.315, volume pace 0.55x
+- TAG.V (Trusilver Metals Corp.): +11.8% at 0.38, volume pace 0.52x
 
 # TSX
 
@@ -93,7 +93,7 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TSND.TO (TERRASCEND CORP): +6.9% today at 0.77, last 30m +4.0%, volume pace 1.86x, rising since 2026-11-03T19:15:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -110,13 +110,13 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +13.3% at 3.015, volume pace 0.88x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +13.2% at 3.01, volume pace 0.85x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +10.0% at 0.11, volume pace 0.74x
 - AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.04x
-- BSX.TO (BELO SUN MINING CORP): +8.0% at 0.745, volume pace 0.5x
-- TSND.TO (TERRASCEND CORP): +6.9% at 0.77, volume pace 1.86x
+- BSX.TO (BELO SUN MINING CORP): +8.0% at 0.745, volume pace 0.48x
 - ECO.TO (ECOSYNTHETIX INC): +6.7% at 1.44, volume pace 0.08x
-- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.4% at 2.52, volume pace 0.82x
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.9% at 2.53, volume pace 0.8x
+- TSND.TO (TERRASCEND CORP): +5.6% at 0.76, volume pace 1.66x
+- E.TO (EVOLUTION POWERX CORP): +5.3% at 1.78, volume pace 0.64x
 - CFF.TO (CONIFEX TIMBER INC): +5.0% at 0.105, volume pace 0.1x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.9% at 0.32, volume pace 0.44x
-- QTRH.TO (QUARTERHILL INC): +4.8% at 2.84, volume pace 0.49x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.9% at 0.32, volume pace 0.45x
