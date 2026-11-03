@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T10:31-07:00",
+ "generated": "2026-11-03T11:01-07:00",
  "last_close_day": "2026-11-02",
  "tracked": 682,
  "tracked_by_market": {
@@ -460,18 +460,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-03T17:35:00+00:00",
+ "live_as_of": "2026-11-03T18:05:00+00:00",
  "rising": [
   {
-   "ticker": "YTY.V",
-   "name": "WI2WI CORPORATION",
-   "as_of": "2026-11-03T15:45:00+00:00",
-   "last": 0.13,
-   "pct_day": 4.0,
-   "pct_30m": 8.33,
-   "volume_pace": 2.52,
+   "ticker": "BRVO.V",
+   "name": "BRAVO MINING CORP",
+   "as_of": "2026-11-03T18:00:00+00:00",
+   "last": 2.42,
+   "pct_day": 6.61,
+   "pct_30m": 0.41,
+   "volume_pace": 2.57,
    "rising": true,
-   "rising_since": "2026-11-03T15:45:00+00:00"
+   "rising_since": "2026-11-03T17:45:00+00:00"
+  },
+  {
+   "ticker": "FWZ.V",
+   "name": "FIREWEED METALS CORP",
+   "as_of": "2026-11-03T18:05:00+00:00",
+   "last": 2.38,
+   "pct_day": 5.31,
+   "pct_30m": 2.15,
+   "volume_pace": 2.15,
+   "rising": true,
+   "rising_since": "2026-11-03T17:40:00+00:00"
   },
   {
    "ticker": "REG.V",
@@ -489,22 +500,22 @@
   {
    "ticker": "MYID.V",
    "name": "REKLAIM LTD",
-   "as_of": "2026-11-03T17:25:00+00:00",
-   "last": 0.4,
-   "pct_day": 42.86,
-   "pct_30m": 1.27,
-   "volume_pace": 48.21,
+   "as_of": "2026-11-03T17:55:00+00:00",
+   "last": 0.41,
+   "pct_day": 46.43,
+   "pct_30m": 2.5,
+   "volume_pace": 41.66,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
-   "as_of": "2026-11-03T17:00:00+00:00",
+   "as_of": "2026-11-03T17:55:00+00:00",
    "last": 0.31,
    "pct_day": 30.53,
-   "pct_30m": -7.46,
-   "volume_pace": 8.39,
+   "pct_30m": 0.0,
+   "volume_pace": 6.22,
    "rising": false,
    "rising_since": null
   },
@@ -531,24 +542,13 @@
    "rising_since": null
   },
   {
-   "ticker": "BTT.V",
-   "name": "BITTERROOT RESOURCES LTD",
-   "as_of": "2026-11-03T16:35:00+00:00",
-   "last": 0.13,
-   "pct_day": 18.18,
-   "pct_30m": 18.18,
-   "volume_pace": 1.81,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "DGC.V",
    "name": "DAURA GOLD CORP",
-   "as_of": "2026-11-03T17:10:00+00:00",
+   "as_of": "2026-11-03T17:45:00+00:00",
    "last": 0.29,
    "pct_day": 16.0,
-   "pct_30m": -3.33,
-   "volume_pace": 10.76,
+   "pct_30m": 0.0,
+   "volume_pace": 8.87,
    "rising": false,
    "rising_since": null
   },
@@ -597,13 +597,24 @@
    "rising_since": null
   },
   {
+   "ticker": "DLP.V",
+   "name": "DLP RESOURCES INC",
+   "as_of": "2026-11-03T15:45:00+00:00",
+   "last": 0.26,
+   "pct_day": 13.04,
+   "pct_30m": 0.0,
+   "volume_pace": 0.05,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-03T17:30:00+00:00",
-   "last": 2.99,
-   "pct_day": 12.41,
-   "pct_30m": 0.34,
-   "volume_pace": 1.03,
+   "as_of": "2026-11-03T18:00:00+00:00",
+   "last": 3.0,
+   "pct_day": 12.78,
+   "pct_30m": 0.33,
+   "volume_pace": 0.99,
    "rising": false,
    "rising_since": null
   },
@@ -632,44 +643,33 @@
   {
    "ticker": "BSX.TO",
    "name": "BELO SUN MINING CORP",
-   "as_of": "2026-11-03T17:30:00+00:00",
-   "last": 0.74,
-   "pct_day": 7.25,
-   "pct_30m": 0.0,
-   "volume_pace": 0.27,
+   "as_of": "2026-11-03T18:00:00+00:00",
+   "last": 0.73,
+   "pct_day": 5.8,
+   "pct_30m": -1.35,
+   "volume_pace": 0.23,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "E.TO",
-   "name": "EVOLUTION POWERX CORP",
-   "as_of": "2026-11-03T17:00:00+00:00",
-   "last": 1.78,
-   "pct_day": 5.33,
-   "pct_30m": 0.56,
-   "volume_pace": 1.16,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GRID.TO",
-   "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-03T17:30:00+00:00",
-   "last": 4.38,
-   "pct_day": 5.04,
-   "pct_30m": 1.62,
-   "volume_pace": 0.33,
+   "ticker": "QTRH.TO",
+   "name": "QUARTERHILL INC",
+   "as_of": "2026-11-03T17:55:00+00:00",
+   "last": 2.86,
+   "pct_day": 5.54,
+   "pct_30m": 1.78,
+   "volume_pace": 0.53,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-03T17:30:00+00:00",
+   "as_of": "2026-11-03T18:05:00+00:00",
    "last": 2.51,
    "pct_day": 5.02,
    "pct_30m": 0.0,
-   "volume_pace": 0.95,
+   "volume_pace": 0.84,
    "rising": false,
    "rising_since": null
   },
@@ -691,18 +691,29 @@
    "last": 0.32,
    "pct_day": 4.92,
    "pct_30m": 0.0,
-   "volume_pace": 1.15,
+   "volume_pace": 1.19,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TLRY.TO",
-   "name": "TILRAY BRANDS INC",
-   "as_of": "2026-11-03T17:30:00+00:00",
-   "last": 3.7,
-   "pct_day": 4.23,
-   "pct_30m": 0.0,
-   "volume_pace": 2.76,
+   "ticker": "GRID.TO",
+   "name": "TANTALUS SYSTEMS HOLDINGS INC",
+   "as_of": "2026-11-03T18:05:00+00:00",
+   "last": 4.37,
+   "pct_day": 4.8,
+   "pct_30m": -0.23,
+   "volume_pace": 0.3,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "E.TO",
+   "name": "EVOLUTION POWERX CORP",
+   "as_of": "2026-11-03T17:55:00+00:00",
+   "last": 1.76,
+   "pct_day": 4.14,
+   "pct_30m": -1.12,
+   "volume_pace": 0.88,
    "rising": false,
    "rising_since": null
   }
@@ -1304,9 +1315,9 @@
    "ma200": 964.52,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-03T17:35:00+00:00",
-    "last": 797.03,
-    "pct_day": -0.47
+    "as_of": "2026-11-03T18:05:00+00:00",
+    "last": 795.78,
+    "pct_day": -0.63
    }
   },
   "^GSPTSE": {
@@ -1905,9 +1916,9 @@
    "ma200": 34594.66,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-03T17:35:00+00:00",
-    "last": 35611.88,
-    "pct_day": -0.53
+    "as_of": "2026-11-03T18:05:00+00:00",
+    "last": 35599.85,
+    "pct_day": -0.56
    }
   }
  },

@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-03T10:31-07:00
+# Stock feed — 2026-11-03T11:01-07:00
 
-Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 682 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-02. Intraday data as of: 2026-11-03T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend); live -0.5% at 17:35
-Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend); live -0.5% at 17:35
+Market: S&P/TSX Venture Composite 800.83 on 2026-11-02 (day -0.4%, month -8.9%, year -16.0%, downtrend); live -0.6% at 18:05
+Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year +18.6%, uptrend); live -0.6% at 18:05
 
 # TSX Venture
 
@@ -40,7 +40,8 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- YTY.V (WI2WI CORPORATION): +4.0% today at 0.13, last 30m +8.3%, volume pace 2.52x, rising since 2026-11-03T15:45:00+00:00
+- BRVO.V (BRAVO MINING CORP): +6.6% today at 2.42, last 30m +0.4%, volume pace 2.57x, rising since 2026-11-03T17:45:00+00:00
+- FWZ.V (FIREWEED METALS CORP): +5.3% today at 2.38, last 30m +2.1%, volume pace 2.15x, rising since 2026-11-03T17:40:00+00:00
 - REG.V (REGULUS RESOURCES INC): +4.0% today at 4.74, last 30m +3.0%, volume pace 2.15x, rising since 2026-11-03T15:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -58,16 +59,16 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- MYID.V (REKLAIM LTD): +42.9% at 0.4, volume pace 48.21x
-- AUGC.V (AU GOLD CORP): +30.5% at 0.31, volume pace 8.39x
+- MYID.V (REKLAIM LTD): +46.4% at 0.41, volume pace 41.66x
+- AUGC.V (AU GOLD CORP): +30.5% at 0.31, volume pace 6.22x
 - GIII.V (REGEN III CORP): +25.0% at 0.15, volume pace 5.03x
 - ROS.V (ROSCAN GOLD CORPORATION): +20.0% at 0.12, volume pace 1.24x
-- BTT.V (BITTERROOT RESOURCES LTD): +18.2% at 0.13, volume pace 1.81x
-- DGC.V (DAURA GOLD CORP): +16.0% at 0.29, volume pace 10.76x
+- DGC.V (DAURA GOLD CORP): +16.0% at 0.29, volume pace 8.87x
 - HMR.V (HOMERUN RESOURCES INC): +15.2% at 0.53, volume pace 6.3x
 - AUX.V (GOLDEN CROSS RESOURCES INC): +14.3% at 0.08, volume pace 0.8x
 - NAM.V (NEW AGE METALS INC): +13.8% at 0.165, volume pace 1.18x
 - JG.V (JAPAN GOLD CORP): +13.6% at 0.125, volume pace 0.07x
+- DLP.V (DLP RESOURCES INC): +13.0% at 0.26, volume pace 0.05x
 
 # TSX
 
@@ -111,13 +112,13 @@ Market: S&P/TSX Composite 35,801.09 on 2026-11-02 (day +0.5%, month +1.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +12.4% at 2.99, volume pace 1.03x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +12.8% at 3.0, volume pace 0.99x
 - AVCN.TO (AVICANNA INC): +10.0% at 0.11, volume pace 0.04x
 - ECO.TO (ECOSYNTHETIX INC): +7.4% at 1.45, volume pace 0.12x
-- BSX.TO (BELO SUN MINING CORP): +7.2% at 0.74, volume pace 0.27x
-- E.TO (EVOLUTION POWERX CORP): +5.3% at 1.78, volume pace 1.16x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +5.0% at 4.38, volume pace 0.33x
-- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.0% at 2.51, volume pace 0.95x
+- BSX.TO (BELO SUN MINING CORP): +5.8% at 0.73, volume pace 0.23x
+- QTRH.TO (QUARTERHILL INC): +5.5% at 2.86, volume pace 0.53x
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.0% at 2.51, volume pace 0.84x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +5.0% at 0.105, volume pace 1.13x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.9% at 0.32, volume pace 1.15x
-- TLRY.TO (TILRAY BRANDS INC): +4.2% at 3.7, volume pace 2.76x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.9% at 0.32, volume pace 1.19x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.8% at 4.37, volume pace 0.3x
+- E.TO (EVOLUTION POWERX CORP): +4.1% at 1.76, volume pace 0.88x
