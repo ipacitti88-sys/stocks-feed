@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-04T09:01-07:00
+# Stock feed — 2026-11-04T09:31-07:00
 
-Tracking 687 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-03. Intraday data as of: 2026-11-04T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 687 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-03. Intraday data as of: 2026-11-04T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 794.69 on 2026-11-03 (day -0.8%, month -9.8%, year -17.0%, downtrend); live +1.4% at 16:05
-Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year +17.4%, uptrend); live +1.6% at 16:05
+Market: S&P/TSX Venture Composite 794.69 on 2026-11-03 (day -0.8%, month -9.8%, year -17.0%, downtrend); live +1.1% at 16:35
+Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year +17.4%, uptrend); live +1.6% at 16:35
 
 # TSX Venture
 
@@ -49,20 +49,19 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- OMG.V (OMAI GOLD MINES CORP): +9.4% today at 1.63, last 30m +4.8%, volume pace 8.21x, rising since 2026-11-04T15:05:00+00:00
-- SVE.V (SILVER ONE RESOURCES INC): +9.0% today at 0.365, last 30m +1.4%, volume pace 2.35x, rising since 2026-11-04T15:40:00+00:00
-- ASE.V (ASANTE GOLD CORPORATION): +8.6% today at 0.63, last 30m +1.6%, volume pace 1.82x, rising since 2026-11-04T15:40:00+00:00
-- CBR.V (CABRAL GOLD INC): +8.3% today at 1.235, last 30m +1.6%, volume pace 1.6x, rising since 2026-11-04T15:30:00+00:00
-- MMET.V (MIATA METALS CORP): +7.3% today at 0.59, last 30m +1.7%, volume pace 4.2x, rising since 2026-11-04T16:00:00+00:00
-- TAU.V (THESIS GOLD AND SILVER INC): +6.8% today at 2.36, last 30m +1.7%, volume pace 1.51x, rising since 2026-11-04T16:00:00+00:00
-- MFG.V (MAYFAIR GOLD CORP): +6.8% today at 3.46, last 30m +0.9%, volume pace 6.29x, rising since 2026-11-04T15:20:00+00:00
-- ITR.V (INTEGRA RESOURCES CORP): +6.8% today at 3.0, last 30m +0.7%, volume pace 1.98x, rising since 2026-11-04T16:05:00+00:00
-- LTH.V (LITHIUM IONIC CORP): +6.5% today at 0.41, last 30m +7.9%, volume pace 4.88x, rising since 2026-11-04T15:45:00+00:00
-- MGG.V (MINAURUM SILVER INC): +5.1% today at 0.205, last 30m +2.5%, volume pace 6.65x, rising since 2026-11-04T15:55:00+00:00
+- OMG.V (OMAI GOLD MINES CORP): +8.7% today at 1.62, last 30m +0.6%, volume pace 6.73x, rising since 2026-11-04T16:35:00+00:00
+- BRAU.V (BIG RIDGE GOLD CORP): +7.8% today at 0.55, last 30m +1.9%, volume pace 1.58x, rising since 2026-11-04T16:15:00+00:00
+- LTH.V (LITHIUM IONIC CORP): +7.8% today at 0.415, last 30m +9.2%, volume pace 4.51x, rising since 2026-11-04T15:45:00+00:00
+- MMA.V (MIDNIGHT SUN MINING CORP): +7.6% today at 0.425, last 30m +4.9%, volume pace 1.94x, rising since 2026-11-04T16:25:00+00:00
+- KCP.V (KING COPPER DISCOVERY CORP): +7.4% today at 0.58, last 30m +1.8%, volume pace 1.83x, rising since 2026-11-04T15:50:00+00:00
+- GSKR.V (GOLDSKY RESOURCES CORP): +6.8% today at 2.65, last 30m +1.5%, volume pace 2.19x, rising since 2026-11-04T16:20:00+00:00
+- ROCK.V (TRIDENT RESOURCES CORP): +5.1% today at 3.49, last 30m +0.3%, volume pace 2.44x, rising since 2026-11-04T16:25:00+00:00
 - SM.V (SIERRA MADRE GOLD AND SILVER LT): +5.0% today at 1.26, last 30m +0.8%, volume pace 2.48x, rising since 2026-11-04T15:35:00+00:00
-- CKG.V (CHESAPEAKE GOLD CORP.): +3.9% today at 2.42, last 30m +0.8%, volume pace 2.58x, rising since 2026-11-04T15:50:00+00:00
-- ETL.V (E3 LITHIUM LTD): +3.3% today at 0.62, last 30m +1.6%, volume pace 3.0x, rising since 2026-11-04T15:55:00+00:00
-- OGN.V (OROGEN ROYALTIES INC): +3.1% today at 3.93, last 30m +0.8%, volume pace 1.52x, rising since 2026-11-04T16:00:00+00:00
+- TDG.V (TDG GOLD CORP): +4.3% today at 0.485, last 30m +1.0%, volume pace 2.2x, rising since 2026-11-04T16:30:00+00:00
+- CKG.V (CHESAPEAKE GOLD CORP.): +3.9% today at 2.42, last 30m +0.8%, volume pace 2.61x, rising since 2026-11-04T15:50:00+00:00
+- AMX.V (AMEX GOLD MINING INC): +3.8% today at 3.6, last 30m +0.3%, volume pace 1.98x, rising since 2026-11-04T16:30:00+00:00
+- ETL.V (E3 LITHIUM LTD): +3.3% today at 0.62, last 30m +1.6%, volume pace 3.4x, rising since 2026-11-04T15:55:00+00:00
+- OGN.V (OROGEN ROYALTIES INC): +3.1% today at 3.93, last 30m +0.8%, volume pace 3.48x, rising since 2026-11-04T16:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -79,16 +78,16 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- FCI.V (FIRST CANADIAN GRAPHITE INC): +17.9% at 0.66, volume pace 14.5x
-- WAM.V (ALASKA SILVER CORP): +17.0% at 0.55, volume pace 0.3x
+- FCI.V (FIRST CANADIAN GRAPHITE INC): +17.9% at 0.66, volume pace 14.53x
+- WAM.V (ALASKA SILVER CORP): +17.0% at 0.55, volume pace 3.41x
 - LVX.V (LEVIATHAN METALS CORP): +14.5% at 0.355, volume pace 9.12x
-- BRM.V (BIOREM INC.): +14.4% at 4.29, volume pace 37.07x
-- RAK.V (RACKLA METALS INC): +13.5% at 0.21, volume pace 0.91x
-- FOR.V (FORTUNE BAY CORP): +12.2% at 0.55, volume pace 5.17x
-- OPW.V (OPAWICA EXPLORATIONS INC): +12.0% at 0.14, volume pace 51.56x
-- BRW.V (BRUNSWICK EXPLORATION INC): +11.9% at 0.235, volume pace 5.04x
-- GRSL.V (GR SILVER MINING LTD): +11.4% at 0.245, volume pace 2.16x
-- CANX.V (CANEX METALS INC): +11.1% at 0.4, volume pace 0.22x
+- BRM.V (BIOREM INC.): +14.4% at 4.29, volume pace 25.84x
+- ZIGY.V (STARDUST METAL CORP): +12.9% at 1.49, volume pace 0.03x
+- FOR.V (FORTUNE BAY CORP): +12.2% at 0.55, volume pace 5.27x
+- OPW.V (OPAWICA EXPLORATIONS INC): +12.0% at 0.14, volume pace 17.93x
+- BRW.V (BRUNSWICK EXPLORATION INC): +11.9% at 0.235, volume pace 4.27x
+- CANX.V (CANEX METALS INC): +11.1% at 0.4, volume pace 1.14x
+- RYO.V (RIO SILVER INC): +11.1% at 0.3, volume pace 0.23x
 
 # TSX
 
@@ -121,19 +120,16 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- WILD.TO (WILDBRAIN LTD): +16.3% today at 1.57, last 30m +12.1%, volume pace 7.3x, rising since 2026-11-04T15:45:00+00:00
-- PRL.TO (PROPEL HOLDINGS INC): +11.1% today at 29.45, last 30m +1.1%, volume pace 27.41x, rising since 2026-11-04T15:50:00+00:00
-- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +10.1% today at 4.085, last 30m +4.2%, volume pace 1.62x, rising since 2026-11-04T16:00:00+00:00
-- VGZ.TO (VISTA GOLD CORP): +8.8% today at 3.7, last 30m +0.3%, volume pace 3.56x, rising since 2026-11-04T16:05:00+00:00
-- ORE.TO (OREZONE GOLD CORPORATION): +8.3% today at 2.75, last 30m +1.9%, volume pace 1.85x, rising since 2026-11-04T15:50:00+00:00
-- APM.TO (ANDEAN PRECIOUS METALS CORP): +7.2% today at 4.91, last 30m +0.8%, volume pace 1.82x, rising since 2026-11-04T16:00:00+00:00
-- GENM.TO (GENERATION MINING LIMITED): +7.1% today at 0.45, last 30m +2.3%, volume pace 1.71x, rising since 2026-11-04T15:55:00+00:00
-- HMMC.TO (HEMLO MINING CORP): +6.2% today at 4.915, last 30m +0.5%, volume pace 1.55x, rising since 2026-11-04T15:40:00+00:00
-- TRZ.TO (TRANSAT AT INC): +5.6% today at 1.9, last 30m +0.5%, volume pace 3.67x, rising since 2026-11-04T14:55:00+00:00
-- WGX.TO (WESTGOLD RESOURCES LIMITED): +5.4% today at 5.24, last 30m +0.6%, volume pace 2.01x, rising since 2026-11-04T15:55:00+00:00
-- IAU.TO (I 80 GOLD CORP): +4.9% today at 1.92, last 30m +0.5%, volume pace 2.39x, rising since 2026-11-04T15:55:00+00:00
-- CADY.TO (CADILLAC MINES CORPORATION): +4.0% today at 3.88, last 30m +0.4%, volume pace 2.11x, rising since 2026-11-04T16:00:00+00:00
-- OGI.TO (ORGANIGRAM GLOBAL INC): +3.9% today at 1.33, last 30m +1.9%, volume pace 10.39x, rising since 2026-11-04T15:45:00+00:00
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +12.7% today at 4.18, last 30m +1.2%, volume pace 1.76x, rising since 2026-11-04T16:00:00+00:00
+- TLRY.TO (TILRAY BRANDS INC): +10.5% today at 4.11, last 30m +0.6%, volume pace 2.01x, rising since 2026-11-04T16:20:00+00:00
+- VGZ.TO (VISTA GOLD CORP): +9.4% today at 3.72, last 30m +0.8%, volume pace 4.08x, rising since 2026-11-04T16:20:00+00:00
+- THNC.TO (THINKIFIC LABS INC): +9.2% today at 2.25, last 30m +2.7%, volume pace 9.18x, rising since 2026-11-04T16:30:00+00:00
+- ORE.TO (OREZONE GOLD CORPORATION): +9.1% today at 2.77, last 30m +0.7%, volume pace 1.78x, rising since 2026-11-04T15:50:00+00:00
+- GENM.TO (GENERATION MINING LIMITED): +8.3% today at 0.455, last 30m +1.1%, volume pace 1.71x, rising since 2026-11-04T15:55:00+00:00
+- VZLA.TO (VIZSLA SILVER CORP): +5.2% today at 4.46, last 30m +0.2%, volume pace 1.63x, rising since 2026-11-04T16:15:00+00:00
+- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +4.6% today at 2.93, last 30m +0.2%, volume pace 2.51x, rising since 2026-11-04T16:10:00+00:00
+- PMET.TO (PMET RESOURCES INC): +4.0% today at 3.11, last 30m +0.3%, volume pace 2.6x, rising since 2026-11-04T16:15:00+00:00
+- DC-A.TO (DUNDEE CORP., CL.A SV): +4.0% today at 3.68, last 30m +0.6%, volume pace 2.31x, rising since 2026-11-04T16:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -150,13 +146,13 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- WILD.TO (WILDBRAIN LTD): +16.3% at 1.57, volume pace 7.3x
-- PRL.TO (PROPEL HOLDINGS INC): +11.1% at 29.45, volume pace 27.41x
-- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +10.1% at 4.085, volume pace 1.62x
-- TLRY.TO (TILRAY BRANDS INC): +9.9% at 4.09, volume pace 2.21x
-- VGZ.TO (VISTA GOLD CORP): +8.8% at 3.7, volume pace 3.56x
-- HSTR.TO (HELIOSTAR METALS LTD): +8.5% at 2.105, volume pace 0.9x
-- ORE.TO (OREZONE GOLD CORPORATION): +8.3% at 2.75, volume pace 1.85x
-- VGC.TO (VALOR GOLD CORP): +7.2% at 2.22, volume pace 0.24x
-- APM.TO (ANDEAN PRECIOUS METALS CORP): +7.2% at 4.91, volume pace 1.82x
-- GENM.TO (GENERATION MINING LIMITED): +7.1% at 0.45, volume pace 1.71x
+- WILD.TO (WILDBRAIN LTD): +14.1% at 1.54, volume pace 13.22x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +12.7% at 4.18, volume pace 1.76x
+- PRL.TO (PROPEL HOLDINGS INC): +12.6% at 29.84, volume pace 23.59x
+- TLRY.TO (TILRAY BRANDS INC): +10.5% at 4.11, volume pace 2.01x
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): +9.8% at 0.28, volume pace 1.08x
+- VGZ.TO (VISTA GOLD CORP): +9.4% at 3.72, volume pace 4.08x
+- HSTR.TO (HELIOSTAR METALS LTD): +9.3% at 2.12, volume pace 0.77x
+- THNC.TO (THINKIFIC LABS INC): +9.2% at 2.25, volume pace 9.18x
+- ORE.TO (OREZONE GOLD CORPORATION): +9.1% at 2.77, volume pace 1.78x
+- GENM.TO (GENERATION MINING LIMITED): +8.3% at 0.455, volume pace 1.71x
