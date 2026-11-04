@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-04T13:31-07:00
+# Stock feed — 2026-11-04T14:01-07:00
 
-Tracking 687 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-03. Intraday data as of: 2026-11-04T20:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 687 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-03. Intraday data as of: 2026-11-04T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 794.69 on 2026-11-03 (day -0.8%, month -9.8%, year -17.0%, downtrend); live +2.2% at 20:35
-Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year +17.4%, uptrend); live +2.4% at 20:35
+Market: S&P/TSX Venture Composite 794.69 on 2026-11-03 (day -0.8%, month -9.8%, year -17.0%, downtrend); live +2.4% at 21:00
+Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year +17.4%, uptrend); live +2.3% at 21:00
 
 # TSX Venture
 
@@ -49,18 +49,25 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- MGG.V (MINAURUM SILVER INC): +20.5% today at 0.235, last 30m +2.2%, volume pace 3.65x, rising since 2026-11-04T20:05:00+00:00
-- EXN.V (EXCELLON RESOURCES INC): +14.9% today at 0.27, last 30m +1.9%, volume pace 2.1x, rising since 2026-11-04T20:00:00+00:00
-- DB.V (DECIBEL CANNABIS COMPANY INC): +11.1% today at 2.0, last 30m +2.0%, volume pace 1.78x, rising since 2026-11-04T19:55:00+00:00
+- MGG.V (MINAURUM SILVER INC): +25.6% today at 0.245, last 30m +4.3%, volume pace 3.54x, rising since 2026-11-04T20:05:00+00:00
+- EXN.V (EXCELLON RESOURCES INC): +16.0% today at 0.2725, last 30m +0.9%, volume pace 2.18x, rising since 2026-11-04T20:00:00+00:00
+- OMG.V (OMAI GOLD MINES CORP): +14.1% today at 1.7, last 30m +1.8%, volume pace 6.28x, rising since 2026-11-04T21:00:00+00:00
+- HHH.V (HELIUS MINERALS LIMITED): +12.5% today at 3.77, last 30m +10.9%, volume pace 1.56x, rising since 2026-11-04T20:35:00+00:00
+- SCOT.V (SCOTTIE RESOURCES CORP): +12.5% today at 2.34, last 30m +1.7%, volume pace 1.62x, rising since 2026-11-04T20:55:00+00:00
+- DB.V (DECIBEL CANNABIS COMPANY INC): +11.7% today at 2.01, last 30m +0.5%, volume pace 1.56x, rising since 2026-11-04T19:55:00+00:00
 - SOMA.V (SOMA GOLD CORP): +10.6% today at 0.52, last 30m +2.0%, volume pace 3.75x, rising since 2026-11-04T19:20:00+00:00
+- GORO.V (GOLDGROUP MINING INC): +8.9% today at 4.29, last 30m +0.9%, volume pace 5.3x, rising since 2026-11-04T20:50:00+00:00
+- ITR.V (INTEGRA RESOURCES CORP): +8.5% today at 3.05, last 30m +0.3%, volume pace 1.54x, rising since 2026-11-04T21:00:00+00:00
 - OGN.V (OROGEN ROYALTIES INC): +8.4% today at 4.13, last 30m +0.2%, volume pace 2.42x, rising since 2026-11-04T19:10:00+00:00
-- IPT.V (IMPACT SILVER CORP.): +7.0% today at 0.23, last 30m +2.2%, volume pace 2.09x, rising since 2026-11-04T20:30:00+00:00
+- ROCK.V (TRIDENT RESOURCES CORP): +7.5% today at 3.57, last 30m +0.8%, volume pace 1.7x, rising since 2026-11-04T20:55:00+00:00
+- MMET.V (MIATA METALS CORP): +7.3% today at 0.59, last 30m +1.7%, volume pace 2.64x, rising since 2026-11-04T20:55:00+00:00
+- MFG.V (MAYFAIR GOLD CORP): +7.1% today at 3.47, last 30m +1.8%, volume pace 1.63x, rising since 2026-11-04T21:00:00+00:00
+- ETL.V (E3 LITHIUM LTD): +6.7% today at 0.64, last 30m +1.6%, volume pace 1.57x, rising since 2026-11-04T20:25:00+00:00
+- NCX.V (NORTHISLE COPPER AND GOLD INC): +6.3% today at 3.04, last 30m +0.3%, volume pace 1.52x, rising since 2026-11-04T21:00:00+00:00
+- PGLD.V (P2 GOLD INC): +5.8% today at 1.195, last 30m +0.4%, volume pace 2.07x, rising since 2026-11-04T21:00:00+00:00
 - GLDC.V (CASSIAR GOLD CORP): +5.4% today at 0.295, last 30m +1.7%, volume pace 1.82x, rising since 2026-11-04T20:15:00+00:00
-- CERT.V (CERRADO GOLD INC): +4.4% today at 2.14, last 30m +0.9%, volume pace 3.15x, rising since 2026-11-04T20:20:00+00:00
-- GG.V (GOLCONDA GOLD LTD): +4.3% today at 3.38, last 30m +0.9%, volume pace 1.67x, rising since 2026-11-04T20:15:00+00:00
-- CKG.V (CHESAPEAKE GOLD CORP.): +4.3% today at 2.43, last 30m +2.1%, volume pace 1.66x, rising since 2026-11-04T19:45:00+00:00
-- LTH.V (LITHIUM IONIC CORP): +3.9% today at 0.4, last 30m +1.3%, volume pace 1.9x, rising since 2026-11-04T20:30:00+00:00
-- HITI.V (HIGH TIDE INC): +3.4% today at 3.94, last 30m +0.2%, volume pace 1.72x, rising since 2026-11-04T20:30:00+00:00
+- GG.V (GOLCONDA GOLD LTD): +4.0% today at 3.37, last 30m +0.9%, volume pace 1.86x, rising since 2026-11-04T20:15:00+00:00
+- LTH.V (LITHIUM IONIC CORP): +3.9% today at 0.4, last 30m +1.3%, volume pace 1.88x, rising since 2026-11-04T20:40:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -77,16 +84,16 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- MGG.V (MINAURUM SILVER INC): +25.6% at 0.245, volume pace 3.54x
 - ZIGY.V (STARDUST METAL CORP): +21.2% at 1.6, volume pace 0.17x
-- DRY.V (DRYDEN GOLD CORP): +20.7% at 0.175, volume pace 3.38x
 - NSU.V (NORTH SHORE URANIUM LTD): +20.7% at 0.175, volume pace 0.0x
-- MGG.V (MINAURUM SILVER INC): +20.5% at 0.235, volume pace 3.65x
 - ADZ.V (ADAMERA MINERALS CORP): +20.0% at 0.12, volume pace 2.43x
-- SPA.V (SPANISH MOUNTAIN GOLD LTD): +17.9% at 0.23, volume pace 1.37x
-- FCI.V (FIRST CANADIAN GRAPHITE INC): +17.9% at 0.66, volume pace 4.41x
-- BRM.V (BIOREM INC.): +17.3% at 4.4, volume pace 11.03x
-- SVE.V (SILVER ONE RESOURCES INC): +16.4% at 0.39, volume pace 1.15x
-- RAK.V (RACKLA METALS INC): +16.2% at 0.215, volume pace 0.31x
+- FCI.V (FIRST CANADIAN GRAPHITE INC): +19.6% at 0.67, volume pace 4.3x
+- DRY.V (DRYDEN GOLD CORP): +19.0% at 0.1725, volume pace 3.15x
+- GRSL.V (GR SILVER MINING LTD): +18.2% at 0.26, volume pace 1.36x
+- SPA.V (SPANISH MOUNTAIN GOLD LTD): +17.9% at 0.23, volume pace 1.28x
+- RAK.V (RACKLA METALS INC): +16.2% at 0.215, volume pace 0.28x
+- OPW.V (OPAWICA EXPLORATIONS INC): +16.0% at 0.145, volume pace 7.32x
 
 # TSX
 
@@ -119,11 +126,15 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- THNC.TO (THINKIFIC LABS INC): +10.7% today at 2.28, last 30m +0.9%, volume pace 4.07x, rising since 2026-11-04T19:55:00+00:00
-- RIO.TO (RIO2 LIMITED): +8.3% today at 2.74, last 30m +0.9%, volume pace 2.04x, rising since 2026-11-04T20:15:00+00:00
-- ORV.TO (ORVANA MINERALS J): +7.5% today at 1.71, last 30m +1.2%, volume pace 1.5x, rising since 2026-11-04T20:35:00+00:00
-- ETG.TO (ENTREE RESOURCES LTD): +7.4% today at 2.77, last 30m +0.7%, volume pace 1.5x, rising since 2026-11-04T20:30:00+00:00
-- CIA.TO (CHAMPION IRON LIMITED): +5.8% today at 1.905, last 30m +1.1%, volume pace 3.82x, rising since 2026-11-04T20:30:00+00:00
+- PRL.TO (PROPEL HOLDINGS INC): +15.1% today at 30.51, last 30m +0.1%, volume pace 26.75x, rising since 2026-11-04T21:00:00+00:00
+- ORV.TO (ORVANA MINERALS J): +8.8% today at 1.73, last 30m +1.8%, volume pace 1.59x, rising since 2026-11-04T21:00:00+00:00
+- RIO.TO (RIO2 LIMITED): +8.3% today at 2.74, last 30m +0.6%, volume pace 2.09x, rising since 2026-11-04T21:00:00+00:00
+- ETG.TO (ENTREE RESOURCES LTD): +7.8% today at 2.78, last 30m +0.4%, volume pace 1.9x, rising since 2026-11-04T21:00:00+00:00
+- PTM.TO (PLATINUM GROUP METALS LTD.): +7.3% today at 1.46, last 30m +1.0%, volume pace 3.63x, rising since 2026-11-04T21:00:00+00:00
+- CIA.TO (CHAMPION IRON LIMITED): +6.1% today at 1.91, last 30m +0.3%, volume pace 3.89x, rising since 2026-11-04T21:00:00+00:00
+- PMET.TO (PMET RESOURCES INC): +5.3% today at 3.15, last 30m +0.6%, volume pace 2.31x, rising since 2026-11-04T20:40:00+00:00
+- STGO.TO (STEPPE GOLD LTD): +4.4% today at 1.41, last 30m +0.7%, volume pace 2.3x, rising since 2026-11-04T21:00:00+00:00
+- OGI.TO (ORGANIGRAM GLOBAL INC): +3.9% today at 1.33, last 30m +1.5%, volume pace 5.37x, rising since 2026-11-04T21:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -140,13 +151,13 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- PRL.TO (PROPEL HOLDINGS INC): +15.0% at 30.48, volume pace 27.68x
-- HSTR.TO (HELIOSTAR METALS LTD): +14.9% at 2.23, volume pace 0.84x
-- USA.TO (AMERICAS GOLD AND SILVER CORPOR): +13.5% at 4.3, volume pace 1.09x
-- WILD.TO (WILDBRAIN LTD): +11.8% at 1.51, volume pace 6.03x
-- SAM.TO (STARCORE INTERNATIONAL MINES LT): +11.8% at 0.285, volume pace 0.49x
-- VGZ.TO (VISTA GOLD CORP): +11.5% at 3.79, volume pace 2.64x
-- NEXT.TO (NEXTSOURCE MATERIALS INC): +11.1% at 0.2, volume pace 1.21x
-- ORE.TO (OREZONE GOLD CORPORATION): +11.0% at 2.82, volume pace 0.86x
-- ARA.TO (ACLARA RESOURCES INC): +11.0% at 2.42, volume pace 1.15x
-- APM.TO (ANDEAN PRECIOUS METALS CORP): +10.7% at 5.07, volume pace 1.01x
+- HSTR.TO (HELIOSTAR METALS LTD): +15.5% at 2.24, volume pace 1.11x
+- PRL.TO (PROPEL HOLDINGS INC): +15.1% at 30.51, volume pace 26.75x
+- USA.TO (AMERICAS GOLD AND SILVER CORPOR): +13.7% at 4.31, volume pace 1.24x
+- STLR.TO (STLLR GOLD INC): +13.1% at 1.21, volume pace 1.11x
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): +11.8% at 0.285, volume pace 0.96x
+- TLRY.TO (TILRAY BRANDS INC): +11.6% at 4.15, volume pace 1.29x
+- WILD.TO (WILDBRAIN LTD): +11.1% at 1.5, volume pace 5.52x
+- APM.TO (ANDEAN PRECIOUS METALS CORP): +10.9% at 5.08, volume pace 1.07x
+- FF.TO (FIRST MINING GOLD CORP): +10.7% at 0.62, volume pace 0.94x
+- THNC.TO (THINKIFIC LABS INC): +10.7% at 2.28, volume pace 3.58x
