@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-04T14:06-07:00
+# Stock feed — 2026-11-04T15:29-07:00
 
-Tracking 687 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-03. Intraday data as of: 2026-11-04T21:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-04T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 794.69 on 2026-11-03 (day -0.8%, month -9.8%, year -17.0%, downtrend); live +2.4% at 21:00
-Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year +17.4%, uptrend); live +2.3% at 21:00
+Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend)
+Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend)
 
 # TSX Venture
 
@@ -17,35 +17,26 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX Venture: washout watch (down 15%+ over 5 days, not fired yet; ready = already down 20%+)
 
+- EMO.V (EMERITA RESOURCES CORP): close 0.195, 5d -33.9%, ready, C$99k a day
+- MOON.V (BLUE MOON METALS INC): close 4.11, 5d -33.6%, ready, C$1,351k a day
+- OMI.V (OROSUR MINING INC): close 0.17, 5d -30.6%, ready, C$77k a day
 - LXM.V (LUX METALS CORP): close 0.13, 5d -29.7%, ready, C$51k a day
-- EMO.V (EMERITA RESOURCES CORP): close 0.22, 5d -26.7%, ready, C$82k a day
-- PLSR.V (PULSAR HELIUM INC): close 1.12, 5d -25.3%, ready, C$370k a day
-- SAGE.V (SAGE POTASH CORP): close 0.1, 5d -24.5%, ready, C$57k a day
-- ASE.V (ASANTE GOLD CORPORATION): close 0.58, 5d -23.7%, ready, C$215k a day
-- MOON.V (BLUE MOON METALS INC): close 4.69, 5d -23.1%, ready, C$1,280k a day
-- NAU.V (NEVGOLD CORP): close 0.52, 5d -21.2%, ready, C$150k a day
-- SCMI.V (SELKIRK COPPER MINES INC): close 0.91, 5d -19.5%, C$345k a day
-- ONAU.V (ONGOLD RESOURCES LTD): close 0.435, 5d -19.4%, C$65k a day
-- FRED.V (FREDONIA MINING INC): close 0.465, 5d -18.4%, C$77k a day
-- OMG.V (OMAI GOLD MINES CORP): close 1.49, 5d -18.1%, C$2,991k a day
-- KTO.V (K2 GOLD CORPORATION): close 0.65, 5d -17.7%, C$155k a day
-- TSG.V (TRISTAR GOLD INC.): close 0.215, 5d -17.3%, C$71k a day
-- SSV.V (SOUTHERN SILVER EXPLORATION COR): close 0.34, 5d -17.1%, C$275k a day
-- LG.V (LAHONTAN GOLD CORP): close 0.25, 5d -16.7%, C$324k a day
-- PGE.V (STILLWATER CRITICAL MINERALS CO): close 0.285, 5d -16.2%, C$101k a day
-- BZ.V (BENZ MINING CORP): close 3.73, 5d -15.8%, C$490k a day
-- CVV.V (CANALASKA URANIUM LTD): close 0.245, 5d -15.5%, C$102k a day
-- MGG.V (MINAURUM SILVER INC): close 0.195, 5d -15.2%, C$75k a day
-- SPA.V (SPANISH MOUNTAIN GOLD LTD): close 0.195, 5d -15.2%, C$148k a day
-- CAMB.V (CAMBRIA GOLD MINES INC): close 0.62, 5d -15.1%, C$501k a day
+- PLSR.V (PULSAR HELIUM INC): close 1.11, 5d -22.4%, ready, C$381k a day
+- LCX.V (LYCOS ENERGY INC): close 1.48, 5d -21.3%, ready, C$371k a day
+- MLP.V (MILLENNIAL POTASH CORP): close 1.55, 5d -20.5%, ready, C$635k a day
+- NURS.V (HYDREIGHT TECHNOLOGIES INC): close 2.81, 5d -19.9%, C$188k a day
+- ROK.V (ROK RESOURCES INC): close 0.315, 5d -17.1%, C$258k a day
+- ALDE.V (ALDEBARAN RESOURCES INC): close 3.05, 5d -15.7%, C$549k a day
+- CVV.V (CANALASKA URANIUM LTD): close 0.245, 5d -15.5%, C$99k a day
+- OGW.V (ONGWE MINERALS INC): close 1.06, 5d -15.2%, C$58k a day
 
 ## TSX Venture: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- NOW.V (NOWVERTICAL GROUP INC): 2/3, close 0.15, rel vol 3.09x, 20d -3.2%, -53.1% vs 52w high
-- ECU.V (ELEMENT 29 RESOURCES INC): 2/3, close 2.02, rel vol 1.14x, 20d +9.2%, +0.0% vs 52w high
-- WI.V (THE WESTERN INVESTMENT CO OF CD): 2/3, close 1.25, rel vol 1.05x, 20d +16.8%, +0.0% vs 52w high
-- MTAU.V (Monteoro Minerals Ltd.): 2/3, close 0.8, rel vol 0.12x, 20d -, +0.0% vs 52w high
-- SDI.V (STAMPEDE DRILLING INC): 2/3, close 0.24, rel vol 0.05x, 20d +6.7%, +0.0% vs 52w high
+- BRM.V (BIOREM INC.): 3/3, close 4.44, rel vol 10.03x, 20d +23.3%, +0.0% vs 52w high
+- FCI.V (FIRST CANADIAN GRAPHITE INC): 3/3, close 0.67, rel vol 5.0x, 20d +28.8%, +0.0% vs 52w high
+- BRW.V (BRUNSWICK EXPLORATION INC): 2/3, close 0.235, rel vol 2.37x, 20d -2.1%, -38.2% vs 52w high
+- PCU.V (PECOY COPPER CORP): 2/3, close 1.88, rel vol 2.36x, 20d +2.7%, -16.1% vs 52w high
+- YTY.V (WI2WI CORPORATION): 2/3, close 0.13, rel vol 0.28x, 20d +36.8%, +0.0% vs 52w high
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -69,16 +60,16 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX Venture: top by relative volume at last close
 
-- EMO.V (EMERITA RESOURCES CORP): rel vol 7.23x, close 0.22, 20d -38.0%
-- JUGR.V (JUGGERNAUT EXPLORATION LTD): rel vol 3.21x, close 0.38, 20d -9.5%
-- NOW.V (NOWVERTICAL GROUP INC): rel vol 3.09x, close 0.15, 20d -3.2%
-- MOON.V (BLUE MOON METALS INC): rel vol 2.73x, close 4.69, 20d -32.9%
-- GMG.V (GRAPHENE MANUFACTURING GROUP LT): rel vol 2.6x, close 2.04, 20d -16.0%
-- BRVO.V (BRAVO MINING CORP): rel vol 2.45x, close 2.26, 20d -20.4%
-- GORO.V (GOLDGROUP MINING INC): rel vol 2.05x, close 3.94, 20d -13.4%
-- NURS.V (HYDREIGHT TECHNOLOGIES INC): rel vol 2.05x, close 3.02, 20d -9.3%
-- CERT.V (CERRADO GOLD INC): rel vol 1.82x, close 2.05, 20d -14.6%
-- ALDE.V (ALDEBARAN RESOURCES INC): rel vol 1.81x, close 3.54, 20d +11.0%
+- BRM.V (BIOREM INC.): rel vol 10.03x, close 4.44, 20d +23.3%
+- MLP.V (MILLENNIAL POTASH CORP): rel vol 7.39x, close 1.55, 20d -30.2%
+- OMG.V (OMAI GOLD MINES CORP): rel vol 5.37x, close 1.69, 20d -23.2%
+- MOON.V (BLUE MOON METALS INC): rel vol 5.01x, close 4.11, 20d -43.5%
+- FCI.V (FIRST CANADIAN GRAPHITE INC): rel vol 5.0x, close 0.67, 20d +28.8%
+- CERT.V (CERRADO GOLD INC): rel vol 3.85x, close 2.13, 20d -8.6%
+- ROK.V (ROK RESOURCES INC): rel vol 3.79x, close 0.315, 20d -7.4%
+- CANX.V (CANEX METALS INC): rel vol 3.73x, close 0.37, 20d -14.0%
+- UCU.V (UCORE RARE METALS INC): rel vol 3.61x, close 2.08, 20d -19.1%
+- MGG.V (MINAURUM SILVER INC): rel vol 3.58x, close 0.2525, 20d -21.1%
 
 ## TSX Venture: top gainers in latest intraday pass
 
@@ -101,26 +92,31 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX: washouts at last close (down 20%+ over 5 days, then an up day on above-normal volume; hold ~20 days)
 
-- none
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): close 3.96, 5d -25.7%, day +6.7%, rel vol 1.6x
 
 ## TSX: washout watch (down 15%+ over 5 days, not fired yet; ready = already down 20%+)
 
-- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): close 3.71, 5d -33.6%, ready, C$11,374k a day
-- CIA.TO (CHAMPION IRON LIMITED): close 1.8, 5d -20.0%, C$2,127k a day
-- ARA.TO (ACLARA RESOURCES INC): close 2.18, 5d -19.9%, C$338k a day
-- VGC.TO (VALOR GOLD CORP): close 2.07, 5d -19.5%, C$405k a day
-- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): close 0.97, 5d -18.5%, C$1,392k a day
-- URE.TO (UR-ENERGY INC.): close 1.03, 5d -18.3%, C$366k a day
-- BSX.TO (BELO SUN MINING CORP): close 0.75, 5d -16.7%, C$897k a day
-- ARN.TO (ASARIAN ENERGY LIMITED): close 0.36, 5d -16.3%, C$74k a day
-- HSTR.TO (HELIOSTAR METALS LTD): close 1.94, 5d -15.7%, C$1,417k a day
-- STLR.TO (STLLR GOLD INC): close 1.07, 5d -15.7%, C$187k a day
-- USA.TO (AMERICAS GOLD AND SILVER CORPOR): close 3.79, 5d -15.2%, C$6,965k a day
-- MNO.TO (MERIDIAN MINING PLC): close 1.64, 5d -15.0%, C$1,264k a day
+- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): close 0.95, 5d -22.1%, ready, C$1,376k a day
+- JOY.TO (JOURNEY ENERGY INC): close 4.53, 5d -21.2%, ready, C$1,620k a day
+- LAM.TO (LARAMIDE RESOURCES LTD.): close 0.41, 5d -19.6%, C$249k a day
+- ARN.TO (ASARIAN ENERGY LIMITED): close 0.34, 5d -19.0%, C$74k a day
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): close 3.66, 5d -18.7%, C$4,720k a day
+- URE.TO (UR-ENERGY INC.): close 1.06, 5d -17.2%, C$371k a day
+- S.TO (SHERRITT INTL RV): close 0.175, 5d -16.7%, C$163k a day
+- GLO.TO (GLOBAL ATOMIC CORPORATION): close 0.31, 5d -16.2%, C$649k a day
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): close 3.82, 5d -16.0%, C$1,649k a day
+- LGO.TO (LARGO INC): close 0.4625, 5d -15.9%, C$68k a day
+- RBY.TO (RUBELLITE ENERGY CORP): close 3.81, 5d -15.5%, C$292k a day
+- MGA.TO (MEGA URANIUM LTD.): close 0.44, 5d -15.4%, C$352k a day
 
 ## TSX: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- DIV.TO (DIVERSIFIED ROYALTY CORP): 2/3, close 4.14, rel vol 3.07x, 20d +1.5%, -16.0% vs 52w high
+- PRL.TO (PROPEL HOLDINGS INC): 3/3, close 30.53, rel vol 11.11x, 20d +23.6%, +0.0% vs 52w high
+- WILD.TO (WILDBRAIN LTD): 2/3, close 1.51, rel vol 5.66x, 20d +16.2%, -23.0% vs 52w high
+- CRON.TO (CRONOS GROUP INC): 2/3, close 4.93, rel vol 3.96x, 20d +5.6%, -0.4% vs 52w high
+- DIV.TO (DIVERSIFIED ROYALTY CORP): 2/3, close 4.12, rel vol 3.71x, 20d +0.2%, -16.4% vs 52w high
+- VGZ.TO (VISTA GOLD CORP): 2/3, close 3.79, rel vol 2.58x, 20d -0.8%, -8.7% vs 52w high
+- THNC.TO (THINKIFIC LABS INC): 2/3, close 2.28, rel vol 2.22x, 20d +23.2%, -0.4% vs 52w high
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -136,16 +132,16 @@ Market: S&P/TSX Composite 35,532.28 on 2026-11-03 (day -0.8%, month +0.1%, year 
 
 ## TSX: top by relative volume at last close
 
-- OGI.TO (ORGANIGRAM GLOBAL INC): rel vol 16.76x, close 1.28, 20d -4.5%
-- REAL.TO (Real Matters): rel vol 5.56x, close 3.14, 20d -6.0%
-- S.TO (SHERRITT INTL RV): rel vol 3.88x, close 0.205, 20d -26.8%
-- AIM.TO (AIMIA INC): rel vol 3.15x, close 2.58, 20d -0.8%
-- DIV.TO (DIVERSIFIED ROYALTY CORP): rel vol 3.07x, close 4.14, 20d +1.5%
-- MOLY.TO (GREENLAND RESOURCES INC): rel vol 2.97x, close 1.39, 20d -10.9%
-- CIA.TO (CHAMPION IRON LIMITED): rel vol 2.9x, close 1.8, 20d -40.4%
-- IAU.TO (I 80 GOLD CORP): rel vol 2.59x, close 1.83, 20d -20.8%
-- ECOR.TO (ECORA ROYALTIES PLC): rel vol 2.34x, close 2.62, 20d -12.7%
-- TSND.TO (TERRASCEND CORP): rel vol 1.78x, close 0.76, 20d +1.3%
+- PRL.TO (PROPEL HOLDINGS INC): rel vol 11.11x, close 30.53, 20d +23.6%
+- AKT.TO (AKITA DRILLING LTD): rel vol 8.54x, close 3.51, 20d -5.1%
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): rel vol 8.11x, close 2.44, 20d -28.2%
+- CVVY.TO (CAVVY ENERGY LTD): rel vol 5.75x, close 2.31, 20d +1.3%
+- WILD.TO (WILDBRAIN LTD): rel vol 5.66x, close 1.51, 20d +16.2%
+- OGI.TO (ORGANIGRAM GLOBAL INC): rel vol 5.55x, close 1.34, 20d -4.3%
+- CADY.TO (CADILLAC MINES CORPORATION): rel vol 4.44x, close 4.02, 20d -29.8%
+- TMQ.TO (TRILOGY METALS INC): rel vol 4.04x, close 3.05, 20d -27.9%
+- CRON.TO (CRONOS GROUP INC): rel vol 3.96x, close 4.93, 20d +5.6%
+- CIA.TO (CHAMPION IRON LIMITED): rel vol 3.93x, close 1.92, 20d -36.0%
 
 ## TSX: top gainers in latest intraday pass
 
