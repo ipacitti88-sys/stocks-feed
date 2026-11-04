@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T14:01-07:00",
+ "generated": "2026-11-04T14:06-07:00",
  "last_close_day": "2026-11-03",
  "tracked": 687,
  "tracked_by_market": {
@@ -439,9 +439,9 @@
    "ticker": "OMG.V",
    "name": "OMAI GOLD MINES CORP",
    "as_of": "2026-11-04T21:00:00+00:00",
-   "last": 1.7,
-   "pct_day": 14.09,
-   "pct_30m": 1.8,
+   "last": 1.69,
+   "pct_day": 13.42,
+   "pct_30m": 1.2,
    "volume_pace": 6.28,
    "rising": true,
    "rising_since": "2026-11-04T21:00:00+00:00"
@@ -509,17 +509,6 @@
    "pct_day": 8.81,
    "pct_30m": 1.76,
    "volume_pace": 1.59,
-   "rising": true,
-   "rising_since": "2026-11-04T21:00:00+00:00"
-  },
-  {
-   "ticker": "ITR.V",
-   "name": "INTEGRA RESOURCES CORP",
-   "as_of": "2026-11-04T21:00:00+00:00",
-   "last": 3.05,
-   "pct_day": 8.54,
-   "pct_30m": 0.33,
-   "volume_pace": 1.54,
    "rising": true,
    "rising_since": "2026-11-04T21:00:00+00:00"
   },
@@ -610,17 +599,6 @@
    "volume_pace": 1.57,
    "rising": true,
    "rising_since": "2026-11-04T20:25:00+00:00"
-  },
-  {
-   "ticker": "NCX.V",
-   "name": "NORTHISLE COPPER AND GOLD INC",
-   "as_of": "2026-11-04T21:00:00+00:00",
-   "last": 3.04,
-   "pct_day": 6.29,
-   "pct_30m": 0.33,
-   "volume_pace": 1.52,
-   "rising": true,
-   "rising_since": "2026-11-04T21:00:00+00:00"
   },
   {
    "ticker": "CIA.TO",
@@ -889,6 +867,17 @@
    "rising_since": null
   },
   {
+   "ticker": "APM.TO",
+   "name": "ANDEAN PRECIOUS METALS CORP",
+   "as_of": "2026-11-04T21:00:00+00:00",
+   "last": 5.09,
+   "pct_day": 11.14,
+   "pct_30m": 0.39,
+   "volume_pace": 1.09,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "WILD.TO",
    "name": "WILDBRAIN LTD",
    "as_of": "2026-11-04T21:00:00+00:00",
@@ -896,17 +885,6 @@
    "pct_day": 11.11,
    "pct_30m": -0.66,
    "volume_pace": 5.52,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "APM.TO",
-   "name": "ANDEAN PRECIOUS METALS CORP",
-   "as_of": "2026-11-04T21:00:00+00:00",
-   "last": 5.08,
-   "pct_day": 10.92,
-   "pct_30m": 0.2,
-   "volume_pace": 1.07,
    "rising": false,
    "rising_since": null
   },
