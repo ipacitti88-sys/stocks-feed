@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T10:31-07:00",
+ "generated": "2026-11-05T11:01-07:00",
  "last_close_day": "2026-11-04",
  "tracked": 689,
  "tracked_by_market": {
@@ -475,19 +475,8 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-05T17:35:00+00:00",
+ "live_as_of": "2026-11-05T18:05:00+00:00",
  "rising": [
-  {
-   "ticker": "DEC.V",
-   "name": "DECADE RESOURCES LTD.",
-   "as_of": "2026-11-05T17:20:00+00:00",
-   "last": 0.12,
-   "pct_day": 14.29,
-   "pct_30m": 9.09,
-   "volume_pace": 2.01,
-   "rising": true,
-   "rising_since": "2026-11-05T17:20:00+00:00"
-  },
   {
    "ticker": "WI.V",
    "name": "THE WESTERN INVESTMENT CO OF CD",
@@ -498,6 +487,28 @@
    "volume_pace": 2.48,
    "rising": true,
    "rising_since": "2026-11-05T15:45:00+00:00"
+  },
+  {
+   "ticker": "DEC.V",
+   "name": "DECADE RESOURCES LTD.",
+   "as_of": "2026-11-05T17:35:00+00:00",
+   "last": 0.115,
+   "pct_day": 9.52,
+   "pct_30m": 4.55,
+   "volume_pace": 1.86,
+   "rising": true,
+   "rising_since": "2026-11-05T17:20:00+00:00"
+  },
+  {
+   "ticker": "CRON.TO",
+   "name": "CRONOS GROUP INC",
+   "as_of": "2026-11-05T18:00:00+00:00",
+   "last": 5.23,
+   "pct_day": 6.09,
+   "pct_30m": 0.19,
+   "volume_pace": 9.86,
+   "rising": true,
+   "rising_since": "2026-11-05T18:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -524,35 +535,24 @@
    "rising_since": null
   },
   {
-   "ticker": "MKA.V",
-   "name": "MKANGO MAGNETIC MATERIALS LIMIT",
-   "as_of": "2026-11-05T16:30:00+00:00",
-   "last": 0.68,
-   "pct_day": 17.24,
-   "pct_30m": 4.62,
-   "volume_pace": 7.78,
+   "ticker": "TRR.V",
+   "name": "TERRA ROSSA GOLD LTD",
+   "as_of": "2026-11-05T17:45:00+00:00",
+   "last": 0.29,
+   "pct_day": 13.73,
+   "pct_30m": 5.45,
+   "volume_pace": 1.83,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "DEC.V",
-   "name": "DECADE RESOURCES LTD.",
-   "as_of": "2026-11-05T17:20:00+00:00",
-   "last": 0.12,
-   "pct_day": 14.29,
-   "pct_30m": 9.09,
-   "volume_pace": 2.01,
-   "rising": true,
-   "rising_since": "2026-11-05T17:20:00+00:00"
-  },
-  {
    "ticker": "SME.V",
    "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-11-05T16:55:00+00:00",
+   "as_of": "2026-11-05T17:55:00+00:00",
    "last": 0.17,
    "pct_day": 13.33,
    "pct_30m": 0.0,
-   "volume_pace": 17.27,
+   "volume_pace": 12.51,
    "rising": false,
    "rising_since": null
   },
@@ -564,6 +564,17 @@
    "pct_day": 11.11,
    "pct_30m": 0.0,
    "volume_pace": 1.61,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "NOW.V",
+   "name": "NOWVERTICAL GROUP INC",
+   "as_of": "2026-11-05T18:00:00+00:00",
+   "last": 0.16,
+   "pct_day": 10.34,
+   "pct_30m": 6.67,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -590,6 +601,17 @@
    "rising_since": "2026-11-05T15:45:00+00:00"
   },
   {
+   "ticker": "DEC.V",
+   "name": "DECADE RESOURCES LTD.",
+   "as_of": "2026-11-05T17:35:00+00:00",
+   "last": 0.115,
+   "pct_day": 9.52,
+   "pct_30m": 4.55,
+   "volume_pace": 1.86,
+   "rising": true,
+   "rising_since": "2026-11-05T17:20:00+00:00"
+  },
+  {
    "ticker": "MRVL.V",
    "name": "MARVEL BIOSCIENCES CORP",
    "as_of": "2026-11-05T16:55:00+00:00",
@@ -597,17 +619,6 @@
    "pct_day": 9.09,
    "pct_30m": 0.0,
    "volume_pace": 2.37,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BUFF.V",
-   "name": "BUFFALO POTASH CORPORATION",
-   "as_of": "2026-11-05T17:15:00+00:00",
-   "last": 0.73,
-   "pct_day": 8.96,
-   "pct_30m": 0.0,
-   "volume_pace": 4.7,
    "rising": false,
    "rising_since": null
   },
@@ -625,55 +636,55 @@
   {
    "ticker": "NCF.TO",
    "name": "NORTHCLIFF RESOURCES LTD",
-   "as_of": "2026-11-05T16:10:00+00:00",
+   "as_of": "2026-11-05T18:00:00+00:00",
    "last": 0.275,
    "pct_day": 10.0,
-   "pct_30m": 1.85,
-   "volume_pace": 4.64,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ARN.TO",
-   "name": "ASARIAN ENERGY LIMITED",
-   "as_of": "2026-11-05T17:30:00+00:00",
-   "last": 0.37,
-   "pct_day": 8.82,
-   "pct_30m": 1.37,
-   "volume_pace": 0.2,
+   "pct_30m": 0.0,
+   "volume_pace": 2.32,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-11-05T15:45:00+00:00",
+   "as_of": "2026-11-05T17:45:00+00:00",
    "last": 0.13,
    "pct_day": 8.33,
-   "pct_30m": 4.0,
-   "volume_pace": 0.19,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CIA.TO",
-   "name": "CHAMPION IRON LIMITED",
-   "as_of": "2026-11-05T17:30:00+00:00",
-   "last": 2.04,
-   "pct_day": 6.25,
    "pct_30m": 0.0,
-   "volume_pace": 0.96,
+   "volume_pace": 0.08,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CRON.TO",
    "name": "CRONOS GROUP INC",
-   "as_of": "2026-11-05T17:30:00+00:00",
-   "last": 5.22,
+   "as_of": "2026-11-05T18:00:00+00:00",
+   "last": 5.23,
+   "pct_day": 6.09,
+   "pct_30m": 0.19,
+   "volume_pace": 9.86,
+   "rising": true,
+   "rising_since": "2026-11-05T18:00:00+00:00"
+  },
+  {
+   "ticker": "ARN.TO",
+   "name": "ASARIAN ENERGY LIMITED",
+   "as_of": "2026-11-05T18:00:00+00:00",
+   "last": 0.36,
    "pct_day": 5.88,
-   "pct_30m": -0.38,
-   "volume_pace": 11.29,
+   "pct_30m": -2.7,
+   "volume_pace": 0.73,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CIA.TO",
+   "name": "CHAMPION IRON LIMITED",
+   "as_of": "2026-11-05T18:00:00+00:00",
+   "last": 2.03,
+   "pct_day": 5.73,
+   "pct_30m": -0.49,
+   "volume_pace": 1.08,
    "rising": false,
    "rising_since": null
   },
@@ -689,35 +700,35 @@
    "rising_since": null
   },
   {
+   "ticker": "SVA.TO",
+   "name": "SERNOVA BIOTHERAPEUTICS INC",
+   "as_of": "2026-11-05T17:55:00+00:00",
+   "last": 0.11,
+   "pct_day": 4.76,
+   "pct_30m": 4.76,
+   "volume_pace": 0.04,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "GRID.TO",
    "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-05T17:30:00+00:00",
-   "last": 4.28,
-   "pct_day": 5.16,
-   "pct_30m": -0.23,
-   "volume_pace": 2.41,
+   "as_of": "2026-11-05T18:00:00+00:00",
+   "last": 4.25,
+   "pct_day": 4.42,
+   "pct_30m": -0.7,
+   "volume_pace": 2.28,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HLS.TO",
    "name": "HLS THERAPEUTICS INC",
-   "as_of": "2026-11-05T17:30:00+00:00",
-   "last": 4.44,
-   "pct_day": 4.47,
-   "pct_30m": -0.67,
-   "volume_pace": 1.78,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SBI.TO",
-   "name": "SERABI GOLD PLC",
-   "as_of": "2026-11-05T17:25:00+00:00",
-   "last": 3.57,
-   "pct_day": 3.78,
-   "pct_30m": 0.85,
-   "volume_pace": 1.49,
+   "as_of": "2026-11-05T17:45:00+00:00",
+   "last": 4.43,
+   "pct_day": 4.24,
+   "pct_30m": 0.0,
+   "volume_pace": 1.81,
    "rising": false,
    "rising_since": null
   }
@@ -1319,9 +1330,9 @@
    "ma200": 961.68,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-05T17:35:00+00:00",
-    "last": 801.91,
-    "pct_day": -1.53
+    "as_of": "2026-11-05T18:05:00+00:00",
+    "last": 797.99,
+    "pct_day": -2.01
    }
   },
   "^GSPTSE": {
@@ -1920,9 +1931,9 @@
    "ma200": 34623.37,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-05T17:35:00+00:00",
-    "last": 35666.47,
-    "pct_day": -1.86
+    "as_of": "2026-11-05T18:05:00+00:00",
+    "last": 35559.61,
+    "pct_day": -2.15
    }
   }
  },

@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-05T10:31-07:00
+# Stock feed — 2026-11-05T11:01-07:00
 
-Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -1.5% at 17:35
-Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -1.9% at 17:35
+Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -2.0% at 18:05
+Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -2.1% at 18:05
 
 # TSX Venture
 
@@ -40,8 +40,8 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- DEC.V (DECADE RESOURCES LTD.): +14.3% today at 0.12, last 30m +9.1%, volume pace 2.01x, rising since 2026-11-05T17:20:00+00:00
 - WI.V (THE WESTERN INVESTMENT CO OF CD): +9.8% today at 1.35, last 30m +3.9%, volume pace 2.48x, rising since 2026-11-05T15:45:00+00:00
+- DEC.V (DECADE RESOURCES LTD.): +9.5% today at 0.115, last 30m +4.5%, volume pace 1.86x, rising since 2026-11-05T17:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -60,14 +60,14 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 - ANOR.V (ANORTECH INC): +24.1% at 0.18, volume pace 0.62x
 - FHR.V (FIDDLEHEAD RESOURCES CORP): +18.8% at 0.095, volume pace 0.0x
-- MKA.V (MKANGO MAGNETIC MATERIALS LIMIT): +17.2% at 0.68, volume pace 7.78x
-- DEC.V (DECADE RESOURCES LTD.): +14.3% at 0.12, volume pace 2.01x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +13.3% at 0.17, volume pace 17.27x
+- TRR.V (TERRA ROSSA GOLD LTD): +13.7% at 0.29, volume pace 1.83x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +13.3% at 0.17, volume pace 12.51x
 - TMET.V (TORR METALS INC): +11.1% at 0.1, volume pace 1.61x
+- NOW.V (NOWVERTICAL GROUP INC): +10.3% at 0.16, volume pace 0.0x
 - SKEL.V (SKELETON COAST URANIUM CORP): +10.0% at 0.11, volume pace 0.0x
 - WI.V (THE WESTERN INVESTMENT CO OF CD): +9.8% at 1.35, volume pace 2.48x
+- DEC.V (DECADE RESOURCES LTD.): +9.5% at 0.115, volume pace 1.86x
 - MRVL.V (MARVEL BIOSCIENCES CORP): +9.1% at 0.12, volume pace 2.37x
-- BUFF.V (BUFFALO POTASH CORPORATION): +9.0% at 0.73, volume pace 4.7x
 
 # TSX
 
@@ -105,7 +105,7 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- CRON.TO (CRONOS GROUP INC): +6.1% today at 5.23, last 30m +0.2%, volume pace 9.86x, rising since 2026-11-05T18:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -123,12 +123,12 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 ## TSX: top gainers in latest intraday pass
 
 - EDCU.TO (EDGE COPPER CORPORATION): +21.1% at 0.43, volume pace 20.55x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +10.0% at 0.275, volume pace 4.64x
-- ARN.TO (ASARIAN ENERGY LIMITED): +8.8% at 0.37, volume pace 0.2x
-- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.19x
-- CIA.TO (CHAMPION IRON LIMITED): +6.2% at 2.04, volume pace 0.96x
-- CRON.TO (CRONOS GROUP INC): +5.9% at 5.22, volume pace 11.29x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +10.0% at 0.275, volume pace 2.32x
+- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.08x
+- CRON.TO (CRONOS GROUP INC): +6.1% at 5.23, volume pace 9.86x
+- ARN.TO (ASARIAN ENERGY LIMITED): +5.9% at 0.36, volume pace 0.73x
+- CIA.TO (CHAMPION IRON LIMITED): +5.7% at 2.03, volume pace 1.08x
 - HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +5.7% at 0.56, volume pace 0.0x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +5.2% at 4.28, volume pace 2.41x
-- HLS.TO (HLS THERAPEUTICS INC): +4.5% at 4.44, volume pace 1.78x
-- SBI.TO (SERABI GOLD PLC): +3.8% at 3.57, volume pace 1.49x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.8% at 0.11, volume pace 0.04x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.4% at 4.25, volume pace 2.28x
+- HLS.TO (HLS THERAPEUTICS INC): +4.2% at 4.43, volume pace 1.81x
