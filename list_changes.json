@@ -1,4 +1,12 @@
 {
- "generated": "2026-11-04T15:29-07:00",
- "changes": []
+ "generated": "2026-11-05T05:52-07:00",
+ "changes": [
+  {
+   "id": 12,
+   "ticker": "WILD.TO",
+   "action": "add",
+   "name": "WILDBRAIN LTD",
+   "at": "2026-11-05T12:52+00:00"
+  }
+ ]
 }
