@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-05T14:01-07:00
+# Stock feed — 2026-11-05T14:06-07:00
 
 Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
