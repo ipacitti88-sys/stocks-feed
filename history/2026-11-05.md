@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-05T09:01-07:00
+# Stock feed — 2026-11-05T09:31-07:00
 
-Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -2.0% at 16:05
-Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -1.6% at 16:05
+Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -1.5% at 16:35
+Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -1.3% at 16:35
 
 # TSX Venture
 
@@ -40,9 +40,13 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- WI.V (THE WESTERN INVESTMENT CO OF CD): +12.2% today at 1.38, last 30m +9.5%, volume pace 2.6x, rising since 2026-11-05T15:45:00+00:00
-- ADK.V (DIAGNOS INC.): +7.0% today at 0.38, last 30m +2.7%, volume pace 4.11x, rising since 2026-11-05T16:00:00+00:00
-- BUFF.V (BUFFALO POTASH CORPORATION): +6.0% today at 0.71, last 30m +1.4%, volume pace 7.53x, rising since 2026-11-05T15:20:00+00:00
+- WI.V (THE WESTERN INVESTMENT CO OF CD): +9.8% today at 1.35, last 30m +3.9%, volume pace 2.22x, rising since 2026-11-05T15:45:00+00:00
+- ADK.V (DIAGNOS INC.): +7.0% today at 0.38, last 30m +4.1%, volume pace 3.67x, rising since 2026-11-05T16:20:00+00:00
+- KRY.V (KORYX COPPER S A): +4.5% today at 3.25, last 30m +1.6%, volume pace 5.94x, rising since 2026-11-05T16:20:00+00:00
+- GAL.V (GALANTAS GOLD CORP.): +4.2% today at 0.37, last 30m +4.2%, volume pace 1.61x, rising since 2026-11-05T16:30:00+00:00
+- SIG.V (SITKA GOLD CORP): +4.2% today at 0.87, last 30m +2.4%, volume pace 1.71x, rising since 2026-11-05T16:25:00+00:00
+- MOON.V (BLUE MOON METALS INC): +3.2% today at 4.24, last 30m +2.2%, volume pace 10.14x, rising since 2026-11-05T16:30:00+00:00
+- ASE.V (ASANTE GOLD CORPORATION): +3.0% today at 0.68, last 30m +2.3%, volume pace 2.48x, rising since 2026-11-05T16:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -59,14 +63,14 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +20.0% at 0.18, volume pace 22.38x
 - FHR.V (FIDDLEHEAD RESOURCES CORP): +18.8% at 0.095, volume pace 0.0x
-- DEC.V (DECADE RESOURCES LTD.): +14.3% at 0.12, volume pace 3.11x
-- GIII.V (REGEN III CORP): +12.5% at 0.135, volume pace 0.0x
-- WI.V (THE WESTERN INVESTMENT CO OF CD): +12.2% at 1.38, volume pace 2.6x
-- MKA.V (MKANGO MAGNETIC MATERIALS LIMIT): +12.1% at 0.65, volume pace 3.43x
+- MKA.V (MKANGO MAGNETIC MATERIALS LIMIT): +17.2% at 0.68, volume pace 7.59x
+- DEC.V (DECADE RESOURCES LTD.): +14.3% at 0.12, volume pace 1.94x
 - TMET.V (TORR METALS INC): +11.1% at 0.1, volume pace 1.61x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +10.0% at 0.165, volume pace 18.76x
 - SKEL.V (SKELETON COAST URANIUM CORP): +10.0% at 0.11, volume pace 0.0x
+- WI.V (THE WESTERN INVESTMENT CO OF CD): +9.8% at 1.35, volume pace 2.22x
+- MRVL.V (MARVEL BIOSCIENCES CORP): +9.1% at 0.12, volume pace 0.0x
 - HWY.V (HIGHWAY 50 GOLD CORP): +8.7% at 0.5, volume pace 0.0x
 - BTR.V (BONTERRA RESOURCES INC.): +8.3% at 0.13, volume pace 0.0x
 
@@ -106,7 +110,11 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- CRON.TO (CRONOS GROUP INC): +7.5% today at 5.3, last 30m +0.4%, volume pace 16.05x, rising since 2026-11-05T16:20:00+00:00
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +5.9% today at 4.31, last 30m +2.4%, volume pace 3.32x, rising since 2026-11-05T16:10:00+00:00
+- HLS.TO (HLS THERAPEUTICS INC): +3.8% today at 4.41, last 30m +2.7%, volume pace 1.75x, rising since 2026-11-05T16:20:00+00:00
+- WGX.TO (WESTGOLD RESOURCES LIMITED): +3.6% today at 5.51, last 30m +2.2%, volume pace 3.08x, rising since 2026-11-05T16:25:00+00:00
+- ALK.TO (ALKANE RESOURCES LIMITED): +3.0% today at 1.69, last 30m +1.5%, volume pace 1.89x, rising since 2026-11-05T16:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -123,13 +131,13 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDCU.TO (EDGE COPPER CORPORATION): +22.5% at 0.435, volume pace 29.21x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +10.0% at 0.275, volume pace 4.78x
+- EDCU.TO (EDGE COPPER CORPORATION): +21.1% at 0.43, volume pace 24.07x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +10.0% at 0.275, volume pace 4.37x
 - LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.19x
-- AMAP.TO (AMAPA MINERALS HOLDINGS INC): +7.4% at 0.87, volume pace 25.7x
-- CRON.TO (CRONOS GROUP INC): +7.4% at 5.295, volume pace 18.79x
-- CIA.TO (CHAMPION IRON LIMITED): +5.5% at 2.025, volume pace 1.34x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +3.4% at 4.21, volume pace 3.89x
-- ARN.TO (ASARIAN ENERGY LIMITED): +2.9% at 0.35, volume pace 0.26x
-- TXP.TO (TOUCHSTONE EXPLORATION INC): +2.7% at 0.19, volume pace 0.0x
-- SBI.TO (SERABI GOLD PLC): +2.6% at 3.53, volume pace 2.46x
+- CRON.TO (CRONOS GROUP INC): +7.5% at 5.3, volume pace 16.05x
+- CIA.TO (CHAMPION IRON LIMITED): +6.8% at 2.05, volume pace 1.27x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +5.9% at 4.31, volume pace 3.32x
+- ARN.TO (ASARIAN ENERGY LIMITED): +5.9% at 0.36, volume pace 0.27x
+- HLS.TO (HLS THERAPEUTICS INC): +3.8% at 4.41, volume pace 1.75x
+- WGX.TO (WESTGOLD RESOURCES LIMITED): +3.6% at 5.51, volume pace 3.08x
+- ALK.TO (ALKANE RESOURCES LIMITED): +3.0% at 1.69, volume pace 1.89x
