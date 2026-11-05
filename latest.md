@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-05T12:01-07:00
+# Stock feed — 2026-11-05T12:31-07:00
 
-Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -1.6% at 19:05
-Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -1.9% at 19:05
+Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -1.6% at 19:35
+Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -2.1% at 19:35
 
 # TSX Venture
 
@@ -40,7 +40,7 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- QTWO.V (Q2 METALS CORP): +3.4% today at 1.53, last 30m +0.7%, volume pace 1.81x, rising since 2026-11-05T18:35:00+00:00
+- none
 
 ## TSX Venture: top by relative volume at last close
 
@@ -57,16 +57,16 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- VCV.V (VATIC VENTURES CORP): +30.0% at 0.13, volume pace 7.03x
 - ANOR.V (ANORTECH INC): +24.1% at 0.18, volume pace 0.62x
 - FHR.V (FIDDLEHEAD RESOURCES CORP): +18.8% at 0.095, volume pace 0.0x
-- TRR.V (TERRA ROSSA GOLD LTD): +13.7% at 0.29, volume pace 1.92x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +13.3% at 0.17, volume pace 23.56x
+- TRR.V (TERRA ROSSA GOLD LTD): +13.7% at 0.29, volume pace 1.62x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +13.3% at 0.17, volume pace 19.82x
+- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +12.0% at 0.14, volume pace 0.49x
 - TMET.V (TORR METALS INC): +11.1% at 0.1, volume pace 0.25x
+- TBK.V (TRAILBREAKER RESOURCES LTD): +11.1% at 0.3, volume pace 1.45x
 - NOW.V (NOWVERTICAL GROUP INC): +10.3% at 0.16, volume pace 0.49x
 - SKEL.V (SKELETON COAST URANIUM CORP): +10.0% at 0.11, volume pace 0.0x
-- DEC.V (DECADE RESOURCES LTD.): +9.5% at 0.115, volume pace 1.29x
-- HWY.V (HIGHWAY 50 GOLD CORP): +8.7% at 0.5, volume pace 0.77x
-- BTR.V (BONTERRA RESOURCES INC.): +8.3% at 0.13, volume pace 0.0x
 
 # TSX
 
@@ -104,8 +104,9 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CRON.TO (CRONOS GROUP INC): +7.3% today at 5.29, last 30m +1.3%, volume pace 8.15x, rising since 2026-11-05T18:40:00+00:00
-- WGX.TO (WESTGOLD RESOURCES LIMITED): +4.1% today at 5.54, last 30m +0.4%, volume pace 2.01x, rising since 2026-11-05T18:30:00+00:00
+- CRON.TO (CRONOS GROUP INC): +7.1% today at 5.28, last 30m +0.2%, volume pace 7.64x, rising since 2026-11-05T19:35:00+00:00
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.7% today at 4.26, last 30m +0.5%, volume pace 1.71x, rising since 2026-11-05T19:25:00+00:00
+- WGX.TO (WESTGOLD RESOURCES LIMITED): +3.8% today at 5.52, last 30m +0.2%, volume pace 1.83x, rising since 2026-11-05T19:35:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -122,13 +123,13 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDCU.TO (EDGE COPPER CORPORATION): +21.1% at 0.43, volume pace 20.55x
+- EDCU.TO (EDGE COPPER CORPORATION): +18.3% at 0.42, volume pace 9.99x
 - LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.08x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +8.0% at 0.27, volume pace 1.88x
-- ARN.TO (ASARIAN ENERGY LIMITED): +7.3% at 0.365, volume pace 0.58x
-- CRON.TO (CRONOS GROUP INC): +7.3% at 5.29, volume pace 8.15x
-- CIA.TO (CHAMPION IRON LIMITED): +5.7% at 2.03, volume pace 0.88x
-- S.TO (SHERRITT INTL RV): +5.7% at 0.185, volume pace 0.22x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +8.0% at 0.27, volume pace 1.95x
+- ARN.TO (ASARIAN ENERGY LIMITED): +7.3% at 0.365, volume pace 0.59x
+- CRON.TO (CRONOS GROUP INC): +7.1% at 5.28, volume pace 7.64x
 - HOT-UN.TO (AMERICAN HOTEL INCOME PROPERTIE): +5.7% at 0.56, volume pace 0.0x
+- CIA.TO (CHAMPION IRON LIMITED): +5.2% at 2.02, volume pace 1.05x
 - CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
-- HLS.TO (HLS THERAPEUTICS INC): +4.7% at 4.45, volume pace 1.39x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.7% at 4.26, volume pace 1.71x
+- GRA.TO (NANOXPLORE INC): +4.6% at 1.36, volume pace 0.73x
