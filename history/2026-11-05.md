@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-05T08:31-07:00
+# Stock feed — 2026-11-05T09:01-07:00
 
-Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T15:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-04. Intraday data as of: 2026-11-05T16:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -1.2% at 15:35
-Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -1.2% at 15:35
+Market: S&P/TSX Venture Composite 814.37 on 2026-11-04 (day +2.5%, month -7.3%, year -12.7%, downtrend); live -2.0% at 16:05
+Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year +20.0%, uptrend); live -1.6% at 16:05
 
 # TSX Venture
 
@@ -40,11 +40,9 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- OMI.V (OROSUR MINING INC): +11.8% today at 0.19, last 30m +2.7%, volume pace 4.43x, rising since 2026-11-05T15:15:00+00:00
-- BUFF.V (BUFFALO POTASH CORPORATION): +4.5% today at 0.7, last 30m +4.5%, volume pace 6.48x, rising since 2026-11-05T15:20:00+00:00
-- ARIC.V (AWALE RESOURCES LIMITED): +4.3% today at 0.72, last 30m +1.4%, volume pace 2.07x, rising since 2026-11-05T15:30:00+00:00
-- MOON.V (BLUE MOON METALS INC): +3.6% today at 4.26, last 30m +0.7%, volume pace 7.5x, rising since 2026-11-05T15:35:00+00:00
-- KRY.V (KORYX COPPER S A): +3.2% today at 3.21, last 30m +1.3%, volume pace 3.95x, rising since 2026-11-05T15:25:00+00:00
+- WI.V (THE WESTERN INVESTMENT CO OF CD): +12.2% today at 1.38, last 30m +9.5%, volume pace 2.6x, rising since 2026-11-05T15:45:00+00:00
+- ADK.V (DIAGNOS INC.): +7.0% today at 0.38, last 30m +2.7%, volume pace 4.11x, rising since 2026-11-05T16:00:00+00:00
+- BUFF.V (BUFFALO POTASH CORPORATION): +6.0% today at 0.71, last 30m +1.4%, volume pace 7.53x, rising since 2026-11-05T15:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -61,16 +59,16 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- DEC.V (DECADE RESOURCES LTD.): +19.1% at 0.125, volume pace 2.56x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +20.0% at 0.18, volume pace 22.38x
 - FHR.V (FIDDLEHEAD RESOURCES CORP): +18.8% at 0.095, volume pace 0.0x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.7% at 0.175, volume pace 15.49x
+- DEC.V (DECADE RESOURCES LTD.): +14.3% at 0.12, volume pace 3.11x
 - GIII.V (REGEN III CORP): +12.5% at 0.135, volume pace 0.0x
-- OMI.V (OROSUR MINING INC): +11.8% at 0.19, volume pace 4.43x
+- WI.V (THE WESTERN INVESTMENT CO OF CD): +12.2% at 1.38, volume pace 2.6x
+- MKA.V (MKANGO MAGNETIC MATERIALS LIMIT): +12.1% at 0.65, volume pace 3.43x
 - TMET.V (TORR METALS INC): +11.1% at 0.1, volume pace 1.61x
 - SKEL.V (SKELETON COAST URANIUM CORP): +10.0% at 0.11, volume pace 0.0x
 - HWY.V (HIGHWAY 50 GOLD CORP): +8.7% at 0.5, volume pace 0.0x
 - BTR.V (BONTERRA RESOURCES INC.): +8.3% at 0.13, volume pace 0.0x
-- NTH.V (NORD PRECIOUS METALS MINING INC): +8.3% at 0.13, volume pace 0.0x
 
 # TSX
 
@@ -108,7 +106,7 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.2% today at 4.24, last 30m +0.1%, volume pace 4.05x, rising since 2026-11-05T15:30:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -125,13 +123,13 @@ Market: S&P/TSX Composite 36,341.40 on 2026-11-04 (day +2.3%, month +2.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDCU.TO (EDGE COPPER CORPORATION): +28.2% at 0.455, volume pace 10.13x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +8.0% at 0.27, volume pace 4.6x
+- EDCU.TO (EDGE COPPER CORPORATION): +22.5% at 0.435, volume pace 29.21x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +10.0% at 0.275, volume pace 4.78x
+- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.19x
 - AMAP.TO (AMAPA MINERALS HOLDINGS INC): +7.4% at 0.87, volume pace 25.7x
-- CRON.TO (CRONOS GROUP INC): +7.3% at 5.29, volume pace 24.3x
-- CIA.TO (CHAMPION IRON LIMITED): +5.2% at 2.02, volume pace 1.66x
-- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.8% at 0.11, volume pace 0.2x
-- ARN.TO (ASARIAN ENERGY LIMITED): +4.4% at 0.355, volume pace 0.13x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.2% at 4.24, volume pace 4.05x
-- LUC.TO (LUCARA DIAMOND CORP): +4.2% at 0.125, volume pace 0.0x
-- GENM.TO (GENERATION MINING LIMITED): +3.3% at 0.465, volume pace 3.17x
+- CRON.TO (CRONOS GROUP INC): +7.4% at 5.295, volume pace 18.79x
+- CIA.TO (CHAMPION IRON LIMITED): +5.5% at 2.025, volume pace 1.34x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +3.4% at 4.21, volume pace 3.89x
+- ARN.TO (ASARIAN ENERGY LIMITED): +2.9% at 0.35, volume pace 0.26x
+- TXP.TO (TOUCHSTONE EXPLORATION INC): +2.7% at 0.19, volume pace 0.0x
+- SBI.TO (SERABI GOLD PLC): +2.6% at 3.53, volume pace 2.46x
