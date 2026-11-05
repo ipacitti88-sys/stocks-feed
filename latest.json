@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T13:01-07:00",
+ "generated": "2026-11-05T13:31-07:00",
  "last_close_day": "2026-11-04",
  "tracked": 689,
  "tracked_by_market": {
@@ -475,106 +475,51 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-05T20:05:00+00:00",
+ "live_as_of": "2026-11-05T20:35:00+00:00",
  "rising": [
   {
-   "ticker": "CRON.TO",
-   "name": "CRONOS GROUP INC",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 5.3,
-   "pct_day": 7.51,
-   "pct_30m": 0.19,
-   "volume_pace": 7.26,
+   "ticker": "BUFF.V",
+   "name": "BUFFALO POTASH CORPORATION",
+   "as_of": "2026-11-05T20:25:00+00:00",
+   "last": 0.72,
+   "pct_day": 7.46,
+   "pct_30m": 1.41,
+   "volume_pace": 2.67,
    "rising": true,
-   "rising_since": "2026-11-05T19:55:00+00:00"
+   "rising_since": "2026-11-05T20:25:00+00:00"
   },
   {
    "ticker": "GRID.TO",
    "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 4.315,
-   "pct_day": 6.02,
-   "pct_30m": 1.29,
-   "volume_pace": 1.58,
+   "as_of": "2026-11-05T20:30:00+00:00",
+   "last": 4.325,
+   "pct_day": 6.27,
+   "pct_30m": 0.23,
+   "volume_pace": 3.0,
    "rising": true,
-   "rising_since": "2026-11-05T19:25:00+00:00"
-  },
-  {
-   "ticker": "WGX.TO",
-   "name": "WESTGOLD RESOURCES LIMITED",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 5.58,
-   "pct_day": 4.89,
-   "pct_30m": 0.9,
-   "volume_pace": 1.78,
-   "rising": true,
-   "rising_since": "2026-11-05T19:35:00+00:00"
+   "rising_since": "2026-11-05T20:20:00+00:00"
   },
   {
    "ticker": "NURS.V",
    "name": "HYDREIGHT TECHNOLOGIES INC",
-   "as_of": "2026-11-05T19:55:00+00:00",
-   "last": 2.93,
-   "pct_day": 4.27,
-   "pct_30m": 3.9,
-   "volume_pace": 1.82,
-   "rising": true,
-   "rising_since": "2026-11-05T19:45:00+00:00"
-  },
-  {
-   "ticker": "OMG.V",
-   "name": "OMAI GOLD MINES CORP",
-   "as_of": "2026-11-05T20:05:00+00:00",
-   "last": 1.76,
-   "pct_day": 4.14,
-   "pct_30m": 3.23,
-   "volume_pace": 3.07,
-   "rising": true,
-   "rising_since": "2026-11-05T19:55:00+00:00"
-  },
-  {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-11-05T19:55:00+00:00",
-   "last": 0.53,
-   "pct_day": 3.92,
-   "pct_30m": 1.92,
+   "as_of": "2026-11-05T20:35:00+00:00",
+   "last": 2.95,
+   "pct_day": 4.98,
+   "pct_30m": 1.72,
    "volume_pace": 1.9,
    "rising": true,
-   "rising_since": "2026-11-05T19:55:00+00:00"
-  },
-  {
-   "ticker": "QTWO.V",
-   "name": "Q2 METALS CORP",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 1.535,
-   "pct_day": 3.72,
-   "pct_30m": 1.66,
-   "volume_pace": 1.54,
-   "rising": true,
-   "rising_since": "2026-11-05T19:50:00+00:00"
-  },
-  {
-   "ticker": "MOON.V",
-   "name": "BLUE MOON METALS INC",
-   "as_of": "2026-11-05T20:05:00+00:00",
-   "last": 4.25,
-   "pct_day": 3.41,
-   "pct_30m": 1.67,
-   "volume_pace": 7.83,
-   "rising": true,
-   "rising_since": "2026-11-05T19:40:00+00:00"
+   "rising_since": "2026-11-05T19:45:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "VCV.V",
    "name": "VATIC VENTURES CORP",
-   "as_of": "2026-11-05T19:55:00+00:00",
-   "last": 0.14,
-   "pct_day": 40.0,
-   "pct_30m": 7.69,
-   "volume_pace": 7.53,
+   "as_of": "2026-11-05T20:20:00+00:00",
+   "last": 0.13,
+   "pct_day": 30.0,
+   "pct_30m": 0.0,
+   "volume_pace": 8.26,
    "rising": false,
    "rising_since": null
   },
@@ -645,6 +590,17 @@
    "rising_since": null
   },
   {
+   "ticker": "PUR.V",
+   "name": "PREMIER AMERICAN URANIUM INC",
+   "as_of": "2026-11-05T20:30:00+00:00",
+   "last": 0.365,
+   "pct_day": 10.61,
+   "pct_30m": 2.82,
+   "volume_pace": 0.5,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "SKEL.V",
    "name": "SKELETON COAST URANIUM CORP",
    "as_of": "2026-11-05T15:05:00+00:00",
@@ -652,17 +608,6 @@
    "pct_day": 10.0,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "DEC.V",
-   "name": "DECADE RESOURCES LTD.",
-   "as_of": "2026-11-05T19:30:00+00:00",
-   "last": 0.115,
-   "pct_day": 9.52,
-   "pct_30m": 0.0,
-   "volume_pace": 1.33,
    "rising": false,
    "rising_since": null
   },
@@ -680,11 +625,22 @@
   {
    "ticker": "EDCU.TO",
    "name": "EDGE COPPER CORPORATION",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 0.42,
-   "pct_day": 18.31,
-   "pct_30m": 0.0,
-   "volume_pace": 8.62,
+   "as_of": "2026-11-05T20:05:00+00:00",
+   "last": 0.44,
+   "pct_day": 23.94,
+   "pct_30m": 1.15,
+   "volume_pace": 8.66,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ARN.TO",
+   "name": "ASARIAN ENERGY LIMITED",
+   "as_of": "2026-11-05T20:30:00+00:00",
+   "last": 0.38,
+   "pct_day": 11.76,
+   "pct_30m": 4.11,
+   "volume_pace": 0.46,
    "rising": false,
    "rising_since": null
   },
@@ -713,24 +669,24 @@
   {
    "ticker": "CRON.TO",
    "name": "CRONOS GROUP INC",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 5.3,
-   "pct_day": 7.51,
-   "pct_30m": 0.19,
-   "volume_pace": 7.26,
-   "rising": true,
-   "rising_since": "2026-11-05T19:55:00+00:00"
-  },
-  {
-   "ticker": "ARN.TO",
-   "name": "ASARIAN ENERGY LIMITED",
-   "as_of": "2026-11-05T19:00:00+00:00",
-   "last": 0.365,
-   "pct_day": 7.35,
-   "pct_30m": 1.39,
-   "volume_pace": 0.59,
+   "as_of": "2026-11-05T20:35:00+00:00",
+   "last": 5.26,
+   "pct_day": 6.69,
+   "pct_30m": -0.75,
+   "volume_pace": 6.81,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "GRID.TO",
+   "name": "TANTALUS SYSTEMS HOLDINGS INC",
+   "as_of": "2026-11-05T20:30:00+00:00",
+   "last": 4.325,
+   "pct_day": 6.27,
+   "pct_30m": 0.23,
+   "volume_pace": 3.0,
+   "rising": true,
+   "rising_since": "2026-11-05T20:20:00+00:00"
   },
   {
    "ticker": "FT.TO",
@@ -744,15 +700,15 @@
    "rising_since": null
   },
   {
-   "ticker": "GRID.TO",
-   "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 4.315,
-   "pct_day": 6.02,
-   "pct_30m": 1.29,
-   "volume_pace": 1.58,
-   "rising": true,
-   "rising_since": "2026-11-05T19:25:00+00:00"
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-11-05T20:30:00+00:00",
+   "last": 1.38,
+   "pct_day": 6.15,
+   "pct_30m": 1.47,
+   "volume_pace": 0.66,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "TELY.TO",
@@ -761,7 +717,7 @@
    "last": 2.7,
    "pct_day": 5.88,
    "pct_30m": 2.27,
-   "volume_pace": 0.03,
+   "volume_pace": 0.08,
    "rising": false,
    "rising_since": null
   },
@@ -773,17 +729,6 @@
    "pct_day": 5.66,
    "pct_30m": 3.7,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CIA.TO",
-   "name": "CHAMPION IRON LIMITED",
-   "as_of": "2026-11-05T20:00:00+00:00",
-   "last": 2.02,
-   "pct_day": 5.21,
-   "pct_30m": 0.0,
-   "volume_pace": 1.2,
    "rising": false,
    "rising_since": null
   }
@@ -1385,9 +1330,9 @@
    "ma200": 961.68,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-05T20:05:00+00:00",
-    "last": 808.53,
-    "pct_day": -0.72
+    "as_of": "2026-11-05T20:35:00+00:00",
+    "last": 804.34,
+    "pct_day": -1.23
    }
   },
   "^GSPTSE": {
@@ -1986,9 +1931,9 @@
    "ma200": 34623.37,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-05T20:05:00+00:00",
-    "last": 35724.28,
-    "pct_day": -1.7
+    "as_of": "2026-11-05T20:35:00+00:00",
+    "last": 35585.25,
+    "pct_day": -2.08
    }
   }
  },
