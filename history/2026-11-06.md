@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-06T12:01-07:00
+# Stock feed — 2026-11-06T12:31-07:00
 
-Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-05. Intraday data as of: 2026-11-06T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-05. Intraday data as of: 2026-11-06T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 806.32 on 2026-11-05 (day -1.0%, month -9.4%, year -9.3%, downtrend); live +1.4% at 19:05
-Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year +19.6%, uptrend); live +0.8% at 19:05
+Market: S&P/TSX Venture Composite 806.32 on 2026-11-05 (day -1.0%, month -9.4%, year -9.3%, downtrend); live +1.6% at 19:35
+Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year +19.6%, uptrend); live +0.6% at 19:35
 
 # TSX Venture
 
@@ -46,18 +46,15 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- REVX.V (REV EXPLORATION CORP): +17.1% today at 1.3, last 30m +0.8%, volume pace 1.83x, rising since 2026-11-06T18:50:00+00:00
-- BRW.V (BRUNSWICK EXPLORATION INC): +10.3% today at 0.215, last 30m +2.4%, volume pace 2.49x, rising since 2026-11-06T18:50:00+00:00
-- DMX.V (DISTRICT METALS CORP): +10.1% today at 0.38, last 30m +1.3%, volume pace 4.16x, rising since 2026-11-06T19:00:00+00:00
-- COV.V (COVALON TECHNOLOGIES LTD): +6.7% today at 4.31, last 30m +0.2%, volume pace 2.1x, rising since 2026-11-06T18:45:00+00:00
+- REVX.V (REV EXPLORATION CORP): +17.1% today at 1.3, last 30m +0.8%, volume pace 1.86x, rising since 2026-11-06T18:50:00+00:00
+- BRW.V (BRUNSWICK EXPLORATION INC): +12.8% today at 0.22, last 30m +2.3%, volume pace 2.25x, rising since 2026-11-06T18:50:00+00:00
+- RVG.V (REVIVAL GOLD INC): +9.1% today at 0.72, last 30m +4.3%, volume pace 1.75x, rising since 2026-11-06T19:15:00+00:00
+- OMG.V (OMAI GOLD MINES CORP): +8.0% today at 1.825, last 30m +1.4%, volume pace 3.33x, rising since 2026-11-06T19:20:00+00:00
+- NEXG.V (NEXGOLD MINING CORP): +5.2% today at 1.21, last 30m +0.8%, volume pace 7.44x, rising since 2026-11-06T18:35:00+00:00
 - AXO.V (AXO METALS CORP): +4.9% today at 1.07, last 30m +1.9%, volume pace 5.77x, rising since 2026-11-06T18:35:00+00:00
-- MLP.V (MILLENNIAL POTASH CORP): +4.7% today at 1.55, last 30m +0.7%, volume pace 3.78x, rising since 2026-11-06T18:30:00+00:00
-- TAU.V (THESIS GOLD AND SILVER INC): +4.7% today at 2.45, last 30m +0.4%, volume pace 1.52x, rising since 2026-11-06T18:25:00+00:00
-- EU.V (ENCORE ENERGY CORP): +4.6% today at 0.91, last 30m +1.7%, volume pace 2.24x, rising since 2026-11-06T18:35:00+00:00
-- ITR.V (INTEGRA RESOURCES CORP): +4.3% today at 3.12, last 30m +0.7%, volume pace 3.01x, rising since 2026-11-06T18:10:00+00:00
-- UCU.V (UCORE RARE METALS INC): +3.9% today at 1.86, last 30m +1.1%, volume pace 1.86x, rising since 2026-11-06T18:45:00+00:00
-- MOON.V (BLUE MOON METALS INC): +3.8% today at 4.505, last 30m +0.8%, volume pace 7.34x, rising since 2026-11-06T18:50:00+00:00
-- NEXG.V (NEXGOLD MINING CORP): +3.5% today at 1.19, last 30m +0.8%, volume pace 3.88x, rising since 2026-11-06T18:35:00+00:00
+- GLAD.V (GLADIATOR METALS CORP): +4.7% today at 1.57, last 30m +4.7%, volume pace 2.24x, rising since 2026-11-06T19:05:00+00:00
+- EU.V (ENCORE ENERGY CORP): +4.6% today at 0.91, last 30m +1.1%, volume pace 2.29x, rising since 2026-11-06T18:35:00+00:00
+- SCOT.V (SCOTTIE RESOURCES CORP): +4.0% today at 2.34, last 30m +1.7%, volume pace 1.77x, rising since 2026-11-06T19:15:00+00:00
 - TDG.V (TDG GOLD CORP): +3.1% today at 0.5, last 30m +2.0%, volume pace 1.74x, rising since 2026-11-06T17:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -75,16 +72,16 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- STUD.V (STALLION URANIUM CORP): +18.2% at 0.13, volume pace 0.61x
-- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 1.1x
+- STUD.V (STALLION URANIUM CORP): +18.2% at 0.13, volume pace 0.68x
+- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 1.16x
 - GPUS.V (ALSET AI VENTURES INC): +17.6% at 0.2, volume pace 1.34x
-- REVX.V (REV EXPLORATION CORP): +17.1% at 1.3, volume pace 1.83x
-- NOW.V (NOWVERTICAL GROUP INC): +16.1% at 0.18, volume pace 0.92x
+- REVX.V (REV EXPLORATION CORP): +17.1% at 1.3, volume pace 1.86x
+- ZNX.V (ZINCX RESOURCES CORP): +16.4% at 0.32, volume pace 0.01x
+- NOW.V (NOWVERTICAL GROUP INC): +16.1% at 0.18, volume pace 0.86x
 - USCU.V (US COPPER CORP): +14.3% at 0.08, volume pace 4.96x
 - CCCM.V (C3 METALS INC): +13.5% at 0.59, volume pace 1.75x
 - AGLD.V (AUSTRAL GOLD LIMITED): +13.0% at 0.13, volume pace 7.08x
-- GQC.V (GOLDQUEST MINING CORP.): +12.7% at 0.71, volume pace 0.67x
-- OGG.V (OSISKO GOLD GROUP INC): +12.6% at 3.67, volume pace 3.29x
+- BRW.V (BRUNSWICK EXPLORATION INC): +12.8% at 0.22, volume pace 2.25x
 
 # TSX
 
@@ -123,12 +120,9 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +25.6% today at 2.11, last 30m +0.5%, volume pace 1.87x, rising since 2026-11-06T18:55:00+00:00
-- JOY.TO (JOURNEY ENERGY INC): +5.7% today at 4.64, last 30m +0.3%, volume pace 1.54x, rising since 2026-11-06T19:00:00+00:00
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +4.4% today at 2.35, last 30m +3.1%, volume pace 1.65x, rising since 2026-11-06T18:30:00+00:00
-- NOU.TO (NOUVEAU MONDE GRAPHITE INC): +3.5% today at 1.18, last 30m +1.3%, volume pace 1.86x, rising since 2026-11-06T18:50:00+00:00
-- DC-A.TO (DUNDEE CORP., CL.A SV): +3.1% today at 3.64, last 30m +0.3%, volume pace 2.63x, rising since 2026-11-06T18:50:00+00:00
-- TSND.TO (TERRASCEND CORP): +3.1% today at 0.67, last 30m +1.5%, volume pace 1.52x, rising since 2026-11-06T18:40:00+00:00
+- GAU.TO (GALIANO GOLD INC): +13.4% today at 3.39, last 30m +1.2%, volume pace 1.81x, rising since 2026-11-06T19:10:00+00:00
+- LOVE.TO (CANNARA BIOTECH INC): +3.4% today at 2.15, last 30m +0.9%, volume pace 2.54x, rising since 2026-11-06T19:25:00+00:00
+- THNC.TO (THINKIFIC LABS INC): +3.1% today at 2.35, last 30m +1.3%, volume pace 9.68x, rising since 2026-11-06T19:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -145,13 +139,13 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +137.5% at 0.285, volume pace 33.11x
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +25.6% at 2.11, volume pace 1.87x
-- GRN.TO (GREENLANE RENEWABLES INC): +14.3% at 0.2, volume pace 3.24x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +12.5% at 2.61, volume pace 1.28x
-- GAU.TO (GALIANO GOLD INC): +12.0% at 3.35, volume pace 1.7x
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +11.9% at 3.75, volume pace 0.62x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +11.5% at 0.97, volume pace 0.65x
-- ARA.TO (ACLARA RESOURCES INC): +10.7% at 2.27, volume pace 1.46x
-- URE.TO (UR-ENERGY INC.): +8.2% at 1.06, volume pace 1.03x
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +7.9% at 3.96, volume pace 0.97x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +129.2% at 0.275, volume pace 33.38x
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +25.6% at 2.11, volume pace 1.71x
+- GRN.TO (GREENLANE RENEWABLES INC): +14.3% at 0.2, volume pace 2.3x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +13.8% at 0.99, volume pace 0.65x
+- GAU.TO (GALIANO GOLD INC): +13.4% at 3.39, volume pace 1.81x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +12.2% at 3.76, volume pace 0.57x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +12.1% at 2.6, volume pace 1.19x
+- ARA.TO (ACLARA RESOURCES INC): +10.7% at 2.27, volume pace 1.24x
+- URE.TO (UR-ENERGY INC.): +8.7% at 1.065, volume pace 0.97x
+- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.02x
