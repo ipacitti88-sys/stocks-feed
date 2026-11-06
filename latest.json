@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T14:01-07:00",
+ "generated": "2026-11-06T14:06-07:00",
  "last_close_day": "2026-11-05",
  "tracked": 689,
  "tracked_by_market": {
@@ -481,9 +481,9 @@
    "ticker": "ITH.TO",
    "name": "INTERNATIONAL TOWER HILL MINES ",
    "as_of": "2026-11-06T21:00:00+00:00",
-   "last": 2.18,
-   "pct_day": 29.76,
-   "pct_30m": 1.4,
+   "last": 2.17,
+   "pct_day": 29.17,
+   "pct_30m": 0.93,
    "volume_pace": 1.6,
    "rising": true,
    "rising_since": "2026-11-06T21:00:00+00:00"
@@ -503,9 +503,9 @@
    "ticker": "GAU.TO",
    "name": "GALIANO GOLD INC",
    "as_of": "2026-11-06T21:00:00+00:00",
-   "last": 3.51,
-   "pct_day": 17.39,
-   "pct_30m": 1.15,
+   "last": 3.5,
+   "pct_day": 17.06,
+   "pct_30m": 0.86,
    "volume_pace": 2.47,
    "rising": true,
    "rising_since": "2026-11-06T19:10:00+00:00"
@@ -566,6 +566,17 @@
    "rising_since": "2026-11-06T20:35:00+00:00"
   },
   {
+   "ticker": "OMG.V",
+   "name": "OMAI GOLD MINES CORP",
+   "as_of": "2026-11-06T21:00:00+00:00",
+   "last": 1.82,
+   "pct_day": 7.69,
+   "pct_30m": 0.55,
+   "volume_pace": 4.77,
+   "rising": true,
+   "rising_since": "2026-11-06T21:00:00+00:00"
+  },
+  {
    "ticker": "EMPR.V",
    "name": "EMPRESS ROYALTY CORP",
    "as_of": "2026-11-06T21:00:00+00:00",
@@ -599,15 +610,15 @@
    "rising_since": "2026-11-06T20:50:00+00:00"
   },
   {
-   "ticker": "TAU.V",
-   "name": "THESIS GOLD AND SILVER INC",
+   "ticker": "NEXG.V",
+   "name": "NEXGOLD MINING CORP",
    "as_of": "2026-11-06T21:00:00+00:00",
-   "last": 2.46,
-   "pct_day": 5.13,
-   "pct_30m": 1.65,
-   "volume_pace": 1.76,
+   "last": 1.22,
+   "pct_day": 6.09,
+   "pct_30m": 0.83,
+   "volume_pace": 6.4,
    "rising": true,
-   "rising_since": "2026-11-06T20:50:00+00:00"
+   "rising_since": "2026-11-06T21:00:00+00:00"
   },
   {
    "ticker": "SCOT.V",
@@ -619,6 +630,17 @@
    "volume_pace": 1.59,
    "rising": true,
    "rising_since": "2026-11-06T20:55:00+00:00"
+  },
+  {
+   "ticker": "TAU.V",
+   "name": "THESIS GOLD AND SILVER INC",
+   "as_of": "2026-11-06T21:00:00+00:00",
+   "last": 2.45,
+   "pct_day": 4.7,
+   "pct_30m": 1.24,
+   "volume_pace": 1.76,
+   "rising": true,
+   "rising_since": "2026-11-06T20:50:00+00:00"
   },
   {
    "ticker": "DC-A.TO",
@@ -769,9 +791,9 @@
    "ticker": "ITH.TO",
    "name": "INTERNATIONAL TOWER HILL MINES ",
    "as_of": "2026-11-06T21:00:00+00:00",
-   "last": 2.18,
-   "pct_day": 29.76,
-   "pct_30m": 1.4,
+   "last": 2.17,
+   "pct_day": 29.17,
+   "pct_30m": 0.93,
    "volume_pace": 1.6,
    "rising": true,
    "rising_since": "2026-11-06T21:00:00+00:00"
@@ -780,9 +802,9 @@
    "ticker": "GAU.TO",
    "name": "GALIANO GOLD INC",
    "as_of": "2026-11-06T21:00:00+00:00",
-   "last": 3.51,
-   "pct_day": 17.39,
-   "pct_30m": 1.15,
+   "last": 3.5,
+   "pct_day": 17.06,
+   "pct_30m": 0.86,
    "volume_pace": 2.47,
    "rising": true,
    "rising_since": "2026-11-06T19:10:00+00:00"
@@ -813,9 +835,9 @@
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
    "as_of": "2026-11-06T21:00:00+00:00",
-   "last": 2.63,
-   "pct_day": 13.36,
-   "pct_30m": -0.38,
+   "last": 2.62,
+   "pct_day": 12.93,
+   "pct_30m": -0.76,
    "volume_pace": 1.15,
    "rising": false,
    "rising_since": null
@@ -838,18 +860,7 @@
    "last": 0.295,
    "pct_day": 11.32,
    "pct_30m": 3.51,
-   "volume_pace": 1.62,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ARA.TO",
-   "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-06T21:00:00+00:00",
-   "last": 2.28,
-   "pct_day": 11.22,
-   "pct_30m": 0.0,
-   "volume_pace": 1.12,
+   "volume_pace": 1.66,
    "rising": false,
    "rising_since": null
   },
@@ -861,6 +872,17 @@
    "pct_day": 10.87,
    "pct_30m": 2.0,
    "volume_pace": 1.06,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ARA.TO",
+   "name": "ACLARA RESOURCES INC",
+   "as_of": "2026-11-06T21:00:00+00:00",
+   "last": 2.27,
+   "pct_day": 10.73,
+   "pct_30m": -0.44,
+   "volume_pace": 1.14,
    "rising": false,
    "rising_since": null
   }

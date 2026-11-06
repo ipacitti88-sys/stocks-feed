@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-06T14:01-07:00
+# Stock feed — 2026-11-06T14:06-07:00
 
 Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-05. Intraday data as of: 2026-11-06T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -51,11 +51,13 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 - BRW.V (BRUNSWICK EXPLORATION INC): +12.8% today at 0.22, last 30m +2.3%, volume pace 2.25x, rising since 2026-11-06T18:50:00+00:00
 - SVE.V (SILVER ONE RESOURCES INC): +10.4% today at 0.37, last 30m +8.8%, volume pace 3.58x, rising since 2026-11-06T20:40:00+00:00
 - DMX.V (DISTRICT METALS CORP): +10.1% today at 0.38, last 30m +1.3%, volume pace 3.21x, rising since 2026-11-06T20:30:00+00:00
+- OMG.V (OMAI GOLD MINES CORP): +7.7% today at 1.82, last 30m +0.6%, volume pace 4.77x, rising since 2026-11-06T21:00:00+00:00
 - EMPR.V (EMPRESS ROYALTY CORP): +7.2% today at 0.89, last 30m +1.1%, volume pace 2.41x, rising since 2026-11-06T21:00:00+00:00
 - MLP.V (MILLENNIAL POTASH CORP): +6.8% today at 1.58, last 30m +1.3%, volume pace 3.26x, rising since 2026-11-06T20:30:00+00:00
 - COV.V (COVALON TECHNOLOGIES LTD): +6.7% today at 4.31, last 30m +0.7%, volume pace 4.02x, rising since 2026-11-06T20:50:00+00:00
-- TAU.V (THESIS GOLD AND SILVER INC): +5.1% today at 2.46, last 30m +1.6%, volume pace 1.76x, rising since 2026-11-06T20:50:00+00:00
+- NEXG.V (NEXGOLD MINING CORP): +6.1% today at 1.22, last 30m +0.8%, volume pace 6.4x, rising since 2026-11-06T21:00:00+00:00
 - SCOT.V (SCOTTIE RESOURCES CORP): +4.9% today at 2.36, last 30m +0.4%, volume pace 1.59x, rising since 2026-11-06T20:55:00+00:00
+- TAU.V (THESIS GOLD AND SILVER INC): +4.7% today at 2.45, last 30m +1.2%, volume pace 1.76x, rising since 2026-11-06T20:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -120,8 +122,8 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +29.8% today at 2.18, last 30m +1.4%, volume pace 1.6x, rising since 2026-11-06T21:00:00+00:00
-- GAU.TO (GALIANO GOLD INC): +17.4% today at 3.51, last 30m +1.1%, volume pace 2.47x, rising since 2026-11-06T19:10:00+00:00
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +29.2% today at 2.17, last 30m +0.9%, volume pace 1.6x, rising since 2026-11-06T21:00:00+00:00
+- GAU.TO (GALIANO GOLD INC): +17.1% today at 3.5, last 30m +0.9%, volume pace 2.47x, rising since 2026-11-06T19:10:00+00:00
 - STGO.TO (STEPPE GOLD LTD): +8.1% today at 1.47, last 30m +1.0%, volume pace 1.66x, rising since 2026-11-06T20:35:00+00:00
 - DC-A.TO (DUNDEE CORP., CL.A SV): +3.7% today at 3.66, last 30m +0.6%, volume pace 2.16x, rising since 2026-11-06T20:35:00+00:00
 - MDP.TO (MEDEXUS PHARMACEUTICALS INC): +3.5% today at 5.09, last 30m +1.0%, volume pace 2.81x, rising since 2026-11-06T20:50:00+00:00
@@ -142,12 +144,12 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 ## TSX: top gainers in latest intraday pass
 
 - ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +116.7% at 0.26, volume pace 32.12x
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +29.8% at 2.18, volume pace 1.6x
-- GAU.TO (GALIANO GOLD INC): +17.4% at 3.51, volume pace 2.47x
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +29.2% at 2.17, volume pace 1.6x
+- GAU.TO (GALIANO GOLD INC): +17.1% at 3.5, volume pace 2.47x
 - GASX.TO (NG ENERGY INTERNATIONAL CORP): +16.1% at 1.01, volume pace 0.64x
 - GRN.TO (GREENLANE RENEWABLES INC): +14.3% at 0.2, volume pace 4.08x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +13.4% at 2.63, volume pace 1.15x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +12.9% at 2.62, volume pace 1.15x
 - XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +12.2% at 3.76, volume pace 0.84x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +11.3% at 0.295, volume pace 1.62x
-- ARA.TO (ACLARA RESOURCES INC): +11.2% at 2.28, volume pace 1.12x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +11.3% at 0.295, volume pace 1.66x
 - HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +10.9% at 2.55, volume pace 1.06x
+- ARA.TO (ACLARA RESOURCES INC): +10.7% at 2.27, volume pace 1.14x
