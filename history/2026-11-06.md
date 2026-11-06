@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-06T09:01-07:00
+# Stock feed — 2026-11-06T09:31-07:00
 
-Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-05. Intraday data as of: 2026-11-06T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 689 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-05. Intraday data as of: 2026-11-06T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 806.32 on 2026-11-05 (day -1.0%, month -9.4%, year -9.3%, downtrend); live +0.2% at 16:05
-Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year +19.6%, uptrend); live +0.3% at 16:05
+Market: S&P/TSX Venture Composite 806.32 on 2026-11-05 (day -1.0%, month -9.4%, year -9.3%, downtrend); live +0.3% at 16:35
+Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year +19.6%, uptrend); live +0.6% at 16:35
 
 # TSX Venture
 
@@ -46,14 +46,15 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- OGG.V (OSISKO GOLD GROUP INC): +9.8% today at 3.58, last 30m +0.6%, volume pace 6.36x, rising since 2026-11-06T15:35:00+00:00
-- YTY.V (WI2WI CORPORATION): +8.3% today at 0.13, last 30m +4.0%, volume pace 6.95x, rising since 2026-11-06T15:30:00+00:00
+- DMX.V (DISTRICT METALS CORP): +10.9% today at 0.3825, last 30m +0.7%, volume pace 8.96x, rising since 2026-11-06T16:30:00+00:00
+- OGG.V (OSISKO GOLD GROUP INC): +10.1% today at 3.59, last 30m +1.4%, volume pace 6.53x, rising since 2026-11-06T16:10:00+00:00
+- BRW.V (BRUNSWICK EXPLORATION INC): +9.0% today at 0.2125, last 30m +1.2%, volume pace 4.48x, rising since 2026-11-06T16:15:00+00:00
 - NOW.V (NOWVERTICAL GROUP INC): +6.5% today at 0.165, last 30m +3.1%, volume pace 2.01x, rising since 2026-11-06T14:55:00+00:00
-- EMPR.V (EMPRESS ROYALTY CORP): +4.8% today at 0.87, last 30m +3.6%, volume pace 6.85x, rising since 2026-11-06T15:45:00+00:00
-- TAU.V (THESIS GOLD AND SILVER INC): +4.7% today at 2.45, last 30m +1.2%, volume pace 3.21x, rising since 2026-11-06T15:45:00+00:00
-- COV.V (COVALON TECHNOLOGIES LTD): +4.5% today at 4.22, last 30m +1.7%, volume pace 5.69x, rising since 2026-11-06T15:05:00+00:00
-- KRY.V (KORYX COPPER S A): +4.4% today at 3.33, last 30m +2.8%, volume pace 3.05x, rising since 2026-11-06T15:55:00+00:00
-- SAGA.V (SAGA METALS CORP): +4.0% today at 0.39, last 30m +6.8%, volume pace 4.11x, rising since 2026-11-06T15:00:00+00:00
+- COV.V (COVALON TECHNOLOGIES LTD): +6.4% today at 4.3, last 30m +1.9%, volume pace 3.17x, rising since 2026-11-06T15:05:00+00:00
+- KRY.V (KORYX COPPER S A): +5.0% today at 3.35, last 30m +0.6%, volume pace 3.36x, rising since 2026-11-06T16:25:00+00:00
+- PALI.V (PALISADES GOLDCORP LTD): +5.0% today at 4.0, last 30m +0.5%, volume pace 1.65x, rising since 2026-11-06T16:25:00+00:00
+- MOON.V (BLUE MOON METALS INC): +3.7% today at 4.5, last 30m +2.5%, volume pace 5.33x, rising since 2026-11-06T16:25:00+00:00
+- GLAD.V (GLADIATOR METALS CORP): +3.3% today at 1.55, last 30m +2.0%, volume pace 2.14x, rising since 2026-11-06T16:15:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -70,16 +71,16 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- EXG.V (EXGEN RESOURCES INC): +21.4% at 0.085, volume pace 4.61x
+- EXG.V (EXGEN RESOURCES INC): +21.4% at 0.085, volume pace 7.28x
 - GPUS.V (ALSET AI VENTURES INC): +17.6% at 0.2, volume pace 3.56x
-- REVX.V (REV EXPLORATION CORP): +15.3% at 1.28, volume pace 3.42x
-- IDEX.V (IDEX METALS CORP): +12.5% at 0.3375, volume pace 2.06x
+- REVX.V (REV EXPLORATION CORP): +14.4% at 1.27, volume pace 3.0x
+- USCU.V (US COPPER CORP): +14.3% at 0.08, volume pace 4.91x
+- PRG.V (PRECIPITATE GOLD CORP): +13.6% at 0.125, volume pace 0.36x
+- CCCM.V (C3 METALS INC): +13.5% at 0.59, volume pace 2.57x
+- IDEX.V (IDEX METALS CORP): +13.3% at 0.34, volume pace 0.94x
+- AGLD.V (AUSTRAL GOLD LIMITED): +13.0% at 0.13, volume pace 4.72x
 - FHR.V (FIDDLEHEAD RESOURCES CORP): +12.5% at 0.09, volume pace 0.0x
-- DMX.V (DISTRICT METALS CORP): +10.1% at 0.38, volume pace 15.3x
-- LCE.V (CENTURY LITHIUM CORP): +10.0% at 0.22, volume pace 0.89x
-- OGG.V (OSISKO GOLD GROUP INC): +9.8% at 3.58, volume pace 6.36x
-- NBVA.V (NUBEVA TECHNOLOGIES LTD): +9.7% at 0.17, volume pace 0.0x
-- CCCM.V (C3 METALS INC): +9.6% at 0.57, volume pace 3.7x
+- DMX.V (DISTRICT METALS CORP): +10.9% at 0.3825, volume pace 8.96x
 
 # TSX
 
@@ -118,12 +119,11 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +20.2% today at 2.02, last 30m +5.8%, volume pace 2.57x, rising since 2026-11-06T15:40:00+00:00
-- HAI.TO (HAIVISION SYSTEMS INC): +10.5% today at 3.9, last 30m +10.2%, volume pace 4.78x, rising since 2026-11-06T15:00:00+00:00
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +9.1% today at 2.53, last 30m +4.1%, volume pace 1.98x, rising since 2026-11-06T15:55:00+00:00
-- SNDY.TO (Sunday Lake Gold Corp.): +9.0% today at 1.45, last 30m +2.8%, volume pace 2.14x, rising since 2026-11-06T14:40:00+00:00
-- PMET.TO (PMET RESOURCES INC): +4.0% today at 3.225, last 30m +0.2%, volume pace 2.0x, rising since 2026-11-06T16:00:00+00:00
-- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +3.9% today at 2.39, last 30m +2.4%, volume pace 1.53x, rising since 2026-11-06T16:05:00+00:00
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +24.1% today at 2.085, last 30m +2.7%, volume pace 2.87x, rising since 2026-11-06T15:40:00+00:00
+- ARA.TO (ACLARA RESOURCES INC): +8.8% today at 2.23, last 30m +0.9%, volume pace 2.8x, rising since 2026-11-06T16:30:00+00:00
+- GAU.TO (GALIANO GOLD INC): +7.7% today at 3.22, last 30m +0.6%, volume pace 2.4x, rising since 2026-11-06T16:30:00+00:00
+- SNDY.TO (Sunday Lake Gold Corp.): +7.5% today at 1.43, last 30m +0.7%, volume pace 1.94x, rising since 2026-11-06T14:40:00+00:00
+- DC-A.TO (DUNDEE CORP., CL.A SV): +5.7% today at 3.73, last 30m +2.8%, volume pace 2.85x, rising since 2026-11-06T16:25:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -140,13 +140,13 @@ Market: S&P/TSX Composite 35,605.27 on 2026-11-05 (day -2.0%, month -0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +62.5% at 0.195, volume pace 6.66x
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +20.2% at 2.02, volume pace 2.57x
-- GRN.TO (GREENLANE RENEWABLES INC): +14.3% at 0.2, volume pace 5.72x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +12.6% at 0.98, volume pace 0.85x
-- HAI.TO (HAIVISION SYSTEMS INC): +10.5% at 3.9, volume pace 4.78x
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +9.6% at 3.67, volume pace 0.87x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +9.1% at 2.53, volume pace 1.98x
-- SNDY.TO (Sunday Lake Gold Corp.): +9.0% at 1.45, volume pace 2.14x
-- ARA.TO (ACLARA RESOURCES INC): +7.8% at 2.21, volume pace 3.56x
-- GAU.TO (GALIANO GOLD INC): +7.0% at 3.2, volume pace 2.75x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +91.7% at 0.23, volume pace 29.67x
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +24.1% at 2.085, volume pace 2.87x
+- GRN.TO (GREENLANE RENEWABLES INC): +14.3% at 0.2, volume pace 4.99x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +11.5% at 0.97, volume pace 0.76x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +9.1% at 2.53, volume pace 1.69x
+- ARA.TO (ACLARA RESOURCES INC): +8.8% at 2.23, volume pace 2.8x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +8.7% at 3.64, volume pace 0.92x
+- LUC.TO (LUCARA DIAMOND CORP): +8.3% at 0.13, volume pace 0.04x
+- COPR.TO (COPPERNICO METALS INC): +8.2% at 0.33, volume pace 0.05x
+- GAU.TO (GALIANO GOLD INC): +7.7% at 3.22, volume pace 2.4x
