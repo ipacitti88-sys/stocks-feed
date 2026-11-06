@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T10:31-07:00",
+ "generated": "2026-11-06T11:01-07:00",
  "last_close_day": "2026-11-05",
  "tracked": 689,
  "tracked_by_market": {
@@ -475,73 +475,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-06T17:35:00+00:00",
+ "live_as_of": "2026-11-06T18:05:00+00:00",
  "rising": [
   {
-   "ticker": "OGG.V",
-   "name": "OSISKO GOLD GROUP INC",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 3.66,
-   "pct_day": 12.27,
-   "pct_30m": 1.1,
-   "volume_pace": 4.7,
+   "ticker": "YTY.V",
+   "name": "WI2WI CORPORATION",
+   "as_of": "2026-11-06T17:55:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": 3.85,
+   "volume_pace": 5.24,
    "rising": true,
-   "rising_since": "2026-11-06T17:00:00+00:00"
-  },
-  {
-   "ticker": "DMX.V",
-   "name": "DISTRICT METALS CORP",
-   "as_of": "2026-11-06T17:15:00+00:00",
-   "last": 0.385,
-   "pct_day": 11.59,
-   "pct_30m": 0.65,
-   "volume_pace": 6.59,
-   "rising": true,
-   "rising_since": "2026-11-06T16:30:00+00:00"
+   "rising_since": "2026-11-06T17:40:00+00:00"
   },
   {
    "ticker": "GAU.TO",
    "name": "GALIANO GOLD INC",
-   "as_of": "2026-11-06T17:35:00+00:00",
+   "as_of": "2026-11-06T18:05:00+00:00",
    "last": 3.315,
    "pct_day": 10.87,
-   "pct_30m": 2.0,
-   "volume_pace": 2.02,
+   "pct_30m": 0.45,
+   "volume_pace": 1.88,
    "rising": true,
    "rising_since": "2026-11-06T16:50:00+00:00"
-  },
-  {
-   "ticker": "BRW.V",
-   "name": "BRUNSWICK EXPLORATION INC",
-   "as_of": "2026-11-06T17:00:00+00:00",
-   "last": 0.215,
-   "pct_day": 10.26,
-   "pct_30m": 1.18,
-   "volume_pace": 3.97,
-   "rising": true,
-   "rising_since": "2026-11-06T17:00:00+00:00"
-  },
-  {
-   "ticker": "ARA.TO",
-   "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 2.245,
-   "pct_day": 9.51,
-   "pct_30m": 0.45,
-   "volume_pace": 1.98,
-   "rising": true,
-   "rising_since": "2026-11-06T16:30:00+00:00"
-  },
-  {
-   "ticker": "MCB.TO",
-   "name": "MCCOY GLOBAL INC",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 2.56,
-   "pct_day": 7.56,
-   "pct_30m": 6.67,
-   "volume_pace": 6.25,
-   "rising": true,
-   "rising_since": "2026-11-06T17:20:00+00:00"
   },
   {
    "ticker": "COV.V",
@@ -555,59 +511,37 @@
    "rising_since": "2026-11-06T15:05:00+00:00"
   },
   {
-   "ticker": "OMG.V",
-   "name": "OMAI GOLD MINES CORP",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 1.79,
-   "pct_day": 5.92,
-   "pct_30m": 1.13,
-   "volume_pace": 5.19,
+   "ticker": "EMPR.V",
+   "name": "EMPRESS ROYALTY CORP",
+   "as_of": "2026-11-06T18:00:00+00:00",
+   "last": 0.88,
+   "pct_day": 6.02,
+   "pct_30m": 2.33,
+   "volume_pace": 4.02,
    "rising": true,
-   "rising_since": "2026-11-06T16:50:00+00:00"
-  },
-  {
-   "ticker": "MLP.V",
-   "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 1.56,
-   "pct_day": 5.41,
-   "pct_30m": 5.41,
-   "volume_pace": 2.62,
-   "rising": true,
-   "rising_since": "2026-11-06T17:30:00+00:00"
-  },
-  {
-   "ticker": "WI.V",
-   "name": "THE WESTERN INVESTMENT CO OF CD",
-   "as_of": "2026-11-06T17:15:00+00:00",
-   "last": 1.38,
-   "pct_day": 5.34,
-   "pct_30m": 2.99,
-   "volume_pace": 1.98,
-   "rising": true,
-   "rising_since": "2026-11-06T17:15:00+00:00"
-  },
-  {
-   "ticker": "LTC.V",
-   "name": "LOTUS CREEK EXPLORATION INC",
-   "as_of": "2026-11-06T17:20:00+00:00",
-   "last": 4.3,
-   "pct_day": 4.62,
-   "pct_30m": 2.38,
-   "volume_pace": 1.63,
-   "rising": true,
-   "rising_since": "2026-11-06T17:00:00+00:00"
+   "rising_since": "2026-11-06T17:40:00+00:00"
   },
   {
    "ticker": "JOY.TO",
    "name": "JOURNEY ENERGY INC",
-   "as_of": "2026-11-06T17:35:00+00:00",
-   "last": 4.58,
-   "pct_day": 4.33,
-   "pct_30m": 1.33,
-   "volume_pace": 1.72,
+   "as_of": "2026-11-06T18:00:00+00:00",
+   "last": 4.62,
+   "pct_day": 5.24,
+   "pct_30m": 0.87,
+   "volume_pace": 1.77,
    "rising": true,
    "rising_since": "2026-11-06T17:20:00+00:00"
+  },
+  {
+   "ticker": "DB.V",
+   "name": "DECIBEL CANNABIS COMPANY INC",
+   "as_of": "2026-11-06T17:35:00+00:00",
+   "last": 2.1,
+   "pct_day": 5.0,
+   "pct_30m": 2.44,
+   "volume_pace": 2.34,
+   "rising": true,
+   "rising_since": "2026-11-06T17:35:00+00:00"
   },
   {
    "ticker": "AGA.V",
@@ -619,28 +553,6 @@
    "volume_pace": 2.31,
    "rising": true,
    "rising_since": "2026-11-06T16:55:00+00:00"
-  },
-  {
-   "ticker": "ITR.V",
-   "name": "INTEGRA RESOURCES CORP",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 3.09,
-   "pct_day": 3.34,
-   "pct_30m": 0.32,
-   "volume_pace": 2.45,
-   "rising": true,
-   "rising_since": "2026-11-06T17:15:00+00:00"
-  },
-  {
-   "ticker": "CDR.TO",
-   "name": "CONDOR ENERGIES INC",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 3.555,
-   "pct_day": 3.34,
-   "pct_30m": 0.57,
-   "volume_pace": 5.6,
-   "rising": true,
-   "rising_since": "2026-11-06T17:30:00+00:00"
   },
   {
    "ticker": "TDG.V",
@@ -656,35 +568,13 @@
  ],
  "top_gainers_today": [
   {
-   "ticker": "EXG.V",
-   "name": "EXGEN RESOURCES INC",
-   "as_of": "2026-11-06T16:15:00+00:00",
-   "last": 0.085,
-   "pct_day": 21.43,
-   "pct_30m": 13.33,
-   "volume_pace": 7.28,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "REVX.V",
-   "name": "REV EXPLORATION CORP",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 1.32,
-   "pct_day": 18.92,
-   "pct_30m": -0.75,
-   "volume_pace": 2.57,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "PRG.V",
    "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-11-06T17:35:00+00:00",
+   "as_of": "2026-11-06T18:05:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
-   "pct_30m": 4.0,
-   "volume_pace": 0.77,
+   "pct_30m": 0.0,
+   "volume_pace": 0.9,
    "rising": false,
    "rising_since": null
   },
@@ -700,6 +590,17 @@
    "rising_since": null
   },
   {
+   "ticker": "REVX.V",
+   "name": "REV EXPLORATION CORP",
+   "as_of": "2026-11-06T17:55:00+00:00",
+   "last": 1.29,
+   "pct_day": 16.22,
+   "pct_30m": -0.77,
+   "volume_pace": 2.28,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "USCU.V",
    "name": "US COPPER CORP",
    "as_of": "2026-11-06T16:30:00+00:00",
@@ -711,13 +612,24 @@
    "rising_since": null
   },
   {
+   "ticker": "STUD.V",
+   "name": "STALLION URANIUM CORP",
+   "as_of": "2026-11-06T17:55:00+00:00",
+   "last": 0.125,
+   "pct_day": 13.64,
+   "pct_30m": 4.17,
+   "volume_pace": 0.46,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "CCCM.V",
    "name": "C3 METALS INC",
-   "as_of": "2026-11-06T16:25:00+00:00",
+   "as_of": "2026-11-06T17:45:00+00:00",
    "last": 0.59,
    "pct_day": 13.46,
-   "pct_30m": 3.51,
-   "volume_pace": 2.7,
+   "pct_30m": 0.0,
+   "volume_pace": 1.6,
    "rising": false,
    "rising_since": null
   },
@@ -755,123 +667,123 @@
    "rising_since": null
   },
   {
-   "ticker": "OGG.V",
-   "name": "OSISKO GOLD GROUP INC",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 3.66,
-   "pct_day": 12.27,
-   "pct_30m": 1.1,
-   "volume_pace": 4.7,
+   "ticker": "YTY.V",
+   "name": "WI2WI CORPORATION",
+   "as_of": "2026-11-06T17:55:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": 3.85,
+   "volume_pace": 5.24,
    "rising": true,
-   "rising_since": "2026-11-06T17:00:00+00:00"
+   "rising_since": "2026-11-06T17:40:00+00:00"
   },
   {
    "ticker": "ELEF.TO",
    "name": "SILVER ELEPHANT MINING CORPORAT",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 0.245,
-   "pct_day": 104.17,
-   "pct_30m": -9.26,
-   "volume_pace": 32.78,
+   "as_of": "2026-11-06T17:55:00+00:00",
+   "last": 0.24,
+   "pct_day": 100.0,
+   "pct_30m": -2.04,
+   "volume_pace": 31.89,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ITH.TO",
    "name": "INTERNATIONAL TOWER HILL MINES ",
-   "as_of": "2026-11-06T17:35:00+00:00",
+   "as_of": "2026-11-06T18:00:00+00:00",
    "last": 2.08,
    "pct_day": 23.81,
-   "pct_30m": -0.48,
-   "volume_pace": 2.26,
+   "pct_30m": 0.0,
+   "volume_pace": 2.15,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GRN.TO",
    "name": "GREENLANE RENEWABLES INC",
-   "as_of": "2026-11-06T16:25:00+00:00",
+   "as_of": "2026-11-06T18:00:00+00:00",
    "last": 0.2,
    "pct_day": 14.29,
    "pct_30m": 0.0,
-   "volume_pace": 5.28,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "KEEL.TO",
-   "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 2.63,
-   "pct_day": 13.36,
-   "pct_30m": 2.14,
-   "volume_pace": 1.49,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GASX.TO",
-   "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-11-06T17:20:00+00:00",
-   "last": 0.97,
-   "pct_day": 11.49,
-   "pct_30m": 0.0,
-   "volume_pace": 0.63,
+   "volume_pace": 3.22,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GAU.TO",
    "name": "GALIANO GOLD INC",
-   "as_of": "2026-11-06T17:35:00+00:00",
+   "as_of": "2026-11-06T18:05:00+00:00",
    "last": 3.315,
    "pct_day": 10.87,
-   "pct_30m": 2.0,
-   "volume_pace": 2.02,
+   "pct_30m": 0.45,
+   "volume_pace": 1.88,
    "rising": true,
    "rising_since": "2026-11-06T16:50:00+00:00"
   },
   {
-   "ticker": "XNDU.TO",
-   "name": "XANADU QUANTUM TECHNOLOGIES LIM",
-   "as_of": "2026-11-06T17:35:00+00:00",
-   "last": 3.71,
-   "pct_day": 10.75,
-   "pct_30m": 0.54,
-   "volume_pace": 0.71,
+   "ticker": "KEEL.TO",
+   "name": "KEEL INFRASTRUCTURE CORP",
+   "as_of": "2026-11-06T18:05:00+00:00",
+   "last": 2.565,
+   "pct_day": 10.56,
+   "pct_30m": -1.35,
+   "volume_pace": 1.45,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GASX.TO",
+   "name": "NG ENERGY INTERNATIONAL CORP",
+   "as_of": "2026-11-06T18:00:00+00:00",
+   "last": 0.96,
+   "pct_day": 10.34,
+   "pct_30m": -1.03,
+   "volume_pace": 0.65,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ARA.TO",
    "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-06T17:30:00+00:00",
-   "last": 2.245,
-   "pct_day": 9.51,
-   "pct_30m": 0.45,
-   "volume_pace": 1.98,
-   "rising": true,
-   "rising_since": "2026-11-06T16:30:00+00:00"
-  },
-  {
-   "ticker": "SNDY.TO",
-   "name": "Sunday Lake Gold Corp.",
-   "as_of": "2026-11-06T16:50:00+00:00",
-   "last": 1.45,
-   "pct_day": 9.02,
-   "pct_30m": 1.4,
-   "volume_pace": 1.35,
+   "as_of": "2026-11-06T18:00:00+00:00",
+   "last": 2.24,
+   "pct_day": 9.27,
+   "pct_30m": -0.22,
+   "volume_pace": 1.7,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "COPR.TO",
-   "name": "COPPERNICO METALS INC",
-   "as_of": "2026-11-06T17:15:00+00:00",
-   "last": 0.33,
-   "pct_day": 8.2,
+   "ticker": "XNDU.TO",
+   "name": "XANADU QUANTUM TECHNOLOGIES LIM",
+   "as_of": "2026-11-06T18:00:00+00:00",
+   "last": 3.66,
+   "pct_day": 9.25,
+   "pct_30m": -1.48,
+   "volume_pace": 0.69,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SNDY.TO",
+   "name": "Sunday Lake Gold Corp.",
+   "as_of": "2026-11-06T18:00:00+00:00",
+   "last": 1.45,
+   "pct_day": 9.02,
    "pct_30m": 0.0,
-   "volume_pace": 0.95,
+   "volume_pace": 1.1,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MCB.TO",
+   "name": "MCCOY GLOBAL INC",
+   "as_of": "2026-11-06T18:05:00+00:00",
+   "last": 2.56,
+   "pct_day": 7.56,
+   "pct_30m": -1.16,
+   "volume_pace": 5.48,
    "rising": false,
    "rising_since": null
   }
@@ -1473,9 +1385,9 @@
    "ma200": 960.24,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-06T17:35:00+00:00",
-    "last": 812.58,
-    "pct_day": 0.78
+    "as_of": "2026-11-06T18:05:00+00:00",
+    "last": 809.76,
+    "pct_day": 0.43
    }
   },
   "^GSPTSE": {
@@ -2074,9 +1986,9 @@
    "ma200": 34637.65,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-06T17:35:00+00:00",
-    "last": 35889.6,
-    "pct_day": 0.8
+    "as_of": "2026-11-06T18:05:00+00:00",
+    "last": 35770.43,
+    "pct_day": 0.46
    }
   }
  },
