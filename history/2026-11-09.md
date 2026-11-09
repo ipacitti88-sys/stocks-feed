@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-09T14:01-07:00
+# Stock feed — 2026-11-09T14:06-07:00
 
 Tracking 691 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-06. Intraday data as of: 2026-11-09T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -67,10 +67,10 @@ Market: S&P/TSX Composite 35,789.09 on 2026-11-06 (day +0.5%, month +2.1%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - TTG.V (TRANS CANADA GOLD CORP): +66.7% at 0.15, volume pace 0.33x
+- TNX.V (TENX PROTOCOLS INC): +42.9% at 0.1, volume pace 1.9x
 - OZ.V (VALKEA RESOURCES CORP): +37.9% at 0.4, volume pace 4.52x
-- TNX.V (TENX PROTOCOLS INC): +35.7% at 0.095, volume pace 2.54x
 - RDU.V (RADIUS GOLD INC.): +23.9% at 0.285, volume pace 1.07x
-- AAG.V (AFTERMATH SILVER LTD): +20.9% at 0.52, volume pace 0.82x
+- AAG.V (AFTERMATH SILVER LTD): +23.3% at 0.53, volume pace 0.82x
 - KCP.V (KING COPPER DISCOVERY CORP): +20.0% at 0.6, volume pace 1.45x
 - EMR.V (EMERGENT METALS CORP): +20.0% at 0.09, volume pace 1.43x
 - SGO.V (SONORO GOLD CORP): +20.0% at 0.18, volume pace 1.54x
@@ -105,7 +105,7 @@ Market: S&P/TSX Composite 35,789.09 on 2026-11-06 (day +0.5%, month +2.1%, year 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
 - ANRG.TO (ANAERGIA INC): +8.7% today at 1.87, last 30m +1.1%, volume pace 1.89x, rising since 2026-11-09T20:45:00+00:00
-- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +8.5% today at 3.19, last 30m +0.6%, volume pace 1.72x, rising since 2026-11-09T21:00:00+00:00
+- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +8.2% today at 3.18, last 30m +0.3%, volume pace 1.73x, rising since 2026-11-09T21:00:00+00:00
 - GENM.TO (GENERATION MINING LIMITED): +4.3% today at 0.48, last 30m +1.1%, volume pace 2.62x, rising since 2026-11-09T21:00:00+00:00
 
 ## TSX: top by relative volume at last close

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:01-07:00",
+ "generated": "2026-11-09T14:06-07:00",
  "last_close_day": "2026-11-06",
  "tracked": 691,
  "tracked_by_market": {
@@ -525,10 +525,10 @@
    "ticker": "AGMR.TO",
    "name": "SILVER MOUNTAIN RESOURCES INC",
    "as_of": "2026-11-09T21:00:00+00:00",
-   "last": 3.19,
-   "pct_day": 8.5,
-   "pct_30m": 0.63,
-   "volume_pace": 1.72,
+   "last": 3.18,
+   "pct_day": 8.16,
+   "pct_30m": 0.32,
+   "volume_pace": 1.73,
    "rising": true,
    "rising_since": "2026-11-09T21:00:00+00:00"
   },
@@ -623,6 +623,17 @@
    "rising_since": null
   },
   {
+   "ticker": "TNX.V",
+   "name": "TENX PROTOCOLS INC",
+   "as_of": "2026-11-09T20:45:00+00:00",
+   "last": 0.1,
+   "pct_day": 42.86,
+   "pct_30m": 5.26,
+   "volume_pace": 1.9,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "OZ.V",
    "name": "VALKEA RESOURCES CORP",
    "as_of": "2026-11-09T20:50:00+00:00",
@@ -630,17 +641,6 @@
    "pct_day": 37.93,
    "pct_30m": 5.26,
    "volume_pace": 4.52,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TNX.V",
-   "name": "TENX PROTOCOLS INC",
-   "as_of": "2026-11-09T19:05:00+00:00",
-   "last": 0.095,
-   "pct_day": 35.71,
-   "pct_30m": 18.75,
-   "volume_pace": 2.54,
    "rising": false,
    "rising_since": null
   },
@@ -659,9 +659,9 @@
    "ticker": "AAG.V",
    "name": "AFTERMATH SILVER LTD",
    "as_of": "2026-11-09T21:00:00+00:00",
-   "last": 0.52,
-   "pct_day": 20.93,
-   "pct_30m": 0.0,
+   "last": 0.53,
+   "pct_day": 23.26,
+   "pct_30m": 1.92,
    "volume_pace": 0.82,
    "rising": false,
    "rising_since": null
@@ -691,7 +691,7 @@
   {
    "ticker": "SGO.V",
    "name": "SONORO GOLD CORP",
-   "as_of": "2026-11-09T20:40:00+00:00",
+   "as_of": "2026-11-09T20:45:00+00:00",
    "last": 0.18,
    "pct_day": 20.0,
    "pct_30m": 2.86,
