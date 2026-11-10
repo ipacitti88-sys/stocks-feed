@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-10T08:01-07:00
+# Stock feed — 2026-11-10T08:31-07:00
 
-Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -1.7% at 15:05
-Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.4% at 15:05
+Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -1.5% at 15:35
+Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.5% at 15:35
 
 # TSX Venture
 
@@ -37,7 +37,10 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SUNV.V (Sun Valley Minerals Inc.): +16.0% today at 0.87, last 30m +8.8%, volume pace 4.22x, rising since 2026-11-10T14:55:00+00:00
+- QTWO.V (Q2 METALS CORP): +9.9% today at 1.77, last 30m +0.6%, volume pace 10.14x, rising since 2026-11-10T15:30:00+00:00
+- GSI.V (GATEKEEPER SYSTEMS INC): +4.4% today at 1.67, last 30m +4.4%, volume pace 1.5x, rising since 2026-11-10T15:35:00+00:00
+- KRY.V (KORYX COPPER S A): +4.2% today at 3.25, last 30m +1.2%, volume pace 3.36x, rising since 2026-11-10T15:25:00+00:00
+- GTC.V (GETTY COPPER INC.): +3.4% today at 0.61, last 30m +5.2%, volume pace 2.73x, rising since 2026-11-10T15:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -54,16 +57,16 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- CTH.V (COTEC HOLDINGS CORP): +17.3% at 0.88, volume pace 16.0x
-- STMP.V (STAMPER OIL AND GAS CORP): +16.7% at 0.105, volume pace 3.28x
-- SUNV.V (Sun Valley Minerals Inc.): +16.0% at 0.87, volume pace 4.22x
-- GPH.V (GRAPHITE ONE INC): +10.3% at 0.75, volume pace 0.0x
-- GPUS.V (ALSET AI VENTURES INC): +10.0% at 0.22, volume pace 0.0x
+- STMP.V (STAMPER OIL AND GAS CORP): +22.2% at 0.11, volume pace 3.39x
+- CTH.V (COTEC HOLDINGS CORP): +17.3% at 0.88, volume pace 14.08x
+- SUNV.V (Sun Valley Minerals Inc.): +14.7% at 0.86, volume pace 3.08x
 - PURO.V (PLATAURO METALS CORP): +10.0% at 0.11, volume pace 0.0x
-- QTWO.V (Q2 METALS CORP): +9.9% at 1.77, volume pace 13.69x
+- QTWO.V (Q2 METALS CORP): +9.9% at 1.77, volume pace 10.14x
+- ZEN.V (ZENTEK LTD): +9.3% at 0.59, volume pace 1.79x
 - PHNM.V (PHENOM RESOURCES CORP): +9.2% at 0.415, volume pace 0.0x
+- NSE.V (NEW STRATUS ENERGY INC): +9.1% at 0.72, volume pace 3.82x
+- OGW.V (ONGWE MINERALS INC): +8.7% at 1.25, volume pace 0.96x
 - SKP.V (STRIKEPOINT GOLD INC): +7.6% at 1.56, volume pace 0.0x
-- CRG.V (CROSSROADS GOLD CORP): +7.3% at 0.22, volume pace 0.0x
 
 # TSX
 
@@ -90,7 +93,8 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- RIO.TO (RIO2 LIMITED): +4.2% today at 2.885, last 30m +4.2%, volume pace 4.53x, rising since 2026-11-10T15:25:00+00:00
+- DND.TO (DYE AND DURHAM LIMITED): +4.1% today at 2.04, last 30m +3.0%, volume pace 1.77x, rising since 2026-11-10T15:25:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -107,13 +111,13 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ELR.TO (EASTERN PLATINUM LIMITED): +7.0% at 0.23, volume pace 0.73x
-- ORIO.TO (ORION DIGITAL CORP): +4.6% at 1.6, volume pace 0.15x
-- MAXQ.TO (Maritime Launch Services Inc.): +3.3% at 0.465, volume pace 0.06x
+- ELR.TO (EASTERN PLATINUM LIMITED): +7.0% at 0.23, volume pace 0.79x
+- ORIO.TO (ORION DIGITAL CORP): +5.9% at 1.62, volume pace 12.78x
+- FSZ.TO (FIERA CAPITAL CORP): +5.0% at 2.95, volume pace 1.03x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.5% at 0.115, volume pace 0.25x
+- RIO.TO (RIO2 LIMITED): +4.2% at 2.885, volume pace 4.53x
+- DND.TO (DYE AND DURHAM LIMITED): +4.1% at 2.04, volume pace 1.77x
+- COPR.TO (COPPERNICO METALS INC): +4.0% at 0.39, volume pace 1.77x
+- ETG.TO (ENTREE RESOURCES LTD): +3.4% at 2.76, volume pace 0.01x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +3.2% at 4.17, volume pace 1.06x
 - AEG.TO (AEGIS BRANDS INC): +3.1% at 0.33, volume pace 0.0x
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +2.7% at 4.15, volume pace 1.4x
-- REAL.TO (Real Matters): +2.5% at 3.34, volume pace 0.18x
-- MER.TO (MEREN ENERGY INC): +2.3% at 1.965, volume pace 4.44x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +2.2% at 2.8, volume pace 1.1x
-- PDI.TO (PDI GOLD LIMITED): +2.0% at 4.66, volume pace 0.0x
-- FSZ.TO (FIERA CAPITAL CORP): +1.8% at 2.86, volume pace 0.67x
