@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T13:31-07:00",
+ "generated": "2026-11-10T14:01-07:00",
  "last_close_day": "2026-11-09",
  "tracked": 693,
  "tracked_by_market": {
@@ -520,51 +520,84 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-10T20:35:00+00:00",
+ "live_as_of": "2026-11-10T21:00:00+00:00",
  "rising": [
-  {
-   "ticker": "QTWO.V",
-   "name": "Q2 METALS CORP",
-   "as_of": "2026-11-10T20:30:00+00:00",
-   "last": 1.73,
-   "pct_day": 7.45,
-   "pct_30m": 0.58,
-   "volume_pace": 6.0,
-   "rising": true,
-   "rising_since": "2026-11-10T20:00:00+00:00"
-  },
   {
    "ticker": "QNC.V",
    "name": "QUANTUM EMOTION CORP",
-   "as_of": "2026-11-10T20:30:00+00:00",
-   "last": 1.31,
-   "pct_day": 3.15,
-   "pct_30m": 4.8,
-   "volume_pace": 1.64,
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 1.34,
+   "pct_day": 5.51,
+   "pct_30m": 2.29,
+   "volume_pace": 1.96,
    "rising": true,
    "rising_since": "2026-11-10T20:30:00+00:00"
+  },
+  {
+   "ticker": "AIM.TO",
+   "name": "AIMIA INC",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 2.66,
+   "pct_day": 3.5,
+   "pct_30m": 1.14,
+   "volume_pace": 6.6,
+   "rising": true,
+   "rising_since": "2026-11-10T20:55:00+00:00"
+  },
+  {
+   "ticker": "SVE.V",
+   "name": "SILVER ONE RESOURCES INC",
+   "as_of": "2026-11-10T20:55:00+00:00",
+   "last": 0.445,
+   "pct_day": 3.49,
+   "pct_30m": 1.14,
+   "volume_pace": 2.03,
+   "rising": true,
+   "rising_since": "2026-11-10T20:55:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "CTH.V",
    "name": "COTEC HOLDINGS CORP",
-   "as_of": "2026-11-10T19:15:00+00:00",
-   "last": 0.94,
-   "pct_day": 25.33,
-   "pct_30m": -3.09,
-   "volume_pace": 6.26,
+   "as_of": "2026-11-10T20:50:00+00:00",
+   "last": 0.95,
+   "pct_day": 26.67,
+   "pct_30m": 1.06,
+   "volume_pace": 4.76,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LXM.V",
+   "name": "LUX METALS CORP",
+   "as_of": "2026-11-10T20:45:00+00:00",
+   "last": 0.17,
+   "pct_day": 17.24,
+   "pct_30m": 13.33,
+   "volume_pace": 0.44,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "MANU.V",
    "name": "MANHATTAN URANIUM DISCOVERY COR",
-   "as_of": "2026-11-10T20:30:00+00:00",
-   "last": 0.175,
-   "pct_day": 16.67,
-   "pct_30m": -2.78,
-   "volume_pace": 0.43,
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 0.17,
+   "pct_day": 13.33,
+   "pct_30m": -2.86,
+   "volume_pace": 0.52,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FTUR.V",
+   "name": "FUTURE FUELS INC",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 0.19,
+   "pct_day": 11.76,
+   "pct_30m": 2.7,
+   "volume_pace": 0.34,
    "rising": false,
    "rising_since": null
   },
@@ -593,11 +626,11 @@
   {
    "ticker": "HDRO.V",
    "name": "PRIMARY HYDROGEN CORP",
-   "as_of": "2026-11-10T20:25:00+00:00",
+   "as_of": "2026-11-10T20:45:00+00:00",
    "last": 0.94,
    "pct_day": 9.3,
-   "pct_30m": 20.51,
-   "volume_pace": 0.67,
+   "pct_30m": -1.05,
+   "volume_pace": 1.35,
    "rising": false,
    "rising_since": null
   },
@@ -613,12 +646,12 @@
    "rising_since": null
   },
   {
-   "ticker": "FTUR.V",
-   "name": "FUTURE FUELS INC",
-   "as_of": "2026-11-10T20:10:00+00:00",
-   "last": 0.185,
+   "ticker": "PUR.V",
+   "name": "PREMIER AMERICAN URANIUM INC",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 0.37,
    "pct_day": 8.82,
-   "pct_30m": -2.63,
+   "pct_30m": 1.37,
    "volume_pace": 0.36,
    "rising": false,
    "rising_since": null
@@ -635,79 +668,79 @@
    "rising_since": null
   },
   {
-   "ticker": "PX.V",
-   "name": "PELANGIO EXPLORATION INC.",
-   "as_of": "2026-11-10T19:20:00+00:00",
-   "last": 0.14,
-   "pct_day": 7.69,
-   "pct_30m": 7.69,
-   "volume_pace": 1.5,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "QTWO.V",
-   "name": "Q2 METALS CORP",
-   "as_of": "2026-11-10T20:30:00+00:00",
-   "last": 1.73,
-   "pct_day": 7.45,
-   "pct_30m": 0.58,
-   "volume_pace": 6.0,
-   "rising": true,
-   "rising_since": "2026-11-10T20:00:00+00:00"
-  },
-  {
    "ticker": "ELEF.TO",
    "name": "SILVER ELEPHANT MINING CORPORAT",
-   "as_of": "2026-11-10T20:10:00+00:00",
+   "as_of": "2026-11-10T21:00:00+00:00",
    "last": 0.35,
    "pct_day": 9.37,
-   "pct_30m": -2.78,
-   "volume_pace": 2.13,
+   "pct_30m": 0.0,
+   "volume_pace": 1.93,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ECO.TO",
    "name": "ECOSYNTHETIX INC",
-   "as_of": "2026-11-10T20:10:00+00:00",
-   "last": 1.88,
-   "pct_day": 8.05,
-   "pct_30m": 1.08,
-   "volume_pace": 0.3,
+   "as_of": "2026-11-10T20:45:00+00:00",
+   "last": 1.895,
+   "pct_day": 8.91,
+   "pct_30m": 0.8,
+   "volume_pace": 0.28,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "IFA.TO",
    "name": "IFABRIC CORP",
-   "as_of": "2026-11-10T20:30:00+00:00",
-   "last": 4.25,
-   "pct_day": 5.2,
-   "pct_30m": 0.0,
-   "volume_pace": 3.4,
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 4.22,
+   "pct_day": 4.46,
+   "pct_30m": -0.71,
+   "volume_pace": 4.45,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "S.TO",
+   "name": "SHERRITT INTL RV",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 0.1925,
+   "pct_day": 4.05,
+   "pct_30m": 1.32,
+   "volume_pace": 0.1,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CRRX.TO",
    "name": "CARERX CORPORATION",
-   "as_of": "2026-11-10T20:30:00+00:00",
+   "as_of": "2026-11-10T21:00:00+00:00",
    "last": 3.16,
    "pct_day": 3.61,
-   "pct_30m": 0.32,
-   "volume_pace": 0.15,
+   "pct_30m": 0.0,
+   "volume_pace": 0.16,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "HMMC.TO",
-   "name": "HEMLO MINING CORP",
-   "as_of": "2026-11-10T20:35:00+00:00",
-   "last": 5.48,
-   "pct_day": 3.4,
-   "pct_30m": 1.2,
-   "volume_pace": 0.5,
+   "ticker": "AIM.TO",
+   "name": "AIMIA INC",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 2.66,
+   "pct_day": 3.5,
+   "pct_30m": 1.14,
+   "volume_pace": 6.6,
+   "rising": true,
+   "rising_since": "2026-11-10T20:55:00+00:00"
+  },
+  {
+   "ticker": "MER.TO",
+   "name": "MEREN ENERGY INC",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 1.98,
+   "pct_day": 3.13,
+   "pct_30m": 1.02,
+   "volume_pace": 1.03,
    "rising": false,
    "rising_since": null
   },
@@ -723,46 +756,24 @@
    "rising_since": null
   },
   {
-   "ticker": "S.TO",
-   "name": "SHERRITT INTL RV",
-   "as_of": "2026-11-10T20:05:00+00:00",
-   "last": 0.19,
-   "pct_day": 2.7,
-   "pct_30m": 2.7,
-   "volume_pace": 0.12,
+   "ticker": "MNO.TO",
+   "name": "MERIDIAN MINING PLC",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 1.83,
+   "pct_day": 2.81,
+   "pct_30m": 0.55,
+   "volume_pace": 1.13,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ETG.TO",
-   "name": "ENTREE RESOURCES LTD",
-   "as_of": "2026-11-10T17:35:00+00:00",
-   "last": 2.74,
-   "pct_day": 2.62,
-   "pct_30m": 0.0,
-   "volume_pace": 0.28,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BOIL.TO",
-   "name": "BEYOND OIL LTD",
-   "as_of": "2026-11-10T20:15:00+00:00",
-   "last": 2.18,
-   "pct_day": 2.35,
-   "pct_30m": -0.46,
-   "volume_pace": 0.41,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AIM.TO",
-   "name": "AIMIA INC",
-   "as_of": "2026-11-10T20:10:00+00:00",
-   "last": 2.63,
-   "pct_day": 2.33,
-   "pct_30m": 1.94,
-   "volume_pace": 7.17,
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-11-10T21:00:00+00:00",
+   "last": 3.58,
+   "pct_day": 2.58,
+   "pct_30m": 0.28,
+   "volume_pace": 0.82,
    "rising": false,
    "rising_since": null
   }
@@ -1364,9 +1375,9 @@
    "ma200": 957.39,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-10T20:35:00+00:00",
-    "last": 819.11,
-    "pct_day": -2.02
+    "as_of": "2026-11-10T21:00:00+00:00",
+    "last": 819.93,
+    "pct_day": -1.93
    }
   },
   "^GSPTSE": {
@@ -1965,9 +1976,9 @@
    "ma200": 34669.55,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-10T20:35:00+00:00",
-    "last": 36193.23,
-    "pct_day": -0.69
+    "as_of": "2026-11-10T21:00:00+00:00",
+    "last": 36162.34,
+    "pct_day": -0.78
    }
   }
  },
