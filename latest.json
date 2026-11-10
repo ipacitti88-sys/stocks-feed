@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T10:01-07:00",
+ "generated": "2026-11-10T10:31-07:00",
  "last_close_day": "2026-11-09",
  "tracked": 693,
  "tracked_by_market": {
@@ -520,75 +520,64 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-10T17:05:00+00:00",
+ "live_as_of": "2026-11-10T17:35:00+00:00",
  "rising": [
   {
-   "ticker": "SUNV.V",
-   "name": "Sun Valley Minerals Inc.",
-   "as_of": "2026-11-10T17:00:00+00:00",
-   "last": 0.89,
-   "pct_day": 18.67,
-   "pct_30m": 4.71,
-   "volume_pace": 1.74,
+   "ticker": "GHRT.V",
+   "name": "GREENHEART GOLD INC",
+   "as_of": "2026-11-10T17:25:00+00:00",
+   "last": 0.62,
+   "pct_day": 6.9,
+   "pct_30m": 5.08,
+   "volume_pace": 5.77,
    "rising": true,
-   "rising_since": "2026-11-10T16:40:00+00:00"
+   "rising_since": "2026-11-10T17:20:00+00:00"
   },
   {
-   "ticker": "GTC.V",
-   "name": "GETTY COPPER INC.",
-   "as_of": "2026-11-10T15:40:00+00:00",
-   "last": 0.63,
-   "pct_day": 6.78,
-   "pct_30m": 6.78,
-   "volume_pace": 1.98,
+   "ticker": "BUFF.V",
+   "name": "BUFFALO POTASH CORPORATION",
+   "as_of": "2026-11-10T17:25:00+00:00",
+   "last": 0.82,
+   "pct_day": 5.13,
+   "pct_30m": 5.13,
+   "volume_pace": 2.89,
    "rising": true,
-   "rising_since": "2026-11-10T15:20:00+00:00"
+   "rising_since": "2026-11-10T17:20:00+00:00"
   },
   {
-   "ticker": "QTWO.V",
-   "name": "Q2 METALS CORP",
-   "as_of": "2026-11-10T17:00:00+00:00",
-   "last": 1.71,
-   "pct_day": 6.21,
-   "pct_30m": 1.18,
-   "volume_pace": 13.5,
+   "ticker": "GSI.V",
+   "name": "GATEKEEPER SYSTEMS INC",
+   "as_of": "2026-11-10T17:20:00+00:00",
+   "last": 1.65,
+   "pct_day": 3.12,
+   "pct_30m": 1.23,
+   "volume_pace": 2.21,
    "rising": true,
-   "rising_since": "2026-11-10T16:55:00+00:00"
+   "rising_since": "2026-11-10T17:20:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
-   "ticker": "STMP.V",
-   "name": "STAMPER OIL AND GAS CORP",
-   "as_of": "2026-11-10T17:00:00+00:00",
-   "last": 0.115,
-   "pct_day": 27.78,
-   "pct_30m": 4.55,
-   "volume_pace": 3.56,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "CTH.V",
    "name": "COTEC HOLDINGS CORP",
-   "as_of": "2026-11-10T16:35:00+00:00",
-   "last": 0.93,
-   "pct_day": 24.0,
-   "pct_30m": 4.49,
-   "volume_pace": 8.71,
+   "as_of": "2026-11-10T17:30:00+00:00",
+   "last": 0.98,
+   "pct_day": 30.67,
+   "pct_30m": 5.38,
+   "volume_pace": 8.09,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "SUNV.V",
    "name": "Sun Valley Minerals Inc.",
-   "as_of": "2026-11-10T17:00:00+00:00",
-   "last": 0.89,
-   "pct_day": 18.67,
-   "pct_30m": 4.71,
-   "volume_pace": 1.74,
-   "rising": true,
-   "rising_since": "2026-11-10T16:40:00+00:00"
+   "as_of": "2026-11-10T17:25:00+00:00",
+   "last": 0.87,
+   "pct_day": 16.0,
+   "pct_30m": -2.25,
+   "volume_pace": 1.54,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "MANU.V",
@@ -602,6 +591,17 @@
    "rising_since": null
   },
   {
+   "ticker": "FTUR.V",
+   "name": "FUTURE FUELS INC",
+   "as_of": "2026-11-10T17:20:00+00:00",
+   "last": 0.19,
+   "pct_day": 11.76,
+   "pct_30m": 15.15,
+   "volume_pace": 0.19,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "GCUC.V",
    "name": "GREEN CANADA URANIUM CORP",
    "as_of": "2026-11-10T15:35:00+00:00",
@@ -609,6 +609,17 @@
    "pct_day": 11.11,
    "pct_30m": 11.11,
    "volume_pace": 1.63,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "STMP.V",
+   "name": "STAMPER OIL AND GAS CORP",
+   "as_of": "2026-11-10T17:30:00+00:00",
+   "last": 0.1,
+   "pct_day": 11.11,
+   "pct_30m": -13.04,
+   "volume_pace": 3.59,
    "rising": false,
    "rising_since": null
   },
@@ -637,44 +648,44 @@
   {
    "ticker": "NSE.V",
    "name": "NEW STRATUS ENERGY INC",
-   "as_of": "2026-11-10T16:55:00+00:00",
+   "as_of": "2026-11-10T17:30:00+00:00",
    "last": 0.72,
    "pct_day": 9.09,
    "pct_30m": 0.0,
-   "volume_pace": 3.16,
+   "volume_pace": 6.45,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "UGD.V",
-   "name": "UNIGOLD INC.",
-   "as_of": "2026-11-10T15:25:00+00:00",
-   "last": 0.2,
-   "pct_day": 8.11,
-   "pct_30m": 8.11,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MKT.V",
-   "name": "PROSPECT PREDICTION MARKETS INC",
-   "as_of": "2026-11-10T17:00:00+00:00",
-   "last": 0.27,
-   "pct_day": 8.0,
-   "pct_30m": 8.0,
-   "volume_pace": 3.55,
+   "ticker": "DMX.V",
+   "name": "DISTRICT METALS CORP",
+   "as_of": "2026-11-10T17:20:00+00:00",
+   "last": 0.445,
+   "pct_day": 8.54,
+   "pct_30m": 8.54,
+   "volume_pace": 0.49,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "REAL.TO",
    "name": "Real Matters",
-   "as_of": "2026-11-10T16:15:00+00:00",
-   "last": 3.38,
-   "pct_day": 3.68,
-   "pct_30m": 0.9,
-   "volume_pace": 0.46,
+   "as_of": "2026-11-10T17:20:00+00:00",
+   "last": 3.39,
+   "pct_day": 3.99,
+   "pct_30m": 0.3,
+   "volume_pace": 0.28,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BOIL.TO",
+   "name": "BEYOND OIL LTD",
+   "as_of": "2026-11-10T17:20:00+00:00",
+   "last": 2.2,
+   "pct_day": 3.29,
+   "pct_30m": 1.38,
+   "volume_pace": 0.42,
    "rising": false,
    "rising_since": null
   },
@@ -701,24 +712,24 @@
    "rising_since": null
   },
   {
-   "ticker": "ETG.TO",
-   "name": "ENTREE RESOURCES LTD",
-   "as_of": "2026-11-10T16:30:00+00:00",
-   "last": 2.74,
-   "pct_day": 2.62,
-   "pct_30m": 0.0,
-   "volume_pace": 0.4,
+   "ticker": "FSZ.TO",
+   "name": "FIERA CAPITAL CORP",
+   "as_of": "2026-11-10T17:35:00+00:00",
+   "last": 2.885,
+   "pct_day": 2.67,
+   "pct_30m": 0.7,
+   "volume_pace": 0.97,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ELR.TO",
-   "name": "EASTERN PLATINUM LIMITED",
-   "as_of": "2026-11-10T15:45:00+00:00",
-   "last": 0.22,
-   "pct_day": 2.33,
-   "pct_30m": -4.35,
-   "volume_pace": 0.35,
+   "ticker": "ETG.TO",
+   "name": "ENTREE RESOURCES LTD",
+   "as_of": "2026-11-10T17:25:00+00:00",
+   "last": 2.74,
+   "pct_day": 2.62,
+   "pct_30m": 0.0,
+   "volume_pace": 0.29,
    "rising": false,
    "rising_since": null
   },
@@ -736,7 +747,7 @@
   {
    "ticker": "CRRX.TO",
    "name": "CARERX CORPORATION",
-   "as_of": "2026-11-10T17:00:00+00:00",
+   "as_of": "2026-11-10T17:30:00+00:00",
    "last": 3.12,
    "pct_day": 2.3,
    "pct_30m": 0.0,
@@ -756,24 +767,13 @@
    "rising_since": null
   },
   {
-   "ticker": "FSZ.TO",
-   "name": "FIERA CAPITAL CORP",
-   "as_of": "2026-11-10T16:55:00+00:00",
-   "last": 2.865,
-   "pct_day": 1.96,
-   "pct_30m": -0.52,
-   "volume_pace": 1.02,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BOIL.TO",
-   "name": "BEYOND OIL LTD",
-   "as_of": "2026-11-10T15:55:00+00:00",
-   "last": 2.17,
-   "pct_day": 1.88,
-   "pct_30m": 0.0,
-   "volume_pace": 0.84,
+   "ticker": "THNC.TO",
+   "name": "THINKIFIC LABS INC",
+   "as_of": "2026-11-10T17:30:00+00:00",
+   "last": 2.38,
+   "pct_day": 2.15,
+   "pct_30m": 2.15,
+   "volume_pace": 0.52,
    "rising": false,
    "rising_since": null
   }
@@ -1375,9 +1375,9 @@
    "ma200": 957.39,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-10T17:05:00+00:00",
-    "last": 811.5,
-    "pct_day": -2.93
+    "as_of": "2026-11-10T17:35:00+00:00",
+    "last": 812.19,
+    "pct_day": -2.85
    }
   },
   "^GSPTSE": {
@@ -1976,9 +1976,9 @@
    "ma200": 34669.55,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-10T17:05:00+00:00",
-    "last": 36097.01,
-    "pct_day": -0.96
+    "as_of": "2026-11-10T17:35:00+00:00",
+    "last": 36167.58,
+    "pct_day": -0.76
    }
   }
  },
