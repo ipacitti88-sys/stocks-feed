@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-10T11:31-07:00
+# Stock feed — 2026-11-10T12:01-07:00
 
-Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.8% at 18:35
-Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.8% at 18:35
+Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.5% at 19:05
+Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.7% at 19:05
 
 # TSX Venture
 
@@ -37,7 +37,6 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SHL.V (HOMELAND NICKEL INC): +6.7% today at 0.4, last 30m +3.9%, volume pace 1.94x, rising since 2026-11-10T17:55:00+00:00
 - GHRT.V (GREENHEART GOLD INC): +5.2% today at 0.61, last 30m +3.4%, volume pace 5.41x, rising since 2026-11-10T17:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -59,12 +58,12 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 - MANU.V (MANHATTAN URANIUM DISCOVERY COR): +15.0% at 0.1725, volume pace 1.41x
 - FTUR.V (FUTURE FUELS INC): +11.8% at 0.19, volume pace 0.24x
 - GCUC.V (GREEN CANADA URANIUM CORP): +11.1% at 0.1, volume pace 1.63x
-- STMP.V (STAMPER OIL AND GAS CORP): +11.1% at 0.1, volume pace 3.72x
+- STMP.V (STAMPER OIL AND GAS CORP): +11.1% at 0.1, volume pace 3.42x
 - PURO.V (PLATAURO METALS CORP): +10.0% at 0.11, volume pace 0.0x
-- NSE.V (NEW STRATUS ENERGY INC): +9.1% at 0.72, volume pace 5.33x
+- NSE.V (NEW STRATUS ENERGY INC): +9.1% at 0.72, volume pace 5.06x
+- JUNO.V (Juno Industries Ltd.): +9.1% at 0.96, volume pace 1.21x
+- PUR.V (PREMIER AMERICAN URANIUM INC): +8.8% at 0.37, volume pace 0.38x
 - UGD.V (UNIGOLD INC.): +8.1% at 0.2, volume pace 0.0x
-- MKT.V (PROSPECT PREDICTION MARKETS INC): +8.0% at 0.27, volume pace 2.53x
-- CRG.V (CROSSROADS GOLD CORP): +7.3% at 0.22, volume pace 0.0x
 
 # TSX
 
@@ -91,7 +90,7 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +12.5% today at 0.36, last 30m +18.0%, volume pace 2.4x, rising since 2026-11-10T18:45:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -108,13 +107,13 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ECO.TO (ECOSYNTHETIX INC): +6.6% at 1.855, volume pace 0.3x
-- CRRX.TO (CARERX CORPORATION): +3.3% at 3.15, volume pace 0.19x
-- BOIL.TO (BEYOND OIL LTD): +2.8% at 2.19, volume pace 0.58x
-- REAL.TO (Real Matters): +2.8% at 3.35, volume pace 0.25x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +12.5% at 0.36, volume pace 2.4x
+- ECO.TO (ECOSYNTHETIX INC): +6.9% at 1.86, volume pace 0.29x
+- CRRX.TO (CARERX CORPORATION): +3.6% at 3.16, volume pace 0.16x
+- REAL.TO (Real Matters): +3.4% at 3.37, volume pace 0.73x
+- BOIL.TO (BEYOND OIL LTD): +2.8% at 2.19, volume pace 0.59x
 - S.TO (SHERRITT INTL RV): +2.7% at 0.19, volume pace 0.3x
 - ETG.TO (ENTREE RESOURCES LTD): +2.6% at 2.74, volume pace 0.28x
 - MTEK.TO (METATEK GROUP LTD): +2.3% at 2.65, volume pace 0.0x
 - MAXQ.TO (Maritime Launch Services Inc.): +2.2% at 0.46, volume pace 0.15x
-- RIO.TO (RIO2 LIMITED): +2.2% at 2.83, volume pace 2.07x
-- FSZ.TO (FIERA CAPITAL CORP): +2.1% at 2.87, volume pace 0.78x
+- FSZ.TO (FIERA CAPITAL CORP): +2.1% at 2.87, volume pace 0.7x

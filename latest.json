@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T11:31-07:00",
+ "generated": "2026-11-10T12:01-07:00",
  "last_close_day": "2026-11-09",
  "tracked": 693,
  "tracked_by_market": {
@@ -520,18 +520,18 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-10T18:35:00+00:00",
+ "live_as_of": "2026-11-10T19:05:00+00:00",
  "rising": [
   {
-   "ticker": "SHL.V",
-   "name": "HOMELAND NICKEL INC",
-   "as_of": "2026-11-10T17:55:00+00:00",
-   "last": 0.4,
-   "pct_day": 6.67,
-   "pct_30m": 3.9,
-   "volume_pace": 1.94,
+   "ticker": "ELEF.TO",
+   "name": "SILVER ELEPHANT MINING CORPORAT",
+   "as_of": "2026-11-10T18:55:00+00:00",
+   "last": 0.36,
+   "pct_day": 12.5,
+   "pct_30m": 18.03,
+   "volume_pace": 2.4,
    "rising": true,
-   "rising_since": "2026-11-10T17:55:00+00:00"
+   "rising_since": "2026-11-10T18:45:00+00:00"
   },
   {
    "ticker": "GHRT.V",
@@ -593,11 +593,11 @@
   {
    "ticker": "STMP.V",
    "name": "STAMPER OIL AND GAS CORP",
-   "as_of": "2026-11-10T18:15:00+00:00",
+   "as_of": "2026-11-10T18:40:00+00:00",
    "last": 0.1,
    "pct_day": 11.11,
    "pct_30m": 0.0,
-   "volume_pace": 3.72,
+   "volume_pace": 3.42,
    "rising": false,
    "rising_since": null
   },
@@ -615,11 +615,33 @@
   {
    "ticker": "NSE.V",
    "name": "NEW STRATUS ENERGY INC",
-   "as_of": "2026-11-10T18:15:00+00:00",
+   "as_of": "2026-11-10T18:45:00+00:00",
    "last": 0.72,
    "pct_day": 9.09,
    "pct_30m": 0.0,
-   "volume_pace": 5.33,
+   "volume_pace": 5.06,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "JUNO.V",
+   "name": "Juno Industries Ltd.",
+   "as_of": "2026-11-10T19:00:00+00:00",
+   "last": 0.96,
+   "pct_day": 9.09,
+   "pct_30m": 5.49,
+   "volume_pace": 1.21,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PUR.V",
+   "name": "PREMIER AMERICAN URANIUM INC",
+   "as_of": "2026-11-10T18:55:00+00:00",
+   "last": 0.37,
+   "pct_day": 8.82,
+   "pct_30m": 5.71,
+   "volume_pace": 0.38,
    "rising": false,
    "rising_since": null
   },
@@ -635,46 +657,46 @@
    "rising_since": null
   },
   {
-   "ticker": "MKT.V",
-   "name": "PROSPECT PREDICTION MARKETS INC",
-   "as_of": "2026-11-10T18:25:00+00:00",
-   "last": 0.27,
-   "pct_day": 8.0,
-   "pct_30m": 0.0,
-   "volume_pace": 2.53,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CRG.V",
-   "name": "CROSSROADS GOLD CORP",
-   "as_of": "2026-11-10T14:40:00+00:00",
-   "last": 0.22,
-   "pct_day": 7.32,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
+   "ticker": "ELEF.TO",
+   "name": "SILVER ELEPHANT MINING CORPORAT",
+   "as_of": "2026-11-10T18:55:00+00:00",
+   "last": 0.36,
+   "pct_day": 12.5,
+   "pct_30m": 18.03,
+   "volume_pace": 2.4,
+   "rising": true,
+   "rising_since": "2026-11-10T18:45:00+00:00"
   },
   {
    "ticker": "ECO.TO",
    "name": "ECOSYNTHETIX INC",
-   "as_of": "2026-11-10T18:30:00+00:00",
-   "last": 1.855,
-   "pct_day": 6.61,
-   "pct_30m": 0.27,
-   "volume_pace": 0.3,
+   "as_of": "2026-11-10T18:55:00+00:00",
+   "last": 1.86,
+   "pct_day": 6.9,
+   "pct_30m": 0.54,
+   "volume_pace": 0.29,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CRRX.TO",
    "name": "CARERX CORPORATION",
-   "as_of": "2026-11-10T18:10:00+00:00",
-   "last": 3.15,
-   "pct_day": 3.28,
-   "pct_30m": 0.64,
-   "volume_pace": 0.19,
+   "as_of": "2026-11-10T19:00:00+00:00",
+   "last": 3.16,
+   "pct_day": 3.61,
+   "pct_30m": 0.32,
+   "volume_pace": 0.16,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "REAL.TO",
+   "name": "Real Matters",
+   "as_of": "2026-11-10T18:40:00+00:00",
+   "last": 3.37,
+   "pct_day": 3.37,
+   "pct_30m": 1.05,
+   "volume_pace": 0.73,
    "rising": false,
    "rising_since": null
   },
@@ -685,18 +707,7 @@
    "last": 2.19,
    "pct_day": 2.82,
    "pct_30m": 0.0,
-   "volume_pace": 0.58,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "REAL.TO",
-   "name": "Real Matters",
-   "as_of": "2026-11-10T18:30:00+00:00",
-   "last": 3.35,
-   "pct_day": 2.76,
-   "pct_30m": -0.59,
-   "volume_pace": 0.25,
+   "volume_pace": 0.59,
    "rising": false,
    "rising_since": null
   },
@@ -745,24 +756,13 @@
    "rising_since": null
   },
   {
-   "ticker": "RIO.TO",
-   "name": "RIO2 LIMITED",
-   "as_of": "2026-11-10T18:35:00+00:00",
-   "last": 2.83,
-   "pct_day": 2.17,
-   "pct_30m": -0.18,
-   "volume_pace": 2.07,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "FSZ.TO",
    "name": "FIERA CAPITAL CORP",
-   "as_of": "2026-11-10T18:25:00+00:00",
+   "as_of": "2026-11-10T19:00:00+00:00",
    "last": 2.87,
    "pct_day": 2.14,
-   "pct_30m": -0.35,
-   "volume_pace": 0.78,
+   "pct_30m": 0.0,
+   "volume_pace": 0.7,
    "rising": false,
    "rising_since": null
   }
@@ -1364,9 +1364,9 @@
    "ma200": 957.39,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-10T18:35:00+00:00",
-    "last": 812.29,
-    "pct_day": -2.84
+    "as_of": "2026-11-10T19:05:00+00:00",
+    "last": 814.8,
+    "pct_day": -2.54
    }
   },
   "^GSPTSE": {
@@ -1965,9 +1965,9 @@
    "ma200": 34669.55,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-10T18:35:00+00:00",
-    "last": 36165.17,
-    "pct_day": -0.77
+    "as_of": "2026-11-10T19:05:00+00:00",
+    "last": 36197.94,
+    "pct_day": -0.68
    }
   }
  },
