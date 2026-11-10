@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-10T09:01-07:00
+# Stock feed — 2026-11-10T09:31-07:00
 
-Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.1% at 16:05
-Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.7% at 16:05
+Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.6% at 16:35
+Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.8% at 16:35
 
 # TSX Venture
 
@@ -37,7 +37,6 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- YTY.V (WI2WI CORPORATION): +7.1% today at 0.15, last 30m +3.5%, volume pace 6.43x, rising since 2026-11-10T15:35:00+00:00
 - GTC.V (GETTY COPPER INC.): +6.8% today at 0.63, last 30m +6.8%, volume pace 1.98x, rising since 2026-11-10T15:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -55,16 +54,16 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- STMP.V (STAMPER OIL AND GAS CORP): +22.2% at 0.11, volume pace 2.86x
-- CTH.V (COTEC HOLDINGS CORP): +18.7% at 0.89, volume pace 11.28x
-- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +15.0% at 0.1725, volume pace 0.0x
-- SUNV.V (Sun Valley Minerals Inc.): +14.7% at 0.86, volume pace 2.33x
+- CTH.V (COTEC HOLDINGS CORP): +22.7% at 0.92, volume pace 9.62x
+- STMP.V (STAMPER OIL AND GAS CORP): +22.2% at 0.11, volume pace 2.6x
+- ADE.V (ADEX MINING INC.): +15.4% at 0.15, volume pace 7.42x
+- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +15.0% at 0.1725, volume pace 1.41x
+- SUNV.V (Sun Valley Minerals Inc.): +13.3% at 0.85, volume pace 1.93x
 - GCUC.V (GREEN CANADA URANIUM CORP): +11.1% at 0.1, volume pace 1.63x
 - PURO.V (PLATAURO METALS CORP): +10.0% at 0.11, volume pace 0.0x
-- ZEN.V (ZENTEK LTD): +9.3% at 0.59, volume pace 2.72x
 - PHNM.V (PHENOM RESOURCES CORP): +9.2% at 0.415, volume pace 0.0x
-- CTM.V (CANTERRA MINERALS CORPORATION): +9.1% at 0.12, volume pace 1.86x
-- NSE.V (NEW STRATUS ENERGY INC): +9.1% at 0.72, volume pace 3.3x
+- CTM.V (CANTERRA MINERALS CORPORATION): +9.1% at 0.12, volume pace 1.13x
+- UGD.V (UNIGOLD INC.): +8.1% at 0.2, volume pace 0.0x
 
 # TSX
 
@@ -108,13 +107,13 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- S.TO (SHERRITT INTL RV): +5.4% at 0.195, volume pace 0.15x
-- ORIO.TO (ORION DIGITAL CORP): +5.2% at 1.61, volume pace 9.57x
-- COPR.TO (COPPERNICO METALS INC): +4.0% at 0.39, volume pace 1.0x
-- REAL.TO (Real Matters): +3.7% at 3.38, volume pace 0.55x
-- FSZ.TO (FIERA CAPITAL CORP): +3.4% at 2.905, volume pace 1.21x
+- ORIO.TO (ORION DIGITAL CORP): +4.6% at 1.6, volume pace 7.14x
+- COPR.TO (COPPERNICO METALS INC): +4.0% at 0.39, volume pace 1.29x
+- REAL.TO (Real Matters): +3.7% at 3.38, volume pace 0.45x
 - AEG.TO (AEGIS BRANDS INC): +3.1% at 0.33, volume pace 0.0x
-- ETG.TO (ENTREE RESOURCES LTD): +2.6% at 2.74, volume pace 0.5x
-- ELR.TO (EASTERN PLATINUM LIMITED): +2.3% at 0.22, volume pace 0.33x
+- RIO.TO (RIO2 LIMITED): +2.7% at 2.845, volume pace 3.24x
+- S.TO (SHERRITT INTL RV): +2.7% at 0.19, volume pace 0.25x
+- ETG.TO (ENTREE RESOURCES LTD): +2.6% at 2.74, volume pace 0.37x
+- FSZ.TO (FIERA CAPITAL CORP): +2.5% at 2.88, volume pace 1.19x
+- ELR.TO (EASTERN PLATINUM LIMITED): +2.3% at 0.22, volume pace 0.35x
 - MTEK.TO (METATEK GROUP LTD): +2.3% at 2.65, volume pace 0.0x
-- CRRX.TO (CARERX CORPORATION): +2.3% at 3.12, volume pace 0.26x
