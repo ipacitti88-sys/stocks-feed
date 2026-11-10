@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:31-07:00",
+ "generated": "2026-11-10T13:01-07:00",
  "last_close_day": "2026-11-09",
  "tracked": 693,
  "tracked_by_market": {
@@ -520,18 +520,51 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-10T19:35:00+00:00",
+ "live_as_of": "2026-11-10T20:05:00+00:00",
  "rising": [
+  {
+   "ticker": "GHRT.V",
+   "name": "GREENHEART GOLD INC",
+   "as_of": "2026-11-10T19:55:00+00:00",
+   "last": 0.62,
+   "pct_day": 6.9,
+   "pct_30m": 1.64,
+   "volume_pace": 3.64,
+   "rising": true,
+   "rising_since": "2026-11-10T19:45:00+00:00"
+  },
   {
    "ticker": "QTWO.V",
    "name": "Q2 METALS CORP",
-   "as_of": "2026-11-10T19:30:00+00:00",
-   "last": 1.71,
-   "pct_day": 6.21,
-   "pct_30m": 1.18,
-   "volume_pace": 7.05,
+   "as_of": "2026-11-10T20:00:00+00:00",
+   "last": 1.72,
+   "pct_day": 6.83,
+   "pct_30m": 0.58,
+   "volume_pace": 6.48,
    "rising": true,
-   "rising_since": "2026-11-10T19:20:00+00:00"
+   "rising_since": "2026-11-10T20:00:00+00:00"
+  },
+  {
+   "ticker": "IFA.TO",
+   "name": "IFABRIC CORP",
+   "as_of": "2026-11-10T20:00:00+00:00",
+   "last": 4.25,
+   "pct_day": 5.2,
+   "pct_30m": 4.42,
+   "volume_pace": 3.44,
+   "rising": true,
+   "rising_since": "2026-11-10T19:45:00+00:00"
+  },
+  {
+   "ticker": "SVE.V",
+   "name": "SILVER ONE RESOURCES INC",
+   "as_of": "2026-11-10T20:00:00+00:00",
+   "last": 0.45,
+   "pct_day": 4.65,
+   "pct_30m": 4.65,
+   "volume_pace": 2.02,
+   "rising": true,
+   "rising_since": "2026-11-10T20:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -542,7 +575,7 @@
    "last": 0.94,
    "pct_day": 25.33,
    "pct_30m": -3.09,
-   "volume_pace": 6.22,
+   "volume_pace": 6.26,
    "rising": false,
    "rising_since": null
   },
@@ -591,46 +624,24 @@
    "rising_since": null
   },
   {
-   "ticker": "PURO.V",
-   "name": "PLATAURO METALS CORP",
-   "as_of": "2026-11-10T14:35:00+00:00",
-   "last": 0.11,
-   "pct_day": 10.0,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "NSE.V",
    "name": "NEW STRATUS ENERGY INC",
    "as_of": "2026-11-10T19:30:00+00:00",
    "last": 0.72,
    "pct_day": 9.09,
    "pct_30m": 0.0,
-   "volume_pace": 4.32,
+   "volume_pace": 5.22,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "W.V",
-   "name": "SPARTAN METALS CORP",
-   "as_of": "2026-11-10T19:20:00+00:00",
+   "ticker": "PLAN.V",
+   "name": "PROGRESSIVE PLANET SOLUTIONS IN",
+   "as_of": "2026-11-10T19:40:00+00:00",
    "last": 0.33,
    "pct_day": 8.2,
-   "pct_30m": 1.54,
-   "volume_pace": 1.41,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "JUNO.V",
-   "name": "Juno Industries Ltd.",
-   "as_of": "2026-11-10T19:25:00+00:00",
-   "last": 0.95,
-   "pct_day": 7.95,
-   "pct_30m": -2.06,
-   "volume_pace": 1.14,
+   "pct_30m": 4.76,
+   "volume_pace": 0.08,
    "rising": false,
    "rising_since": null
   },
@@ -641,39 +652,72 @@
    "last": 0.14,
    "pct_day": 7.69,
    "pct_30m": 7.69,
-   "volume_pace": 1.01,
+   "volume_pace": 1.5,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ELEF.TO",
-   "name": "SILVER ELEPHANT MINING CORPORAT",
-   "as_of": "2026-11-10T19:30:00+00:00",
-   "last": 0.36,
-   "pct_day": 12.5,
+   "ticker": "PUR.V",
+   "name": "PREMIER AMERICAN URANIUM INC",
+   "as_of": "2026-11-10T19:15:00+00:00",
+   "last": 0.365,
+   "pct_day": 7.35,
+   "pct_30m": 4.29,
+   "volume_pace": 0.4,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CRG.V",
+   "name": "CROSSROADS GOLD CORP",
+   "as_of": "2026-11-10T14:40:00+00:00",
+   "last": 0.22,
+   "pct_day": 7.32,
    "pct_30m": 0.0,
-   "volume_pace": 2.32,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ECO.TO",
    "name": "ECOSYNTHETIX INC",
-   "as_of": "2026-11-10T18:55:00+00:00",
-   "last": 1.86,
-   "pct_day": 6.9,
+   "as_of": "2026-11-10T20:00:00+00:00",
+   "last": 1.87,
+   "pct_day": 7.47,
    "pct_30m": 0.54,
-   "volume_pace": 0.3,
+   "volume_pace": 0.26,
    "rising": false,
    "rising_since": null
   },
   {
+   "ticker": "ELEF.TO",
+   "name": "SILVER ELEPHANT MINING CORPORAT",
+   "as_of": "2026-11-10T20:00:00+00:00",
+   "last": 0.34,
+   "pct_day": 6.25,
+   "pct_30m": -5.56,
+   "volume_pace": 2.17,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "IFA.TO",
+   "name": "IFABRIC CORP",
+   "as_of": "2026-11-10T20:00:00+00:00",
+   "last": 4.25,
+   "pct_day": 5.2,
+   "pct_30m": 4.42,
+   "volume_pace": 3.44,
+   "rising": true,
+   "rising_since": "2026-11-10T19:45:00+00:00"
+  },
+  {
    "ticker": "CRRX.TO",
    "name": "CARERX CORPORATION",
-   "as_of": "2026-11-10T19:30:00+00:00",
-   "last": 3.16,
-   "pct_day": 3.61,
-   "pct_30m": 0.0,
+   "as_of": "2026-11-10T20:00:00+00:00",
+   "last": 3.15,
+   "pct_day": 3.28,
+   "pct_30m": -0.32,
    "volume_pace": 0.14,
    "rising": false,
    "rising_since": null
@@ -696,7 +740,7 @@
    "last": 2.19,
    "pct_day": 2.82,
    "pct_30m": 0.0,
-   "volume_pace": 0.48,
+   "volume_pace": 0.49,
    "rising": false,
    "rising_since": null
   },
@@ -723,35 +767,24 @@
    "rising_since": null
   },
   {
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-11-10T19:45:00+00:00",
+   "last": 3.57,
+   "pct_day": 2.29,
+   "pct_30m": 0.56,
+   "volume_pace": 0.86,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "MAXQ.TO",
    "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-10T16:10:00+00:00",
+   "as_of": "2026-11-10T19:45:00+00:00",
    "last": 0.46,
    "pct_day": 2.22,
    "pct_30m": 0.0,
-   "volume_pace": 0.15,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "XLY.TO",
-   "name": "AUXLY CANNABIS GROUP INC",
-   "as_of": "2026-11-10T19:30:00+00:00",
-   "last": 3.56,
-   "pct_day": 2.01,
-   "pct_30m": 0.28,
-   "volume_pace": 0.6,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PRQ.TO",
-   "name": "PETRUS RESOURCES LTD",
-   "as_of": "2026-11-10T19:00:00+00:00",
-   "last": 1.68,
-   "pct_day": 1.82,
-   "pct_30m": 0.0,
-   "volume_pace": 0.48,
+   "volume_pace": 0.09,
    "rising": false,
    "rising_since": null
   }
@@ -1353,9 +1386,9 @@
    "ma200": 957.39,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-10T19:35:00+00:00",
-    "last": 815.94,
-    "pct_day": -2.4
+    "as_of": "2026-11-10T20:05:00+00:00",
+    "last": 816.08,
+    "pct_day": -2.39
    }
   },
   "^GSPTSE": {
@@ -1954,9 +1987,9 @@
    "ma200": 34669.55,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-10T19:35:00+00:00",
-    "last": 36228.44,
-    "pct_day": -0.6
+    "as_of": "2026-11-10T20:05:00+00:00",
+    "last": 36192.26,
+    "pct_day": -0.7
    }
   }
  },
