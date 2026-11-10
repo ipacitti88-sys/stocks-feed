@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-10T13:01-07:00
+# Stock feed — 2026-11-10T13:31-07:00
 
-Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T20:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T20:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.4% at 20:05
-Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.7% at 20:05
+Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.0% at 20:35
+Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.7% at 20:35
 
 # TSX Venture
 
@@ -37,9 +37,8 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- GHRT.V (GREENHEART GOLD INC): +6.9% today at 0.62, last 30m +1.6%, volume pace 3.64x, rising since 2026-11-10T19:45:00+00:00
-- QTWO.V (Q2 METALS CORP): +6.8% today at 1.72, last 30m +0.6%, volume pace 6.48x, rising since 2026-11-10T20:00:00+00:00
-- SVE.V (SILVER ONE RESOURCES INC): +4.7% today at 0.45, last 30m +4.7%, volume pace 2.02x, rising since 2026-11-10T20:00:00+00:00
+- QTWO.V (Q2 METALS CORP): +7.5% today at 1.73, last 30m +0.6%, volume pace 6.0x, rising since 2026-11-10T20:00:00+00:00
+- QNC.V (QUANTUM EMOTION CORP): +3.1% today at 1.31, last 30m +4.8%, volume pace 1.64x, rising since 2026-11-10T20:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -57,15 +56,15 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - CTH.V (COTEC HOLDINGS CORP): +25.3% at 0.94, volume pace 6.26x
-- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +20.0% at 0.18, volume pace 0.56x
-- FTUR.V (FUTURE FUELS INC): +11.8% at 0.19, volume pace 0.24x
+- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +16.7% at 0.175, volume pace 0.43x
 - GCUC.V (GREEN CANADA URANIUM CORP): +11.1% at 0.1, volume pace 1.63x
 - STMP.V (STAMPER OIL AND GAS CORP): +11.1% at 0.1, volume pace 3.42x
+- HDRO.V (PRIMARY HYDROGEN CORP): +9.3% at 0.94, volume pace 0.67x
 - NSE.V (NEW STRATUS ENERGY INC): +9.1% at 0.72, volume pace 5.22x
+- FTUR.V (FUTURE FUELS INC): +8.8% at 0.185, volume pace 0.36x
 - PLAN.V (PROGRESSIVE PLANET SOLUTIONS IN): +8.2% at 0.33, volume pace 0.08x
 - PX.V (PELANGIO EXPLORATION INC.): +7.7% at 0.14, volume pace 1.5x
-- PUR.V (PREMIER AMERICAN URANIUM INC): +7.3% at 0.365, volume pace 0.4x
-- CRG.V (CROSSROADS GOLD CORP): +7.3% at 0.22, volume pace 0.0x
+- QTWO.V (Q2 METALS CORP): +7.5% at 1.73, volume pace 6.0x
 
 # TSX
 
@@ -92,7 +91,7 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- IFA.TO (IFABRIC CORP): +5.2% today at 4.25, last 30m +4.4%, volume pace 3.44x, rising since 2026-11-10T19:45:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -109,13 +108,13 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ECO.TO (ECOSYNTHETIX INC): +7.5% at 1.87, volume pace 0.26x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +6.2% at 0.34, volume pace 2.17x
-- IFA.TO (IFABRIC CORP): +5.2% at 4.25, volume pace 3.44x
-- CRRX.TO (CARERX CORPORATION): +3.3% at 3.15, volume pace 0.14x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +9.4% at 0.35, volume pace 2.13x
+- ECO.TO (ECOSYNTHETIX INC): +8.1% at 1.88, volume pace 0.3x
+- IFA.TO (IFABRIC CORP): +5.2% at 4.25, volume pace 3.4x
+- CRRX.TO (CARERX CORPORATION): +3.6% at 3.16, volume pace 0.15x
+- HMMC.TO (HEMLO MINING CORP): +3.4% at 5.48, volume pace 0.5x
 - REAL.TO (Real Matters): +3.1% at 3.36, volume pace 0.68x
-- BOIL.TO (BEYOND OIL LTD): +2.8% at 2.19, volume pace 0.49x
+- S.TO (SHERRITT INTL RV): +2.7% at 0.19, volume pace 0.12x
 - ETG.TO (ENTREE RESOURCES LTD): +2.6% at 2.74, volume pace 0.28x
-- MTEK.TO (METATEK GROUP LTD): +2.3% at 2.65, volume pace 0.0x
-- XLY.TO (AUXLY CANNABIS GROUP INC): +2.3% at 3.57, volume pace 0.86x
-- MAXQ.TO (Maritime Launch Services Inc.): +2.2% at 0.46, volume pace 0.09x
+- BOIL.TO (BEYOND OIL LTD): +2.4% at 2.18, volume pace 0.41x
+- AIM.TO (AIMIA INC): +2.3% at 2.63, volume pace 7.17x
