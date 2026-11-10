@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-10T10:31-07:00
+# Stock feed — 2026-11-10T11:01-07:00
 
-Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.9% at 17:35
-Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.8% at 17:35
+Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -2.8% at 18:05
+Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.8% at 18:05
 
 # TSX Venture
 
@@ -37,9 +37,7 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- GHRT.V (GREENHEART GOLD INC): +6.9% today at 0.62, last 30m +5.1%, volume pace 5.77x, rising since 2026-11-10T17:20:00+00:00
-- BUFF.V (BUFFALO POTASH CORPORATION): +5.1% today at 0.82, last 30m +5.1%, volume pace 2.89x, rising since 2026-11-10T17:20:00+00:00
-- GSI.V (GATEKEEPER SYSTEMS INC): +3.1% today at 1.65, last 30m +1.2%, volume pace 2.21x, rising since 2026-11-10T17:20:00+00:00
+- GHRT.V (GREENHEART GOLD INC): +5.2% today at 0.61, last 30m +3.4%, volume pace 5.41x, rising since 2026-11-10T17:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -56,16 +54,16 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- CTH.V (COTEC HOLDINGS CORP): +30.7% at 0.98, volume pace 8.09x
-- SUNV.V (Sun Valley Minerals Inc.): +16.0% at 0.87, volume pace 1.54x
+- CTH.V (COTEC HOLDINGS CORP): +29.3% at 0.97, volume pace 8.95x
 - MANU.V (MANHATTAN URANIUM DISCOVERY COR): +15.0% at 0.1725, volume pace 1.41x
-- FTUR.V (FUTURE FUELS INC): +11.8% at 0.19, volume pace 0.19x
+- FTUR.V (FUTURE FUELS INC): +11.8% at 0.19, volume pace 0.24x
 - GCUC.V (GREEN CANADA URANIUM CORP): +11.1% at 0.1, volume pace 1.63x
-- STMP.V (STAMPER OIL AND GAS CORP): +11.1% at 0.1, volume pace 3.59x
+- STMP.V (STAMPER OIL AND GAS CORP): +11.1% at 0.1, volume pace 3.73x
+- SUNV.V (Sun Valley Minerals Inc.): +10.7% at 0.83, volume pace 1.4x
 - PURO.V (PLATAURO METALS CORP): +10.0% at 0.11, volume pace 0.0x
-- PHNM.V (PHENOM RESOURCES CORP): +9.2% at 0.415, volume pace 0.0x
-- NSE.V (NEW STRATUS ENERGY INC): +9.1% at 0.72, volume pace 6.45x
-- DMX.V (DISTRICT METALS CORP): +8.5% at 0.445, volume pace 0.49x
+- NSE.V (NEW STRATUS ENERGY INC): +9.1% at 0.72, volume pace 5.82x
+- UGD.V (UNIGOLD INC.): +8.1% at 0.2, volume pace 0.0x
+- MKT.V (PROSPECT PREDICTION MARKETS INC): +8.0% at 0.27, volume pace 3.6x
 
 # TSX
 
@@ -109,13 +107,13 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- REAL.TO (Real Matters): +4.0% at 3.39, volume pace 0.28x
-- BOIL.TO (BEYOND OIL LTD): +3.3% at 2.2, volume pace 0.42x
-- AEG.TO (AEGIS BRANDS INC): +3.1% at 0.33, volume pace 0.0x
+- ECO.TO (ECOSYNTHETIX INC): +6.3% at 1.85, volume pace 0.25x
+- REAL.TO (Real Matters): +3.4% at 3.37, volume pace 0.3x
+- CRRX.TO (CARERX CORPORATION): +3.0% at 3.14, volume pace 0.19x
+- BOIL.TO (BEYOND OIL LTD): +2.8% at 2.19, volume pace 0.66x
 - S.TO (SHERRITT INTL RV): +2.7% at 0.19, volume pace 0.3x
-- FSZ.TO (FIERA CAPITAL CORP): +2.7% at 2.885, volume pace 0.97x
-- ETG.TO (ENTREE RESOURCES LTD): +2.6% at 2.74, volume pace 0.29x
+- FSZ.TO (FIERA CAPITAL CORP): +2.7% at 2.885, volume pace 0.86x
+- ETG.TO (ENTREE RESOURCES LTD): +2.6% at 2.74, volume pace 0.28x
+- XLY.TO (AUXLY CANNABIS GROUP INC): +2.4% at 3.575, volume pace 0.79x
 - MTEK.TO (METATEK GROUP LTD): +2.3% at 2.65, volume pace 0.0x
-- CRRX.TO (CARERX CORPORATION): +2.3% at 3.12, volume pace 0.2x
 - MAXQ.TO (Maritime Launch Services Inc.): +2.2% at 0.46, volume pace 0.15x
-- THNC.TO (THINKIFIC LABS INC): +2.1% at 2.38, volume pace 0.52x
