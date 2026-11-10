@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-09T15:30-07:00
+# Stock feed — 2026-11-10T08:01-07:00
 
-Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-09T21:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 693 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-09. Intraday data as of: 2026-11-10T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend)
-Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend)
+Market: S&P/TSX Venture Composite 836.03 on 2026-11-09 (day +1.7%, month -3.7%, year -4.5%, downtrend); live -1.7% at 15:05
+Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year +22.0%, uptrend); live -0.4% at 15:05
 
 # TSX Venture
 
@@ -37,15 +37,7 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ROCK.V (TRIDENT RESOURCES CORP): +14.0% today at 3.9, last 30m +4.6%, volume pace 1.87x, rising since 2026-11-09T20:55:00+00:00
-- AGA.V (SILVER47 EXPLORATION CORP): +13.3% today at 0.51, last 30m +2.0%, volume pace 8.32x, rising since 2026-11-09T21:00:00+00:00
-- BRAU.V (BIG RIDGE GOLD CORP): +13.2% today at 0.6, last 30m +1.7%, volume pace 1.81x, rising since 2026-11-09T20:55:00+00:00
-- AHR.V (Amarc Resources Ltd.): +8.0% today at 0.95, last 30m +1.1%, volume pace 4.31x, rising since 2026-11-09T20:55:00+00:00
-- TUNG.V (AMERICAN TUNGSTEN CORP): +7.2% today at 1.19, last 30m +6.2%, volume pace 1.71x, rising since 2026-11-09T20:55:00+00:00
-- GG.V (GOLCONDA GOLD LTD): +6.7% today at 3.52, last 30m +3.2%, volume pace 1.58x, rising since 2026-11-09T20:50:00+00:00
-- SCD.V (SCANDIUM CANADA LTD): +5.2% today at 0.1525, last 30m +1.7%, volume pace 2.19x, rising since 2026-11-09T20:45:00+00:00
-- SALT.V (ATLAS SALT INC): +4.4% today at 1.43, last 30m +0.7%, volume pace 1.71x, rising since 2026-11-09T21:00:00+00:00
-- APGO.V (APOLLO SILVER CORP): +3.2% today at 1.95, last 30m +1.6%, volume pace 1.88x, rising since 2026-11-09T21:00:00+00:00
+- SUNV.V (Sun Valley Minerals Inc.): +16.0% today at 0.87, last 30m +8.8%, volume pace 4.22x, rising since 2026-11-10T14:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -62,16 +54,16 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- TTG.V (TRANS CANADA GOLD CORP): +66.7% at 0.15, volume pace 0.33x
-- TNX.V (TENX PROTOCOLS INC): +42.9% at 0.1, volume pace 1.9x
-- OZ.V (VALKEA RESOURCES CORP): +37.9% at 0.4, volume pace 4.52x
-- RDU.V (RADIUS GOLD INC.): +23.9% at 0.285, volume pace 1.07x
-- AAG.V (AFTERMATH SILVER LTD): +23.3% at 0.53, volume pace 0.82x
-- KCP.V (KING COPPER DISCOVERY CORP): +20.0% at 0.6, volume pace 1.45x
-- EMR.V (EMERGENT METALS CORP): +20.0% at 0.09, volume pace 1.43x
-- SGO.V (SONORO GOLD CORP): +20.0% at 0.18, volume pace 1.54x
-- NSU.V (NORTH SHORE URANIUM LTD): +20.0% at 0.18, volume pace 1.14x
-- TAG.V (Trusilver Metals Corp.): +19.4% at 0.37, volume pace 0.94x
+- CTH.V (COTEC HOLDINGS CORP): +17.3% at 0.88, volume pace 16.0x
+- STMP.V (STAMPER OIL AND GAS CORP): +16.7% at 0.105, volume pace 3.28x
+- SUNV.V (Sun Valley Minerals Inc.): +16.0% at 0.87, volume pace 4.22x
+- GPH.V (GRAPHITE ONE INC): +10.3% at 0.75, volume pace 0.0x
+- GPUS.V (ALSET AI VENTURES INC): +10.0% at 0.22, volume pace 0.0x
+- PURO.V (PLATAURO METALS CORP): +10.0% at 0.11, volume pace 0.0x
+- QTWO.V (Q2 METALS CORP): +9.9% at 1.77, volume pace 13.69x
+- PHNM.V (PHENOM RESOURCES CORP): +9.2% at 0.415, volume pace 0.0x
+- SKP.V (STRIKEPOINT GOLD INC): +7.6% at 1.56, volume pace 0.0x
+- CRG.V (CROSSROADS GOLD CORP): +7.3% at 0.22, volume pace 0.0x
 
 # TSX
 
@@ -98,9 +90,7 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ANRG.TO (ANAERGIA INC): +8.7% today at 1.87, last 30m +1.1%, volume pace 1.89x, rising since 2026-11-09T20:45:00+00:00
-- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +8.2% today at 3.18, last 30m +0.3%, volume pace 1.73x, rising since 2026-11-09T21:00:00+00:00
-- GENM.TO (GENERATION MINING LIMITED): +4.3% today at 0.48, last 30m +1.1%, volume pace 2.62x, rising since 2026-11-09T21:00:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -117,13 +107,13 @@ Market: S&P/TSX Composite 36,446.26 on 2026-11-09 (day +1.8%, month +3.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- COPR.TO (COPPERNICO METALS INC): +21.0% at 0.375, volume pace 1.16x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +20.8% at 0.32, volume pace 8.16x
-- DND.TO (DYE AND DURHAM LIMITED): +20.4% at 1.95, volume pace 3.52x
-- FT.TO (FORTUNE MNRL J): +20.0% at 0.09, volume pace 1.03x
-- SAM.TO (STARCORE INTERNATIONAL MINES LT): +18.5% at 0.32, volume pace 0.73x
-- GCU.TO (GUNNISON COPPER CORP): +17.6% at 0.4, volume pace 1.31x
-- EDT.TO (SPECTRAL MEDICAL INC): +11.3% at 1.08, volume pace 2.29x
-- TSK.TO (TALISKER RESOURCES LTD): +11.1% at 0.9, volume pace 0.53x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +11.1% at 0.15, volume pace 0.56x
-- FDY.TO (FARADAY COPPER CORP): +10.9% at 4.37, volume pace 0.73x
+- ELR.TO (EASTERN PLATINUM LIMITED): +7.0% at 0.23, volume pace 0.73x
+- ORIO.TO (ORION DIGITAL CORP): +4.6% at 1.6, volume pace 0.15x
+- MAXQ.TO (Maritime Launch Services Inc.): +3.3% at 0.465, volume pace 0.06x
+- AEG.TO (AEGIS BRANDS INC): +3.1% at 0.33, volume pace 0.0x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +2.7% at 4.15, volume pace 1.4x
+- REAL.TO (Real Matters): +2.5% at 3.34, volume pace 0.18x
+- MER.TO (MEREN ENERGY INC): +2.3% at 1.965, volume pace 4.44x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +2.2% at 2.8, volume pace 1.1x
+- PDI.TO (PDI GOLD LIMITED): +2.0% at 4.66, volume pace 0.0x
+- FSZ.TO (FIERA CAPITAL CORP): +1.8% at 2.86, volume pace 0.67x
