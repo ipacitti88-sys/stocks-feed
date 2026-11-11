@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-11T12:01-07:00
+# Stock feed — 2026-11-11T12:31-07:00
 
-Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live -0.0% at 19:05
-Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.8% at 19:05
+Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live -0.5% at 19:35
+Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.7% at 19:35
 
 # TSX Venture
 
@@ -34,10 +34,8 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TNR.V (TNR GOLD CORP): +37.5% today at 0.4125, last 30m +0.6%, volume pace 11.67x, rising since 2026-11-11T18:40:00+00:00
-- BLU.V (BLUENERGIES LTD): +16.0% today at 2.25, last 30m +2.7%, volume pace 3.52x, rising since 2026-11-11T19:05:00+00:00
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +9.5% today at 2.3, last 30m +1.3%, volume pace 2.09x, rising since 2026-11-11T16:45:00+00:00
-- EMPR.V (EMPRESS ROYALTY CORP): +4.4% today at 0.94, last 30m +1.1%, volume pace 2.09x, rising since 2026-11-11T19:00:00+00:00
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +10.5% today at 2.32, last 30m +0.9%, volume pace 2.01x, rising since 2026-11-11T16:45:00+00:00
+- ARIC.V (AWALE RESOURCES LIMITED): +9.9% today at 0.78, last 30m +1.3%, volume pace 3.21x, rising since 2026-11-11T19:05:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -54,16 +52,16 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- TNR.V (TNR GOLD CORP): +37.5% at 0.4125, volume pace 11.67x
-- HART.V (GOLD HART COPPER CORP): +20.0% at 0.18, volume pace 3.06x
-- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 2.45x
-- COCO.V (COAST COPPER CORP): +16.7% at 0.35, volume pace 9.3x
+- TNR.V (TNR GOLD CORP): +36.7% at 0.41, volume pace 35.94x
+- HART.V (GOLD HART COPPER CORP): +23.3% at 0.185, volume pace 2.86x
+- COCO.V (COAST COPPER CORP): +20.0% at 0.36, volume pace 6.62x
+- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 2.52x
 - RZL.V (RZOLV TECHNOLOGIES INC): +16.1% at 0.18, volume pace 12.48x
-- BLU.V (BLUENERGIES LTD): +16.0% at 2.25, volume pace 3.52x
-- FROG.V (BULLFROG GOLD CORPORATION): +15.4% at 0.15, volume pace 10.25x
+- FROG.V (BULLFROG GOLD CORPORATION): +15.4% at 0.15, volume pace 9.04x
 - NBVA.V (NUBEVA TECHNOLOGIES LTD): +14.8% at 0.155, volume pace 0.26x
-- BUFF.V (BUFFALO POTASH CORPORATION): +12.7% at 0.89, volume pace 1.38x
-- SUNV.V (Sun Valley Minerals Inc.): +11.5% at 0.87, volume pace 0.73x
+- BUFF.V (BUFFALO POTASH CORPORATION): +13.9% at 0.9, volume pace 1.25x
+- DLP.V (DLP RESOURCES INC): +13.0% at 0.26, volume pace 0.0x
+- ALCH.V (ALCHEMY LABS INC): +12.9% at 0.79, volume pace 0.0x
 
 # TSX
 
@@ -91,9 +89,7 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- RBY.TO (RUBELLITE ENERGY CORP): +5.6% today at 3.38, last 30m +1.2%, volume pace 2.05x, rising since 2026-11-11T18:45:00+00:00
 - CAML.TO (CENTRAL ASIA METALS PLC): +4.2% today at 2.5, last 30m +3.7%, volume pace 4.04x, rising since 2026-11-11T15:10:00+00:00
-- WELL.TO (WELL HEALTH TECHNOLOGIES CORP): +3.8% today at 3.725, last 30m +0.1%, volume pace 2.41x, rising since 2026-11-11T18:55:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -111,12 +107,12 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 ## TSX: top gainers in latest intraday pass
 
 - AEG.TO (AEGIS BRANDS INC): +26.2% at 0.385, volume pace 4.13x
-- MTEK.TO (METATEK GROUP LTD): +17.0% at 3.1, volume pace 12.92x
-- GRA.TO (NANOXPLORE INC): +13.8% at 1.48, volume pace 1.3x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +10.5% at 3.005, volume pace 0.81x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +10.2% at 2.6, volume pace 22.52x
+- MTEK.TO (METATEK GROUP LTD): +18.9% at 3.15, volume pace 3.62x
+- GRA.TO (NANOXPLORE INC): +14.6% at 1.49, volume pace 1.21x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +9.8% at 2.59, volume pace 15.42x
+- CFF.TO (CONIFEX TIMBER INC): +9.5% at 0.115, volume pace 8.74x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.8% at 2.96, volume pace 0.83x
 - AMC.TO (ARIZONA METALS CORP): +7.1% at 0.15, volume pace 1.79x
-- DND.TO (DYE AND DURHAM LIMITED): +6.4% at 1.99, volume pace 0.99x
-- RBY.TO (RUBELLITE ENERGY CORP): +5.6% at 3.38, volume pace 2.05x
-- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +4.9% at 2.56, volume pace 0.95x
-- LUC.TO (LUCARA DIAMOND CORP): +4.5% at 0.115, volume pace 3.34x
+- DND.TO (DYE AND DURHAM LIMITED): +6.7% at 1.995, volume pace 0.92x
+- DYA.TO (DYNACERT INC): +5.9% at 0.09, volume pace 0.0x
+- RBY.TO (RUBELLITE ENERGY CORP): +5.6% at 3.38, volume pace 1.86x

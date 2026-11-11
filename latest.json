@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T12:01-07:00",
+ "generated": "2026-11-11T12:31-07:00",
  "last_close_day": "2026-11-10",
  "tracked": 699,
  "tracked_by_market": {
@@ -430,62 +430,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-11T19:05:00+00:00",
+ "live_as_of": "2026-11-11T19:35:00+00:00",
  "rising": [
-  {
-   "ticker": "TNR.V",
-   "name": "TNR GOLD CORP",
-   "as_of": "2026-11-11T19:05:00+00:00",
-   "last": 0.4125,
-   "pct_day": 37.5,
-   "pct_30m": 0.61,
-   "volume_pace": 11.67,
-   "rising": true,
-   "rising_since": "2026-11-11T18:40:00+00:00"
-  },
-  {
-   "ticker": "BLU.V",
-   "name": "BLUENERGIES LTD",
-   "as_of": "2026-11-11T19:05:00+00:00",
-   "last": 2.25,
-   "pct_day": 15.98,
-   "pct_30m": 2.74,
-   "volume_pace": 3.52,
-   "rising": true,
-   "rising_since": "2026-11-11T19:05:00+00:00"
-  },
   {
    "ticker": "PAIN.V",
    "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-11T19:00:00+00:00",
-   "last": 2.3,
-   "pct_day": 9.52,
-   "pct_30m": 1.32,
-   "volume_pace": 2.09,
+   "as_of": "2026-11-11T19:30:00+00:00",
+   "last": 2.32,
+   "pct_day": 10.48,
+   "pct_30m": 0.87,
+   "volume_pace": 2.01,
    "rising": true,
    "rising_since": "2026-11-11T16:45:00+00:00"
   },
   {
-   "ticker": "RBY.TO",
-   "name": "RUBELLITE ENERGY CORP",
-   "as_of": "2026-11-11T18:55:00+00:00",
-   "last": 3.38,
-   "pct_day": 5.63,
-   "pct_30m": 1.2,
-   "volume_pace": 2.05,
+   "ticker": "ARIC.V",
+   "name": "AWALE RESOURCES LIMITED",
+   "as_of": "2026-11-11T19:05:00+00:00",
+   "last": 0.78,
+   "pct_day": 9.86,
+   "pct_30m": 1.3,
+   "volume_pace": 3.21,
    "rising": true,
-   "rising_since": "2026-11-11T18:45:00+00:00"
-  },
-  {
-   "ticker": "EMPR.V",
-   "name": "EMPRESS ROYALTY CORP",
-   "as_of": "2026-11-11T19:00:00+00:00",
-   "last": 0.94,
-   "pct_day": 4.44,
-   "pct_30m": 1.08,
-   "volume_pace": 2.09,
-   "rising": true,
-   "rising_since": "2026-11-11T19:00:00+00:00"
+   "rising_since": "2026-11-11T19:05:00+00:00"
   },
   {
    "ticker": "CAML.TO",
@@ -497,39 +464,39 @@
    "volume_pace": 4.04,
    "rising": true,
    "rising_since": "2026-11-11T15:10:00+00:00"
-  },
-  {
-   "ticker": "WELL.TO",
-   "name": "WELL HEALTH TECHNOLOGIES CORP",
-   "as_of": "2026-11-11T19:00:00+00:00",
-   "last": 3.725,
-   "pct_day": 3.76,
-   "pct_30m": 0.13,
-   "volume_pace": 2.41,
-   "rising": true,
-   "rising_since": "2026-11-11T18:55:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "TNR.V",
    "name": "TNR GOLD CORP",
-   "as_of": "2026-11-11T19:05:00+00:00",
-   "last": 0.4125,
-   "pct_day": 37.5,
-   "pct_30m": 0.61,
-   "volume_pace": 11.67,
-   "rising": true,
-   "rising_since": "2026-11-11T18:40:00+00:00"
+   "as_of": "2026-11-11T19:30:00+00:00",
+   "last": 0.41,
+   "pct_day": 36.67,
+   "pct_30m": -0.61,
+   "volume_pace": 35.94,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "HART.V",
    "name": "GOLD HART COPPER CORP",
-   "as_of": "2026-11-11T18:45:00+00:00",
-   "last": 0.18,
+   "as_of": "2026-11-11T19:05:00+00:00",
+   "last": 0.185,
+   "pct_day": 23.33,
+   "pct_30m": 2.78,
+   "volume_pace": 2.86,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "COCO.V",
+   "name": "COAST COPPER CORP",
+   "as_of": "2026-11-11T19:25:00+00:00",
+   "last": 0.36,
    "pct_day": 20.0,
-   "pct_30m": 0.0,
-   "volume_pace": 3.06,
+   "pct_30m": 2.86,
+   "volume_pace": 6.62,
    "rising": false,
    "rising_since": null
   },
@@ -540,18 +507,7 @@
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 2.45,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "COCO.V",
-   "name": "COAST COPPER CORP",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 0.35,
-   "pct_day": 16.67,
-   "pct_30m": -12.5,
-   "volume_pace": 9.3,
+   "volume_pace": 2.52,
    "rising": false,
    "rising_since": null
   },
@@ -567,24 +523,13 @@
    "rising_since": null
   },
   {
-   "ticker": "BLU.V",
-   "name": "BLUENERGIES LTD",
-   "as_of": "2026-11-11T19:05:00+00:00",
-   "last": 2.25,
-   "pct_day": 15.98,
-   "pct_30m": 2.74,
-   "volume_pace": 3.52,
-   "rising": true,
-   "rising_since": "2026-11-11T19:05:00+00:00"
-  },
-  {
    "ticker": "FROG.V",
    "name": "BULLFROG GOLD CORPORATION",
-   "as_of": "2026-11-11T18:40:00+00:00",
+   "as_of": "2026-11-11T19:15:00+00:00",
    "last": 0.15,
    "pct_day": 15.38,
-   "pct_30m": 11.11,
-   "volume_pace": 10.25,
+   "pct_30m": 0.0,
+   "volume_pace": 9.04,
    "rising": false,
    "rising_since": null
   },
@@ -602,22 +547,33 @@
   {
    "ticker": "BUFF.V",
    "name": "BUFFALO POTASH CORPORATION",
-   "as_of": "2026-11-11T19:00:00+00:00",
-   "last": 0.89,
-   "pct_day": 12.66,
-   "pct_30m": -1.11,
-   "volume_pace": 1.38,
+   "as_of": "2026-11-11T19:30:00+00:00",
+   "last": 0.9,
+   "pct_day": 13.92,
+   "pct_30m": 1.12,
+   "volume_pace": 1.25,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "SUNV.V",
-   "name": "Sun Valley Minerals Inc.",
-   "as_of": "2026-11-11T18:55:00+00:00",
-   "last": 0.87,
-   "pct_day": 11.54,
-   "pct_30m": 2.35,
-   "volume_pace": 0.73,
+   "ticker": "DLP.V",
+   "name": "DLP RESOURCES INC",
+   "as_of": "2026-11-11T19:20:00+00:00",
+   "last": 0.26,
+   "pct_day": 13.04,
+   "pct_30m": 13.04,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ALCH.V",
+   "name": "ALCHEMY LABS INC",
+   "as_of": "2026-11-11T19:20:00+00:00",
+   "last": 0.79,
+   "pct_day": 12.86,
+   "pct_30m": 9.72,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -635,44 +591,55 @@
   {
    "ticker": "MTEK.TO",
    "name": "METATEK GROUP LTD",
-   "as_of": "2026-11-11T15:55:00+00:00",
-   "last": 3.1,
-   "pct_day": 16.98,
-   "pct_30m": 12.73,
-   "volume_pace": 12.92,
+   "as_of": "2026-11-11T19:35:00+00:00",
+   "last": 3.15,
+   "pct_day": 18.87,
+   "pct_30m": 1.61,
+   "volume_pace": 3.62,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GRA.TO",
    "name": "NANOXPLORE INC",
-   "as_of": "2026-11-11T19:00:00+00:00",
-   "last": 1.48,
-   "pct_day": 13.85,
-   "pct_30m": -1.33,
-   "volume_pace": 1.3,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "KEEL.TO",
-   "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-11T19:05:00+00:00",
-   "last": 3.005,
-   "pct_day": 10.48,
-   "pct_30m": -0.5,
-   "volume_pace": 0.81,
+   "as_of": "2026-11-11T19:30:00+00:00",
+   "last": 1.49,
+   "pct_day": 14.62,
+   "pct_30m": 0.68,
+   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DCM.TO",
    "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-11T17:55:00+00:00",
-   "last": 2.6,
-   "pct_day": 10.17,
-   "pct_30m": -0.76,
-   "volume_pace": 22.52,
+   "as_of": "2026-11-11T19:30:00+00:00",
+   "last": 2.59,
+   "pct_day": 9.75,
+   "pct_30m": -0.38,
+   "volume_pace": 15.42,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CFF.TO",
+   "name": "CONIFEX TIMBER INC",
+   "as_of": "2026-11-11T19:15:00+00:00",
+   "last": 0.115,
+   "pct_day": 9.52,
+   "pct_30m": -17.86,
+   "volume_pace": 8.74,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "KEEL.TO",
+   "name": "KEEL INFRASTRUCTURE CORP",
+   "as_of": "2026-11-11T19:30:00+00:00",
+   "last": 2.96,
+   "pct_day": 8.82,
+   "pct_30m": -1.5,
+   "volume_pace": 0.83,
    "rising": false,
    "rising_since": null
   },
@@ -690,44 +657,33 @@
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-11T19:00:00+00:00",
-   "last": 1.99,
-   "pct_day": 6.42,
-   "pct_30m": -1.97,
-   "volume_pace": 0.99,
+   "as_of": "2026-11-11T19:35:00+00:00",
+   "last": 1.995,
+   "pct_day": 6.68,
+   "pct_30m": 0.76,
+   "volume_pace": 0.92,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "DYA.TO",
+   "name": "DYNACERT INC",
+   "as_of": "2026-11-11T19:15:00+00:00",
+   "last": 0.09,
+   "pct_day": 5.88,
+   "pct_30m": 5.88,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "RBY.TO",
    "name": "RUBELLITE ENERGY CORP",
-   "as_of": "2026-11-11T18:55:00+00:00",
+   "as_of": "2026-11-11T19:25:00+00:00",
    "last": 3.38,
    "pct_day": 5.63,
-   "pct_30m": 1.2,
-   "volume_pace": 2.05,
-   "rising": true,
-   "rising_since": "2026-11-11T18:45:00+00:00"
-  },
-  {
-   "ticker": "HIVE.TO",
-   "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-11T19:05:00+00:00",
-   "last": 2.56,
-   "pct_day": 4.92,
-   "pct_30m": -0.39,
-   "volume_pace": 0.95,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "LUC.TO",
-   "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-11-11T19:05:00+00:00",
-   "last": 0.115,
-   "pct_day": 4.55,
    "pct_30m": 0.0,
-   "volume_pace": 3.34,
+   "volume_pace": 1.86,
    "rising": false,
    "rising_since": null
   }
@@ -1329,9 +1285,9 @@
    "ma200": 955.73,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-11T19:05:00+00:00",
-    "last": 821.78,
-    "pct_day": -0.04
+    "as_of": "2026-11-11T19:35:00+00:00",
+    "last": 818.24,
+    "pct_day": -0.47
    }
   },
   "^GSPTSE": {
@@ -1930,9 +1886,9 @@
    "ma200": 34684.68,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-11T19:05:00+00:00",
-    "last": 36465.31,
-    "pct_day": 0.82
+    "as_of": "2026-11-11T19:35:00+00:00",
+    "last": 36430.45,
+    "pct_day": 0.72
    }
   }
  },
