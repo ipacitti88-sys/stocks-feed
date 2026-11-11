@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-11T09:31-07:00
+# Stock feed — 2026-11-11T10:01-07:00
 
-Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T16:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T17:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live +0.2% at 16:35
-Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.6% at 16:35
+Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live +0.1% at 17:05
+Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.7% at 17:05
 
 # TSX Venture
 
@@ -34,10 +34,12 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- QNC.V (QUANTUM EMOTION CORP): +12.7% today at 1.51, last 30m +3.1%, volume pace 5.52x, rising since 2026-11-11T15:55:00+00:00
+- BUFF.V (BUFFALO POTASH CORPORATION): +13.9% today at 0.9, last 30m +2.3%, volume pace 1.79x, rising since 2026-11-11T16:45:00+00:00
+- ARIC.V (AWALE RESOURCES LIMITED): +9.9% today at 0.78, last 30m +2.6%, volume pace 3.54x, rising since 2026-11-11T16:35:00+00:00
 - SAGA.V (SAGA METALS CORP): +6.8% today at 0.395, last 30m +9.7%, volume pace 2.68x, rising since 2026-11-11T14:55:00+00:00
-- KRY.V (KORYX COPPER S A): +3.4% today at 3.38, last 30m +1.5%, volume pace 1.61x, rising since 2026-11-11T16:25:00+00:00
-- GHRT.V (GREENHEART GOLD INC): +3.3% today at 0.63, last 30m +1.6%, volume pace 1.65x, rising since 2026-11-11T16:15:00+00:00
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +5.2% today at 2.21, last 30m +3.3%, volume pace 1.78x, rising since 2026-11-11T16:45:00+00:00
+- AXL.V (ARROW EXPLORATION CORP): +5.2% today at 0.61, last 30m +0.8%, volume pace 1.57x, rising since 2026-11-11T17:00:00+00:00
+- BLU.V (BLUENERGIES LTD): +3.1% today at 2.0, last 30m +3.1%, volume pace 3.97x, rising since 2026-11-11T16:35:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -54,16 +56,16 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- COCO.V (COAST COPPER CORP): +33.3% at 0.4, volume pace 15.92x
-- FROG.V (BULLFROG GOLD CORPORATION): +19.2% at 0.155, volume pace 16.44x
-- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 1.17x
-- RZL.V (RZOLV TECHNOLOGIES INC): +16.1% at 0.18, volume pace 12.37x
-- CYBE.V (CYBERCATCH HOLDINGS INC): +14.2% at 1.37, volume pace 0.84x
-- HART.V (GOLD HART COPPER CORP): +13.3% at 0.17, volume pace 4.93x
-- SUNV.V (Sun Valley Minerals Inc.): +12.8% at 0.88, volume pace 1.43x
-- QNC.V (QUANTUM EMOTION CORP): +12.7% at 1.51, volume pace 5.52x
-- KCP.V (KING COPPER DISCOVERY CORP): +10.5% at 0.63, volume pace 0.26x
-- STMP.V (STAMPER OIL AND GAS CORP): +10.0% at 0.11, volume pace 0.72x
+- COCO.V (COAST COPPER CORP): +33.3% at 0.4, volume pace 16.21x
+- HART.V (GOLD HART COPPER CORP): +23.3% at 0.185, volume pace 4.53x
+- FROG.V (BULLFROG GOLD CORPORATION): +19.2% at 0.155, volume pace 13.64x
+- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 1.26x
+- RZL.V (RZOLV TECHNOLOGIES INC): +16.1% at 0.18, volume pace 12.48x
+- PLUR.V (PLURILOCK SECURITYINC): +14.3% at 0.2, volume pace 0.76x
+- BUFF.V (BUFFALO POTASH CORPORATION): +13.9% at 0.9, volume pace 1.79x
+- CYBE.V (CYBERCATCH HOLDINGS INC): +12.5% at 1.35, volume pace 0.86x
+- QNC.V (QUANTUM EMOTION CORP): +12.3% at 1.505, volume pace 4.54x
+- SUNV.V (Sun Valley Minerals Inc.): +11.5% at 0.87, volume pace 1.13x
 
 # TSX
 
@@ -91,9 +93,8 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- GRA.TO (NANOXPLORE INC): +15.4% today at 1.5, last 30m +6.4%, volume pace 1.74x, rising since 2026-11-11T16:20:00+00:00
-- RBY.TO (RUBELLITE ENERGY CORP): +4.7% today at 3.35, last 30m +0.9%, volume pace 3.81x, rising since 2026-11-11T16:10:00+00:00
-- LUC.TO (LUCARA DIAMOND CORP): +4.5% today at 0.115, last 30m +4.5%, volume pace 5.09x, rising since 2026-11-11T16:10:00+00:00
+- TAL.TO (PETROTAL CORP): +5.0% today at 0.52, last 30m +1.0%, volume pace 2.02x, rising since 2026-11-11T17:00:00+00:00
+- RBY.TO (RUBELLITE ENERGY CORP): +5.0% today at 3.36, last 30m +0.3%, volume pace 3.36x, rising since 2026-11-11T16:10:00+00:00
 - CAML.TO (CENTRAL ASIA METALS PLC): +4.2% today at 2.5, last 30m +3.7%, volume pace 4.04x, rising since 2026-11-11T15:10:00+00:00
 
 ## TSX: top by relative volume at last close
@@ -111,13 +112,13 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX: top gainers in latest intraday pass
 
+- AEG.TO (AEGIS BRANDS INC): +26.2% at 0.385, volume pace 4.13x
 - CFF.TO (CONIFEX TIMBER INC): +19.1% at 0.125, volume pace 6.95x
 - MTEK.TO (METATEK GROUP LTD): +17.0% at 3.1, volume pace 12.92x
-- GRA.TO (NANOXPLORE INC): +15.4% at 1.5, volume pace 1.74x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +11.8% at 3.04, volume pace 1.24x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +10.2% at 2.6, volume pace 37.36x
-- DND.TO (DYE AND DURHAM LIMITED): +8.0% at 2.02, volume pace 1.22x
-- NANO.TO (NANO ONE MATERIALS CORP): +7.2% at 0.74, volume pace 2.81x
-- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +7.0% at 2.61, volume pace 1.64x
-- RBY.TO (RUBELLITE ENERGY CORP): +4.7% at 3.35, volume pace 3.81x
-- LUC.TO (LUCARA DIAMOND CORP): +4.5% at 0.115, volume pace 5.09x
+- GRA.TO (NANOXPLORE INC): +15.4% at 1.5, volume pace 2.13x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +11.0% at 3.02, volume pace 1.12x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +9.3% at 2.58, volume pace 30.25x
+- DND.TO (DYE AND DURHAM LIMITED): +9.1% at 2.04, volume pace 1.09x
+- AMC.TO (ARIZONA METALS CORP): +7.1% at 0.15, volume pace 2.57x
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +5.7% at 2.58, volume pace 1.42x
+- TAL.TO (PETROTAL CORP): +5.0% at 0.52, volume pace 2.02x
