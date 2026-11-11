@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-11T14:01-07:00
+# Stock feed — 2026-11-11T14:06-07:00
 
 Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -90,7 +90,7 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CAML.TO (CENTRAL ASIA METALS PLC): +4.2% today at 2.5, last 30m +3.7%, volume pace 4.04x, rising since 2026-11-11T15:10:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -109,7 +109,7 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 - AEG.TO (AEGIS BRANDS INC): +26.2% at 0.385, volume pace 4.13x
 - MTEK.TO (METATEK GROUP LTD): +13.2% at 3.0, volume pace 5.65x
-- GRA.TO (NANOXPLORE INC): +13.1% at 1.47, volume pace 1.29x
+- GRA.TO (NANOXPLORE INC): +12.3% at 1.46, volume pace 1.29x
 - DCM.TO (DATA COMMUNICATIONS MGMT CORP): +9.8% at 2.59, volume pace 12.29x
 - CFF.TO (CONIFEX TIMBER INC): +9.5% at 0.115, volume pace 8.8x
 - ORIO.TO (ORION DIGITAL CORP): +9.5% at 1.62, volume pace 3.03x

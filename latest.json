@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T14:01-07:00",
+ "generated": "2026-11-11T14:06-07:00",
  "last_close_day": "2026-11-10",
  "tracked": 699,
  "tracked_by_market": {
@@ -455,17 +455,6 @@
    "rising_since": "2026-11-11T20:50:00+00:00"
   },
   {
-   "ticker": "CAML.TO",
-   "name": "CENTRAL ASIA METALS PLC",
-   "as_of": "2026-11-11T15:10:00+00:00",
-   "last": 2.5,
-   "pct_day": 4.17,
-   "pct_30m": 3.73,
-   "volume_pace": 4.04,
-   "rising": true,
-   "rising_since": "2026-11-11T15:10:00+00:00"
-  },
-  {
    "ticker": "CEI.V",
    "name": "COELACANTH ENERGY INC",
    "as_of": "2026-11-11T20:45:00+00:00",
@@ -614,9 +603,9 @@
    "ticker": "GRA.TO",
    "name": "NANOXPLORE INC",
    "as_of": "2026-11-11T21:00:00+00:00",
-   "last": 1.47,
-   "pct_day": 13.08,
-   "pct_30m": -1.67,
+   "last": 1.46,
+   "pct_day": 12.31,
+   "pct_30m": -2.34,
    "volume_pace": 1.29,
    "rising": false,
    "rising_since": null
