@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-11T08:01-07:00
+# Stock feed — 2026-11-11T08:31-07:00
 
-Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live -0.1% at 15:05
-Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.6% at 15:05
+Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live +0.0% at 15:35
+Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.4% at 15:35
 
 # TSX Venture
 
@@ -34,12 +34,11 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- WPG.V (WEST POINT GOLD CORP): +7.1% today at 0.91, last 30m +2.2%, volume pace 6.72x, rising since 2026-11-11T14:50:00+00:00
-- YTY.V (WI2WI CORPORATION): +6.9% today at 0.155, last 30m +3.3%, volume pace 11.98x, rising since 2026-11-11T14:50:00+00:00
-- SAGA.V (SAGA METALS CORP): +6.8% today at 0.395, last 30m +9.7%, volume pace 1.89x, rising since 2026-11-11T14:55:00+00:00
-- MGG.V (MINAURUM SILVER INC): +6.7% today at 0.24, last 30m +2.1%, volume pace 2.96x, rising since 2026-11-11T15:00:00+00:00
-- SVE.V (SILVER ONE RESOURCES INC): +5.6% today at 0.475, last 30m +1.1%, volume pace 2.48x, rising since 2026-11-11T14:45:00+00:00
-- LCX.V (LYCOS ENERGY INC): +3.4% today at 1.52, last 30m +1.3%, volume pace 4.71x, rising since 2026-11-11T14:50:00+00:00
+- MGG.V (MINAURUM SILVER INC): +11.1% today at 0.25, last 30m +6.4%, volume pace 5.15x, rising since 2026-11-11T15:00:00+00:00
+- JUNO.V (Juno Industries Ltd.): +9.6% today at 1.03, last 30m +5.1%, volume pace 2.0x, rising since 2026-11-11T15:20:00+00:00
+- ARIC.V (AWALE RESOURCES LIMITED): +7.0% today at 0.76, last 30m +1.3%, volume pace 2.47x, rising since 2026-11-11T15:30:00+00:00
+- SAGA.V (SAGA METALS CORP): +6.8% today at 0.395, last 30m +9.7%, volume pace 2.68x, rising since 2026-11-11T14:55:00+00:00
+- QNC.V (QUANTUM EMOTION CORP): +5.2% today at 1.41, last 30m +0.7%, volume pace 2.88x, rising since 2026-11-11T15:10:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -56,16 +55,16 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- COCO.V (COAST COPPER CORP): +21.7% at 0.365, volume pace 12.39x
-- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 0.0x
-- CYBE.V (CYBERCATCH HOLDINGS INC): +15.8% at 1.39, volume pace 0.22x
-- STMP.V (STAMPER OIL AND GAS CORP): +10.0% at 0.11, volume pace 0.13x
-- WIL.V (WILTON RESOURCES INC): +9.5% at 0.23, volume pace 0.0x
+- COCO.V (COAST COPPER CORP): +23.3% at 0.37, volume pace 14.78x
+- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 0.78x
+- STMP.V (STAMPER OIL AND GAS CORP): +15.0% at 0.115, volume pace 0.52x
+- CYBE.V (CYBERCATCH HOLDINGS INC): +14.2% at 1.37, volume pace 1.15x
+- MGG.V (MINAURUM SILVER INC): +11.1% at 0.25, volume pace 5.15x
+- JUNO.V (Juno Industries Ltd.): +9.6% at 1.03, volume pace 2.0x
+- PPX.V (PPX MINING CORP): +9.5% at 0.23, volume pace 0.0x
+- WIL.V (WILTON RESOURCES INC): +9.5% at 0.23, volume pace 0.15x
 - FTRC.V (THE FUTR CORPORATION): +9.1% at 0.18, volume pace 0.0x
-- SUNV.V (Sun Valley Minerals Inc.): +9.0% at 0.85, volume pace 1.15x
-- NICE.V (NI CO ENERGY INC): +8.8% at 0.435, volume pace 0.0x
-- PHNM.V (PHENOM RESOURCES CORP): +8.3% at 0.39, volume pace 0.0x
-- TWR.V (TOWER RESOURCES LTD): +7.7% at 0.14, volume pace 0.0x
+- SUNV.V (Sun Valley Minerals Inc.): +9.0% at 0.85, volume pace 1.22x
 
 # TSX
 
@@ -93,11 +92,11 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +8.5% today at 2.56, last 30m +6.7%, volume pace 72.44x, rising since 2026-11-11T14:45:00+00:00
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.1% today at 2.94, last 30m +1.9%, volume pace 1.77x, rising since 2026-11-11T14:55:00+00:00
-- DND.TO (DYE AND DURHAM LIMITED): +4.3% today at 1.95, last 30m +1.0%, volume pace 2.16x, rising since 2026-11-11T14:45:00+00:00
-- RBY.TO (RUBELLITE ENERGY CORP): +4.1% today at 3.33, last 30m +1.8%, volume pace 4.14x, rising since 2026-11-11T15:05:00+00:00
-- ALK.TO (ALKANE RESOURCES LIMITED): +3.8% today at 1.795, last 30m +0.8%, volume pace 2.15x, rising since 2026-11-11T14:50:00+00:00
+- DND.TO (DYE AND DURHAM LIMITED): +9.1% today at 2.04, last 30m +4.6%, volume pace 1.77x, rising since 2026-11-11T14:45:00+00:00
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +4.5% today at 2.55, last 30m +1.2%, volume pace 1.67x, rising since 2026-11-11T15:25:00+00:00
+- RBY.TO (RUBELLITE ENERGY CORP): +4.4% today at 3.34, last 30m +0.9%, volume pace 7.04x, rising since 2026-11-11T15:20:00+00:00
+- CAML.TO (CENTRAL ASIA METALS PLC): +4.2% today at 2.5, last 30m +3.7%, volume pace 4.04x, rising since 2026-11-11T15:10:00+00:00
+- TAL.TO (PETROTAL CORP): +3.0% today at 0.51, last 30m +2.0%, volume pace 2.24x, rising since 2026-11-11T15:20:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -114,13 +113,13 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- GRA.TO (NANOXPLORE INC): +10.0% at 1.43, volume pace 2.01x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +8.5% at 2.56, volume pace 72.44x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.1% at 2.94, volume pace 1.77x
-- NANO.TO (NANO ONE MATERIALS CORP): +7.2% at 0.74, volume pace 0.25x
-- NEXT.TO (NEXTSOURCE MATERIALS INC): +5.3% at 0.2, volume pace 0.0x
-- EDT.TO (SPECTRAL MEDICAL INC): +4.7% at 1.12, volume pace 0.0x
-- DND.TO (DYE AND DURHAM LIMITED): +4.3% at 1.95, volume pace 2.16x
-- YGR.TO (YANGARRA RESOURCES LTD): +4.2% at 1.5, volume pace 1.02x
-- RBY.TO (RUBELLITE ENERGY CORP): +4.1% at 3.33, volume pace 4.14x
-- ALK.TO (ALKANE RESOURCES LIMITED): +3.8% at 1.795, volume pace 2.15x
+- GRA.TO (NANOXPLORE INC): +10.0% at 1.43, volume pace 1.42x
+- DND.TO (DYE AND DURHAM LIMITED): +9.1% at 2.04, volume pace 1.77x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.8% at 2.96, volume pace 1.43x
+- MTEK.TO (METATEK GROUP LTD): +7.9% at 2.86, volume pace 15.49x
+- NANO.TO (NANO ONE MATERIALS CORP): +7.2% at 0.74, volume pace 2.8x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +6.8% at 2.52, volume pace 38.16x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +6.2% at 0.255, volume pace 0.07x
+- NEXT.TO (NEXTSOURCE MATERIALS INC): +5.3% at 0.2, volume pace 0.08x
+- CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
+- ORIO.TO (ORION DIGITAL CORP): +4.7% at 1.55, volume pace 5.25x
