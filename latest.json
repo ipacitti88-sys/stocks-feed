@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T11:01-07:00",
+ "generated": "2026-11-11T11:31-07:00",
  "last_close_day": "2026-11-10",
  "tracked": 699,
  "tracked_by_market": {
@@ -430,18 +430,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-11T18:05:00+00:00",
+ "live_as_of": "2026-11-11T18:35:00+00:00",
  "rising": [
   {
    "ticker": "BLU.V",
    "name": "BLUENERGIES LTD",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 2.17,
-   "pct_day": 11.86,
-   "pct_30m": 9.05,
-   "volume_pace": 3.3,
+   "as_of": "2026-11-11T18:25:00+00:00",
+   "last": 2.19,
+   "pct_day": 12.89,
+   "pct_30m": 4.29,
+   "volume_pace": 3.43,
    "rising": true,
    "rising_since": "2026-11-11T17:45:00+00:00"
+  },
+  {
+   "ticker": "QNC.V",
+   "name": "QUANTUM EMOTION CORP",
+   "as_of": "2026-11-11T18:35:00+00:00",
+   "last": 1.5,
+   "pct_day": 11.94,
+   "pct_30m": 1.35,
+   "volume_pace": 3.27,
+   "rising": true,
+   "rising_since": "2026-11-11T18:10:00+00:00"
   },
   {
    "ticker": "ARIC.V",
@@ -457,46 +468,24 @@
   {
    "ticker": "PAIN.V",
    "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 2.3,
-   "pct_day": 9.52,
-   "pct_30m": 2.68,
-   "volume_pace": 2.55,
+   "as_of": "2026-11-11T18:20:00+00:00",
+   "last": 2.27,
+   "pct_day": 8.1,
+   "pct_30m": 0.44,
+   "volume_pace": 2.38,
    "rising": true,
    "rising_since": "2026-11-11T16:45:00+00:00"
   },
   {
-   "ticker": "SAGA.V",
-   "name": "SAGA METALS CORP",
-   "as_of": "2026-11-11T14:55:00+00:00",
-   "last": 0.395,
-   "pct_day": 6.76,
-   "pct_30m": 9.72,
-   "volume_pace": 2.68,
-   "rising": true,
-   "rising_since": "2026-11-11T14:55:00+00:00"
-  },
-  {
-   "ticker": "GHRT.V",
-   "name": "GREENHEART GOLD INC",
-   "as_of": "2026-11-11T17:30:00+00:00",
-   "last": 0.65,
-   "pct_day": 6.56,
-   "pct_30m": 3.17,
-   "volume_pace": 2.36,
-   "rising": true,
-   "rising_since": "2026-11-11T17:30:00+00:00"
-  },
-  {
    "ticker": "SVE.V",
    "name": "SILVER ONE RESOURCES INC",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 0.47,
-   "pct_day": 4.44,
-   "pct_30m": 3.3,
-   "volume_pace": 2.49,
+   "as_of": "2026-11-11T18:25:00+00:00",
+   "last": 0.475,
+   "pct_day": 5.56,
+   "pct_30m": 1.06,
+   "volume_pace": 2.31,
    "rising": true,
-   "rising_since": "2026-11-11T18:00:00+00:00"
+   "rising_since": "2026-11-11T18:25:00+00:00"
   },
   {
    "ticker": "CAML.TO",
@@ -508,39 +497,6 @@
    "volume_pace": 4.04,
    "rising": true,
    "rising_since": "2026-11-11T15:10:00+00:00"
-  },
-  {
-   "ticker": "LCX.V",
-   "name": "LYCOS ENERGY INC",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 1.53,
-   "pct_day": 4.08,
-   "pct_30m": 1.32,
-   "volume_pace": 1.54,
-   "rising": true,
-   "rising_since": "2026-11-11T17:40:00+00:00"
-  },
-  {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-11-11T17:55:00+00:00",
-   "last": 0.515,
-   "pct_day": 4.04,
-   "pct_30m": 0.98,
-   "volume_pace": 1.55,
-   "rising": true,
-   "rising_since": "2026-11-11T17:55:00+00:00"
-  },
-  {
-   "ticker": "WELL.TO",
-   "name": "WELL HEALTH TECHNOLOGIES CORP",
-   "as_of": "2026-11-11T18:05:00+00:00",
-   "last": 3.73,
-   "pct_day": 3.9,
-   "pct_30m": 0.54,
-   "volume_pace": 2.76,
-   "rising": true,
-   "rising_since": "2026-11-11T17:40:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -558,11 +514,11 @@
   {
    "ticker": "PRG.V",
    "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-11-11T18:05:00+00:00",
+   "as_of": "2026-11-11T18:35:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 2.68,
+   "volume_pace": 2.55,
    "rising": false,
    "rising_since": null
   },
@@ -573,7 +529,7 @@
    "last": 0.35,
    "pct_day": 16.67,
    "pct_30m": -12.5,
-   "volume_pace": 9.26,
+   "volume_pace": 9.3,
    "rising": false,
    "rising_since": null
   },
@@ -589,68 +545,68 @@
    "rising_since": null
   },
   {
-   "ticker": "FROG.V",
-   "name": "BULLFROG GOLD CORPORATION",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 0.15,
-   "pct_day": 15.38,
-   "pct_30m": -3.23,
-   "volume_pace": 11.53,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PLUR.V",
-   "name": "PLURILOCK SECURITYINC",
-   "as_of": "2026-11-11T17:45:00+00:00",
-   "last": 0.2,
-   "pct_day": 14.29,
-   "pct_30m": -4.76,
-   "volume_pace": 2.63,
+   "ticker": "NBVA.V",
+   "name": "NUBEVA TECHNOLOGIES LTD",
+   "as_of": "2026-11-11T18:30:00+00:00",
+   "last": 0.155,
+   "pct_day": 14.81,
+   "pct_30m": 3.33,
+   "volume_pace": 0.16,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BUFF.V",
    "name": "BUFFALO POTASH CORPORATION",
-   "as_of": "2026-11-11T18:00:00+00:00",
+   "as_of": "2026-11-11T18:25:00+00:00",
    "last": 0.9,
    "pct_day": 13.92,
-   "pct_30m": 3.45,
-   "volume_pace": 1.27,
+   "pct_30m": 1.12,
+   "volume_pace": 1.19,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BLU.V",
    "name": "BLUENERGIES LTD",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 2.17,
-   "pct_day": 11.86,
-   "pct_30m": 9.05,
-   "volume_pace": 3.3,
+   "as_of": "2026-11-11T18:25:00+00:00",
+   "last": 2.19,
+   "pct_day": 12.89,
+   "pct_30m": 4.29,
+   "volume_pace": 3.43,
    "rising": true,
    "rising_since": "2026-11-11T17:45:00+00:00"
   },
   {
    "ticker": "QNC.V",
    "name": "QUANTUM EMOTION CORP",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 1.49,
-   "pct_day": 11.19,
-   "pct_30m": -1.32,
-   "volume_pace": 3.71,
+   "as_of": "2026-11-11T18:35:00+00:00",
+   "last": 1.5,
+   "pct_day": 11.94,
+   "pct_30m": 1.35,
+   "volume_pace": 3.27,
+   "rising": true,
+   "rising_since": "2026-11-11T18:10:00+00:00"
+  },
+  {
+   "ticker": "PLUR.V",
+   "name": "PLURILOCK SECURITYINC",
+   "as_of": "2026-11-11T18:30:00+00:00",
+   "last": 0.195,
+   "pct_day": 11.43,
+   "pct_30m": -2.5,
+   "volume_pace": 2.23,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "NBVA.V",
-   "name": "NUBEVA TECHNOLOGIES LTD",
-   "as_of": "2026-11-11T17:05:00+00:00",
-   "last": 0.15,
-   "pct_day": 11.11,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "ticker": "VML.V",
+   "name": "VISCOUNT MINING CORP",
+   "as_of": "2026-11-11T18:15:00+00:00",
+   "last": 0.39,
+   "pct_day": 11.43,
+   "pct_30m": 11.43,
+   "volume_pace": 3.02,
    "rising": false,
    "rising_since": null
   },
@@ -690,33 +646,22 @@
   {
    "ticker": "GRA.TO",
    "name": "NANOXPLORE INC",
-   "as_of": "2026-11-11T17:45:00+00:00",
+   "as_of": "2026-11-11T18:25:00+00:00",
    "last": 1.5,
    "pct_day": 15.38,
    "pct_30m": 0.0,
-   "volume_pace": 1.77,
+   "volume_pace": 1.48,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-11T18:00:00+00:00",
+   "as_of": "2026-11-11T18:30:00+00:00",
    "last": 3.04,
    "pct_day": 11.76,
-   "pct_30m": -0.16,
-   "volume_pace": 0.97,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "DND.TO",
-   "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-11T18:00:00+00:00",
-   "last": 2.075,
-   "pct_day": 10.96,
-   "pct_30m": 1.97,
-   "volume_pace": 1.03,
+   "pct_30m": 0.0,
+   "volume_pace": 0.89,
    "rising": false,
    "rising_since": null
   },
@@ -727,18 +672,18 @@
    "last": 2.6,
    "pct_day": 10.17,
    "pct_30m": -0.76,
-   "volume_pace": 22.51,
+   "volume_pace": 22.52,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "AMC.TO",
-   "name": "ARIZONA METALS CORP",
-   "as_of": "2026-11-11T18:05:00+00:00",
-   "last": 0.15,
-   "pct_day": 7.14,
-   "pct_30m": 0.0,
-   "volume_pace": 2.0,
+   "ticker": "DND.TO",
+   "name": "DYE AND DURHAM LIMITED",
+   "as_of": "2026-11-11T18:30:00+00:00",
+   "last": 2.03,
+   "pct_day": 8.56,
+   "pct_30m": -2.17,
+   "volume_pace": 1.0,
    "rising": false,
    "rising_since": null
   },
@@ -756,11 +701,22 @@
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-11T18:00:00+00:00",
+   "as_of": "2026-11-11T18:35:00+00:00",
    "last": 2.58,
    "pct_day": 5.74,
-   "pct_30m": -0.39,
-   "volume_pace": 1.14,
+   "pct_30m": 0.58,
+   "volume_pace": 1.03,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ESI.TO",
+   "name": "ENSIGN ENERGY SERVICES INC.",
+   "as_of": "2026-11-11T18:30:00+00:00",
+   "last": 4.32,
+   "pct_day": 4.6,
+   "pct_30m": 0.23,
+   "volume_pace": 0.42,
    "rising": false,
    "rising_since": null
   }
@@ -1362,9 +1318,9 @@
    "ma200": 955.73,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-11T18:05:00+00:00",
-    "last": 822.8,
-    "pct_day": 0.09
+    "as_of": "2026-11-11T18:35:00+00:00",
+    "last": 822.89,
+    "pct_day": 0.1
    }
   },
   "^GSPTSE": {
@@ -1963,9 +1919,9 @@
    "ma200": 34684.68,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-11T18:05:00+00:00",
-    "last": 36488.68,
-    "pct_day": 0.88
+    "as_of": "2026-11-11T18:35:00+00:00",
+    "last": 36476.85,
+    "pct_day": 0.85
    }
   }
  },
