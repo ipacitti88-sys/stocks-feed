@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-11T13:31-07:00
+# Stock feed — 2026-11-11T14:01-07:00
 
-Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T20:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 699 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-10. Intraday data as of: 2026-11-11T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live -0.7% at 20:35
-Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.8% at 20:35
+Market: S&P/TSX Venture Composite 822.09 on 2026-11-10 (day -1.7%, month -5.9%, year -7.1%, downtrend); live -0.8% at 21:00
+Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year +20.9%, uptrend); live +0.7% at 21:00
 
 # TSX Venture
 
@@ -34,9 +34,9 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TNR.V (TNR GOLD CORP): +41.7% today at 0.425, last 30m +4.9%, volume pace 74.9x, rising since 2026-11-11T20:15:00+00:00
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.7% today at 2.45, last 30m +5.2%, volume pace 2.79x, rising since 2026-11-11T16:45:00+00:00
-- BLU.V (BLUENERGIES LTD): +13.4% today at 2.2, last 30m +1.9%, volume pace 3.43x, rising since 2026-11-11T19:50:00+00:00
+- ARIC.V (AWALE RESOURCES LIMITED): +12.7% today at 0.8, last 30m +2.6%, volume pace 3.51x, rising since 2026-11-11T20:55:00+00:00
+- SVE.V (SILVER ONE RESOURCES INC): +4.4% today at 0.47, last 30m +3.3%, volume pace 2.21x, rising since 2026-11-11T20:50:00+00:00
+- CEI.V (COELACANTH ENERGY INC): +3.1% today at 0.67, last 30m +1.5%, volume pace 2.72x, rising since 2026-11-11T20:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -53,14 +53,14 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- KEON.V (Keon Capital Inc.): +50.0% at 0.39, volume pace 3.0x
-- TNR.V (TNR GOLD CORP): +41.7% at 0.425, volume pace 74.9x
-- SCY.V (SCANDIUM INTERNATIONAL MINING C): +23.5% at 0.105, volume pace 1.12x
+- KEON.V (Keon Capital Inc.): +50.0% at 0.39, volume pace 3.03x
+- TNR.V (TNR GOLD CORP): +41.7% at 0.425, volume pace 69.32x
+- SCY.V (SCANDIUM INTERNATIONAL MINING C): +23.5% at 0.105, volume pace 0.96x
 - HART.V (GOLD HART COPPER CORP): +23.3% at 0.185, volume pace 2.86x
 - PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 2.52x
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.7% at 2.45, volume pace 2.79x
-- COCO.V (COAST COPPER CORP): +16.7% at 0.35, volume pace 5.6x
-- RZL.V (RZOLV TECHNOLOGIES INC): +16.1% at 0.18, volume pace 12.48x
+- COCO.V (COAST COPPER CORP): +16.7% at 0.35, volume pace 5.66x
+- BUFF.V (BUFFALO POTASH CORPORATION): +16.5% at 0.92, volume pace 1.21x
+- RZL.V (RZOLV TECHNOLOGIES INC): +16.1% at 0.18, volume pace 4.14x
 - FROG.V (BULLFROG GOLD CORPORATION): +15.4% at 0.15, volume pace 9.06x
 - NBVA.V (NUBEVA TECHNOLOGIES LTD): +14.8% at 0.155, volume pace 0.26x
 
@@ -90,7 +90,6 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +10.2% today at 2.6, last 30m +0.8%, volume pace 13.18x, rising since 2026-11-11T20:15:00+00:00
 - CAML.TO (CENTRAL ASIA METALS PLC): +4.2% today at 2.5, last 30m +3.7%, volume pace 4.04x, rising since 2026-11-11T15:10:00+00:00
 
 ## TSX: top by relative volume at last close
@@ -109,12 +108,12 @@ Market: S&P/TSX Composite 36,170.45 on 2026-11-10 (day -0.8%, month +1.4%, year 
 ## TSX: top gainers in latest intraday pass
 
 - AEG.TO (AEGIS BRANDS INC): +26.2% at 0.385, volume pace 4.13x
-- MTEK.TO (METATEK GROUP LTD): +17.0% at 3.1, volume pace 6.02x
-- GRA.TO (NANOXPLORE INC): +15.0% at 1.495, volume pace 1.09x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +10.2% at 2.6, volume pace 13.18x
+- MTEK.TO (METATEK GROUP LTD): +13.2% at 3.0, volume pace 5.65x
+- GRA.TO (NANOXPLORE INC): +13.1% at 1.47, volume pace 1.29x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +9.8% at 2.59, volume pace 12.29x
 - CFF.TO (CONIFEX TIMBER INC): +9.5% at 0.115, volume pace 8.8x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.5% at 2.95, volume pace 0.75x
-- ORIO.TO (ORION DIGITAL CORP): +8.1% at 1.6, volume pace 2.65x
-- AMC.TO (ARIZONA METALS CORP): +7.1% at 0.15, volume pace 1.34x
-- DYA.TO (DYNACERT INC): +5.9% at 0.09, volume pace 0.03x
-- TAL.TO (PETROTAL CORP): +5.0% at 0.52, volume pace 1.25x
+- ORIO.TO (ORION DIGITAL CORP): +9.5% at 1.62, volume pace 3.03x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.5% at 2.95, volume pace 0.8x
+- TAL.TO (PETROTAL CORP): +7.1% at 0.53, volume pace 1.38x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +6.2% at 0.255, volume pace 0.25x
+- DYA.TO (DYNACERT INC): +5.9% at 0.09, volume pace 0.04x

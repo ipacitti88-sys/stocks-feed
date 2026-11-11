@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T13:31-07:00",
+ "generated": "2026-11-11T14:01-07:00",
  "last_close_day": "2026-11-10",
  "tracked": 699,
  "tracked_by_market": {
@@ -430,51 +430,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-11T20:35:00+00:00",
+ "live_as_of": "2026-11-11T21:00:00+00:00",
  "rising": [
   {
-   "ticker": "TNR.V",
-   "name": "TNR GOLD CORP",
-   "as_of": "2026-11-11T20:25:00+00:00",
-   "last": 0.425,
-   "pct_day": 41.67,
-   "pct_30m": 4.94,
-   "volume_pace": 74.9,
+   "ticker": "ARIC.V",
+   "name": "AWALE RESOURCES LIMITED",
+   "as_of": "2026-11-11T21:00:00+00:00",
+   "last": 0.8,
+   "pct_day": 12.68,
+   "pct_30m": 2.56,
+   "volume_pace": 3.51,
    "rising": true,
-   "rising_since": "2026-11-11T20:15:00+00:00"
+   "rising_since": "2026-11-11T20:55:00+00:00"
   },
   {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-11T20:05:00+00:00",
-   "last": 2.45,
-   "pct_day": 16.67,
-   "pct_30m": 5.15,
-   "volume_pace": 2.79,
+   "ticker": "SVE.V",
+   "name": "SILVER ONE RESOURCES INC",
+   "as_of": "2026-11-11T21:00:00+00:00",
+   "last": 0.47,
+   "pct_day": 4.44,
+   "pct_30m": 3.3,
+   "volume_pace": 2.21,
    "rising": true,
-   "rising_since": "2026-11-11T16:45:00+00:00"
-  },
-  {
-   "ticker": "BLU.V",
-   "name": "BLUENERGIES LTD",
-   "as_of": "2026-11-11T20:15:00+00:00",
-   "last": 2.2,
-   "pct_day": 13.4,
-   "pct_30m": 1.85,
-   "volume_pace": 3.43,
-   "rising": true,
-   "rising_since": "2026-11-11T19:50:00+00:00"
-  },
-  {
-   "ticker": "DCM.TO",
-   "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-11T20:25:00+00:00",
-   "last": 2.6,
-   "pct_day": 10.17,
-   "pct_30m": 0.78,
-   "volume_pace": 13.18,
-   "rising": true,
-   "rising_since": "2026-11-11T20:15:00+00:00"
+   "rising_since": "2026-11-11T20:50:00+00:00"
   },
   {
    "ticker": "CAML.TO",
@@ -486,6 +464,17 @@
    "volume_pace": 4.04,
    "rising": true,
    "rising_since": "2026-11-11T15:10:00+00:00"
+  },
+  {
+   "ticker": "CEI.V",
+   "name": "COELACANTH ENERGY INC",
+   "as_of": "2026-11-11T20:45:00+00:00",
+   "last": 0.67,
+   "pct_day": 3.08,
+   "pct_30m": 1.52,
+   "volume_pace": 2.72,
+   "rising": true,
+   "rising_since": "2026-11-11T20:45:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -496,29 +485,29 @@
    "last": 0.39,
    "pct_day": 50.0,
    "pct_30m": 25.81,
-   "volume_pace": 3.0,
+   "volume_pace": 3.03,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TNR.V",
    "name": "TNR GOLD CORP",
-   "as_of": "2026-11-11T20:25:00+00:00",
+   "as_of": "2026-11-11T21:00:00+00:00",
    "last": 0.425,
    "pct_day": 41.67,
-   "pct_30m": 4.94,
-   "volume_pace": 74.9,
-   "rising": true,
-   "rising_since": "2026-11-11T20:15:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 69.32,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "SCY.V",
    "name": "SCANDIUM INTERNATIONAL MINING C",
-   "as_of": "2026-11-11T19:40:00+00:00",
+   "as_of": "2026-11-11T20:35:00+00:00",
    "last": 0.105,
    "pct_day": 23.53,
-   "pct_30m": 16.67,
-   "volume_pace": 1.12,
+   "pct_30m": 0.0,
+   "volume_pace": 0.96,
    "rising": false,
    "rising_since": null
   },
@@ -545,35 +534,35 @@
    "rising_since": null
   },
   {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-11T20:05:00+00:00",
-   "last": 2.45,
-   "pct_day": 16.67,
-   "pct_30m": 5.15,
-   "volume_pace": 2.79,
-   "rising": true,
-   "rising_since": "2026-11-11T16:45:00+00:00"
-  },
-  {
    "ticker": "COCO.V",
    "name": "COAST COPPER CORP",
    "as_of": "2026-11-11T20:20:00+00:00",
    "last": 0.35,
    "pct_day": 16.67,
    "pct_30m": -2.78,
-   "volume_pace": 5.6,
+   "volume_pace": 5.66,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BUFF.V",
+   "name": "BUFFALO POTASH CORPORATION",
+   "as_of": "2026-11-11T21:00:00+00:00",
+   "last": 0.92,
+   "pct_day": 16.46,
+   "pct_30m": 3.37,
+   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "RZL.V",
    "name": "RZOLV TECHNOLOGIES INC",
-   "as_of": "2026-11-11T16:30:00+00:00",
+   "as_of": "2026-11-11T20:35:00+00:00",
    "last": 0.18,
    "pct_day": 16.13,
-   "pct_30m": 20.0,
-   "volume_pace": 12.48,
+   "pct_30m": 0.0,
+   "volume_pace": 4.14,
    "rising": false,
    "rising_since": null
   },
@@ -613,35 +602,35 @@
   {
    "ticker": "MTEK.TO",
    "name": "METATEK GROUP LTD",
-   "as_of": "2026-11-11T20:25:00+00:00",
-   "last": 3.1,
-   "pct_day": 16.98,
-   "pct_30m": -1.59,
-   "volume_pace": 6.02,
+   "as_of": "2026-11-11T20:55:00+00:00",
+   "last": 3.0,
+   "pct_day": 13.21,
+   "pct_30m": -3.23,
+   "volume_pace": 5.65,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GRA.TO",
    "name": "NANOXPLORE INC",
-   "as_of": "2026-11-11T20:25:00+00:00",
-   "last": 1.495,
-   "pct_day": 15.0,
-   "pct_30m": -0.99,
-   "volume_pace": 1.09,
+   "as_of": "2026-11-11T21:00:00+00:00",
+   "last": 1.47,
+   "pct_day": 13.08,
+   "pct_30m": -1.67,
+   "volume_pace": 1.29,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DCM.TO",
    "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-11T20:25:00+00:00",
-   "last": 2.6,
-   "pct_day": 10.17,
-   "pct_30m": 0.78,
-   "volume_pace": 13.18,
-   "rising": true,
-   "rising_since": "2026-11-11T20:15:00+00:00"
+   "as_of": "2026-11-11T20:55:00+00:00",
+   "last": 2.59,
+   "pct_day": 9.75,
+   "pct_30m": -0.38,
+   "volume_pace": 12.29,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "CFF.TO",
@@ -655,35 +644,46 @@
    "rising_since": null
   },
   {
-   "ticker": "KEEL.TO",
-   "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-11T20:30:00+00:00",
-   "last": 2.95,
-   "pct_day": 8.46,
-   "pct_30m": -0.67,
-   "volume_pace": 0.75,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "ORIO.TO",
    "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-11T20:25:00+00:00",
-   "last": 1.6,
-   "pct_day": 8.11,
-   "pct_30m": 1.91,
-   "volume_pace": 2.65,
+   "as_of": "2026-11-11T21:00:00+00:00",
+   "last": 1.62,
+   "pct_day": 9.46,
+   "pct_30m": 1.25,
+   "volume_pace": 3.03,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "AMC.TO",
-   "name": "ARIZONA METALS CORP",
-   "as_of": "2026-11-11T20:05:00+00:00",
-   "last": 0.15,
-   "pct_day": 7.14,
+   "ticker": "KEEL.TO",
+   "name": "KEEL INFRASTRUCTURE CORP",
+   "as_of": "2026-11-11T21:00:00+00:00",
+   "last": 2.95,
+   "pct_day": 8.46,
    "pct_30m": 0.0,
-   "volume_pace": 1.34,
+   "volume_pace": 0.8,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TAL.TO",
+   "name": "PETROTAL CORP",
+   "as_of": "2026-11-11T21:00:00+00:00",
+   "last": 0.53,
+   "pct_day": 7.07,
+   "pct_30m": 1.92,
+   "volume_pace": 1.38,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CWEB.TO",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "as_of": "2026-11-11T20:40:00+00:00",
+   "last": 0.255,
+   "pct_day": 6.25,
+   "pct_30m": 6.25,
+   "volume_pace": 0.25,
    "rising": false,
    "rising_since": null
   },
@@ -694,18 +694,7 @@
    "last": 0.09,
    "pct_day": 5.88,
    "pct_30m": 0.0,
-   "volume_pace": 0.03,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-11-11T20:30:00+00:00",
-   "last": 0.52,
-   "pct_day": 5.05,
-   "pct_30m": 0.97,
-   "volume_pace": 1.25,
+   "volume_pace": 0.04,
    "rising": false,
    "rising_since": null
   }
@@ -1307,9 +1296,9 @@
    "ma200": 955.73,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-11T20:35:00+00:00",
-    "last": 816.04,
-    "pct_day": -0.74
+    "as_of": "2026-11-11T21:00:00+00:00",
+    "last": 815.17,
+    "pct_day": -0.84
    }
   },
   "^GSPTSE": {
@@ -1908,9 +1897,9 @@
    "ma200": 34684.68,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-11T20:35:00+00:00",
-    "last": 36445.16,
-    "pct_day": 0.76
+    "as_of": "2026-11-11T21:00:00+00:00",
+    "last": 36420.23,
+    "pct_day": 0.69
    }
   }
  },
