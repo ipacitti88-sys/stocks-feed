@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T09:01-07:00",
+ "generated": "2026-11-11T09:31-07:00",
  "last_close_day": "2026-11-10",
  "tracked": 699,
  "tracked_by_market": {
@@ -430,73 +430,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-11T16:05:00+00:00",
+ "live_as_of": "2026-11-11T16:35:00+00:00",
  "rising": [
   {
-   "ticker": "DCM.TO",
-   "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 2.64,
-   "pct_day": 11.86,
-   "pct_30m": 4.76,
-   "volume_pace": 46.08,
-   "rising": true,
-   "rising_since": "2026-11-11T15:50:00+00:00"
-  },
-  {
-   "ticker": "MGG.V",
-   "name": "MINAURUM SILVER INC",
-   "as_of": "2026-11-11T15:15:00+00:00",
-   "last": 0.25,
-   "pct_day": 11.11,
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 1.5,
+   "pct_day": 15.38,
    "pct_30m": 6.38,
-   "volume_pace": 5.15,
+   "volume_pace": 1.74,
    "rising": true,
-   "rising_since": "2026-11-11T15:00:00+00:00"
+   "rising_since": "2026-11-11T16:20:00+00:00"
   },
   {
    "ticker": "QNC.V",
    "name": "QUANTUM EMOTION CORP",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 1.465,
-   "pct_day": 9.33,
-   "pct_30m": 3.9,
-   "volume_pace": 5.15,
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 1.51,
+   "pct_day": 12.69,
+   "pct_30m": 3.07,
+   "volume_pace": 5.52,
    "rising": true,
    "rising_since": "2026-11-11T15:55:00+00:00"
-  },
-  {
-   "ticker": "BUFF.V",
-   "name": "BUFFALO POTASH CORPORATION",
-   "as_of": "2026-11-11T15:55:00+00:00",
-   "last": 0.86,
-   "pct_day": 8.86,
-   "pct_30m": 7.5,
-   "volume_pace": 2.4,
-   "rising": true,
-   "rising_since": "2026-11-11T15:40:00+00:00"
-  },
-  {
-   "ticker": "ARIC.V",
-   "name": "AWALE RESOURCES LIMITED",
-   "as_of": "2026-11-11T15:55:00+00:00",
-   "last": 0.77,
-   "pct_day": 8.45,
-   "pct_30m": 2.67,
-   "volume_pace": 2.94,
-   "rising": true,
-   "rising_since": "2026-11-11T15:30:00+00:00"
-  },
-  {
-   "ticker": "HIVE.TO",
-   "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 2.63,
-   "pct_day": 7.79,
-   "pct_30m": 3.14,
-   "volume_pace": 1.67,
-   "rising": true,
-   "rising_since": "2026-11-11T15:25:00+00:00"
   },
   {
    "ticker": "SAGA.V",
@@ -510,37 +466,26 @@
    "rising_since": "2026-11-11T14:55:00+00:00"
   },
   {
-   "ticker": "LCX.V",
-   "name": "LYCOS ENERGY INC",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 1.55,
-   "pct_day": 5.44,
-   "pct_30m": 0.65,
-   "volume_pace": 2.13,
+   "ticker": "RBY.TO",
+   "name": "RUBELLITE ENERGY CORP",
+   "as_of": "2026-11-11T16:25:00+00:00",
+   "last": 3.35,
+   "pct_day": 4.69,
+   "pct_30m": 0.9,
+   "volume_pace": 3.81,
    "rising": true,
-   "rising_since": "2026-11-11T16:00:00+00:00"
+   "rising_since": "2026-11-11T16:10:00+00:00"
   },
   {
-   "ticker": "AXL.V",
-   "name": "ARROW EXPLORATION CORP",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 0.61,
-   "pct_day": 5.17,
-   "pct_30m": 3.39,
-   "volume_pace": 2.41,
+   "ticker": "LUC.TO",
+   "name": "LUCARA DIAMOND CORP",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 0.115,
+   "pct_day": 4.55,
+   "pct_30m": 4.55,
+   "volume_pace": 5.09,
    "rising": true,
-   "rising_since": "2026-11-11T15:50:00+00:00"
-  },
-  {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-11-11T15:50:00+00:00",
-   "last": 0.52,
-   "pct_day": 5.05,
-   "pct_30m": 1.96,
-   "volume_pace": 3.31,
-   "rising": true,
-   "rising_since": "2026-11-11T15:20:00+00:00"
+   "rising_since": "2026-11-11T16:10:00+00:00"
   },
   {
    "ticker": "CAML.TO",
@@ -554,72 +499,127 @@
    "rising_since": "2026-11-11T15:10:00+00:00"
   },
   {
-   "ticker": "PRQ.TO",
-   "name": "PETRUS RESOURCES LTD",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 1.79,
-   "pct_day": 4.07,
-   "pct_30m": 4.68,
-   "volume_pace": 5.33,
+   "ticker": "KRY.V",
+   "name": "KORYX COPPER S A",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 3.38,
+   "pct_day": 3.36,
+   "pct_30m": 1.5,
+   "volume_pace": 1.61,
    "rising": true,
-   "rising_since": "2026-11-11T15:55:00+00:00"
+   "rising_since": "2026-11-11T16:25:00+00:00"
+  },
+  {
+   "ticker": "GHRT.V",
+   "name": "GREENHEART GOLD INC",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 0.63,
+   "pct_day": 3.28,
+   "pct_30m": 1.61,
+   "volume_pace": 1.65,
+   "rising": true,
+   "rising_since": "2026-11-11T16:15:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "COCO.V",
    "name": "COAST COPPER CORP",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 0.38,
-   "pct_day": 26.67,
-   "pct_30m": 2.7,
-   "volume_pace": 13.43,
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 0.4,
+   "pct_day": 33.33,
+   "pct_30m": 5.26,
+   "volume_pace": 15.92,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FROG.V",
+   "name": "BULLFROG GOLD CORPORATION",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 0.155,
+   "pct_day": 19.23,
+   "pct_30m": 14.81,
+   "volume_pace": 16.44,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PRG.V",
    "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-11-11T16:05:00+00:00",
+   "as_of": "2026-11-11T16:35:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 1.04,
+   "volume_pace": 1.17,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "RZL.V",
+   "name": "RZOLV TECHNOLOGIES INC",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 0.18,
+   "pct_day": 16.13,
+   "pct_30m": 20.0,
+   "volume_pace": 12.37,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CYBE.V",
    "name": "CYBERCATCH HOLDINGS INC",
-   "as_of": "2026-11-11T15:30:00+00:00",
+   "as_of": "2026-11-11T16:25:00+00:00",
    "last": 1.37,
    "pct_day": 14.17,
-   "pct_30m": -1.44,
-   "volume_pace": 1.61,
+   "pct_30m": 0.0,
+   "volume_pace": 0.84,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HART.V",
+   "name": "GOLD HART COPPER CORP",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 0.17,
+   "pct_day": 13.33,
+   "pct_30m": 6.25,
+   "volume_pace": 4.93,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "SUNV.V",
    "name": "Sun Valley Minerals Inc.",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 0.89,
-   "pct_day": 14.1,
-   "pct_30m": 4.71,
-   "volume_pace": 1.46,
+   "as_of": "2026-11-11T16:20:00+00:00",
+   "last": 0.88,
+   "pct_day": 12.82,
+   "pct_30m": -1.12,
+   "volume_pace": 1.43,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "MGG.V",
-   "name": "MINAURUM SILVER INC",
-   "as_of": "2026-11-11T15:15:00+00:00",
-   "last": 0.25,
-   "pct_day": 11.11,
-   "pct_30m": 6.38,
-   "volume_pace": 5.15,
+   "ticker": "QNC.V",
+   "name": "QUANTUM EMOTION CORP",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 1.51,
+   "pct_day": 12.69,
+   "pct_30m": 3.07,
+   "volume_pace": 5.52,
    "rising": true,
-   "rising_since": "2026-11-11T15:00:00+00:00"
+   "rising_since": "2026-11-11T15:55:00+00:00"
+  },
+  {
+   "ticker": "KCP.V",
+   "name": "KING COPPER DISCOVERY CORP",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 0.63,
+   "pct_day": 10.53,
+   "pct_30m": 1.61,
+   "volume_pace": 0.26,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "STMP.V",
@@ -628,53 +628,20 @@
    "last": 0.11,
    "pct_day": 10.0,
    "pct_30m": -4.35,
-   "volume_pace": 0.64,
+   "volume_pace": 0.72,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ESK.V",
-   "name": "ESKAY MINING CORP.",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 0.22,
-   "pct_day": 10.0,
-   "pct_30m": 4.76,
-   "volume_pace": 0.0,
+   "ticker": "CFF.TO",
+   "name": "CONIFEX TIMBER INC",
+   "as_of": "2026-11-11T16:10:00+00:00",
+   "last": 0.125,
+   "pct_day": 19.05,
+   "pct_30m": 13.64,
+   "volume_pace": 6.95,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "PPX.V",
-   "name": "PPX MINING CORP",
-   "as_of": "2026-11-11T14:55:00+00:00",
-   "last": 0.23,
-   "pct_day": 9.52,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "WIL.V",
-   "name": "WILTON RESOURCES INC",
-   "as_of": "2026-11-11T14:50:00+00:00",
-   "last": 0.23,
-   "pct_day": 9.52,
-   "pct_30m": 4.55,
-   "volume_pace": 0.15,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "QNC.V",
-   "name": "QUANTUM EMOTION CORP",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 1.465,
-   "pct_day": 9.33,
-   "pct_30m": 3.9,
-   "volume_pace": 5.15,
-   "rising": true,
-   "rising_since": "2026-11-11T15:55:00+00:00"
   },
   {
    "ticker": "MTEK.TO",
@@ -683,64 +650,53 @@
    "last": 3.1,
    "pct_day": 16.98,
    "pct_30m": 12.73,
-   "volume_pace": 12.85,
+   "volume_pace": 12.92,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "CFF.TO",
-   "name": "CONIFEX TIMBER INC",
-   "as_of": "2026-11-11T15:50:00+00:00",
-   "last": 0.12,
-   "pct_day": 14.29,
-   "pct_30m": 9.09,
-   "volume_pace": 1.8,
-   "rising": false,
-   "rising_since": null
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 1.5,
+   "pct_day": 15.38,
+   "pct_30m": 6.38,
+   "volume_pace": 1.74,
+   "rising": true,
+   "rising_since": "2026-11-11T16:20:00+00:00"
   },
   {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 3.05,
-   "pct_day": 12.13,
-   "pct_30m": 3.04,
-   "volume_pace": 1.38,
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 3.04,
+   "pct_day": 11.76,
+   "pct_30m": -0.33,
+   "volume_pace": 1.24,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DCM.TO",
    "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 2.64,
-   "pct_day": 11.86,
-   "pct_30m": 4.76,
-   "volume_pace": 46.08,
-   "rising": true,
-   "rising_since": "2026-11-11T15:50:00+00:00"
-  },
-  {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-11-11T15:55:00+00:00",
-   "last": 1.41,
-   "pct_day": 8.46,
-   "pct_30m": 0.0,
-   "volume_pace": 1.33,
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 2.6,
+   "pct_day": 10.17,
+   "pct_30m": -1.52,
+   "volume_pace": 37.36,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "HIVE.TO",
-   "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 2.63,
-   "pct_day": 7.79,
-   "pct_30m": 3.14,
-   "volume_pace": 1.67,
-   "rising": true,
-   "rising_since": "2026-11-11T15:25:00+00:00"
+   "ticker": "DND.TO",
+   "name": "DYE AND DURHAM LIMITED",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 2.02,
+   "pct_day": 8.02,
+   "pct_30m": 1.0,
+   "volume_pace": 1.22,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "NANO.TO",
@@ -754,37 +710,37 @@
    "rising_since": null
   },
   {
-   "ticker": "DND.TO",
-   "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-11T16:00:00+00:00",
-   "last": 2.0,
-   "pct_day": 6.95,
-   "pct_30m": -1.96,
-   "volume_pace": 1.37,
+   "ticker": "HIVE.TO",
+   "name": "HIVE DIGITAL TECHNOLOGIES LTD",
+   "as_of": "2026-11-11T16:30:00+00:00",
+   "last": 2.61,
+   "pct_day": 6.97,
+   "pct_30m": -0.76,
+   "volume_pace": 1.64,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-11-11T15:50:00+00:00",
-   "last": 0.52,
-   "pct_day": 5.05,
-   "pct_30m": 1.96,
-   "volume_pace": 3.31,
+   "ticker": "RBY.TO",
+   "name": "RUBELLITE ENERGY CORP",
+   "as_of": "2026-11-11T16:25:00+00:00",
+   "last": 3.35,
+   "pct_day": 4.69,
+   "pct_30m": 0.9,
+   "volume_pace": 3.81,
    "rising": true,
-   "rising_since": "2026-11-11T15:20:00+00:00"
+   "rising_since": "2026-11-11T16:10:00+00:00"
   },
   {
-   "ticker": "SVA.TO",
-   "name": "SERNOVA BIOTHERAPEUTICS INC",
-   "as_of": "2026-11-11T15:25:00+00:00",
+   "ticker": "LUC.TO",
+   "name": "LUCARA DIAMOND CORP",
+   "as_of": "2026-11-11T16:30:00+00:00",
    "last": 0.115,
    "pct_day": 4.55,
    "pct_30m": 4.55,
-   "volume_pace": 0.23,
-   "rising": false,
-   "rising_since": null
+   "volume_pace": 5.09,
+   "rising": true,
+   "rising_since": "2026-11-11T16:10:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1384,9 +1340,9 @@
    "ma200": 955.73,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-11T16:05:00+00:00",
-    "last": 823.58,
-    "pct_day": 0.18
+    "as_of": "2026-11-11T16:35:00+00:00",
+    "last": 823.73,
+    "pct_day": 0.2
    }
   },
   "^GSPTSE": {
@@ -1985,8 +1941,8 @@
    "ma200": 34684.68,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-11T16:05:00+00:00",
-    "last": 36395.69,
+    "as_of": "2026-11-11T16:35:00+00:00",
+    "last": 36396.17,
     "pct_day": 0.62
    }
   }
