@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T10:01-07:00",
+ "generated": "2026-11-11T10:31-07:00",
  "last_close_day": "2026-11-10",
  "tracked": 699,
  "tracked_by_market": {
@@ -430,18 +430,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-11T17:05:00+00:00",
+ "live_as_of": "2026-11-11T17:35:00+00:00",
  "rising": [
   {
-   "ticker": "BUFF.V",
-   "name": "BUFFALO POTASH CORPORATION",
-   "as_of": "2026-11-11T16:45:00+00:00",
-   "last": 0.9,
-   "pct_day": 13.92,
-   "pct_30m": 2.27,
-   "volume_pace": 1.79,
+   "ticker": "QNC.V",
+   "name": "QUANTUM EMOTION CORP",
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 1.51,
+   "pct_day": 12.69,
+   "pct_30m": 0.33,
+   "volume_pace": 4.05,
    "rising": true,
-   "rising_since": "2026-11-11T16:45:00+00:00"
+   "rising_since": "2026-11-11T17:30:00+00:00"
+  },
+  {
+   "ticker": "DCM.TO",
+   "name": "DATA COMMUNICATIONS MGMT CORP",
+   "as_of": "2026-11-11T17:10:00+00:00",
+   "last": 2.62,
+   "pct_day": 11.02,
+   "pct_30m": 0.38,
+   "volume_pace": 28.39,
+   "rising": true,
+   "rising_since": "2026-11-11T17:10:00+00:00"
   },
   {
    "ticker": "ARIC.V",
@@ -450,7 +461,7 @@
    "last": 0.78,
    "pct_day": 9.86,
    "pct_30m": 2.63,
-   "volume_pace": 3.54,
+   "volume_pace": 3.55,
    "rising": true,
    "rising_since": "2026-11-11T16:35:00+00:00"
   },
@@ -468,46 +479,35 @@
   {
    "ticker": "PAIN.V",
    "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-11T16:55:00+00:00",
-   "last": 2.21,
-   "pct_day": 5.24,
-   "pct_30m": 3.27,
-   "volume_pace": 1.78,
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 2.24,
+   "pct_day": 6.67,
+   "pct_30m": 1.36,
+   "volume_pace": 2.0,
    "rising": true,
    "rising_since": "2026-11-11T16:45:00+00:00"
   },
   {
    "ticker": "AXL.V",
    "name": "ARROW EXPLORATION CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
+   "as_of": "2026-11-11T17:20:00+00:00",
    "last": 0.61,
    "pct_day": 5.17,
    "pct_30m": 0.83,
-   "volume_pace": 1.57,
+   "volume_pace": 2.0,
    "rising": true,
    "rising_since": "2026-11-11T17:00:00+00:00"
   },
   {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 0.52,
-   "pct_day": 5.05,
-   "pct_30m": 0.97,
-   "volume_pace": 2.02,
+   "ticker": "EMPR.V",
+   "name": "EMPRESS ROYALTY CORP",
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 0.94,
+   "pct_day": 4.44,
+   "pct_30m": 2.17,
+   "volume_pace": 2.53,
    "rising": true,
-   "rising_since": "2026-11-11T17:00:00+00:00"
-  },
-  {
-   "ticker": "RBY.TO",
-   "name": "RUBELLITE ENERGY CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 3.36,
-   "pct_day": 5.0,
-   "pct_30m": 0.3,
-   "volume_pace": 3.36,
-   "rising": true,
-   "rising_since": "2026-11-11T16:10:00+00:00"
+   "rising_since": "2026-11-11T17:05:00+00:00"
   },
   {
    "ticker": "CAML.TO",
@@ -519,17 +519,6 @@
    "volume_pace": 4.04,
    "rising": true,
    "rising_since": "2026-11-11T15:10:00+00:00"
-  },
-  {
-   "ticker": "BLU.V",
-   "name": "BLUENERGIES LTD",
-   "as_of": "2026-11-11T16:35:00+00:00",
-   "last": 2.0,
-   "pct_day": 3.09,
-   "pct_30m": 3.09,
-   "volume_pace": 3.97,
-   "rising": true,
-   "rising_since": "2026-11-11T16:35:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -547,33 +536,33 @@
   {
    "ticker": "HART.V",
    "name": "GOLD HART COPPER CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 0.185,
-   "pct_day": 23.33,
-   "pct_30m": 8.82,
-   "volume_pace": 4.53,
+   "as_of": "2026-11-11T17:25:00+00:00",
+   "last": 0.18,
+   "pct_day": 20.0,
+   "pct_30m": 2.86,
+   "volume_pace": 4.06,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "FROG.V",
    "name": "BULLFROG GOLD CORPORATION",
-   "as_of": "2026-11-11T17:00:00+00:00",
+   "as_of": "2026-11-11T17:25:00+00:00",
    "last": 0.155,
    "pct_day": 19.23,
    "pct_30m": 0.0,
-   "volume_pace": 13.64,
+   "volume_pace": 12.28,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PRG.V",
    "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-11-11T17:05:00+00:00",
+   "as_of": "2026-11-11T17:35:00+00:00",
    "last": 0.13,
    "pct_day": 18.18,
    "pct_30m": 0.0,
-   "volume_pace": 1.26,
+   "volume_pace": 1.34,
    "rising": false,
    "rising_since": null
   },
@@ -591,46 +580,35 @@
   {
    "ticker": "PLUR.V",
    "name": "PLURILOCK SECURITYINC",
-   "as_of": "2026-11-11T17:00:00+00:00",
+   "as_of": "2026-11-11T17:30:00+00:00",
    "last": 0.2,
    "pct_day": 14.29,
-   "pct_30m": 5.26,
-   "volume_pace": 0.76,
+   "pct_30m": 0.0,
+   "volume_pace": 2.66,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "BUFF.V",
-   "name": "BUFFALO POTASH CORPORATION",
-   "as_of": "2026-11-11T16:45:00+00:00",
-   "last": 0.9,
-   "pct_day": 13.92,
-   "pct_30m": 2.27,
-   "volume_pace": 1.79,
-   "rising": true,
-   "rising_since": "2026-11-11T16:45:00+00:00"
-  },
-  {
    "ticker": "CYBE.V",
    "name": "CYBERCATCH HOLDINGS INC",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 1.35,
-   "pct_day": 12.5,
-   "pct_30m": -1.46,
-   "volume_pace": 0.86,
+   "as_of": "2026-11-11T17:20:00+00:00",
+   "last": 1.37,
+   "pct_day": 14.17,
+   "pct_30m": 2.24,
+   "volume_pace": 0.94,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "QNC.V",
    "name": "QUANTUM EMOTION CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 1.505,
-   "pct_day": 12.31,
-   "pct_30m": -0.33,
-   "volume_pace": 4.54,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 1.51,
+   "pct_day": 12.69,
+   "pct_30m": 0.33,
+   "volume_pace": 4.05,
+   "rising": true,
+   "rising_since": "2026-11-11T17:30:00+00:00"
   },
   {
    "ticker": "SUNV.V",
@@ -639,7 +617,29 @@
    "last": 0.87,
    "pct_day": 11.54,
    "pct_30m": -1.14,
-   "volume_pace": 1.13,
+   "volume_pace": 1.17,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "KEON.V",
+   "name": "Keon Capital Inc.",
+   "as_of": "2026-11-11T17:25:00+00:00",
+   "last": 0.29,
+   "pct_day": 11.54,
+   "pct_30m": 1.75,
+   "volume_pace": 0.54,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CFF.TO",
+   "name": "CONIFEX TIMBER INC",
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 0.14,
+   "pct_day": 33.33,
+   "pct_30m": 12.0,
+   "volume_pace": 3.86,
    "rising": false,
    "rising_since": null
   },
@@ -651,17 +651,6 @@
    "pct_day": 26.23,
    "pct_30m": 30.51,
    "volume_pace": 4.13,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CFF.TO",
-   "name": "CONIFEX TIMBER INC",
-   "as_of": "2026-11-11T16:10:00+00:00",
-   "last": 0.125,
-   "pct_day": 19.05,
-   "pct_30m": 13.64,
-   "volume_pace": 6.95,
    "rising": false,
    "rising_since": null
   },
@@ -679,79 +668,79 @@
   {
    "ticker": "GRA.TO",
    "name": "NANOXPLORE INC",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 1.5,
-   "pct_day": 15.38,
-   "pct_30m": 0.0,
-   "volume_pace": 2.13,
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 1.49,
+   "pct_day": 14.62,
+   "pct_30m": -0.67,
+   "volume_pace": 1.89,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 3.02,
-   "pct_day": 11.03,
-   "pct_30m": -0.66,
-   "volume_pace": 1.12,
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 3.045,
+   "pct_day": 11.95,
+   "pct_30m": 0.83,
+   "volume_pace": 1.04,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DCM.TO",
    "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 2.58,
-   "pct_day": 9.32,
-   "pct_30m": -0.77,
-   "volume_pace": 30.25,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-11-11T17:10:00+00:00",
+   "last": 2.62,
+   "pct_day": 11.02,
+   "pct_30m": 0.38,
+   "volume_pace": 28.39,
+   "rising": true,
+   "rising_since": "2026-11-11T17:10:00+00:00"
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 2.04,
-   "pct_day": 9.09,
-   "pct_30m": 0.99,
-   "volume_pace": 1.09,
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 2.035,
+   "pct_day": 8.82,
+   "pct_30m": -0.25,
+   "volume_pace": 1.03,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AMC.TO",
    "name": "ARIZONA METALS CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
+   "as_of": "2026-11-11T17:35:00+00:00",
    "last": 0.15,
    "pct_day": 7.14,
-   "pct_30m": 7.14,
-   "volume_pace": 2.57,
+   "pct_30m": 0.0,
+   "volume_pace": 2.31,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "EDT.TO",
+   "name": "SPECTRAL MEDICAL INC",
+   "as_of": "2026-11-11T17:30:00+00:00",
+   "last": 1.14,
+   "pct_day": 6.54,
+   "pct_30m": 3.64,
+   "volume_pace": 0.16,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 2.58,
-   "pct_day": 5.74,
-   "pct_30m": -1.15,
-   "volume_pace": 1.42,
+   "as_of": "2026-11-11T17:35:00+00:00",
+   "last": 2.59,
+   "pct_day": 6.15,
+   "pct_30m": 0.39,
+   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "TAL.TO",
-   "name": "PETROTAL CORP",
-   "as_of": "2026-11-11T17:00:00+00:00",
-   "last": 0.52,
-   "pct_day": 5.05,
-   "pct_30m": 0.97,
-   "volume_pace": 2.02,
-   "rising": true,
-   "rising_since": "2026-11-11T17:00:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1351,9 +1340,9 @@
    "ma200": 955.73,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-11T17:05:00+00:00",
-    "last": 822.57,
-    "pct_day": 0.06
+    "as_of": "2026-11-11T17:35:00+00:00",
+    "last": 822.8,
+    "pct_day": 0.09
    }
   },
   "^GSPTSE": {
@@ -1952,9 +1941,9 @@
    "ma200": 34684.68,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-11T17:05:00+00:00",
-    "last": 36411.26,
-    "pct_day": 0.67
+    "as_of": "2026-11-11T17:35:00+00:00",
+    "last": 36461.32,
+    "pct_day": 0.8
    }
   }
  },
