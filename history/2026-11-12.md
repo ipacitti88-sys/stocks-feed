@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-12T12:01-07:00
+# Stock feed — 2026-11-12T12:31-07:00
 
-Tracking 700 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-11. Intraday data as of: 2026-11-12T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 700 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-11. Intraday data as of: 2026-11-12T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 817.02 on 2026-11-11 (day -0.6%, month -5.1%, year -10.0%, downtrend); live -1.6% at 19:05
-Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year +20.1%, uptrend); live -0.6% at 19:05
+Market: S&P/TSX Venture Composite 817.02 on 2026-11-11 (day -0.6%, month -5.1%, year -10.0%, downtrend); live -1.8% at 19:35
+Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year +20.1%, uptrend); live -0.6% at 19:35
 
 # TSX Venture
 
@@ -39,9 +39,11 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.7% today at 2.8, last 30m +0.4%, volume pace 6.25x, rising since 2026-11-12T18:45:00+00:00
-- AHR.V (Amarc Resources Ltd.): +13.0% today at 1.04, last 30m +11.8%, volume pace 2.66x, rising since 2026-11-12T18:50:00+00:00
+- TDG.V (TDG GOLD CORP): +46.9% today at 0.72, last 30m +26.3%, volume pace 6.84x, rising since 2026-11-12T19:20:00+00:00
+- AHR.V (Amarc Resources Ltd.): +13.0% today at 1.04, last 30m +1.0%, volume pace 4.2x, rising since 2026-11-12T18:50:00+00:00
 - RCK.V (ROCK TECH LITHIUM INC): +8.8% today at 0.62, last 30m +8.8%, volume pace 2.31x, rising since 2026-11-12T15:45:00+00:00
+- KFR.V (KINGFISHER METALS CORP): +8.7% today at 1.12, last 30m +0.9%, volume pace 4.26x, rising since 2026-11-12T19:15:00+00:00
+- LVG.V (LAKE VICTORIA GOLD LTD): +6.2% today at 0.34, last 30m +1.5%, volume pace 1.61x, rising since 2026-11-12T19:10:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -58,16 +60,16 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- TDG.V (TDG GOLD CORP): +46.9% at 0.72, volume pace 6.84x
 - BEAR.V (BIG BEAR GOLD CORP): +20.0% at 0.12, volume pace 0.0x
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.7% at 2.8, volume pace 6.25x
-- AHR.V (Amarc Resources Ltd.): +13.0% at 1.04, volume pace 2.66x
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +16.7% at 2.8, volume pace 5.83x
+- AHR.V (Amarc Resources Ltd.): +13.0% at 1.04, volume pace 4.2x
 - AGLD.V (AUSTRAL GOLD LIMITED): +13.0% at 0.13, volume pace 0.0x
 - MRVL.V (MARVEL BIOSCIENCES CORP): +13.0% at 0.13, volume pace 0.17x
 - NSU.V (NORTH SHORE URANIUM LTD): +12.9% at 0.175, volume pace 1.04x
 - ADE.V (ADEX MINING INC.): +11.5% at 0.145, volume pace 2.68x
 - GRZ.V (GOLD RESERVE LTD): +9.7% at 5.0, volume pace 4.55x
-- RCK.V (ROCK TECH LITHIUM INC): +8.8% at 0.62, volume pace 2.31x
-- STS.V (SOUTH STAR BATTERY METALS CORP): +8.7% at 0.25, volume pace 31.97x
+- BIG.V (HERCULES METALS CORP): +9.5% at 1.04, volume pace 0.85x
 
 # TSX
 
@@ -94,7 +96,8 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +6.4% today at 5.65, last 30m +0.2%, volume pace 6.59x, rising since 2026-11-12T18:35:00+00:00
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +12.9% today at 2.54, last 30m +3.7%, volume pace 7.55x, rising since 2026-11-12T19:05:00+00:00
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +8.8% today at 4.95, last 30m +1.6%, volume pace 2.52x, rising since 2026-11-12T19:10:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -111,13 +114,13 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +8.9% at 2.45, volume pace 8.16x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +7.0% at 4.87, volume pace 2.5x
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +6.4% at 5.65, volume pace 6.59x
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +12.9% at 2.54, volume pace 7.55x
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +8.8% at 4.95, volume pace 2.52x
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +6.8% at 5.67, volume pace 6.76x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +5.9% at 0.27, volume pace 1.62x
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +5.6% at 4.56, volume pace 1.16x
-- AKT.TO (AKITA DRILLING LTD): +5.1% at 3.51, volume pace 0.14x
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +5.3% at 4.55, volume pace 1.11x
 - CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
-- FLT.TO (VOLATUS AEROSPACE INC): +4.7% at 0.445, volume pace 1.16x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +3.9% at 1.06, volume pace 3.2x
+- AKT.TO (AKITA DRILLING LTD): +4.5% at 3.49, volume pace 0.14x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +3.9% at 3.875, volume pace 0.75x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +3.4% at 1.055, volume pace 2.99x
 - THNC.TO (THINKIFIC LABS INC): +3.4% at 2.46, volume pace 0.35x
