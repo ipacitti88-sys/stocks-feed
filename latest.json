@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T09:01-07:00",
+ "generated": "2026-11-12T09:31-07:00",
  "last_close_day": "2026-11-11",
  "tracked": 700,
  "tracked_by_market": {
@@ -475,18 +475,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-12T16:05:00+00:00",
+ "live_as_of": "2026-11-12T16:35:00+00:00",
  "rising": [
   {
    "ticker": "PAIN.V",
    "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-12T16:05:00+00:00",
-   "last": 2.71,
-   "pct_day": 12.92,
-   "pct_30m": 1.5,
-   "volume_pace": 6.01,
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 2.75,
+   "pct_day": 14.58,
+   "pct_30m": 1.85,
+   "volume_pace": 5.09,
    "rising": true,
    "rising_since": "2026-11-12T16:05:00+00:00"
+  },
+  {
+   "ticker": "BRE.TO",
+   "name": "BRIDGEMARQ REAL ESTATE SERVICES",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 2.45,
+   "pct_day": 8.89,
+   "pct_30m": 2.94,
+   "volume_pace": 6.97,
+   "rising": true,
+   "rising_since": "2026-11-12T16:00:00+00:00"
   },
   {
    "ticker": "RCK.V",
@@ -500,61 +511,39 @@
    "rising_since": "2026-11-12T15:45:00+00:00"
   },
   {
-   "ticker": "LVG.V",
-   "name": "LAKE VICTORIA GOLD LTD",
-   "as_of": "2026-11-12T15:35:00+00:00",
-   "last": 0.34,
-   "pct_day": 6.25,
-   "pct_30m": 6.25,
-   "volume_pace": 4.35,
+   "ticker": "MDP.TO",
+   "name": "MEDEXUS PHARMACEUTICALS INC",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 5.69,
+   "pct_day": 7.16,
+   "pct_30m": 1.07,
+   "volume_pace": 6.91,
    "rising": true,
-   "rising_since": "2026-11-12T15:35:00+00:00"
+   "rising_since": "2026-11-12T16:25:00+00:00"
   },
   {
-   "ticker": "BRE.TO",
-   "name": "BRIDGEMARQ REAL ESTATE SERVICES",
-   "as_of": "2026-11-12T16:00:00+00:00",
-   "last": 2.38,
-   "pct_day": 5.78,
-   "pct_30m": 1.49,
-   "volume_pace": 6.76,
+   "ticker": "NAU.V",
+   "name": "NEVGOLD CORP",
+   "as_of": "2026-11-12T16:15:00+00:00",
+   "last": 0.56,
+   "pct_day": 5.66,
+   "pct_30m": 3.7,
+   "volume_pace": 1.64,
    "rising": true,
-   "rising_since": "2026-11-12T16:00:00+00:00"
-  },
-  {
-   "ticker": "GRID.TO",
-   "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-12T16:00:00+00:00",
-   "last": 4.78,
-   "pct_day": 5.05,
-   "pct_30m": 3.69,
-   "volume_pace": 2.74,
-   "rising": true,
-   "rising_since": "2026-11-12T15:40:00+00:00"
-  },
-  {
-   "ticker": "CCMM.V",
-   "name": "COYOTE COPPER MINES INC",
-   "as_of": "2026-11-12T15:25:00+00:00",
-   "last": 0.31,
-   "pct_day": 3.33,
-   "pct_30m": 3.33,
-   "volume_pace": 3.04,
-   "rising": true,
-   "rising_since": "2026-11-12T15:25:00+00:00"
+   "rising_since": "2026-11-12T16:15:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
-   "ticker": "KFR.V",
-   "name": "KINGFISHER METALS CORP",
-   "as_of": "2026-11-12T15:55:00+00:00",
-   "last": 1.18,
-   "pct_day": 14.56,
-   "pct_30m": -0.84,
-   "volume_pace": 8.27,
-   "rising": false,
-   "rising_since": null
+   "ticker": "PAIN.V",
+   "name": "VECTOR SCIENCE AND THERAPEUTICS",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 2.75,
+   "pct_day": 14.58,
+   "pct_30m": 1.85,
+   "volume_pace": 5.09,
+   "rising": true,
+   "rising_since": "2026-11-12T16:05:00+00:00"
   },
   {
    "ticker": "MRVL.V",
@@ -568,15 +557,15 @@
    "rising_since": null
   },
   {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-12T16:05:00+00:00",
-   "last": 2.71,
-   "pct_day": 12.92,
-   "pct_30m": 1.5,
-   "volume_pace": 6.01,
-   "rising": true,
-   "rising_since": "2026-11-12T16:05:00+00:00"
+   "ticker": "KFR.V",
+   "name": "KINGFISHER METALS CORP",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 1.14,
+   "pct_day": 10.68,
+   "pct_30m": -3.39,
+   "volume_pace": 6.9,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "RCK.V",
@@ -588,17 +577,6 @@
    "volume_pace": 2.31,
    "rising": true,
    "rising_since": "2026-11-12T15:45:00+00:00"
-  },
-  {
-   "ticker": "GRZ.V",
-   "name": "GOLD RESERVE LTD",
-   "as_of": "2026-11-12T15:00:00+00:00",
-   "last": 4.95,
-   "pct_day": 8.55,
-   "pct_30m": 3.12,
-   "volume_pace": 12.94,
-   "rising": false,
-   "rising_since": null
   },
   {
    "ticker": "RYO.V",
@@ -614,11 +592,22 @@
   {
    "ticker": "MKT.V",
    "name": "PROSPECT PREDICTION MARKETS INC",
-   "as_of": "2026-11-12T16:00:00+00:00",
+   "as_of": "2026-11-12T16:20:00+00:00",
    "last": 0.285,
    "pct_day": 7.55,
    "pct_30m": 1.79,
-   "volume_pace": 10.21,
+   "volume_pace": 8.78,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GRZ.V",
+   "name": "GOLD RESERVE LTD",
+   "as_of": "2026-11-12T16:15:00+00:00",
+   "last": 4.9,
+   "pct_day": 7.46,
+   "pct_30m": -1.01,
+   "volume_pace": 3.84,
    "rising": false,
    "rising_since": null
   },
@@ -629,7 +618,7 @@
    "last": 1.31,
    "pct_day": 7.38,
    "pct_30m": 4.8,
-   "volume_pace": 2.34,
+   "volume_pace": 2.62,
    "rising": false,
    "rising_since": null
   },
@@ -640,7 +629,7 @@
    "last": 0.075,
    "pct_day": 7.14,
    "pct_30m": -6.25,
-   "volume_pace": 0.0,
+   "volume_pace": 0.04,
    "rising": false,
    "rising_since": null
   },
@@ -656,37 +645,37 @@
    "rising_since": null
   },
   {
-   "ticker": "MDP.TO",
-   "name": "MEDEXUS PHARMACEUTICALS INC",
-   "as_of": "2026-11-12T15:50:00+00:00",
-   "last": 5.63,
-   "pct_day": 6.03,
-   "pct_30m": -1.23,
-   "volume_pace": 8.5,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "BRE.TO",
    "name": "BRIDGEMARQ REAL ESTATE SERVICES",
-   "as_of": "2026-11-12T16:00:00+00:00",
-   "last": 2.38,
-   "pct_day": 5.78,
-   "pct_30m": 1.49,
-   "volume_pace": 6.76,
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 2.45,
+   "pct_day": 8.89,
+   "pct_30m": 2.94,
+   "volume_pace": 6.97,
    "rising": true,
    "rising_since": "2026-11-12T16:00:00+00:00"
   },
   {
+   "ticker": "MDP.TO",
+   "name": "MEDEXUS PHARMACEUTICALS INC",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 5.69,
+   "pct_day": 7.16,
+   "pct_30m": 1.07,
+   "volume_pace": 6.91,
+   "rising": true,
+   "rising_since": "2026-11-12T16:25:00+00:00"
+  },
+  {
    "ticker": "GRID.TO",
    "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-12T16:00:00+00:00",
-   "last": 4.78,
-   "pct_day": 5.05,
-   "pct_30m": 3.69,
-   "volume_pace": 2.74,
-   "rising": true,
-   "rising_since": "2026-11-12T15:40:00+00:00"
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 4.77,
+   "pct_day": 4.84,
+   "pct_30m": -0.21,
+   "volume_pace": 3.9,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "CFF.TO",
@@ -700,13 +689,24 @@
    "rising_since": null
   },
   {
-   "ticker": "AP-UN.TO",
-   "name": "ALLIED PROPERTIES REAL ESTATE I",
-   "as_of": "2026-11-12T16:05:00+00:00",
-   "last": 3.87,
-   "pct_day": 3.75,
-   "pct_30m": 0.0,
-   "volume_pace": 1.31,
+   "ticker": "ESI.TO",
+   "name": "ENSIGN ENERGY SERVICES INC.",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 4.46,
+   "pct_day": 3.24,
+   "pct_30m": 0.9,
+   "volume_pace": 0.66,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PRQ.TO",
+   "name": "PETRUS RESOURCES LTD",
+   "as_of": "2026-11-12T16:10:00+00:00",
+   "last": 1.76,
+   "pct_day": 2.92,
+   "pct_30m": 1.15,
+   "volume_pace": 5.19,
    "rising": false,
    "rising_since": null
   },
@@ -722,46 +722,35 @@
    "rising_since": null
   },
   {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-11-12T15:40:00+00:00",
-   "last": 1.495,
-   "pct_day": 2.4,
-   "pct_30m": 0.34,
-   "volume_pace": 1.51,
+   "ticker": "FLT.TO",
+   "name": "VOLATUS AEROSPACE INC",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 0.435,
+   "pct_day": 2.35,
+   "pct_30m": 2.35,
+   "volume_pace": 1.94,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "PRQ.TO",
-   "name": "PETRUS RESOURCES LTD",
-   "as_of": "2026-11-12T15:55:00+00:00",
-   "last": 1.75,
-   "pct_day": 2.34,
-   "pct_30m": 0.57,
-   "volume_pace": 5.48,
+   "ticker": "THNC.TO",
+   "name": "THINKIFIC LABS INC",
+   "as_of": "2026-11-12T16:20:00+00:00",
+   "last": 2.43,
+   "pct_day": 2.1,
+   "pct_30m": 1.67,
+   "volume_pace": 0.07,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ESI.TO",
-   "name": "ENSIGN ENERGY SERVICES INC.",
-   "as_of": "2026-11-12T16:00:00+00:00",
-   "last": 4.42,
-   "pct_day": 2.31,
-   "pct_30m": 2.08,
-   "volume_pace": 0.26,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-12T15:30:00+00:00",
-   "last": 0.26,
+   "ticker": "GASX.TO",
+   "name": "NG ENERGY INTERNATIONAL CORP",
+   "as_of": "2026-11-12T16:30:00+00:00",
+   "last": 1.04,
    "pct_day": 1.96,
-   "pct_30m": 0.0,
-   "volume_pace": 1.05,
+   "pct_30m": 1.96,
+   "volume_pace": 3.7,
    "rising": false,
    "rising_since": null
   }
@@ -1363,9 +1352,9 @@
    "ma200": 954.11,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-12T16:05:00+00:00",
-    "last": 801.27,
-    "pct_day": -1.93
+    "as_of": "2026-11-12T16:35:00+00:00",
+    "last": 805.66,
+    "pct_day": -1.39
    }
   },
   "^GSPTSE": {
@@ -1964,9 +1953,9 @@
    "ma200": 34701.27,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-12T16:05:00+00:00",
-    "last": 36281.65,
-    "pct_day": -0.36
+    "as_of": "2026-11-12T16:35:00+00:00",
+    "last": 36317.98,
+    "pct_day": -0.26
    }
   }
  },
