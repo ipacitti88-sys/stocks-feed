@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-12T14:01-07:00
+# Stock feed — 2026-11-12T14:06-07:00
 
 Tracking 700 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-11. Intraday data as of: 2026-11-12T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -94,8 +94,9 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +14.7% today at 2.58, last 30m +3.2%, volume pace 6.15x, rising since 2026-11-12T20:40:00+00:00
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +13.8% today at 2.56, last 30m +2.4%, volume pace 6.15x, rising since 2026-11-12T20:40:00+00:00
 - MDP.TO (MEDEXUS PHARMACEUTICALS INC): +7.3% today at 5.7, last 30m +0.3%, volume pace 6.68x, rising since 2026-11-12T20:50:00+00:00
+- ANRG.TO (ANAERGIA INC): +4.0% today at 1.83, last 30m +1.7%, volume pace 4.33x, rising since 2026-11-12T21:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -112,13 +113,13 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +14.7% at 2.58, volume pace 6.15x
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +13.8% at 2.56, volume pace 6.15x
 - MDP.TO (MEDEXUS PHARMACEUTICALS INC): +7.3% at 5.7, volume pace 6.68x
 - GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +6.2% at 4.83, volume pace 3.03x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +5.9% at 0.27, volume pace 0.88x
 - ESI.TO (ENSIGN ENERGY SERVICES INC.): +5.3% at 4.55, volume pace 0.99x
 - CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
 - THNC.TO (THINKIFIC LABS INC): +4.6% at 2.49, volume pace 0.3x
-- AKT.TO (AKITA DRILLING LTD): +4.2% at 3.48, volume pace 0.47x
-- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +3.6% at 3.865, volume pace 0.81x
-- CDR.TO (CONDOR ENERGIES INC): +3.0% at 3.78, volume pace 0.82x
+- ANRG.TO (ANAERGIA INC): +4.0% at 1.83, volume pace 4.33x
+- AKT.TO (AKITA DRILLING LTD): +3.9% at 3.47, volume pace 0.47x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +3.2% at 3.85, volume pace 0.84x

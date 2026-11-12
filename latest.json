@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T14:01-07:00",
+ "generated": "2026-11-12T14:06-07:00",
  "last_close_day": "2026-11-11",
  "tracked": 700,
  "tracked_by_market": {
@@ -492,9 +492,9 @@
    "ticker": "BRE.TO",
    "name": "BRIDGEMARQ REAL ESTATE SERVICES",
    "as_of": "2026-11-12T21:00:00+00:00",
-   "last": 2.58,
-   "pct_day": 14.67,
-   "pct_30m": 3.2,
+   "last": 2.56,
+   "pct_day": 13.78,
+   "pct_30m": 2.4,
    "volume_pace": 6.15,
    "rising": true,
    "rising_since": "2026-11-12T20:40:00+00:00"
@@ -531,6 +531,17 @@
    "volume_pace": 1.68,
    "rising": true,
    "rising_since": "2026-11-12T20:45:00+00:00"
+  },
+  {
+   "ticker": "ANRG.TO",
+   "name": "ANAERGIA INC",
+   "as_of": "2026-11-12T21:00:00+00:00",
+   "last": 1.83,
+   "pct_day": 3.98,
+   "pct_30m": 1.67,
+   "volume_pace": 4.33,
+   "rising": true,
+   "rising_since": "2026-11-12T21:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -648,9 +659,9 @@
    "ticker": "BRE.TO",
    "name": "BRIDGEMARQ REAL ESTATE SERVICES",
    "as_of": "2026-11-12T21:00:00+00:00",
-   "last": 2.58,
-   "pct_day": 14.67,
-   "pct_30m": 3.2,
+   "last": 2.56,
+   "pct_day": 13.78,
+   "pct_30m": 2.4,
    "volume_pace": 6.15,
    "rising": true,
    "rising_since": "2026-11-12T20:40:00+00:00"
@@ -722,12 +733,23 @@
    "rising_since": null
   },
   {
+   "ticker": "ANRG.TO",
+   "name": "ANAERGIA INC",
+   "as_of": "2026-11-12T21:00:00+00:00",
+   "last": 1.83,
+   "pct_day": 3.98,
+   "pct_30m": 1.67,
+   "volume_pace": 4.33,
+   "rising": true,
+   "rising_since": "2026-11-12T21:00:00+00:00"
+  },
+  {
    "ticker": "AKT.TO",
    "name": "AKITA DRILLING LTD",
    "as_of": "2026-11-12T21:00:00+00:00",
-   "last": 3.48,
-   "pct_day": 4.19,
-   "pct_30m": -0.57,
+   "last": 3.47,
+   "pct_day": 3.89,
+   "pct_30m": -0.86,
    "volume_pace": 0.47,
    "rising": false,
    "rising_since": null
@@ -736,21 +758,10 @@
    "ticker": "AP-UN.TO",
    "name": "ALLIED PROPERTIES REAL ESTATE I",
    "as_of": "2026-11-12T21:00:00+00:00",
-   "last": 3.865,
-   "pct_day": 3.62,
-   "pct_30m": 0.0,
-   "volume_pace": 0.81,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CDR.TO",
-   "name": "CONDOR ENERGIES INC",
-   "as_of": "2026-11-12T21:00:00+00:00",
-   "last": 3.78,
-   "pct_day": 3.0,
-   "pct_30m": 0.0,
-   "volume_pace": 0.82,
+   "last": 3.85,
+   "pct_day": 3.22,
+   "pct_30m": -0.39,
+   "volume_pace": 0.84,
    "rising": false,
    "rising_since": null
   }
