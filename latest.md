@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-11T15:27-07:00
+# Stock feed — 2026-11-12T08:01-07:00
 
-Tracking 700 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-11. Intraday data as of: 2026-11-11T21:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 700 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-11. Intraday data as of: 2026-11-12T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 817.02 on 2026-11-11 (day -0.6%, month -5.1%, year -10.0%, downtrend)
-Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year +20.1%, uptrend)
+Market: S&P/TSX Venture Composite 817.02 on 2026-11-11 (day -0.6%, month -5.1%, year -10.0%, downtrend); live -2.3% at 15:05
+Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year +20.1%, uptrend); live -0.8% at 15:05
 
 # TSX Venture
 
@@ -39,9 +39,10 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ARIC.V (AWALE RESOURCES LIMITED): +12.7% today at 0.8, last 30m +2.6%, volume pace 3.51x, rising since 2026-11-11T20:55:00+00:00
-- SVE.V (SILVER ONE RESOURCES INC): +4.4% today at 0.47, last 30m +3.3%, volume pace 2.21x, rising since 2026-11-11T20:50:00+00:00
-- CEI.V (COELACANTH ENERGY INC): +3.1% today at 0.67, last 30m +1.5%, volume pace 2.72x, rising since 2026-11-11T20:45:00+00:00
+- KFR.V (KINGFISHER METALS CORP): +10.7% today at 1.14, last 30m +11.8%, volume pace 8.19x, rising since 2026-11-12T14:45:00+00:00
+- TIG.V (TRIUMPH GOLD CORP): +7.5% today at 0.86, last 30m +6.2%, volume pace 1.94x, rising since 2026-11-12T14:55:00+00:00
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +6.7% today at 2.56, last 30m +2.8%, volume pace 7.94x, rising since 2026-11-12T14:45:00+00:00
+- FPC.V (FALCO RESOURCES LTD): +3.3% today at 0.465, last 30m +2.2%, volume pace 10.53x, rising since 2026-11-12T14:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -58,16 +59,16 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- KEON.V (Keon Capital Inc.): +50.0% at 0.39, volume pace 3.03x
-- TNR.V (TNR GOLD CORP): +41.7% at 0.425, volume pace 69.32x
-- SCY.V (SCANDIUM INTERNATIONAL MINING C): +23.5% at 0.105, volume pace 0.96x
-- HART.V (GOLD HART COPPER CORP): +23.3% at 0.185, volume pace 2.86x
-- PRG.V (PRECIPITATE GOLD CORP): +18.2% at 0.13, volume pace 2.52x
-- COCO.V (COAST COPPER CORP): +16.7% at 0.35, volume pace 5.66x
-- BUFF.V (BUFFALO POTASH CORPORATION): +16.5% at 0.92, volume pace 1.21x
-- RZL.V (RZOLV TECHNOLOGIES INC): +16.1% at 0.18, volume pace 4.14x
-- FROG.V (BULLFROG GOLD CORPORATION): +15.4% at 0.15, volume pace 9.06x
-- NBVA.V (NUBEVA TECHNOLOGIES LTD): +14.8% at 0.155, volume pace 0.26x
+- TTG.V (TRANS CANADA GOLD CORP): +25.0% at 0.125, volume pace 0.0x
+- AUX.V (GOLDEN CROSS RESOURCES INC): +14.3% at 0.08, volume pace 0.0x
+- MRVL.V (MARVEL BIOSCIENCES CORP): +13.0% at 0.13, volume pace 0.0x
+- KFR.V (KINGFISHER METALS CORP): +10.7% at 1.14, volume pace 8.19x
+- GRZ.V (GOLD RESERVE LTD): +8.6% at 4.95, volume pace 1.16x
+- TIG.V (TRIUMPH GOLD CORP): +7.5% at 0.86, volume pace 1.94x
+- AZEM.V (ARIZONA EAGLE MINING CORP): +7.0% at 0.61, volume pace 0.0x
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +6.7% at 2.56, volume pace 7.94x
+- CYBE.V (CYBERCATCH HOLDINGS INC): +6.6% at 1.3, volume pace 5.21x
+- MGM.V (MAPLE GOLD MINES LTD): +6.3% at 2.52, volume pace 0.0x
 
 # TSX
 
@@ -94,7 +95,9 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +14.2% today at 2.57, last 30m +5.8%, volume pace 12.24x, rising since 2026-11-12T14:45:00+00:00
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +4.7% today at 5.56, last 30m +1.3%, volume pace 13.86x, rising since 2026-11-12T14:45:00+00:00
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +3.9% today at 1.06, last 30m +0.9%, volume pace 7.25x, rising since 2026-11-12T14:55:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -111,13 +114,13 @@ Market: S&P/TSX Composite 36,411.72 on 2026-11-11 (day +0.7%, month +1.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- AEG.TO (AEGIS BRANDS INC): +26.2% at 0.385, volume pace 4.13x
-- MTEK.TO (METATEK GROUP LTD): +13.2% at 3.0, volume pace 5.65x
-- GRA.TO (NANOXPLORE INC): +12.3% at 1.46, volume pace 1.29x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +9.8% at 2.59, volume pace 12.29x
-- CFF.TO (CONIFEX TIMBER INC): +9.5% at 0.115, volume pace 8.8x
-- ORIO.TO (ORION DIGITAL CORP): +9.5% at 1.62, volume pace 3.03x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +8.5% at 2.95, volume pace 0.8x
-- TAL.TO (PETROTAL CORP): +7.1% at 0.53, volume pace 1.38x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +6.2% at 0.255, volume pace 0.25x
-- DYA.TO (DYNACERT INC): +5.9% at 0.09, volume pace 0.04x
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +14.2% at 2.57, volume pace 12.24x
+- AMAP.TO (AMAPA MINERALS HOLDINGS INC): +5.7% at 0.93, volume pace 0.88x
+- CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +4.7% at 5.56, volume pace 13.86x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.5% at 0.115, volume pace 0.0x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +3.9% at 1.06, volume pace 7.25x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +3.9% at 0.27, volume pace 0.0x
+- XLY.TO (AUXLY CANNABIS GROUP INC): +3.4% at 3.67, volume pace 15.89x
+- GEO.TO (GEODRILL LIMITED): +2.3% at 3.09, volume pace 0.33x
+- GRA.TO (NANOXPLORE INC): +2.0% at 1.49, volume pace 2.88x
