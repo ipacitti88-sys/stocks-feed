@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-13T12:31-07:00
+# Stock feed — 2026-11-13T13:01-07:00
 
-Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T20:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 802.78 on 2026-11-12 (day -1.7%, month -3.3%, year -11.4%, downtrend); live -0.6% at 19:35
-Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year +18.8%, uptrend); live +0.0% at 19:35
+Market: S&P/TSX Venture Composite 802.78 on 2026-11-12 (day -1.7%, month -3.3%, year -11.4%, downtrend); live -0.5% at 20:05
+Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year +18.8%, uptrend); live -0.0% at 20:05
 
 # TSX Venture
 
@@ -35,7 +35,8 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- KLD.V (KENORLAND MINERALS LTD): +4.0% today at 2.1, last 30m +3.5%, volume pace 1.67x, rising since 2026-11-13T19:05:00+00:00
+- WI.V (THE WESTERN INVESTMENT CO OF CD): +10.4% today at 1.48, last 30m +5.0%, volume pace 4.1x, rising since 2026-11-13T19:45:00+00:00
+- SAGA.V (SAGA METALS CORP): +5.4% today at 0.39, last 30m +1.3%, volume pace 1.5x, rising since 2026-11-13T20:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -54,14 +55,14 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 - INXS.V (GOLDINXS MINING CORP): +21.4% at 0.085, volume pace 0.0x
 - PUR.V (PREMIER AMERICAN URANIUM INC): +20.6% at 0.38, volume pace 0.4x
-- COLT.V (Colt Silver Corp.): +19.2% at 0.155, volume pace 8.29x
-- CTH.V (COTEC HOLDINGS CORP): +16.3% at 1.07, volume pace 3.07x
-- IMR.V (IMETAL RESOURCES INC): +15.4% at 0.15, volume pace 4.17x
-- CH.V (CHARBONE CORPORATION): +13.6% at 0.125, volume pace 1.32x
+- COLT.V (Colt Silver Corp.): +19.2% at 0.155, volume pace 8.32x
+- RDU.V (RADIUS GOLD INC.): +15.4% at 0.3, volume pace 1.37x
+- CH.V (CHARBONE CORPORATION): +13.6% at 0.125, volume pace 1.29x
 - GPG.V (GRANDE PORTAGE RESOURCES LTD.): +13.5% at 0.295, volume pace 2.48x
-- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +12.5% at 0.18, volume pace 0.83x
-- RDU.V (RADIUS GOLD INC.): +11.5% at 0.29, volume pace 1.28x
-- FCI.V (FIRST CANADIAN GRAPHITE INC): +11.1% at 0.6, volume pace 0.34x
+- FCI.V (FIRST CANADIAN GRAPHITE INC): +13.0% at 0.61, volume pace 0.42x
+- CTH.V (COTEC HOLDINGS CORP): +10.9% at 1.02, volume pace 2.21x
+- GQC.V (GOLDQUEST MINING CORP.): +10.6% at 0.73, volume pace 4.29x
+- WI.V (THE WESTERN INVESTMENT CO OF CD): +10.4% at 1.48, volume pace 4.1x
 
 # TSX
 
@@ -90,8 +91,8 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ANRG.TO (ANAERGIA INC): +14.2% today at 2.09, last 30m +1.0%, volume pace 2.29x, rising since 2026-11-13T18:50:00+00:00
-- GRA.TO (NANOXPLORE INC): +9.0% today at 1.58, last 30m +0.6%, volume pace 1.79x, rising since 2026-11-13T19:15:00+00:00
+- ANRG.TO (ANAERGIA INC): +15.3% today at 2.11, last 30m +1.0%, volume pace 2.25x, rising since 2026-11-13T19:50:00+00:00
+- GRA.TO (NANOXPLORE INC): +9.3% today at 1.585, last 30m +0.3%, volume pace 1.64x, rising since 2026-11-13T19:15:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -108,13 +109,13 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +20.0% at 0.12, volume pace 25.82x
-- ANRG.TO (ANAERGIA INC): +14.2% at 2.09, volume pace 2.29x
-- ARA.TO (ACLARA RESOURCES INC): +11.2% at 2.49, volume pace 1.33x
-- GRA.TO (NANOXPLORE INC): +9.0% at 1.58, volume pace 1.79x
-- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +5.9% at 4.1, volume pace 0.98x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +25.0% at 0.125, volume pace 22.33x
+- ANRG.TO (ANAERGIA INC): +15.3% at 2.11, volume pace 2.25x
+- GRA.TO (NANOXPLORE INC): +9.3% at 1.585, volume pace 1.64x
+- ARA.TO (ACLARA RESOURCES INC): +8.9% at 2.44, volume pace 1.41x
 - AVCN.TO (AVICANNA INC): +5.9% at 0.09, volume pace 1.73x
-- FSZ.TO (FIERA CAPITAL CORP): +5.8% at 2.36, volume pace 1.17x
-- PRL.TO (PROPEL HOLDINGS INC): +5.8% at 28.25, volume pace 2.16x
+- FSZ.TO (FIERA CAPITAL CORP): +5.4% at 2.35, volume pace 1.12x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +5.3% at 4.075, volume pace 0.91x
 - ELR.TO (EASTERN PLATINUM LIMITED): +5.3% at 0.2, volume pace 3.44x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.8% at 0.11, volume pace 0.21x
+- PRL.TO (PROPEL HOLDINGS INC): +4.7% at 27.97, volume pace 2.03x
