@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-13T08:01-07:00
+# Stock feed — 2026-11-13T08:31-07:00
 
-Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 802.78 on 2026-11-12 (day -1.7%, month -3.3%, year -11.4%, downtrend); live +0.1% at 15:05
-Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year +18.8%, uptrend); live +0.1% at 15:05
+Market: S&P/TSX Venture Composite 802.78 on 2026-11-12 (day -1.7%, month -3.3%, year -11.4%, downtrend); live -0.6% at 15:35
+Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year +18.8%, uptrend); live -0.1% at 15:35
 
 # TSX Venture
 
@@ -35,9 +35,8 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +5.4% today at 2.95, last 30m +4.2%, volume pace 12.26x, rising since 2026-11-13T14:45:00+00:00
-- KRY.V (KORYX COPPER S A): +4.8% today at 3.52, last 30m +3.8%, volume pace 3.02x, rising since 2026-11-13T14:50:00+00:00
-- QTWO.V (Q2 METALS CORP): +3.3% today at 1.58, last 30m +2.6%, volume pace 1.59x, rising since 2026-11-13T14:55:00+00:00
+- KRY.V (KORYX COPPER S A): +6.0% today at 3.56, last 30m +1.1%, volume pace 1.96x, rising since 2026-11-13T14:50:00+00:00
+- JAY.V (BLUE JAY GOLD CORP): +4.2% today at 0.74, last 30m +5.7%, volume pace 5.73x, rising since 2026-11-13T15:25:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -54,16 +53,16 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- PUR.V (PREMIER AMERICAN URANIUM INC): +12.7% at 0.355, volume pace 0.16x
+- COLT.V (Colt Silver Corp.): +38.5% at 0.18, volume pace 3.13x
+- CTH.V (COTEC HOLDINGS CORP): +14.1% at 1.05, volume pace 9.84x
+- PUR.V (PREMIER AMERICAN URANIUM INC): +12.7% at 0.355, volume pace 0.32x
 - WGF.V (WESCAN GOLDFIELDS INC): +12.5% at 0.09, volume pace 0.22x
 - FROG.V (BULLFROG GOLD CORPORATION): +12.0% at 0.14, volume pace 0.0x
 - ALTU.V (ALTURA ENERGY CORP): +11.8% at 0.095, volume pace 1.63x
+- NAIA.V (NAIA RELIEF INC): +9.4% at 0.35, volume pace 1.27x
 - EMO.V (EMERITA RESOURCES CORP): +8.8% at 0.185, volume pace 0.0x
-- YES.V (CHAR TECHNOLOGIES LTD): +8.6% at 0.19, volume pace 0.0x
+- HART.V (GOLD HART COPPER CORP): +8.1% at 0.2, volume pace 1.17x
 - WIL.V (WILTON RESOURCES INC): +7.9% at 0.205, volume pace 0.0x
-- PWM.V (POWER METALS CORP): +7.8% at 0.415, volume pace 0.15x
-- OTMC.V (ORETERRA METALS CORP): +7.1% at 0.3, volume pace 0.0x
-- SAGE.V (SAGE POTASH CORP): +6.7% at 0.08, volume pace 0.0x
 
 # TSX
 
@@ -92,13 +91,9 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ANRG.TO (ANAERGIA INC): +13.7% today at 2.08, last 30m +14.9%, volume pace 10.93x, rising since 2026-11-13T14:45:00+00:00
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +5.5% today at 1.92, last 30m +1.6%, volume pace 2.96x, rising since 2026-11-13T15:00:00+00:00
-- TF.TO (TIMBERCREEK FINANCIAL CORP): +4.0% today at 4.41, last 30m +3.8%, volume pace 6.33x, rising since 2026-11-13T15:05:00+00:00
-- CADY.TO (CADILLAC MINES CORPORATION): +3.6% today at 4.0, last 30m +3.6%, volume pace 2.32x, rising since 2026-11-13T14:50:00+00:00
-- GLO.TO (GLOBAL ATOMIC CORPORATION): +3.3% today at 0.31, last 30m +3.3%, volume pace 2.09x, rising since 2026-11-13T15:00:00+00:00
-- GAU.TO (GALIANO GOLD INC): +3.1% today at 3.28, last 30m +2.5%, volume pace 1.81x, rising since 2026-11-13T14:55:00+00:00
-- XLY.TO (AUXLY CANNABIS GROUP INC): +3.1% today at 3.67, last 30m +1.7%, volume pace 8.85x, rising since 2026-11-13T15:00:00+00:00
+- ANRG.TO (ANAERGIA INC): +14.2% today at 2.09, last 30m +0.5%, volume pace 6.17x, rising since 2026-11-13T14:45:00+00:00
+- TF.TO (TIMBERCREEK FINANCIAL CORP): +5.4% today at 4.47, last 30m +1.8%, volume pace 10.47x, rising since 2026-11-13T15:05:00+00:00
+- HAI.TO (HAIVISION SYSTEMS INC): +4.8% today at 3.69, last 30m +1.9%, volume pace 6.01x, rising since 2026-11-13T15:20:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -115,13 +110,13 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ANRG.TO (ANAERGIA INC): +13.7% at 2.08, volume pace 10.93x
-- AVCN.TO (AVICANNA INC): +5.9% at 0.09, volume pace 1.98x
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +5.5% at 1.92, volume pace 2.96x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +5.0% at 0.105, volume pace 214.3x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +20.0% at 0.12, volume pace 124.46x
+- ANRG.TO (ANAERGIA INC): +14.2% at 2.09, volume pace 6.17x
+- ELR.TO (EASTERN PLATINUM LIMITED): +7.9% at 0.205, volume pace 0.42x
+- AVCN.TO (AVICANNA INC): +5.9% at 0.09, volume pace 2.53x
+- TF.TO (TIMBERCREEK FINANCIAL CORP): +5.4% at 4.47, volume pace 10.47x
+- PRL.TO (PROPEL HOLDINGS INC): +4.8% at 28.0, volume pace 1.24x
+- HAI.TO (HAIVISION SYSTEMS INC): +4.8% at 3.69, volume pace 6.01x
 - SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.8% at 0.11, volume pace 0.0x
-- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +4.3% at 2.66, volume pace 3.69x
-- TF.TO (TIMBERCREEK FINANCIAL CORP): +4.0% at 4.41, volume pace 6.33x
-- CADY.TO (CADILLAC MINES CORPORATION): +3.6% at 4.0, volume pace 2.32x
-- ALK.TO (ALKANE RESOURCES LIMITED): +3.6% at 1.74, volume pace 1.41x
-- PRL.TO (PROPEL HOLDINGS INC): +3.3% at 27.6, volume pace 0.58x
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +4.3% at 2.66, volume pace 2.48x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +4.1% at 4.03, volume pace 1.01x
