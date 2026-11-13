@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T10:31-07:00",
+ "generated": "2026-11-13T11:01-07:00",
  "last_close_day": "2026-11-12",
  "tracked": 702,
  "tracked_by_market": {
@@ -475,51 +475,40 @@
    "added": "2026-10-16"
   }
  ],
- "live_as_of": "2026-11-13T17:35:00+00:00",
+ "live_as_of": "2026-11-13T18:05:00+00:00",
  "rising": [
   {
-   "ticker": "MAXQ.TO",
-   "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-13T17:30:00+00:00",
-   "last": 0.485,
-   "pct_day": 6.59,
-   "pct_30m": 1.04,
-   "volume_pace": 2.8,
+   "ticker": "WI.V",
+   "name": "THE WESTERN INVESTMENT CO OF CD",
+   "as_of": "2026-11-13T18:00:00+00:00",
+   "last": 1.49,
+   "pct_day": 11.19,
+   "pct_30m": 2.76,
+   "volume_pace": 4.11,
    "rising": true,
-   "rising_since": "2026-11-13T16:45:00+00:00"
+   "rising_since": "2026-11-13T17:40:00+00:00"
   },
   {
-   "ticker": "AE.V",
-   "name": "AMERICAN EAGLE GOLD CORP",
-   "as_of": "2026-11-13T17:15:00+00:00",
-   "last": 0.84,
-   "pct_day": 6.33,
-   "pct_30m": 2.44,
-   "volume_pace": 2.19,
+   "ticker": "JAY.V",
+   "name": "BLUE JAY GOLD CORP",
+   "as_of": "2026-11-13T17:45:00+00:00",
+   "last": 0.76,
+   "pct_day": 7.04,
+   "pct_30m": 1.33,
+   "volume_pace": 2.49,
    "rising": true,
-   "rising_since": "2026-11-13T17:15:00+00:00"
+   "rising_since": "2026-11-13T17:45:00+00:00"
   },
   {
-   "ticker": "FSZ.TO",
-   "name": "FIERA CAPITAL CORP",
-   "as_of": "2026-11-13T17:30:00+00:00",
-   "last": 2.315,
-   "pct_day": 3.81,
-   "pct_30m": 0.65,
-   "volume_pace": 1.57,
+   "ticker": "CERT.V",
+   "name": "CERRADO GOLD INC",
+   "as_of": "2026-11-13T18:00:00+00:00",
+   "last": 2.26,
+   "pct_day": 6.6,
+   "pct_30m": 0.22,
+   "volume_pace": 1.87,
    "rising": true,
-   "rising_since": "2026-11-13T17:20:00+00:00"
-  },
-  {
-   "ticker": "TF.TO",
-   "name": "TIMBERCREEK FINANCIAL CORP",
-   "as_of": "2026-11-13T17:30:00+00:00",
-   "last": 4.37,
-   "pct_day": 3.07,
-   "pct_30m": 0.11,
-   "volume_pace": 4.92,
-   "rising": true,
-   "rising_since": "2026-11-13T17:25:00+00:00"
+   "rising_since": "2026-11-13T17:55:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -557,17 +546,6 @@
    "rising_since": null
   },
   {
-   "ticker": "PALS.V",
-   "name": "PARAGON ADVANCED LABS INC",
-   "as_of": "2026-11-13T16:30:00+00:00",
-   "last": 2.2,
-   "pct_day": 15.79,
-   "pct_30m": 4.27,
-   "volume_pace": 0.58,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "IMR.V",
    "name": "IMETAL RESOURCES INC",
    "as_of": "2026-11-13T16:35:00+00:00",
@@ -590,13 +568,24 @@
    "rising_since": null
   },
   {
+   "ticker": "CH.V",
+   "name": "CHARBONE CORPORATION",
+   "as_of": "2026-11-13T17:55:00+00:00",
+   "last": 0.125,
+   "pct_day": 13.64,
+   "pct_30m": 4.17,
+   "volume_pace": 1.71,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "CGM.V",
    "name": "CANADIAN GOLDFIELDS DISCOVERY C",
    "as_of": "2026-11-13T17:30:00+00:00",
    "last": 0.18,
    "pct_day": 12.5,
    "pct_30m": 5.88,
-   "volume_pace": 0.8,
+   "volume_pace": 0.83,
    "rising": false,
    "rising_since": null
   },
@@ -612,24 +601,24 @@
    "rising_since": null
   },
   {
+   "ticker": "WI.V",
+   "name": "THE WESTERN INVESTMENT CO OF CD",
+   "as_of": "2026-11-13T18:00:00+00:00",
+   "last": 1.49,
+   "pct_day": 11.19,
+   "pct_30m": 2.76,
+   "volume_pace": 4.11,
+   "rising": true,
+   "rising_since": "2026-11-13T17:40:00+00:00"
+  },
+  {
    "ticker": "FCI.V",
    "name": "FIRST CANADIAN GRAPHITE INC",
    "as_of": "2026-11-13T17:10:00+00:00",
    "last": 0.6,
    "pct_day": 11.11,
    "pct_30m": 1.69,
-   "volume_pace": 0.12,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NAIA.V",
-   "name": "NAIA RELIEF INC",
-   "as_of": "2026-11-13T17:30:00+00:00",
-   "last": 0.35,
-   "pct_day": 9.37,
-   "pct_30m": -5.41,
-   "volume_pace": 3.33,
+   "volume_pace": 0.35,
    "rising": false,
    "rising_since": null
   },
@@ -640,7 +629,7 @@
    "last": 0.12,
    "pct_day": 20.0,
    "pct_30m": -4.0,
-   "volume_pace": 40.0,
+   "volume_pace": 40.02,
    "rising": false,
    "rising_since": null
   },
@@ -651,53 +640,42 @@
    "last": 2.07,
    "pct_day": 13.11,
    "pct_30m": -1.9,
-   "volume_pace": 3.69,
+   "volume_pace": 3.74,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AP-UN.TO",
    "name": "ALLIED PROPERTIES REAL ESTATE I",
-   "as_of": "2026-11-13T17:30:00+00:00",
-   "last": 4.205,
-   "pct_day": 8.66,
-   "pct_30m": 2.06,
-   "volume_pace": 1.13,
+   "as_of": "2026-11-13T18:00:00+00:00",
+   "last": 4.18,
+   "pct_day": 8.01,
+   "pct_30m": -0.59,
+   "volume_pace": 1.06,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ILLM.TO",
    "name": "iLLUMIN HOLDINGS INC",
-   "as_of": "2026-11-13T17:30:00+00:00",
+   "as_of": "2026-11-13T17:35:00+00:00",
    "last": 0.55,
    "pct_day": 7.84,
    "pct_30m": 7.84,
-   "volume_pace": 0.02,
+   "volume_pace": 7.05,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ITH.TO",
    "name": "INTERNATIONAL TOWER HILL MINES ",
-   "as_of": "2026-11-13T17:30:00+00:00",
+   "as_of": "2026-11-13T18:00:00+00:00",
    "last": 1.94,
    "pct_day": 6.59,
    "pct_30m": 0.0,
-   "volume_pace": 1.05,
+   "volume_pace": 0.92,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "MAXQ.TO",
-   "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-13T17:30:00+00:00",
-   "last": 0.485,
-   "pct_day": 6.59,
-   "pct_30m": 1.04,
-   "volume_pace": 2.8,
-   "rising": true,
-   "rising_since": "2026-11-13T16:45:00+00:00"
   },
   {
    "ticker": "AVCN.TO",
@@ -711,28 +689,6 @@
    "rising_since": null
   },
   {
-   "ticker": "HAI.TO",
-   "name": "HAIVISION SYSTEMS INC",
-   "as_of": "2026-11-13T16:20:00+00:00",
-   "last": 3.72,
-   "pct_day": 5.68,
-   "pct_30m": -0.8,
-   "volume_pace": 30.31,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ESM.TO",
-   "name": "EURO SUN MINING INC",
-   "as_of": "2026-11-13T15:45:00+00:00",
-   "last": 0.145,
-   "pct_day": 5.45,
-   "pct_30m": 3.57,
-   "volume_pace": 1.28,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "ELR.TO",
    "name": "EASTERN PLATINUM LIMITED",
    "as_of": "2026-11-13T15:50:00+00:00",
@@ -740,6 +696,39 @@
    "pct_day": 5.26,
    "pct_30m": -2.44,
    "volume_pace": 3.44,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HAI.TO",
+   "name": "HAIVISION SYSTEMS INC",
+   "as_of": "2026-11-13T18:00:00+00:00",
+   "last": 3.7,
+   "pct_day": 5.11,
+   "pct_30m": -1.33,
+   "volume_pace": 15.92,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FSZ.TO",
+   "name": "FIERA CAPITAL CORP",
+   "as_of": "2026-11-13T18:00:00+00:00",
+   "last": 2.34,
+   "pct_day": 4.93,
+   "pct_30m": 1.08,
+   "volume_pace": 1.43,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SVA.TO",
+   "name": "SERNOVA BIOTHERAPEUTICS INC",
+   "as_of": "2026-11-13T16:00:00+00:00",
+   "last": 0.11,
+   "pct_day": 4.76,
+   "pct_30m": 0.0,
+   "volume_pace": 0.21,
    "rising": false,
    "rising_since": null
   }
@@ -1341,9 +1330,9 @@
    "ma200": 952.41,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-13T17:35:00+00:00",
-    "last": 796.2,
-    "pct_day": -0.82
+    "as_of": "2026-11-13T18:05:00+00:00",
+    "last": 798.0,
+    "pct_day": -0.6
    }
   },
   "^GSPTSE": {
@@ -1942,9 +1931,9 @@
    "ma200": 34716.48,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-13T17:35:00+00:00",
-    "last": 36140.33,
-    "pct_day": 0.01
+    "as_of": "2026-11-13T18:05:00+00:00",
+    "last": 36161.95,
+    "pct_day": 0.07
    }
   }
  },
