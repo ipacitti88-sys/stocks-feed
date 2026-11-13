@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-13T09:01-07:00
+# Stock feed — 2026-11-13T09:31-07:00
 
-Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 802.78 on 2026-11-12 (day -1.7%, month -3.3%, year -11.4%, downtrend); live -0.9% at 16:05
-Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year +18.8%, uptrend); live -0.1% at 16:05
+Market: S&P/TSX Venture Composite 802.78 on 2026-11-12 (day -1.7%, month -3.3%, year -11.4%, downtrend); live -1.0% at 16:35
+Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year +18.8%, uptrend); live +0.0% at 16:35
 
 # TSX Venture
 
@@ -35,10 +35,9 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CERT.V (CERRADO GOLD INC): +5.2% today at 2.23, last 30m +1.4%, volume pace 3.69x, rising since 2026-11-13T15:35:00+00:00
-- JAY.V (BLUE JAY GOLD CORP): +4.2% today at 0.74, last 30m +2.8%, volume pace 4.14x, rising since 2026-11-13T15:25:00+00:00
-- AE.V (AMERICAN EAGLE GOLD CORP): +3.8% today at 0.82, last 30m +3.8%, volume pace 3.22x, rising since 2026-11-13T15:50:00+00:00
-- WI.V (THE WESTERN INVESTMENT CO OF CD): +3.7% today at 1.39, last 30m +0.7%, volume pace 5.43x, rising since 2026-11-13T15:45:00+00:00
+- CERT.V (CERRADO GOLD INC): +5.9% today at 2.245, last 30m +0.7%, volume pace 2.94x, rising since 2026-11-13T16:15:00+00:00
+- JAY.V (BLUE JAY GOLD CORP): +5.6% today at 0.75, last 30m +1.4%, volume pace 3.02x, rising since 2026-11-13T15:25:00+00:00
+- AE.V (AMERICAN EAGLE GOLD CORP): +3.8% today at 0.82, last 30m +3.8%, volume pace 3.29x, rising since 2026-11-13T15:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -55,16 +54,16 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- COLT.V (Colt Silver Corp.): +38.5% at 0.18, volume pace 10.3x
-- PUR.V (PREMIER AMERICAN URANIUM INC): +20.6% at 0.38, volume pace 0.14x
-- CTH.V (COTEC HOLDINGS CORP): +13.0% at 1.04, volume pace 7.06x
-- NAIA.V (NAIA RELIEF INC): +12.5% at 0.36, volume pace 2.94x
-- WGF.V (WESCAN GOLDFIELDS INC): +12.5% at 0.09, volume pace 0.22x
-- FROG.V (BULLFROG GOLD CORPORATION): +12.0% at 0.14, volume pace 0.0x
-- ALTU.V (ALTURA ENERGY CORP): +11.8% at 0.095, volume pace 0.75x
-- FCI.V (FIRST CANADIAN GRAPHITE INC): +9.3% at 0.59, volume pace 0.0x
+- COLT.V (Colt Silver Corp.): +38.5% at 0.18, volume pace 15.89x
+- INXS.V (GOLDINXS MINING CORP): +21.4% at 0.085, volume pace 0.0x
+- PUR.V (PREMIER AMERICAN URANIUM INC): +20.6% at 0.38, volume pace 0.4x
+- IMR.V (IMETAL RESOURCES INC): +19.2% at 0.155, volume pace 2.34x
+- CTH.V (COTEC HOLDINGS CORP): +16.3% at 1.07, volume pace 5.33x
+- PALS.V (PARAGON ADVANCED LABS INC): +15.8% at 2.2, volume pace 0.0x
+- RDU.V (RADIUS GOLD INC.): +11.5% at 0.29, volume pace 0.71x
+- FCI.V (FIRST CANADIAN GRAPHITE INC): +9.3% at 0.59, volume pace 0.22x
+- DBAY.V (Elton Resources Corp.): +8.3% at 0.13, volume pace 0.0x
 - RUSH.V (CAROLINA RUSH CORPORATION): +8.3% at 0.065, volume pace 0.85x
-- RAK.V (RACKLA METALS INC): +8.1% at 0.2, volume pace 3.09x
 
 # TSX
 
@@ -93,10 +92,8 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ANRG.TO (ANAERGIA INC): +14.8% today at 2.1, last 30m +0.5%, volume pace 5.03x, rising since 2026-11-13T14:45:00+00:00
-- HAI.TO (HAIVISION SYSTEMS INC): +8.0% today at 3.8, last 30m +3.0%, volume pace 17.54x, rising since 2026-11-13T15:50:00+00:00
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +7.1% today at 1.95, last 30m +4.8%, volume pace 1.89x, rising since 2026-11-13T15:35:00+00:00
-- TF.TO (TIMBERCREEK FINANCIAL CORP): +6.2% today at 4.505, last 30m +1.2%, volume pace 7.88x, rising since 2026-11-13T15:45:00+00:00
+- PRL.TO (PROPEL HOLDINGS INC): +4.6% today at 27.95, last 30m +0.5%, volume pace 1.83x, rising since 2026-11-13T16:20:00+00:00
+- MAXQ.TO (Maritime Launch Services Inc.): +4.4% today at 0.475, last 30m +3.3%, volume pace 3.02x, rising since 2026-11-13T16:05:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -113,13 +110,13 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +25.0% at 0.125, volume pace 77.12x
-- ANRG.TO (ANAERGIA INC): +14.8% at 2.1, volume pace 5.03x
-- HAI.TO (HAIVISION SYSTEMS INC): +8.0% at 3.8, volume pace 17.54x
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +7.1% at 1.95, volume pace 1.89x
-- TF.TO (TIMBERCREEK FINANCIAL CORP): +6.2% at 4.505, volume pace 7.88x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +25.0% at 0.125, volume pace 77.21x
+- ANRG.TO (ANAERGIA INC): +14.2% at 2.09, volume pace 3.85x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +7.8% at 4.17, volume pace 1.1x
+- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +6.6% at 1.94, volume pace 1.48x
 - AVCN.TO (AVICANNA INC): +5.9% at 0.09, volume pace 1.73x
-- COPR.TO (COPPERNICO METALS INC): +5.6% at 0.38, volume pace 2.26x
-- ESM.TO (EURO SUN MINING INC): +5.5% at 0.145, volume pace 1.2x
-- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +5.4% at 4.08, volume pace 1.13x
+- HAI.TO (HAIVISION SYSTEMS INC): +5.7% at 3.72, volume pace 30.23x
+- ESM.TO (EURO SUN MINING INC): +5.5% at 0.145, volume pace 1.28x
 - ELR.TO (EASTERN PLATINUM LIMITED): +5.3% at 0.2, volume pace 3.44x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +4.8% at 0.11, volume pace 0.21x
+- PRL.TO (PROPEL HOLDINGS INC): +4.6% at 27.95, volume pace 1.83x
