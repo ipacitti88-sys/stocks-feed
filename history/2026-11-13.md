@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-13T14:01-07:00
+# Stock feed — 2026-11-13T14:06-07:00
 
 Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -57,13 +57,13 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 - INXS.V (GOLDINXS MINING CORP): +21.4% at 0.085, volume pace 0.0x
 - CTH.V (COTEC HOLDINGS CORP): +18.5% at 1.09, volume pace 1.92x
 - RDU.V (RADIUS GOLD INC.): +15.4% at 0.3, volume pace 1.49x
-- COLT.V (Colt Silver Corp.): +15.4% at 0.15, volume pace 8.84x
+- COLT.V (Colt Silver Corp.): +15.4% at 0.15, volume pace 9.01x
 - W.V (SPARTAN METALS CORP): +14.8% at 0.35, volume pace 1.36x
 - CH.V (CHARBONE CORPORATION): +13.6% at 0.125, volume pace 1.18x
 - GQC.V (GOLDQUEST MINING CORP.): +13.6% at 0.75, volume pace 5.26x
 - FCI.V (FIRST CANADIAN GRAPHITE INC): +13.0% at 0.61, volume pace 0.48x
+- ROOF.V (NORTHSTAR CLEAN TECHNOLOGIES IN): +12.0% at 0.14, volume pace 1.25x
 - EMO.V (EMERITA RESOURCES CORP): +11.8% at 0.19, volume pace 0.3x
-- WI.V (THE WESTERN INVESTMENT CO OF CD): +11.2% at 1.49, volume pace 3.48x
 
 # TSX
 
@@ -95,7 +95,7 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 - ANRG.TO (ANAERGIA INC): +15.8% today at 2.12, last 30m +1.4%, volume pace 2.23x, rising since 2026-11-13T20:55:00+00:00
 - PNE.TO (PINE CLIFF ENERGY LTD): +12.0% today at 0.56, last 30m +12.0%, volume pace 10.85x, rising since 2026-11-13T20:50:00+00:00
 - GRA.TO (NANOXPLORE INC): +11.0% today at 1.61, last 30m +0.6%, volume pace 1.92x, rising since 2026-11-13T21:00:00+00:00
-- ARA.TO (ACLARA RESOURCES INC): +8.0% today at 2.42, last 30m +1.7%, volume pace 1.51x, rising since 2026-11-13T21:00:00+00:00
+- ARA.TO (ACLARA RESOURCES INC): +8.0% today at 2.42, last 30m +1.7%, volume pace 1.55x, rising since 2026-11-13T21:00:00+00:00
 - TF.TO (TIMBERCREEK FINANCIAL CORP): +5.0% today at 4.45, last 30m +2.1%, volume pace 3.1x, rising since 2026-11-13T20:50:00+00:00
 - PRL.TO (PROPEL HOLDINGS INC): +4.1% today at 27.81, last 30m +0.1%, volume pace 1.88x, rising since 2026-11-13T21:00:00+00:00
 
@@ -119,8 +119,8 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 - PNE.TO (PINE CLIFF ENERGY LTD): +12.0% at 0.56, volume pace 10.85x
 - AVCN.TO (AVICANNA INC): +11.8% at 0.095, volume pace 0.37x
 - GRA.TO (NANOXPLORE INC): +11.0% at 1.61, volume pace 1.92x
-- ARA.TO (ACLARA RESOURCES INC): +8.0% at 2.42, volume pace 1.51x
+- ARA.TO (ACLARA RESOURCES INC): +8.0% at 2.42, volume pace 1.55x
 - FSZ.TO (FIERA CAPITAL CORP): +6.3% at 2.37, volume pace 1.1x
 - ELR.TO (EASTERN PLATINUM LIMITED): +5.3% at 0.2, volume pace 3.44x
-- CADY.TO (CADILLAC MINES CORPORATION): +5.2% at 4.06, volume pace 0.75x
 - BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +5.1% at 2.68, volume pace 0.69x
+- TF.TO (TIMBERCREEK FINANCIAL CORP): +5.0% at 4.45, volume pace 3.1x
