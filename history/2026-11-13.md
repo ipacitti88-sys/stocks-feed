@@ -1,16 +1,15 @@
-# Stock feed — 2026-11-13T14:06-07:00
+# Stock feed — 2026-11-13T15:27-07:00
 
-Tracking 702 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-12. Intraday data as of: 2026-11-13T21:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 704 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-13. Intraday data as of: 2026-11-13T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 802.78 on 2026-11-12 (day -1.7%, month -3.3%, year -11.4%, downtrend); live -0.5% at 21:00
-Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year +18.8%, uptrend); live -0.0% at 21:00
+Market: S&P/TSX Venture Composite 798.46 on 2026-11-13 (day -0.5%, month -5.7%, year -13.1%, downtrend)
+Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year +17.1%, uptrend)
 
 # TSX Venture
 
 ## TSX Venture: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)
 
-- TDG.V (TDG GOLD CORP): close 0.71, volume 26.4x
-- BRM.V (BIOREM INC.): close 4.58, volume 2.2x
+- WI.V (THE WESTERN INVESTMENT CO OF CD): close 1.47, volume 3.7x
 
 ## TSX Venture: washouts at last close (down 20%+ over 5 days, then an up day on above-normal volume; hold ~20 days)
 
@@ -18,20 +17,24 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX Venture: washout watch (down 15%+ over 5 days, not fired yet; ready = already down 20%+)
 
-- TSG.V (TRISTAR GOLD INC.): close 0.16, 5d -30.4%, ready, C$65k a day
-- TTS.V (TINTINA MINES LTD): close 1.49, 5d -26.6%, ready, C$112k a day
-- FCI.V (FIRST CANADIAN GRAPHITE INC): close 0.54, 5d -20.6%, ready, C$53k a day
-- PPP.V (PROSPECTOR METALS CORP): close 0.5, 5d -19.4%, C$206k a day
+- ASE.V (ASANTE GOLD CORPORATION): close 0.41, 5d -39.7%, ready, C$220k a day
+- TTS.V (TINTINA MINES LTD): close 1.4, 5d -25.5%, ready, C$111k a day
+- LIXX.V (SURGE BATTERY METALS INC): close 0.4, 5d -23.1%, ready, C$352k a day
+- PPP.V (PROSPECTOR METALS CORP): close 0.52, 5d -20.0%, C$220k a day
+- ITR.V (INTEGRA RESOURCES CORP): close 2.55, 5d -18.5%, C$859k a day
+- JUGR.V (JUGGERNAUT EXPLORATION LTD): close 0.3, 5d -16.7%, C$51k a day
+- RAK.V (RACKLA METALS INC): close 0.195, 5d -15.2%, C$53k a day
 
 ## TSX Venture: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): 3/3, close 2.8, rel vol 4.65x, 20d +76.1%, +0.0% vs 52w high
-- BRM.V (BIOREM INC.): 3/3, close 4.58, rel vol 2.16x, 20d +21.8%, +0.0% vs 52w high
-- TDG.V (TDG GOLD CORP): 2/3, close 0.71, rel vol 26.44x, 20d +49.5%, -32.4% vs 52w high
-- AHR.V (Amarc Resources Ltd.): 2/3, close 1.04, rel vol 13.45x, 20d +6.1%, -31.1% vs 52w high
-- TNR.V (TNR GOLD CORP): 2/3, close 0.38, rel vol 9.04x, 20d +26.7%, -9.5% vs 52w high
-- KFR.V (KINGFISHER METALS CORP): 2/3, close 1.15, rel vol 4.62x, 20d +25.0%, -29.0% vs 52w high
-- ARIC.V (AWALE RESOURCES LIMITED): 2/3, close 0.78, rel vol 2.85x, 20d +18.2%, -32.2% vs 52w high
+- WI.V (THE WESTERN INVESTMENT CO OF CD): 3/3, close 1.47, rel vol 3.72x, 20d +37.4%, +0.0% vs 52w high
+- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): 3/3, close 2.89, rel vol 2.52x, 20d +90.1%, +0.0% vs 52w high
+- TDG.V (TDG GOLD CORP): 2/3, close 0.73, rel vol 8.88x, 20d +47.5%, -30.5% vs 52w high
+- AHR.V (Amarc Resources Ltd.): 2/3, close 1.04, rel vol 3.85x, 20d +3.0%, -31.1% vs 52w high
+- PESO.V (PESORAMA INC): 2/3, close 0.63, rel vol 3.38x, 20d +0.0%, -17.1% vs 52w high
+- RDU.V (RADIUS GOLD INC.): 2/3, close 0.3, rel vol 1.46x, 20d +15.4%, +0.0% vs 52w high
+- BRM.V (BIOREM INC.): 2/3, close 4.75, rel vol 1.12x, 20d +27.3%, +0.0% vs 52w high
+- LGN.V (LOGAN ENERGY CORP): 2/3, close 1.57, rel vol 1.03x, 20d +23.6%, +0.0% vs 52w high
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -41,16 +44,16 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX Venture: top by relative volume at last close
 
-- TDG.V (TDG GOLD CORP): rel vol 26.44x, close 0.71, 20d +49.5%
-- AHR.V (Amarc Resources Ltd.): rel vol 13.45x, close 1.04, 20d +6.1%
-- OGG.V (OSISKO GOLD GROUP INC): rel vol 11.05x, close 3.21, 20d -14.3%
-- TNR.V (TNR GOLD CORP): rel vol 9.04x, close 0.38, 20d +26.7%
-- PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): rel vol 4.65x, close 2.8, 20d +76.1%
-- KFR.V (KINGFISHER METALS CORP): rel vol 4.62x, close 1.15, 20d +25.0%
-- ANDC.V (ANDINA COPPER CORPORATION): rel vol 4.57x, close 0.96, 20d -7.7%
-- ITR.V (INTEGRA RESOURCES CORP): rel vol 3.92x, close 2.6, 20d -23.5%
-- TECT.V (TECTONIC METALS INC): rel vol 3.32x, close 1.59, 20d -5.9%
-- GGO.V (GALLEON GOLD CORP): rel vol 3.21x, close 1.12, 20d -11.8%
+- TDG.V (TDG GOLD CORP): rel vol 8.88x, close 0.73, 20d +47.5%
+- AE.V (AMERICAN EAGLE GOLD CORP): rel vol 6.05x, close 0.78, 20d -24.3%
+- GMG.V (GRAPHENE MANUFACTURING GROUP LT): rel vol 5.6x, close 1.7, 20d -18.7%
+- ASE.V (ASANTE GOLD CORPORATION): rel vol 5.1x, close 0.41, 20d -44.6%
+- AHR.V (Amarc Resources Ltd.): rel vol 3.85x, close 1.04, 20d +3.0%
+- WI.V (THE WESTERN INVESTMENT CO OF CD): rel vol 3.72x, close 1.47, 20d +37.4%
+- PESO.V (PESORAMA INC): rel vol 3.38x, close 0.63, 20d +0.0%
+- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): rel vol 2.99x, close 0.545, 20d -12.1%
+- NSE.V (NEW STRATUS ENERGY INC): rel vol 2.83x, close 0.67, 20d -4.3%
+- ALDE.V (ALDEBARAN RESOURCES INC): rel vol 2.62x, close 2.74, 20d -17.0%
 
 ## TSX Venture: top gainers in latest intraday pass
 
@@ -69,7 +72,7 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)
 
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): close 4.77, volume 3.1x
+- none
 
 ## TSX: washouts at last close (down 20%+ over 5 days, then an up day on above-normal volume; hold ~20 days)
 
@@ -77,18 +80,25 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: washout watch (down 15%+ over 5 days, not fired yet; ready = already down 20%+)
 
-- DND.TO (DYE AND DURHAM LIMITED): close 1.07, 5d -35.2%, ready, C$1,497k a day
-- DBO.TO (DBOX TECHNOLOGIES INC): close 0.86, 5d -21.8%, ready, C$566k a day
-- TF.TO (TIMBERCREEK FINANCIAL CORP): close 4.24, 5d -19.4%, C$1,446k a day
-- FSZ.TO (FIERA CAPITAL CORP): close 2.23, 5d -19.2%, C$1,837k a day
-- HLS.TO (HLS THERAPEUTICS INC): close 3.7, 5d -16.7%, C$159k a day
+- DND.TO (DYE AND DURHAM LIMITED): close 0.89, 5d -45.1%, ready, C$1,407k a day
+- LAC.TO (LITHIUM AMERICAS CORP): close 2.12, 5d -22.9%, ready, C$3,529k a day
+- DBO.TO (DBOX TECHNOLOGIES INC): close 0.86, 5d -21.8%, ready, C$597k a day
+- BSX.TO (BELO SUN MINING CORP): close 0.69, 5d -19.8%, C$678k a day
+- TSND.TO (TERRASCEND CORP): close 0.54, 5d -18.8%, C$97k a day
+- VGC.TO (VALOR GOLD CORP): close 1.91, 5d -18.4%, C$301k a day
+- USA.TO (AMERICAS GOLD AND SILVER CORPOR): close 3.55, 5d -18.2%, C$7,026k a day
+- JAG.TO (JAGUAR MINING INC): close 4.57, 5d -18.0%, C$688k a day
+- NFGC.TO (NEW FOUND GOLD CORP): close 2.02, 5d -16.2%, C$1,093k a day
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): close 0.235, 5d -16.1%, C$82k a day
+- HLS.TO (HLS THERAPEUTICS INC): close 3.71, 5d -15.9%, C$167k a day
+- E.TO (EVOLUTION POWERX CORP): close 1.44, 5d -15.8%, C$238k a day
+- TLRY.TO (TILRAY BRANDS INC): close 3.48, 5d -15.5%, C$2,551k a day
+- TF.TO (TIMBERCREEK FINANCIAL CORP): close 4.44, 5d -15.4%, C$1,805k a day
 
 ## TSX: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): 3/3, close 5.69, rel vol 4.5x, 20d +18.3%, +0.0% vs 52w high
-- XLY.TO (AUXLY CANNABIS GROUP INC): 2/3, close 3.56, rel vol 7.04x, 20d +5.6%, -5.3% vs 52w high
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): 2/3, close 4.77, rel vol 3.1x, 20d +15.5%, -26.4% vs 52w high
-- THNC.TO (THINKIFIC LABS INC): 2/3, close 2.45, rel vol 0.51x, 20d +10.4%, +0.0% vs 52w high
+- PNE.TO (PINE CLIFF ENERGY LTD): 2/3, close 0.54, rel vol 11.06x, 20d +1.9%, -40.7% vs 52w high
+- CMG.TO (COMPUTER MODELLING GROUP LTD): 2/3, close 4.32, rel vol 2.3x, 20d +4.3%, -21.6% vs 52w high
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -101,16 +111,16 @@ Market: S&P/TSX Composite 36,137.19 on 2026-11-12 (day -0.8%, month +1.6%, year 
 
 ## TSX: top by relative volume at last close
 
-- TF.TO (TIMBERCREEK FINANCIAL CORP): rel vol 7.15x, close 4.24, 20d -18.9%
-- XLY.TO (AUXLY CANNABIS GROUP INC): rel vol 7.04x, close 3.56, 20d +5.6%
-- NICU.TO (MAGNA MINING INC): rel vol 6.3x, close 1.65, 20d -27.9%
-- E.TO (EVOLUTION POWERX CORP): rel vol 5.69x, close 1.46, 20d -18.0%
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): rel vol 4.5x, close 5.69, 20d +18.3%
-- FSZ.TO (FIERA CAPITAL CORP): rel vol 4.17x, close 2.23, 20d -33.4%
-- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): rel vol 3.54x, close 2.55, 20d -1.5%
-- DND.TO (DYE AND DURHAM LIMITED): rel vol 3.45x, close 1.07, 20d -49.8%
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): rel vol 3.1x, close 4.77, 20d +15.5%
-- BRC.TO (BLACKROCK SILVER CORP): rel vol 2.99x, close 0.67, 20d -25.6%
+- PNE.TO (PINE CLIFF ENERGY LTD): rel vol 11.06x, close 0.54, 20d +1.9%
+- JAG.TO (JAGUAR MINING INC): rel vol 4.57x, close 4.57, 20d -31.1%
+- HAI.TO (HAIVISION SYSTEMS INC): rel vol 4.48x, close 3.64, 20d -3.7%
+- HLS.TO (HLS THERAPEUTICS INC): rel vol 4.44x, close 3.71, 20d -9.5%
+- MAXQ.TO (Maritime Launch Services Inc.): rel vol 3.76x, close 0.435, 20d -
+- TF.TO (TIMBERCREEK FINANCIAL CORP): rel vol 3.02x, close 4.44, 20d -14.6%
+- ANRG.TO (ANAERGIA INC): rel vol 2.83x, close 2.14, 20d +0.5%
+- NICU.TO (MAGNA MINING INC): rel vol 2.72x, close 1.65, 20d -26.3%
+- TAL.TO (PETROTAL CORP): rel vol 2.63x, close 0.53, 20d -11.7%
+- OGI.TO (ORGANIGRAM GLOBAL INC): rel vol 2.32x, close 1.18, 20d -10.6%
 
 ## TSX: top gainers in latest intraday pass
 
