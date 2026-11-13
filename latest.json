@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T12:01-07:00",
+ "generated": "2026-11-13T12:31-07:00",
  "last_close_day": "2026-11-12",
  "tracked": 702,
  "tracked_by_market": {
@@ -475,76 +475,43 @@
    "added": "2026-10-16"
   }
  ],
- "live_as_of": "2026-11-13T19:05:00+00:00",
+ "live_as_of": "2026-11-13T19:35:00+00:00",
  "rising": [
   {
    "ticker": "ANRG.TO",
    "name": "ANAERGIA INC",
-   "as_of": "2026-11-13T18:50:00+00:00",
-   "last": 2.07,
-   "pct_day": 13.11,
-   "pct_30m": 0.49,
-   "volume_pace": 2.54,
+   "as_of": "2026-11-13T19:25:00+00:00",
+   "last": 2.09,
+   "pct_day": 14.21,
+   "pct_30m": 0.97,
+   "volume_pace": 2.29,
    "rising": true,
    "rising_since": "2026-11-13T18:50:00+00:00"
   },
   {
    "ticker": "GRA.TO",
    "name": "NANOXPLORE INC",
-   "as_of": "2026-11-13T19:00:00+00:00",
-   "last": 1.57,
-   "pct_day": 8.28,
+   "as_of": "2026-11-13T19:30:00+00:00",
+   "last": 1.58,
+   "pct_day": 8.97,
    "pct_30m": 0.64,
-   "volume_pace": 1.74,
+   "volume_pace": 1.79,
    "rising": true,
-   "rising_since": "2026-11-13T18:30:00+00:00"
+   "rising_since": "2026-11-13T19:15:00+00:00"
   },
   {
-   "ticker": "CERT.V",
-   "name": "CERRADO GOLD INC",
-   "as_of": "2026-11-13T18:55:00+00:00",
-   "last": 2.28,
-   "pct_day": 7.55,
-   "pct_30m": 1.79,
-   "volume_pace": 1.66,
+   "ticker": "KLD.V",
+   "name": "KENORLAND MINERALS LTD",
+   "as_of": "2026-11-13T19:15:00+00:00",
+   "last": 2.1,
+   "pct_day": 3.96,
+   "pct_30m": 3.45,
+   "volume_pace": 1.67,
    "rising": true,
-   "rising_since": "2026-11-13T18:35:00+00:00"
-  },
-  {
-   "ticker": "PRL.TO",
-   "name": "PROPEL HOLDINGS INC",
-   "as_of": "2026-11-13T19:00:00+00:00",
-   "last": 28.3,
-   "pct_day": 5.95,
-   "pct_30m": 0.71,
-   "volume_pace": 2.36,
-   "rising": true,
-   "rising_since": "2026-11-13T18:30:00+00:00"
-  },
-  {
-   "ticker": "TF.TO",
-   "name": "TIMBERCREEK FINANCIAL CORP",
-   "as_of": "2026-11-13T19:00:00+00:00",
-   "last": 4.38,
-   "pct_day": 3.3,
-   "pct_30m": 0.46,
-   "volume_pace": 3.62,
-   "rising": true,
-   "rising_since": "2026-11-13T19:00:00+00:00"
+   "rising_since": "2026-11-13T19:05:00+00:00"
   }
  ],
  "top_gainers_today": [
-  {
-   "ticker": "COLT.V",
-   "name": "Colt Silver Corp.",
-   "as_of": "2026-11-13T18:50:00+00:00",
-   "last": 0.16,
-   "pct_day": 23.08,
-   "pct_30m": 0.0,
-   "volume_pace": 9.07,
-   "rising": false,
-   "rising_since": null
-  },
   {
    "ticker": "INXS.V",
    "name": "GOLDINXS MINING CORP",
@@ -564,6 +531,17 @@
    "pct_day": 20.63,
    "pct_30m": 7.04,
    "volume_pace": 0.4,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "COLT.V",
+   "name": "Colt Silver Corp.",
+   "as_of": "2026-11-13T19:20:00+00:00",
+   "last": 0.155,
+   "pct_day": 19.23,
+   "pct_30m": -3.12,
+   "volume_pace": 8.29,
    "rising": false,
    "rising_since": null
   },
@@ -592,11 +570,11 @@
   {
    "ticker": "CH.V",
    "name": "CHARBONE CORPORATION",
-   "as_of": "2026-11-13T18:50:00+00:00",
+   "as_of": "2026-11-13T19:20:00+00:00",
    "last": 0.125,
    "pct_day": 13.64,
    "pct_30m": 0.0,
-   "volume_pace": 1.47,
+   "volume_pace": 1.32,
    "rising": false,
    "rising_since": null
   },
@@ -623,103 +601,81 @@
    "rising_since": null
   },
   {
-   "ticker": "FCI.V",
-   "name": "FIRST CANADIAN GRAPHITE INC",
-   "as_of": "2026-11-13T18:45:00+00:00",
-   "last": 0.6,
-   "pct_day": 11.11,
-   "pct_30m": 0.0,
-   "volume_pace": 0.3,
+   "ticker": "RDU.V",
+   "name": "RADIUS GOLD INC.",
+   "as_of": "2026-11-13T19:25:00+00:00",
+   "last": 0.29,
+   "pct_day": 11.54,
+   "pct_30m": 1.75,
+   "volume_pace": 1.28,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "RDU.V",
-   "name": "RADIUS GOLD INC.",
-   "as_of": "2026-11-13T18:50:00+00:00",
-   "last": 0.285,
-   "pct_day": 9.62,
-   "pct_30m": -5.0,
-   "volume_pace": 1.34,
+   "ticker": "FCI.V",
+   "name": "FIRST CANADIAN GRAPHITE INC",
+   "as_of": "2026-11-13T19:20:00+00:00",
+   "last": 0.6,
+   "pct_day": 11.11,
+   "pct_30m": 0.0,
+   "volume_pace": 0.34,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BYL.TO",
    "name": "BAYLIN TECHNOLOGIES INC",
-   "as_of": "2026-11-13T18:55:00+00:00",
+   "as_of": "2026-11-13T19:05:00+00:00",
    "last": 0.12,
    "pct_day": 20.0,
    "pct_30m": 0.0,
-   "volume_pace": 26.65,
+   "volume_pace": 25.82,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ANRG.TO",
    "name": "ANAERGIA INC",
-   "as_of": "2026-11-13T18:50:00+00:00",
-   "last": 2.07,
-   "pct_day": 13.11,
-   "pct_30m": 0.49,
-   "volume_pace": 2.54,
+   "as_of": "2026-11-13T19:25:00+00:00",
+   "last": 2.09,
+   "pct_day": 14.21,
+   "pct_30m": 0.97,
+   "volume_pace": 2.29,
    "rising": true,
    "rising_since": "2026-11-13T18:50:00+00:00"
   },
   {
-   "ticker": "GRA.TO",
-   "name": "NANOXPLORE INC",
-   "as_of": "2026-11-13T19:00:00+00:00",
-   "last": 1.57,
-   "pct_day": 8.28,
-   "pct_30m": 0.64,
-   "volume_pace": 1.74,
-   "rising": true,
-   "rising_since": "2026-11-13T18:30:00+00:00"
-  },
-  {
-   "ticker": "ILLM.TO",
-   "name": "iLLUMIN HOLDINGS INC",
-   "as_of": "2026-11-13T17:35:00+00:00",
-   "last": 0.55,
-   "pct_day": 7.84,
-   "pct_30m": 7.84,
-   "volume_pace": 7.05,
+   "ticker": "ARA.TO",
+   "name": "ACLARA RESOURCES INC",
+   "as_of": "2026-11-13T19:30:00+00:00",
+   "last": 2.49,
+   "pct_day": 11.16,
+   "pct_30m": 4.62,
+   "volume_pace": 1.33,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "GRA.TO",
+   "name": "NANOXPLORE INC",
+   "as_of": "2026-11-13T19:30:00+00:00",
+   "last": 1.58,
+   "pct_day": 8.97,
+   "pct_30m": 0.64,
+   "volume_pace": 1.79,
+   "rising": true,
+   "rising_since": "2026-11-13T19:15:00+00:00"
   },
   {
    "ticker": "AP-UN.TO",
    "name": "ALLIED PROPERTIES REAL ESTATE I",
-   "as_of": "2026-11-13T19:00:00+00:00",
-   "last": 4.145,
-   "pct_day": 7.11,
-   "pct_30m": -0.36,
-   "volume_pace": 0.97,
+   "as_of": "2026-11-13T19:30:00+00:00",
+   "last": 4.1,
+   "pct_day": 5.94,
+   "pct_30m": -1.09,
+   "volume_pace": 0.98,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "ARA.TO",
-   "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-13T19:00:00+00:00",
-   "last": 2.38,
-   "pct_day": 6.25,
-   "pct_30m": 0.85,
-   "volume_pace": 1.09,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PRL.TO",
-   "name": "PROPEL HOLDINGS INC",
-   "as_of": "2026-11-13T19:00:00+00:00",
-   "last": 28.3,
-   "pct_day": 5.95,
-   "pct_30m": 0.71,
-   "volume_pace": 2.36,
-   "rising": true,
-   "rising_since": "2026-11-13T18:30:00+00:00"
   },
   {
    "ticker": "AVCN.TO",
@@ -735,22 +691,44 @@
   {
    "ticker": "FSZ.TO",
    "name": "FIERA CAPITAL CORP",
-   "as_of": "2026-11-13T19:00:00+00:00",
+   "as_of": "2026-11-13T19:30:00+00:00",
    "last": 2.36,
    "pct_day": 5.83,
    "pct_30m": 0.0,
-   "volume_pace": 1.27,
+   "volume_pace": 1.17,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ITH.TO",
-   "name": "INTERNATIONAL TOWER HILL MINES ",
-   "as_of": "2026-11-13T19:05:00+00:00",
-   "last": 1.92,
-   "pct_day": 5.49,
-   "pct_30m": -1.03,
-   "volume_pace": 0.73,
+   "ticker": "PRL.TO",
+   "name": "PROPEL HOLDINGS INC",
+   "as_of": "2026-11-13T19:30:00+00:00",
+   "last": 28.25,
+   "pct_day": 5.77,
+   "pct_30m": -0.18,
+   "volume_pace": 2.16,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ELR.TO",
+   "name": "EASTERN PLATINUM LIMITED",
+   "as_of": "2026-11-13T15:50:00+00:00",
+   "last": 0.2,
+   "pct_day": 5.26,
+   "pct_30m": -2.44,
+   "volume_pace": 3.44,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SVA.TO",
+   "name": "SERNOVA BIOTHERAPEUTICS INC",
+   "as_of": "2026-11-13T16:00:00+00:00",
+   "last": 0.11,
+   "pct_day": 4.76,
+   "pct_30m": 0.0,
+   "volume_pace": 0.21,
    "rising": false,
    "rising_since": null
   }
@@ -1352,9 +1330,9 @@
    "ma200": 952.41,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-13T19:05:00+00:00",
-    "last": 797.37,
-    "pct_day": -0.67
+    "as_of": "2026-11-13T19:35:00+00:00",
+    "last": 797.86,
+    "pct_day": -0.61
    }
   },
   "^GSPTSE": {
@@ -1953,8 +1931,8 @@
    "ma200": 34716.48,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-13T19:05:00+00:00",
-    "last": 36149.99,
+    "as_of": "2026-11-13T19:35:00+00:00",
+    "last": 36150.61,
     "pct_day": 0.04
    }
   }
