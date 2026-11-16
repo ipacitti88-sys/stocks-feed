@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-16T12:01-07:00
+# Stock feed — 2026-11-16T12:31-07:00
 
-Tracking 704 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-13. Intraday data as of: 2026-11-16T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 704 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-13. Intraday data as of: 2026-11-16T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 798.46 on 2026-11-13 (day -0.5%, month -5.7%, year -13.1%, downtrend); live -2.9% at 19:05
-Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year +17.1%, uptrend); live -0.9% at 19:05
+Market: S&P/TSX Venture Composite 798.46 on 2026-11-13 (day -0.5%, month -5.7%, year -13.1%, downtrend); live -2.7% at 19:35
+Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year +17.1%, uptrend); live -0.9% at 19:35
 
 # TSX Venture
 
@@ -38,8 +38,8 @@ Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CKG.V (CHESAPEAKE GOLD CORP.): +4.2% today at 2.24, last 30m +1.4%, volume pace 3.83x, rising since 2026-11-16T18:50:00+00:00
-- SVRS.V (SILVER STORM MINING LTD): +4.0% today at 0.39, last 30m +2.6%, volume pace 2.49x, rising since 2026-11-16T18:55:00+00:00
+- AAG.V (AFTERMATH SILVER LTD): +5.4% today at 0.485, last 30m +1.0%, volume pace 2.01x, rising since 2026-11-16T19:20:00+00:00
+- SVRS.V (SILVER STORM MINING LTD): +4.0% today at 0.39, last 30m +1.3%, volume pace 2.43x, rising since 2026-11-16T19:35:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -59,13 +59,13 @@ Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year 
 - WGF.V (WESCAN GOLDFIELDS INC): +18.8% at 0.095, volume pace 0.32x
 - TTG.V (TRANS CANADA GOLD CORP): +15.0% at 0.115, volume pace 0.0x
 - PINK.V (PERIMETER MEDICAL IMAGING AI IN): +13.3% at 0.17, volume pace 0.53x
-- MMM.V (MINCO CAPITAL CORP): +12.5% at 0.135, volume pace 0.0x
-- PER.V (PERUVIAN METALS CORP): +11.8% at 0.095, volume pace 2.98x
+- CTM.V (CANTERRA MINERALS CORPORATION): +12.8% at 0.11, volume pace 1.84x
+- PER.V (PERUVIAN METALS CORP): +11.8% at 0.095, volume pace 0.87x
+- WAM.V (ALASKA SILVER CORP): +11.6% at 0.53, volume pace 3.23x
 - FROG.V (BULLFROG GOLD CORPORATION): +11.5% at 0.145, volume pace 4.64x
-- AZEM.V (ARIZONA EAGLE MINING CORP): +10.4% at 0.74, volume pace 4.87x
-- BBB.V (BRIXTON METALS CORPORATION): +10.0% at 0.55, volume pace 4.08x
+- AZEM.V (ARIZONA EAGLE MINING CORP): +10.4% at 0.74, volume pace 5.26x
 - VZZ.V (VAL DOR MINING CORPORATION): +10.0% at 0.11, volume pace 8.06x
-- WAM.V (ALASKA SILVER CORP): +9.5% at 0.52, volume pace 3.22x
+- PWER.V (GLOBAL POWER SOLUTIONS CORP): +8.3% at 0.13, volume pace 0.67x
 
 # TSX
 
@@ -101,8 +101,8 @@ Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ELO.TO (ELORO RESOURCES LTD): +5.3% today at 1.2, last 30m +2.1%, volume pace 4.38x, rising since 2026-11-16T18:55:00+00:00
-- FF.TO (FIRST MINING GOLD CORP): +4.0% today at 0.645, last 30m +0.8%, volume pace 5.6x, rising since 2026-11-16T18:45:00+00:00
+- ELO.TO (ELORO RESOURCES LTD): +7.0% today at 1.22, last 30m +1.7%, volume pace 4.27x, rising since 2026-11-16T18:55:00+00:00
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +4.0% today at 5.65, last 30m +1.2%, volume pace 2.23x, rising since 2026-11-16T19:15:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -119,13 +119,13 @@ Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 1.67x
-- DND.TO (DYE AND DURHAM LIMITED): +7.3% at 0.955, volume pace 0.89x
+- LUC.TO (LUCARA DIAMOND CORP): +18.2% at 0.13, volume pace 1.72x
+- ELO.TO (ELORO RESOURCES LTD): +7.0% at 1.22, volume pace 4.27x
+- DND.TO (DYE AND DURHAM LIMITED): +6.7% at 0.95, volume pace 0.83x
 - FT.TO (FORTUNE MNRL J): +6.7% at 0.08, volume pace 1.7x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +5.8% at 0.275, volume pace 1.18x
-- GRN.TO (GREENLANE RENEWABLES INC): +5.7% at 0.185, volume pace 0.81x
-- ELO.TO (ELORO RESOURCES LTD): +5.3% at 1.2, volume pace 4.38x
-- EDT.TO (SPECTRAL MEDICAL INC): +5.0% at 1.05, volume pace 0.72x
-- FF.TO (FIRST MINING GOLD CORP): +4.0% at 0.645, volume pace 5.6x
-- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +3.7% at 0.14, volume pace 1.66x
-- ORIO.TO (ORION DIGITAL CORP): +3.3% at 1.56, volume pace 0.87x
+- ORIO.TO (ORION DIGITAL CORP): +6.0% at 1.6, volume pace 1.72x
+- GRN.TO (GREENLANE RENEWABLES INC): +5.7% at 0.185, volume pace 1.03x
+- EDT.TO (SPECTRAL MEDICAL INC): +5.0% at 1.05, volume pace 0.8x
+- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +4.6% at 0.795, volume pace 0.81x
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +4.0% at 5.65, volume pace 2.23x
+- FF.TO (FIRST MINING GOLD CORP): +4.0% at 0.645, volume pace 5.66x
