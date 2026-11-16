@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T10:01-07:00",
+ "generated": "2026-11-16T10:31-07:00",
  "last_close_day": "2026-11-13",
  "tracked": 704,
  "tracked_by_market": {
@@ -460,40 +460,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-16T17:05:00+00:00",
+ "live_as_of": "2026-11-16T17:35:00+00:00",
  "rising": [
-  {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-16T17:00:00+00:00",
-   "last": 3.23,
-   "pct_day": 11.76,
-   "pct_30m": 4.53,
-   "volume_pace": 5.23,
-   "rising": true,
-   "rising_since": "2026-11-16T15:30:00+00:00"
-  },
   {
    "ticker": "ELO.TO",
    "name": "ELORO RESOURCES LTD",
-   "as_of": "2026-11-16T17:00:00+00:00",
-   "last": 1.22,
-   "pct_day": 7.02,
-   "pct_30m": 4.27,
-   "volume_pace": 4.73,
+   "as_of": "2026-11-16T17:35:00+00:00",
+   "last": 1.25,
+   "pct_day": 9.65,
+   "pct_30m": 0.81,
+   "volume_pace": 4.68,
    "rising": true,
    "rising_since": "2026-11-16T16:35:00+00:00"
   },
   {
-   "ticker": "SVRS.V",
-   "name": "SILVER STORM MINING LTD",
-   "as_of": "2026-11-16T17:00:00+00:00",
-   "last": 0.395,
-   "pct_day": 5.33,
-   "pct_30m": 1.28,
-   "volume_pace": 2.84,
+   "ticker": "YTY.V",
+   "name": "WI2WI CORPORATION",
+   "as_of": "2026-11-16T17:30:00+00:00",
+   "last": 0.15,
+   "pct_day": 3.45,
+   "pct_30m": 3.45,
+   "volume_pace": 4.17,
    "rising": true,
-   "rising_since": "2026-11-16T17:00:00+00:00"
+   "rising_since": "2026-11-16T17:30:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -509,17 +498,6 @@
    "rising_since": null
   },
   {
-   "ticker": "FROG.V",
-   "name": "BULLFROG GOLD CORPORATION",
-   "as_of": "2026-11-16T16:15:00+00:00",
-   "last": 0.15,
-   "pct_day": 15.38,
-   "pct_30m": -9.09,
-   "volume_pace": 7.1,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "TTG.V",
    "name": "TRANS CANADA GOLD CORP",
    "as_of": "2026-11-16T14:35:00+00:00",
@@ -527,6 +505,17 @@
    "pct_day": 15.0,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AZEM.V",
+   "name": "ARIZONA EAGLE MINING CORP",
+   "as_of": "2026-11-16T17:20:00+00:00",
+   "last": 0.76,
+   "pct_day": 13.43,
+   "pct_30m": 28.81,
+   "volume_pace": 2.57,
    "rising": false,
    "rising_since": null
   },
@@ -542,17 +531,6 @@
    "rising_since": null
   },
   {
-   "ticker": "PRG.V",
-   "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-11-16T17:05:00+00:00",
-   "last": 0.135,
-   "pct_day": 12.5,
-   "pct_30m": 0.0,
-   "volume_pace": 0.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "MMM.V",
    "name": "MINCO CAPITAL CORP",
    "as_of": "2026-11-16T14:35:00+00:00",
@@ -562,28 +540,6 @@
    "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "BBB.V",
-   "name": "BRIXTON METALS CORPORATION",
-   "as_of": "2026-11-16T17:00:00+00:00",
-   "last": 0.56,
-   "pct_day": 12.0,
-   "pct_30m": 1.82,
-   "volume_pace": 3.87,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-16T17:00:00+00:00",
-   "last": 3.23,
-   "pct_day": 11.76,
-   "pct_30m": 4.53,
-   "volume_pace": 5.23,
-   "rising": true,
-   "rising_since": "2026-11-16T15:30:00+00:00"
   },
   {
    "ticker": "PER.V",
@@ -597,13 +553,46 @@
    "rising_since": null
   },
   {
-   "ticker": "GRDM.V",
-   "name": "GRID METALS CORP",
-   "as_of": "2026-11-16T16:30:00+00:00",
-   "last": 0.2,
-   "pct_day": 11.11,
-   "pct_30m": 11.11,
-   "volume_pace": 1.49,
+   "ticker": "WAM.V",
+   "name": "ALASKA SILVER CORP",
+   "as_of": "2026-11-16T17:30:00+00:00",
+   "last": 0.53,
+   "pct_day": 11.58,
+   "pct_30m": 1.92,
+   "volume_pace": 3.71,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FROG.V",
+   "name": "BULLFROG GOLD CORPORATION",
+   "as_of": "2026-11-16T17:25:00+00:00",
+   "last": 0.145,
+   "pct_day": 11.54,
+   "pct_30m": -3.33,
+   "volume_pace": 4.26,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "BBB.V",
+   "name": "BRIXTON METALS CORPORATION",
+   "as_of": "2026-11-16T17:10:00+00:00",
+   "last": 0.55,
+   "pct_day": 10.0,
+   "pct_30m": 0.0,
+   "volume_pace": 4.08,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PAIN.V",
+   "name": "VECTOR SCIENCE AND THERAPEUTICS",
+   "as_of": "2026-11-16T17:30:00+00:00",
+   "last": 3.16,
+   "pct_day": 9.34,
+   "pct_30m": -2.17,
+   "volume_pace": 4.54,
    "rising": false,
    "rising_since": null
   },
@@ -621,24 +610,35 @@
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-16T17:00:00+00:00",
+   "as_of": "2026-11-16T17:30:00+00:00",
    "last": 0.99,
    "pct_day": 11.24,
-   "pct_30m": -1.98,
-   "volume_pace": 1.36,
+   "pct_30m": 0.0,
+   "volume_pace": 1.2,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ELO.TO",
    "name": "ELORO RESOURCES LTD",
-   "as_of": "2026-11-16T17:00:00+00:00",
-   "last": 1.22,
-   "pct_day": 7.02,
-   "pct_30m": 4.27,
-   "volume_pace": 4.73,
+   "as_of": "2026-11-16T17:35:00+00:00",
+   "last": 1.25,
+   "pct_day": 9.65,
+   "pct_30m": 0.81,
+   "volume_pace": 4.68,
    "rising": true,
    "rising_since": "2026-11-16T16:35:00+00:00"
+  },
+  {
+   "ticker": "EDT.TO",
+   "name": "SPECTRAL MEDICAL INC",
+   "as_of": "2026-11-16T17:30:00+00:00",
+   "last": 1.06,
+   "pct_day": 6.0,
+   "pct_30m": 2.91,
+   "volume_pace": 0.97,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "GRN.TO",
@@ -648,6 +648,17 @@
    "pct_day": 5.71,
    "pct_30m": -2.63,
    "volume_pace": 2.43,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FF.TO",
+   "name": "FIRST MINING GOLD CORP",
+   "as_of": "2026-11-16T17:35:00+00:00",
+   "last": 0.65,
+   "pct_day": 4.84,
+   "pct_30m": 0.0,
+   "volume_pace": 5.22,
    "rising": false,
    "rising_since": null
   },
@@ -663,28 +674,6 @@
    "rising_since": null
   },
   {
-   "ticker": "NDM.TO",
-   "name": "NORTHERN DYNASTY MINERALS LTD.",
-   "as_of": "2026-11-16T17:00:00+00:00",
-   "last": 0.79,
-   "pct_day": 3.95,
-   "pct_30m": 2.6,
-   "volume_pace": 0.91,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-16T16:35:00+00:00",
-   "last": 0.56,
-   "pct_day": 3.7,
-   "pct_30m": 1.82,
-   "volume_pace": 1.09,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "SAU.TO",
    "name": "ST AUGUSTINE GOLD AND COPPER LT",
    "as_of": "2026-11-16T16:10:00+00:00",
@@ -696,24 +685,24 @@
    "rising_since": null
   },
   {
-   "ticker": "FT.TO",
-   "name": "FORTUNE MNRL J",
-   "as_of": "2026-11-16T16:20:00+00:00",
-   "last": 0.0775,
-   "pct_day": 3.33,
-   "pct_30m": 3.33,
-   "volume_pace": 3.71,
+   "ticker": "NDM.TO",
+   "name": "NORTHERN DYNASTY MINERALS LTD.",
+   "as_of": "2026-11-16T17:35:00+00:00",
+   "last": 0.785,
+   "pct_day": 3.29,
+   "pct_30m": -0.63,
+   "volume_pace": 0.89,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "FF.TO",
-   "name": "FIRST MINING GOLD CORP",
-   "as_of": "2026-11-16T17:05:00+00:00",
-   "last": 0.64,
-   "pct_day": 3.23,
+   "ticker": "CAML.TO",
+   "name": "CENTRAL ASIA METALS PLC",
+   "as_of": "2026-11-16T14:40:00+00:00",
+   "last": 2.38,
+   "pct_day": 3.03,
    "pct_30m": 0.0,
-   "volume_pace": 5.3,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   }
@@ -1315,9 +1304,9 @@
    "ma200": 950.67,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-16T17:05:00+00:00",
-    "last": 781.6,
-    "pct_day": -2.11
+    "as_of": "2026-11-16T17:35:00+00:00",
+    "last": 780.78,
+    "pct_day": -2.21
    }
   },
   "^GSPTSE": {
@@ -1916,9 +1905,9 @@
    "ma200": 34731.13,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-16T17:05:00+00:00",
-    "last": 35883.51,
-    "pct_day": -0.62
+    "as_of": "2026-11-16T17:35:00+00:00",
+    "last": 35856.14,
+    "pct_day": -0.69
    }
   }
  },
