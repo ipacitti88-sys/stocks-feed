@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T09:31-07:00",
+ "generated": "2026-11-16T10:01-07:00",
  "last_close_day": "2026-11-13",
  "tracked": 704,
  "tracked_by_market": {
@@ -460,62 +460,51 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-16T16:35:00+00:00",
+ "live_as_of": "2026-11-16T17:05:00+00:00",
  "rising": [
   {
    "ticker": "PAIN.V",
    "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-16T16:30:00+00:00",
-   "last": 3.09,
-   "pct_day": 6.92,
-   "pct_30m": 1.31,
-   "volume_pace": 4.31,
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 3.23,
+   "pct_day": 11.76,
+   "pct_30m": 4.53,
+   "volume_pace": 5.23,
    "rising": true,
    "rising_since": "2026-11-16T15:30:00+00:00"
   },
   {
-   "ticker": "SUNV.V",
-   "name": "Sun Valley Minerals Inc.",
-   "as_of": "2026-11-16T15:45:00+00:00",
-   "last": 0.9,
-   "pct_day": 5.88,
-   "pct_30m": 5.88,
-   "volume_pace": 1.74,
+   "ticker": "ELO.TO",
+   "name": "ELORO RESOURCES LTD",
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 1.22,
+   "pct_day": 7.02,
+   "pct_30m": 4.27,
+   "volume_pace": 4.73,
    "rising": true,
-   "rising_since": "2026-11-16T15:30:00+00:00"
+   "rising_since": "2026-11-16T16:35:00+00:00"
   },
   {
    "ticker": "SVRS.V",
    "name": "SILVER STORM MINING LTD",
-   "as_of": "2026-11-16T16:30:00+00:00",
-   "last": 0.39,
-   "pct_day": 4.0,
-   "pct_30m": 1.96,
-   "volume_pace": 3.35,
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 0.395,
+   "pct_day": 5.33,
+   "pct_30m": 1.28,
+   "volume_pace": 2.84,
    "rising": true,
-   "rising_since": "2026-11-16T16:30:00+00:00"
-  },
-  {
-   "ticker": "MAXQ.TO",
-   "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-16T16:35:00+00:00",
-   "last": 0.45,
-   "pct_day": 3.45,
-   "pct_30m": 2.27,
-   "volume_pace": 3.01,
-   "rising": true,
-   "rising_since": "2026-11-16T16:35:00+00:00"
+   "rising_since": "2026-11-16T17:00:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "WGF.V",
    "name": "WESCAN GOLDFIELDS INC",
-   "as_of": "2026-11-16T16:00:00+00:00",
+   "as_of": "2026-11-16T16:40:00+00:00",
    "last": 0.095,
    "pct_day": 18.75,
-   "pct_30m": 5.56,
-   "volume_pace": 0.29,
+   "pct_30m": 0.0,
+   "volume_pace": 0.23,
    "rising": false,
    "rising_since": null
   },
@@ -542,24 +531,24 @@
    "rising_since": null
   },
   {
-   "ticker": "WAM.V",
-   "name": "ALASKA SILVER CORP",
-   "as_of": "2026-11-16T16:30:00+00:00",
-   "last": 0.54,
-   "pct_day": 13.68,
-   "pct_30m": 5.88,
-   "volume_pace": 4.32,
+   "ticker": "PINK.V",
+   "name": "PERIMETER MEDICAL IMAGING AI IN",
+   "as_of": "2026-11-16T16:40:00+00:00",
+   "last": 0.17,
+   "pct_day": 13.33,
+   "pct_30m": 6.25,
+   "volume_pace": 0.53,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PRG.V",
    "name": "PRECIPITATE GOLD CORP",
-   "as_of": "2026-11-16T16:35:00+00:00",
+   "as_of": "2026-11-16T17:05:00+00:00",
    "last": 0.135,
    "pct_day": 12.5,
    "pct_30m": 0.0,
-   "volume_pace": 0.55,
+   "volume_pace": 0.67,
    "rising": false,
    "rising_since": null
   },
@@ -575,6 +564,28 @@
    "rising_since": null
   },
   {
+   "ticker": "BBB.V",
+   "name": "BRIXTON METALS CORPORATION",
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 0.56,
+   "pct_day": 12.0,
+   "pct_30m": 1.82,
+   "volume_pace": 3.87,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PAIN.V",
+   "name": "VECTOR SCIENCE AND THERAPEUTICS",
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 3.23,
+   "pct_day": 11.76,
+   "pct_30m": 4.53,
+   "volume_pace": 5.23,
+   "rising": true,
+   "rising_since": "2026-11-16T15:30:00+00:00"
+  },
+  {
    "ticker": "PER.V",
    "name": "PERUVIAN METALS CORP",
    "as_of": "2026-11-16T15:55:00+00:00",
@@ -586,59 +597,48 @@
    "rising_since": null
   },
   {
-   "ticker": "DEC.V",
-   "name": "DECADE RESOURCES LTD.",
-   "as_of": "2026-11-16T16:20:00+00:00",
-   "last": 0.1,
-   "pct_day": 11.11,
-   "pct_30m": 5.26,
-   "volume_pace": 0.92,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "GRDM.V",
    "name": "GRID METALS CORP",
    "as_of": "2026-11-16T16:30:00+00:00",
    "last": 0.2,
    "pct_day": 11.11,
    "pct_30m": 11.11,
-   "volume_pace": 1.46,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BBB.V",
-   "name": "BRIXTON METALS CORPORATION",
-   "as_of": "2026-11-16T16:25:00+00:00",
-   "last": 0.55,
-   "pct_day": 10.0,
-   "pct_30m": 3.77,
-   "volume_pace": 3.38,
+   "volume_pace": 1.49,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "LUC.TO",
    "name": "LUCARA DIAMOND CORP",
-   "as_of": "2026-11-16T16:25:00+00:00",
-   "last": 0.14,
-   "pct_day": 27.27,
-   "pct_30m": 0.0,
-   "volume_pace": 3.22,
+   "as_of": "2026-11-16T16:45:00+00:00",
+   "last": 0.1375,
+   "pct_day": 25.0,
+   "pct_30m": -1.79,
+   "volume_pace": 2.75,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-16T16:30:00+00:00",
-   "last": 1.01,
-   "pct_day": 13.48,
-   "pct_30m": -0.98,
-   "volume_pace": 1.56,
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 0.99,
+   "pct_day": 11.24,
+   "pct_30m": -1.98,
+   "volume_pace": 1.36,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "ELO.TO",
+   "name": "ELORO RESOURCES LTD",
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 1.22,
+   "pct_day": 7.02,
+   "pct_30m": 4.27,
+   "volume_pace": 4.73,
+   "rising": true,
+   "rising_since": "2026-11-16T16:35:00+00:00"
   },
   {
    "ticker": "GRN.TO",
@@ -648,17 +648,6 @@
    "pct_day": 5.71,
    "pct_30m": -2.63,
    "volume_pace": 2.43,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HLS.TO",
-   "name": "HLS THERAPEUTICS INC",
-   "as_of": "2026-11-16T16:15:00+00:00",
-   "last": 3.89,
-   "pct_day": 4.85,
-   "pct_30m": 1.83,
-   "volume_pace": 0.15,
    "rising": false,
    "rising_since": null
   },
@@ -674,13 +663,24 @@
    "rising_since": null
   },
   {
+   "ticker": "NDM.TO",
+   "name": "NORTHERN DYNASTY MINERALS LTD.",
+   "as_of": "2026-11-16T17:00:00+00:00",
+   "last": 0.79,
+   "pct_day": 3.95,
+   "pct_30m": 2.6,
+   "volume_pace": 0.91,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "TSND.TO",
    "name": "TERRASCEND CORP",
    "as_of": "2026-11-16T16:35:00+00:00",
    "last": 0.56,
    "pct_day": 3.7,
    "pct_30m": 1.82,
-   "volume_pace": 1.05,
+   "volume_pace": 1.09,
    "rising": false,
    "rising_since": null
   },
@@ -696,17 +696,6 @@
    "rising_since": null
   },
   {
-   "ticker": "MAXQ.TO",
-   "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-16T16:35:00+00:00",
-   "last": 0.45,
-   "pct_day": 3.45,
-   "pct_30m": 2.27,
-   "volume_pace": 3.01,
-   "rising": true,
-   "rising_since": "2026-11-16T16:35:00+00:00"
-  },
-  {
    "ticker": "FT.TO",
    "name": "FORTUNE MNRL J",
    "as_of": "2026-11-16T16:20:00+00:00",
@@ -720,11 +709,11 @@
   {
    "ticker": "FF.TO",
    "name": "FIRST MINING GOLD CORP",
-   "as_of": "2026-11-16T16:35:00+00:00",
+   "as_of": "2026-11-16T17:05:00+00:00",
    "last": 0.64,
    "pct_day": 3.23,
    "pct_30m": 0.0,
-   "volume_pace": 5.28,
+   "volume_pace": 5.3,
    "rising": false,
    "rising_since": null
   }
@@ -1326,9 +1315,9 @@
    "ma200": 950.67,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-16T16:35:00+00:00",
-    "last": 781.9,
-    "pct_day": -2.07
+    "as_of": "2026-11-16T17:05:00+00:00",
+    "last": 781.6,
+    "pct_day": -2.11
    }
   },
   "^GSPTSE": {
@@ -1927,9 +1916,9 @@
    "ma200": 34731.13,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-16T16:35:00+00:00",
-    "last": 35994.58,
-    "pct_day": -0.31
+    "as_of": "2026-11-16T17:05:00+00:00",
+    "last": 35883.51,
+    "pct_day": -0.62
    }
   }
  },
