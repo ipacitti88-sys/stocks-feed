@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-16T14:01-07:00
+# Stock feed — 2026-11-16T14:06-07:00
 
 Tracking 704 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-13. Intraday data as of: 2026-11-16T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -39,7 +39,6 @@ Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
 - PAIN.V (VECTOR SCIENCE AND THERAPEUTICS): +8.3% today at 3.13, last 30m +1.0%, volume pace 3.24x, rising since 2026-11-16T19:50:00+00:00
-- SVRS.V (SILVER STORM MINING LTD): +4.0% today at 0.39, last 30m +2.6%, volume pace 2.62x, rising since 2026-11-16T21:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -120,6 +119,7 @@ Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year 
 
 - LUC.TO (LUCARA DIAMOND CORP): +13.6% at 0.125, volume pace 1.37x
 - ELO.TO (ELORO RESOURCES LTD): +7.9% at 1.23, volume pace 4.88x
+- AEG.TO (AEGIS BRANDS INC): +6.7% at 0.32, volume pace 0.2x
 - GRN.TO (GREENLANE RENEWABLES INC): +5.7% at 0.185, volume pace 0.79x
 - MDP.TO (MEDEXUS PHARMACEUTICALS INC): +5.7% at 5.74, volume pace 2.34x
 - EDT.TO (SPECTRAL MEDICAL INC): +5.0% at 1.05, volume pace 1.02x
@@ -127,4 +127,3 @@ Market: S&P/TSX Composite 36,105.90 on 2026-11-13 (day -0.1%, month -0.1%, year 
 - NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +4.0% at 0.79, volume pace 1.09x
 - TSND.TO (TERRASCEND CORP): +3.7% at 0.56, volume pace 0.72x
 - SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +3.7% at 0.14, volume pace 1.66x
-- DND.TO (DYE AND DURHAM LIMITED): +3.4% at 0.92, volume pace 0.83x

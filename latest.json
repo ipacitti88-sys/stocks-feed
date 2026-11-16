@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T14:01-07:00",
+ "generated": "2026-11-16T14:06-07:00",
  "last_close_day": "2026-11-13",
  "tracked": 704,
  "tracked_by_market": {
@@ -472,17 +472,6 @@
    "volume_pace": 3.24,
    "rising": true,
    "rising_since": "2026-11-16T19:50:00+00:00"
-  },
-  {
-   "ticker": "SVRS.V",
-   "name": "SILVER STORM MINING LTD",
-   "as_of": "2026-11-16T21:00:00+00:00",
-   "last": 0.39,
-   "pct_day": 4.0,
-   "pct_30m": 2.63,
-   "volume_pace": 2.62,
-   "rising": true,
-   "rising_since": "2026-11-16T21:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -619,6 +608,17 @@
    "rising_since": null
   },
   {
+   "ticker": "AEG.TO",
+   "name": "AEGIS BRANDS INC",
+   "as_of": "2026-11-16T20:50:00+00:00",
+   "last": 0.32,
+   "pct_day": 6.67,
+   "pct_30m": 4.92,
+   "volume_pace": 0.2,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "GRN.TO",
    "name": "GREENLANE RENEWABLES INC",
    "as_of": "2026-11-16T20:40:00+00:00",
@@ -692,17 +692,6 @@
    "pct_day": 3.7,
    "pct_30m": 0.0,
    "volume_pace": 1.66,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "DND.TO",
-   "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-16T21:00:00+00:00",
-   "last": 0.92,
-   "pct_day": 3.37,
-   "pct_30m": 0.0,
-   "volume_pace": 0.83,
    "rising": false,
    "rising_since": null
   }
