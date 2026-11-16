@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T11:01-07:00",
+ "generated": "2026-11-16T11:31-07:00",
  "last_close_day": "2026-11-13",
  "tracked": 704,
  "tracked_by_market": {
@@ -460,29 +460,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-16T18:05:00+00:00",
+ "live_as_of": "2026-11-16T18:35:00+00:00",
  "rising": [
   {
-   "ticker": "PAIN.V",
-   "name": "VECTOR SCIENCE AND THERAPEUTICS",
-   "as_of": "2026-11-16T17:55:00+00:00",
-   "last": 3.14,
-   "pct_day": 8.65,
-   "pct_30m": 0.32,
-   "volume_pace": 4.0,
+   "ticker": "FF.TO",
+   "name": "FIRST MINING GOLD CORP",
+   "as_of": "2026-11-16T18:35:00+00:00",
+   "last": 0.65,
+   "pct_day": 4.84,
+   "pct_30m": 0.78,
+   "volume_pace": 5.51,
    "rising": true,
-   "rising_since": "2026-11-16T17:55:00+00:00"
+   "rising_since": "2026-11-16T18:35:00+00:00"
   },
   {
-   "ticker": "MACK.V",
-   "name": "MACKAY GOLD AND SILVER CORP",
-   "as_of": "2026-11-16T18:00:00+00:00",
-   "last": 2.95,
-   "pct_day": 4.98,
-   "pct_30m": 3.87,
-   "volume_pace": 1.7,
+   "ticker": "CKG.V",
+   "name": "CHESAPEAKE GOLD CORP.",
+   "as_of": "2026-11-16T18:30:00+00:00",
+   "last": 2.24,
+   "pct_day": 4.19,
+   "pct_30m": 0.45,
+   "volume_pace": 4.21,
    "rising": true,
-   "rising_since": "2026-11-16T18:00:00+00:00"
+   "rising_since": "2026-11-16T18:30:00+00:00"
   },
   {
    "ticker": "YTY.V",
@@ -504,7 +504,7 @@
    "last": 0.095,
    "pct_day": 18.75,
    "pct_30m": 0.0,
-   "volume_pace": 0.15,
+   "volume_pace": 0.32,
    "rising": false,
    "rising_since": null
   },
@@ -542,17 +542,6 @@
    "rising_since": null
   },
   {
-   "ticker": "AZEM.V",
-   "name": "ARIZONA EAGLE MINING CORP",
-   "as_of": "2026-11-16T18:00:00+00:00",
-   "last": 0.75,
-   "pct_day": 11.94,
-   "pct_30m": -1.32,
-   "volume_pace": 4.66,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "PER.V",
    "name": "PERUVIAN METALS CORP",
    "as_of": "2026-11-16T15:55:00+00:00",
@@ -566,11 +555,11 @@
   {
    "ticker": "WAM.V",
    "name": "ALASKA SILVER CORP",
-   "as_of": "2026-11-16T18:00:00+00:00",
+   "as_of": "2026-11-16T18:05:00+00:00",
    "last": 0.53,
    "pct_day": 11.58,
    "pct_30m": 0.0,
-   "volume_pace": 3.42,
+   "volume_pace": 3.4,
    "rising": false,
    "rising_since": null
   },
@@ -586,6 +575,17 @@
    "rising_since": null
   },
   {
+   "ticker": "AZEM.V",
+   "name": "ARIZONA EAGLE MINING CORP",
+   "as_of": "2026-11-16T18:05:00+00:00",
+   "last": 0.74,
+   "pct_day": 10.45,
+   "pct_30m": -1.33,
+   "volume_pace": 4.87,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "BBB.V",
    "name": "BRIXTON METALS CORPORATION",
    "as_of": "2026-11-16T17:10:00+00:00",
@@ -597,13 +597,13 @@
    "rising_since": null
   },
   {
-   "ticker": "TT.V",
-   "name": "TOTAL METALS CORP",
-   "as_of": "2026-11-16T17:25:00+00:00",
-   "last": 0.235,
-   "pct_day": 9.3,
-   "pct_30m": 2.17,
-   "volume_pace": 0.17,
+   "ticker": "VZZ.V",
+   "name": "VAL DOR MINING CORPORATION",
+   "as_of": "2026-11-16T18:25:00+00:00",
+   "last": 0.11,
+   "pct_day": 10.0,
+   "pct_30m": 22.22,
+   "volume_pace": 4.55,
    "rising": false,
    "rising_since": null
   },
@@ -614,29 +614,18 @@
    "last": 0.135,
    "pct_day": 22.73,
    "pct_30m": -1.82,
-   "volume_pace": 1.77,
+   "volume_pace": 1.86,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-16T17:55:00+00:00",
-   "last": 0.98,
-   "pct_day": 10.11,
-   "pct_30m": -0.51,
-   "volume_pace": 1.07,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ELO.TO",
-   "name": "ELORO RESOURCES LTD",
-   "as_of": "2026-11-16T18:00:00+00:00",
-   "last": 1.22,
-   "pct_day": 7.02,
-   "pct_30m": -2.4,
-   "volume_pace": 4.78,
+   "as_of": "2026-11-16T18:30:00+00:00",
+   "last": 0.97,
+   "pct_day": 8.99,
+   "pct_30m": -1.02,
+   "volume_pace": 0.97,
    "rising": false,
    "rising_since": null
   },
@@ -665,22 +654,33 @@
   {
    "ticker": "FF.TO",
    "name": "FIRST MINING GOLD CORP",
-   "as_of": "2026-11-16T18:05:00+00:00",
-   "last": 0.645,
-   "pct_day": 4.03,
-   "pct_30m": -0.77,
-   "volume_pace": 5.57,
+   "as_of": "2026-11-16T18:35:00+00:00",
+   "last": 0.65,
+   "pct_day": 4.84,
+   "pct_30m": 0.78,
+   "volume_pace": 5.51,
+   "rising": true,
+   "rising_since": "2026-11-16T18:35:00+00:00"
+  },
+  {
+   "ticker": "NDM.TO",
+   "name": "NORTHERN DYNASTY MINERALS LTD.",
+   "as_of": "2026-11-16T18:25:00+00:00",
+   "last": 0.79,
+   "pct_day": 3.95,
+   "pct_30m": 0.64,
+   "volume_pace": 0.86,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TSND.TO",
    "name": "TERRASCEND CORP",
-   "as_of": "2026-11-16T18:00:00+00:00",
+   "as_of": "2026-11-16T18:30:00+00:00",
    "last": 0.56,
    "pct_day": 3.7,
-   "pct_30m": 1.82,
-   "volume_pace": 0.81,
+   "pct_30m": 0.0,
+   "volume_pace": 1.06,
    "rising": false,
    "rising_since": null
   },
@@ -696,6 +696,17 @@
    "rising_since": null
   },
   {
+   "ticker": "ELO.TO",
+   "name": "ELORO RESOURCES LTD",
+   "as_of": "2026-11-16T18:30:00+00:00",
+   "last": 1.175,
+   "pct_day": 3.07,
+   "pct_30m": -3.69,
+   "volume_pace": 4.71,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "CAML.TO",
    "name": "CENTRAL ASIA METALS PLC",
    "as_of": "2026-11-16T14:40:00+00:00",
@@ -703,17 +714,6 @@
    "pct_day": 3.03,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BOIL.TO",
-   "name": "BEYOND OIL LTD",
-   "as_of": "2026-11-16T17:50:00+00:00",
-   "last": 2.15,
-   "pct_day": 2.87,
-   "pct_30m": -1.83,
-   "volume_pace": 2.06,
    "rising": false,
    "rising_since": null
   }
@@ -1315,9 +1315,9 @@
    "ma200": 950.67,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-16T18:05:00+00:00",
-    "last": 778.92,
-    "pct_day": -2.45
+    "as_of": "2026-11-16T18:35:00+00:00",
+    "last": 775.57,
+    "pct_day": -2.87
    }
   },
   "^GSPTSE": {
@@ -1916,9 +1916,9 @@
    "ma200": 34731.13,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-16T18:05:00+00:00",
-    "last": 35822.65,
-    "pct_day": -0.78
+    "as_of": "2026-11-16T18:35:00+00:00",
+    "last": 35759.13,
+    "pct_day": -0.96
    }
   }
  },
