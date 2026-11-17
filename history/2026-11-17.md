@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-17T14:01-07:00
+# Stock feed — 2026-11-17T14:06-07:00
 
 Tracking 706 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-16. Intraday data as of: 2026-11-17T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -117,6 +117,7 @@ Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year 
 - BPAG.V (BP SILVER CORP): +6.8% today at 0.79, last 30m +1.3%, volume pace 7.35x, rising since 2026-11-17T20:30:00+00:00
 - TNR.V (TNR GOLD CORP): +5.0% today at 0.3675, last 30m +0.7%, volume pace 1.95x, rising since 2026-11-17T20:55:00+00:00
 - TUD.V (TUDOR GOLD CORP): +4.4% today at 0.71, last 30m +0.7%, volume pace 4.24x, rising since 2026-11-17T21:00:00+00:00
+- ASE.V (ASANTE GOLD CORPORATION): +4.2% today at 0.25, last 30m +2.0%, volume pace 1.7x, rising since 2026-11-17T21:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -219,7 +220,7 @@ Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ELO.TO (ELORO RESOURCES LTD): +8.1% today at 1.33, last 30m +1.9%, volume pace 3.69x, rising since 2026-11-17T21:00:00+00:00
+- ELO.TO (ELORO RESOURCES LTD): +6.5% today at 1.31, last 30m +0.4%, volume pace 3.69x, rising since 2026-11-17T21:00:00+00:00
 - FWZ.TO (Fireweed Metals Corp.): +4.9% today at 2.14, last 30m +1.7%, volume pace 1.56x, rising since 2026-11-17T21:00:00+00:00
 - AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +4.7% today at 2.7, last 30m +1.9%, volume pace 1.53x, rising since 2026-11-17T21:00:00+00:00
 - MDP.TO (MEDEXUS PHARMACEUTICALS INC): +4.5% today at 6.0, last 30m +0.8%, volume pace 3.27x, rising since 2026-11-17T20:40:00+00:00
@@ -242,7 +243,7 @@ Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year 
 
 - CFF.TO (CONIFEX TIMBER INC): +31.6% at 0.125, volume pace 1.16x
 - ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +17.0% at 0.275, volume pace 0.47x
-- ELO.TO (ELORO RESOURCES LTD): +8.1% at 1.33, volume pace 3.69x
+- ELO.TO (ELORO RESOURCES LTD): +6.5% at 1.31, volume pace 3.69x
 - ARA.TO (ACLARA RESOURCES INC): +5.6% at 2.345, volume pace 1.83x
 - ECO.TO (ECOSYNTHETIX INC): +5.2% at 1.61, volume pace 0.28x
 - EDT.TO (SPECTRAL MEDICAL INC): +4.9% at 1.07, volume pace 0.39x

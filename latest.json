@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T14:01-07:00",
+ "generated": "2026-11-17T14:06-07:00",
  "last_close_day": "2026-11-16",
  "tracked": 706,
  "tracked_by_market": {
@@ -448,17 +448,6 @@
  "live_as_of": "2026-11-17T21:00:00+00:00",
  "rising": [
   {
-   "ticker": "ELO.TO",
-   "name": "ELORO RESOURCES LTD",
-   "as_of": "2026-11-17T21:00:00+00:00",
-   "last": 1.33,
-   "pct_day": 8.13,
-   "pct_30m": 1.92,
-   "volume_pace": 3.69,
-   "rising": true,
-   "rising_since": "2026-11-17T21:00:00+00:00"
-  },
-  {
    "ticker": "SVRS.V",
    "name": "SILVER STORM MINING LTD",
    "as_of": "2026-11-17T21:00:00+00:00",
@@ -479,6 +468,17 @@
    "volume_pace": 7.35,
    "rising": true,
    "rising_since": "2026-11-17T20:30:00+00:00"
+  },
+  {
+   "ticker": "ELO.TO",
+   "name": "ELORO RESOURCES LTD",
+   "as_of": "2026-11-17T21:00:00+00:00",
+   "last": 1.31,
+   "pct_day": 6.5,
+   "pct_30m": 0.38,
+   "volume_pace": 3.69,
+   "rising": true,
+   "rising_since": "2026-11-17T21:00:00+00:00"
   },
   {
    "ticker": "TNR.V",
@@ -532,6 +532,17 @@
    "pct_day": 4.41,
    "pct_30m": 0.71,
    "volume_pace": 4.24,
+   "rising": true,
+   "rising_since": "2026-11-17T21:00:00+00:00"
+  },
+  {
+   "ticker": "ASE.V",
+   "name": "ASANTE GOLD CORPORATION",
+   "as_of": "2026-11-17T21:00:00+00:00",
+   "last": 0.25,
+   "pct_day": 4.17,
+   "pct_30m": 2.04,
+   "volume_pace": 1.7,
    "rising": true,
    "rising_since": "2026-11-17T21:00:00+00:00"
   },
@@ -684,9 +695,9 @@
    "ticker": "ELO.TO",
    "name": "ELORO RESOURCES LTD",
    "as_of": "2026-11-17T21:00:00+00:00",
-   "last": 1.33,
-   "pct_day": 8.13,
-   "pct_30m": 1.92,
+   "last": 1.31,
+   "pct_day": 6.5,
+   "pct_30m": 0.38,
    "volume_pace": 3.69,
    "rising": true,
    "rising_since": "2026-11-17T21:00:00+00:00"
