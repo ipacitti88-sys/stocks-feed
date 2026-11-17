@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T09:31-07:00",
+ "generated": "2026-11-17T10:01-07:00",
  "last_close_day": "2026-11-16",
  "tracked": 706,
  "tracked_by_market": {
@@ -445,51 +445,40 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-17T16:35:00+00:00",
+ "live_as_of": "2026-11-17T17:05:00+00:00",
  "rising": [
   {
-   "ticker": "ASE.V",
-   "name": "ASANTE GOLD CORPORATION",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 0.27,
-   "pct_day": 12.5,
-   "pct_30m": 3.85,
-   "volume_pace": 2.04,
+   "ticker": "LIFT.V",
+   "name": "LI FT POWER LTD",
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 1.26,
+   "pct_day": 13.51,
+   "pct_30m": 7.69,
+   "volume_pace": 1.53,
    "rising": true,
-   "rising_since": "2026-11-17T16:00:00+00:00"
+   "rising_since": "2026-11-17T17:00:00+00:00"
   },
   {
-   "ticker": "ARA.TO",
-   "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-17T16:20:00+00:00",
-   "last": 2.39,
-   "pct_day": 7.66,
-   "pct_30m": 3.46,
-   "volume_pace": 2.76,
+   "ticker": "ELO.TO",
+   "name": "ELORO RESOURCES LTD",
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 1.38,
+   "pct_day": 12.2,
+   "pct_30m": 2.22,
+   "volume_pace": 2.54,
    "rising": true,
-   "rising_since": "2026-11-17T16:00:00+00:00"
+   "rising_since": "2026-11-17T17:00:00+00:00"
   },
   {
    "ticker": "BPAG.V",
    "name": "BP SILVER CORP",
-   "as_of": "2026-11-17T16:30:00+00:00",
+   "as_of": "2026-11-17T16:55:00+00:00",
    "last": 0.79,
    "pct_day": 6.76,
    "pct_30m": 1.28,
-   "volume_pace": 5.92,
+   "volume_pace": 5.08,
    "rising": true,
    "rising_since": "2026-11-17T16:20:00+00:00"
-  },
-  {
-   "ticker": "JAG.TO",
-   "name": "JAGUAR MINING INC",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 4.16,
-   "pct_day": 6.39,
-   "pct_30m": 0.36,
-   "volume_pace": 2.32,
-   "rising": true,
-   "rising_since": "2026-11-17T16:00:00+00:00"
   },
   {
    "ticker": "SKP.V",
@@ -498,53 +487,42 @@
    "last": 1.3,
    "pct_day": 5.69,
    "pct_30m": 1.56,
-   "volume_pace": 3.96,
+   "volume_pace": 6.05,
    "rising": true,
    "rising_since": "2026-11-17T15:10:00+00:00"
   },
   {
-   "ticker": "TUD.V",
-   "name": "TUDOR GOLD CORP",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 0.715,
-   "pct_day": 5.15,
-   "pct_30m": 0.7,
-   "volume_pace": 9.46,
+   "ticker": "CLCH.TO",
+   "name": "CLINCH RESOURCES LTD",
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 0.925,
+   "pct_day": 5.11,
+   "pct_30m": 1.65,
+   "volume_pace": 1.8,
    "rising": true,
-   "rising_since": "2026-11-17T16:30:00+00:00"
+   "rising_since": "2026-11-17T17:00:00+00:00"
   },
   {
-   "ticker": "DC-A.TO",
-   "name": "DUNDEE CORP., CL.A SV",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 3.76,
-   "pct_day": 4.74,
-   "pct_30m": 0.27,
-   "volume_pace": 4.44,
+   "ticker": "LIB.V",
+   "name": "LIBERTYSTREAM INFRASTRUCTURE PA",
+   "as_of": "2026-11-17T16:55:00+00:00",
+   "last": 0.45,
+   "pct_day": 4.65,
+   "pct_30m": 8.43,
+   "volume_pace": 2.21,
    "rising": true,
-   "rising_since": "2026-11-17T16:30:00+00:00"
-  },
-  {
-   "ticker": "BNKR.TO",
-   "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 2.45,
-   "pct_day": 4.26,
-   "pct_30m": 1.24,
-   "volume_pace": 2.13,
-   "rising": true,
-   "rising_since": "2026-11-17T16:05:00+00:00"
+   "rising_since": "2026-11-17T16:35:00+00:00"
   },
   {
    "ticker": "MDP.TO",
    "name": "MEDEXUS PHARMACEUTICALS INC",
-   "as_of": "2026-11-17T16:30:00+00:00",
+   "as_of": "2026-11-17T16:50:00+00:00",
    "last": 5.95,
    "pct_day": 3.66,
-   "pct_30m": 1.54,
-   "volume_pace": 3.83,
+   "pct_30m": 0.51,
+   "volume_pace": 4.35,
    "rising": true,
-   "rising_since": "2026-11-17T16:10:00+00:00"
+   "rising_since": "2026-11-17T16:50:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -567,17 +545,6 @@
    "pct_day": 16.67,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "TGOL.V",
-   "name": "THUNDER GOLD CORP",
-   "as_of": "2026-11-17T15:15:00+00:00",
-   "last": 0.115,
-   "pct_day": 15.0,
-   "pct_30m": 0.0,
-   "volume_pace": 0.7,
    "rising": false,
    "rising_since": null
   },
@@ -626,35 +593,46 @@
    "rising_since": null
   },
   {
+   "ticker": "LIFT.V",
+   "name": "LI FT POWER LTD",
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 1.26,
+   "pct_day": 13.51,
+   "pct_30m": 7.69,
+   "volume_pace": 1.53,
+   "rising": true,
+   "rising_since": "2026-11-17T17:00:00+00:00"
+  },
+  {
    "ticker": "ASE.V",
    "name": "ASANTE GOLD CORPORATION",
-   "as_of": "2026-11-17T16:30:00+00:00",
+   "as_of": "2026-11-17T17:00:00+00:00",
    "last": 0.27,
    "pct_day": 12.5,
-   "pct_30m": 3.85,
-   "volume_pace": 2.04,
-   "rising": true,
-   "rising_since": "2026-11-17T16:00:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 1.9,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "SME.V",
    "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-11-17T16:15:00+00:00",
+   "as_of": "2026-11-17T16:50:00+00:00",
    "last": 0.19,
    "pct_day": 11.76,
-   "pct_30m": 2.7,
-   "volume_pace": 6.1,
+   "pct_30m": 0.0,
+   "volume_pace": 4.62,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HPL.V",
    "name": "HORIZON PETROLEUM LTD",
-   "as_of": "2026-11-17T16:30:00+00:00",
+   "as_of": "2026-11-17T17:00:00+00:00",
    "last": 0.29,
    "pct_day": 11.54,
-   "pct_30m": -3.33,
-   "volume_pace": 3.72,
+   "pct_30m": 0.0,
+   "volume_pace": 3.22,
    "rising": false,
    "rising_since": null
   },
@@ -672,68 +650,46 @@
   {
    "ticker": "ELEF.TO",
    "name": "SILVER ELEPHANT MINING CORPORAT",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 0.26,
-   "pct_day": 10.64,
-   "pct_30m": 1.96,
-   "volume_pace": 0.29,
+   "as_of": "2026-11-17T16:50:00+00:00",
+   "last": 0.295,
+   "pct_day": 25.53,
+   "pct_30m": 15.69,
+   "volume_pace": 0.9,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ELO.TO",
    "name": "ELORO RESOURCES LTD",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 1.35,
-   "pct_day": 9.76,
-   "pct_30m": -0.74,
-   "volume_pace": 2.36,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 1.38,
+   "pct_day": 12.2,
+   "pct_30m": 2.22,
+   "volume_pace": 2.54,
+   "rising": true,
+   "rising_since": "2026-11-17T17:00:00+00:00"
   },
   {
    "ticker": "ARA.TO",
    "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-17T16:20:00+00:00",
-   "last": 2.39,
-   "pct_day": 7.66,
-   "pct_30m": 3.46,
-   "volume_pace": 2.76,
-   "rising": true,
-   "rising_since": "2026-11-17T16:00:00+00:00"
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 2.385,
+   "pct_day": 7.43,
+   "pct_30m": -0.21,
+   "volume_pace": 2.12,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "VGC.TO",
    "name": "VALOR GOLD CORP",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 1.97,
-   "pct_day": 7.65,
-   "pct_30m": -0.51,
-   "volume_pace": 1.38,
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 1.95,
+   "pct_day": 6.56,
+   "pct_30m": -1.02,
+   "volume_pace": 2.28,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "AGMR.TO",
-   "name": "SILVER MOUNTAIN RESOURCES INC",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 2.77,
-   "pct_day": 7.36,
-   "pct_30m": -0.18,
-   "volume_pace": 1.47,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "JAG.TO",
-   "name": "JAGUAR MINING INC",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 4.16,
-   "pct_day": 6.39,
-   "pct_30m": 0.36,
-   "volume_pace": 2.32,
-   "rising": true,
-   "rising_since": "2026-11-17T16:00:00+00:00"
   },
   {
    "ticker": "DYA.TO",
@@ -743,6 +699,17 @@
    "pct_day": 6.25,
    "pct_30m": 0.0,
    "volume_pace": 0.16,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AGMR.TO",
+   "name": "SILVER MOUNTAIN RESOURCES INC",
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 2.74,
+   "pct_day": 6.2,
+   "pct_30m": -1.08,
+   "volume_pace": 1.34,
    "rising": false,
    "rising_since": null
   },
@@ -758,15 +725,26 @@
    "rising_since": null
   },
   {
-   "ticker": "FWZ.TO",
-   "name": "Fireweed Metals Corp.",
-   "as_of": "2026-11-17T16:30:00+00:00",
-   "last": 2.14,
-   "pct_day": 4.9,
-   "pct_30m": 0.0,
-   "volume_pace": 2.31,
+   "ticker": "JAG.TO",
+   "name": "JAGUAR MINING INC",
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 4.11,
+   "pct_day": 5.12,
+   "pct_30m": -1.2,
+   "volume_pace": 2.06,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "CLCH.TO",
+   "name": "CLINCH RESOURCES LTD",
+   "as_of": "2026-11-17T17:00:00+00:00",
+   "last": 0.925,
+   "pct_day": 5.11,
+   "pct_30m": 1.65,
+   "volume_pace": 1.8,
+   "rising": true,
+   "rising_since": "2026-11-17T17:00:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1366,9 +1344,9 @@
    "ma200": 949.01,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-17T16:35:00+00:00",
-    "last": 772.72,
-    "pct_day": -0.54
+    "as_of": "2026-11-17T17:05:00+00:00",
+    "last": 770.98,
+    "pct_day": -0.76
    }
   },
   "^GSPTSE": {
@@ -1967,9 +1945,9 @@
    "ma200": 34744.66,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-17T16:35:00+00:00",
-    "last": 35382.87,
-    "pct_day": -0.95
+    "as_of": "2026-11-17T17:05:00+00:00",
+    "last": 35387.82,
+    "pct_day": -0.94
    }
   }
  },
