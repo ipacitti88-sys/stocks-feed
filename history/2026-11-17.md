@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-17T13:01-07:00
+# Stock feed — 2026-11-17T13:31-07:00
 
-Tracking 706 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-16. Intraday data as of: 2026-11-17T20:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 706 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-16. Intraday data as of: 2026-11-17T20:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 776.91 on 2026-11-16 (day -2.7%, month -8.1%, year -12.7%, downtrend); live -1.7% at 20:05
-Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year +18.1%, uptrend); live -1.4% at 20:05
+Market: S&P/TSX Venture Composite 776.91 on 2026-11-16 (day -2.7%, month -8.1%, year -12.7%, downtrend); live -2.0% at 20:35
+Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year +18.1%, uptrend); live -1.2% at 20:35
 
 # TSX Venture
 
@@ -113,9 +113,10 @@ Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SURG.V (SURGE COPPER CORP): +6.3% today at 0.335, last 30m +6.3%, volume pace 2.19x, rising since 2026-11-17T19:45:00+00:00
-- RML.V (RUSORO MINING LTD): +5.2% today at 1.02, last 30m +4.1%, volume pace 8.58x, rising since 2026-11-17T19:50:00+00:00
-- TNR.V (TNR GOLD CORP): +4.3% today at 0.365, last 30m +1.4%, volume pace 1.92x, rising since 2026-11-17T20:05:00+00:00
+- BPAG.V (BP SILVER CORP): +6.8% today at 0.79, last 30m +1.3%, volume pace 7.45x, rising since 2026-11-17T20:30:00+00:00
+- TUD.V (TUDOR GOLD CORP): +4.4% today at 0.71, last 30m +0.7%, volume pace 4.43x, rising since 2026-11-17T20:10:00+00:00
+- TNR.V (TNR GOLD CORP): +4.3% today at 0.365, last 30m +1.4%, volume pace 2.14x, rising since 2026-11-17T20:05:00+00:00
+- RML.V (RUSORO MINING LTD): +4.1% today at 1.01, last 30m +3.1%, volume pace 8.25x, rising since 2026-11-17T19:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -132,15 +133,15 @@ Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- FHR.V (FIDDLEHEAD RESOURCES CORP): +50.0% at 0.105, volume pace 0.12x
-- LXM.V (LUX METALS CORP): +23.3% at 0.185, volume pace 1.23x
+- LXM.V (LUX METALS CORP): +20.0% at 0.18, volume pace 1.31x
 - TNX.V (TENX PROTOCOLS INC): +16.7% at 0.07, volume pace 0.0x
-- HPL.V (HORIZON PETROLEUM LTD): +15.4% at 0.3, volume pace 3.6x
+- KEON.V (Keon Capital Inc.): +16.2% at 0.43, volume pace 2.6x
+- STMP.V (STAMPER OIL AND GAS CORP): +15.4% at 0.075, volume pace 0.9x
 - ANOR.V (ANORTECH INC): +14.3% at 0.16, volume pace 0.0x
 - FMAN.V (FREEMAN GOLD CORP): +14.0% at 0.285, volume pace 0.0x
-- FPX.V (FPX NICKEL CORP): +13.0% at 0.305, volume pace 1.71x
+- FPX.V (FPX NICKEL CORP): +13.0% at 0.305, volume pace 1.75x
 - CANX.V (CANEX METALS INC): +12.3% at 0.32, volume pace 2.1x
-- BEEP.V (GEIGER ENERGY CORPORATION): +12.0% at 0.14, volume pace 0.75x
+- BEEP.V (GEIGER ENERGY CORPORATION): +12.0% at 0.14, volume pace 0.87x
 - RRI.V (RIVERSIDE RESOURCES INC.): +11.1% at 0.35, volume pace 0.0x
 
 # TSX
@@ -218,7 +219,7 @@ Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- ARA.TO (ACLARA RESOURCES INC): +6.3% today at 2.36, last 30m +3.1%, volume pace 1.77x, rising since 2026-11-17T20:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -235,13 +236,13 @@ Market: S&P/TSX Composite 35,722.13 on 2026-11-16 (day -1.1%, month -1.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CFF.TO (CONIFEX TIMBER INC): +31.6% at 0.125, volume pace 0.0x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +17.0% at 0.275, volume pace 0.51x
-- ELO.TO (ELORO RESOURCES LTD): +7.7% at 1.325, volume pace 3.77x
-- ECO.TO (ECOSYNTHETIX INC): +5.2% at 1.61, volume pace 0.97x
-- LGD.TO (LIBERTY GOLD CORP): +4.9% at 1.805, volume pace 0.58x
-- CLCH.TO (CLINCH RESOURCES LTD): +4.5% at 0.92, volume pace 1.16x
-- DC-A.TO (DUNDEE CORP., CL.A SV): +4.5% at 3.75, volume pace 3.03x
-- FWZ.TO (Fireweed Metals Corp.): +4.4% at 2.13, volume pace 1.55x
-- PNE.TO (PINE CLIFF ENERGY LTD): +3.9% at 0.54, volume pace 3.22x
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +3.8% at 5.96, volume pace 3.41x
+- CFF.TO (CONIFEX TIMBER INC): +31.6% at 0.125, volume pace 1.16x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +17.0% at 0.275, volume pace 0.48x
+- ARA.TO (ACLARA RESOURCES INC): +6.3% at 2.36, volume pace 1.77x
+- ELO.TO (ELORO RESOURCES LTD): +6.1% at 1.305, volume pace 3.6x
+- ECO.TO (ECOSYNTHETIX INC): +5.9% at 1.62, volume pace 0.28x
+- LGD.TO (LIBERTY GOLD CORP): +4.1% at 1.79, volume pace 0.58x
+- JAG.TO (JAGUAR MINING INC): +4.0% at 4.065, volume pace 1.35x
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +3.7% at 5.95, volume pace 3.42x
+- FWZ.TO (Fireweed Metals Corp.): +3.2% at 2.105, volume pace 1.51x
+- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +2.7% at 2.65, volume pace 1.02x
