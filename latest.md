@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-18T10:01-07:00
+# Stock feed — 2026-11-18T10:31-07:00
 
-Tracking 710 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-17. Intraday data as of: 2026-11-18T17:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 710 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-17. Intraday data as of: 2026-11-18T17:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 764.66 on 2026-11-17 (day -1.6%, month -9.7%, year -13.1%, downtrend); live -3.0% at 17:05
-Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year +16.4%, uptrend); live -1.9% at 17:05
+Market: S&P/TSX Venture Composite 764.66 on 2026-11-17 (day -1.6%, month -9.7%, year -13.1%, downtrend); live -1.9% at 17:35
+Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year +16.4%, uptrend); live -1.5% at 17:35
 
 # TSX Venture
 
@@ -80,10 +80,10 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ASE.V (ASANTE GOLD CORPORATION): +40.0% today at 0.35, last 30m +2.9%, volume pace 7.85x, rising since 2026-11-18T17:00:00+00:00
-- QNC.V (QUANTUM EMOTION CORP): +12.0% today at 1.31, last 30m +1.6%, volume pace 4.91x, rising since 2026-11-18T17:05:00+00:00
-- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): +7.0% today at 0.46, last 30m +1.1%, volume pace 2.78x, rising since 2026-11-18T16:45:00+00:00
-- UCU.V (UCORE RARE METALS INC): +4.8% today at 1.98, last 30m +2.1%, volume pace 3.05x, rising since 2026-11-18T16:50:00+00:00
+- ASE.V (ASANTE GOLD CORPORATION): +42.0% today at 0.355, last 30m +1.4%, volume pace 7.56x, rising since 2026-11-18T17:00:00+00:00
+- QNC.V (QUANTUM EMOTION CORP): +15.0% today at 1.345, last 30m +4.3%, volume pace 4.42x, rising since 2026-11-18T17:05:00+00:00
+- UCU.V (UCORE RARE METALS INC): +6.9% today at 2.02, last 30m +2.0%, volume pace 3.87x, rising since 2026-11-18T17:25:00+00:00
+- MLP.V (MILLENNIAL POTASH CORP): +6.7% today at 2.06, last 30m +1.5%, volume pace 6.25x, rising since 2026-11-18T17:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -100,16 +100,16 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- ASE.V (ASANTE GOLD CORPORATION): +40.0% at 0.35, volume pace 7.85x
+- ASE.V (ASANTE GOLD CORPORATION): +42.0% at 0.355, volume pace 7.56x
 - TTG.V (TRANS CANADA GOLD CORP): +30.0% at 0.13, volume pace 0.0x
 - MINE.V (INOMIN MINES INC): +23.1% at 0.08, volume pace 2.78x
+- QNC.V (QUANTUM EMOTION CORP): +15.0% at 1.345, volume pace 4.42x
 - DMCU.V (DOMESTIC METALS CORP): +12.5% at 0.09, volume pace 0.0x
-- QNC.V (QUANTUM EMOTION CORP): +12.0% at 1.31, volume pace 4.91x
-- VML.V (VISCOUNT MINING CORP): +11.1% at 0.35, volume pace 4.53x
-- ESK.V (ESKAY MINING CORP.): +11.1% at 0.2, volume pace 0.73x
-- PALS.V (PARAGON ADVANCED LABS INC): +10.5% at 2.0, volume pace 0.88x
+- ESK.V (ESKAY MINING CORP.): +11.1% at 0.2, volume pace 0.66x
+- PALS.V (PARAGON ADVANCED LABS INC): +9.4% at 1.98, volume pace 0.24x
 - VUL.V (VULCAN MINERALS INC): +7.1% at 0.3, volume pace 0.7x
-- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): +7.0% at 0.46, volume pace 2.78x
+- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): +7.0% at 0.46, volume pace 5.04x
+- UCU.V (UCORE RARE METALS INC): +6.9% at 2.02, volume pace 3.87x
 
 # TSX
 
@@ -169,7 +169,10 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- FSZ.TO (FIERA CAPITAL CORP): +4.6% today at 2.28, last 30m +1.8%, volume pace 2.86x, rising since 2026-11-18T17:15:00+00:00
+- ELO.TO (ELORO RESOURCES LTD): +3.8% today at 1.36, last 30m +9.2%, volume pace 2.04x, rising since 2026-11-18T17:30:00+00:00
+- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +3.5% today at 4.4, last 30m +1.6%, volume pace 1.52x, rising since 2026-11-18T17:25:00+00:00
+- CVO.TO (COVEO SOLUTIONS INC): +3.2% today at 4.9, last 30m +0.8%, volume pace 1.98x, rising since 2026-11-18T17:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -186,13 +189,13 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +16.0% at 0.145, volume pace 5.88x
-- BLDP.TO (BALLARD POWER SYSTEMS INC): +6.2% at 1.72, volume pace 1.44x
-- ILLM.TO (iLLUMIN HOLDINGS INC): +5.8% at 0.55, volume pace 19.37x
+- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +20.0% at 0.15, volume pace 4.58x
+- BLDP.TO (BALLARD POWER SYSTEMS INC): +8.3% at 1.755, volume pace 1.3x
+- ANRG.TO (ANAERGIA INC): +6.2% at 1.88, volume pace 1.36x
+- ILLM.TO (iLLUMIN HOLDINGS INC): +5.8% at 0.55, volume pace 18.8x
 - GASX.TO (NG ENERGY INTERNATIONAL CORP): +5.3% at 0.99, volume pace 0.18x
-- ORIO.TO (ORION DIGITAL CORP): +5.2% at 1.63, volume pace 2.39x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +4.3% at 0.12, volume pace 0.03x
+- ORIO.TO (ORION DIGITAL CORP): +5.2% at 1.63, volume pace 3.04x
+- FSZ.TO (FIERA CAPITAL CORP): +4.6% at 2.28, volume pace 2.86x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +4.3% at 0.12, volume pace 0.01x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.0% at 0.26, volume pace 0.94x
-- ANRG.TO (ANAERGIA INC): +3.4% at 1.83, volume pace 1.34x
-- SYZ.TO (SYLOGIST LTD): +3.2% at 2.56, volume pace 8.69x
-- AEG.TO (AEGIS BRANDS INC): +3.2% at 0.32, volume pace 12.82x
+- ELO.TO (ELORO RESOURCES LTD): +3.8% at 1.36, volume pace 2.04x
