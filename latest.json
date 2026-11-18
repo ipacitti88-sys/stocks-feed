@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T09:31-07:00",
+ "generated": "2026-11-18T10:01-07:00",
  "last_close_day": "2026-11-17",
  "tracked": 710,
  "tracked_by_market": {
@@ -355,53 +355,64 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-18T16:35:00+00:00",
+ "live_as_of": "2026-11-18T17:05:00+00:00",
  "rising": [
+  {
+   "ticker": "ASE.V",
+   "name": "ASANTE GOLD CORPORATION",
+   "as_of": "2026-11-18T17:00:00+00:00",
+   "last": 0.35,
+   "pct_day": 40.0,
+   "pct_30m": 2.94,
+   "volume_pace": 7.85,
+   "rising": true,
+   "rising_since": "2026-11-18T17:00:00+00:00"
+  },
+  {
+   "ticker": "QNC.V",
+   "name": "QUANTUM EMOTION CORP",
+   "as_of": "2026-11-18T17:05:00+00:00",
+   "last": 1.31,
+   "pct_day": 11.97,
+   "pct_30m": 1.55,
+   "volume_pace": 4.91,
+   "rising": true,
+   "rising_since": "2026-11-18T17:05:00+00:00"
+  },
   {
    "ticker": "FAN.V",
    "name": "FIRST ATLANTIC NICKEL AND COBAL",
-   "as_of": "2026-11-18T16:20:00+00:00",
-   "last": 0.455,
-   "pct_day": 5.81,
-   "pct_30m": 1.11,
-   "volume_pace": 3.08,
+   "as_of": "2026-11-18T16:45:00+00:00",
+   "last": 0.46,
+   "pct_day": 6.98,
+   "pct_30m": 1.1,
+   "volume_pace": 2.78,
    "rising": true,
-   "rising_since": "2026-11-18T15:40:00+00:00"
+   "rising_since": "2026-11-18T16:45:00+00:00"
   },
   {
-   "ticker": "MLP.V",
-   "name": "MILLENNIAL POTASH CORP",
-   "as_of": "2026-11-18T16:30:00+00:00",
-   "last": 2.04,
-   "pct_day": 5.7,
-   "pct_30m": 0.99,
-   "volume_pace": 5.45,
+   "ticker": "UCU.V",
+   "name": "UCORE RARE METALS INC",
+   "as_of": "2026-11-18T17:00:00+00:00",
+   "last": 1.98,
+   "pct_day": 4.76,
+   "pct_30m": 2.06,
+   "volume_pace": 3.05,
    "rising": true,
-   "rising_since": "2026-11-18T16:10:00+00:00"
-  },
-  {
-   "ticker": "ORIO.TO",
-   "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-18T16:30:00+00:00",
-   "last": 1.63,
-   "pct_day": 5.16,
-   "pct_30m": 8.67,
-   "volume_pace": 1.62,
-   "rising": true,
-   "rising_since": "2026-11-18T16:30:00+00:00"
+   "rising_since": "2026-11-18T16:50:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "ASE.V",
    "name": "ASANTE GOLD CORPORATION",
-   "as_of": "2026-11-18T16:35:00+00:00",
-   "last": 0.34,
-   "pct_day": 36.0,
-   "pct_30m": 0.0,
-   "volume_pace": 8.24,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-11-18T17:00:00+00:00",
+   "last": 0.35,
+   "pct_day": 40.0,
+   "pct_30m": 2.94,
+   "volume_pace": 7.85,
+   "rising": true,
+   "rising_since": "2026-11-18T17:00:00+00:00"
   },
   {
    "ticker": "TTG.V",
@@ -421,7 +432,7 @@
    "last": 0.08,
    "pct_day": 23.08,
    "pct_30m": -5.88,
-   "volume_pace": 2.08,
+   "volume_pace": 2.78,
    "rising": false,
    "rising_since": null
   },
@@ -439,13 +450,13 @@
   {
    "ticker": "QNC.V",
    "name": "QUANTUM EMOTION CORP",
-   "as_of": "2026-11-18T16:30:00+00:00",
-   "last": 1.3,
-   "pct_day": 11.11,
-   "pct_30m": -5.11,
-   "volume_pace": 6.2,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-11-18T17:05:00+00:00",
+   "last": 1.31,
+   "pct_day": 11.97,
+   "pct_30m": 1.55,
+   "volume_pace": 4.91,
+   "rising": true,
+   "rising_since": "2026-11-18T17:05:00+00:00"
   },
   {
    "ticker": "VML.V",
@@ -461,11 +472,11 @@
   {
    "ticker": "ESK.V",
    "name": "ESKAY MINING CORP.",
-   "as_of": "2026-11-18T16:30:00+00:00",
+   "as_of": "2026-11-18T17:00:00+00:00",
    "last": 0.2,
    "pct_day": 11.11,
    "pct_30m": 0.0,
-   "volume_pace": 0.84,
+   "volume_pace": 0.73,
    "rising": false,
    "rising_since": null
   },
@@ -481,26 +492,26 @@
    "rising_since": null
   },
   {
-   "ticker": "HPL.V",
-   "name": "HORIZON PETROLEUM LTD",
-   "as_of": "2026-11-18T15:20:00+00:00",
-   "last": 0.32,
-   "pct_day": 10.34,
-   "pct_30m": 6.67,
-   "volume_pace": 6.26,
+   "ticker": "VUL.V",
+   "name": "VULCAN MINERALS INC",
+   "as_of": "2026-11-18T16:30:00+00:00",
+   "last": 0.3,
+   "pct_day": 7.14,
+   "pct_30m": 0.0,
+   "volume_pace": 0.7,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "XBOT.V",
-   "name": "REALBOTIX CORP",
-   "as_of": "2026-11-18T15:40:00+00:00",
-   "last": 0.18,
-   "pct_day": 9.09,
-   "pct_30m": 5.88,
-   "volume_pace": 0.04,
-   "rising": false,
-   "rising_since": null
+   "ticker": "FAN.V",
+   "name": "FIRST ATLANTIC NICKEL AND COBAL",
+   "as_of": "2026-11-18T16:45:00+00:00",
+   "last": 0.46,
+   "pct_day": 6.98,
+   "pct_30m": 1.1,
+   "volume_pace": 2.78,
+   "rising": true,
+   "rising_since": "2026-11-18T16:45:00+00:00"
   },
   {
    "ticker": "SAU.TO",
@@ -509,39 +520,39 @@
    "last": 0.145,
    "pct_day": 16.0,
    "pct_30m": 0.0,
-   "volume_pace": 5.82,
+   "volume_pace": 5.88,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BLDP.TO",
    "name": "BALLARD POWER SYSTEMS INC",
-   "as_of": "2026-11-18T16:30:00+00:00",
-   "last": 1.73,
-   "pct_day": 6.79,
-   "pct_30m": -1.7,
-   "volume_pace": 1.65,
+   "as_of": "2026-11-18T17:00:00+00:00",
+   "last": 1.72,
+   "pct_day": 6.17,
+   "pct_30m": -0.58,
+   "volume_pace": 1.44,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ILLM.TO",
    "name": "iLLUMIN HOLDINGS INC",
-   "as_of": "2026-11-18T16:25:00+00:00",
+   "as_of": "2026-11-18T17:00:00+00:00",
    "last": 0.55,
    "pct_day": 5.77,
-   "pct_30m": 1.85,
-   "volume_pace": 1.75,
+   "pct_30m": 0.0,
+   "volume_pace": 19.37,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-11-18T16:35:00+00:00",
+   "as_of": "2026-11-18T17:00:00+00:00",
    "last": 0.99,
    "pct_day": 5.32,
-   "pct_30m": 3.13,
+   "pct_30m": 1.02,
    "volume_pace": 0.18,
    "rising": false,
    "rising_since": null
@@ -549,13 +560,13 @@
   {
    "ticker": "ORIO.TO",
    "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-18T16:30:00+00:00",
+   "as_of": "2026-11-18T17:00:00+00:00",
    "last": 1.63,
    "pct_day": 5.16,
-   "pct_30m": 8.67,
-   "volume_pace": 1.62,
-   "rising": true,
-   "rising_since": "2026-11-18T16:30:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 2.39,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "BYL.TO",
@@ -569,17 +580,6 @@
    "rising_since": null
   },
   {
-   "ticker": "ALYA.TO",
-   "name": "ALITHYA GROUP INC",
-   "as_of": "2026-11-18T16:15:00+00:00",
-   "last": 1.0,
-   "pct_day": 4.17,
-   "pct_30m": 21.95,
-   "volume_pace": 4.36,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
    "as_of": "2026-11-18T16:00:00+00:00",
@@ -587,6 +587,17 @@
    "pct_day": 4.0,
    "pct_30m": 0.0,
    "volume_pace": 0.94,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ANRG.TO",
+   "name": "ANAERGIA INC",
+   "as_of": "2026-11-18T17:00:00+00:00",
+   "last": 1.83,
+   "pct_day": 3.39,
+   "pct_30m": 1.1,
+   "volume_pace": 1.34,
    "rising": false,
    "rising_since": null
   },
@@ -1210,9 +1221,9 @@
    "ma200": 947.58,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-18T16:35:00+00:00",
-    "last": 742.26,
-    "pct_day": -2.93
+    "as_of": "2026-11-18T17:05:00+00:00",
+    "last": 742.12,
+    "pct_day": -2.95
    }
   },
   "^GSPTSE": {
@@ -1811,9 +1822,9 @@
    "ma200": 34761.61,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-18T16:35:00+00:00",
-    "last": 34646.01,
-    "pct_day": -1.9
+    "as_of": "2026-11-18T17:05:00+00:00",
+    "last": 34633.76,
+    "pct_day": -1.93
    }
   }
  },
