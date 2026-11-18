@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T12:01-07:00",
+ "generated": "2026-11-18T12:31-07:00",
  "last_close_day": "2026-11-17",
  "tracked": 710,
  "tracked_by_market": {
@@ -355,53 +355,42 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-18T19:05:00+00:00",
+ "live_as_of": "2026-11-18T19:35:00+00:00",
  "rising": [
   {
-   "ticker": "ELO.TO",
-   "name": "ELORO RESOURCES LTD",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 1.45,
-   "pct_day": 10.69,
-   "pct_30m": 0.69,
-   "volume_pace": 2.94,
+   "ticker": "ASE.V",
+   "name": "ASANTE GOLD CORPORATION",
+   "as_of": "2026-11-18T19:30:00+00:00",
+   "last": 0.35,
+   "pct_day": 40.0,
+   "pct_30m": 1.45,
+   "volume_pace": 4.98,
    "rising": true,
-   "rising_since": "2026-11-18T17:30:00+00:00"
+   "rising_since": "2026-11-18T19:30:00+00:00"
   },
   {
-   "ticker": "FAN.V",
-   "name": "FIRST ATLANTIC NICKEL AND COBAL",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 0.475,
-   "pct_day": 10.47,
-   "pct_30m": 2.15,
-   "volume_pace": 5.51,
+   "ticker": "RML.V",
+   "name": "RUSORO MINING LTD",
+   "as_of": "2026-11-18T19:35:00+00:00",
+   "last": 1.17,
+   "pct_day": 14.71,
+   "pct_30m": 20.62,
+   "volume_pace": 135.27,
    "rising": true,
-   "rising_since": "2026-11-18T17:55:00+00:00"
-  },
-  {
-   "ticker": "AAG.V",
-   "name": "AFTERMATH SILVER LTD",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 0.51,
-   "pct_day": 4.08,
-   "pct_30m": 0.99,
-   "volume_pace": 2.26,
-   "rising": true,
-   "rising_since": "2026-11-18T18:50:00+00:00"
+   "rising_since": "2026-11-18T19:30:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
    "ticker": "ASE.V",
    "name": "ASANTE GOLD CORPORATION",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 0.345,
-   "pct_day": 38.0,
-   "pct_30m": -1.43,
-   "volume_pace": 5.4,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-11-18T19:30:00+00:00",
+   "last": 0.35,
+   "pct_day": 40.0,
+   "pct_30m": 1.45,
+   "volume_pace": 4.98,
+   "rising": true,
+   "rising_since": "2026-11-18T19:30:00+00:00"
   },
   {
    "ticker": "TTG.V",
@@ -426,26 +415,26 @@
    "rising_since": null
   },
   {
-   "ticker": "QNC.V",
-   "name": "QUANTUM EMOTION CORP",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 1.33,
-   "pct_day": 13.68,
-   "pct_30m": -0.75,
-   "volume_pace": 3.21,
-   "rising": false,
-   "rising_since": null
+   "ticker": "RML.V",
+   "name": "RUSORO MINING LTD",
+   "as_of": "2026-11-18T19:35:00+00:00",
+   "last": 1.17,
+   "pct_day": 14.71,
+   "pct_30m": 20.62,
+   "volume_pace": 135.27,
+   "rising": true,
+   "rising_since": "2026-11-18T19:30:00+00:00"
   },
   {
-   "ticker": "FAN.V",
-   "name": "FIRST ATLANTIC NICKEL AND COBAL",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 0.475,
-   "pct_day": 10.47,
-   "pct_30m": 2.15,
-   "volume_pace": 5.51,
-   "rising": true,
-   "rising_since": "2026-11-18T17:55:00+00:00"
+   "ticker": "QNC.V",
+   "name": "QUANTUM EMOTION CORP",
+   "as_of": "2026-11-18T19:30:00+00:00",
+   "last": 1.325,
+   "pct_day": 13.25,
+   "pct_30m": -0.38,
+   "volume_pace": 2.9,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "ALTU.V",
@@ -470,67 +459,67 @@
    "rising_since": null
   },
   {
+   "ticker": "FAN.V",
+   "name": "FIRST ATLANTIC NICKEL AND COBAL",
+   "as_of": "2026-11-18T19:25:00+00:00",
+   "last": 0.47,
+   "pct_day": 9.3,
+   "pct_30m": 0.0,
+   "volume_pace": 5.38,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ESK.V",
    "name": "ESKAY MINING CORP.",
-   "as_of": "2026-11-18T18:50:00+00:00",
+   "as_of": "2026-11-18T19:10:00+00:00",
    "last": 0.195,
    "pct_day": 8.33,
-   "pct_30m": -2.5,
-   "volume_pace": 0.79,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "VUL.V",
-   "name": "VULCAN MINERALS INC",
-   "as_of": "2026-11-18T16:30:00+00:00",
-   "last": 0.3,
-   "pct_day": 7.14,
    "pct_30m": 0.0,
-   "volume_pace": 0.7,
+   "volume_pace": 0.75,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ENDR.V",
-   "name": "ENDURO METALS CORPORATION",
-   "as_of": "2026-11-18T18:05:00+00:00",
-   "last": 0.075,
-   "pct_day": 7.14,
-   "pct_30m": 7.14,
-   "volume_pace": 0.14,
+   "ticker": "NCI.V",
+   "name": "NTG Clarity Networks Inc.",
+   "as_of": "2026-11-18T19:05:00+00:00",
+   "last": 0.34,
+   "pct_day": 7.94,
+   "pct_30m": 3.03,
+   "volume_pace": 7.49,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ELO.TO",
    "name": "ELORO RESOURCES LTD",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 1.45,
-   "pct_day": 10.69,
-   "pct_30m": 0.69,
-   "volume_pace": 2.94,
-   "rising": true,
-   "rising_since": "2026-11-18T17:30:00+00:00"
+   "as_of": "2026-11-18T19:35:00+00:00",
+   "last": 1.415,
+   "pct_day": 8.02,
+   "pct_30m": -2.41,
+   "volume_pace": 2.81,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "SAU.TO",
    "name": "ST AUGUSTINE GOLD AND COPPER LT",
-   "as_of": "2026-11-18T19:05:00+00:00",
+   "as_of": "2026-11-18T19:15:00+00:00",
    "last": 0.135,
    "pct_day": 8.0,
    "pct_30m": 0.0,
-   "volume_pace": 2.64,
+   "volume_pace": 2.85,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GASX.TO",
    "name": "NG ENERGY INTERNATIONAL CORP",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 1.01,
-   "pct_day": 7.45,
-   "pct_30m": 1.0,
+   "as_of": "2026-11-18T19:20:00+00:00",
+   "last": 1.0,
+   "pct_day": 6.38,
+   "pct_30m": 0.0,
    "volume_pace": 0.18,
    "rising": false,
    "rising_since": null
@@ -538,22 +527,22 @@
   {
    "ticker": "BLDP.TO",
    "name": "BALLARD POWER SYSTEMS INC",
-   "as_of": "2026-11-18T19:00:00+00:00",
+   "as_of": "2026-11-18T19:30:00+00:00",
    "last": 1.72,
    "pct_day": 6.17,
-   "pct_30m": -0.86,
-   "volume_pace": 0.98,
+   "pct_30m": 0.0,
+   "volume_pace": 0.93,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ORIO.TO",
    "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-18T19:00:00+00:00",
+   "as_of": "2026-11-18T19:10:00+00:00",
    "last": 1.63,
    "pct_day": 5.16,
-   "pct_30m": 0.0,
-   "volume_pace": 2.79,
+   "pct_30m": -0.61,
+   "volume_pace": 2.94,
    "rising": false,
    "rising_since": null
   },
@@ -571,44 +560,44 @@
   {
    "ticker": "FSZ.TO",
    "name": "FIERA CAPITAL CORP",
-   "as_of": "2026-11-18T19:05:00+00:00",
+   "as_of": "2026-11-18T19:30:00+00:00",
    "last": 2.28,
    "pct_day": 4.59,
-   "pct_30m": -0.22,
-   "volume_pace": 2.12,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "KEEL.TO",
-   "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-18T19:05:00+00:00",
-   "last": 2.6,
-   "pct_day": 4.42,
-   "pct_30m": 0.19,
-   "volume_pace": 0.77,
+   "pct_30m": 0.0,
+   "volume_pace": 1.97,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BYL.TO",
    "name": "BAYLIN TECHNOLOGIES INC",
-   "as_of": "2026-11-18T18:20:00+00:00",
+   "as_of": "2026-11-18T19:20:00+00:00",
    "last": 0.12,
    "pct_day": 4.35,
    "pct_30m": 0.0,
-   "volume_pace": 0.03,
+   "volume_pace": 0.02,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "GRID.TO",
-   "name": "TANTALUS SYSTEMS HOLDINGS INC",
-   "as_of": "2026-11-18T19:00:00+00:00",
-   "last": 4.425,
-   "pct_day": 4.12,
-   "pct_30m": 0.11,
-   "volume_pace": 1.15,
+   "ticker": "KEEL.TO",
+   "name": "KEEL INFRASTRUCTURE CORP",
+   "as_of": "2026-11-18T19:30:00+00:00",
+   "last": 2.595,
+   "pct_day": 4.22,
+   "pct_30m": -0.19,
+   "volume_pace": 0.8,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CWEB.TO",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "as_of": "2026-11-18T16:00:00+00:00",
+   "last": 0.26,
+   "pct_day": 4.0,
+   "pct_30m": 0.0,
+   "volume_pace": 0.94,
    "rising": false,
    "rising_since": null
   }
@@ -1210,9 +1199,9 @@
    "ma200": 947.58,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-18T19:05:00+00:00",
-    "last": 745.78,
-    "pct_day": -2.47
+    "as_of": "2026-11-18T19:35:00+00:00",
+    "last": 745.02,
+    "pct_day": -2.57
    }
   },
   "^GSPTSE": {
@@ -1811,9 +1800,9 @@
    "ma200": 34761.61,
    "above_ma200": true,
    "live": {
-    "as_of": "2026-11-18T19:05:00+00:00",
-    "last": 34709.56,
-    "pct_day": -1.72
+    "as_of": "2026-11-18T19:35:00+00:00",
+    "last": 34625.12,
+    "pct_day": -1.95
    }
   }
  },

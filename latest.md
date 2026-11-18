@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-18T12:01-07:00
+# Stock feed — 2026-11-18T12:31-07:00
 
-Tracking 710 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-17. Intraday data as of: 2026-11-18T19:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 710 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-17. Intraday data as of: 2026-11-18T19:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 764.66 on 2026-11-17 (day -1.6%, month -9.7%, year -13.1%, downtrend); live -2.5% at 19:05
-Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year +16.4%, uptrend); live -1.7% at 19:05
+Market: S&P/TSX Venture Composite 764.66 on 2026-11-17 (day -1.6%, month -9.7%, year -13.1%, downtrend); live -2.6% at 19:35
+Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year +16.4%, uptrend); live -1.9% at 19:35
 
 # TSX Venture
 
@@ -80,8 +80,8 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): +10.5% today at 0.475, last 30m +2.1%, volume pace 5.51x, rising since 2026-11-18T17:55:00+00:00
-- AAG.V (AFTERMATH SILVER LTD): +4.1% today at 0.51, last 30m +1.0%, volume pace 2.26x, rising since 2026-11-18T18:50:00+00:00
+- ASE.V (ASANTE GOLD CORPORATION): +40.0% today at 0.35, last 30m +1.4%, volume pace 4.98x, rising since 2026-11-18T19:30:00+00:00
+- RML.V (RUSORO MINING LTD): +14.7% today at 1.17, last 30m +20.6%, volume pace 135.27x, rising since 2026-11-18T19:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -98,16 +98,16 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- ASE.V (ASANTE GOLD CORPORATION): +38.0% at 0.345, volume pace 5.4x
+- ASE.V (ASANTE GOLD CORPORATION): +40.0% at 0.35, volume pace 4.98x
 - TTG.V (TRANS CANADA GOLD CORP): +30.0% at 0.13, volume pace 0.0x
 - MINE.V (INOMIN MINES INC): +23.1% at 0.08, volume pace 1.97x
-- QNC.V (QUANTUM EMOTION CORP): +13.7% at 1.33, volume pace 3.21x
-- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): +10.5% at 0.475, volume pace 5.51x
+- RML.V (RUSORO MINING LTD): +14.7% at 1.17, volume pace 135.27x
+- QNC.V (QUANTUM EMOTION CORP): +13.2% at 1.325, volume pace 2.9x
 - ALTU.V (ALTURA ENERGY CORP): +10.0% at 0.11, volume pace 0.65x
 - PALS.V (PARAGON ADVANCED LABS INC): +9.4% at 1.98, volume pace 0.35x
-- ESK.V (ESKAY MINING CORP.): +8.3% at 0.195, volume pace 0.79x
-- VUL.V (VULCAN MINERALS INC): +7.1% at 0.3, volume pace 0.7x
-- ENDR.V (ENDURO METALS CORPORATION): +7.1% at 0.075, volume pace 0.14x
+- FAN.V (FIRST ATLANTIC NICKEL AND COBAL): +9.3% at 0.47, volume pace 5.38x
+- ESK.V (ESKAY MINING CORP.): +8.3% at 0.195, volume pace 0.75x
+- NCI.V (NTG Clarity Networks Inc.): +7.9% at 0.34, volume pace 7.49x
 
 # TSX
 
@@ -167,7 +167,7 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ELO.TO (ELORO RESOURCES LTD): +10.7% today at 1.45, last 30m +0.7%, volume pace 2.94x, rising since 2026-11-18T17:30:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -184,13 +184,13 @@ Market: S&P/TSX Composite 35,315.30 on 2026-11-17 (day -1.1%, month -1.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ELO.TO (ELORO RESOURCES LTD): +10.7% at 1.45, volume pace 2.94x
-- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +8.0% at 0.135, volume pace 2.64x
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): +7.5% at 1.01, volume pace 0.18x
-- BLDP.TO (BALLARD POWER SYSTEMS INC): +6.2% at 1.72, volume pace 0.98x
-- ORIO.TO (ORION DIGITAL CORP): +5.2% at 1.63, volume pace 2.79x
+- ELO.TO (ELORO RESOURCES LTD): +8.0% at 1.415, volume pace 2.81x
+- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +8.0% at 0.135, volume pace 2.85x
+- GASX.TO (NG ENERGY INTERNATIONAL CORP): +6.4% at 1.0, volume pace 0.18x
+- BLDP.TO (BALLARD POWER SYSTEMS INC): +6.2% at 1.72, volume pace 0.93x
+- ORIO.TO (ORION DIGITAL CORP): +5.2% at 1.63, volume pace 2.94x
 - MTEK.TO (METATEK GROUP LTD): +4.9% at 2.78, volume pace 0.9x
-- FSZ.TO (FIERA CAPITAL CORP): +4.6% at 2.28, volume pace 2.12x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +4.4% at 2.6, volume pace 0.77x
-- BYL.TO (BAYLIN TECHNOLOGIES INC): +4.3% at 0.12, volume pace 0.03x
-- GRID.TO (TANTALUS SYSTEMS HOLDINGS INC): +4.1% at 4.425, volume pace 1.15x
+- FSZ.TO (FIERA CAPITAL CORP): +4.6% at 2.28, volume pace 1.97x
+- BYL.TO (BAYLIN TECHNOLOGIES INC): +4.3% at 0.12, volume pace 0.02x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +4.2% at 2.595, volume pace 0.8x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.0% at 0.26, volume pace 0.94x
