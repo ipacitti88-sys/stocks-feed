@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T14:01-07:00",
+ "generated": "2026-11-19T14:06-07:00",
  "last_close_day": "2026-11-18",
  "tracked": 714,
  "tracked_by_market": {
@@ -632,6 +632,17 @@
    "rising_since": null
   },
   {
+   "ticker": "CADY.TO",
+   "name": "CADILLAC MINES CORPORATION",
+   "as_of": "2026-11-19T21:00:00+00:00",
+   "last": 3.77,
+   "pct_day": 2.45,
+   "pct_30m": 3.57,
+   "volume_pace": 3.65,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "CEMX.TO",
    "name": "CEMATRIX",
    "as_of": "2026-11-19T20:45:00+00:00",
@@ -639,17 +650,6 @@
    "pct_day": 2.27,
    "pct_30m": 0.0,
    "volume_pace": 1.33,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CAML.TO",
-   "name": "CENTRAL ASIA METALS PLC",
-   "as_of": "2026-11-19T18:25:00+00:00",
-   "last": 2.25,
-   "pct_day": 2.27,
-   "pct_30m": -2.17,
-   "volume_pace": 10.74,
    "rising": false,
    "rising_since": null
   }

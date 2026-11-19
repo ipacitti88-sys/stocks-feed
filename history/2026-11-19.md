@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-19T14:01-07:00
+# Stock feed — 2026-11-19T14:06-07:00
 
 Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -246,5 +246,5 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 - ELR.TO (EASTERN PLATINUM LIMITED): +2.6% at 0.195, volume pace 2.08x
 - RBY.TO (RUBELLITE ENERGY CORP): +2.6% at 3.16, volume pace 0.69x
 - ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.86x
+- CADY.TO (CADILLAC MINES CORPORATION): +2.5% at 3.77, volume pace 3.65x
 - CEMX.TO (CEMATRIX): +2.3% at 0.45, volume pace 1.33x
-- CAML.TO (CENTRAL ASIA METALS PLC): +2.3% at 2.25, volume pace 10.74x
