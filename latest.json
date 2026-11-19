@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T11:31-07:00",
+ "generated": "2026-11-19T12:01-07:00",
  "last_close_day": "2026-11-18",
  "tracked": 714,
  "tracked_by_market": {
@@ -385,19 +385,8 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-19T18:35:00+00:00",
+ "live_as_of": "2026-11-19T19:05:00+00:00",
  "rising": [
-  {
-   "ticker": "CBR.V",
-   "name": "CABRAL GOLD INC",
-   "as_of": "2026-11-19T18:35:00+00:00",
-   "last": 1.255,
-   "pct_day": 12.05,
-   "pct_30m": 0.4,
-   "volume_pace": 9.07,
-   "rising": true,
-   "rising_since": "2026-11-19T18:20:00+00:00"
-  },
   {
    "ticker": "SME.V",
    "name": "SAMA RESOURCES INC RESSOURCES S",
@@ -408,17 +397,6 @@
    "volume_pace": 8.09,
    "rising": true,
    "rising_since": "2026-11-19T17:40:00+00:00"
-  },
-  {
-   "ticker": "VIMY.V",
-   "name": "Vimy Pharmaceuticals Inc.",
-   "as_of": "2026-11-19T18:15:00+00:00",
-   "last": 2.85,
-   "pct_day": 5.95,
-   "pct_30m": 1.06,
-   "volume_pace": 1.64,
-   "rising": true,
-   "rising_since": "2026-11-19T18:15:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -456,13 +434,13 @@
    "rising_since": null
   },
   {
-   "ticker": "PGDC.V",
-   "name": "PATAGONIA GOLD CORP",
-   "as_of": "2026-11-19T18:25:00+00:00",
-   "last": 0.21,
-   "pct_day": 16.67,
-   "pct_30m": 7.69,
-   "volume_pace": 3.83,
+   "ticker": "VAU.V",
+   "name": "VIVA GOLD CORP",
+   "as_of": "2026-11-19T18:35:00+00:00",
+   "last": 0.185,
+   "pct_day": 15.63,
+   "pct_30m": 8.82,
+   "volume_pace": 6.0,
    "rising": false,
    "rising_since": null
   },
@@ -478,24 +456,24 @@
    "rising_since": null
   },
   {
-   "ticker": "RSMX.V",
-   "name": "REGENCY SILVER CORP",
-   "as_of": "2026-11-19T18:30:00+00:00",
-   "last": 0.08,
-   "pct_day": 14.29,
-   "pct_30m": -5.88,
-   "volume_pace": 4.46,
+   "ticker": "PGDC.V",
+   "name": "PATAGONIA GOLD CORP",
+   "as_of": "2026-11-19T18:55:00+00:00",
+   "last": 0.205,
+   "pct_day": 13.89,
+   "pct_30m": -2.38,
+   "volume_pace": 7.3,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "GCUC.V",
-   "name": "GREEN CANADA URANIUM CORP",
-   "as_of": "2026-11-19T17:30:00+00:00",
-   "last": 0.08,
-   "pct_day": 14.29,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "ticker": "RYR.V",
+   "name": "ROYAL ROAD MINERALS LIMITED",
+   "as_of": "2026-11-19T18:40:00+00:00",
+   "last": 0.165,
+   "pct_day": 13.79,
+   "pct_30m": 13.79,
+   "volume_pace": 2.9,
    "rising": false,
    "rising_since": null
   },
@@ -511,17 +489,6 @@
    "rising_since": null
   },
   {
-   "ticker": "ZAU.V",
-   "name": "ZODIAC GOLD INC",
-   "as_of": "2026-11-19T18:05:00+00:00",
-   "last": 0.295,
-   "pct_day": 13.46,
-   "pct_30m": 1.72,
-   "volume_pace": 17.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "FROG.V",
    "name": "BULLFROG GOLD CORPORATION",
    "as_of": "2026-11-19T16:55:00+00:00",
@@ -533,57 +500,79 @@
    "rising_since": null
   },
   {
+   "ticker": "ZAU.V",
+   "name": "ZODIAC GOLD INC",
+   "as_of": "2026-11-19T19:00:00+00:00",
+   "last": 0.29,
+   "pct_day": 11.54,
+   "pct_30m": -1.69,
+   "volume_pace": 13.57,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "MDNA.TO",
    "name": "MEDICENNA THERAPEUTICS CORP",
-   "as_of": "2026-11-19T18:30:00+00:00",
-   "last": 0.195,
-   "pct_day": 8.33,
-   "pct_30m": -2.5,
-   "volume_pace": 11.1,
+   "as_of": "2026-11-19T18:55:00+00:00",
+   "last": 0.2,
+   "pct_day": 11.11,
+   "pct_30m": 2.56,
+   "volume_pace": 10.11,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ESM.TO",
    "name": "EURO SUN MINING INC",
-   "as_of": "2026-11-19T17:05:00+00:00",
-   "last": 0.125,
-   "pct_day": 4.17,
-   "pct_30m": 8.7,
-   "volume_pace": 4.74,
+   "as_of": "2026-11-19T19:00:00+00:00",
+   "last": 0.13,
+   "pct_day": 8.33,
+   "pct_30m": 4.0,
+   "volume_pace": 2.85,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ELR.TO",
+   "name": "EASTERN PLATINUM LIMITED",
+   "as_of": "2026-11-19T19:05:00+00:00",
+   "last": 0.205,
+   "pct_day": 7.89,
+   "pct_30m": 7.89,
+   "volume_pace": 2.37,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "MAXQ.TO",
    "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-19T18:25:00+00:00",
+   "as_of": "2026-11-19T19:05:00+00:00",
    "last": 0.39,
    "pct_day": 4.0,
-   "pct_30m": -1.27,
-   "volume_pace": 0.79,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PYR.TO",
-   "name": "PYROGENESIS INC",
-   "as_of": "2026-11-19T18:30:00+00:00",
-   "last": 0.18,
-   "pct_day": 2.86,
-   "pct_30m": -2.7,
-   "volume_pace": 3.55,
+   "pct_30m": 0.0,
+   "volume_pace": 0.73,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ORIO.TO",
    "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-19T18:10:00+00:00",
-   "last": 1.59,
-   "pct_day": 2.58,
+   "as_of": "2026-11-19T19:05:00+00:00",
+   "last": 1.6,
+   "pct_day": 3.23,
+   "pct_30m": 0.63,
+   "volume_pace": 1.18,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PYR.TO",
+   "name": "PYROGENESIS INC",
+   "as_of": "2026-11-19T18:45:00+00:00",
+   "last": 0.18,
+   "pct_day": 2.86,
    "pct_30m": 0.0,
-   "volume_pace": 1.42,
+   "volume_pace": 3.95,
    "rising": false,
    "rising_since": null
   },
@@ -594,51 +583,40 @@
    "last": 2.25,
    "pct_day": 2.27,
    "pct_30m": -2.17,
-   "volume_pace": 5.33,
+   "volume_pace": 10.74,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "RBY.TO",
    "name": "RUBELLITE ENERGY CORP",
-   "as_of": "2026-11-19T18:30:00+00:00",
+   "as_of": "2026-11-19T19:00:00+00:00",
    "last": 3.14,
    "pct_day": 1.95,
-   "pct_30m": 1.29,
-   "volume_pace": 0.28,
+   "pct_30m": 0.0,
+   "volume_pace": 0.78,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "BSX.TO",
    "name": "BELO SUN MINING CORP",
-   "as_of": "2026-11-19T18:25:00+00:00",
+   "as_of": "2026-11-19T19:00:00+00:00",
    "last": 0.58,
    "pct_day": 1.75,
    "pct_30m": 0.0,
-   "volume_pace": 0.19,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AEG.TO",
-   "name": "AEGIS BRANDS INC",
-   "as_of": "2026-11-19T16:05:00+00:00",
-   "last": 0.315,
-   "pct_day": 1.61,
-   "pct_30m": -1.56,
-   "volume_pace": 13.93,
+   "volume_pace": 0.18,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "AP-UN.TO",
    "name": "ALLIED PROPERTIES REAL ESTATE I",
-   "as_of": "2026-11-19T18:30:00+00:00",
+   "as_of": "2026-11-19T19:00:00+00:00",
    "last": 3.98,
    "pct_day": 1.53,
-   "pct_30m": 0.51,
-   "volume_pace": 1.34,
+   "pct_30m": 0.0,
+   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
   }
@@ -1240,9 +1218,9 @@
    "ma200": 946.14,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-19T18:35:00+00:00",
-    "last": 720.73,
-    "pct_day": -3.08
+    "as_of": "2026-11-19T19:05:00+00:00",
+    "last": 720.4,
+    "pct_day": -3.13
    }
   },
   "^GSPTSE": {
@@ -1841,9 +1819,9 @@
    "ma200": 34773.58,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-19T18:35:00+00:00",
-    "last": 34190.83,
-    "pct_day": -1.12
+    "as_of": "2026-11-19T19:05:00+00:00",
+    "last": 34120.03,
+    "pct_day": -1.32
    }
   }
  },

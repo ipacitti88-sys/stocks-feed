@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-19T11:31-07:00
+# Stock feed — 2026-11-19T12:01-07:00
 
-Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -3.1% at 18:35
-Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.1% at 18:35
+Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -3.1% at 19:05
+Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.3% at 19:05
 
 # TSX Venture
 
@@ -123,9 +123,7 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CBR.V (CABRAL GOLD INC): +12.1% today at 1.255, last 30m +0.4%, volume pace 9.07x, rising since 2026-11-19T18:20:00+00:00
 - SME.V (SAMA RESOURCES INC RESSOURCES S): +11.1% today at 0.2, last 30m +2.6%, volume pace 8.09x, rising since 2026-11-19T17:40:00+00:00
-- VIMY.V (Vimy Pharmaceuticals Inc.): +6.0% today at 2.85, last 30m +1.1%, volume pace 1.64x, rising since 2026-11-19T18:15:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -145,13 +143,13 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 - IMR.V (IMETAL RESOURCES INC): +25.0% at 0.125, volume pace 2.11x
 - DMCU.V (DOMESTIC METALS CORP): +20.0% at 0.09, volume pace 7.02x
 - HART.V (GOLD HART COPPER CORP): +17.6% at 0.2, volume pace 2.21x
-- PGDC.V (PATAGONIA GOLD CORP): +16.7% at 0.21, volume pace 3.83x
+- VAU.V (VIVA GOLD CORP): +15.6% at 0.185, volume pace 6.0x
 - CD.V (CANTEX MINE DEVELOPMENT CORP): +15.6% at 0.26, volume pace 42.5x
-- RSMX.V (REGENCY SILVER CORP): +14.3% at 0.08, volume pace 4.46x
-- GCUC.V (GREEN CANADA URANIUM CORP): +14.3% at 0.08, volume pace 0.0x
+- PGDC.V (PATAGONIA GOLD CORP): +13.9% at 0.205, volume pace 7.3x
+- RYR.V (ROYAL ROAD MINERALS LIMITED): +13.8% at 0.165, volume pace 2.9x
 - TWR.V (TOWER RESOURCES LTD): +13.6% at 0.125, volume pace 9.98x
-- ZAU.V (ZODIAC GOLD INC): +13.5% at 0.295, volume pace 17.04x
 - FROG.V (BULLFROG GOLD CORPORATION): +12.5% at 0.135, volume pace 1.29x
+- ZAU.V (ZODIAC GOLD INC): +11.5% at 0.29, volume pace 13.57x
 
 # TSX
 
@@ -237,13 +235,13 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +8.3% at 0.195, volume pace 11.1x
-- ESM.TO (EURO SUN MINING INC): +4.2% at 0.125, volume pace 4.74x
-- MAXQ.TO (Maritime Launch Services Inc.): +4.0% at 0.39, volume pace 0.79x
-- PYR.TO (PYROGENESIS INC): +2.9% at 0.18, volume pace 3.55x
-- ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.42x
-- CAML.TO (CENTRAL ASIA METALS PLC): +2.3% at 2.25, volume pace 5.33x
-- RBY.TO (RUBELLITE ENERGY CORP): +1.9% at 3.14, volume pace 0.28x
-- BSX.TO (BELO SUN MINING CORP): +1.8% at 0.58, volume pace 0.19x
-- AEG.TO (AEGIS BRANDS INC): +1.6% at 0.315, volume pace 13.93x
-- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +1.5% at 3.98, volume pace 1.34x
+- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +11.1% at 0.2, volume pace 10.11x
+- ESM.TO (EURO SUN MINING INC): +8.3% at 0.13, volume pace 2.85x
+- ELR.TO (EASTERN PLATINUM LIMITED): +7.9% at 0.205, volume pace 2.37x
+- MAXQ.TO (Maritime Launch Services Inc.): +4.0% at 0.39, volume pace 0.73x
+- ORIO.TO (ORION DIGITAL CORP): +3.2% at 1.6, volume pace 1.18x
+- PYR.TO (PYROGENESIS INC): +2.9% at 0.18, volume pace 3.95x
+- CAML.TO (CENTRAL ASIA METALS PLC): +2.3% at 2.25, volume pace 10.74x
+- RBY.TO (RUBELLITE ENERGY CORP): +1.9% at 3.14, volume pace 0.78x
+- BSX.TO (BELO SUN MINING CORP): +1.8% at 0.58, volume pace 0.18x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +1.5% at 3.98, volume pace 1.21x
