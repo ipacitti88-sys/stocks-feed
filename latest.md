@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-19T09:01-07:00
+# Stock feed — 2026-11-19T09:31-07:00
 
-Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T16:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T16:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -2.2% at 16:05
-Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.0% at 16:05
+Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -2.1% at 16:35
+Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -0.9% at 16:35
 
 # TSX Venture
 
@@ -123,8 +123,11 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SAGA.V (SAGA METALS CORP): +5.7% today at 0.37, last 30m +7.2%, volume pace 3.55x, rising since 2026-11-19T14:55:00+00:00
-- VALX.V (Valiente Resources Inc.): +3.3% today at 2.85, last 30m +1.8%, volume pace 2.63x, rising since 2026-11-19T16:00:00+00:00
+- CBR.V (CABRAL GOLD INC): +13.8% today at 1.275, last 30m +0.4%, volume pace 6.54x, rising since 2026-11-19T16:10:00+00:00
+- INTR.V (INTREPID METALS CORP): +12.3% today at 0.64, last 30m +1.6%, volume pace 3.4x, rising since 2026-11-19T16:30:00+00:00
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +11.1% today at 0.2, last 30m +8.1%, volume pace 5.73x, rising since 2026-11-19T16:05:00+00:00
+- VALX.V (Valiente Resources Inc.): +8.7% today at 3.0, last 30m +5.3%, volume pace 4.1x, rising since 2026-11-19T16:00:00+00:00
+- IPT.V (IMPACT SILVER CORP.): +4.0% today at 0.1925, last 30m +4.0%, volume pace 1.76x, rising since 2026-11-19T16:25:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -141,16 +144,16 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- IMR.V (IMETAL RESOURCES INC): +25.0% at 0.125, volume pace 0.52x
+- IMR.V (IMETAL RESOURCES INC): +25.0% at 0.125, volume pace 0.73x
 - DMCU.V (DOMESTIC METALS CORP): +20.0% at 0.09, volume pace 7.02x
 - CD.V (CANTEX MINE DEVELOPMENT CORP): +20.0% at 0.27, volume pace 43.4x
-- TWR.V (TOWER RESOURCES LTD): +18.2% at 0.13, volume pace 12.39x
-- SAGE.V (SAGE POTASH CORP): +15.4% at 0.075, volume pace 0.0x
-- ZAU.V (ZODIAC GOLD INC): +15.4% at 0.3, volume pace 15.41x
-- W.V (SPARTAN METALS CORP): +13.5% at 0.295, volume pace 17.16x
-- CBR.V (CABRAL GOLD INC): +13.4% at 1.27, volume pace 7.07x
+- WAM.V (ALASKA SILVER CORP): +18.3% at 0.615, volume pace 7.29x
+- ZAU.V (ZODIAC GOLD INC): +15.4% at 0.3, volume pace 13.82x
+- CBR.V (CABRAL GOLD INC): +13.8% at 1.275, volume pace 6.54x
+- TWR.V (TOWER RESOURCES LTD): +13.6% at 0.125, volume pace 4.37x
 - MRVL.V (MARVEL BIOSCIENCES CORP): +13.0% at 0.13, volume pace 0.0x
-- WAM.V (ALASKA SILVER CORP): +12.5% at 0.585, volume pace 8.68x
+- WGF.V (WESCAN GOLDFIELDS INC): +12.5% at 0.09, volume pace 0.0x
+- INTR.V (INTREPID METALS CORP): +12.3% at 0.64, volume pace 3.4x
 
 # TSX
 
@@ -219,7 +222,7 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +3.9% today at 2.64, last 30m +0.4%, volume pace 1.98x, rising since 2026-11-19T16:00:00+00:00
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +4.3% today at 2.65, last 30m +0.4%, volume pace 1.82x, rising since 2026-11-19T16:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -236,13 +239,13 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +11.1% at 0.2, volume pace 9.68x
-- ELR.TO (EASTERN PLATINUM LIMITED): +5.3% at 0.2, volume pace 0.85x
-- MAXQ.TO (Maritime Launch Services Inc.): +4.0% at 0.39, volume pace 0.6x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +3.9% at 2.64, volume pace 1.98x
+- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +11.1% at 0.2, volume pace 9.17x
+- MAXQ.TO (Maritime Launch Services Inc.): +5.3% at 0.395, volume pace 0.56x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +4.3% at 2.65, volume pace 1.82x
 - EDCU.TO (EDGE COPPER CORPORATION): +3.7% at 0.28, volume pace 3.46x
-- AEG.TO (AEGIS BRANDS INC): +3.2% at 0.32, volume pace 0.55x
 - ARN.TO (ASARIAN ENERGY LIMITED): +2.9% at 0.355, volume pace 2.51x
-- PNE.TO (PINE CLIFF ENERGY LTD): +2.0% at 0.52, volume pace 0.8x
-- ORIO.TO (ORION DIGITAL CORP): +1.9% at 1.58, volume pace 1.07x
-- DBO.TO (DBOX TECHNOLOGIES INC): +1.8% at 0.845, volume pace 1.4x
+- ELR.TO (EASTERN PLATINUM LIMITED): +2.6% at 0.195, volume pace 0.96x
+- ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.09x
+- DBO.TO (DBOX TECHNOLOGIES INC): +2.4% at 0.85, volume pace 1.18x
+- APM.TO (ANDEAN PRECIOUS METALS CORP): +2.2% at 4.24, volume pace 0.75x
+- RIO.TO (RIO2 LIMITED): +2.2% at 2.37, volume pace 1.55x
