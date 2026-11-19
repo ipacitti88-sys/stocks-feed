@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-19T13:31-07:00
+# Stock feed — 2026-11-19T14:01-07:00
 
-Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T20:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -3.7% at 20:35
-Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.6% at 20:35
+Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -3.9% at 21:00
+Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.6% at 21:00
 
 # TSX Venture
 
@@ -123,8 +123,10 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- EMO.V (EMERITA RESOURCES CORP): +8.7% today at 0.125, last 30m +4.2%, volume pace 5.25x, rising since 2026-11-19T19:25:00+00:00
-- SERV.V (ELEVATE SERVICE GROUP INC): +4.5% today at 2.3, last 30m +2.7%, volume pace 2.62x, rising since 2026-11-19T20:10:00+00:00
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.7% today at 0.21, last 30m +5.0%, volume pace 4.64x, rising since 2026-11-19T20:35:00+00:00
+- CBR.V (CABRAL GOLD INC): +10.7% today at 1.24, last 30m +0.8%, volume pace 6.32x, rising since 2026-11-19T21:00:00+00:00
+- EMO.V (EMERITA RESOURCES CORP): +8.7% today at 0.125, last 30m +4.2%, volume pace 5.11x, rising since 2026-11-19T19:25:00+00:00
+- SERV.V (ELEVATE SERVICE GROUP INC): +6.8% today at 2.35, last 30m +2.2%, volume pace 2.45x, rising since 2026-11-19T20:10:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -141,16 +143,16 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- RSMX.V (REGENCY SILVER CORP): +21.4% at 0.085, volume pace 7.61x
+- RSMX.V (REGENCY SILVER CORP): +28.6% at 0.09, volume pace 7.28x
+- ADE.V (ADEX MINING INC.): +20.7% at 0.175, volume pace 4.92x
 - IMR.V (IMETAL RESOURCES INC): +20.0% at 0.12, volume pace 0.62x
-- DMCU.V (DOMESTIC METALS CORP): +20.0% at 0.09, volume pace 7.02x
-- CD.V (CANTEX MINE DEVELOPMENT CORP): +17.8% at 0.265, volume pace 28.38x
-- ADE.V (ADEX MINING INC.): +17.2% at 0.17, volume pace 3.9x
-- FL.V (FRONTIER LITHIUM INC): +14.8% at 0.35, volume pace 6.02x
+- DMCU.V (DOMESTIC METALS CORP): +20.0% at 0.09, volume pace 0.0x
+- PGDC.V (PATAGONIA GOLD CORP): +19.4% at 0.215, volume pace 5.02x
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.7% at 0.21, volume pace 4.64x
 - RYR.V (ROYAL ROAD MINERALS LIMITED): +13.8% at 0.165, volume pace 2.9x
 - TWR.V (TOWER RESOURCES LTD): +13.6% at 0.125, volume pace 9.98x
-- MRVL.V (MARVEL BIOSCIENCES CORP): +13.0% at 0.13, volume pace 0.15x
-- ZAU.V (ZODIAC GOLD INC): +11.5% at 0.29, volume pace 16.41x
+- ERDA.V (ERDA RESOURCE OPPORTUNITIES INC): +13.3% at 0.085, volume pace 0.59x
+- ZAU.V (ZODIAC GOLD INC): +11.5% at 0.29, volume pace 16.42x
 
 # TSX
 
@@ -236,13 +238,13 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +22.2% at 0.22, volume pace 9.31x
-- DND.TO (DYE AND DURHAM LIMITED): +12.8% at 0.97, volume pace 1.09x
-- SYZ.TO (SYLOGIST LTD): +8.5% at 2.68, volume pace 0.85x
-- PYR.TO (PYROGENESIS INC): +5.7% at 0.185, volume pace 2.85x
-- ESM.TO (EURO SUN MINING INC): +4.2% at 0.125, volume pace 2.39x
-- MAXQ.TO (Maritime Launch Services Inc.): +2.7% at 0.385, volume pace 0.68x
-- ELR.TO (EASTERN PLATINUM LIMITED): +2.6% at 0.195, volume pace 2.07x
+- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +22.2% at 0.22, volume pace 9.17x
+- DND.TO (DYE AND DURHAM LIMITED): +12.8% at 0.97, volume pace 1.3x
+- PYR.TO (PYROGENESIS INC): +5.7% at 0.185, volume pace 3.23x
+- AMC.TO (ARIZONA METALS CORP): +4.0% at 0.13, volume pace 0.56x
+- TXP.TO (TOUCHSTONE EXPLORATION INC): +3.3% at 0.155, volume pace 0.16x
+- ELR.TO (EASTERN PLATINUM LIMITED): +2.6% at 0.195, volume pace 2.08x
+- RBY.TO (RUBELLITE ENERGY CORP): +2.6% at 3.16, volume pace 0.69x
 - ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.86x
-- CEMX.TO (CEMATRIX): +2.3% at 0.45, volume pace 1.37x
-- RBY.TO (RUBELLITE ENERGY CORP): +2.3% at 3.15, volume pace 0.71x
+- CEMX.TO (CEMATRIX): +2.3% at 0.45, volume pace 1.33x
+- CAML.TO (CENTRAL ASIA METALS PLC): +2.3% at 2.25, volume pace 10.74x
