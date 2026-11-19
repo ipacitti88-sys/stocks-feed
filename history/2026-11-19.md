@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-19T10:01-07:00
+# Stock feed — 2026-11-19T10:31-07:00
 
-Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T17:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T17:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -2.5% at 17:05
-Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.4% at 17:05
+Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -2.6% at 17:35
+Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.2% at 17:35
 
 # TSX Venture
 
@@ -123,8 +123,7 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- INTR.V (INTREPID METALS CORP): +12.3% today at 0.64, last 30m +1.6%, volume pace 3.83x, rising since 2026-11-19T16:30:00+00:00
-- VALX.V (Valiente Resources Inc.): +8.3% today at 2.99, last 30m +3.1%, volume pace 3.65x, rising since 2026-11-19T16:00:00+00:00
+- none
 
 ## TSX Venture: top by relative volume at last close
 
@@ -142,15 +141,15 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - IMR.V (IMETAL RESOURCES INC): +25.0% at 0.125, volume pace 0.73x
+- RSMX.V (REGENCY SILVER CORP): +21.4% at 0.085, volume pace 3.86x
 - DMCU.V (DOMESTIC METALS CORP): +20.0% at 0.09, volume pace 7.02x
 - CD.V (CANTEX MINE DEVELOPMENT CORP): +20.0% at 0.27, volume pace 43.4x
-- WAM.V (ALASKA SILVER CORP): +19.2% at 0.62, volume pace 6.72x
-- PGDC.V (PATAGONIA GOLD CORP): +16.7% at 0.21, volume pace 7.21x
-- ZAU.V (ZODIAC GOLD INC): +15.4% at 0.3, volume pace 14.03x
+- FOXT.V (FOX TUNGSTEN LTD): +14.3% at 0.12, volume pace 0.0x
 - TWR.V (TOWER RESOURCES LTD): +13.6% at 0.125, volume pace 4.37x
-- CBR.V (CABRAL GOLD INC): +13.4% at 1.27, volume pace 5.71x
+- WAM.V (ALASKA SILVER CORP): +13.5% at 0.59, volume pace 9.98x
 - MRVL.V (MARVEL BIOSCIENCES CORP): +13.0% at 0.13, volume pace 0.0x
-- FROG.V (BULLFROG GOLD CORPORATION): +12.5% at 0.135, volume pace 0.6x
+- CBR.V (CABRAL GOLD INC): +12.9% at 1.265, volume pace 5.3x
+- FROG.V (BULLFROG GOLD CORPORATION): +12.5% at 0.135, volume pace 0.62x
 
 # TSX
 
@@ -236,13 +235,13 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +5.6% at 0.19, volume pace 9.21x
-- MAXQ.TO (Maritime Launch Services Inc.): +5.3% at 0.395, volume pace 0.52x
-- ESM.TO (EURO SUN MINING INC): +4.2% at 0.125, volume pace 2.5x
-- ORIO.TO (ORION DIGITAL CORP): +3.2% at 1.6, volume pace 1.19x
+- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +11.1% at 0.2, volume pace 8.26x
+- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +8.0% at 0.135, volume pace 0.0x
+- ESM.TO (EURO SUN MINING INC): +4.2% at 0.125, volume pace 2.39x
+- MAXQ.TO (Maritime Launch Services Inc.): +4.0% at 0.39, volume pace 0.46x
+- ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.21x
+- TSND.TO (TERRASCEND CORP): +1.9% at 0.53, volume pace 0.42x
 - EDCU.TO (EDGE COPPER CORPORATION): +1.9% at 0.275, volume pace 2.21x
-- BSX.TO (BELO SUN MINING CORP): +1.8% at 0.58, volume pace 0.13x
-- ITH.TO (INTERNATIONAL TOWER HILL MINES ): +1.7% at 1.77, volume pace 0.47x
-- AEG.TO (AEGIS BRANDS INC): +1.6% at 0.315, volume pace 0.56x
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +1.6% at 2.58, volume pace 1.62x
-- TAL.TO (PETROTAL CORP): +1.6% at 0.4925, volume pace 0.7x
+- NOU.TO (NOUVEAU MONDE GRAPHITE INC): +1.8% at 1.11, volume pace 1.14x
+- GCU.TO (GUNNISON COPPER CORP): +1.8% at 0.28, volume pace 1.71x
+- BSX.TO (BELO SUN MINING CORP): +1.8% at 0.58, volume pace 0.16x
