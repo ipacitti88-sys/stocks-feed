@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-19T10:31-07:00
+# Stock feed — 2026-11-19T11:01-07:00
 
-Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 714 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-18. Intraday data as of: 2026-11-19T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -2.6% at 17:35
-Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.2% at 17:35
+Market: S&P/TSX Venture Composite 743.66 on 2026-11-18 (day -2.8%, month -12.1%, year -13.5%, downtrend); live -2.9% at 18:05
+Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year +15.0%, downtrend); live -1.3% at 18:05
 
 # TSX Venture
 
@@ -123,7 +123,7 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- SME.V (SAMA RESOURCES INC RESSOURCES S): +11.1% today at 0.2, last 30m +2.6%, volume pace 3.31x, rising since 2026-11-19T17:40:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -142,14 +142,14 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 - IMR.V (IMETAL RESOURCES INC): +25.0% at 0.125, volume pace 0.73x
 - RSMX.V (REGENCY SILVER CORP): +21.4% at 0.085, volume pace 3.86x
+- FL.V (FRONTIER LITHIUM INC): +21.3% at 0.37, volume pace 2.5x
 - DMCU.V (DOMESTIC METALS CORP): +20.0% at 0.09, volume pace 7.02x
-- CD.V (CANTEX MINE DEVELOPMENT CORP): +20.0% at 0.27, volume pace 43.4x
-- FOXT.V (FOX TUNGSTEN LTD): +14.3% at 0.12, volume pace 0.0x
+- HART.V (GOLD HART COPPER CORP): +17.6% at 0.2, volume pace 1.55x
+- CD.V (CANTEX MINE DEVELOPMENT CORP): +15.6% at 0.26, volume pace 42.18x
 - TWR.V (TOWER RESOURCES LTD): +13.6% at 0.125, volume pace 4.37x
-- WAM.V (ALASKA SILVER CORP): +13.5% at 0.59, volume pace 9.98x
-- MRVL.V (MARVEL BIOSCIENCES CORP): +13.0% at 0.13, volume pace 0.0x
-- CBR.V (CABRAL GOLD INC): +12.9% at 1.265, volume pace 5.3x
 - FROG.V (BULLFROG GOLD CORPORATION): +12.5% at 0.135, volume pace 0.62x
+- WAM.V (ALASKA SILVER CORP): +12.5% at 0.585, volume pace 7.87x
+- WGF.V (WESCAN GOLDFIELDS INC): +12.5% at 0.09, volume pace 0.0x
 
 # TSX
 
@@ -235,13 +235,13 @@ Market: S&P/TSX Composite 34,578.05 on 2026-11-18 (day -2.1%, month -4.2%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +11.1% at 0.2, volume pace 8.26x
-- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +8.0% at 0.135, volume pace 0.0x
+- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +11.1% at 0.2, volume pace 8.31x
+- PYR.TO (PYROGENESIS INC): +5.7% at 0.185, volume pace 1.71x
+- MAXQ.TO (Maritime Launch Services Inc.): +5.3% at 0.395, volume pace 0.41x
+- CAML.TO (CENTRAL ASIA METALS PLC): +4.5% at 2.3, volume pace 6.42x
 - ESM.TO (EURO SUN MINING INC): +4.2% at 0.125, volume pace 2.39x
-- MAXQ.TO (Maritime Launch Services Inc.): +4.0% at 0.39, volume pace 0.46x
-- ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.21x
-- TSND.TO (TERRASCEND CORP): +1.9% at 0.53, volume pace 0.42x
+- ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.43x
 - EDCU.TO (EDGE COPPER CORPORATION): +1.9% at 0.275, volume pace 2.21x
-- NOU.TO (NOUVEAU MONDE GRAPHITE INC): +1.8% at 1.11, volume pace 1.14x
-- GCU.TO (GUNNISON COPPER CORP): +1.8% at 0.28, volume pace 1.71x
 - BSX.TO (BELO SUN MINING CORP): +1.8% at 0.58, volume pace 0.16x
+- TSK.TO (TALISKER RESOURCES LTD): +1.7% at 0.59, volume pace 1.34x
+- LGO.TO (LARGO INC): +1.7% at 0.295, volume pace 2.74x
