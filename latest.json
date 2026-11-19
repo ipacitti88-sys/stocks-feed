@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T12:31-07:00",
+ "generated": "2026-11-19T13:01-07:00",
  "last_close_day": "2026-11-18",
  "tracked": 714,
  "tracked_by_market": {
@@ -385,54 +385,43 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-19T19:35:00+00:00",
+ "live_as_of": "2026-11-19T20:05:00+00:00",
  "rising": [
   {
    "ticker": "SME.V",
    "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-11-19T18:05:00+00:00",
-   "last": 0.2,
-   "pct_day": 11.11,
-   "pct_30m": 2.56,
-   "volume_pace": 8.09,
+   "as_of": "2026-11-19T19:40:00+00:00",
+   "last": 0.205,
+   "pct_day": 13.89,
+   "pct_30m": 2.5,
+   "volume_pace": 5.61,
    "rising": true,
    "rising_since": "2026-11-19T17:40:00+00:00"
   },
   {
-   "ticker": "CBR.V",
-   "name": "CABRAL GOLD INC",
-   "as_of": "2026-11-19T19:30:00+00:00",
-   "last": 1.24,
-   "pct_day": 10.71,
-   "pct_30m": 0.4,
-   "volume_pace": 7.64,
-   "rising": true,
-   "rising_since": "2026-11-19T19:30:00+00:00"
-  },
-  {
    "ticker": "EMO.V",
    "name": "EMERITA RESOURCES CORP",
-   "as_of": "2026-11-19T19:30:00+00:00",
+   "as_of": "2026-11-19T19:35:00+00:00",
    "last": 0.12,
    "pct_day": 4.35,
    "pct_30m": 9.09,
-   "volume_pace": 6.26,
+   "volume_pace": 6.2,
    "rising": true,
    "rising_since": "2026-11-19T19:25:00+00:00"
+  },
+  {
+   "ticker": "ORIO.TO",
+   "name": "ORION DIGITAL CORP",
+   "as_of": "2026-11-19T20:00:00+00:00",
+   "last": 1.6,
+   "pct_day": 3.23,
+   "pct_30m": 1.27,
+   "volume_pace": 1.6,
+   "rising": true,
+   "rising_since": "2026-11-19T20:00:00+00:00"
   }
  ],
  "top_gainers_today": [
-  {
-   "ticker": "IMR.V",
-   "name": "IMETAL RESOURCES INC",
-   "as_of": "2026-11-19T15:55:00+00:00",
-   "last": 0.125,
-   "pct_day": 25.0,
-   "pct_30m": 4.17,
-   "volume_pace": 2.11,
-   "rising": false,
-   "rising_since": null
-  },
   {
    "ticker": "RSMX.V",
    "name": "REGENCY SILVER CORP",
@@ -441,6 +430,17 @@
    "pct_day": 21.43,
    "pct_30m": 13.33,
    "volume_pace": 7.61,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "IMR.V",
+   "name": "IMETAL RESOURCES INC",
+   "as_of": "2026-11-19T19:55:00+00:00",
+   "last": 0.12,
+   "pct_day": 20.0,
+   "pct_30m": -4.0,
+   "volume_pace": 0.14,
    "rising": false,
    "rising_since": null
   },
@@ -458,11 +458,11 @@
   {
    "ticker": "CD.V",
    "name": "CANTEX MINE DEVELOPMENT CORP",
-   "as_of": "2026-11-19T18:05:00+00:00",
+   "as_of": "2026-11-19T19:40:00+00:00",
    "last": 0.26,
    "pct_day": 15.56,
-   "pct_30m": -3.7,
-   "volume_pace": 42.5,
+   "pct_30m": 0.0,
+   "volume_pace": 29.88,
    "rising": false,
    "rising_since": null
   },
@@ -478,6 +478,17 @@
    "rising_since": null
   },
   {
+   "ticker": "SME.V",
+   "name": "SAMA RESOURCES INC RESSOURCES S",
+   "as_of": "2026-11-19T19:40:00+00:00",
+   "last": 0.205,
+   "pct_day": 13.89,
+   "pct_30m": 2.5,
+   "volume_pace": 5.61,
+   "rising": true,
+   "rising_since": "2026-11-19T17:40:00+00:00"
+  },
+  {
    "ticker": "RYR.V",
    "name": "ROYAL ROAD MINERALS LIMITED",
    "as_of": "2026-11-19T18:40:00+00:00",
@@ -491,11 +502,11 @@
   {
    "ticker": "ADE.V",
    "name": "ADEX MINING INC.",
-   "as_of": "2026-11-19T19:30:00+00:00",
+   "as_of": "2026-11-19T19:50:00+00:00",
    "last": 0.165,
    "pct_day": 13.79,
-   "pct_30m": 6.45,
-   "volume_pace": 2.82,
+   "pct_30m": 0.0,
+   "volume_pace": 2.94,
    "rising": false,
    "rising_since": null
   },
@@ -522,35 +533,13 @@
    "rising_since": null
   },
   {
-   "ticker": "SME.V",
-   "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-11-19T18:05:00+00:00",
-   "last": 0.2,
-   "pct_day": 11.11,
-   "pct_30m": 2.56,
-   "volume_pace": 8.09,
-   "rising": true,
-   "rising_since": "2026-11-19T17:40:00+00:00"
-  },
-  {
    "ticker": "MDNA.TO",
    "name": "MEDICENNA THERAPEUTICS CORP",
-   "as_of": "2026-11-19T19:30:00+00:00",
-   "last": 0.21,
-   "pct_day": 16.67,
-   "pct_30m": 5.0,
-   "volume_pace": 10.91,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AMAP.TO",
-   "name": "AMAPA MINERALS HOLDINGS INC",
-   "as_of": "2026-11-19T18:55:00+00:00",
-   "last": 0.78,
-   "pct_day": 8.33,
-   "pct_30m": 4.0,
-   "volume_pace": 0.0,
+   "as_of": "2026-11-19T19:35:00+00:00",
+   "last": 0.205,
+   "pct_day": 13.89,
+   "pct_30m": 2.5,
+   "volume_pace": 10.83,
    "rising": false,
    "rising_since": null
   },
@@ -572,7 +561,7 @@
    "last": 0.125,
    "pct_day": 4.17,
    "pct_30m": -3.85,
-   "volume_pace": 2.62,
+   "volume_pace": 2.63,
    "rising": false,
    "rising_since": null
   },
@@ -583,18 +572,40 @@
    "last": 0.39,
    "pct_day": 4.0,
    "pct_30m": 0.0,
-   "volume_pace": 0.74,
+   "volume_pace": 0.77,
    "rising": false,
    "rising_since": null
   },
   {
+   "ticker": "ORIO.TO",
+   "name": "ORION DIGITAL CORP",
+   "as_of": "2026-11-19T20:00:00+00:00",
+   "last": 1.6,
+   "pct_day": 3.23,
+   "pct_30m": 1.27,
+   "volume_pace": 1.6,
+   "rising": true,
+   "rising_since": "2026-11-19T20:00:00+00:00"
+  },
+  {
    "ticker": "PYR.TO",
    "name": "PYROGENESIS INC",
-   "as_of": "2026-11-19T19:30:00+00:00",
+   "as_of": "2026-11-19T19:45:00+00:00",
    "last": 0.18,
    "pct_day": 2.86,
    "pct_30m": 0.0,
-   "volume_pace": 3.36,
+   "volume_pace": 3.3,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "RBY.TO",
+   "name": "RUBELLITE ENERGY CORP",
+   "as_of": "2026-11-19T20:00:00+00:00",
+   "last": 3.155,
+   "pct_day": 2.44,
+   "pct_30m": 0.48,
+   "volume_pace": 0.75,
    "rising": false,
    "rising_since": null
   },
@@ -610,35 +621,24 @@
    "rising_since": null
   },
   {
-   "ticker": "RBY.TO",
-   "name": "RUBELLITE ENERGY CORP",
-   "as_of": "2026-11-19T19:20:00+00:00",
-   "last": 3.14,
-   "pct_day": 1.95,
-   "pct_30m": 0.32,
-   "volume_pace": 0.79,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "AP-UN.TO",
    "name": "ALLIED PROPERTIES REAL ESTATE I",
-   "as_of": "2026-11-19T19:30:00+00:00",
-   "last": 3.995,
-   "pct_day": 1.91,
-   "pct_30m": 0.38,
-   "volume_pace": 1.12,
+   "as_of": "2026-11-19T20:00:00+00:00",
+   "last": 4.0,
+   "pct_day": 2.04,
+   "pct_30m": 0.13,
+   "volume_pace": 1.04,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "RIO.TO",
-   "name": "RIO2 LIMITED",
-   "as_of": "2026-11-19T19:35:00+00:00",
-   "last": 2.35,
-   "pct_day": 1.29,
-   "pct_30m": 0.43,
-   "volume_pace": 1.07,
+   "ticker": "AMAP.TO",
+   "name": "AMAPA MINERALS HOLDINGS INC",
+   "as_of": "2026-11-19T19:55:00+00:00",
+   "last": 0.73,
+   "pct_day": 1.39,
+   "pct_30m": -6.41,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   }
@@ -1240,9 +1240,9 @@
    "ma200": 946.14,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-19T19:35:00+00:00",
-    "last": 719.15,
-    "pct_day": -3.3
+    "as_of": "2026-11-19T20:05:00+00:00",
+    "last": 718.13,
+    "pct_day": -3.43
    }
   },
   "^GSPTSE": {
@@ -1841,9 +1841,9 @@
    "ma200": 34773.58,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-19T19:35:00+00:00",
-    "last": 34148.72,
-    "pct_day": -1.24
+    "as_of": "2026-11-19T20:05:00+00:00",
+    "last": 34039.96,
+    "pct_day": -1.56
    }
   }
  },
