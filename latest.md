@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-20T08:31-07:00
+# Stock feed — 2026-11-20T09:01-07:00
 
-Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T15:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T16:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -1.4% at 15:35
-Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -0.7% at 15:35
+Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -2.1% at 16:05
+Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -0.9% at 16:05
 
 # TSX Venture
 
@@ -143,9 +143,11 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
 - GHRT.V (GREENHEART GOLD INC): +5.8% today at 0.55, last 30m +3.8%, volume pace 3.42x, rising since 2026-11-20T15:10:00+00:00
-- PML.V (PANORO MINERALS LTD): +4.4% today at 0.95, last 30m +1.6%, volume pace 2.64x, rising since 2026-11-20T15:25:00+00:00
-- CVV.V (CANALASKA URANIUM LTD): +3.8% today at 0.2075, last 30m +1.2%, volume pace 5.93x, rising since 2026-11-20T14:50:00+00:00
-- SEI.V (SINTANA ENERGY INC): +3.3% today at 0.315, last 30m +3.3%, volume pace 1.54x, rising since 2026-11-20T15:25:00+00:00
+- PML.V (PANORO MINERALS LTD): +5.5% today at 0.96, last 30m +1.1%, volume pace 2.14x, rising since 2026-11-20T15:50:00+00:00
+- CERT.V (CERRADO GOLD INC): +3.4% today at 1.83, last 30m +0.6%, volume pace 5.65x, rising since 2026-11-20T15:55:00+00:00
+- AAG.V (AFTERMATH SILVER LTD): +3.4% today at 0.46, last 30m +1.1%, volume pace 1.53x, rising since 2026-11-20T16:00:00+00:00
+- AHR.V (Amarc Resources Ltd.): +3.4% today at 0.92, last 30m +1.1%, volume pace 2.32x, rising since 2026-11-20T15:45:00+00:00
+- WI.V (THE WESTERN INVESTMENT CO OF CD): +3.0% today at 1.35, last 30m +3.9%, volume pace 2.98x, rising since 2026-11-20T15:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -162,16 +164,16 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- ENW.V (ENWAVE CORP): +33.3% at 0.2, volume pace 0.71x
+- ENW.V (ENWAVE CORP): +33.3% at 0.2, volume pace 10.33x
+- KRI.V (KOBO RESOURCES INC): +26.2% at 0.265, volume pace 0.58x
 - WCE.V (WESCAN ENERGY CORP): +25.0% at 0.125, volume pace 0.0x
-- NOAL.V (NOA LITHIUM BRINES INC): +24.2% at 0.205, volume pace 0.0x
+- NRC.V (NATIONS ROYALTY CORP): +23.6% at 0.89, volume pace 1.42x
 - TBK.V (TRAILBREAKER RESOURCES LTD): +17.6% at 0.2, volume pace 18.51x
-- APGO.V (APOLLO SILVER CORP): +15.9% at 1.46, volume pace 2.51x
 - EML.V (ELECTRIC METALS USA LIMITED): +15.8% at 0.11, volume pace 0.0x
-- PX.V (PELANGIO EXPLORATION INC.): +15.0% at 0.115, volume pace 21.45x
-- PPX.V (PPX MINING CORP): +12.5% at 0.225, volume pace 0.0x
-- FTUR.V (FUTURE FUELS INC): +12.0% at 0.14, volume pace 0.04x
-- PGDC.V (PATAGONIA GOLD CORP): +11.6% at 0.24, volume pace 0.63x
+- NOAL.V (NOA LITHIUM BRINES INC): +15.2% at 0.19, volume pace 0.19x
+- PX.V (PELANGIO EXPLORATION INC.): +15.0% at 0.115, volume pace 8.37x
+- APGO.V (APOLLO SILVER CORP): +14.3% at 1.44, volume pace 2.36x
+- SAG.V (STERLING METALS CORP): +13.8% at 0.66, volume pace 0.3x
 
 # TSX
 
@@ -250,7 +252,7 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SNDY.TO (Sunday Lake Gold Corp.): +6.3% today at 1.35, last 30m +6.3%, volume pace 10.03x, rising since 2026-11-20T15:25:00+00:00
+- BNKR.TO (BUNKER HILL MINING CORP): +3.9% today at 2.12, last 30m +6.0%, volume pace 3.91x, rising since 2026-11-20T16:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -268,12 +270,12 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 ## TSX: top gainers in latest intraday pass
 
 - NCF.TO (NORTHCLIFF RESOURCES LTD): +21.3% at 0.285, volume pace 8.5x
-- SNDY.TO (Sunday Lake Gold Corp.): +6.3% at 1.35, volume pace 10.03x
-- ELR.TO (EASTERN PLATINUM LIMITED): +5.4% at 0.195, volume pace 3.84x
-- ESM.TO (EURO SUN MINING INC): +4.5% at 0.115, volume pace 1.8x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +4.3% at 0.24, volume pace 1.81x
+- SVA.TO (SERNOVA BIOTHERAPEUTICS INC): +5.6% at 0.095, volume pace 8.51x
+- ELR.TO (EASTERN PLATINUM LIMITED): +5.4% at 0.195, volume pace 3.08x
+- SYZ.TO (SYLOGIST LTD): +5.2% at 2.62, volume pace 1.47x
+- ESM.TO (EURO SUN MINING INC): +4.5% at 0.115, volume pace 2.23x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.1% at 0.255, volume pace 0.56x
-- AKT.TO (AKITA DRILLING LTD): +3.5% at 3.26, volume pace 0.67x
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +2.6% at 0.195, volume pace 1.51x
-- OGI.TO (ORGANIGRAM GLOBAL INC): +2.2% at 0.92, volume pace 1.26x
-- LAM.TO (LARAMIDE RESOURCES LTD.): +2.0% at 0.3725, volume pace 3.52x
+- BNKR.TO (BUNKER HILL MINING CORP): +3.9% at 2.12, volume pace 3.91x
+- NEXT.TO (NEXTSOURCE MATERIALS INC): +2.9% at 0.175, volume pace 0.03x
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +2.6% at 0.195, volume pace 1.76x
+- AKT.TO (AKITA DRILLING LTD): +2.1% at 3.215, volume pace 2.53x
