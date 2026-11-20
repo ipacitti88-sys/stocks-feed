@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T13:01-07:00",
+ "generated": "2026-11-20T13:31-07:00",
  "last_close_day": "2026-11-19",
  "tracked": 717,
  "tracked_by_market": {
@@ -355,8 +355,31 @@
    "added": "2026-11-06"
   }
  ],
- "live_as_of": "2026-11-20T20:05:00+00:00",
- "rising": [],
+ "live_as_of": "2026-11-20T20:35:00+00:00",
+ "rising": [
+  {
+   "ticker": "CERT.V",
+   "name": "CERRADO GOLD INC",
+   "as_of": "2026-11-20T20:30:00+00:00",
+   "last": 1.85,
+   "pct_day": 4.52,
+   "pct_30m": 1.65,
+   "volume_pace": 3.51,
+   "rising": true,
+   "rising_since": "2026-11-20T20:05:00+00:00"
+  },
+  {
+   "ticker": "B.V",
+   "name": "BCM RESOURCES CORPORATION",
+   "as_of": "2026-11-20T20:30:00+00:00",
+   "last": 0.495,
+   "pct_day": 3.13,
+   "pct_30m": 3.13,
+   "volume_pace": 1.72,
+   "rising": true,
+   "rising_since": "2026-11-20T20:30:00+00:00"
+  }
+ ],
  "top_gainers_today": [
   {
    "ticker": "TTG.V",
@@ -370,13 +393,24 @@
    "rising_since": null
   },
   {
+   "ticker": "TMET.V",
+   "name": "TORR METALS INC",
+   "as_of": "2026-11-20T20:35:00+00:00",
+   "last": 0.11,
+   "pct_day": 29.41,
+   "pct_30m": 22.22,
+   "volume_pace": 9.87,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "HAN.V",
    "name": "HANNAN METALS LTD",
-   "as_of": "2026-11-20T19:50:00+00:00",
-   "last": 0.52,
-   "pct_day": 26.83,
-   "pct_30m": 9.47,
-   "volume_pace": 1.65,
+   "as_of": "2026-11-20T20:30:00+00:00",
+   "last": 0.53,
+   "pct_day": 29.27,
+   "pct_30m": 1.92,
+   "volume_pace": 1.48,
    "rising": false,
    "rising_since": null
   },
@@ -394,11 +428,11 @@
   {
    "ticker": "SMN.V",
    "name": "SUN SUMMIT MINERALS CORP",
-   "as_of": "2026-11-20T19:55:00+00:00",
+   "as_of": "2026-11-20T20:25:00+00:00",
    "last": 0.085,
    "pct_day": 21.43,
    "pct_30m": 0.0,
-   "volume_pace": 3.43,
+   "volume_pace": 3.15,
    "rising": false,
    "rising_since": null
   },
@@ -414,13 +448,24 @@
    "rising_since": null
   },
   {
+   "ticker": "NRC.V",
+   "name": "NATIONS ROYALTY CORP",
+   "as_of": "2026-11-20T20:30:00+00:00",
+   "last": 0.86,
+   "pct_day": 19.44,
+   "pct_30m": 7.5,
+   "volume_pace": 0.93,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "ALTA.V",
    "name": "ALTAMIRA GOLD CORP",
-   "as_of": "2026-11-20T19:35:00+00:00",
+   "as_of": "2026-11-20T20:30:00+00:00",
    "last": 0.175,
    "pct_day": 16.67,
-   "pct_30m": 16.67,
-   "volume_pace": 2.72,
+   "pct_30m": 0.0,
+   "volume_pace": 2.45,
    "rising": false,
    "rising_since": null
   },
@@ -431,40 +476,18 @@
    "last": 0.07,
    "pct_day": 16.67,
    "pct_30m": 16.67,
-   "volume_pace": 1.64,
+   "volume_pace": 1.77,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "NOAL.V",
-   "name": "NOA LITHIUM BRINES INC",
-   "as_of": "2026-11-20T17:00:00+00:00",
-   "last": 0.19,
-   "pct_day": 15.15,
-   "pct_30m": 0.0,
-   "volume_pace": 0.57,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "KRI.V",
-   "name": "KOBO RESOURCES INC",
-   "as_of": "2026-11-20T19:50:00+00:00",
-   "last": 0.24,
-   "pct_day": 14.29,
-   "pct_30m": -2.04,
-   "volume_pace": 2.07,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HEVI.V",
-   "name": "HELIUM EVOLUTION INCORPORATED",
-   "as_of": "2026-11-20T17:35:00+00:00",
-   "last": 0.175,
-   "pct_day": 12.9,
-   "pct_30m": 12.9,
-   "volume_pace": 2.89,
+   "ticker": "JUGR.V",
+   "name": "JUGGERNAUT EXPLORATION LTD",
+   "as_of": "2026-11-20T20:30:00+00:00",
+   "last": 0.33,
+   "pct_day": 15.79,
+   "pct_30m": 4.76,
+   "volume_pace": 2.43,
    "rising": false,
    "rising_since": null
   },
@@ -493,22 +516,33 @@
   {
    "ticker": "NCF.TO",
    "name": "NORTHCLIFF RESOURCES LTD",
-   "as_of": "2026-11-20T19:45:00+00:00",
-   "last": 0.26,
-   "pct_day": 10.64,
-   "pct_30m": 0.0,
-   "volume_pace": 1.26,
+   "as_of": "2026-11-20T20:25:00+00:00",
+   "last": 0.265,
+   "pct_day": 12.77,
+   "pct_30m": 1.92,
+   "volume_pace": 1.13,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TELY.TO",
-   "name": "TELYRX HOLDINGS INC",
-   "as_of": "2026-11-20T19:50:00+00:00",
-   "last": 1.55,
-   "pct_day": 6.9,
-   "pct_30m": 6.9,
-   "volume_pace": 2.29,
+   "ticker": "DND.TO",
+   "name": "DYE AND DURHAM LIMITED",
+   "as_of": "2026-11-20T20:35:00+00:00",
+   "last": 1.05,
+   "pct_day": 7.14,
+   "pct_30m": 2.44,
+   "volume_pace": 0.64,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CLCH.TO",
+   "name": "CLINCH RESOURCES LTD",
+   "as_of": "2026-11-20T20:35:00+00:00",
+   "last": 0.75,
+   "pct_day": 7.14,
+   "pct_30m": 0.0,
+   "volume_pace": 4.85,
    "rising": false,
    "rising_since": null
   },
@@ -519,62 +553,51 @@
    "last": 2.66,
    "pct_day": 6.83,
    "pct_30m": -2.21,
-   "volume_pace": 2.7,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PCA.TO",
-   "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-11-20T20:00:00+00:00",
-   "last": 0.94,
-   "pct_day": 5.62,
-   "pct_30m": 1.08,
-   "volume_pace": 1.26,
+   "volume_pace": 2.71,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CFF.TO",
    "name": "CONIFEX TIMBER INC",
-   "as_of": "2026-11-20T19:55:00+00:00",
+   "as_of": "2026-11-20T20:15:00+00:00",
    "last": 0.11,
    "pct_day": 4.76,
    "pct_30m": 0.0,
-   "volume_pace": 0.03,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BSX.TO",
-   "name": "BELO SUN MINING CORP",
-   "as_of": "2026-11-20T20:00:00+00:00",
-   "last": 0.585,
-   "pct_day": 4.46,
-   "pct_30m": -0.85,
-   "volume_pace": 0.91,
+   "volume_pace": 0.07,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CDR.TO",
    "name": "CONDOR ENERGIES INC",
-   "as_of": "2026-11-20T20:00:00+00:00",
+   "as_of": "2026-11-20T20:35:00+00:00",
    "last": 3.16,
    "pct_day": 4.29,
-   "pct_30m": -1.25,
-   "volume_pace": 0.84,
+   "pct_30m": 0.0,
+   "volume_pace": 0.83,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "DND.TO",
-   "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-20T20:00:00+00:00",
-   "last": 1.02,
+   "ticker": "CWEB.TO",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "as_of": "2026-11-20T19:45:00+00:00",
+   "last": 0.255,
    "pct_day": 4.08,
-   "pct_30m": 2.0,
-   "volume_pace": 0.65,
+   "pct_30m": 0.0,
+   "volume_pace": 0.08,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "DBO.TO",
+   "name": "DBOX TECHNOLOGIES INC",
+   "as_of": "2026-11-20T20:35:00+00:00",
+   "last": 0.86,
+   "pct_day": 3.61,
+   "pct_30m": 0.0,
+   "volume_pace": 2.06,
    "rising": false,
    "rising_since": null
   }
@@ -1176,9 +1199,9 @@
    "ma200": 944.46,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-20T20:05:00+00:00",
-    "last": 690.15,
-    "pct_day": -3.62
+    "as_of": "2026-11-20T20:35:00+00:00",
+    "last": 690.13,
+    "pct_day": -3.63
    }
   },
   "^GSPTSE": {
@@ -1777,9 +1800,9 @@
    "ma200": 34781.79,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-20T20:05:00+00:00",
-    "last": 33323.12,
-    "pct_day": -2.07
+    "as_of": "2026-11-20T20:35:00+00:00",
+    "last": 33311.68,
+    "pct_day": -2.11
    }
   }
  },
