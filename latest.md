@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-20T12:31-07:00
+# Stock feed — 2026-11-20T13:01-07:00
 
-Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T20:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -3.5% at 19:35
-Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -2.0% at 19:35
+Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -3.6% at 20:05
+Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -2.1% at 20:05
 
 # TSX Venture
 
@@ -142,7 +142,7 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- APGO.V (APOLLO SILVER CORP): +16.7% today at 1.47, last 30m +2.1%, volume pace 1.59x, rising since 2026-11-20T19:00:00+00:00
+- none
 
 ## TSX Venture: top by relative volume at last close
 
@@ -160,15 +160,15 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - TTG.V (TRANS CANADA GOLD CORP): +33.3% at 0.12, volume pace 0.0x
+- HAN.V (HANNAN METALS LTD): +26.8% at 0.52, volume pace 1.65x
 - WCE.V (WESCAN ENERGY CORP): +25.0% at 0.125, volume pace 0.0x
-- HAN.V (HANNAN METALS LTD): +24.4% at 0.51, volume pace 1.3x
-- SMN.V (SUN SUMMIT MINERALS CORP): +21.4% at 0.085, volume pace 3.78x
-- ALTA.V (ALTAMIRA GOLD CORP): +20.0% at 0.18, volume pace 2.69x
+- SMN.V (SUN SUMMIT MINERALS CORP): +21.4% at 0.085, volume pace 3.43x
 - ENW.V (ENWAVE CORP): +20.0% at 0.18, volume pace 2.32x
-- APGO.V (APOLLO SILVER CORP): +16.7% at 1.47, volume pace 1.59x
-- KRI.V (KOBO RESOURCES INC): +16.7% at 0.245, volume pace 3.15x
-- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +16.0% at 0.145, volume pace 3.23x
-- NRC.V (NATIONS ROYALTY CORP): +15.3% at 0.83, volume pace 0.81x
+- ALTA.V (ALTAMIRA GOLD CORP): +16.7% at 0.175, volume pace 2.72x
+- EXG.V (EXGEN RESOURCES INC): +16.7% at 0.07, volume pace 1.64x
+- NOAL.V (NOA LITHIUM BRINES INC): +15.2% at 0.19, volume pace 0.57x
+- KRI.V (KOBO RESOURCES INC): +14.3% at 0.24, volume pace 2.07x
+- HEVI.V (HELIUM EVOLUTION INCORPORATED): +12.9% at 0.175, volume pace 2.89x
 
 # TSX
 
@@ -247,7 +247,7 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- CLCH.TO (CLINCH RESOURCES LTD): +10.0% today at 0.77, last 30m +2.7%, volume pace 4.99x, rising since 2026-11-20T19:30:00+00:00
+- none
 
 ## TSX: top by relative volume at last close
 
@@ -264,13 +264,13 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDCU.TO (EDGE COPPER CORPORATION): +31.5% at 0.355, volume pace 3.9x
+- EDCU.TO (EDGE COPPER CORPORATION): +31.5% at 0.355, volume pace 3.4x
 - AEG.TO (AEGIS BRANDS INC): +13.1% at 0.345, volume pace 0.04x
-- NCF.TO (NORTHCLIFF RESOURCES LTD): +10.6% at 0.26, volume pace 1.34x
-- CLCH.TO (CLINCH RESOURCES LTD): +10.0% at 0.77, volume pace 4.99x
-- SYZ.TO (SYLOGIST LTD): +9.2% at 2.72, volume pace 3.11x
-- ELR.TO (EASTERN PLATINUM LIMITED): +8.1% at 0.2, volume pace 2.35x
-- CDR.TO (CONDOR ENERGIES INC): +5.6% at 3.2, volume pace 0.77x
-- BSX.TO (BELO SUN MINING CORP): +5.4% at 0.59, volume pace 0.81x
-- CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +4.5% at 0.93, volume pace 1.41x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +10.6% at 0.26, volume pace 1.26x
+- TELY.TO (TELYRX HOLDINGS INC): +6.9% at 1.55, volume pace 2.29x
+- SYZ.TO (SYLOGIST LTD): +6.8% at 2.66, volume pace 2.7x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +5.6% at 0.94, volume pace 1.26x
+- CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.03x
+- BSX.TO (BELO SUN MINING CORP): +4.5% at 0.585, volume pace 0.91x
+- CDR.TO (CONDOR ENERGIES INC): +4.3% at 3.16, volume pace 0.84x
+- DND.TO (DYE AND DURHAM LIMITED): +4.1% at 1.02, volume pace 0.65x
