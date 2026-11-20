@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T09:01-07:00",
+ "generated": "2026-11-20T09:31-07:00",
  "last_close_day": "2026-11-19",
  "tracked": 717,
  "tracked_by_market": {
@@ -355,62 +355,18 @@
    "added": "2026-11-06"
   }
  ],
- "live_as_of": "2026-11-20T16:05:00+00:00",
+ "live_as_of": "2026-11-20T16:35:00+00:00",
  "rising": [
   {
-   "ticker": "GHRT.V",
-   "name": "GREENHEART GOLD INC",
-   "as_of": "2026-11-20T15:10:00+00:00",
-   "last": 0.55,
-   "pct_day": 5.77,
-   "pct_30m": 3.77,
-   "volume_pace": 3.42,
+   "ticker": "OCO.V",
+   "name": "OROCO RESOURCE CORP.",
+   "as_of": "2026-11-20T16:30:00+00:00",
+   "last": 0.28,
+   "pct_day": 3.7,
+   "pct_30m": 3.7,
+   "volume_pace": 2.33,
    "rising": true,
-   "rising_since": "2026-11-20T15:10:00+00:00"
-  },
-  {
-   "ticker": "PML.V",
-   "name": "PANORO MINERALS LTD",
-   "as_of": "2026-11-20T16:00:00+00:00",
-   "last": 0.96,
-   "pct_day": 5.49,
-   "pct_30m": 1.05,
-   "volume_pace": 2.14,
-   "rising": true,
-   "rising_since": "2026-11-20T15:50:00+00:00"
-  },
-  {
-   "ticker": "BNKR.TO",
-   "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-20T16:00:00+00:00",
-   "last": 2.12,
-   "pct_day": 3.92,
-   "pct_30m": 6.0,
-   "volume_pace": 3.91,
-   "rising": true,
-   "rising_since": "2026-11-20T16:00:00+00:00"
-  },
-  {
-   "ticker": "CERT.V",
-   "name": "CERRADO GOLD INC",
-   "as_of": "2026-11-20T16:00:00+00:00",
-   "last": 1.83,
-   "pct_day": 3.39,
-   "pct_30m": 0.55,
-   "volume_pace": 5.65,
-   "rising": true,
-   "rising_since": "2026-11-20T15:55:00+00:00"
-  },
-  {
-   "ticker": "AAG.V",
-   "name": "AFTERMATH SILVER LTD",
-   "as_of": "2026-11-20T16:00:00+00:00",
-   "last": 0.46,
-   "pct_day": 3.37,
-   "pct_30m": 1.1,
-   "volume_pace": 1.53,
-   "rising": true,
-   "rising_since": "2026-11-20T16:00:00+00:00"
+   "rising_since": "2026-11-20T16:30:00+00:00"
   },
   {
    "ticker": "AHR.V",
@@ -424,13 +380,24 @@
    "rising_since": "2026-11-20T15:45:00+00:00"
   },
   {
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-11-20T16:30:00+00:00",
+   "last": 0.92,
+   "pct_day": 3.37,
+   "pct_30m": 2.22,
+   "volume_pace": 1.81,
+   "rising": true,
+   "rising_since": "2026-11-20T16:20:00+00:00"
+  },
+  {
    "ticker": "WI.V",
    "name": "THE WESTERN INVESTMENT CO OF CD",
-   "as_of": "2026-11-20T15:55:00+00:00",
+   "as_of": "2026-11-20T16:20:00+00:00",
    "last": 1.35,
    "pct_day": 3.05,
    "pct_30m": 3.85,
-   "volume_pace": 2.98,
+   "volume_pace": 2.34,
    "rising": true,
    "rising_since": "2026-11-20T15:55:00+00:00"
   }
@@ -444,17 +411,6 @@
    "pct_day": 33.33,
    "pct_30m": 14.29,
    "volume_pace": 10.33,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "KRI.V",
-   "name": "KOBO RESOURCES INC",
-   "as_of": "2026-11-20T16:00:00+00:00",
-   "last": 0.265,
-   "pct_day": 26.19,
-   "pct_30m": 15.22,
-   "volume_pace": 0.58,
    "rising": false,
    "rising_since": null
   },
@@ -476,7 +432,7 @@
    "last": 0.89,
    "pct_day": 23.61,
    "pct_30m": 12.66,
-   "volume_pace": 1.42,
+   "volume_pace": 1.99,
    "rising": false,
    "rising_since": null
   },
@@ -488,17 +444,6 @@
    "pct_day": 17.65,
    "pct_30m": 14.29,
    "volume_pace": 18.51,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "EML.V",
-   "name": "ELECTRIC METALS USA LIMITED",
-   "as_of": "2026-11-20T14:35:00+00:00",
-   "last": 0.11,
-   "pct_day": 15.79,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -520,73 +465,117 @@
    "last": 0.115,
    "pct_day": 15.0,
    "pct_30m": 0.0,
-   "volume_pace": 8.37,
+   "volume_pace": 8.6,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SAGE.V",
+   "name": "SAGE POTASH CORP",
+   "as_of": "2026-11-20T16:30:00+00:00",
+   "last": 0.08,
+   "pct_day": 14.29,
+   "pct_30m": 23.08,
+   "volume_pace": 0.36,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PPX.V",
+   "name": "PPX MINING CORP",
+   "as_of": "2026-11-20T14:35:00+00:00",
+   "last": 0.225,
+   "pct_day": 12.5,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "APGO.V",
    "name": "APOLLO SILVER CORP",
-   "as_of": "2026-11-20T15:55:00+00:00",
-   "last": 1.44,
-   "pct_day": 14.29,
-   "pct_30m": -1.37,
-   "volume_pace": 2.36,
+   "as_of": "2026-11-20T16:30:00+00:00",
+   "last": 1.41,
+   "pct_day": 11.9,
+   "pct_30m": -2.08,
+   "volume_pace": 1.83,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "SAG.V",
-   "name": "STERLING METALS CORP",
-   "as_of": "2026-11-20T15:40:00+00:00",
-   "last": 0.66,
-   "pct_day": 13.79,
-   "pct_30m": 13.79,
-   "volume_pace": 0.3,
+   "ticker": "KRI.V",
+   "name": "KOBO RESOURCES INC",
+   "as_of": "2026-11-20T16:20:00+00:00",
+   "last": 0.235,
+   "pct_day": 11.9,
+   "pct_30m": 2.17,
+   "volume_pace": 3.03,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "EDCU.TO",
+   "name": "EDGE COPPER CORPORATION",
+   "as_of": "2026-11-20T16:25:00+00:00",
+   "last": 0.32,
+   "pct_day": 18.52,
+   "pct_30m": 28.0,
+   "volume_pace": 6.47,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AEG.TO",
+   "name": "AEGIS BRANDS INC",
+   "as_of": "2026-11-20T16:20:00+00:00",
+   "last": 0.345,
+   "pct_day": 13.11,
+   "pct_30m": 13.11,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "NCF.TO",
    "name": "NORTHCLIFF RESOURCES LTD",
-   "as_of": "2026-11-20T14:40:00+00:00",
-   "last": 0.285,
-   "pct_day": 21.28,
-   "pct_30m": 18.75,
-   "volume_pace": 8.5,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SVA.TO",
-   "name": "SERNOVA BIOTHERAPEUTICS INC",
-   "as_of": "2026-11-20T15:35:00+00:00",
-   "last": 0.095,
-   "pct_day": 5.56,
-   "pct_30m": 5.56,
-   "volume_pace": 8.51,
+   "as_of": "2026-11-20T16:05:00+00:00",
+   "last": 0.255,
+   "pct_day": 8.51,
+   "pct_30m": -10.53,
+   "volume_pace": 2.82,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ELR.TO",
    "name": "EASTERN PLATINUM LIMITED",
-   "as_of": "2026-11-20T16:05:00+00:00",
-   "last": 0.195,
-   "pct_day": 5.41,
-   "pct_30m": 0.0,
-   "volume_pace": 3.08,
+   "as_of": "2026-11-20T16:35:00+00:00",
+   "last": 0.2,
+   "pct_day": 8.11,
+   "pct_30m": -2.44,
+   "volume_pace": 2.69,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "SYZ.TO",
-   "name": "SYLOGIST LTD",
-   "as_of": "2026-11-20T16:05:00+00:00",
-   "last": 2.62,
-   "pct_day": 5.22,
-   "pct_30m": 5.22,
-   "volume_pace": 1.47,
+   "ticker": "NEXT.TO",
+   "name": "NEXTSOURCE MATERIALS INC",
+   "as_of": "2026-11-20T16:30:00+00:00",
+   "last": 0.18,
+   "pct_day": 5.88,
+   "pct_30m": 2.86,
+   "volume_pace": 0.2,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CFF.TO",
+   "name": "CONIFEX TIMBER INC",
+   "as_of": "2026-11-20T15:55:00+00:00",
+   "last": 0.11,
+   "pct_day": 4.76,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -597,7 +586,7 @@
    "last": 0.115,
    "pct_day": 4.55,
    "pct_30m": 0.0,
-   "volume_pace": 2.23,
+   "volume_pace": 2.31,
    "rising": false,
    "rising_since": null
   },
@@ -615,46 +604,24 @@
   {
    "ticker": "BNKR.TO",
    "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-20T16:00:00+00:00",
+   "as_of": "2026-11-20T16:30:00+00:00",
    "last": 2.12,
    "pct_day": 3.92,
-   "pct_30m": 6.0,
-   "volume_pace": 3.91,
+   "pct_30m": 0.0,
+   "volume_pace": 3.48,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-11-20T16:30:00+00:00",
+   "last": 0.92,
+   "pct_day": 3.37,
+   "pct_30m": 2.22,
+   "volume_pace": 1.81,
    "rising": true,
-   "rising_since": "2026-11-20T16:00:00+00:00"
-  },
-  {
-   "ticker": "NEXT.TO",
-   "name": "NEXTSOURCE MATERIALS INC",
-   "as_of": "2026-11-20T15:50:00+00:00",
-   "last": 0.175,
-   "pct_day": 2.94,
-   "pct_30m": 2.94,
-   "volume_pace": 0.03,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "OCG.TO",
-   "name": "OUTCROP SILVER & GOLD CORPORATI",
-   "as_of": "2026-11-20T15:30:00+00:00",
-   "last": 0.195,
-   "pct_day": 2.63,
-   "pct_30m": -2.5,
-   "volume_pace": 1.76,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AKT.TO",
-   "name": "AKITA DRILLING LTD",
-   "as_of": "2026-11-20T15:55:00+00:00",
-   "last": 3.215,
-   "pct_day": 2.06,
-   "pct_30m": -1.08,
-   "volume_pace": 2.53,
-   "rising": false,
-   "rising_since": null
+   "rising_since": "2026-11-20T16:20:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1254,9 +1221,9 @@
    "ma200": 944.46,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-20T16:05:00+00:00",
-    "last": 700.92,
-    "pct_day": -2.12
+    "as_of": "2026-11-20T16:35:00+00:00",
+    "last": 697.04,
+    "pct_day": -2.66
    }
   },
   "^GSPTSE": {
@@ -1855,9 +1822,9 @@
    "ma200": 34781.79,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-20T16:05:00+00:00",
-    "last": 33714.24,
-    "pct_day": -0.92
+    "as_of": "2026-11-20T16:35:00+00:00",
+    "last": 33606.83,
+    "pct_day": -1.24
    }
   }
  },
