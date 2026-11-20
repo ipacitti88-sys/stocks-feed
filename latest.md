@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-20T14:01-07:00
+# Stock feed — 2026-11-20T14:06-07:00
 
 Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -4.1% at 21:00
-Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -2.5% at 21:00
+Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -4.0% at 21:00
+Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -2.4% at 21:00
 
 # TSX Venture
 
@@ -248,7 +248,7 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- FVL.TO (FREEGOLD LIMITED): +3.3% today at 0.63, last 30m +1.6%, volume pace 2.38x, rising since 2026-11-20T21:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -269,9 +269,9 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 - AEG.TO (AEGIS BRANDS INC): +13.1% at 0.345, volume pace 0.04x
 - NCF.TO (NORTHCLIFF RESOURCES LTD): +12.8% at 0.265, volume pace 1.15x
 - DND.TO (DYE AND DURHAM LIMITED): +12.2% at 1.1, volume pace 0.76x
-- SYZ.TO (SYLOGIST LTD): +8.0% at 2.69, volume pace 2.31x
+- SYZ.TO (SYLOGIST LTD): +8.0% at 2.69, volume pace 2.34x
+- CDR.TO (CONDOR ENERGIES INC): +7.3% at 3.25, volume pace 0.85x
 - TELY.TO (TELYRX HOLDINGS INC): +6.9% at 1.55, volume pace 2.85x
-- CDR.TO (CONDOR ENERGIES INC): +5.6% at 3.2, volume pace 0.83x
 - CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.19x
-- ESM.TO (EURO SUN MINING INC): +4.5% at 0.115, volume pace 0.99x
-- BSX.TO (BELO SUN MINING CORP): +3.6% at 0.58, volume pace 0.99x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +4.5% at 0.93, volume pace 1.27x
+- DBO.TO (DBOX TECHNOLOGIES INC): +3.6% at 0.86, volume pace 2.32x

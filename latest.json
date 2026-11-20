@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T14:01-07:00",
+ "generated": "2026-11-20T14:06-07:00",
  "last_close_day": "2026-11-19",
  "tracked": 717,
  "tracked_by_market": {
@@ -378,6 +378,17 @@
    "volume_pace": 12.89,
    "rising": true,
    "rising_since": "2026-11-20T20:50:00+00:00"
+  },
+  {
+   "ticker": "FVL.TO",
+   "name": "FREEGOLD LIMITED",
+   "as_of": "2026-11-20T21:00:00+00:00",
+   "last": 0.63,
+   "pct_day": 3.28,
+   "pct_30m": 1.61,
+   "volume_pace": 2.38,
+   "rising": true,
+   "rising_since": "2026-11-20T21:00:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -542,7 +553,18 @@
    "last": 2.69,
    "pct_day": 8.03,
    "pct_30m": 1.13,
-   "volume_pace": 2.31,
+   "volume_pace": 2.34,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CDR.TO",
+   "name": "CONDOR ENERGIES INC",
+   "as_of": "2026-11-20T21:00:00+00:00",
+   "last": 3.25,
+   "pct_day": 7.26,
+   "pct_30m": 2.52,
+   "volume_pace": 0.85,
    "rising": false,
    "rising_since": null
   },
@@ -558,17 +580,6 @@
    "rising_since": null
   },
   {
-   "ticker": "CDR.TO",
-   "name": "CONDOR ENERGIES INC",
-   "as_of": "2026-11-20T21:00:00+00:00",
-   "last": 3.2,
-   "pct_day": 5.61,
-   "pct_30m": 0.95,
-   "volume_pace": 0.83,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "CFF.TO",
    "name": "CONIFEX TIMBER INC",
    "as_of": "2026-11-20T20:15:00+00:00",
@@ -580,24 +591,24 @@
    "rising_since": null
   },
   {
-   "ticker": "ESM.TO",
-   "name": "EURO SUN MINING INC",
-   "as_of": "2026-11-20T20:40:00+00:00",
-   "last": 0.115,
-   "pct_day": 4.55,
-   "pct_30m": 2.22,
-   "volume_pace": 0.99,
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-11-20T21:00:00+00:00",
+   "last": 0.93,
+   "pct_day": 4.49,
+   "pct_30m": 3.33,
+   "volume_pace": 1.27,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "BSX.TO",
-   "name": "BELO SUN MINING CORP",
+   "ticker": "DBO.TO",
+   "name": "DBOX TECHNOLOGIES INC",
    "as_of": "2026-11-20T21:00:00+00:00",
-   "last": 0.58,
-   "pct_day": 3.57,
+   "last": 0.86,
+   "pct_day": 3.61,
    "pct_30m": 0.0,
-   "volume_pace": 0.99,
+   "volume_pace": 2.32,
    "rising": false,
    "rising_since": null
   }
@@ -1200,8 +1211,8 @@
    "above_ma200": false,
    "live": {
     "as_of": "2026-11-20T21:00:00+00:00",
-    "last": 686.42,
-    "pct_day": -4.14
+    "last": 687.6,
+    "pct_day": -3.98
    }
   },
   "^GSPTSE": {
@@ -1801,8 +1812,8 @@
    "above_ma200": false,
    "live": {
     "as_of": "2026-11-20T21:00:00+00:00",
-    "last": 33195.01,
-    "pct_day": -2.45
+    "last": 33208.76,
+    "pct_day": -2.41
    }
   }
  },
