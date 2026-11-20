@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-20T09:31-07:00
+# Stock feed — 2026-11-20T10:01-07:00
 
-Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T16:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T17:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -2.7% at 16:35
-Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -1.2% at 16:35
+Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -3.1% at 17:05
+Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live -1.2% at 17:05
 
 # TSX Venture
 
@@ -142,9 +142,9 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- OCO.V (OROCO RESOURCE CORP.): +3.7% today at 0.28, last 30m +3.7%, volume pace 2.33x, rising since 2026-11-20T16:30:00+00:00
-- AHR.V (Amarc Resources Ltd.): +3.4% today at 0.92, last 30m +1.1%, volume pace 2.32x, rising since 2026-11-20T15:45:00+00:00
+- BPAG.V (BP SILVER CORP): +4.0% today at 0.78, last 30m +2.6%, volume pace 1.88x, rising since 2026-11-20T16:55:00+00:00
 - WI.V (THE WESTERN INVESTMENT CO OF CD): +3.0% today at 1.35, last 30m +3.9%, volume pace 2.34x, rising since 2026-11-20T15:55:00+00:00
+- VALX.V (Valiente Resources Inc.): +3.0% today at 2.74, last 30m +1.5%, volume pace 1.64x, rising since 2026-11-20T17:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -161,16 +161,16 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
+- TTG.V (TRANS CANADA GOLD CORP): +33.3% at 0.12, volume pace 0.0x
 - ENW.V (ENWAVE CORP): +33.3% at 0.2, volume pace 10.33x
 - WCE.V (WESCAN ENERGY CORP): +25.0% at 0.125, volume pace 0.0x
 - NRC.V (NATIONS ROYALTY CORP): +23.6% at 0.89, volume pace 1.99x
 - TBK.V (TRAILBREAKER RESOURCES LTD): +17.6% at 0.2, volume pace 18.51x
-- NOAL.V (NOA LITHIUM BRINES INC): +15.2% at 0.19, volume pace 0.19x
+- KRI.V (KOBO RESOURCES INC): +16.7% at 0.245, volume pace 2.74x
+- NOAL.V (NOA LITHIUM BRINES INC): +15.2% at 0.19, volume pace 0.08x
 - PX.V (PELANGIO EXPLORATION INC.): +15.0% at 0.115, volume pace 8.6x
-- SAGE.V (SAGE POTASH CORP): +14.3% at 0.08, volume pace 0.36x
+- SMN.V (SUN SUMMIT MINERALS CORP): +14.3% at 0.08, volume pace 5.93x
 - PPX.V (PPX MINING CORP): +12.5% at 0.225, volume pace 0.0x
-- APGO.V (APOLLO SILVER CORP): +11.9% at 1.41, volume pace 1.83x
-- KRI.V (KOBO RESOURCES INC): +11.9% at 0.235, volume pace 3.03x
 
 # TSX
 
@@ -249,7 +249,7 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PCA.TO (PHOENIX METALS CORP CLASS A): +3.4% today at 0.92, last 30m +2.2%, volume pace 1.81x, rising since 2026-11-20T16:20:00+00:00
+- PCA.TO (PHOENIX METALS CORP CLASS A): +4.5% today at 0.93, last 30m +1.1%, volume pace 1.56x, rising since 2026-11-20T16:20:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -266,13 +266,13 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- EDCU.TO (EDGE COPPER CORPORATION): +18.5% at 0.32, volume pace 6.47x
-- AEG.TO (AEGIS BRANDS INC): +13.1% at 0.345, volume pace 0.0x
+- AEG.TO (AEGIS BRANDS INC): +13.1% at 0.345, volume pace 0.04x
 - NCF.TO (NORTHCLIFF RESOURCES LTD): +8.5% at 0.255, volume pace 2.82x
-- ELR.TO (EASTERN PLATINUM LIMITED): +8.1% at 0.2, volume pace 2.69x
-- NEXT.TO (NEXTSOURCE MATERIALS INC): +5.9% at 0.18, volume pace 0.2x
+- ELR.TO (EASTERN PLATINUM LIMITED): +8.1% at 0.2, volume pace 2.56x
+- EDCU.TO (EDGE COPPER CORPORATION): +7.4% at 0.29, volume pace 6.01x
 - CFF.TO (CONIFEX TIMBER INC): +4.8% at 0.11, volume pace 0.0x
-- ESM.TO (EURO SUN MINING INC): +4.5% at 0.115, volume pace 2.31x
+- PCA.TO (PHOENIX METALS CORP CLASS A): +4.5% at 0.93, volume pace 1.56x
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.1% at 0.255, volume pace 0.56x
-- BNKR.TO (BUNKER HILL MINING CORP): +3.9% at 2.12, volume pace 3.48x
-- PCA.TO (PHOENIX METALS CORP CLASS A): +3.4% at 0.92, volume pace 1.81x
+- AP-UN.TO (ALLIED PROPERTIES REAL ESTATE I): +3.8% at 4.15, volume pace 0.48x
+- DND.TO (DYE AND DURHAM LIMITED): +3.1% at 1.01, volume pace 0.36x
+- DBO.TO (DBOX TECHNOLOGIES INC): +2.4% at 0.85, volume pace 2.79x

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T09:31-07:00",
+ "generated": "2026-11-20T10:01-07:00",
  "last_close_day": "2026-11-19",
  "tracked": 717,
  "tracked_by_market": {
@@ -355,40 +355,29 @@
    "added": "2026-11-06"
   }
  ],
- "live_as_of": "2026-11-20T16:35:00+00:00",
+ "live_as_of": "2026-11-20T17:05:00+00:00",
  "rising": [
-  {
-   "ticker": "OCO.V",
-   "name": "OROCO RESOURCE CORP.",
-   "as_of": "2026-11-20T16:30:00+00:00",
-   "last": 0.28,
-   "pct_day": 3.7,
-   "pct_30m": 3.7,
-   "volume_pace": 2.33,
-   "rising": true,
-   "rising_since": "2026-11-20T16:30:00+00:00"
-  },
-  {
-   "ticker": "AHR.V",
-   "name": "Amarc Resources Ltd.",
-   "as_of": "2026-11-20T15:45:00+00:00",
-   "last": 0.92,
-   "pct_day": 3.37,
-   "pct_30m": 1.1,
-   "volume_pace": 2.32,
-   "rising": true,
-   "rising_since": "2026-11-20T15:45:00+00:00"
-  },
   {
    "ticker": "PCA.TO",
    "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-11-20T16:30:00+00:00",
-   "last": 0.92,
-   "pct_day": 3.37,
-   "pct_30m": 2.22,
-   "volume_pace": 1.81,
+   "as_of": "2026-11-20T16:55:00+00:00",
+   "last": 0.93,
+   "pct_day": 4.49,
+   "pct_30m": 1.09,
+   "volume_pace": 1.56,
    "rising": true,
    "rising_since": "2026-11-20T16:20:00+00:00"
+  },
+  {
+   "ticker": "BPAG.V",
+   "name": "BP SILVER CORP",
+   "as_of": "2026-11-20T16:55:00+00:00",
+   "last": 0.78,
+   "pct_day": 4.0,
+   "pct_30m": 2.63,
+   "volume_pace": 1.88,
+   "rising": true,
+   "rising_since": "2026-11-20T16:55:00+00:00"
   },
   {
    "ticker": "WI.V",
@@ -400,9 +389,31 @@
    "volume_pace": 2.34,
    "rising": true,
    "rising_since": "2026-11-20T15:55:00+00:00"
+  },
+  {
+   "ticker": "VALX.V",
+   "name": "Valiente Resources Inc.",
+   "as_of": "2026-11-20T17:00:00+00:00",
+   "last": 2.74,
+   "pct_day": 3.01,
+   "pct_30m": 1.48,
+   "volume_pace": 1.64,
+   "rising": true,
+   "rising_since": "2026-11-20T17:00:00+00:00"
   }
  ],
  "top_gainers_today": [
+  {
+   "ticker": "TTG.V",
+   "name": "TRANS CANADA GOLD CORP",
+   "as_of": "2026-11-20T16:25:00+00:00",
+   "last": 0.12,
+   "pct_day": 33.33,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
   {
    "ticker": "ENW.V",
    "name": "ENWAVE CORP",
@@ -448,13 +459,24 @@
    "rising_since": null
   },
   {
+   "ticker": "KRI.V",
+   "name": "KOBO RESOURCES INC",
+   "as_of": "2026-11-20T17:00:00+00:00",
+   "last": 0.245,
+   "pct_day": 16.67,
+   "pct_30m": 4.26,
+   "volume_pace": 2.74,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "NOAL.V",
    "name": "NOA LITHIUM BRINES INC",
-   "as_of": "2026-11-20T15:35:00+00:00",
+   "as_of": "2026-11-20T17:00:00+00:00",
    "last": 0.19,
    "pct_day": 15.15,
-   "pct_30m": -7.32,
-   "volume_pace": 0.19,
+   "pct_30m": 0.0,
+   "volume_pace": 0.08,
    "rising": false,
    "rising_since": null
   },
@@ -470,13 +492,13 @@
    "rising_since": null
   },
   {
-   "ticker": "SAGE.V",
-   "name": "SAGE POTASH CORP",
-   "as_of": "2026-11-20T16:30:00+00:00",
+   "ticker": "SMN.V",
+   "name": "SUN SUMMIT MINERALS CORP",
+   "as_of": "2026-11-20T16:55:00+00:00",
    "last": 0.08,
    "pct_day": 14.29,
-   "pct_30m": 23.08,
-   "volume_pace": 0.36,
+   "pct_30m": 6.67,
+   "volume_pace": 5.93,
    "rising": false,
    "rising_since": null
   },
@@ -492,46 +514,13 @@
    "rising_since": null
   },
   {
-   "ticker": "APGO.V",
-   "name": "APOLLO SILVER CORP",
-   "as_of": "2026-11-20T16:30:00+00:00",
-   "last": 1.41,
-   "pct_day": 11.9,
-   "pct_30m": -2.08,
-   "volume_pace": 1.83,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "KRI.V",
-   "name": "KOBO RESOURCES INC",
-   "as_of": "2026-11-20T16:20:00+00:00",
-   "last": 0.235,
-   "pct_day": 11.9,
-   "pct_30m": 2.17,
-   "volume_pace": 3.03,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "EDCU.TO",
-   "name": "EDGE COPPER CORPORATION",
-   "as_of": "2026-11-20T16:25:00+00:00",
-   "last": 0.32,
-   "pct_day": 18.52,
-   "pct_30m": 28.0,
-   "volume_pace": 6.47,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "AEG.TO",
    "name": "AEGIS BRANDS INC",
    "as_of": "2026-11-20T16:20:00+00:00",
    "last": 0.345,
    "pct_day": 13.11,
    "pct_30m": 13.11,
-   "volume_pace": 0.0,
+   "volume_pace": 0.04,
    "rising": false,
    "rising_since": null
   },
@@ -549,22 +538,22 @@
   {
    "ticker": "ELR.TO",
    "name": "EASTERN PLATINUM LIMITED",
-   "as_of": "2026-11-20T16:35:00+00:00",
+   "as_of": "2026-11-20T17:00:00+00:00",
    "last": 0.2,
    "pct_day": 8.11,
-   "pct_30m": -2.44,
-   "volume_pace": 2.69,
+   "pct_30m": 0.0,
+   "volume_pace": 2.56,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "NEXT.TO",
-   "name": "NEXTSOURCE MATERIALS INC",
-   "as_of": "2026-11-20T16:30:00+00:00",
-   "last": 0.18,
-   "pct_day": 5.88,
-   "pct_30m": 2.86,
-   "volume_pace": 0.2,
+   "ticker": "EDCU.TO",
+   "name": "EDGE COPPER CORPORATION",
+   "as_of": "2026-11-20T16:45:00+00:00",
+   "last": 0.29,
+   "pct_day": 7.41,
+   "pct_30m": 3.57,
+   "volume_pace": 6.01,
    "rising": false,
    "rising_since": null
   },
@@ -580,15 +569,15 @@
    "rising_since": null
   },
   {
-   "ticker": "ESM.TO",
-   "name": "EURO SUN MINING INC",
-   "as_of": "2026-11-20T15:55:00+00:00",
-   "last": 0.115,
-   "pct_day": 4.55,
-   "pct_30m": 0.0,
-   "volume_pace": 2.31,
-   "rising": false,
-   "rising_since": null
+   "ticker": "PCA.TO",
+   "name": "PHOENIX METALS CORP CLASS A",
+   "as_of": "2026-11-20T16:55:00+00:00",
+   "last": 0.93,
+   "pct_day": 4.49,
+   "pct_30m": 1.09,
+   "volume_pace": 1.56,
+   "rising": true,
+   "rising_since": "2026-11-20T16:20:00+00:00"
   },
   {
    "ticker": "CWEB.TO",
@@ -602,26 +591,37 @@
    "rising_since": null
   },
   {
-   "ticker": "BNKR.TO",
-   "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-20T16:30:00+00:00",
-   "last": 2.12,
-   "pct_day": 3.92,
-   "pct_30m": 0.0,
-   "volume_pace": 3.48,
+   "ticker": "AP-UN.TO",
+   "name": "ALLIED PROPERTIES REAL ESTATE I",
+   "as_of": "2026-11-20T17:05:00+00:00",
+   "last": 4.15,
+   "pct_day": 3.75,
+   "pct_30m": 2.47,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "PCA.TO",
-   "name": "PHOENIX METALS CORP CLASS A",
-   "as_of": "2026-11-20T16:30:00+00:00",
-   "last": 0.92,
-   "pct_day": 3.37,
-   "pct_30m": 2.22,
-   "volume_pace": 1.81,
-   "rising": true,
-   "rising_since": "2026-11-20T16:20:00+00:00"
+   "ticker": "DND.TO",
+   "name": "DYE AND DURHAM LIMITED",
+   "as_of": "2026-11-20T17:00:00+00:00",
+   "last": 1.01,
+   "pct_day": 3.06,
+   "pct_30m": 0.5,
+   "volume_pace": 0.36,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "DBO.TO",
+   "name": "DBOX TECHNOLOGIES INC",
+   "as_of": "2026-11-20T17:00:00+00:00",
+   "last": 0.85,
+   "pct_day": 2.41,
+   "pct_30m": 0.59,
+   "volume_pace": 2.79,
+   "rising": false,
+   "rising_since": null
   }
  ],
  "benchmarks": {
@@ -1221,9 +1221,9 @@
    "ma200": 944.46,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-20T16:35:00+00:00",
-    "last": 697.04,
-    "pct_day": -2.66
+    "as_of": "2026-11-20T17:05:00+00:00",
+    "last": 694.21,
+    "pct_day": -3.06
    }
   },
   "^GSPTSE": {
@@ -1822,9 +1822,9 @@
    "ma200": 34781.79,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-20T16:35:00+00:00",
-    "last": 33606.83,
-    "pct_day": -1.24
+    "as_of": "2026-11-20T17:05:00+00:00",
+    "last": 33613.2,
+    "pct_day": -1.22
    }
   }
  },
