@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-19T15:26-07:00
+# Stock feed — 2026-11-20T08:01-07:00
 
-Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-19T21:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 717 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-19. Intraday data as of: 2026-11-20T15:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend)
-Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend)
+Market: S&P/TSX Venture Composite 716.09 on 2026-11-19 (day -3.7%, month -15.6%, year -17.5%, downtrend); live -0.4% at 15:05
+Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year +13.3%, downtrend); live +0.1% at 15:05
 
 # TSX Venture
 
@@ -142,10 +142,15 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.7% today at 0.21, last 30m +5.0%, volume pace 4.64x, rising since 2026-11-19T20:35:00+00:00
-- CBR.V (CABRAL GOLD INC): +10.7% today at 1.24, last 30m +0.8%, volume pace 6.32x, rising since 2026-11-19T21:00:00+00:00
-- EMO.V (EMERITA RESOURCES CORP): +8.7% today at 0.125, last 30m +4.2%, volume pace 5.11x, rising since 2026-11-19T19:25:00+00:00
-- SERV.V (ELEVATE SERVICE GROUP INC): +6.8% today at 2.35, last 30m +2.2%, volume pace 2.45x, rising since 2026-11-19T20:10:00+00:00
+- APGO.V (APOLLO SILVER CORP): +15.9% today at 1.46, last 30m +15.9%, volume pace 3.46x, rising since 2026-11-20T14:55:00+00:00
+- MGG.V (MINAURUM SILVER INC): +5.6% today at 0.19, last 30m +5.6%, volume pace 2.36x, rising since 2026-11-20T14:45:00+00:00
+- PML.V (PANORO MINERALS LTD): +5.5% today at 0.96, last 30m +6.7%, volume pace 2.36x, rising since 2026-11-20T15:05:00+00:00
+- GRSL.V (GR SILVER MINING LTD): +5.3% today at 0.2, last 30m +8.1%, volume pace 3.28x, rising since 2026-11-20T14:55:00+00:00
+- TNGD.V (TIERNAN GOLD CORP): +5.2% today at 4.21, last 30m +4.0%, volume pace 1.77x, rising since 2026-11-20T15:00:00+00:00
+- CERT.V (CERRADO GOLD INC): +4.5% today at 1.85, last 30m +7.6%, volume pace 2.83x, rising since 2026-11-20T14:45:00+00:00
+- CVV.V (CANALASKA URANIUM LTD): +3.8% today at 0.2075, last 30m +1.2%, volume pace 5.91x, rising since 2026-11-20T14:50:00+00:00
+- SURG.V (SURGE COPPER CORP): +3.6% today at 0.29, last 30m +5.5%, volume pace 2.64x, rising since 2026-11-20T15:05:00+00:00
+- GGO.V (GALLEON GOLD CORP): +3.5% today at 0.9, last 30m +3.5%, volume pace 1.85x, rising since 2026-11-20T14:45:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -162,16 +167,16 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- RSMX.V (REGENCY SILVER CORP): +28.6% at 0.09, volume pace 7.28x
-- ADE.V (ADEX MINING INC.): +20.7% at 0.175, volume pace 4.92x
-- IMR.V (IMETAL RESOURCES INC): +20.0% at 0.12, volume pace 0.62x
-- DMCU.V (DOMESTIC METALS CORP): +20.0% at 0.09, volume pace 0.0x
-- PGDC.V (PATAGONIA GOLD CORP): +19.4% at 0.215, volume pace 5.02x
-- SME.V (SAMA RESOURCES INC RESSOURCES S): +16.7% at 0.21, volume pace 4.64x
-- RYR.V (ROYAL ROAD MINERALS LIMITED): +13.8% at 0.165, volume pace 2.9x
-- TWR.V (TOWER RESOURCES LTD): +13.6% at 0.125, volume pace 9.98x
-- ERDA.V (ERDA RESOURCE OPPORTUNITIES INC): +13.3% at 0.085, volume pace 0.59x
-- ZAU.V (ZODIAC GOLD INC): +11.5% at 0.29, volume pace 16.42x
+- WCE.V (WESCAN ENERGY CORP): +25.0% at 0.125, volume pace 0.0x
+- TBK.V (TRAILBREAKER RESOURCES LTD): +17.6% at 0.2, volume pace 4.5x
+- APGO.V (APOLLO SILVER CORP): +15.9% at 1.46, volume pace 3.46x
+- EML.V (ELECTRIC METALS USA LIMITED): +15.8% at 0.11, volume pace 0.0x
+- PX.V (PELANGIO EXPLORATION INC.): +15.0% at 0.115, volume pace 9.77x
+- ROOF.V (NORTHSTAR CLEAN TECHNOLOGIES IN): +13.6% at 0.125, volume pace 0.0x
+- PPX.V (PPX MINING CORP): +12.5% at 0.225, volume pace 0.0x
+- PGDC.V (PATAGONIA GOLD CORP): +11.6% at 0.24, volume pace 0.0x
+- RCK.V (ROCK TECH LITHIUM INC): +10.6% at 0.52, volume pace 0.0x
+- NACM.V (North Atlantic Critical Metals Corp.): +9.7% at 0.34, volume pace 0.0x
 
 # TSX
 
@@ -250,7 +255,10 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +5.3% today at 0.2, last 30m +11.1%, volume pace 1.73x, rising since 2026-11-20T15:00:00+00:00
+- FF.TO (FIRST MINING GOLD CORP): +3.6% today at 0.57, last 30m +3.6%, volume pace 3.59x, rising since 2026-11-20T14:50:00+00:00
+- BSX.TO (BELO SUN MINING CORP): +3.6% today at 0.58, last 30m +3.6%, volume pace 1.88x, rising since 2026-11-20T14:45:00+00:00
+- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +3.5% today at 2.34, last 30m +7.3%, volume pace 2.81x, rising since 2026-11-20T15:00:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -267,13 +275,13 @@ Market: S&P/TSX Composite 34,028.73 on 2026-11-19 (day -1.6%, month -6.3%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +22.2% at 0.22, volume pace 9.17x
-- DND.TO (DYE AND DURHAM LIMITED): +12.8% at 0.97, volume pace 1.3x
-- PYR.TO (PYROGENESIS INC): +5.7% at 0.185, volume pace 3.23x
-- AMC.TO (ARIZONA METALS CORP): +4.0% at 0.13, volume pace 0.56x
-- TXP.TO (TOUCHSTONE EXPLORATION INC): +3.3% at 0.155, volume pace 0.16x
-- ELR.TO (EASTERN PLATINUM LIMITED): +2.6% at 0.195, volume pace 2.08x
-- RBY.TO (RUBELLITE ENERGY CORP): +2.6% at 3.16, volume pace 0.69x
-- ORIO.TO (ORION DIGITAL CORP): +2.6% at 1.59, volume pace 1.86x
-- CADY.TO (CADILLAC MINES CORPORATION): +2.5% at 3.77, volume pace 3.65x
-- CEMX.TO (CEMATRIX): +2.3% at 0.45, volume pace 1.33x
+- NCF.TO (NORTHCLIFF RESOURCES LTD): +21.3% at 0.285, volume pace 4.23x
+- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): +7.8% at 2.48, volume pace 0.0x
+- FT.TO (FORTUNE MNRL J): +7.1% at 0.075, volume pace 0.0x
+- ELR.TO (EASTERN PLATINUM LIMITED): +5.4% at 0.195, volume pace 4.38x
+- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +5.3% at 0.2, volume pace 1.73x
+- ANRG.TO (ANAERGIA INC): +4.9% at 1.7, volume pace 1.06x
+- ESM.TO (EURO SUN MINING INC): +4.5% at 0.115, volume pace 0.0x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +4.3% at 0.24, volume pace 1.8x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +4.1% at 0.255, volume pace 0.43x
+- SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +3.9% at 0.135, volume pace 0.52x
