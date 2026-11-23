@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T12:01-07:00",
+ "generated": "2026-11-23T12:31-07:00",
  "last_close_day": "2026-11-20",
  "tracked": 723,
  "tracked_by_market": {
@@ -355,84 +355,95 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-23T19:05:00+00:00",
+ "live_as_of": "2026-11-23T19:35:00+00:00",
  "rising": [
-  {
-   "ticker": "SOMA.V",
-   "name": "SOMA GOLD CORP",
-   "as_of": "2026-11-23T19:00:00+00:00",
-   "last": 0.44,
-   "pct_day": 25.71,
-   "pct_30m": 2.33,
-   "volume_pace": 17.97,
-   "rising": true,
-   "rising_since": "2026-11-23T19:00:00+00:00"
-  },
   {
    "ticker": "CLCH.TO",
    "name": "CLINCH RESOURCES LTD",
-   "as_of": "2026-11-23T18:55:00+00:00",
-   "last": 0.82,
-   "pct_day": 24.24,
-   "pct_30m": 2.5,
-   "volume_pace": 3.23,
+   "as_of": "2026-11-23T19:20:00+00:00",
+   "last": 0.84,
+   "pct_day": 27.27,
+   "pct_30m": 2.44,
+   "volume_pace": 2.96,
    "rising": true,
    "rising_since": "2026-11-23T18:50:00+00:00"
   },
   {
-   "ticker": "XLY.TO",
-   "name": "AUXLY CANNABIS GROUP INC",
-   "as_of": "2026-11-23T19:05:00+00:00",
-   "last": 3.94,
-   "pct_day": 13.54,
-   "pct_30m": 0.25,
-   "volume_pace": 12.46,
+   "ticker": "SIG.V",
+   "name": "SITKA GOLD CORP",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 0.83,
+   "pct_day": 22.06,
+   "pct_30m": 1.22,
+   "volume_pace": 2.89,
    "rising": true,
-   "rising_since": "2026-11-23T18:15:00+00:00"
+   "rising_since": "2026-11-23T19:15:00+00:00"
   },
   {
-   "ticker": "SCOT.V",
-   "name": "SCOTTIE RESOURCES CORP",
-   "as_of": "2026-11-23T19:00:00+00:00",
+   "ticker": "DMGI.V",
+   "name": "DMG BLOCKCHAIN SOLUTIONS INC",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 0.315,
+   "pct_day": 16.67,
+   "pct_30m": 1.61,
+   "volume_pace": 2.3,
+   "rising": true,
+   "rising_since": "2026-11-23T19:25:00+00:00"
+  },
+  {
+   "ticker": "TI.TO",
+   "name": "TITAN MINING CORPORATION",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 1.965,
+   "pct_day": 12.29,
+   "pct_30m": 0.77,
+   "volume_pace": 3.34,
+   "rising": true,
+   "rising_since": "2026-11-23T19:30:00+00:00"
+  },
+  {
+   "ticker": "CRDL.TO",
+   "name": "CARDIOL THERAPEUTICS INC",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 1.365,
+   "pct_day": 11.89,
+   "pct_30m": 1.87,
+   "volume_pace": 1.63,
+   "rising": true,
+   "rising_since": "2026-11-23T19:10:00+00:00"
+  },
+  {
+   "ticker": "HSTR.TO",
+   "name": "HELIOSTAR METALS LTD",
+   "as_of": "2026-11-23T19:35:00+00:00",
    "last": 1.98,
-   "pct_day": 13.14,
-   "pct_30m": 1.02,
-   "volume_pace": 5.46,
+   "pct_day": 10.0,
+   "pct_30m": 0.51,
+   "volume_pace": 1.82,
    "rising": true,
-   "rising_since": "2026-11-23T19:00:00+00:00"
+   "rising_since": "2026-11-23T19:35:00+00:00"
   },
   {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-23T19:00:00+00:00",
-   "last": 0.475,
-   "pct_day": 10.47,
-   "pct_30m": 2.15,
-   "volume_pace": 1.81,
+   "ticker": "GLAD.V",
+   "name": "GLADIATOR METALS CORP",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 1.12,
+   "pct_day": 9.8,
+   "pct_30m": 0.9,
+   "volume_pace": 1.85,
    "rising": true,
-   "rising_since": "2026-11-23T17:40:00+00:00"
+   "rising_since": "2026-11-23T19:25:00+00:00"
   },
   {
-   "ticker": "TIG.V",
-   "name": "TRIUMPH GOLD CORP",
-   "as_of": "2026-11-23T19:00:00+00:00",
-   "last": 0.81,
-   "pct_day": 9.46,
-   "pct_30m": 3.85,
-   "volume_pace": 2.27,
+   "ticker": "AEC.V",
+   "name": "ANFIELD ENERGY INC",
+   "as_of": "2026-11-23T19:20:00+00:00",
+   "last": 3.31,
+   "pct_day": 7.12,
+   "pct_30m": 0.3,
+   "volume_pace": 6.88,
    "rising": true,
-   "rising_since": "2026-11-23T18:35:00+00:00"
-  },
-  {
-   "ticker": "SYH.V",
-   "name": "SKYHARBOUR RESOURCES LTD.",
-   "as_of": "2026-11-23T17:50:00+00:00",
-   "last": 0.27,
-   "pct_day": 5.88,
-   "pct_30m": 1.89,
-   "volume_pace": 1.87,
-   "rising": true,
-   "rising_since": "2026-11-23T17:45:00+00:00"
+   "rising_since": "2026-11-23T19:20:00+00:00"
   },
   {
    "ticker": "REG.V",
@@ -441,20 +452,42 @@
    "last": 4.12,
    "pct_day": 5.64,
    "pct_30m": 0.73,
-   "volume_pace": 5.93,
+   "volume_pace": 5.95,
    "rising": true,
    "rising_since": "2026-11-23T18:30:00+00:00"
   },
   {
-   "ticker": "MAI.TO",
-   "name": "MINING AMERICAS INC",
-   "as_of": "2026-11-23T19:05:00+00:00",
-   "last": 2.885,
-   "pct_day": 3.78,
-   "pct_30m": 0.17,
-   "volume_pace": 1.67,
+   "ticker": "PWM.V",
+   "name": "POWER METALS CORP",
+   "as_of": "2026-11-23T19:20:00+00:00",
+   "last": 0.395,
+   "pct_day": 5.33,
+   "pct_30m": 2.6,
+   "volume_pace": 1.93,
    "rising": true,
-   "rising_since": "2026-11-23T19:05:00+00:00"
+   "rising_since": "2026-11-23T19:20:00+00:00"
+  },
+  {
+   "ticker": "CAD.V",
+   "name": "COLONIAL COAL INTERNATIONAL COR",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 2.22,
+   "pct_day": 4.72,
+   "pct_30m": 0.45,
+   "volume_pace": 2.35,
+   "rising": true,
+   "rising_since": "2026-11-23T19:20:00+00:00"
+  },
+  {
+   "ticker": "SURG.V",
+   "name": "SURGE COPPER CORP",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 0.28,
+   "pct_day": 3.7,
+   "pct_30m": 1.82,
+   "volume_pace": 1.54,
+   "rising": true,
+   "rising_since": "2026-11-23T19:30:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -525,15 +558,15 @@
    "rising_since": null
   },
   {
-   "ticker": "SOMA.V",
-   "name": "SOMA GOLD CORP",
-   "as_of": "2026-11-23T19:00:00+00:00",
-   "last": 0.44,
-   "pct_day": 25.71,
-   "pct_30m": 2.33,
-   "volume_pace": 17.97,
-   "rising": true,
-   "rising_since": "2026-11-23T19:00:00+00:00"
+   "ticker": "ZIGY.V",
+   "name": "STARDUST METAL CORP",
+   "as_of": "2026-11-23T19:10:00+00:00",
+   "last": 1.15,
+   "pct_day": 27.78,
+   "pct_30m": 9.52,
+   "volume_pace": 0.39,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "COCO.V",
@@ -558,24 +591,24 @@
    "rising_since": null
   },
   {
-   "ticker": "GSR.V",
-   "name": "GOLD STRIKE RESOURCES CORP",
-   "as_of": "2026-11-23T18:10:00+00:00",
-   "last": 0.21,
-   "pct_day": 23.53,
-   "pct_30m": 2.44,
-   "volume_pace": 7.6,
+   "ticker": "SOMA.V",
+   "name": "SOMA GOLD CORP",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 0.435,
+   "pct_day": 24.29,
+   "pct_30m": -1.14,
+   "volume_pace": 16.4,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CLCH.TO",
    "name": "CLINCH RESOURCES LTD",
-   "as_of": "2026-11-23T18:55:00+00:00",
-   "last": 0.82,
-   "pct_day": 24.24,
-   "pct_30m": 2.5,
-   "volume_pace": 3.23,
+   "as_of": "2026-11-23T19:20:00+00:00",
+   "last": 0.84,
+   "pct_day": 27.27,
+   "pct_30m": 2.44,
+   "volume_pace": 2.96,
    "rising": true,
    "rising_since": "2026-11-23T18:50:00+00:00"
   },
@@ -593,33 +626,33 @@
   {
    "ticker": "KEEL.TO",
    "name": "KEEL INFRASTRUCTURE CORP",
-   "as_of": "2026-11-23T19:05:00+00:00",
-   "last": 2.32,
-   "pct_day": 16.58,
-   "pct_30m": -1.07,
-   "volume_pace": 1.09,
+   "as_of": "2026-11-23T19:35:00+00:00",
+   "last": 2.34,
+   "pct_day": 17.59,
+   "pct_30m": -0.43,
+   "volume_pace": 1.01,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "XNDU.TO",
    "name": "XANADU QUANTUM TECHNOLOGIES LIM",
-   "as_of": "2026-11-23T19:00:00+00:00",
+   "as_of": "2026-11-23T19:30:00+00:00",
    "last": 2.86,
    "pct_day": 16.26,
-   "pct_30m": -0.69,
-   "volume_pace": 1.53,
+   "pct_30m": 0.0,
+   "volume_pace": 1.41,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "HIVE.TO",
    "name": "HIVE DIGITAL TECHNOLOGIES LTD",
-   "as_of": "2026-11-23T19:00:00+00:00",
+   "as_of": "2026-11-23T19:30:00+00:00",
    "last": 1.895,
    "pct_day": 15.55,
-   "pct_30m": -0.79,
-   "volume_pace": 0.93,
+   "pct_30m": 0.0,
+   "volume_pace": 0.86,
    "rising": false,
    "rising_since": null
   },
@@ -635,48 +668,48 @@
    "rising_since": null
   },
   {
-   "ticker": "XLY.TO",
-   "name": "AUXLY CANNABIS GROUP INC",
-   "as_of": "2026-11-23T19:05:00+00:00",
-   "last": 3.94,
-   "pct_day": 13.54,
-   "pct_30m": 0.25,
-   "volume_pace": 12.46,
-   "rising": true,
-   "rising_since": "2026-11-23T18:15:00+00:00"
-  },
-  {
    "ticker": "ORV.TO",
    "name": "ORVANA MINERALS J",
-   "as_of": "2026-11-23T18:55:00+00:00",
-   "last": 1.28,
-   "pct_day": 12.28,
-   "pct_30m": 0.0,
-   "volume_pace": 0.82,
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 1.3,
+   "pct_day": 14.04,
+   "pct_30m": 1.56,
+   "volume_pace": 0.88,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "MGA.TO",
-   "name": "MEGA URANIUM LTD.",
-   "as_of": "2026-11-23T19:00:00+00:00",
-   "last": 0.3925,
-   "pct_day": 12.14,
-   "pct_30m": 0.64,
-   "volume_pace": 0.8,
+   "ticker": "XLY.TO",
+   "name": "AUXLY CANNABIS GROUP INC",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 3.94,
+   "pct_day": 13.54,
+   "pct_30m": 0.0,
+   "volume_pace": 11.66,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LAM.TO",
+   "name": "LARAMIDE RESOURCES LTD.",
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 0.38,
+   "pct_day": 13.43,
+   "pct_30m": 2.7,
+   "volume_pace": 0.75,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TI.TO",
    "name": "TITAN MINING CORPORATION",
-   "as_of": "2026-11-23T19:00:00+00:00",
-   "last": 1.95,
-   "pct_day": 11.43,
-   "pct_30m": -1.02,
-   "volume_pace": 3.7,
-   "rising": false,
-   "rising_since": null
+   "as_of": "2026-11-23T19:30:00+00:00",
+   "last": 1.965,
+   "pct_day": 12.29,
+   "pct_30m": 0.77,
+   "volume_pace": 3.34,
+   "rising": true,
+   "rising_since": "2026-11-23T19:30:00+00:00"
   }
  ],
  "benchmarks": {
@@ -1276,9 +1309,9 @@
    "ma200": 942.7,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-23T19:05:00+00:00",
-    "last": 713.21,
-    "pct_day": 3.8
+    "as_of": "2026-11-23T19:35:00+00:00",
+    "last": 714.63,
+    "pct_day": 4.01
    }
   },
   "^GSPTSE": {
@@ -1877,9 +1910,9 @@
    "ma200": 34784.88,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-23T19:05:00+00:00",
-    "last": 34154.21,
-    "pct_day": 2.91
+    "as_of": "2026-11-23T19:35:00+00:00",
+    "last": 34200.66,
+    "pct_day": 3.05
    }
   }
  },
