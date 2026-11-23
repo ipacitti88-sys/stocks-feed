@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-23T10:31-07:00
+# Stock feed — 2026-11-23T11:01-07:00
 
-Tracking 723 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-20. Intraday data as of: 2026-11-23T17:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 723 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-20. Intraday data as of: 2026-11-23T18:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 687.07 on 2026-11-20 (day -4.0%, month -16.4%, year -21.3%, downtrend); live +4.1% at 17:35
-Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year +9.6%, downtrend); live +3.0% at 17:35
+Market: S&P/TSX Venture Composite 687.07 on 2026-11-20 (day -4.0%, month -16.4%, year -21.3%, downtrend); live +4.1% at 18:05
+Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year +9.6%, downtrend); live +3.0% at 18:05
 
 # TSX Venture
 
@@ -171,16 +171,25 @@ Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- BUFF.V (BUFFALO POTASH CORPORATION): +22.9% today at 0.75, last 30m +1.4%, volume pace 2.32x, rising since 2026-11-23T17:25:00+00:00
-- LIXX.V (SURGE BATTERY METALS INC): +17.1% today at 0.41, last 30m +2.5%, volume pace 1.56x, rising since 2026-11-23T17:15:00+00:00
-- CGNT.V (COPPER GIANT RESOURCES CORP): +15.2% today at 0.645, last 30m +0.8%, volume pace 1.73x, rising since 2026-11-23T17:15:00+00:00
-- MLP.V (MILLENNIAL POTASH CORP): +13.5% today at 1.93, last 30m +0.5%, volume pace 2.93x, rising since 2026-11-23T17:00:00+00:00
-- MMET.V (MIATA METALS CORP): +12.7% today at 0.62, last 30m +5.1%, volume pace 2.45x, rising since 2026-11-23T15:55:00+00:00
-- PNG.V (KRAKEN ROBOTICS INC): +11.8% today at 3.12, last 30m +0.7%, volume pace 3.61x, rising since 2026-11-23T17:25:00+00:00
-- GOT.V (GOLIATH RESOURCES LIMITED): +9.3% today at 1.06, last 30m +1.9%, volume pace 1.88x, rising since 2026-11-23T17:15:00+00:00
-- TECT.V (TECTONIC METALS INC): +7.8% today at 1.25, last 30m +0.8%, volume pace 2.89x, rising since 2026-11-23T17:15:00+00:00
-- TTS.V (TINTINA MINES LTD): +6.6% today at 1.3, last 30m +1.6%, volume pace 3.22x, rising since 2026-11-23T16:35:00+00:00
-- TIG.V (TRIUMPH GOLD CORP): +5.4% today at 0.78, last 30m +1.3%, volume pace 2.54x, rising since 2026-11-23T17:05:00+00:00
+- BUFF.V (BUFFALO POTASH CORPORATION): +22.9% today at 0.75, last 30m +1.4%, volume pace 2.33x, rising since 2026-11-23T17:25:00+00:00
+- SOMA.V (SOMA GOLD CORP): +22.9% today at 0.43, last 30m +2.4%, volume pace 15.55x, rising since 2026-11-23T17:50:00+00:00
+- CKG.V (CHESAPEAKE GOLD CORP.): +20.1% today at 1.97, last 30m +2.1%, volume pace 2.71x, rising since 2026-11-23T18:00:00+00:00
+- DMGI.V (DMG BLOCKCHAIN SOLUTIONS INC): +18.5% today at 0.32, last 30m +3.2%, volume pace 3.15x, rising since 2026-11-23T17:55:00+00:00
+- CGNT.V (COPPER GIANT RESOURCES CORP): +16.1% today at 0.65, last 30m +0.8%, volume pace 1.69x, rising since 2026-11-23T17:15:00+00:00
+- B.V (BCM RESOURCES CORPORATION): +15.6% today at 0.52, last 30m +2.0%, volume pace 1.91x, rising since 2026-11-23T17:35:00+00:00
+- PML.V (PANORO MINERALS LTD): +15.0% today at 0.92, last 30m +1.1%, volume pace 2.4x, rising since 2026-11-23T18:05:00+00:00
+- SCOT.V (SCOTTIE RESOURCES CORP): +13.1% today at 1.98, last 30m +0.5%, volume pace 2.39x, rising since 2026-11-23T18:00:00+00:00
+- QNC.V (QUANTUM EMOTION CORP): +11.9% today at 1.13, last 30m +0.9%, volume pace 1.98x, rising since 2026-11-23T18:00:00+00:00
+- AMX.V (AMEX GOLD MINING INC): +11.1% today at 2.9, last 30m +0.7%, volume pace 1.55x, rising since 2026-11-23T17:50:00+00:00
+- GLAD.V (GLADIATOR METALS CORP): +10.8% today at 1.13, last 30m +1.8%, volume pace 2.8x, rising since 2026-11-23T17:35:00+00:00
+- TTS.V (TINTINA MINES LTD): +10.7% today at 1.35, last 30m +3.9%, volume pace 2.2x, rising since 2026-11-23T16:35:00+00:00
+- AUMB.V (1911 GOLD CORPORATION): +7.7% today at 0.4525, last 30m +0.6%, volume pace 2.23x, rising since 2026-11-23T18:00:00+00:00
+- OCO.V (OROCO RESOURCE CORP.): +7.5% today at 0.285, last 30m +3.6%, volume pace 2.53x, rising since 2026-11-23T17:40:00+00:00
+- TDG.V (TDG GOLD CORP): +6.6% today at 0.65, last 30m +0.8%, volume pace 2.06x, rising since 2026-11-23T17:40:00+00:00
+- SYH.V (SKYHARBOUR RESOURCES LTD.): +5.9% today at 0.27, last 30m +1.9%, volume pace 1.85x, rising since 2026-11-23T17:45:00+00:00
+- ZDC.V (ZEDCOR INC): +3.9% today at 4.32, last 30m +0.5%, volume pace 9.04x, rising since 2026-11-23T18:05:00+00:00
+- TIGR.V (TIGER GOLD CORP): +3.3% today at 0.475, last 30m +1.1%, volume pace 1.71x, rising since 2026-11-23T17:40:00+00:00
+- SKP.V (STRIKEPOINT GOLD INC): +3.2% today at 1.3, last 30m +1.6%, volume pace 2.28x, rising since 2026-11-23T17:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -201,12 +210,12 @@ Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year 
 - AUGC.V (AU GOLD CORP): +35.0% at 0.27, volume pace 0.12x
 - UGD.V (UNIGOLD INC.): +34.8% at 0.155, volume pace 1.99x
 - CUU.V (COPPER FOX METALS INC): +28.9% at 0.58, volume pace 9.69x
+- ADZ.V (ADAMERA MINERALS CORP): +27.8% at 0.115, volume pace 0.0x
 - VZZ.V (VAL DOR MINING CORPORATION): +27.8% at 0.115, volume pace 1.0x
-- SIG.V (SITKA GOLD CORP): +25.0% at 0.85, volume pace 3.3x
-- COCO.V (COAST COPPER CORP): +25.0% at 0.3, volume pace 1.47x
+- COCO.V (COAST COPPER CORP): +25.0% at 0.3, volume pace 2.2x
 - MINE.V (INOMIN MINES INC): +25.0% at 0.075, volume pace 1.72x
 - AUX.V (GOLDEN CROSS RESOURCES INC): +25.0% at 0.075, volume pace 0.7x
-- TG.V (TRIFECTA GOLD LTD): +23.1% at 0.08, volume pace 25.26x
+- SIG.V (SITKA GOLD CORP): +23.5% at 0.84, volume pace 3.33x
 
 # TSX
 
@@ -309,15 +318,14 @@ Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TI.TO (TITAN MINING CORPORATION): +13.1% today at 1.98, last 30m +0.5%, volume pace 5.59x, rising since 2026-11-23T16:35:00+00:00
-- XLY.TO (AUXLY CANNABIS GROUP INC): +13.0% today at 3.92, last 30m +0.3%, volume pace 8.36x, rising since 2026-11-23T17:20:00+00:00
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +12.2% today at 2.76, last 30m +0.2%, volume pace 1.87x, rising since 2026-11-23T17:30:00+00:00
-- OCG.TO (OUTCROP SILVER & GOLD CORPORATI): +11.1% today at 0.2, last 30m +1.3%, volume pace 1.91x, rising since 2026-11-23T17:05:00+00:00
-- BNKR.TO (BUNKER HILL MINING CORP): +10.1% today at 1.75, last 30m +2.6%, volume pace 1.92x, rising since 2026-11-23T17:15:00+00:00
-- MAXQ.TO (Maritime Launch Services Inc.): +6.7% today at 0.4, last 30m +1.3%, volume pace 3.56x, rising since 2026-11-23T16:20:00+00:00
-- ETG.TO (ENTREE RESOURCES LTD): +6.4% today at 2.17, last 30m +0.5%, volume pace 1.58x, rising since 2026-11-23T17:15:00+00:00
+- CLCH.TO (CLINCH RESOURCES LTD): +21.2% today at 0.8, last 30m +1.3%, volume pace 3.96x, rising since 2026-11-23T17:45:00+00:00
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +15.8% today at 2.85, last 30m +3.3%, volume pace 1.78x, rising since 2026-11-23T17:30:00+00:00
+- TSND.TO (TERRASCEND CORP): +8.1% today at 0.465, last 30m +3.3%, volume pace 2.41x, rising since 2026-11-23T17:40:00+00:00
+- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +6.8% today at 0.63, last 30m +3.3%, volume pace 1.63x, rising since 2026-11-23T17:50:00+00:00
+- MOLY.TO (GREENLAND RESOURCES INC): +6.3% today at 1.18, last 30m +3.5%, volume pace 1.74x, rising since 2026-11-23T17:35:00+00:00
+- PNE.TO (PINE CLIFF ENERGY LTD): +6.1% today at 0.52, last 30m +4.0%, volume pace 2.3x, rising since 2026-11-23T17:35:00+00:00
+- ORIO.TO (ORION DIGITAL CORP): +5.8% today at 1.64, last 30m +2.5%, volume pace 5.48x, rising since 2026-11-23T17:55:00+00:00
 - XTRA.TO (XTRACT ONE TECHNOLGIES INC): +4.8% today at 0.325, last 30m +1.6%, volume pace 1.79x, rising since 2026-11-23T16:50:00+00:00
-- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +4.2% today at 0.615, last 30m +7.0%, volume pace 1.59x, rising since 2026-11-23T17:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -334,13 +342,13 @@ Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): +20.6% at 2.4, volume pace 1.49x
+- CLCH.TO (CLINCH RESOURCES LTD): +21.2% at 0.8, volume pace 3.96x
 - ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +20.0% at 0.24, volume pace 0.49x
-- CLCH.TO (CLINCH RESOURCES LTD): +19.7% at 0.79, volume pace 5.44x
-- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +18.9% at 1.95, volume pace 1.25x
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +17.1% at 0.205, volume pace 1.52x
-- LAM.TO (LARAMIDE RESOURCES LTD.): +13.4% at 0.38, volume pace 0.74x
-- ORV.TO (ORVANA MINERALS J): +13.2% at 1.29, volume pace 1.2x
-- TI.TO (TITAN MINING CORPORATION): +13.1% at 1.98, volume pace 5.59x
-- XLY.TO (AUXLY CANNABIS GROUP INC): +13.0% at 3.92, volume pace 8.36x
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +12.2% at 2.76, volume pace 1.87x
+- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +20.0% at 0.21, volume pace 1.4x
+- KEEL.TO (KEEL INFRASTRUCTURE CORP): +18.6% at 2.36, volume pace 1.33x
+- HIVE.TO (HIVE DIGITAL TECHNOLOGIES LTD): +18.3% at 1.94, volume pace 1.12x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +15.8% at 2.85, volume pace 1.78x
+- LAM.TO (LARAMIDE RESOURCES LTD.): +13.4% at 0.38, volume pace 0.82x
+- ORV.TO (ORVANA MINERALS J): +12.3% at 1.28, volume pace 1.07x
+- TI.TO (TITAN MINING CORPORATION): +12.0% at 1.96, volume pace 4.84x
+- XLY.TO (AUXLY CANNABIS GROUP INC): +11.8% at 3.88, volume pace 7.38x
