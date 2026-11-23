@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-23T14:01-07:00
+# Stock feed — 2026-11-23T14:06-07:00
 
 Tracking 723 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-20. Intraday data as of: 2026-11-23T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -174,12 +174,11 @@ Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year 
 - SOMA.V (SOMA GOLD CORP): +28.6% today at 0.45, last 30m +2.3%, volume pace 13.15x, rising since 2026-11-23T20:30:00+00:00
 - SIG.V (SITKA GOLD CORP): +25.0% today at 0.85, last 30m +1.8%, volume pace 2.9x, rising since 2026-11-23T21:00:00+00:00
 - CKG.V (CHESAPEAKE GOLD CORP.): +21.3% today at 1.99, last 30m +0.5%, volume pace 1.71x, rising since 2026-11-23T20:55:00+00:00
-- PNG.V (KRAKEN ROBOTICS INC): +12.4% today at 3.135, last 30m +0.2%, volume pace 4.22x, rising since 2026-11-23T21:00:00+00:00
 - SCOT.V (SCOTTIE RESOURCES CORP): +11.4% today at 1.95, last 30m +1.0%, volume pace 4.56x, rising since 2026-11-23T20:35:00+00:00
 - SCMI.V (SELKIRK COPPER MINES INC): +11.1% today at 0.8, last 30m +2.6%, volume pace 1.65x, rising since 2026-11-23T21:00:00+00:00
 - AMX.V (AMEX GOLD MINING INC): +8.8% today at 2.84, last 30m +0.3%, volume pace 2.21x, rising since 2026-11-23T20:40:00+00:00
-- AEC.V (ANFIELD ENERGY INC): +7.4% today at 3.32, last 30m +0.3%, volume pace 5.21x, rising since 2026-11-23T21:00:00+00:00
 - ZDC.V (ZEDCOR INC): +5.8% today at 4.4, last 30m +1.9%, volume pace 9.61x, rising since 2026-11-23T20:50:00+00:00
+- TAU.V (THESIS GOLD AND SILVER INC): +5.7% today at 1.87, last 30m +0.5%, volume pace 2.4x, rising since 2026-11-23T21:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -197,7 +196,6 @@ Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - AUGC.V (AU GOLD CORP): +47.5% at 0.295, volume pace 0.08x
-- MINE.V (INOMIN MINES INC): +33.3% at 0.08, volume pace 1.53x
 - GMV.V (GMV MINERALS INC.): +30.0% at 0.13, volume pace 5.02x
 - SOMA.V (SOMA GOLD CORP): +28.6% at 0.45, volume pace 13.15x
 - ADZ.V (ADAMERA MINERALS CORP): +27.8% at 0.115, volume pace 0.0x
@@ -206,6 +204,7 @@ Market: S&P/TSX Composite 33,189.85 on 2026-11-20 (day -2.5%, month -7.7%, year 
 - SIG.V (SITKA GOLD CORP): +25.0% at 0.85, volume pace 2.9x
 - ROAR.V (LION ROCK RESOURCES INC): +25.0% at 0.175, volume pace 0.67x
 - COCO.V (COAST COPPER CORP): +25.0% at 0.3, volume pace 1.12x
+- MINE.V (INOMIN MINES INC): +25.0% at 0.075, volume pace 1.78x
 
 # TSX
 

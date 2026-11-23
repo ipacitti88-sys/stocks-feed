@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T14:01-07:00",
+ "generated": "2026-11-23T14:06-07:00",
  "last_close_day": "2026-11-20",
  "tracked": 723,
  "tracked_by_market": {
@@ -402,17 +402,6 @@
    "rising_since": "2026-11-23T21:00:00+00:00"
   },
   {
-   "ticker": "PNG.V",
-   "name": "KRAKEN ROBOTICS INC",
-   "as_of": "2026-11-23T21:00:00+00:00",
-   "last": 3.135,
-   "pct_day": 12.37,
-   "pct_30m": 0.16,
-   "volume_pace": 4.22,
-   "rising": true,
-   "rising_since": "2026-11-23T21:00:00+00:00"
-  },
-  {
    "ticker": "SCOT.V",
    "name": "SCOTTIE RESOURCES CORP",
    "as_of": "2026-11-23T20:55:00+00:00",
@@ -457,17 +446,6 @@
    "rising_since": "2026-11-23T20:40:00+00:00"
   },
   {
-   "ticker": "AEC.V",
-   "name": "ANFIELD ENERGY INC",
-   "as_of": "2026-11-23T21:00:00+00:00",
-   "last": 3.32,
-   "pct_day": 7.44,
-   "pct_30m": 0.3,
-   "volume_pace": 5.21,
-   "rising": true,
-   "rising_since": "2026-11-23T21:00:00+00:00"
-  },
-  {
    "ticker": "ZDC.V",
    "name": "ZEDCOR INC",
    "as_of": "2026-11-23T21:00:00+00:00",
@@ -477,6 +455,17 @@
    "volume_pace": 9.61,
    "rising": true,
    "rising_since": "2026-11-23T20:50:00+00:00"
+  },
+  {
+   "ticker": "TAU.V",
+   "name": "THESIS GOLD AND SILVER INC",
+   "as_of": "2026-11-23T21:00:00+00:00",
+   "last": 1.87,
+   "pct_day": 5.65,
+   "pct_30m": 0.54,
+   "volume_pace": 2.4,
+   "rising": true,
+   "rising_since": "2026-11-23T21:00:00+00:00"
   },
   {
    "ticker": "CRON.TO",
@@ -521,17 +510,6 @@
    "pct_day": 47.5,
    "pct_30m": 9.26,
    "volume_pace": 0.08,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MINE.V",
-   "name": "INOMIN MINES INC",
-   "as_of": "2026-11-23T20:25:00+00:00",
-   "last": 0.08,
-   "pct_day": 33.33,
-   "pct_30m": 6.67,
-   "volume_pace": 1.53,
    "rising": false,
    "rising_since": null
   },
@@ -620,6 +598,17 @@
    "pct_day": 25.0,
    "pct_30m": 0.0,
    "volume_pace": 1.12,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MINE.V",
+   "name": "INOMIN MINES INC",
+   "as_of": "2026-11-23T20:45:00+00:00",
+   "last": 0.075,
+   "pct_day": 25.0,
+   "pct_30m": 0.0,
+   "volume_pace": 1.78,
    "rising": false,
    "rising_since": null
   },
