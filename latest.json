@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T09:01-07:00",
+ "generated": "2026-11-24T09:31-07:00",
  "last_close_day": "2026-11-23",
  "tracked": 725,
  "tracked_by_market": {
@@ -355,62 +355,51 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-24T16:05:00+00:00",
+ "live_as_of": "2026-11-24T16:35:00+00:00",
  "rising": [
   {
-   "ticker": "PNE.TO",
-   "name": "PINE CLIFF ENERGY LTD",
-   "as_of": "2026-11-24T15:50:00+00:00",
-   "last": 0.55,
-   "pct_day": 10.0,
-   "pct_30m": 7.84,
-   "volume_pace": 12.43,
+   "ticker": "BIG.V",
+   "name": "HERCULES METALS CORP",
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 0.94,
+   "pct_day": 6.82,
+   "pct_30m": 5.03,
+   "volume_pace": 1.81,
    "rising": true,
-   "rising_since": "2026-11-24T15:50:00+00:00"
+   "rising_since": "2026-11-24T16:25:00+00:00"
   },
   {
-   "ticker": "DMX.V",
-   "name": "DISTRICT METALS CORP",
-   "as_of": "2026-11-24T15:45:00+00:00",
-   "last": 0.345,
-   "pct_day": 9.52,
-   "pct_30m": 1.47,
-   "volume_pace": 3.83,
+   "ticker": "TLO.TO",
+   "name": "TALON METALS CORP.",
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 5.1,
+   "pct_day": 6.47,
+   "pct_30m": 1.39,
+   "volume_pace": 2.84,
    "rising": true,
-   "rising_since": "2026-11-24T15:45:00+00:00"
+   "rising_since": "2026-11-24T16:15:00+00:00"
   },
   {
-   "ticker": "SALT.V",
-   "name": "ATLAS SALT INC",
-   "as_of": "2026-11-24T16:00:00+00:00",
-   "last": 1.24,
-   "pct_day": 4.64,
-   "pct_30m": 0.81,
-   "volume_pace": 2.87,
+   "ticker": "OML.V",
+   "name": "OMNI-LITE INDUSTRIES CANADA INC",
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 3.29,
+   "pct_day": 4.44,
+   "pct_30m": 1.23,
+   "volume_pace": 1.54,
    "rising": true,
-   "rising_since": "2026-11-24T15:40:00+00:00"
+   "rising_since": "2026-11-24T16:30:00+00:00"
   },
   {
    "ticker": "PRQ.TO",
    "name": "PETRUS RESOURCES LTD",
-   "as_of": "2026-11-24T15:55:00+00:00",
+   "as_of": "2026-11-24T16:10:00+00:00",
    "last": 1.71,
    "pct_day": 4.27,
-   "pct_30m": 4.27,
-   "volume_pace": 2.67,
+   "pct_30m": 0.59,
+   "volume_pace": 2.44,
    "rising": true,
    "rising_since": "2026-11-24T15:40:00+00:00"
-  },
-  {
-   "ticker": "DCM.TO",
-   "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-24T15:10:00+00:00",
-   "last": 2.58,
-   "pct_day": 4.03,
-   "pct_30m": 0.78,
-   "volume_pace": 4.52,
-   "rising": true,
-   "rising_since": "2026-11-24T14:40:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -428,11 +417,11 @@
   {
    "ticker": "ADE.V",
    "name": "ADEX MINING INC.",
-   "as_of": "2026-11-24T15:55:00+00:00",
-   "last": 0.165,
-   "pct_day": 22.22,
-   "pct_30m": 26.92,
-   "volume_pace": 0.07,
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 0.17,
+   "pct_day": 25.93,
+   "pct_30m": 3.03,
+   "volume_pace": 1.29,
    "rising": false,
    "rising_since": null
   },
@@ -448,46 +437,13 @@
    "rising_since": null
   },
   {
-   "ticker": "MANU.V",
-   "name": "MANHATTAN URANIUM DISCOVERY COR",
-   "as_of": "2026-11-24T16:00:00+00:00",
-   "last": 0.095,
-   "pct_day": 18.75,
-   "pct_30m": 5.56,
-   "volume_pace": 3.6,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "LPS.V",
-   "name": "LEGEND POWER SYSTEMS INC.",
-   "as_of": "2026-11-24T15:35:00+00:00",
-   "last": 0.1,
-   "pct_day": 17.65,
-   "pct_30m": 17.65,
-   "volume_pace": 6.23,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ROCK.V",
-   "name": "TRIDENT RESOURCES CORP",
-   "as_of": "2026-11-24T16:00:00+00:00",
-   "last": 3.3,
-   "pct_day": 14.58,
-   "pct_30m": -2.94,
-   "volume_pace": 12.38,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "VRR.V",
-   "name": "VR RESOURCES LTD",
-   "as_of": "2026-11-24T16:00:00+00:00",
-   "last": 0.32,
-   "pct_day": 14.29,
-   "pct_30m": 0.0,
-   "volume_pace": 3.37,
+   "ticker": "ZAU.V",
+   "name": "ZODIAC GOLD INC",
+   "as_of": "2026-11-24T16:20:00+00:00",
+   "last": 0.295,
+   "pct_day": 13.46,
+   "pct_30m": 1.72,
+   "volume_pace": 0.52,
    "rising": false,
    "rising_since": null
   },
@@ -503,6 +459,17 @@
    "rising_since": null
   },
   {
+   "ticker": "ROCK.V",
+   "name": "TRIDENT RESOURCES CORP",
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 3.26,
+   "pct_day": 13.19,
+   "pct_30m": -1.21,
+   "volume_pace": 9.49,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "TWR.V",
    "name": "TOWER RESOURCES LTD",
    "as_of": "2026-11-24T14:35:00+00:00",
@@ -514,13 +481,35 @@
    "rising_since": null
   },
   {
-   "ticker": "ZAU.V",
-   "name": "ZODIAC GOLD INC",
-   "as_of": "2026-11-24T16:05:00+00:00",
-   "last": 0.29,
-   "pct_day": 11.54,
-   "pct_30m": 3.57,
-   "volume_pace": 0.49,
+   "ticker": "MANU.V",
+   "name": "MANHATTAN URANIUM DISCOVERY COR",
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 0.09,
+   "pct_day": 12.5,
+   "pct_30m": -5.26,
+   "volume_pace": 5.16,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LPS.V",
+   "name": "LEGEND POWER SYSTEMS INC.",
+   "as_of": "2026-11-24T16:10:00+00:00",
+   "last": 0.095,
+   "pct_day": 11.76,
+   "pct_30m": -5.0,
+   "volume_pace": 4.11,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SBMI.V",
+   "name": "SILVER BULLET MINES CORP",
+   "as_of": "2026-11-24T14:50:00+00:00",
+   "last": 0.1,
+   "pct_day": 11.11,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -538,101 +527,101 @@
   {
    "ticker": "PNE.TO",
    "name": "PINE CLIFF ENERGY LTD",
-   "as_of": "2026-11-24T15:50:00+00:00",
-   "last": 0.55,
-   "pct_day": 10.0,
-   "pct_30m": 7.84,
-   "volume_pace": 12.43,
-   "rising": true,
-   "rising_since": "2026-11-24T15:50:00+00:00"
-  },
-  {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-24T15:55:00+00:00",
-   "last": 0.56,
-   "pct_day": 7.69,
-   "pct_30m": 5.66,
-   "volume_pace": 0.75,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "IMP.TO",
-   "name": "INTERMAP TECHNOLOGIES CORPORATI",
-   "as_of": "2026-11-24T15:35:00+00:00",
-   "last": 0.7,
-   "pct_day": 7.69,
-   "pct_30m": 4.48,
-   "volume_pace": 5.89,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SAM.TO",
-   "name": "STARCORE INTERNATIONAL MINES LT",
-   "as_of": "2026-11-24T15:55:00+00:00",
-   "last": 0.255,
-   "pct_day": 6.25,
-   "pct_30m": 13.33,
-   "volume_pace": 2.45,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NEXT.TO",
-   "name": "NEXTSOURCE MATERIALS INC",
-   "as_of": "2026-11-24T15:45:00+00:00",
-   "last": 0.17,
-   "pct_day": 6.25,
-   "pct_30m": 0.0,
-   "volume_pace": 0.83,
+   "as_of": "2026-11-24T16:25:00+00:00",
+   "last": 0.54,
+   "pct_day": 8.0,
+   "pct_30m": -1.82,
+   "volume_pace": 8.98,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TLO.TO",
    "name": "TALON METALS CORP.",
-   "as_of": "2026-11-24T16:05:00+00:00",
-   "last": 5.03,
-   "pct_day": 5.01,
-   "pct_30m": -0.89,
-   "volume_pace": 3.22,
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 5.1,
+   "pct_day": 6.47,
+   "pct_30m": 1.39,
+   "volume_pace": 2.84,
+   "rising": true,
+   "rising_since": "2026-11-24T16:15:00+00:00"
+  },
+  {
+   "ticker": "PRQ.TO",
+   "name": "PETRUS RESOURCES LTD",
+   "as_of": "2026-11-24T16:10:00+00:00",
+   "last": 1.71,
+   "pct_day": 4.27,
+   "pct_30m": 0.59,
+   "volume_pace": 2.44,
+   "rising": true,
+   "rising_since": "2026-11-24T15:40:00+00:00"
+  },
+  {
+   "ticker": "DCM.TO",
+   "name": "DATA COMMUNICATIONS MGMT CORP",
+   "as_of": "2026-11-24T16:15:00+00:00",
+   "last": 2.58,
+   "pct_day": 4.03,
+   "pct_30m": 0.0,
+   "volume_pace": 1.74,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "MDNA.TO",
-   "name": "MEDICENNA THERAPEUTICS CORP",
-   "as_of": "2026-11-24T16:00:00+00:00",
-   "last": 0.215,
-   "pct_day": 4.88,
-   "pct_30m": 4.88,
-   "volume_pace": 0.32,
+   "ticker": "MDP.TO",
+   "name": "MEDEXUS PHARMACEUTICALS INC",
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 5.95,
+   "pct_day": 3.66,
+   "pct_30m": 2.23,
+   "volume_pace": 1.28,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SXP.TO",
+   "name": "SUPREMEX INC.",
+   "as_of": "2026-11-24T15:55:00+00:00",
+   "last": 3.0,
+   "pct_day": 3.45,
+   "pct_30m": 0.0,
+   "volume_pace": 1.84,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ARN.TO",
    "name": "ASARIAN ENERGY LIMITED",
-   "as_of": "2026-11-24T15:30:00+00:00",
-   "last": 0.325,
-   "pct_day": 4.84,
-   "pct_30m": 0.0,
-   "volume_pace": 0.31,
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 0.32,
+   "pct_day": 3.23,
+   "pct_30m": -1.54,
+   "volume_pace": 0.15,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "PRQ.TO",
-   "name": "PETRUS RESOURCES LTD",
-   "as_of": "2026-11-24T15:55:00+00:00",
-   "last": 1.71,
-   "pct_day": 4.27,
-   "pct_30m": 4.27,
-   "volume_pace": 2.67,
-   "rising": true,
-   "rising_since": "2026-11-24T15:40:00+00:00"
+   "ticker": "ESM.TO",
+   "name": "EURO SUN MINING INC",
+   "as_of": "2026-11-24T15:30:00+00:00",
+   "last": 0.1175,
+   "pct_day": 2.17,
+   "pct_30m": 0.0,
+   "volume_pace": 0.27,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "XNDU.TO",
+   "name": "XANADU QUANTUM TECHNOLOGIES LIM",
+   "as_of": "2026-11-24T16:30:00+00:00",
+   "last": 2.93,
+   "pct_day": 2.09,
+   "pct_30m": -0.68,
+   "volume_pace": 2.15,
+   "rising": false,
+   "rising_since": null
   }
  ],
  "benchmarks": {
@@ -1232,9 +1221,9 @@
    "ma200": 941.42,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T16:05:00+00:00",
-    "last": 694.33,
-    "pct_day": -2.57
+    "as_of": "2026-11-24T16:35:00+00:00",
+    "last": 688.84,
+    "pct_day": -3.34
    }
   },
   "^GSPTSE": {
@@ -1833,9 +1822,9 @@
    "ma200": 34795.31,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T16:05:00+00:00",
-    "last": 33856.67,
-    "pct_day": -0.66
+    "as_of": "2026-11-24T16:35:00+00:00",
+    "last": 33930.89,
+    "pct_day": -0.44
    }
   }
  },
