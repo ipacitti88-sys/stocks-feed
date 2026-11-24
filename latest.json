@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T11:01-07:00",
+ "generated": "2026-11-24T11:31-07:00",
  "last_close_day": "2026-11-23",
  "tracked": 725,
  "tracked_by_market": {
@@ -355,54 +355,65 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-24T18:05:00+00:00",
+ "live_as_of": "2026-11-24T18:35:00+00:00",
  "rising": [
   {
    "ticker": "ROCK.V",
    "name": "TRIDENT RESOURCES CORP",
-   "as_of": "2026-11-24T18:05:00+00:00",
-   "last": 3.31,
-   "pct_day": 14.93,
-   "pct_30m": 0.91,
-   "volume_pace": 5.78,
+   "as_of": "2026-11-24T18:30:00+00:00",
+   "last": 3.34,
+   "pct_day": 15.97,
+   "pct_30m": 1.21,
+   "volume_pace": 5.43,
    "rising": true,
    "rising_since": "2026-11-24T17:25:00+00:00"
   },
   {
    "ticker": "SALT.V",
    "name": "ATLAS SALT INC",
-   "as_of": "2026-11-24T18:00:00+00:00",
-   "last": 1.27,
-   "pct_day": 7.17,
-   "pct_30m": 1.6,
-   "volume_pace": 2.01,
+   "as_of": "2026-11-24T18:35:00+00:00",
+   "last": 1.32,
+   "pct_day": 11.39,
+   "pct_30m": 3.13,
+   "volume_pace": 2.37,
    "rising": true,
    "rising_since": "2026-11-24T16:50:00+00:00"
   },
   {
-   "ticker": "TLO.TO",
-   "name": "TALON METALS CORP.",
-   "as_of": "2026-11-24T18:05:00+00:00",
-   "last": 4.99,
-   "pct_day": 4.18,
-   "pct_30m": 0.6,
-   "volume_pace": 4.97,
+   "ticker": "CVV.V",
+   "name": "CANALASKA URANIUM LTD",
+   "as_of": "2026-11-24T18:15:00+00:00",
+   "last": 0.21,
+   "pct_day": 10.53,
+   "pct_30m": 7.69,
+   "volume_pace": 2.02,
    "rising": true,
-   "rising_since": "2026-11-24T18:05:00+00:00"
+   "rising_since": "2026-11-24T18:10:00+00:00"
   },
   {
-   "ticker": "TNGD.V",
-   "name": "TIERNAN GOLD CORP",
-   "as_of": "2026-11-24T17:35:00+00:00",
-   "last": 4.55,
-   "pct_day": 3.41,
-   "pct_30m": 2.25,
-   "volume_pace": 7.08,
+   "ticker": "TLO.TO",
+   "name": "TALON METALS CORP.",
+   "as_of": "2026-11-24T18:35:00+00:00",
+   "last": 5.04,
+   "pct_day": 5.22,
+   "pct_30m": 1.2,
+   "volume_pace": 4.42,
    "rising": true,
-   "rising_since": "2026-11-24T17:35:00+00:00"
+   "rising_since": "2026-11-24T18:25:00+00:00"
   }
  ],
  "top_gainers_today": [
+  {
+   "ticker": "CBI.V",
+   "name": "COLIBRI RESOURCE CORPORATION",
+   "as_of": "2026-11-24T18:30:00+00:00",
+   "last": 0.13,
+   "pct_day": 44.44,
+   "pct_30m": 8.33,
+   "volume_pace": 25.98,
+   "rising": false,
+   "rising_since": null
+  },
   {
    "ticker": "PURO.V",
    "name": "PLATAURO METALS CORP",
@@ -415,24 +426,13 @@
    "rising_since": null
   },
   {
-   "ticker": "CBI.V",
-   "name": "COLIBRI RESOURCE CORPORATION",
-   "as_of": "2026-11-24T17:45:00+00:00",
-   "last": 0.12,
-   "pct_day": 33.33,
-   "pct_30m": 0.0,
-   "volume_pace": 9.63,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "MANU.V",
    "name": "MANHATTAN URANIUM DISCOVERY COR",
-   "as_of": "2026-11-24T17:35:00+00:00",
-   "last": 0.1,
-   "pct_day": 25.0,
-   "pct_30m": 5.26,
-   "volume_pace": 3.48,
+   "as_of": "2026-11-24T18:15:00+00:00",
+   "last": 0.105,
+   "pct_day": 31.25,
+   "pct_30m": 5.0,
+   "volume_pace": 2.94,
    "rising": false,
    "rising_since": null
   },
@@ -459,46 +459,24 @@
    "rising_since": null
   },
   {
-   "ticker": "TSG.V",
-   "name": "TRISTAR GOLD INC.",
-   "as_of": "2026-11-24T17:20:00+00:00",
-   "last": 0.14,
-   "pct_day": 16.67,
-   "pct_30m": 3.7,
-   "volume_pace": 2.29,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "ROCK.V",
    "name": "TRIDENT RESOURCES CORP",
-   "as_of": "2026-11-24T18:05:00+00:00",
-   "last": 3.31,
-   "pct_day": 14.93,
-   "pct_30m": 0.91,
-   "volume_pace": 5.78,
+   "as_of": "2026-11-24T18:30:00+00:00",
+   "last": 3.34,
+   "pct_day": 15.97,
+   "pct_30m": 1.21,
+   "volume_pace": 5.43,
    "rising": true,
    "rising_since": "2026-11-24T17:25:00+00:00"
   },
   {
-   "ticker": "SGO.V",
-   "name": "SONORO GOLD CORP",
-   "as_of": "2026-11-24T18:00:00+00:00",
-   "last": 0.16,
-   "pct_day": 14.29,
-   "pct_30m": 6.67,
-   "volume_pace": 1.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "SGC.V",
    "name": "SOLSTICE GOLD CORP",
-   "as_of": "2026-11-24T16:45:00+00:00",
+   "as_of": "2026-11-24T18:10:00+00:00",
    "last": 0.085,
    "pct_day": 13.33,
    "pct_30m": 0.0,
-   "volume_pace": 1.66,
+   "volume_pace": 1.02,
    "rising": false,
    "rising_since": null
   },
@@ -514,13 +492,35 @@
    "rising_since": null
   },
   {
+   "ticker": "TSG.V",
+   "name": "TRISTAR GOLD INC.",
+   "as_of": "2026-11-24T18:05:00+00:00",
+   "last": 0.135,
+   "pct_day": 12.5,
+   "pct_30m": -3.57,
+   "volume_pace": 1.82,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TG.V",
+   "name": "TRIFECTA GOLD LTD",
+   "as_of": "2026-11-24T17:40:00+00:00",
+   "last": 0.09,
+   "pct_day": 12.5,
+   "pct_30m": 12.5,
+   "volume_pace": 2.61,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-24T16:35:00+00:00",
-   "last": 0.28,
-   "pct_day": 14.29,
-   "pct_30m": 1.82,
-   "volume_pace": 0.99,
+   "as_of": "2026-11-24T18:15:00+00:00",
+   "last": 0.29,
+   "pct_day": 18.37,
+   "pct_30m": 3.57,
+   "volume_pace": 0.71,
    "rising": false,
    "rising_since": null
   },
@@ -536,6 +536,17 @@
    "rising_since": null
   },
   {
+   "ticker": "TLO.TO",
+   "name": "TALON METALS CORP.",
+   "as_of": "2026-11-24T18:35:00+00:00",
+   "last": 5.04,
+   "pct_day": 5.22,
+   "pct_30m": 1.2,
+   "volume_pace": 4.42,
+   "rising": true,
+   "rising_since": "2026-11-24T18:25:00+00:00"
+  },
+  {
    "ticker": "AMAP.TO",
    "name": "AMAPA MINERALS HOLDINGS INC",
    "as_of": "2026-11-24T17:15:00+00:00",
@@ -547,46 +558,24 @@
    "rising_since": null
   },
   {
-   "ticker": "TLO.TO",
-   "name": "TALON METALS CORP.",
-   "as_of": "2026-11-24T18:05:00+00:00",
-   "last": 4.99,
-   "pct_day": 4.18,
-   "pct_30m": 0.6,
-   "volume_pace": 4.97,
-   "rising": true,
-   "rising_since": "2026-11-24T18:05:00+00:00"
-  },
-  {
    "ticker": "BNKR.TO",
    "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-24T18:00:00+00:00",
+   "as_of": "2026-11-24T18:30:00+00:00",
    "last": 1.64,
    "pct_day": 3.8,
-   "pct_30m": 3.8,
-   "volume_pace": 1.25,
+   "pct_30m": 0.0,
+   "volume_pace": 1.49,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PRQ.TO",
    "name": "PETRUS RESOURCES LTD",
-   "as_of": "2026-11-24T18:00:00+00:00",
+   "as_of": "2026-11-24T18:10:00+00:00",
    "last": 1.7,
    "pct_day": 3.66,
    "pct_30m": -1.16,
-   "volume_pace": 1.36,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "MDP.TO",
-   "name": "MEDEXUS PHARMACEUTICALS INC",
-   "as_of": "2026-11-24T17:55:00+00:00",
-   "last": 5.95,
-   "pct_day": 3.66,
-   "pct_30m": -0.5,
-   "volume_pace": 0.91,
+   "volume_pace": 1.55,
    "rising": false,
    "rising_since": null
   },
@@ -597,7 +586,7 @@
    "last": 2.57,
    "pct_day": 3.63,
    "pct_30m": 0.0,
-   "volume_pace": 0.88,
+   "volume_pace": 0.89,
    "rising": false,
    "rising_since": null
   },
@@ -609,6 +598,17 @@
    "pct_day": 3.45,
    "pct_30m": 0.0,
    "volume_pace": 1.84,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MDP.TO",
+   "name": "MEDEXUS PHARMACEUTICALS INC",
+   "as_of": "2026-11-24T18:20:00+00:00",
+   "last": 5.93,
+   "pct_day": 3.31,
+   "pct_30m": -0.34,
+   "volume_pace": 0.83,
    "rising": false,
    "rising_since": null
   },
@@ -1221,9 +1221,9 @@
    "ma200": 941.42,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T18:05:00+00:00",
-    "last": 689.29,
-    "pct_day": -3.28
+    "as_of": "2026-11-24T18:35:00+00:00",
+    "last": 690.19,
+    "pct_day": -3.15
    }
   },
   "^GSPTSE": {
@@ -1822,9 +1822,9 @@
    "ma200": 34795.31,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T18:05:00+00:00",
-    "last": 33999.32,
-    "pct_day": -0.24
+    "as_of": "2026-11-24T18:35:00+00:00",
+    "last": 34007.01,
+    "pct_day": -0.22
    }
   }
  },
