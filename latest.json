@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T12:31-07:00",
+ "generated": "2026-11-24T13:01-07:00",
  "last_close_day": "2026-11-23",
  "tracked": 725,
  "tracked_by_market": {
@@ -355,18 +355,40 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-24T19:35:00+00:00",
+ "live_as_of": "2026-11-24T20:05:00+00:00",
  "rising": [
   {
    "ticker": "DMX.V",
    "name": "DISTRICT METALS CORP",
-   "as_of": "2026-11-24T19:30:00+00:00",
+   "as_of": "2026-11-24T19:50:00+00:00",
    "last": 0.35,
    "pct_day": 11.11,
    "pct_30m": 6.06,
-   "volume_pace": 1.83,
+   "volume_pace": 4.03,
    "rising": true,
    "rising_since": "2026-11-24T19:25:00+00:00"
+  },
+  {
+   "ticker": "SALT.V",
+   "name": "ATLAS SALT INC",
+   "as_of": "2026-11-24T19:50:00+00:00",
+   "last": 1.3,
+   "pct_day": 9.7,
+   "pct_30m": 0.78,
+   "volume_pace": 2.39,
+   "rising": true,
+   "rising_since": "2026-11-24T19:50:00+00:00"
+  },
+  {
+   "ticker": "CLCH.TO",
+   "name": "CLINCH RESOURCES LTD",
+   "as_of": "2026-11-24T20:00:00+00:00",
+   "last": 0.86,
+   "pct_day": 3.61,
+   "pct_30m": 1.18,
+   "volume_pace": 1.79,
+   "rising": true,
+   "rising_since": "2026-11-24T19:45:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -406,11 +428,22 @@
   {
    "ticker": "VRR.V",
    "name": "VR RESOURCES LTD",
-   "as_of": "2026-11-24T19:35:00+00:00",
-   "last": 0.34,
-   "pct_day": 21.43,
-   "pct_30m": 9.68,
+   "as_of": "2026-11-24T19:55:00+00:00",
+   "last": 0.35,
+   "pct_day": 25.0,
+   "pct_30m": 12.9,
    "volume_pace": 1.77,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "LTNG.V",
+   "name": "LIGHTNING RESOURCE CORP",
+   "as_of": "2026-11-24T19:35:00+00:00",
+   "last": 0.23,
+   "pct_day": 21.05,
+   "pct_30m": 12.2,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -422,6 +455,17 @@
    "pct_day": 20.83,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TBK.V",
+   "name": "TRAILBREAKER RESOURCES LTD",
+   "as_of": "2026-11-24T20:00:00+00:00",
+   "last": 0.205,
+   "pct_day": 20.59,
+   "pct_30m": 17.14,
+   "volume_pace": 1.36,
    "rising": false,
    "rising_since": null
   },
@@ -439,77 +483,55 @@
   {
    "ticker": "ROCK.V",
    "name": "TRIDENT RESOURCES CORP",
-   "as_of": "2026-11-24T19:30:00+00:00",
-   "last": 3.33,
-   "pct_day": 15.62,
-   "pct_30m": -0.89,
-   "volume_pace": 4.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ZAU.V",
-   "name": "ZODIAC GOLD INC",
-   "as_of": "2026-11-24T19:30:00+00:00",
-   "last": 0.295,
-   "pct_day": 13.46,
-   "pct_30m": 0.0,
-   "volume_pace": 0.46,
+   "as_of": "2026-11-24T20:00:00+00:00",
+   "last": 3.32,
+   "pct_day": 15.28,
+   "pct_30m": -0.3,
+   "volume_pace": 4.29,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "SGC.V",
    "name": "SOLSTICE GOLD CORP",
-   "as_of": "2026-11-24T18:10:00+00:00",
+   "as_of": "2026-11-24T19:50:00+00:00",
    "last": 0.085,
    "pct_day": 13.33,
    "pct_30m": 0.0,
-   "volume_pace": 1.1,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CVV.V",
-   "name": "CANALASKA URANIUM LTD",
-   "as_of": "2026-11-24T19:30:00+00:00",
-   "last": 0.215,
-   "pct_day": 13.16,
-   "pct_30m": 0.0,
-   "volume_pace": 1.57,
+   "volume_pace": 0.75,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-24T19:20:00+00:00",
-   "last": 0.3,
-   "pct_day": 22.45,
-   "pct_30m": 3.45,
-   "volume_pace": 0.61,
+   "as_of": "2026-11-24T20:00:00+00:00",
+   "last": 0.29,
+   "pct_day": 18.37,
+   "pct_30m": -3.33,
+   "volume_pace": 0.57,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PNE.TO",
    "name": "PINE CLIFF ENERGY LTD",
-   "as_of": "2026-11-24T17:35:00+00:00",
-   "last": 0.54,
-   "pct_day": 8.0,
-   "pct_30m": -1.82,
-   "volume_pace": 8.32,
+   "as_of": "2026-11-24T19:40:00+00:00",
+   "last": 0.53,
+   "pct_day": 6.0,
+   "pct_30m": -1.85,
+   "volume_pace": 4.97,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "MDP.TO",
    "name": "MEDEXUS PHARMACEUTICALS INC",
-   "as_of": "2026-11-24T19:30:00+00:00",
-   "last": 6.04,
-   "pct_day": 5.23,
-   "pct_30m": 1.0,
-   "volume_pace": 1.13,
+   "as_of": "2026-11-24T19:50:00+00:00",
+   "last": 6.05,
+   "pct_day": 5.4,
+   "pct_30m": 0.67,
+   "volume_pace": 1.07,
    "rising": false,
    "rising_since": null
   },
@@ -520,29 +542,18 @@
    "last": 0.325,
    "pct_day": 4.84,
    "pct_30m": 1.56,
-   "volume_pace": 0.12,
+   "volume_pace": 0.13,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TLO.TO",
    "name": "TALON METALS CORP.",
-   "as_of": "2026-11-24T19:30:00+00:00",
-   "last": 5.02,
-   "pct_day": 4.8,
-   "pct_30m": -0.4,
-   "volume_pace": 3.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "BNKR.TO",
-   "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-24T19:30:00+00:00",
-   "last": 1.65,
-   "pct_day": 4.43,
-   "pct_30m": -1.79,
-   "volume_pace": 2.11,
+   "as_of": "2026-11-24T20:00:00+00:00",
+   "last": 5.01,
+   "pct_day": 4.59,
+   "pct_30m": -0.2,
+   "volume_pace": 3.35,
    "rising": false,
    "rising_since": null
   },
@@ -564,29 +575,40 @@
    "last": 0.25,
    "pct_day": 4.17,
    "pct_30m": 0.0,
-   "volume_pace": 1.47,
+   "volume_pace": 1.54,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "MGA.TO",
-   "name": "MEGA URANIUM LTD.",
-   "as_of": "2026-11-24T19:25:00+00:00",
-   "last": 0.39,
-   "pct_day": 4.0,
-   "pct_30m": 1.3,
-   "volume_pace": 0.24,
+   "ticker": "CLCH.TO",
+   "name": "CLINCH RESOURCES LTD",
+   "as_of": "2026-11-24T20:00:00+00:00",
+   "last": 0.86,
+   "pct_day": 3.61,
+   "pct_30m": 1.18,
+   "volume_pace": 1.79,
+   "rising": true,
+   "rising_since": "2026-11-24T19:45:00+00:00"
+  },
+  {
+   "ticker": "SXP.TO",
+   "name": "SUPREMEX INC.",
+   "as_of": "2026-11-24T20:05:00+00:00",
+   "last": 3.0,
+   "pct_day": 3.45,
+   "pct_30m": 0.0,
+   "volume_pace": 0.47,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DCM.TO",
    "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-24T19:25:00+00:00",
-   "last": 2.57,
-   "pct_day": 3.63,
-   "pct_30m": 0.39,
-   "volume_pace": 1.0,
+   "as_of": "2026-11-24T20:00:00+00:00",
+   "last": 2.56,
+   "pct_day": 3.23,
+   "pct_30m": -0.39,
+   "volume_pace": 0.92,
    "rising": false,
    "rising_since": null
   }
@@ -1188,9 +1210,9 @@
    "ma200": 941.42,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T19:35:00+00:00",
-    "last": 691.44,
-    "pct_day": -2.97
+    "as_of": "2026-11-24T20:05:00+00:00",
+    "last": 690.24,
+    "pct_day": -3.14
    }
   },
   "^GSPTSE": {
@@ -1789,9 +1811,9 @@
    "ma200": 34795.31,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T19:35:00+00:00",
-    "last": 34000.39,
-    "pct_day": -0.24
+    "as_of": "2026-11-24T20:05:00+00:00",
+    "last": 33938.7,
+    "pct_day": -0.42
    }
   }
  },

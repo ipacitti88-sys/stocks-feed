@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-24T12:31-07:00
+# Stock feed — 2026-11-24T13:01-07:00
 
-Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-23. Intraday data as of: 2026-11-24T19:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-23. Intraday data as of: 2026-11-24T20:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 712.63 on 2026-11-23 (day +3.7%, month -13.2%, year -16.1%, downtrend); live -3.0% at 19:35
-Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year +14.0%, downtrend); live -0.2% at 19:35
+Market: S&P/TSX Venture Composite 712.63 on 2026-11-23 (day +3.7%, month -13.2%, year -16.1%, downtrend); live -3.1% at 20:05
+Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year +14.0%, downtrend); live -0.4% at 20:05
 
 # TSX Venture
 
@@ -77,7 +77,8 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- DMX.V (DISTRICT METALS CORP): +11.1% today at 0.35, last 30m +6.1%, volume pace 1.83x, rising since 2026-11-24T19:25:00+00:00
+- DMX.V (DISTRICT METALS CORP): +11.1% today at 0.35, last 30m +6.1%, volume pace 4.03x, rising since 2026-11-24T19:25:00+00:00
+- SALT.V (ATLAS SALT INC): +9.7% today at 1.3, last 30m +0.8%, volume pace 2.39x, rising since 2026-11-24T19:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -97,13 +98,13 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 - CBI.V (COLIBRI RESOURCE CORPORATION): +38.9% at 0.125, volume pace 25.24x
 - PURO.V (PLATAURO METALS CORP): +33.3% at 0.08, volume pace 0.0x
 - MANU.V (MANHATTAN URANIUM DISCOVERY COR): +31.2% at 0.105, volume pace 2.94x
-- VRR.V (VR RESOURCES LTD): +21.4% at 0.34, volume pace 1.77x
+- VRR.V (VR RESOURCES LTD): +25.0% at 0.35, volume pace 1.77x
+- LTNG.V (LIGHTNING RESOURCE CORP): +21.1% at 0.23, volume pace 0.0x
 - NSU.V (NORTH SHORE URANIUM LTD): +20.8% at 0.145, volume pace 0.0x
+- TBK.V (TRAILBREAKER RESOURCES LTD): +20.6% at 0.205, volume pace 1.36x
 - ADE.V (ADEX MINING INC.): +18.5% at 0.16, volume pace 0.84x
-- ROCK.V (TRIDENT RESOURCES CORP): +15.6% at 3.33, volume pace 4.67x
-- ZAU.V (ZODIAC GOLD INC): +13.5% at 0.295, volume pace 0.46x
-- SGC.V (SOLSTICE GOLD CORP): +13.3% at 0.085, volume pace 1.1x
-- CVV.V (CANALASKA URANIUM LTD): +13.2% at 0.215, volume pace 1.57x
+- ROCK.V (TRIDENT RESOURCES CORP): +15.3% at 3.32, volume pace 4.29x
+- SGC.V (SOLSTICE GOLD CORP): +13.3% at 0.085, volume pace 0.75x
 
 # TSX
 
@@ -141,7 +142,7 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- none
+- CLCH.TO (CLINCH RESOURCES LTD): +3.6% today at 0.86, last 30m +1.2%, volume pace 1.79x, rising since 2026-11-24T19:45:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -158,13 +159,13 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +22.4% at 0.3, volume pace 0.61x
-- PNE.TO (PINE CLIFF ENERGY LTD): +8.0% at 0.54, volume pace 8.32x
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +5.2% at 6.04, volume pace 1.13x
-- ARN.TO (ASARIAN ENERGY LIMITED): +4.8% at 0.325, volume pace 0.12x
-- TLO.TO (TALON METALS CORP.): +4.8% at 5.02, volume pace 3.67x
-- BNKR.TO (BUNKER HILL MINING CORP): +4.4% at 1.65, volume pace 2.11x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +18.4% at 0.29, volume pace 0.57x
+- PNE.TO (PINE CLIFF ENERGY LTD): +6.0% at 0.53, volume pace 4.97x
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +5.4% at 6.05, volume pace 1.07x
+- ARN.TO (ASARIAN ENERGY LIMITED): +4.8% at 0.325, volume pace 0.13x
+- TLO.TO (TALON METALS CORP.): +4.6% at 5.01, volume pace 3.35x
 - AMAP.TO (AMAPA MINERALS HOLDINGS INC): +4.3% at 0.72, volume pace 0.16x
-- SAM.TO (STARCORE INTERNATIONAL MINES LT): +4.2% at 0.25, volume pace 1.47x
-- MGA.TO (MEGA URANIUM LTD.): +4.0% at 0.39, volume pace 0.24x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +3.6% at 2.57, volume pace 1.0x
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): +4.2% at 0.25, volume pace 1.54x
+- CLCH.TO (CLINCH RESOURCES LTD): +3.6% at 0.86, volume pace 1.79x
+- SXP.TO (SUPREMEX INC.): +3.5% at 3.0, volume pace 0.47x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +3.2% at 2.56, volume pace 0.92x
