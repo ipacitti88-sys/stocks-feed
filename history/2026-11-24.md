@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-24T11:31-07:00
+# Stock feed — 2026-11-24T12:01-07:00
 
-Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-23. Intraday data as of: 2026-11-24T18:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-23. Intraday data as of: 2026-11-24T19:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 712.63 on 2026-11-23 (day +3.7%, month -13.2%, year -16.1%, downtrend); live -3.1% at 18:35
-Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year +14.0%, downtrend); live -0.2% at 18:35
+Market: S&P/TSX Venture Composite 712.63 on 2026-11-23 (day +3.7%, month -13.2%, year -16.1%, downtrend); live -3.2% at 19:05
+Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year +14.0%, downtrend); live -0.3% at 19:05
 
 # TSX Venture
 
@@ -77,9 +77,10 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ROCK.V (TRIDENT RESOURCES CORP): +16.0% today at 3.34, last 30m +1.2%, volume pace 5.43x, rising since 2026-11-24T17:25:00+00:00
-- SALT.V (ATLAS SALT INC): +11.4% today at 1.32, last 30m +3.1%, volume pace 2.37x, rising since 2026-11-24T16:50:00+00:00
-- CVV.V (CANALASKA URANIUM LTD): +10.5% today at 0.21, last 30m +7.7%, volume pace 2.02x, rising since 2026-11-24T18:10:00+00:00
+- ROCK.V (TRIDENT RESOURCES CORP): +16.7% today at 3.36, last 30m +0.6%, volume pace 5.13x, rising since 2026-11-24T19:00:00+00:00
+- CVV.V (CANALASKA URANIUM LTD): +13.2% today at 0.215, last 30m +2.4%, volume pace 1.84x, rising since 2026-11-24T18:10:00+00:00
+- SALT.V (ATLAS SALT INC): +12.2% today at 1.33, last 30m +0.8%, volume pace 2.6x, rising since 2026-11-24T16:50:00+00:00
+- SERV.V (ELEVATE SERVICE GROUP INC): +4.3% today at 2.4, last 30m +2.1%, volume pace 2.33x, rising since 2026-11-24T18:40:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -96,16 +97,16 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- CBI.V (COLIBRI RESOURCE CORPORATION): +44.4% at 0.13, volume pace 25.98x
+- CBI.V (COLIBRI RESOURCE CORPORATION): +38.9% at 0.125, volume pace 24.44x
 - PURO.V (PLATAURO METALS CORP): +33.3% at 0.08, volume pace 0.0x
 - MANU.V (MANHATTAN URANIUM DISCOVERY COR): +31.2% at 0.105, volume pace 2.94x
 - NSU.V (NORTH SHORE URANIUM LTD): +20.8% at 0.145, volume pace 0.0x
+- CNVI.V (CONAVI MEDICAL CORP): +18.8% at 0.095, volume pace 11.41x
 - ADE.V (ADEX MINING INC.): +18.5% at 0.16, volume pace 0.84x
-- ROCK.V (TRIDENT RESOURCES CORP): +16.0% at 3.34, volume pace 5.43x
-- SGC.V (SOLSTICE GOLD CORP): +13.3% at 0.085, volume pace 1.02x
-- TWR.V (TOWER RESOURCES LTD): +13.0% at 0.13, volume pace 0.0x
-- TSG.V (TRISTAR GOLD INC.): +12.5% at 0.135, volume pace 1.82x
-- TG.V (TRIFECTA GOLD LTD): +12.5% at 0.09, volume pace 2.61x
+- ROCK.V (TRIDENT RESOURCES CORP): +16.7% at 3.36, volume pace 5.13x
+- SGO.V (SONORO GOLD CORP): +14.3% at 0.16, volume pace 0.9x
+- ZAU.V (ZODIAC GOLD INC): +13.5% at 0.295, volume pace 0.42x
+- SGC.V (SOLSTICE GOLD CORP): +13.3% at 0.085, volume pace 1.1x
 
 # TSX
 
@@ -143,7 +144,8 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- TLO.TO (TALON METALS CORP.): +5.2% today at 5.04, last 30m +1.2%, volume pace 4.42x, rising since 2026-11-24T18:25:00+00:00
+- BNKR.TO (BUNKER HILL MINING CORP): +6.3% today at 1.68, last 30m +2.4%, volume pace 1.76x, rising since 2026-11-24T18:40:00+00:00
+- CLCH.TO (CLINCH RESOURCES LTD): +4.8% today at 0.87, last 30m +6.1%, volume pace 1.81x, rising since 2026-11-24T18:55:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -161,12 +163,12 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 ## TSX: top gainers in latest intraday pass
 
 - CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +18.4% at 0.29, volume pace 0.71x
+- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +17.1% at 0.24, volume pace 0.56x
 - PNE.TO (PINE CLIFF ENERGY LTD): +8.0% at 0.54, volume pace 8.32x
-- TLO.TO (TALON METALS CORP.): +5.2% at 5.04, volume pace 4.42x
+- BNKR.TO (BUNKER HILL MINING CORP): +6.3% at 1.68, volume pace 1.76x
+- TLO.TO (TALON METALS CORP.): +5.2% at 5.04, volume pace 4.05x
+- CLCH.TO (CLINCH RESOURCES LTD): +4.8% at 0.87, volume pace 1.81x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +4.4% at 2.59, volume pace 1.07x
 - AMAP.TO (AMAPA MINERALS HOLDINGS INC): +4.3% at 0.72, volume pace 0.16x
-- BNKR.TO (BUNKER HILL MINING CORP): +3.8% at 1.64, volume pace 1.49x
-- PRQ.TO (PETRUS RESOURCES LTD): +3.7% at 1.7, volume pace 1.55x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +3.6% at 2.57, volume pace 0.89x
-- SXP.TO (SUPREMEX INC.): +3.5% at 3.0, volume pace 1.84x
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +3.3% at 5.93, volume pace 0.83x
-- ARN.TO (ASARIAN ENERGY LIMITED): +3.2% at 0.32, volume pace 0.27x
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +4.2% at 5.98, volume pace 0.83x
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): +4.2% at 0.25, volume pace 1.54x
