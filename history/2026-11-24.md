@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-24T08:01-07:00
+# Stock feed — 2026-11-24T08:31-07:00
 
-Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-23. Intraday data as of: 2026-11-24T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-23. Intraday data as of: 2026-11-24T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 712.63 on 2026-11-23 (day +3.7%, month -13.2%, year -16.1%, downtrend); live -1.4% at 15:05
-Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year +14.0%, downtrend); live +0.1% at 15:05
+Market: S&P/TSX Venture Composite 712.63 on 2026-11-23 (day +3.7%, month -13.2%, year -16.1%, downtrend); live -2.3% at 15:35
+Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year +14.0%, downtrend); live -0.5% at 15:35
 
 # TSX Venture
 
@@ -77,11 +77,7 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ROCK.V (TRIDENT RESOURCES CORP): +17.7% today at 3.39, last 30m +7.6%, volume pace 28.24x, rising since 2026-11-24T14:45:00+00:00
-- DMX.V (DISTRICT METALS CORP): +9.5% today at 0.345, last 30m +4.5%, volume pace 7.0x, rising since 2026-11-24T14:45:00+00:00
-- OML.V (OMNI-LITE INDUSTRIES CANADA INC): +4.4% today at 3.29, last 30m +4.1%, volume pace 4.5x, rising since 2026-11-24T14:40:00+00:00
-- SALT.V (ATLAS SALT INC): +3.8% today at 1.23, last 30m +1.6%, volume pace 1.91x, rising since 2026-11-24T15:00:00+00:00
-- MLP.V (MILLENNIAL POTASH CORP): +3.1% today at 2.02, last 30m +2.0%, volume pace 3.16x, rising since 2026-11-24T14:55:00+00:00
+- OML.V (OMNI-LITE INDUSTRIES CANADA INC): +4.8% today at 3.3, last 30m +0.3%, volume pace 3.36x, rising since 2026-11-24T14:40:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -100,14 +96,14 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 - PURO.V (PLATAURO METALS CORP): +33.3% at 0.08, volume pace 0.0x
 - NSU.V (NORTH SHORE URANIUM LTD): +20.8% at 0.145, volume pace 0.0x
-- EVER.V (EVERGOLD CORP): +20.0% at 0.15, volume pace 6.58x
-- ROCK.V (TRIDENT RESOURCES CORP): +17.7% at 3.39, volume pace 28.24x
+- ROCK.V (TRIDENT RESOURCES CORP): +17.0% at 3.37, volume pace 14.9x
+- VRR.V (VR RESOURCES LTD): +14.3% at 0.32, volume pace 7.0x
 - SMN.V (SUN SUMMIT MINERALS CORP): +13.3% at 0.085, volume pace 0.15x
+- SGC.V (SOLSTICE GOLD CORP): +13.3% at 0.085, volume pace 0.0x
 - TWR.V (TOWER RESOURCES LTD): +13.0% at 0.13, volume pace 0.0x
-- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +12.5% at 0.09, volume pace 8.22x
+- MANU.V (MANHATTAN URANIUM DISCOVERY COR): +12.5% at 0.09, volume pace 5.48x
+- EVER.V (EVERGOLD CORP): +12.0% at 0.14, volume pace 5.84x
 - LBNK.V (LITHIUMBANK RESOURCES CORP): +11.7% at 0.335, volume pace 0.0x
-- PALS.V (PARAGON ADVANCED LABS INC): +11.1% at 1.9, volume pace 0.0x
-- VRR.V (VR RESOURCES LTD): +10.7% at 0.31, volume pace 6.82x
 
 # TSX
 
@@ -145,9 +141,8 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +10.4% today at 3.17, last 30m +3.6%, volume pace 4.23x, rising since 2026-11-24T14:45:00+00:00
-- TLO.TO (TALON METALS CORP.): +7.7% today at 5.16, last 30m +1.5%, volume pace 4.61x, rising since 2026-11-24T14:50:00+00:00
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +3.2% today at 2.56, last 30m +1.6%, volume pace 5.21x, rising since 2026-11-24T14:40:00+00:00
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +4.0% today at 2.58, last 30m +0.8%, volume pace 4.52x, rising since 2026-11-24T14:40:00+00:00
+- SXP.TO (SUPREMEX INC.): +3.5% today at 3.0, last 30m +2.0%, volume pace 2.09x, rising since 2026-11-24T15:10:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -164,13 +159,13 @@ Market: S&P/TSX Composite 34,082.12 on 2026-11-23 (day +2.7%, month -4.8%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +16.3% at 0.285, volume pace 1.79x
-- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +10.4% at 3.17, volume pace 4.23x
-- TLO.TO (TALON METALS CORP.): +7.7% at 5.16, volume pace 4.61x
-- MDNA.TO (MEDICENNA THERAPEUTICS CORP): +7.3% at 0.22, volume pace 0.31x
-- NEXT.TO (NEXTSOURCE MATERIALS INC): +6.2% at 0.17, volume pace 1.61x
-- SXP.TO (SUPREMEX INC.): +4.8% at 3.04, volume pace 0.08x
-- FURY.TO (FURY GOLD MINES LIMITED): +3.7% at 0.56, volume pace 0.52x
-- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +3.2% at 2.56, volume pace 5.21x
-- IMP.TO (INTERMAP TECHNOLOGIES CORPORATI): +3.1% at 0.67, volume pace 0.0x
-- LOVE.TO (CANNARA BIOTECH INC): +3.0% at 2.07, volume pace 1.39x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +10.2% at 0.27, volume pace 1.06x
+- NEXT.TO (NEXTSOURCE MATERIALS INC): +6.2% at 0.17, volume pace 2.01x
+- IMP.TO (INTERMAP TECHNOLOGIES CORPORATI): +6.2% at 0.69, volume pace 0.62x
+- COPR.TO (COPPERNICO METALS INC): +5.7% at 0.28, volume pace 0.0x
+- TLO.TO (TALON METALS CORP.): +5.4% at 5.05, volume pace 4.16x
+- ARN.TO (ASARIAN ENERGY LIMITED): +4.8% at 0.325, volume pace 0.0x
+- XNDU.TO (XANADU QUANTUM TECHNOLOGIES LIM): +4.2% at 2.99, volume pace 3.16x
+- DCM.TO (DATA COMMUNICATIONS MGMT CORP): +4.0% at 2.58, volume pace 4.52x
+- PRQ.TO (PETRUS RESOURCES LTD): +3.7% at 1.7, volume pace 1.22x
+- SXP.TO (SUPREMEX INC.): +3.5% at 3.0, volume pace 2.09x
