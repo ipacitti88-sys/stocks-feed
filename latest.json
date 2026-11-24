@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T10:01-07:00",
+ "generated": "2026-11-24T10:31-07:00",
  "last_close_day": "2026-11-23",
  "tracked": 725,
  "tracked_by_market": {
@@ -355,29 +355,29 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-24T17:05:00+00:00",
+ "live_as_of": "2026-11-24T17:35:00+00:00",
  "rising": [
   {
    "ticker": "ROCK.V",
    "name": "TRIDENT RESOURCES CORP",
-   "as_of": "2026-11-24T17:00:00+00:00",
-   "last": 3.27,
-   "pct_day": 13.54,
-   "pct_30m": 0.31,
-   "volume_pace": 7.64,
+   "as_of": "2026-11-24T17:30:00+00:00",
+   "last": 3.29,
+   "pct_day": 14.24,
+   "pct_30m": 0.61,
+   "volume_pace": 6.59,
    "rising": true,
-   "rising_since": "2026-11-24T17:00:00+00:00"
+   "rising_since": "2026-11-24T17:25:00+00:00"
   },
   {
-   "ticker": "PNE.TO",
-   "name": "PINE CLIFF ENERGY LTD",
-   "as_of": "2026-11-24T16:45:00+00:00",
-   "last": 0.55,
-   "pct_day": 10.0,
-   "pct_30m": 1.85,
-   "volume_pace": 8.3,
+   "ticker": "SALT.V",
+   "name": "ATLAS SALT INC",
+   "as_of": "2026-11-24T17:30:00+00:00",
+   "last": 1.25,
+   "pct_day": 5.49,
+   "pct_30m": 1.21,
+   "volume_pace": 2.18,
    "rising": true,
-   "rising_since": "2026-11-24T16:35:00+00:00"
+   "rising_since": "2026-11-24T16:50:00+00:00"
   },
   {
    "ticker": "PRQ.TO",
@@ -386,31 +386,9 @@
    "last": 1.72,
    "pct_day": 4.88,
    "pct_30m": 0.58,
-   "volume_pace": 1.69,
+   "volume_pace": 1.7,
    "rising": true,
    "rising_since": "2026-11-24T15:40:00+00:00"
-  },
-  {
-   "ticker": "SALT.V",
-   "name": "ATLAS SALT INC",
-   "as_of": "2026-11-24T16:50:00+00:00",
-   "last": 1.235,
-   "pct_day": 4.22,
-   "pct_30m": 0.41,
-   "volume_pace": 2.7,
-   "rising": true,
-   "rising_since": "2026-11-24T16:50:00+00:00"
-  },
-  {
-   "ticker": "XNDU.TO",
-   "name": "XANADU QUANTUM TECHNOLOGIES LIM",
-   "as_of": "2026-11-24T17:05:00+00:00",
-   "last": 2.98,
-   "pct_day": 3.83,
-   "pct_30m": 1.53,
-   "volume_pace": 3.5,
-   "rising": true,
-   "rising_since": "2026-11-24T16:40:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -461,35 +439,24 @@
   {
    "ticker": "TSG.V",
    "name": "TRISTAR GOLD INC.",
-   "as_of": "2026-11-24T17:00:00+00:00",
+   "as_of": "2026-11-24T17:20:00+00:00",
    "last": 0.14,
    "pct_day": 16.67,
-   "pct_30m": 9.8,
-   "volume_pace": 2.48,
+   "pct_30m": 3.7,
+   "volume_pace": 2.26,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ROCK.V",
    "name": "TRIDENT RESOURCES CORP",
-   "as_of": "2026-11-24T17:00:00+00:00",
-   "last": 3.27,
-   "pct_day": 13.54,
-   "pct_30m": 0.31,
-   "volume_pace": 7.64,
+   "as_of": "2026-11-24T17:30:00+00:00",
+   "last": 3.29,
+   "pct_day": 14.24,
+   "pct_30m": 0.61,
+   "volume_pace": 6.59,
    "rising": true,
-   "rising_since": "2026-11-24T17:00:00+00:00"
-  },
-  {
-   "ticker": "ZAU.V",
-   "name": "ZODIAC GOLD INC",
-   "as_of": "2026-11-24T16:20:00+00:00",
-   "last": 0.295,
-   "pct_day": 13.46,
-   "pct_30m": 1.72,
-   "volume_pace": 0.65,
-   "rising": false,
-   "rising_since": null
+   "rising_since": "2026-11-24T17:25:00+00:00"
   },
   {
    "ticker": "SGC.V",
@@ -498,7 +465,7 @@
    "last": 0.085,
    "pct_day": 13.33,
    "pct_30m": 0.0,
-   "volume_pace": 1.57,
+   "volume_pace": 1.66,
    "rising": false,
    "rising_since": null
   },
@@ -514,13 +481,24 @@
    "rising_since": null
   },
   {
-   "ticker": "LPS.V",
-   "name": "LEGEND POWER SYSTEMS INC.",
-   "as_of": "2026-11-24T16:10:00+00:00",
-   "last": 0.095,
-   "pct_day": 11.76,
-   "pct_30m": -5.0,
-   "volume_pace": 4.11,
+   "ticker": "TG.V",
+   "name": "TRIFECTA GOLD LTD",
+   "as_of": "2026-11-24T17:30:00+00:00",
+   "last": 0.09,
+   "pct_day": 12.5,
+   "pct_30m": 12.5,
+   "volume_pace": 2.69,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SBMI.V",
+   "name": "SILVER BULLET MINES CORP",
+   "as_of": "2026-11-24T14:50:00+00:00",
+   "last": 0.1,
+   "pct_day": 11.11,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -538,22 +516,11 @@
   {
    "ticker": "PNE.TO",
    "name": "PINE CLIFF ENERGY LTD",
-   "as_of": "2026-11-24T16:45:00+00:00",
-   "last": 0.55,
-   "pct_day": 10.0,
-   "pct_30m": 1.85,
-   "volume_pace": 8.3,
-   "rising": true,
-   "rising_since": "2026-11-24T16:35:00+00:00"
-  },
-  {
-   "ticker": "TLO.TO",
-   "name": "TALON METALS CORP.",
-   "as_of": "2026-11-24T17:00:00+00:00",
-   "last": 5.06,
-   "pct_day": 5.64,
-   "pct_30m": -0.78,
-   "volume_pace": 3.13,
+   "as_of": "2026-11-24T17:25:00+00:00",
+   "last": 0.545,
+   "pct_day": 9.0,
+   "pct_30m": -0.91,
+   "volume_pace": 8.49,
    "rising": false,
    "rising_since": null
   },
@@ -564,31 +531,64 @@
    "last": 1.72,
    "pct_day": 4.88,
    "pct_30m": 0.58,
-   "volume_pace": 1.69,
+   "volume_pace": 1.7,
    "rising": true,
    "rising_since": "2026-11-24T15:40:00+00:00"
   },
   {
-   "ticker": "DCM.TO",
-   "name": "DATA COMMUNICATIONS MGMT CORP",
-   "as_of": "2026-11-24T16:15:00+00:00",
-   "last": 2.58,
-   "pct_day": 4.03,
-   "pct_30m": 0.0,
-   "volume_pace": 1.74,
+   "ticker": "MDNA.TO",
+   "name": "MEDICENNA THERAPEUTICS CORP",
+   "as_of": "2026-11-24T17:05:00+00:00",
+   "last": 0.215,
+   "pct_day": 4.88,
+   "pct_30m": 4.88,
+   "volume_pace": 0.59,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "XNDU.TO",
-   "name": "XANADU QUANTUM TECHNOLOGIES LIM",
-   "as_of": "2026-11-24T17:05:00+00:00",
-   "last": 2.98,
-   "pct_day": 3.83,
-   "pct_30m": 1.53,
-   "volume_pace": 3.5,
-   "rising": true,
-   "rising_since": "2026-11-24T16:40:00+00:00"
+   "ticker": "AMAP.TO",
+   "name": "AMAPA MINERALS HOLDINGS INC",
+   "as_of": "2026-11-24T17:15:00+00:00",
+   "last": 0.72,
+   "pct_day": 4.35,
+   "pct_30m": 2.86,
+   "volume_pace": 0.12,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MDP.TO",
+   "name": "MEDEXUS PHARMACEUTICALS INC",
+   "as_of": "2026-11-24T17:30:00+00:00",
+   "last": 5.95,
+   "pct_day": 3.66,
+   "pct_30m": 0.34,
+   "volume_pace": 0.96,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "DCM.TO",
+   "name": "DATA COMMUNICATIONS MGMT CORP",
+   "as_of": "2026-11-24T17:25:00+00:00",
+   "last": 2.57,
+   "pct_day": 3.63,
+   "pct_30m": -0.39,
+   "volume_pace": 1.05,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TLO.TO",
+   "name": "TALON METALS CORP.",
+   "as_of": "2026-11-24T17:35:00+00:00",
+   "last": 4.96,
+   "pct_day": 3.55,
+   "pct_30m": -1.39,
+   "volume_pace": 5.7,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "SXP.TO",
@@ -602,17 +602,6 @@
    "rising_since": null
   },
   {
-   "ticker": "MDP.TO",
-   "name": "MEDEXUS PHARMACEUTICALS INC",
-   "as_of": "2026-11-24T17:00:00+00:00",
-   "last": 5.93,
-   "pct_day": 3.31,
-   "pct_30m": -0.34,
-   "volume_pace": 1.08,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "ARN.TO",
    "name": "ASARIAN ENERGY LIMITED",
    "as_of": "2026-11-24T16:35:00+00:00",
@@ -620,17 +609,6 @@
    "pct_day": 3.23,
    "pct_30m": -1.54,
    "volume_pace": 0.27,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "HAI.TO",
-   "name": "HAIVISION SYSTEMS INC",
-   "as_of": "2026-11-24T16:55:00+00:00",
-   "last": 3.64,
-   "pct_day": 2.25,
-   "pct_30m": 1.11,
-   "volume_pace": 0.07,
    "rising": false,
    "rising_since": null
   }
@@ -1232,9 +1210,9 @@
    "ma200": 941.42,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T17:05:00+00:00",
-    "last": 687.7,
-    "pct_day": -3.5
+    "as_of": "2026-11-24T17:35:00+00:00",
+    "last": 689.39,
+    "pct_day": -3.26
    }
   },
   "^GSPTSE": {
@@ -1833,9 +1811,9 @@
    "ma200": 34795.31,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-24T17:05:00+00:00",
-    "last": 33930.85,
-    "pct_day": -0.44
+    "as_of": "2026-11-24T17:35:00+00:00",
+    "last": 33990.65,
+    "pct_day": -0.27
    }
   }
  },
