@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-25T14:01-07:00
+# Stock feed — 2026-11-25T14:06-07:00
 
 Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-24. Intraday data as of: 2026-11-25T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -124,7 +124,6 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 - AEC.V (ANFIELD ENERGY INC): +7.1% today at 3.45, last 30m +1.5%, volume pace 6.79x, rising since 2026-11-25T20:20:00+00:00
 - FPC.V (FALCO RESOURCES LTD): +6.7% today at 0.4, last 30m +1.3%, volume pace 1.54x, rising since 2026-11-25T21:00:00+00:00
 - CGNT.V (COPPER GIANT RESOURCES CORP): +6.6% today at 0.65, last 30m +1.6%, volume pace 1.63x, rising since 2026-11-25T20:05:00+00:00
-- SEI.V (SINTANA ENERGY INC): +5.3% today at 0.3, last 30m +3.5%, volume pace 1.96x, rising since 2026-11-25T19:10:00+00:00
 - SOMA.V (SOMA GOLD CORP): +4.9% today at 0.43, last 30m +3.6%, volume pace 1.77x, rising since 2026-11-25T20:35:00+00:00
 - WHN.V (WESTHAVEN GOLD CORP): +4.8% today at 0.22, last 30m +4.8%, volume pace 2.39x, rising since 2026-11-25T20:30:00+00:00
 
@@ -147,12 +146,12 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 - FMAN.V (FREEMAN GOLD CORP): +35.1% at 0.25, volume pace 5.51x
 - FUU.V (F3 URANIUM CORP): +25.0% at 0.075, volume pace 1.76x
 - PURO.V (PLATAURO METALS CORP): +25.0% at 0.075, volume pace 0.0x
-- BEEP.V (GEIGER ENERGY CORPORATION): +21.7% at 0.14, volume pace 1.06x
 - KTN.V (KOOTENAY SILVER INC): +21.7% at 0.73, volume pace 1.96x
 - SVE.V (SILVER ONE RESOURCES INC): +21.6% at 0.45, volume pace 1.08x
 - SSV.V (SOUTHERN SILVER EXPLORATION COR): +21.1% at 0.315, volume pace 2.85x
 - IGO.V (INDEPENDENCE GOLD CORP): +20.0% at 0.12, volume pace 1.33x
 - YARR.V (PIRATE GOLD CORP): +20.0% at 0.12, volume pace 2.71x
+- SOI.V (Sirios Resources Inc.): +19.1% at 0.14, volume pace 1.17x
 
 # TSX
 

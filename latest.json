@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T14:01-07:00",
+ "generated": "2026-11-25T14:06-07:00",
  "last_close_day": "2026-11-24",
  "tracked": 725,
  "tracked_by_market": {
@@ -615,17 +615,6 @@
    "rising_since": "2026-11-25T21:00:00+00:00"
   },
   {
-   "ticker": "SEI.V",
-   "name": "SINTANA ENERGY INC",
-   "as_of": "2026-11-25T19:10:00+00:00",
-   "last": 0.3,
-   "pct_day": 5.26,
-   "pct_30m": 3.45,
-   "volume_pace": 1.96,
-   "rising": true,
-   "rising_since": "2026-11-25T19:10:00+00:00"
-  },
-  {
    "ticker": "SOMA.V",
    "name": "SOMA GOLD CORP",
    "as_of": "2026-11-25T20:45:00+00:00",
@@ -727,17 +716,6 @@
    "rising_since": null
   },
   {
-   "ticker": "BEEP.V",
-   "name": "GEIGER ENERGY CORPORATION",
-   "as_of": "2026-11-25T19:35:00+00:00",
-   "last": 0.14,
-   "pct_day": 21.74,
-   "pct_30m": 16.67,
-   "volume_pace": 1.06,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "KTN.V",
    "name": "KOOTENAY SILVER INC",
    "as_of": "2026-11-25T21:00:00+00:00",
@@ -789,6 +767,17 @@
    "pct_day": 20.0,
    "pct_30m": 9.09,
    "volume_pace": 2.71,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SOI.V",
+   "name": "Sirios Resources Inc.",
+   "as_of": "2026-11-25T20:25:00+00:00",
+   "last": 0.14,
+   "pct_day": 19.15,
+   "pct_30m": 7.69,
+   "volume_pace": 1.17,
    "rising": false,
    "rising_since": null
   },
