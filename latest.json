@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T09:01-07:00",
+ "generated": "2026-11-25T09:31-07:00",
  "last_close_day": "2026-11-24",
  "tracked": 725,
  "tracked_by_market": {
@@ -370,20 +370,8 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-25T16:05:00+00:00",
- "rising": [
-  {
-   "ticker": "ADE.V",
-   "name": "ADEX MINING INC.",
-   "as_of": "2026-11-25T15:50:00+00:00",
-   "last": 0.18,
-   "pct_day": 12.5,
-   "pct_30m": 20.0,
-   "volume_pace": 2.72,
-   "rising": true,
-   "rising_since": "2026-11-25T15:50:00+00:00"
-  }
- ],
+ "live_as_of": "2026-11-25T16:35:00+00:00",
+ "rising": [],
  "top_gainers_today": [
   {
    "ticker": "PURO.V",
@@ -393,6 +381,17 @@
    "pct_day": 25.0,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PWER.V",
+   "name": "GLOBAL POWER SOLUTIONS CORP",
+   "as_of": "2026-11-25T16:05:00+00:00",
+   "last": 0.13,
+   "pct_day": 18.18,
+   "pct_30m": 8.33,
+   "volume_pace": 0.16,
    "rising": false,
    "rising_since": null
   },
@@ -425,7 +424,18 @@
    "last": 0.115,
    "pct_day": 15.0,
    "pct_30m": 4.55,
-   "volume_pace": 3.09,
+   "volume_pace": 3.11,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PGDC.V",
+   "name": "PATAGONIA GOLD CORP",
+   "as_of": "2026-11-25T16:30:00+00:00",
+   "last": 0.27,
+   "pct_day": 14.89,
+   "pct_30m": 12.5,
+   "volume_pace": 3.12,
    "rising": false,
    "rising_since": null
   },
@@ -463,17 +473,6 @@
    "rising_since": null
   },
   {
-   "ticker": "ADE.V",
-   "name": "ADEX MINING INC.",
-   "as_of": "2026-11-25T15:50:00+00:00",
-   "last": 0.18,
-   "pct_day": 12.5,
-   "pct_30m": 20.0,
-   "volume_pace": 2.72,
-   "rising": true,
-   "rising_since": "2026-11-25T15:50:00+00:00"
-  },
-  {
    "ticker": "AUGC.V",
    "name": "AU GOLD CORP",
    "as_of": "2026-11-25T14:35:00+00:00",
@@ -485,46 +484,35 @@
    "rising_since": null
   },
   {
-   "ticker": "FRLX.V",
-   "name": "Feral X Systems Inc.",
-   "as_of": "2026-11-25T14:35:00+00:00",
-   "last": 0.4,
-   "pct_day": 11.11,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-25T16:00:00+00:00",
+   "as_of": "2026-11-25T16:25:00+00:00",
    "last": 0.35,
    "pct_day": 16.67,
    "pct_30m": 1.45,
-   "volume_pace": 5.03,
+   "volume_pace": 4.14,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "FURY.TO",
    "name": "FURY GOLD MINES LIMITED",
-   "as_of": "2026-11-25T16:00:00+00:00",
-   "last": 0.56,
-   "pct_day": 5.66,
-   "pct_30m": 1.82,
-   "volume_pace": 1.93,
+   "as_of": "2026-11-25T16:05:00+00:00",
+   "last": 0.55,
+   "pct_day": 3.77,
+   "pct_30m": 0.0,
+   "volume_pace": 2.87,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "S.TO",
    "name": "SHERRITT INTL RV",
-   "as_of": "2026-11-25T14:45:00+00:00",
+   "as_of": "2026-11-25T16:30:00+00:00",
    "last": 0.16,
    "pct_day": 3.23,
-   "pct_30m": -3.03,
-   "volume_pace": 0.84,
+   "pct_30m": 0.0,
+   "volume_pace": 0.22,
    "rising": false,
    "rising_since": null
   },
@@ -540,46 +528,46 @@
    "rising_since": null
   },
   {
-   "ticker": "GMX.TO",
-   "name": "GLOBEX MINING ENTERPRISES INC",
-   "as_of": "2026-11-25T15:50:00+00:00",
-   "last": 1.62,
-   "pct_day": 3.18,
-   "pct_30m": 0.0,
-   "volume_pace": 3.78,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "HAI.TO",
    "name": "HAIVISION SYSTEMS INC",
    "as_of": "2026-11-25T15:40:00+00:00",
    "last": 3.7,
    "pct_day": 2.78,
    "pct_30m": 0.54,
-   "volume_pace": 0.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ALYA.TO",
-   "name": "ALITHYA GROUP INC",
-   "as_of": "2026-11-25T15:30:00+00:00",
-   "last": 0.93,
-   "pct_day": 2.2,
-   "pct_30m": 8.14,
-   "volume_pace": 0.48,
+   "volume_pace": 0.05,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TSND.TO",
    "name": "TERRASCEND CORP",
-   "as_of": "2026-11-25T15:50:00+00:00",
+   "as_of": "2026-11-25T16:30:00+00:00",
    "last": 0.495,
    "pct_day": 2.06,
-   "pct_30m": -1.0,
-   "volume_pace": 0.22,
+   "pct_30m": 0.0,
+   "volume_pace": 0.42,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ILLM.TO",
+   "name": "iLLUMIN HOLDINGS INC",
+   "as_of": "2026-11-25T16:05:00+00:00",
+   "last": 0.5,
+   "pct_day": 2.04,
+   "pct_30m": 0.0,
+   "volume_pace": 1.25,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GMX.TO",
+   "name": "GLOBEX MINING ENTERPRISES INC",
+   "as_of": "2026-11-25T16:30:00+00:00",
+   "last": 1.6,
+   "pct_day": 1.91,
+   "pct_30m": -1.23,
+   "volume_pace": 2.54,
    "rising": false,
    "rising_since": null
   },
@@ -595,13 +583,13 @@
    "rising_since": null
   },
   {
-   "ticker": "ESI.TO",
-   "name": "ENSIGN ENERGY SERVICES INC.",
-   "as_of": "2026-11-25T16:00:00+00:00",
-   "last": 4.02,
-   "pct_day": 1.52,
-   "pct_30m": 0.0,
-   "volume_pace": 0.8,
+   "ticker": "CADY.TO",
+   "name": "CADILLAC MINES CORPORATION",
+   "as_of": "2026-11-25T16:30:00+00:00",
+   "last": 3.31,
+   "pct_day": 1.53,
+   "pct_30m": 2.16,
+   "volume_pace": 2.04,
    "rising": false,
    "rising_since": null
   }
@@ -1203,9 +1191,9 @@
    "ma200": 939.79,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T16:05:00+00:00",
-    "last": 671.64,
-    "pct_day": -2.74
+    "as_of": "2026-11-25T16:35:00+00:00",
+    "last": 673.93,
+    "pct_day": -2.41
    }
   },
   "^GSPTSE": {
@@ -1804,9 +1792,9 @@
    "ma200": 34802.77,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T16:05:00+00:00",
-    "last": 33460.8,
-    "pct_day": -1.48
+    "as_of": "2026-11-25T16:35:00+00:00",
+    "last": 33531.97,
+    "pct_day": -1.27
    }
   }
  },
