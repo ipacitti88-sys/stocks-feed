@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T09:31-07:00",
+ "generated": "2026-11-25T10:01-07:00",
  "last_close_day": "2026-11-24",
  "tracked": 725,
  "tracked_by_market": {
@@ -370,7 +370,7 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-25T16:35:00+00:00",
+ "live_as_of": "2026-11-25T17:05:00+00:00",
  "rising": [],
  "top_gainers_today": [
   {
@@ -418,57 +418,57 @@
    "rising_since": null
   },
   {
+   "ticker": "NOAL.V",
+   "name": "NOA LITHIUM BRINES INC",
+   "as_of": "2026-11-25T16:55:00+00:00",
+   "last": 0.22,
+   "pct_day": 15.79,
+   "pct_30m": 2.33,
+   "volume_pace": 0.39,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FHR.V",
+   "name": "FIDDLEHEAD RESOURCES CORP",
+   "as_of": "2026-11-25T16:30:00+00:00",
+   "last": 0.075,
+   "pct_day": 15.38,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "IGO.V",
    "name": "INDEPENDENCE GOLD CORP",
-   "as_of": "2026-11-25T16:00:00+00:00",
+   "as_of": "2026-11-25T17:00:00+00:00",
    "last": 0.115,
    "pct_day": 15.0,
-   "pct_30m": 4.55,
-   "volume_pace": 3.11,
+   "pct_30m": 0.0,
+   "volume_pace": 1.88,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "PGDC.V",
    "name": "PATAGONIA GOLD CORP",
-   "as_of": "2026-11-25T16:30:00+00:00",
+   "as_of": "2026-11-25T17:00:00+00:00",
    "last": 0.27,
    "pct_day": 14.89,
-   "pct_30m": 12.5,
-   "volume_pace": 3.12,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AUAU.V",
-   "name": "A2 GOLD CORP",
-   "as_of": "2026-11-25T14:45:00+00:00",
-   "last": 0.245,
-   "pct_day": 13.95,
    "pct_30m": 0.0,
-   "volume_pace": 0.18,
+   "volume_pace": 2.56,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "NOAL.V",
-   "name": "NOA LITHIUM BRINES INC",
-   "as_of": "2026-11-25T15:35:00+00:00",
-   "last": 0.215,
-   "pct_day": 13.16,
-   "pct_30m": 2.38,
-   "volume_pace": 0.87,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "VM.V",
-   "name": "VOYAGEUR PHARMACEUTICALS LTD",
-   "as_of": "2026-11-25T15:05:00+00:00",
-   "last": 0.13,
-   "pct_day": 13.04,
-   "pct_30m": 13.04,
-   "volume_pace": 9.31,
+   "ticker": "CGM.V",
+   "name": "CANADIAN GOLDFIELDS DISCOVERY C",
+   "as_of": "2026-11-25T16:50:00+00:00",
+   "last": 0.125,
+   "pct_day": 13.64,
+   "pct_30m": 8.7,
+   "volume_pace": 0.53,
    "rising": false,
    "rising_since": null
   },
@@ -486,11 +486,33 @@
   {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-25T16:25:00+00:00",
-   "last": 0.35,
-   "pct_day": 16.67,
-   "pct_30m": 1.45,
-   "volume_pace": 4.14,
+   "as_of": "2026-11-25T16:50:00+00:00",
+   "last": 0.34,
+   "pct_day": 13.33,
+   "pct_30m": -2.86,
+   "volume_pace": 3.54,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "FT.TO",
+   "name": "FORTUNE MNRL J",
+   "as_of": "2026-11-25T16:50:00+00:00",
+   "last": 0.07,
+   "pct_day": 7.69,
+   "pct_30m": 7.69,
+   "volume_pace": 0.54,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AMC.TO",
+   "name": "ARIZONA METALS CORP",
+   "as_of": "2026-11-25T17:00:00+00:00",
+   "last": 0.125,
+   "pct_day": 4.17,
+   "pct_30m": 4.17,
+   "volume_pace": 2.99,
    "rising": false,
    "rising_since": null
   },
@@ -508,11 +530,11 @@
   {
    "ticker": "S.TO",
    "name": "SHERRITT INTL RV",
-   "as_of": "2026-11-25T16:30:00+00:00",
+   "as_of": "2026-11-25T17:00:00+00:00",
    "last": 0.16,
    "pct_day": 3.23,
    "pct_30m": 0.0,
-   "volume_pace": 0.22,
+   "volume_pace": 0.18,
    "rising": false,
    "rising_since": null
   },
@@ -528,35 +550,35 @@
    "rising_since": null
   },
   {
-   "ticker": "HAI.TO",
-   "name": "HAIVISION SYSTEMS INC",
-   "as_of": "2026-11-25T15:40:00+00:00",
-   "last": 3.7,
-   "pct_day": 2.78,
-   "pct_30m": 0.54,
-   "volume_pace": 0.05,
+   "ticker": "SAM.TO",
+   "name": "STARCORE INTERNATIONAL MINES LT",
+   "as_of": "2026-11-25T16:55:00+00:00",
+   "last": 0.245,
+   "pct_day": 2.08,
+   "pct_30m": 2.08,
+   "volume_pace": 0.95,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "TSND.TO",
    "name": "TERRASCEND CORP",
-   "as_of": "2026-11-25T16:30:00+00:00",
+   "as_of": "2026-11-25T17:00:00+00:00",
    "last": 0.495,
    "pct_day": 2.06,
    "pct_30m": 0.0,
-   "volume_pace": 0.42,
+   "volume_pace": 0.68,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ILLM.TO",
-   "name": "iLLUMIN HOLDINGS INC",
-   "as_of": "2026-11-25T16:05:00+00:00",
-   "last": 0.5,
-   "pct_day": 2.04,
-   "pct_30m": 0.0,
-   "volume_pace": 1.25,
+   "ticker": "EDT.TO",
+   "name": "SPECTRAL MEDICAL INC",
+   "as_of": "2026-11-25T16:35:00+00:00",
+   "last": 1.04,
+   "pct_day": 1.96,
+   "pct_30m": 0.97,
+   "volume_pace": 0.02,
    "rising": false,
    "rising_since": null
   },
@@ -567,29 +589,7 @@
    "last": 1.6,
    "pct_day": 1.91,
    "pct_30m": -1.23,
-   "volume_pace": 2.54,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PNE.TO",
-   "name": "PINE CLIFF ENERGY LTD",
-   "as_of": "2026-11-25T15:00:00+00:00",
-   "last": 0.54,
-   "pct_day": 1.89,
-   "pct_30m": -1.82,
-   "volume_pace": 1.29,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "CADY.TO",
-   "name": "CADILLAC MINES CORPORATION",
-   "as_of": "2026-11-25T16:30:00+00:00",
-   "last": 3.31,
-   "pct_day": 1.53,
-   "pct_30m": 2.16,
-   "volume_pace": 2.04,
+   "volume_pace": 2.61,
    "rising": false,
    "rising_since": null
   }
@@ -1191,9 +1191,9 @@
    "ma200": 939.79,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T16:35:00+00:00",
-    "last": 673.93,
-    "pct_day": -2.41
+    "as_of": "2026-11-25T17:05:00+00:00",
+    "last": 676.55,
+    "pct_day": -2.03
    }
   },
   "^GSPTSE": {
@@ -1792,9 +1792,9 @@
    "ma200": 34802.77,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T16:35:00+00:00",
-    "last": 33531.97,
-    "pct_day": -1.27
+    "as_of": "2026-11-25T17:05:00+00:00",
+    "last": 33574.73,
+    "pct_day": -1.14
    }
   }
  },

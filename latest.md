@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-25T09:31-07:00
+# Stock feed — 2026-11-25T10:01-07:00
 
-Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-24. Intraday data as of: 2026-11-25T16:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-24. Intraday data as of: 2026-11-25T17:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 690.59 on 2026-11-24 (day -3.1%, month -16.3%, year -19.2%, downtrend); live -2.4% at 16:35
-Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year +12.6%, downtrend); live -1.3% at 16:35
+Market: S&P/TSX Venture Composite 690.59 on 2026-11-24 (day -3.1%, month -16.3%, year -19.2%, downtrend); live -2.0% at 17:05
+Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year +12.6%, downtrend); live -1.1% at 17:05
 
 # TSX Venture
 
@@ -126,11 +126,11 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 - PWER.V (GLOBAL POWER SOLUTIONS CORP): +18.2% at 0.13, volume pace 0.16x
 - WGF.V (WESCAN GOLDFIELDS INC): +16.7% at 0.07, volume pace 1.14x
 - VML.V (VISCOUNT MINING CORP): +16.1% at 0.325, volume pace 0.8x
-- IGO.V (INDEPENDENCE GOLD CORP): +15.0% at 0.115, volume pace 3.11x
-- PGDC.V (PATAGONIA GOLD CORP): +14.9% at 0.27, volume pace 3.12x
-- AUAU.V (A2 GOLD CORP): +13.9% at 0.245, volume pace 0.18x
-- NOAL.V (NOA LITHIUM BRINES INC): +13.2% at 0.215, volume pace 0.87x
-- VM.V (VOYAGEUR PHARMACEUTICALS LTD): +13.0% at 0.13, volume pace 9.31x
+- NOAL.V (NOA LITHIUM BRINES INC): +15.8% at 0.22, volume pace 0.39x
+- FHR.V (FIDDLEHEAD RESOURCES CORP): +15.4% at 0.075, volume pace 0.0x
+- IGO.V (INDEPENDENCE GOLD CORP): +15.0% at 0.115, volume pace 1.88x
+- PGDC.V (PATAGONIA GOLD CORP): +14.9% at 0.27, volume pace 2.56x
+- CGM.V (CANADIAN GOLDFIELDS DISCOVERY C): +13.6% at 0.125, volume pace 0.53x
 - AUGC.V (AU GOLD CORP): +11.1% at 0.25, volume pace 0.0x
 
 # TSX
@@ -205,13 +205,13 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +16.7% at 0.35, volume pace 4.14x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +13.3% at 0.34, volume pace 3.54x
+- FT.TO (FORTUNE MNRL J): +7.7% at 0.07, volume pace 0.54x
+- AMC.TO (ARIZONA METALS CORP): +4.2% at 0.125, volume pace 2.99x
 - FURY.TO (FURY GOLD MINES LIMITED): +3.8% at 0.55, volume pace 2.87x
-- S.TO (SHERRITT INTL RV): +3.2% at 0.16, volume pace 0.22x
+- S.TO (SHERRITT INTL RV): +3.2% at 0.16, volume pace 0.18x
 - ELR.TO (EASTERN PLATINUM LIMITED): +3.2% at 0.16, volume pace 0.62x
-- HAI.TO (HAIVISION SYSTEMS INC): +2.8% at 3.7, volume pace 0.05x
-- TSND.TO (TERRASCEND CORP): +2.1% at 0.495, volume pace 0.42x
-- ILLM.TO (iLLUMIN HOLDINGS INC): +2.0% at 0.5, volume pace 1.25x
-- GMX.TO (GLOBEX MINING ENTERPRISES INC): +1.9% at 1.6, volume pace 2.54x
-- PNE.TO (PINE CLIFF ENERGY LTD): +1.9% at 0.54, volume pace 1.29x
-- CADY.TO (CADILLAC MINES CORPORATION): +1.5% at 3.31, volume pace 2.04x
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): +2.1% at 0.245, volume pace 0.95x
+- TSND.TO (TERRASCEND CORP): +2.1% at 0.495, volume pace 0.68x
+- EDT.TO (SPECTRAL MEDICAL INC): +2.0% at 1.04, volume pace 0.02x
+- GMX.TO (GLOBEX MINING ENTERPRISES INC): +1.9% at 1.6, volume pace 2.61x
