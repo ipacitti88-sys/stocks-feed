@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T08:01-07:00",
+ "generated": "2026-11-25T08:31-07:00",
  "last_close_day": "2026-11-24",
  "tracked": 725,
  "tracked_by_market": {
@@ -370,18 +370,18 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-25T15:05:00+00:00",
+ "live_as_of": "2026-11-25T15:35:00+00:00",
  "rising": [
   {
    "ticker": "PNG.V",
    "name": "KRAKEN ROBOTICS INC",
-   "as_of": "2026-11-25T15:05:00+00:00",
-   "last": 2.47,
-   "pct_day": 4.22,
-   "pct_30m": 1.65,
-   "volume_pace": 3.71,
+   "as_of": "2026-11-25T15:35:00+00:00",
+   "last": 2.48,
+   "pct_day": 4.64,
+   "pct_30m": 1.22,
+   "volume_pace": 2.83,
    "rising": true,
-   "rising_since": "2026-11-25T15:05:00+00:00"
+   "rising_since": "2026-11-25T15:10:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -397,24 +397,24 @@
    "rising_since": null
   },
   {
-   "ticker": "VML.V",
-   "name": "VISCOUNT MINING CORP",
-   "as_of": "2026-11-25T14:35:00+00:00",
-   "last": 0.345,
-   "pct_day": 23.21,
-   "pct_30m": 16.95,
-   "volume_pace": 0.24,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "WGF.V",
    "name": "WESCAN GOLDFIELDS INC",
    "as_of": "2026-11-25T14:50:00+00:00",
    "last": 0.07,
    "pct_day": 16.67,
    "pct_30m": 7.69,
-   "volume_pace": 0.9,
+   "volume_pace": 1.14,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VML.V",
+   "name": "VISCOUNT MINING CORP",
+   "as_of": "2026-11-25T15:30:00+00:00",
+   "last": 0.325,
+   "pct_day": 16.07,
+   "pct_30m": -5.8,
+   "volume_pace": 0.12,
    "rising": false,
    "rising_since": null
   },
@@ -425,40 +425,18 @@
    "last": 0.245,
    "pct_day": 13.95,
    "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ARCH.V",
-   "name": "ARCH BIOPARTNERS INC",
-   "as_of": "2026-11-25T14:35:00+00:00",
-   "last": 0.86,
-   "pct_day": 13.16,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 0.18,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "VM.V",
    "name": "VOYAGEUR PHARMACEUTICALS LTD",
-   "as_of": "2026-11-25T15:00:00+00:00",
+   "as_of": "2026-11-25T15:05:00+00:00",
    "last": 0.13,
    "pct_day": 13.04,
    "pct_30m": 13.04,
-   "volume_pace": 5.55,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PHNM.V",
-   "name": "PHENOM RESOURCES CORP",
-   "as_of": "2026-11-25T15:00:00+00:00",
-   "last": 0.275,
-   "pct_day": 12.24,
-   "pct_30m": 5.77,
-   "volume_pace": 2.24,
+   "volume_pace": 9.31,
    "rising": false,
    "rising_since": null
   },
@@ -496,35 +474,35 @@
    "rising_since": null
   },
   {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-25T14:55:00+00:00",
-   "last": 0.33,
-   "pct_day": 10.0,
-   "pct_30m": 8.2,
-   "volume_pace": 6.12,
+   "ticker": "ARCH.V",
+   "name": "ARCH BIOPARTNERS INC",
+   "as_of": "2026-11-25T15:05:00+00:00",
+   "last": 0.84,
+   "pct_day": 10.53,
+   "pct_30m": -2.33,
+   "volume_pace": 0.15,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "FT.TO",
-   "name": "FORTUNE MNRL J",
-   "as_of": "2026-11-25T14:50:00+00:00",
-   "last": 0.07,
-   "pct_day": 7.69,
-   "pct_30m": 0.0,
+   "ticker": "IGO.V",
+   "name": "INDEPENDENCE GOLD CORP",
+   "as_of": "2026-11-25T15:20:00+00:00",
+   "last": 0.11,
+   "pct_day": 10.0,
+   "pct_30m": 4.76,
    "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ELEF.TO",
-   "name": "SILVER ELEPHANT MINING CORPORAT",
-   "as_of": "2026-11-25T15:00:00+00:00",
-   "last": 0.235,
-   "pct_day": 6.82,
-   "pct_30m": 6.82,
-   "volume_pace": 0.17,
+   "ticker": "CWEB.TO",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "as_of": "2026-11-25T15:30:00+00:00",
+   "last": 0.345,
+   "pct_day": 15.0,
+   "pct_30m": 4.55,
+   "volume_pace": 7.41,
    "rising": false,
    "rising_since": null
   },
@@ -535,7 +513,7 @@
    "last": 0.55,
    "pct_day": 3.77,
    "pct_30m": 0.0,
-   "volume_pace": 0.16,
+   "volume_pace": 3.53,
    "rising": false,
    "rising_since": null
   },
@@ -546,29 +524,62 @@
    "last": 0.16,
    "pct_day": 3.23,
    "pct_30m": -3.03,
-   "volume_pace": 0.67,
+   "volume_pace": 0.84,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "CEMX.TO",
-   "name": "CEMATRIX",
-   "as_of": "2026-11-25T14:35:00+00:00",
-   "last": 0.46,
-   "pct_day": 2.22,
+   "ticker": "ELR.TO",
+   "name": "EASTERN PLATINUM LIMITED",
+   "as_of": "2026-11-25T15:25:00+00:00",
+   "last": 0.16,
+   "pct_day": 3.23,
+   "pct_30m": 6.67,
+   "volume_pace": 0.59,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-25T15:20:00+00:00",
+   "last": 0.5,
+   "pct_day": 3.09,
    "pct_30m": 0.0,
+   "volume_pace": 0.06,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ALYA.TO",
+   "name": "ALITHYA GROUP INC",
+   "as_of": "2026-11-25T15:30:00+00:00",
+   "last": 0.93,
+   "pct_day": 2.2,
+   "pct_30m": 8.14,
    "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "ILLM.TO",
+   "name": "iLLUMIN HOLDINGS INC",
+   "as_of": "2026-11-25T15:15:00+00:00",
+   "last": 0.5,
+   "pct_day": 2.04,
+   "pct_30m": 2.04,
+   "volume_pace": 0.9,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GMX.TO",
    "name": "GLOBEX MINING ENTERPRISES INC",
-   "as_of": "2026-11-25T15:00:00+00:00",
+   "as_of": "2026-11-25T15:30:00+00:00",
    "last": 1.6,
    "pct_day": 1.91,
-   "pct_30m": 2.56,
-   "volume_pace": 4.23,
+   "pct_30m": 0.0,
+   "volume_pace": 4.57,
    "rising": false,
    "rising_since": null
   },
@@ -579,29 +590,18 @@
    "last": 0.54,
    "pct_day": 1.89,
    "pct_30m": -1.82,
-   "volume_pace": 1.11,
+   "volume_pace": 1.29,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "RBY.TO",
-   "name": "RUBELLITE ENERGY CORP",
-   "as_of": "2026-11-25T15:00:00+00:00",
-   "last": 3.07,
-   "pct_day": 1.66,
-   "pct_30m": 1.66,
+   "ticker": "ESI.TO",
+   "name": "ENSIGN ENERGY SERVICES INC.",
+   "as_of": "2026-11-25T15:35:00+00:00",
+   "last": 4.02,
+   "pct_day": 1.52,
+   "pct_30m": 0.0,
    "volume_pace": 0.63,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "PRQ.TO",
-   "name": "PETRUS RESOURCES LTD",
-   "as_of": "2026-11-25T14:55:00+00:00",
-   "last": 1.7,
-   "pct_day": 1.19,
-   "pct_30m": 1.19,
-   "volume_pace": 0.5,
    "rising": false,
    "rising_since": null
   }
@@ -1203,9 +1203,9 @@
    "ma200": 939.79,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T15:05:00+00:00",
-    "last": 674.52,
-    "pct_day": -2.33
+    "as_of": "2026-11-25T15:35:00+00:00",
+    "last": 672.92,
+    "pct_day": -2.56
    }
   },
   "^GSPTSE": {
@@ -1804,9 +1804,9 @@
    "ma200": 34802.77,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T15:05:00+00:00",
-    "last": 33505.84,
-    "pct_day": -1.34
+    "as_of": "2026-11-25T15:35:00+00:00",
+    "last": 33419.1,
+    "pct_day": -1.6
    }
   }
  },
