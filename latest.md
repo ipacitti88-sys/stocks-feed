@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-25T13:01-07:00
+# Stock feed — 2026-11-25T13:31-07:00
 
-Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-24. Intraday data as of: 2026-11-25T20:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-24. Intraday data as of: 2026-11-25T20:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 690.59 on 2026-11-24 (day -3.1%, month -16.3%, year -19.2%, downtrend); live +2.0% at 20:05
-Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year +12.6%, downtrend); live +0.5% at 20:05
+Market: S&P/TSX Venture Composite 690.59 on 2026-11-24 (day -3.1%, month -16.3%, year -19.2%, downtrend); live +2.2% at 20:35
+Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year +12.6%, downtrend); live +0.6% at 20:35
 
 # TSX Venture
 
@@ -105,22 +105,27 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SVRS.V (SILVER STORM MINING LTD): +14.3% today at 0.36, last 30m +2.1%, volume pace 2.15x, rising since 2026-11-25T20:00:00+00:00
-- GRSL.V (GR SILVER MINING LTD): +13.9% today at 0.205, last 30m +2.5%, volume pace 1.53x, rising since 2026-11-25T18:20:00+00:00
-- SSV.V (SOUTHERN SILVER EXPLORATION COR): +13.5% today at 0.295, last 30m +1.7%, volume pace 1.79x, rising since 2026-11-25T19:35:00+00:00
+- SSV.V (SOUTHERN SILVER EXPLORATION COR): +21.1% today at 0.315, last 30m +6.8%, volume pace 2.94x, rising since 2026-11-25T20:25:00+00:00
+- APGO.V (APOLLO SILVER CORP): +15.5% today at 1.64, last 30m +5.8%, volume pace 4.45x, rising since 2026-11-25T20:15:00+00:00
+- GSVR.V (GUANAJUATO SILVER COMPANY LTD): +13.2% today at 0.215, last 30m +2.4%, volume pace 1.76x, rising since 2026-11-25T20:30:00+00:00
+- AAG.V (AFTERMATH SILVER LTD): +12.3% today at 0.455, last 30m +1.1%, volume pace 2.02x, rising since 2026-11-25T20:15:00+00:00
+- MGM.V (MAPLE GOLD MINES LTD): +10.6% today at 1.88, last 30m +1.6%, volume pace 1.51x, rising since 2026-11-25T20:30:00+00:00
+- TUF.V (HONEY BADGER SILVER INC): +10.0% today at 0.55, last 30m +1.9%, volume pace 1.58x, rising since 2026-11-25T20:15:00+00:00
+- SM.V (SIERRA MADRE GOLD AND SILVER LT): +9.8% today at 1.01, last 30m +1.0%, volume pace 1.61x, rising since 2026-11-25T20:15:00+00:00
+- AGX.V (SILVER X MINING CORP): +9.7% today at 0.51, last 30m +1.0%, volume pace 2.3x, rising since 2026-11-25T20:10:00+00:00
 - BRVO.V (BRAVO MINING CORP): +9.7% today at 1.93, last 30m +2.1%, volume pace 1.69x, rising since 2026-11-25T18:30:00+00:00
-- APGO.V (APOLLO SILVER CORP): +9.2% today at 1.55, last 30m +0.7%, volume pace 4.53x, rising since 2026-11-25T19:50:00+00:00
-- MGM.V (MAPLE GOLD MINES LTD): +8.8% today at 1.85, last 30m +2.8%, volume pace 1.77x, rising since 2026-11-25T19:25:00+00:00
-- SM.V (SIERRA MADRE GOLD AND SILVER LT): +8.7% today at 1.0, last 30m +0.5%, volume pace 1.71x, rising since 2026-11-25T19:55:00+00:00
-- AGX.V (SILVER X MINING CORP): +8.6% today at 0.505, last 30m +1.0%, volume pace 2.33x, rising since 2026-11-25T18:40:00+00:00
-- SOMA.V (SOMA GOLD CORP): +7.3% today at 0.44, last 30m +6.0%, volume pace 2.05x, rising since 2026-11-25T19:40:00+00:00
-- TDG.V (TDG GOLD CORP): +6.3% today at 0.67, last 30m +0.8%, volume pace 2.05x, rising since 2026-11-25T19:55:00+00:00
-- GSKR.V (GOLDSKY RESOURCES CORP): +5.3% today at 2.0, last 30m +1.5%, volume pace 1.66x, rising since 2026-11-25T19:25:00+00:00
+- TECT.V (TECTONIC METALS INC): +8.5% today at 1.28, last 30m +3.2%, volume pace 2.51x, rising since 2026-11-25T20:20:00+00:00
+- NCAU.V (NEWCORE GOLD LTD): +8.3% today at 0.195, last 30m +2.6%, volume pace 1.7x, rising since 2026-11-25T20:30:00+00:00
+- PGLD.V (P2 GOLD INC): +6.9% today at 0.855, last 30m +0.6%, volume pace 2.38x, rising since 2026-11-25T20:10:00+00:00
+- AGAG.V (ARGENTA SILVER CORP): +6.5% today at 0.2875, last 30m +4.5%, volume pace 1.6x, rising since 2026-11-25T20:25:00+00:00
+- AEC.V (ANFIELD ENERGY INC): +5.6% today at 3.4, last 30m +3.0%, volume pace 7.32x, rising since 2026-11-25T20:20:00+00:00
+- FPC.V (FALCO RESOURCES LTD): +5.3% today at 0.395, last 30m +0.6%, volume pace 1.62x, rising since 2026-11-25T20:30:00+00:00
 - SEI.V (SINTANA ENERGY INC): +5.3% today at 0.3, last 30m +3.5%, volume pace 1.96x, rising since 2026-11-25T18:55:00+00:00
-- TECT.V (TECTONIC METALS INC): +5.1% today at 1.24, last 30m +1.6%, volume pace 2.54x, rising since 2026-11-25T19:20:00+00:00
-- HITI.V (HIGH TIDE INC): +4.7% today at 3.32, last 30m +1.5%, volume pace 1.5x, rising since 2026-11-25T18:30:00+00:00
-- GOT.V (GOLIATH RESOURCES LIMITED): +4.1% today at 1.01, last 30m +1.0%, volume pace 3.23x, rising since 2026-11-25T19:15:00+00:00
-- CAMB.V (CAMBRIA GOLD MINES INC): +3.6% today at 0.435, last 30m +1.8%, volume pace 4.14x, rising since 2026-11-25T20:00:00+00:00
+- GSKR.V (GOLDSKY RESOURCES CORP): +5.0% today at 1.995, last 30m +0.8%, volume pace 1.58x, rising since 2026-11-25T20:35:00+00:00
+- BUFF.V (BUFFALO POTASH CORPORATION): +5.0% today at 0.84, last 30m +2.4%, volume pace 1.93x, rising since 2026-11-25T20:20:00+00:00
+- CGNT.V (COPPER GIANT RESOURCES CORP): +4.9% today at 0.64, last 30m +3.2%, volume pace 1.66x, rising since 2026-11-25T20:05:00+00:00
+- WHN.V (WESTHAVEN GOLD CORP): +4.8% today at 0.22, last 30m +4.8%, volume pace 2.39x, rising since 2026-11-25T20:30:00+00:00
+- WGO.V (WHITE GOLD CORP): +4.6% today at 1.13, last 30m +2.7%, volume pace 3.12x, rising since 2026-11-25T20:30:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -137,16 +142,16 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- WGF.V (WESCAN GOLDFIELDS INC): +50.0% at 0.09, volume pace 0.2x
+- WGF.V (WESCAN GOLDFIELDS INC): +50.0% at 0.09, volume pace 0.28x
+- FMAN.V (FREEMAN GOLD CORP): +27.0% at 0.235, volume pace 5.04x
 - PURO.V (PLATAURO METALS CORP): +25.0% at 0.075, volume pace 0.0x
 - BEEP.V (GEIGER ENERGY CORPORATION): +21.7% at 0.14, volume pace 1.06x
-- SVE.V (SILVER ONE RESOURCES INC): +20.3% at 0.445, volume pace 1.19x
-- IGO.V (INDEPENDENCE GOLD CORP): +20.0% at 0.12, volume pace 1.29x
-- ECR.V (CARTIER RESOURCES INC.): +20.0% at 0.18, volume pace 2.27x
-- FROG.V (BULLFROG GOLD CORPORATION): +20.0% at 0.12, volume pace 3.39x
+- SSV.V (SOUTHERN SILVER EXPLORATION COR): +21.1% at 0.315, volume pace 2.94x
+- FUU.V (F3 URANIUM CORP): +20.8% at 0.0725, volume pace 1.68x
+- IGO.V (INDEPENDENCE GOLD CORP): +20.0% at 0.12, volume pace 1.14x
+- SOI.V (Sirios Resources Inc.): +19.1% at 0.14, volume pace 1.15x
+- SVE.V (SILVER ONE RESOURCES INC): +18.9% at 0.44, volume pace 1.13x
 - PHNM.V (PHENOM RESOURCES CORP): +18.4% at 0.29, volume pace 1.5x
-- KTN.V (KOOTENAY SILVER INC): +18.3% at 0.71, volume pace 1.78x
-- DLP.V (DLP RESOURCES INC): +18.2% at 0.26, volume pace 5.93x
 
 # TSX
 
@@ -203,10 +208,15 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- LAM.TO (LARAMIDE RESOURCES LTD.): +12.5% today at 0.3825, last 30m +2.0%, volume pace 1.68x, rising since 2026-11-25T19:10:00+00:00
-- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +12.2% today at 2.21, last 30m +4.7%, volume pace 1.66x, rising since 2026-11-25T19:55:00+00:00
-- CADY.TO (CADILLAC MINES CORPORATION): +7.1% today at 3.49, last 30m +0.6%, volume pace 1.68x, rising since 2026-11-25T20:00:00+00:00
-- GGD.TO (GOGOLD RESOURCES INC): +3.9% today at 2.96, last 30m +0.2%, volume pace 1.51x, rising since 2026-11-25T19:55:00+00:00
+- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +13.7% today at 2.24, last 30m +1.4%, volume pace 1.64x, rising since 2026-11-25T19:55:00+00:00
+- APM.TO (ANDEAN PRECIOUS METALS CORP): +9.6% today at 4.47, last 30m +0.9%, volume pace 2.93x, rising since 2026-11-25T20:15:00+00:00
+- CADY.TO (CADILLAC MINES CORPORATION): +8.6% today at 3.54, last 30m +1.4%, volume pace 1.62x, rising since 2026-11-25T20:00:00+00:00
+- GOLD.TO (GOLDMINING INC): +6.8% today at 0.94, last 30m +1.6%, volume pace 1.72x, rising since 2026-11-25T20:20:00+00:00
+- MAI.TO (MINING AMERICAS INC): +6.3% today at 2.86, last 30m +0.5%, volume pace 2.63x, rising since 2026-11-25T20:05:00+00:00
+- STLR.TO (STLLR GOLD INC): +6.0% today at 1.06, last 30m +3.9%, volume pace 3.65x, rising since 2026-11-25T20:15:00+00:00
+- FF.TO (FIRST MINING GOLD CORP): +4.1% today at 0.51, last 30m +1.0%, volume pace 1.74x, rising since 2026-11-25T20:35:00+00:00
+- STGO.TO (STEPPE GOLD LTD): +3.4% today at 1.21, last 30m +0.8%, volume pace 1.6x, rising since 2026-11-25T20:30:00+00:00
+- ORE.TO (OREZONE GOLD CORPORATION): +3.1% today at 2.175, last 30m +0.7%, volume pace 1.66x, rising since 2026-11-25T20:30:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -223,13 +233,13 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ELR.TO (EASTERN PLATINUM LIMITED): +16.1% at 0.18, volume pace 0.72x
 - FT.TO (FORTUNE MNRL J): +15.4% at 0.075, volume pace 0.53x
-- BSX.TO (BELO SUN MINING CORP): +12.5% at 0.63, volume pace 0.39x
-- LAM.TO (LARAMIDE RESOURCES LTD.): +12.5% at 0.3825, volume pace 1.68x
-- AMC.TO (ARIZONA METALS CORP): +12.5% at 0.135, volume pace 4.35x
-- TI.TO (TITAN MINING CORPORATION): +12.2% at 2.11, volume pace 1.13x
-- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +12.2% at 2.21, volume pace 1.66x
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +11.7% at 0.335, volume pace 2.28x
-- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +11.4% at 0.245, volume pace 0.09x
-- AVL.TO (AVALON ADVANCED MATERIALS INC): +9.4% at 4.3, volume pace 1.55x
+- BSX.TO (BELO SUN MINING CORP): +14.3% at 0.64, volume pace 0.46x
+- AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +13.7% at 2.24, volume pace 1.64x
+- ELEF.TO (SILVER ELEPHANT MINING CORPORAT): +13.6% at 0.25, volume pace 0.1x
+- AMC.TO (ARIZONA METALS CORP): +12.5% at 0.135, volume pace 3.75x
+- LAM.TO (LARAMIDE RESOURCES LTD.): +11.8% at 0.38, volume pace 1.58x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +11.7% at 0.335, volume pace 2.3x
+- TSND.TO (TERRASCEND CORP): +11.3% at 0.54, volume pace 0.72x
+- TSK.TO (TALISKER RESOURCES LTD): +10.9% at 0.61, volume pace 1.28x
+- TI.TO (TITAN MINING CORPORATION): +10.6% at 2.08, volume pace 1.17x
