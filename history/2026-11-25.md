@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-25T08:31-07:00
+# Stock feed — 2026-11-25T09:01-07:00
 
-Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-24. Intraday data as of: 2026-11-25T15:35:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-24. Intraday data as of: 2026-11-25T16:05:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 690.59 on 2026-11-24 (day -3.1%, month -16.3%, year -19.2%, downtrend); live -2.6% at 15:35
-Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year +12.6%, downtrend); live -1.6% at 15:35
+Market: S&P/TSX Venture Composite 690.59 on 2026-11-24 (day -3.1%, month -16.3%, year -19.2%, downtrend); live -2.7% at 16:05
+Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year +12.6%, downtrend); live -1.5% at 16:05
 
 # TSX Venture
 
@@ -105,7 +105,7 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- PNG.V (KRAKEN ROBOTICS INC): +4.6% today at 2.48, last 30m +1.2%, volume pace 2.83x, rising since 2026-11-25T15:10:00+00:00
+- ADE.V (ADEX MINING INC.): +12.5% today at 0.18, last 30m +20.0%, volume pace 2.72x, rising since 2026-11-25T15:50:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -124,14 +124,14 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 - PURO.V (PLATAURO METALS CORP): +25.0% at 0.075, volume pace 0.0x
 - WGF.V (WESCAN GOLDFIELDS INC): +16.7% at 0.07, volume pace 1.14x
-- VML.V (VISCOUNT MINING CORP): +16.1% at 0.325, volume pace 0.12x
+- VML.V (VISCOUNT MINING CORP): +16.1% at 0.325, volume pace 0.8x
+- IGO.V (INDEPENDENCE GOLD CORP): +15.0% at 0.115, volume pace 3.09x
 - AUAU.V (A2 GOLD CORP): +13.9% at 0.245, volume pace 0.18x
+- NOAL.V (NOA LITHIUM BRINES INC): +13.2% at 0.215, volume pace 0.87x
 - VM.V (VOYAGEUR PHARMACEUTICALS LTD): +13.0% at 0.13, volume pace 9.31x
-- TMET.V (TORR METALS INC): +11.1% at 0.1, volume pace 0.0x
+- ADE.V (ADEX MINING INC.): +12.5% at 0.18, volume pace 2.72x
 - AUGC.V (AU GOLD CORP): +11.1% at 0.25, volume pace 0.0x
 - FRLX.V (Feral X Systems Inc.): +11.1% at 0.4, volume pace 0.0x
-- ARCH.V (ARCH BIOPARTNERS INC): +10.5% at 0.84, volume pace 0.15x
-- IGO.V (INDEPENDENCE GOLD CORP): +10.0% at 0.11, volume pace 0.0x
 
 # TSX
 
@@ -205,13 +205,13 @@ Market: S&P/TSX Composite 33,962.30 on 2026-11-24 (day -0.3%, month -5.5%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +15.0% at 0.345, volume pace 7.41x
-- FURY.TO (FURY GOLD MINES LIMITED): +3.8% at 0.55, volume pace 3.53x
+- CWEB.TO (CHARLOTTES WEB HOLDINGS INC): +16.7% at 0.35, volume pace 5.03x
+- FURY.TO (FURY GOLD MINES LIMITED): +5.7% at 0.56, volume pace 1.93x
 - S.TO (SHERRITT INTL RV): +3.2% at 0.16, volume pace 0.84x
-- ELR.TO (EASTERN PLATINUM LIMITED): +3.2% at 0.16, volume pace 0.59x
-- TSND.TO (TERRASCEND CORP): +3.1% at 0.5, volume pace 0.06x
-- ALYA.TO (ALITHYA GROUP INC): +2.2% at 0.93, volume pace 0.0x
-- ILLM.TO (iLLUMIN HOLDINGS INC): +2.0% at 0.5, volume pace 0.9x
-- GMX.TO (GLOBEX MINING ENTERPRISES INC): +1.9% at 1.6, volume pace 4.57x
+- ELR.TO (EASTERN PLATINUM LIMITED): +3.2% at 0.16, volume pace 0.62x
+- GMX.TO (GLOBEX MINING ENTERPRISES INC): +3.2% at 1.62, volume pace 3.78x
+- HAI.TO (HAIVISION SYSTEMS INC): +2.8% at 3.7, volume pace 0.04x
+- ALYA.TO (ALITHYA GROUP INC): +2.2% at 0.93, volume pace 0.48x
+- TSND.TO (TERRASCEND CORP): +2.1% at 0.495, volume pace 0.22x
 - PNE.TO (PINE CLIFF ENERGY LTD): +1.9% at 0.54, volume pace 1.29x
-- ESI.TO (ENSIGN ENERGY SERVICES INC.): +1.5% at 4.02, volume pace 0.63x
+- ESI.TO (ENSIGN ENERGY SERVICES INC.): +1.5% at 4.02, volume pace 0.8x

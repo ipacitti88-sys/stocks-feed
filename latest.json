@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T08:31-07:00",
+ "generated": "2026-11-25T09:01-07:00",
  "last_close_day": "2026-11-24",
  "tracked": 725,
  "tracked_by_market": {
@@ -370,18 +370,18 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-25T15:35:00+00:00",
+ "live_as_of": "2026-11-25T16:05:00+00:00",
  "rising": [
   {
-   "ticker": "PNG.V",
-   "name": "KRAKEN ROBOTICS INC",
-   "as_of": "2026-11-25T15:35:00+00:00",
-   "last": 2.48,
-   "pct_day": 4.64,
-   "pct_30m": 1.22,
-   "volume_pace": 2.83,
+   "ticker": "ADE.V",
+   "name": "ADEX MINING INC.",
+   "as_of": "2026-11-25T15:50:00+00:00",
+   "last": 0.18,
+   "pct_day": 12.5,
+   "pct_30m": 20.0,
+   "volume_pace": 2.72,
    "rising": true,
-   "rising_since": "2026-11-25T15:10:00+00:00"
+   "rising_since": "2026-11-25T15:50:00+00:00"
   }
  ],
  "top_gainers_today": [
@@ -414,7 +414,18 @@
    "last": 0.325,
    "pct_day": 16.07,
    "pct_30m": -5.8,
-   "volume_pace": 0.12,
+   "volume_pace": 0.8,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "IGO.V",
+   "name": "INDEPENDENCE GOLD CORP",
+   "as_of": "2026-11-25T16:00:00+00:00",
+   "last": 0.115,
+   "pct_day": 15.0,
+   "pct_30m": 4.55,
+   "volume_pace": 3.09,
    "rising": false,
    "rising_since": null
   },
@@ -430,6 +441,17 @@
    "rising_since": null
   },
   {
+   "ticker": "NOAL.V",
+   "name": "NOA LITHIUM BRINES INC",
+   "as_of": "2026-11-25T15:35:00+00:00",
+   "last": 0.215,
+   "pct_day": 13.16,
+   "pct_30m": 2.38,
+   "volume_pace": 0.87,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "VM.V",
    "name": "VOYAGEUR PHARMACEUTICALS LTD",
    "as_of": "2026-11-25T15:05:00+00:00",
@@ -441,15 +463,15 @@
    "rising_since": null
   },
   {
-   "ticker": "TMET.V",
-   "name": "TORR METALS INC",
-   "as_of": "2026-11-25T14:35:00+00:00",
-   "last": 0.1,
-   "pct_day": 11.11,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
+   "ticker": "ADE.V",
+   "name": "ADEX MINING INC.",
+   "as_of": "2026-11-25T15:50:00+00:00",
+   "last": 0.18,
+   "pct_day": 12.5,
+   "pct_30m": 20.0,
+   "volume_pace": 2.72,
+   "rising": true,
+   "rising_since": "2026-11-25T15:50:00+00:00"
   },
   {
    "ticker": "AUGC.V",
@@ -474,46 +496,24 @@
    "rising_since": null
   },
   {
-   "ticker": "ARCH.V",
-   "name": "ARCH BIOPARTNERS INC",
-   "as_of": "2026-11-25T15:05:00+00:00",
-   "last": 0.84,
-   "pct_day": 10.53,
-   "pct_30m": -2.33,
-   "volume_pace": 0.15,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "IGO.V",
-   "name": "INDEPENDENCE GOLD CORP",
-   "as_of": "2026-11-25T15:20:00+00:00",
-   "last": 0.11,
-   "pct_day": 10.0,
-   "pct_30m": 4.76,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "CWEB.TO",
    "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-25T15:30:00+00:00",
-   "last": 0.345,
-   "pct_day": 15.0,
-   "pct_30m": 4.55,
-   "volume_pace": 7.41,
+   "as_of": "2026-11-25T16:00:00+00:00",
+   "last": 0.35,
+   "pct_day": 16.67,
+   "pct_30m": 1.45,
+   "volume_pace": 5.03,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "FURY.TO",
    "name": "FURY GOLD MINES LIMITED",
-   "as_of": "2026-11-25T15:05:00+00:00",
-   "last": 0.55,
-   "pct_day": 3.77,
-   "pct_30m": 0.0,
-   "volume_pace": 3.53,
+   "as_of": "2026-11-25T16:00:00+00:00",
+   "last": 0.56,
+   "pct_day": 5.66,
+   "pct_30m": 1.82,
+   "volume_pace": 1.93,
    "rising": false,
    "rising_since": null
   },
@@ -535,18 +535,29 @@
    "last": 0.16,
    "pct_day": 3.23,
    "pct_30m": 6.67,
-   "volume_pace": 0.59,
+   "volume_pace": 0.62,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-25T15:20:00+00:00",
-   "last": 0.5,
-   "pct_day": 3.09,
+   "ticker": "GMX.TO",
+   "name": "GLOBEX MINING ENTERPRISES INC",
+   "as_of": "2026-11-25T15:50:00+00:00",
+   "last": 1.62,
+   "pct_day": 3.18,
    "pct_30m": 0.0,
-   "volume_pace": 0.06,
+   "volume_pace": 3.78,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "HAI.TO",
+   "name": "HAIVISION SYSTEMS INC",
+   "as_of": "2026-11-25T15:40:00+00:00",
+   "last": 3.7,
+   "pct_day": 2.78,
+   "pct_30m": 0.54,
+   "volume_pace": 0.04,
    "rising": false,
    "rising_since": null
   },
@@ -557,29 +568,18 @@
    "last": 0.93,
    "pct_day": 2.2,
    "pct_30m": 8.14,
-   "volume_pace": 0.0,
+   "volume_pace": 0.48,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ILLM.TO",
-   "name": "iLLUMIN HOLDINGS INC",
-   "as_of": "2026-11-25T15:15:00+00:00",
-   "last": 0.5,
-   "pct_day": 2.04,
-   "pct_30m": 2.04,
-   "volume_pace": 0.9,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GMX.TO",
-   "name": "GLOBEX MINING ENTERPRISES INC",
-   "as_of": "2026-11-25T15:30:00+00:00",
-   "last": 1.6,
-   "pct_day": 1.91,
-   "pct_30m": 0.0,
-   "volume_pace": 4.57,
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-25T15:50:00+00:00",
+   "last": 0.495,
+   "pct_day": 2.06,
+   "pct_30m": -1.0,
+   "volume_pace": 0.22,
    "rising": false,
    "rising_since": null
   },
@@ -597,11 +597,11 @@
   {
    "ticker": "ESI.TO",
    "name": "ENSIGN ENERGY SERVICES INC.",
-   "as_of": "2026-11-25T15:35:00+00:00",
+   "as_of": "2026-11-25T16:00:00+00:00",
    "last": 4.02,
    "pct_day": 1.52,
    "pct_30m": 0.0,
-   "volume_pace": 0.63,
+   "volume_pace": 0.8,
    "rising": false,
    "rising_since": null
   }
@@ -1203,9 +1203,9 @@
    "ma200": 939.79,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T15:35:00+00:00",
-    "last": 672.92,
-    "pct_day": -2.56
+    "as_of": "2026-11-25T16:05:00+00:00",
+    "last": 671.64,
+    "pct_day": -2.74
    }
   },
   "^GSPTSE": {
@@ -1804,9 +1804,9 @@
    "ma200": 34802.77,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-25T15:35:00+00:00",
-    "last": 33419.1,
-    "pct_day": -1.6
+    "as_of": "2026-11-25T16:05:00+00:00",
+    "last": 33460.8,
+    "pct_day": -1.48
    }
   }
  },
