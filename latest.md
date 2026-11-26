@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-26T14:01-07:00
+# Stock feed — 2026-11-26T14:06-07:00
 
 Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-25. Intraday data as of: 2026-11-26T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -41,8 +41,8 @@ Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- NCX.V (NORTHISLE COPPER AND GOLD INC): +5.0% today at 2.32, last 30m +1.3%, volume pace 1.88x, rising since 2026-11-26T20:45:00+00:00
 - REG.V (REGULUS RESOURCES INC): +4.8% today at 4.35, last 30m +1.2%, volume pace 4.12x, rising since 2026-11-26T21:00:00+00:00
+- NCX.V (NORTHISLE COPPER AND GOLD INC): +4.1% today at 2.3, last 30m +0.4%, volume pace 1.88x, rising since 2026-11-26T20:45:00+00:00
 - KTO.V (K2 GOLD CORPORATION): +3.2% today at 0.65, last 30m +1.6%, volume pace 3.17x, rising since 2026-11-26T15:55:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -125,4 +125,4 @@ Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year 
 - DC-A.TO (DUNDEE CORP., CL.A SV): +11.0% at 3.62, volume pace 0.57x
 - PTM.TO (PLATINUM GROUP METALS LTD.): +10.4% at 1.27, volume pace 0.6x
 - AGMR.TO (SILVER MOUNTAIN RESOURCES INC): +10.4% at 2.45, volume pace 0.61x
-- CDR.TO (CONDOR ENERGIES INC): +9.3% at 3.52, volume pace 0.86x
+- COPR.TO (COPPERNICO METALS INC): +10.2% at 0.27, volume pace 0.07x

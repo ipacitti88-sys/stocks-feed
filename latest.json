@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T14:01-07:00",
+ "generated": "2026-11-26T14:06-07:00",
  "last_close_day": "2026-11-25",
  "tracked": 725,
  "tracked_by_market": {
@@ -354,17 +354,6 @@
    "rising_since": "2026-11-26T21:00:00+00:00"
   },
   {
-   "ticker": "NCX.V",
-   "name": "NORTHISLE COPPER AND GOLD INC",
-   "as_of": "2026-11-26T21:00:00+00:00",
-   "last": 2.32,
-   "pct_day": 4.98,
-   "pct_30m": 1.31,
-   "volume_pace": 1.88,
-   "rising": true,
-   "rising_since": "2026-11-26T20:45:00+00:00"
-  },
-  {
    "ticker": "REG.V",
    "name": "REGULUS RESOURCES INC",
    "as_of": "2026-11-26T21:00:00+00:00",
@@ -385,6 +374,17 @@
    "volume_pace": 3.58,
    "rising": true,
    "rising_since": "2026-11-26T20:55:00+00:00"
+  },
+  {
+   "ticker": "NCX.V",
+   "name": "NORTHISLE COPPER AND GOLD INC",
+   "as_of": "2026-11-26T21:00:00+00:00",
+   "last": 2.3,
+   "pct_day": 4.07,
+   "pct_30m": 0.44,
+   "volume_pace": 1.88,
+   "rising": true,
+   "rising_since": "2026-11-26T20:45:00+00:00"
   },
   {
    "ticker": "SBI.TO",
@@ -620,13 +620,13 @@
    "rising_since": null
   },
   {
-   "ticker": "CDR.TO",
-   "name": "CONDOR ENERGIES INC",
-   "as_of": "2026-11-26T21:00:00+00:00",
-   "last": 3.52,
-   "pct_day": 9.32,
-   "pct_30m": 0.86,
-   "volume_pace": 0.86,
+   "ticker": "COPR.TO",
+   "name": "COPPERNICO METALS INC",
+   "as_of": "2026-11-26T20:40:00+00:00",
+   "last": 0.27,
+   "pct_day": 10.2,
+   "pct_30m": 1.89,
+   "volume_pace": 0.07,
    "rising": false,
    "rising_since": null
   }
