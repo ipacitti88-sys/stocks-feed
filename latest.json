@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T09:31-07:00",
+ "generated": "2026-11-26T10:01-07:00",
  "last_close_day": "2026-11-25",
  "tracked": 725,
  "tracked_by_market": {
@@ -340,7 +340,7 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-26T16:35:00+00:00",
+ "live_as_of": "2026-11-26T17:05:00+00:00",
  "rising": [
   {
    "ticker": "SME.V",
@@ -360,20 +360,20 @@
    "last": 0.51,
    "pct_day": 13.33,
    "pct_30m": 4.08,
-   "volume_pace": 2.61,
+   "volume_pace": 2.62,
    "rising": true,
    "rising_since": "2026-11-26T16:25:00+00:00"
   },
   {
-   "ticker": "ORIO.TO",
-   "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-26T16:25:00+00:00",
-   "last": 1.67,
-   "pct_day": 11.33,
-   "pct_30m": 1.21,
-   "volume_pace": 1.71,
+   "ticker": "MOG.V",
+   "name": "MOGOTES METALS INC",
+   "as_of": "2026-11-26T16:40:00+00:00",
+   "last": 0.34,
+   "pct_day": 7.94,
+   "pct_30m": 3.03,
+   "volume_pace": 3.1,
    "rising": true,
-   "rising_since": "2026-11-26T16:25:00+00:00"
+   "rising_since": "2026-11-26T16:40:00+00:00"
   },
   {
    "ticker": "FTZ.V",
@@ -387,48 +387,15 @@
    "rising_since": "2026-11-26T14:55:00+00:00"
   },
   {
-   "ticker": "PNG.V",
-   "name": "KRAKEN ROBOTICS INC",
-   "as_of": "2026-11-26T16:35:00+00:00",
-   "last": 2.87,
-   "pct_day": 6.69,
-   "pct_30m": 0.7,
-   "volume_pace": 2.59,
+   "ticker": "EOG.V",
+   "name": "ECO ATLANTIC OIL AND GAS LTD",
+   "as_of": "2026-11-26T16:40:00+00:00",
+   "last": 0.65,
+   "pct_day": 4.84,
+   "pct_30m": 1.56,
+   "volume_pace": 2.49,
    "rising": true,
-   "rising_since": "2026-11-26T16:35:00+00:00"
-  },
-  {
-   "ticker": "BNKR.TO",
-   "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-26T16:15:00+00:00",
-   "last": 1.78,
-   "pct_day": 5.95,
-   "pct_30m": 1.14,
-   "volume_pace": 1.53,
-   "rising": true,
-   "rising_since": "2026-11-26T16:15:00+00:00"
-  },
-  {
-   "ticker": "IPT.V",
-   "name": "IMPACT SILVER CORP.",
-   "as_of": "2026-11-26T16:05:00+00:00",
-   "last": 0.205,
-   "pct_day": 5.13,
-   "pct_30m": 2.5,
-   "volume_pace": 2.1,
-   "rising": true,
-   "rising_since": "2026-11-26T15:40:00+00:00"
-  },
-  {
-   "ticker": "REG.V",
-   "name": "REGULUS RESOURCES INC",
-   "as_of": "2026-11-26T16:25:00+00:00",
-   "last": 4.36,
-   "pct_day": 5.06,
-   "pct_30m": 1.4,
-   "volume_pace": 5.26,
-   "rising": true,
-   "rising_since": "2026-11-26T16:05:00+00:00"
+   "rising_since": "2026-11-26T16:40:00+00:00"
   },
   {
    "ticker": "ECOR.TO",
@@ -448,7 +415,7 @@
    "last": 4.53,
    "pct_day": 3.19,
    "pct_30m": 0.44,
-   "volume_pace": 2.9,
+   "volume_pace": 2.92,
    "rising": true,
    "rising_since": "2026-11-26T16:30:00+00:00"
   },
@@ -459,7 +426,7 @@
    "last": 0.65,
    "pct_day": 3.17,
    "pct_30m": 1.56,
-   "volume_pace": 2.44,
+   "volume_pace": 3.17,
    "rising": true,
    "rising_since": "2026-11-26T15:55:00+00:00"
   }
@@ -468,11 +435,11 @@
   {
    "ticker": "HPQ.V",
    "name": "HPQ SILICON INC",
-   "as_of": "2026-11-26T16:35:00+00:00",
-   "last": 0.11,
-   "pct_day": 57.14,
-   "pct_30m": 0.0,
-   "volume_pace": 11.67,
+   "as_of": "2026-11-26T17:05:00+00:00",
+   "last": 0.115,
+   "pct_day": 64.29,
+   "pct_30m": 4.55,
+   "volume_pace": 10.44,
    "rising": false,
    "rising_since": null
   },
@@ -483,18 +450,40 @@
    "last": 0.095,
    "pct_day": 46.15,
    "pct_30m": 11.76,
-   "volume_pace": 1.08,
+   "volume_pace": 1.11,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "SEVA.V",
    "name": "SEVA MINING CORP",
-   "as_of": "2026-11-26T16:15:00+00:00",
-   "last": 0.21,
-   "pct_day": 31.25,
-   "pct_30m": 13.51,
-   "volume_pace": 21.12,
+   "as_of": "2026-11-26T17:00:00+00:00",
+   "last": 0.205,
+   "pct_day": 28.12,
+   "pct_30m": -2.38,
+   "volume_pace": 14.79,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "INXS.V",
+   "name": "GOLDINXS MINING CORP",
+   "as_of": "2026-11-26T16:25:00+00:00",
+   "last": 0.07,
+   "pct_day": 27.27,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PINK.V",
+   "name": "PERIMETER MEDICAL IMAGING AI IN",
+   "as_of": "2026-11-26T16:45:00+00:00",
+   "last": 0.12,
+   "pct_day": 26.32,
+   "pct_30m": 9.09,
+   "volume_pace": 2.82,
    "rising": false,
    "rising_since": null
   },
@@ -549,84 +538,73 @@
    "last": 0.155,
    "pct_day": 19.23,
    "pct_30m": 3.33,
-   "volume_pace": 6.31,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SME.V",
-   "name": "SAMA RESOURCES INC RESSOURCES S",
-   "as_of": "2026-11-26T16:00:00+00:00",
-   "last": 0.19,
-   "pct_day": 18.75,
-   "pct_30m": 8.57,
-   "volume_pace": 4.61,
-   "rising": true,
-   "rising_since": "2026-11-26T15:40:00+00:00"
-  },
-  {
-   "ticker": "MRVL.V",
-   "name": "MARVEL BIOSCIENCES CORP",
-   "as_of": "2026-11-26T14:35:00+00:00",
-   "last": 0.13,
-   "pct_day": 18.18,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
+   "volume_pace": 8.1,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ORIO.TO",
    "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-26T16:25:00+00:00",
+   "as_of": "2026-11-26T17:00:00+00:00",
    "last": 1.67,
    "pct_day": 11.33,
-   "pct_30m": 1.21,
-   "volume_pace": 1.71,
-   "rising": true,
-   "rising_since": "2026-11-26T16:25:00+00:00"
+   "pct_30m": 0.0,
+   "volume_pace": 1.32,
+   "rising": false,
+   "rising_since": null
   },
   {
    "ticker": "DC-A.TO",
    "name": "DUNDEE CORP., CL.A SV",
-   "as_of": "2026-11-26T16:25:00+00:00",
+   "as_of": "2026-11-26T16:40:00+00:00",
    "last": 3.59,
    "pct_day": 10.12,
-   "pct_30m": 0.28,
-   "volume_pace": 1.41,
+   "pct_30m": -0.28,
+   "volume_pace": 1.25,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "ARA.TO",
    "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-26T16:30:00+00:00",
-   "last": 2.3,
-   "pct_day": 10.05,
-   "pct_30m": 0.44,
-   "volume_pace": 0.15,
+   "as_of": "2026-11-26T17:00:00+00:00",
+   "last": 2.29,
+   "pct_day": 9.57,
+   "pct_30m": -0.43,
+   "volume_pace": 0.16,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "MAXQ.TO",
    "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-26T16:15:00+00:00",
-   "last": 0.405,
-   "pct_day": 9.46,
-   "pct_30m": 3.85,
-   "volume_pace": 0.35,
+   "as_of": "2026-11-26T17:00:00+00:00",
+   "last": 0.3975,
+   "pct_day": 7.43,
+   "pct_30m": -1.85,
+   "volume_pace": 0.36,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "XTRA.TO",
-   "name": "XTRACT ONE TECHNOLGIES INC",
-   "as_of": "2026-11-26T16:25:00+00:00",
-   "last": 0.33,
-   "pct_day": 6.45,
-   "pct_30m": 0.0,
-   "volume_pace": 0.49,
+   "ticker": "FLT.TO",
+   "name": "VOLATUS AEROSPACE INC",
+   "as_of": "2026-11-26T16:50:00+00:00",
+   "last": 0.37,
+   "pct_day": 7.25,
+   "pct_30m": 2.78,
+   "volume_pace": 0.76,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "AGMR.TO",
+   "name": "SILVER MOUNTAIN RESOURCES INC",
+   "as_of": "2026-11-26T17:00:00+00:00",
+   "last": 2.37,
+   "pct_day": 6.76,
+   "pct_30m": 1.5,
+   "volume_pace": 0.88,
    "rising": false,
    "rising_since": null
   },
@@ -637,20 +615,9 @@
    "last": 0.26,
    "pct_day": 6.12,
    "pct_30m": -1.89,
-   "volume_pace": 0.03,
+   "volume_pace": 0.05,
    "rising": false,
    "rising_since": null
-  },
-  {
-   "ticker": "BNKR.TO",
-   "name": "BUNKER HILL MINING CORP",
-   "as_of": "2026-11-26T16:15:00+00:00",
-   "last": 1.78,
-   "pct_day": 5.95,
-   "pct_30m": 1.14,
-   "volume_pace": 1.53,
-   "rising": true,
-   "rising_since": "2026-11-26T16:15:00+00:00"
   },
   {
    "ticker": "GRN.TO",
@@ -664,24 +631,24 @@
    "rising_since": null
   },
   {
-   "ticker": "CIA.TO",
-   "name": "CHAMPION IRON LIMITED",
-   "as_of": "2026-11-26T16:30:00+00:00",
-   "last": 1.63,
-   "pct_day": 5.84,
-   "pct_30m": -0.61,
-   "volume_pace": 0.25,
+   "ticker": "ELVA.TO",
+   "name": "ELECTROVAYA INC",
+   "as_of": "2026-11-26T17:00:00+00:00",
+   "last": 5.28,
+   "pct_day": 5.81,
+   "pct_30m": 0.38,
+   "volume_pace": 1.05,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "FLT.TO",
-   "name": "VOLATUS AEROSPACE INC",
-   "as_of": "2026-11-26T16:30:00+00:00",
-   "last": 0.365,
-   "pct_day": 5.8,
-   "pct_30m": 1.39,
-   "volume_pace": 0.87,
+   "ticker": "CDR.TO",
+   "name": "CONDOR ENERGIES INC",
+   "as_of": "2026-11-26T17:00:00+00:00",
+   "last": 3.4,
+   "pct_day": 5.59,
+   "pct_30m": 0.0,
+   "volume_pace": 1.4,
    "rising": false,
    "rising_since": null
   }
@@ -1283,9 +1250,9 @@
    "ma200": 938.15,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-26T16:35:00+00:00",
-    "last": 718.02,
-    "pct_day": 1.4
+    "as_of": "2026-11-26T17:05:00+00:00",
+    "last": 717.74,
+    "pct_day": 1.36
    }
   },
   "^GSPTSE": {
@@ -1884,9 +1851,9 @@
    "ma200": 34808.55,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-26T16:35:00+00:00",
-    "last": 34378.9,
-    "pct_day": 0.58
+    "as_of": "2026-11-26T17:05:00+00:00",
+    "last": 34395.62,
+    "pct_day": 0.63
    }
   }
  },
