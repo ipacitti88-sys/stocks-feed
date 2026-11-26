@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-26T08:01-07:00
+# Stock feed — 2026-11-26T08:31-07:00
 
-Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-25. Intraday data as of: 2026-11-26T15:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 725 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-25. Intraday data as of: 2026-11-26T15:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 708.11 on 2026-11-25 (day +2.5%, month -15.6%, year -19.6%, downtrend); live +1.5% at 15:05
-Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year +11.7%, downtrend); live +0.6% at 15:05
+Market: S&P/TSX Venture Composite 708.11 on 2026-11-25 (day +2.5%, month -15.6%, year -19.6%, downtrend); live +1.4% at 15:35
+Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year +11.7%, downtrend); live +0.8% at 15:35
 
 # TSX Venture
 
@@ -41,11 +41,13 @@ Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year 
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ASE.V (ASANTE GOLD CORPORATION): +35.5% today at 0.21, last 30m +27.3%, volume pace 6.1x, rising since 2026-11-26T14:50:00+00:00
 - SPA.V (SPANISH MOUNTAIN GOLD LTD): +12.8% today at 0.22, last 30m +7.3%, volume pace 1.84x, rising since 2026-11-26T14:50:00+00:00
-- MFG.V (MAYFAIR GOLD CORP): +11.8% today at 2.74, last 30m +7.5%, volume pace 5.19x, rising since 2026-11-26T14:45:00+00:00
-- PNG.V (KRAKEN ROBOTICS INC): +8.6% today at 2.92, last 30m +2.8%, volume pace 8.38x, rising since 2026-11-26T14:50:00+00:00
-- CERT.V (CERRADO GOLD INC): +3.4% today at 2.14, last 30m +0.9%, volume pace 8.59x, rising since 2026-11-26T14:45:00+00:00
+- FTZ.V (FITZROY MINERALS INC): +7.1% today at 0.45, last 30m +4.7%, volume pace 1.76x, rising since 2026-11-26T14:55:00+00:00
+- NCAU.V (NEWCORE GOLD LTD): +5.3% today at 0.2, last 30m +5.3%, volume pace 1.81x, rising since 2026-11-26T15:20:00+00:00
+- CAM.V (CASCADIA MINERALS LTD): +4.3% today at 0.365, last 30m +4.3%, volume pace 1.8x, rising since 2026-11-26T15:00:00+00:00
+- AUXX.V (GOLD X2 MINING INC): +3.8% today at 3.57, last 30m +1.1%, volume pace 1.55x, rising since 2026-11-26T15:05:00+00:00
+- REG.V (REGULUS RESOURCES INC): +3.6% today at 4.3, last 30m +4.4%, volume pace 3.44x, rising since 2026-11-26T15:10:00+00:00
+- SAGA.V (SAGA METALS CORP): +3.0% today at 0.34, last 30m +6.2%, volume pace 2.74x, rising since 2026-11-26T15:15:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -62,16 +64,16 @@ Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year 
 
 ## TSX Venture: top gainers in latest intraday pass
 
-- HPQ.V (HPQ SILICON INC): +35.7% at 0.095, volume pace 15.06x
-- ASE.V (ASANTE GOLD CORPORATION): +35.5% at 0.21, volume pace 6.1x
-- SILV.V (SILVER VALLEY METALS CORP): +26.7% at 0.095, volume pace 0.0x
+- HPQ.V (HPQ SILICON INC): +50.0% at 0.105, volume pace 18.91x
+- DYG.V (DYNASTY GOLD CORP.): +30.8% at 0.085, volume pace 0.2x
+- CBI.V (COLIBRI RESOURCE CORPORATION): +22.2% at 0.11, volume pace 8.71x
 - AMCO.V (AMERICORE RESOURCES CORP): +21.1% at 0.23, volume pace 0.0x
-- GPUS.V (ALSET AI VENTURES INC): +19.2% at 0.155, volume pace 8.51x
+- PHNM.V (PHENOM RESOURCES CORP): +20.7% at 0.35, volume pace 4.81x
 - MRVL.V (MARVEL BIOSCIENCES CORP): +18.2% at 0.13, volume pace 0.0x
 - RRI.V (RIVERSIDE RESOURCES INC.): +18.0% at 0.36, volume pace 0.0x
-- PHNM.V (PHENOM RESOURCES CORP): +15.5% at 0.335, volume pace 7.51x
-- SMN.V (SUN SUMMIT MINERALS CORP): +15.4% at 0.075, volume pace 0.0x
-- RZL.V (RZOLV TECHNOLOGIES INC): +13.3% at 0.17, volume pace 0.06x
+- OGW.V (ONGWE MINERALS INC): +16.7% at 0.84, volume pace 1.44x
+- SMN.V (SUN SUMMIT MINERALS CORP): +15.4% at 0.075, volume pace 6.09x
+- GPUS.V (ALSET AI VENTURES INC): +15.4% at 0.15, volume pace 17.8x
 
 # TSX
 
@@ -99,8 +101,9 @@ Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- ORIO.TO (ORION DIGITAL CORP): +11.3% today at 1.67, last 30m +4.4%, volume pace 5.23x, rising since 2026-11-26T14:50:00+00:00
-- DC-A.TO (DUNDEE CORP., CL.A SV): +9.8% today at 3.58, last 30m +1.1%, volume pace 3.36x, rising since 2026-11-26T14:45:00+00:00
+- FLT.TO (VOLATUS AEROSPACE INC): +4.3% today at 0.36, last 30m +2.9%, volume pace 1.52x, rising since 2026-11-26T15:05:00+00:00
+- CDR.TO (CONDOR ENERGIES INC): +4.0% today at 3.35, last 30m +4.7%, volume pace 1.82x, rising since 2026-11-26T15:15:00+00:00
+- AVL.TO (AVALON ADVANCED MATERIALS INC): +3.6% today at 4.55, last 30m +1.8%, volume pace 5.33x, rising since 2026-11-26T15:25:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -117,13 +120,13 @@ Market: S&P/TSX Composite 34,179.99 on 2026-11-25 (day +0.6%, month -5.5%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- ORIO.TO (ORION DIGITAL CORP): +11.3% at 1.67, volume pace 5.23x
-- DC-A.TO (DUNDEE CORP., CL.A SV): +9.8% at 3.58, volume pace 3.36x
-- DYA.TO (DYNACERT INC): +6.7% at 0.08, volume pace 0.0x
-- CIA.TO (CHAMPION IRON LIMITED): +6.5% at 1.64, volume pace 0.68x
-- ELO.TO (ELORO RESOURCES LTD): +6.4% at 1.33, volume pace 0.01x
-- COPR.TO (COPPERNICO METALS INC): +6.1% at 0.26, volume pace 0.0x
-- PTM.TO (PLATINUM GROUP METALS LTD.): +6.1% at 1.22, volume pace 0.0x
-- BNKR.TO (BUNKER HILL MINING CORP): +6.0% at 1.78, volume pace 1.12x
+- DC-A.TO (DUNDEE CORP., CL.A SV): +9.8% at 3.58, volume pace 2.04x
+- ORIO.TO (ORION DIGITAL CORP): +8.7% at 1.63, volume pace 3.12x
+- COPR.TO (COPPERNICO METALS INC): +8.2% at 0.265, volume pace 0.0x
+- ARA.TO (ACLARA RESOURCES INC): +8.1% at 2.26, volume pace 0.04x
+- XTRA.TO (XTRACT ONE TECHNOLGIES INC): +6.5% at 0.33, volume pace 0.93x
+- CIA.TO (CHAMPION IRON LIMITED): +6.2% at 1.635, volume pace 0.51x
+- PTM.TO (PLATINUM GROUP METALS LTD.): +6.1% at 1.22, volume pace 0.34x
+- MAXQ.TO (Maritime Launch Services Inc.): +5.4% at 0.39, volume pace 0.05x
 - SAU.TO (ST AUGUSTINE GOLD AND COPPER LT): +5.3% at 0.1, volume pace 0.0x
-- TSK.TO (TALISKER RESOURCES LTD): +5.1% at 0.62, volume pace 0.17x
+- ALK.TO (ALKANE RESOURCES LIMITED): +5.2% at 1.515, volume pace 0.11x
