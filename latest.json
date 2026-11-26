@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T08:31-07:00",
+ "generated": "2026-11-26T09:01-07:00",
  "last_close_day": "2026-11-25",
  "tracked": 725,
  "tracked_by_market": {
@@ -340,18 +340,18 @@
    "added": "2026-10-14"
   }
  ],
- "live_as_of": "2026-11-26T15:35:00+00:00",
+ "live_as_of": "2026-11-26T16:05:00+00:00",
  "rising": [
   {
-   "ticker": "SPA.V",
-   "name": "SPANISH MOUNTAIN GOLD LTD",
-   "as_of": "2026-11-26T14:50:00+00:00",
-   "last": 0.22,
-   "pct_day": 12.82,
-   "pct_30m": 7.32,
-   "volume_pace": 1.84,
+   "ticker": "SME.V",
+   "name": "SAMA RESOURCES INC RESSOURCES S",
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 0.19,
+   "pct_day": 18.75,
+   "pct_30m": 8.57,
+   "volume_pace": 3.38,
    "rising": true,
-   "rising_since": "2026-11-26T14:50:00+00:00"
+   "rising_since": "2026-11-26T15:40:00+00:00"
   },
   {
    "ticker": "FTZ.V",
@@ -365,81 +365,48 @@
    "rising_since": "2026-11-26T14:55:00+00:00"
   },
   {
-   "ticker": "NCAU.V",
-   "name": "NEWCORE GOLD LTD",
-   "as_of": "2026-11-26T15:20:00+00:00",
-   "last": 0.2,
-   "pct_day": 5.26,
-   "pct_30m": 5.26,
-   "volume_pace": 1.81,
+   "ticker": "IPT.V",
+   "name": "IMPACT SILVER CORP.",
+   "as_of": "2026-11-26T15:40:00+00:00",
+   "last": 0.205,
+   "pct_day": 5.13,
+   "pct_30m": 2.5,
+   "volume_pace": 2.8,
    "rising": true,
-   "rising_since": "2026-11-26T15:20:00+00:00"
+   "rising_since": "2026-11-26T15:40:00+00:00"
   },
   {
-   "ticker": "FLT.TO",
-   "name": "VOLATUS AEROSPACE INC",
-   "as_of": "2026-11-26T15:20:00+00:00",
-   "last": 0.36,
-   "pct_day": 4.35,
-   "pct_30m": 2.86,
-   "volume_pace": 1.52,
+   "ticker": "EOG.V",
+   "name": "ECO ATLANTIC OIL AND GAS LTD",
+   "as_of": "2026-11-26T15:50:00+00:00",
+   "last": 0.65,
+   "pct_day": 4.84,
+   "pct_30m": 1.56,
+   "volume_pace": 1.66,
    "rising": true,
-   "rising_since": "2026-11-26T15:05:00+00:00"
+   "rising_since": "2026-11-26T15:50:00+00:00"
   },
   {
-   "ticker": "CAM.V",
-   "name": "CASCADIA MINERALS LTD",
-   "as_of": "2026-11-26T15:00:00+00:00",
-   "last": 0.365,
-   "pct_day": 4.29,
-   "pct_30m": 4.29,
-   "volume_pace": 1.8,
+   "ticker": "ECOR.TO",
+   "name": "ECORA ROYALTIES PLC",
+   "as_of": "2026-11-26T15:50:00+00:00",
+   "last": 2.43,
+   "pct_day": 3.4,
+   "pct_30m": 1.25,
+   "volume_pace": 1.73,
    "rising": true,
-   "rising_since": "2026-11-26T15:00:00+00:00"
+   "rising_since": "2026-11-26T15:50:00+00:00"
   },
   {
-   "ticker": "CDR.TO",
-   "name": "CONDOR ENERGIES INC",
-   "as_of": "2026-11-26T15:15:00+00:00",
-   "last": 3.35,
-   "pct_day": 4.04,
-   "pct_30m": 4.69,
-   "volume_pace": 1.82,
+   "ticker": "CERT.V",
+   "name": "CERRADO GOLD INC",
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 2.14,
+   "pct_day": 3.38,
+   "pct_30m": 0.47,
+   "volume_pace": 3.31,
    "rising": true,
-   "rising_since": "2026-11-26T15:15:00+00:00"
-  },
-  {
-   "ticker": "AUXX.V",
-   "name": "GOLD X2 MINING INC",
-   "as_of": "2026-11-26T15:20:00+00:00",
-   "last": 3.57,
-   "pct_day": 3.78,
-   "pct_30m": 1.13,
-   "volume_pace": 1.55,
-   "rising": true,
-   "rising_since": "2026-11-26T15:05:00+00:00"
-  },
-  {
-   "ticker": "AVL.TO",
-   "name": "AVALON ADVANCED MATERIALS INC",
-   "as_of": "2026-11-26T15:25:00+00:00",
-   "last": 4.55,
-   "pct_day": 3.64,
-   "pct_30m": 1.79,
-   "volume_pace": 5.33,
-   "rising": true,
-   "rising_since": "2026-11-26T15:25:00+00:00"
-  },
-  {
-   "ticker": "REG.V",
-   "name": "REGULUS RESOURCES INC",
-   "as_of": "2026-11-26T15:35:00+00:00",
-   "last": 4.3,
-   "pct_day": 3.61,
-   "pct_30m": 4.37,
-   "volume_pace": 3.44,
-   "rising": true,
-   "rising_since": "2026-11-26T15:10:00+00:00"
+   "rising_since": "2026-11-26T16:00:00+00:00"
   },
   {
    "ticker": "SAGA.V",
@@ -457,11 +424,22 @@
   {
    "ticker": "HPQ.V",
    "name": "HPQ SILICON INC",
-   "as_of": "2026-11-26T15:30:00+00:00",
-   "last": 0.105,
-   "pct_day": 50.0,
-   "pct_30m": 10.53,
-   "volume_pace": 18.91,
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 0.11,
+   "pct_day": 57.14,
+   "pct_30m": 4.76,
+   "volume_pace": 13.59,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SEVA.V",
+   "name": "SEVA MINING CORP",
+   "as_of": "2026-11-26T16:05:00+00:00",
+   "last": 0.22,
+   "pct_day": 37.5,
+   "pct_30m": 18.92,
+   "volume_pace": 14.54,
    "rising": false,
    "rising_since": null
   },
@@ -472,7 +450,29 @@
    "last": 0.085,
    "pct_day": 30.77,
    "pct_30m": 21.43,
-   "volume_pace": 0.2,
+   "volume_pace": 0.36,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "PX.V",
+   "name": "PELANGIO EXPLORATION INC.",
+   "as_of": "2026-11-26T15:50:00+00:00",
+   "last": 0.12,
+   "pct_day": 26.32,
+   "pct_30m": 20.0,
+   "volume_pace": 5.13,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VZZ.V",
+   "name": "VAL DOR MINING CORPORATION",
+   "as_of": "2026-11-26T15:15:00+00:00",
+   "last": 0.1,
+   "pct_day": 25.0,
+   "pct_30m": 0.0,
+   "volume_pace": 0.0,
    "rising": false,
    "rising_since": null
   },
@@ -499,15 +499,26 @@
    "rising_since": null
   },
   {
-   "ticker": "PHNM.V",
-   "name": "PHENOM RESOURCES CORP",
-   "as_of": "2026-11-26T15:20:00+00:00",
-   "last": 0.35,
-   "pct_day": 20.69,
-   "pct_30m": 0.0,
-   "volume_pace": 4.81,
+   "ticker": "OGW.V",
+   "name": "ONGWE MINERALS INC",
+   "as_of": "2026-11-26T15:50:00+00:00",
+   "last": 0.87,
+   "pct_day": 20.83,
+   "pct_30m": 2.35,
+   "volume_pace": 4.26,
    "rising": false,
    "rising_since": null
+  },
+  {
+   "ticker": "SME.V",
+   "name": "SAMA RESOURCES INC RESSOURCES S",
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 0.19,
+   "pct_day": 18.75,
+   "pct_30m": 8.57,
+   "volume_pace": 3.38,
+   "rising": true,
+   "rising_since": "2026-11-26T15:40:00+00:00"
   },
   {
    "ticker": "MRVL.V",
@@ -521,68 +532,35 @@
    "rising_since": null
   },
   {
-   "ticker": "RRI.V",
-   "name": "RIVERSIDE RESOURCES INC.",
-   "as_of": "2026-11-26T14:35:00+00:00",
-   "last": 0.36,
-   "pct_day": 18.03,
-   "pct_30m": 0.0,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "OGW.V",
-   "name": "ONGWE MINERALS INC",
-   "as_of": "2026-11-26T15:30:00+00:00",
-   "last": 0.84,
-   "pct_day": 16.67,
-   "pct_30m": 7.69,
-   "volume_pace": 1.44,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "SMN.V",
-   "name": "SUN SUMMIT MINERALS CORP",
-   "as_of": "2026-11-26T14:55:00+00:00",
-   "last": 0.075,
-   "pct_day": 15.38,
-   "pct_30m": 7.14,
-   "volume_pace": 6.09,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "GPUS.V",
-   "name": "ALSET AI VENTURES INC",
-   "as_of": "2026-11-26T15:10:00+00:00",
-   "last": 0.15,
-   "pct_day": 15.38,
-   "pct_30m": 3.45,
-   "volume_pace": 17.8,
+   "ticker": "ORIO.TO",
+   "name": "ORION DIGITAL CORP",
+   "as_of": "2026-11-26T15:50:00+00:00",
+   "last": 1.65,
+   "pct_day": 10.0,
+   "pct_30m": -1.2,
+   "volume_pace": 2.44,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DC-A.TO",
    "name": "DUNDEE CORP., CL.A SV",
-   "as_of": "2026-11-26T15:30:00+00:00",
+   "as_of": "2026-11-26T16:00:00+00:00",
    "last": 3.58,
    "pct_day": 9.82,
    "pct_30m": 0.0,
-   "volume_pace": 2.04,
+   "volume_pace": 1.65,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ORIO.TO",
-   "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-26T15:30:00+00:00",
-   "last": 1.63,
-   "pct_day": 8.67,
-   "pct_30m": -2.4,
-   "volume_pace": 3.12,
+   "ticker": "ARA.TO",
+   "name": "ACLARA RESOURCES INC",
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 2.29,
+   "pct_day": 9.57,
+   "pct_30m": 1.33,
+   "volume_pace": 0.16,
    "rising": false,
    "rising_since": null
   },
@@ -593,62 +571,40 @@
    "last": 0.265,
    "pct_day": 8.16,
    "pct_30m": 1.92,
-   "volume_pace": 0.0,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "ARA.TO",
-   "name": "ACLARA RESOURCES INC",
-   "as_of": "2026-11-26T15:30:00+00:00",
-   "last": 2.26,
-   "pct_day": 8.13,
-   "pct_30m": 3.2,
-   "volume_pace": 0.04,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "XTRA.TO",
-   "name": "XTRACT ONE TECHNOLGIES INC",
-   "as_of": "2026-11-26T15:20:00+00:00",
-   "last": 0.33,
-   "pct_day": 6.45,
-   "pct_30m": 1.54,
-   "volume_pace": 0.93,
+   "volume_pace": 0.07,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CIA.TO",
    "name": "CHAMPION IRON LIMITED",
-   "as_of": "2026-11-26T15:25:00+00:00",
-   "last": 1.635,
-   "pct_day": 6.17,
-   "pct_30m": -0.3,
-   "volume_pace": 0.51,
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 1.64,
+   "pct_day": 6.49,
+   "pct_30m": 0.31,
+   "volume_pace": 0.32,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "PTM.TO",
-   "name": "PLATINUM GROUP METALS LTD.",
-   "as_of": "2026-11-26T15:30:00+00:00",
-   "last": 1.22,
-   "pct_day": 6.09,
+   "ticker": "XTRA.TO",
+   "name": "XTRACT ONE TECHNOLGIES INC",
+   "as_of": "2026-11-26T15:55:00+00:00",
+   "last": 0.33,
+   "pct_day": 6.45,
    "pct_30m": 0.0,
-   "volume_pace": 0.34,
+   "volume_pace": 0.63,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "MAXQ.TO",
-   "name": "Maritime Launch Services Inc.",
-   "as_of": "2026-11-26T15:30:00+00:00",
-   "last": 0.39,
-   "pct_day": 5.41,
-   "pct_30m": 2.63,
-   "volume_pace": 0.05,
+   "ticker": "CDR.TO",
+   "name": "CONDOR ENERGIES INC",
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 3.4,
+   "pct_day": 5.59,
+   "pct_30m": 1.49,
+   "volume_pace": 0.91,
    "rising": false,
    "rising_since": null
   },
@@ -664,13 +620,24 @@
    "rising_since": null
   },
   {
-   "ticker": "ALK.TO",
-   "name": "ALKANE RESOURCES LIMITED",
-   "as_of": "2026-11-26T15:30:00+00:00",
-   "last": 1.515,
-   "pct_day": 5.21,
-   "pct_30m": 1.0,
-   "volume_pace": 0.11,
+   "ticker": "PTM.TO",
+   "name": "PLATINUM GROUP METALS LTD.",
+   "as_of": "2026-11-26T15:40:00+00:00",
+   "last": 1.21,
+   "pct_day": 5.22,
+   "pct_30m": -0.82,
+   "volume_pace": 0.33,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "JOY.TO",
+   "name": "JOURNEY ENERGY INC",
+   "as_of": "2026-11-26T16:00:00+00:00",
+   "last": 4.46,
+   "pct_day": 4.94,
+   "pct_30m": 0.68,
+   "volume_pace": 0.69,
    "rising": false,
    "rising_since": null
   }
@@ -1272,9 +1239,9 @@
    "ma200": 938.15,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-26T15:35:00+00:00",
-    "last": 718.4,
-    "pct_day": 1.45
+    "as_of": "2026-11-26T16:05:00+00:00",
+    "last": 718.07,
+    "pct_day": 1.41
    }
   },
   "^GSPTSE": {
@@ -1873,9 +1840,9 @@
    "ma200": 34808.55,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-26T15:35:00+00:00",
-    "last": 34448.73,
-    "pct_day": 0.79
+    "as_of": "2026-11-26T16:05:00+00:00",
+    "last": 34413.63,
+    "pct_day": 0.68
    }
   }
  },
