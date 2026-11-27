@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-27T14:06-07:00
+# Stock feed — 2026-11-27T15:29-07:00
 
-Tracking 728 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-26. Intraday data as of: 2026-11-27T21:00:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 730 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-27. Intraday data as of: 2026-11-27T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 720.67 on 2026-11-26 (day +1.8%, month -14.1%, year -19.2%, downtrend); live +2.2% at 21:00
-Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year +11.4%, downtrend); live +1.2% at 21:00
+Market: S&P/TSX Venture Composite 737.25 on 2026-11-27 (day +2.3%, month -10.8%, year -19.7%, downtrend)
+Market: S&P/TSX Composite 34,839.87 on 2026-11-27 (day +1.2%, month -3.9%, year +11.7%, uptrend)
 
 # TSX Venture
 
@@ -13,24 +13,20 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 
 ## TSX Venture: washouts at last close (down 20%+ over 5 days, then an up day on above-normal volume; hold ~20 days)
 
-- ASE.V (ASANTE GOLD CORPORATION): close 0.175, 5d -40.7%, day +12.9%, rel vol 1.4x
+- IDEX.V (IDEX METALS CORP): close 0.15, 5d -25.0%, day +3.4%, rel vol 1.3x
 
 ## TSX Venture: washout watch (down 15%+ over 5 days, not fired yet; ready = already down 20%+)
 
-- AUMB.V (1911 GOLD CORPORATION): close 0.325, 5d -29.3%, ready, C$458k a day
-- AMT.V (AMERITRUST FINANCIAL TECHNOLOGI): close 0.12, 5d -22.6%, ready, C$169k a day
-- WAM.V (ALASKA SILVER CORP): close 0.46, 5d -20.7%, ready, C$51k a day
-- EOG.V (ECO ATLANTIC OIL AND GAS LTD): close 0.65, 5d -18.2%, C$69k a day
-- AXO.V (AXO METALS CORP): close 0.73, 5d -17.0%, C$317k a day
-- GG.V (GOLCONDA GOLD LTD): close 2.26, 5d -16.3%, C$315k a day
-- KCP.V (KING COPPER DISCOVERY CORP): close 0.385, 5d -16.3%, C$309k a day
-- ROB.V (ROBINSON ENERGY LIMITED): close 2.5, 5d -16.1%, C$59k a day
-- TTS.V (TINTINA MINES LTD): close 1.12, 5d -15.2%, C$147k a day
+- ADE.V (ADEX MINING INC.): close 0.12, 5d -33.3%, ready, C$54k a day
+- AUMB.V (1911 GOLD CORPORATION): close 0.34, 5d -19.0%, C$477k a day
+- ROB.V (ROBINSON ENERGY LIMITED): close 2.44, 5d -18.4%, C$56k a day
+- ASE.V (ASANTE GOLD CORPORATION): close 0.16, 5d -15.8%, C$591k a day
 
 ## TSX Venture: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- OML.V (OMNI-LITE INDUSTRIES CANADA INC): 2/3, close 3.43, rel vol 0.32x, 20d +22.5%, +0.0% vs 52w high
-- VIMY.V (Vimy Pharmaceuticals Inc.): 2/3, close 3.02, rel vol 0.25x, 20d -, +0.0% vs 52w high
+- TIG.V (TRIUMPH GOLD CORP): 2/3, close 0.9, rel vol 1.52x, 20d +13.9%, +0.0% vs 52w high
+- OML.V (OMNI-LITE INDUSTRIES CANADA INC): 2/3, close 3.43, rel vol 1.11x, 20d +16.3%, +0.0% vs 52w high
+- VIMY.V (Vimy Pharmaceuticals Inc.): 2/3, close 3.02, rel vol 0.41x, 20d -, +0.0% vs 52w high
 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -43,16 +39,16 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 
 ## TSX Venture: top by relative volume at last close
 
-- EOG.V (ECO ATLANTIC OIL AND GAS LTD): rel vol 4.85x, close 0.65, 20d -19.8%
-- AGX.V (SILVER X MINING CORP): rel vol 3.32x, close 0.49, 20d -26.9%
-- OGW.V (ONGWE MINERALS INC): rel vol 3.31x, close 0.85, 20d -29.2%
-- CCMM.V (COYOTE COPPER MINES INC): rel vol 2.23x, close 0.31, 20d -6.1%
-- DMX.V (DISTRICT METALS CORP): rel vol 1.97x, close 0.38, 20d -2.6%
-- EXN.V (EXCELLON RESOURCES INC): rel vol 1.91x, close 0.22, 20d -12.0%
-- WHN.V (WESTHAVEN GOLD CORP): rel vol 1.89x, close 0.21, 20d -22.2%
-- ZEN.V (ZENTEK LTD): rel vol 1.89x, close 0.65, 20d +18.2%
-- HCH.V (HOT CHILI LIMITED): rel vol 1.86x, close 1.15, 20d -11.5%
-- REG.V (REGULUS RESOURCES INC): rel vol 1.85x, close 4.33, 20d -9.6%
+- SOMA.V (SOMA GOLD CORP): rel vol 7.82x, close 0.45, 20d -10.0%
+- CCCM.V (C3 METALS INC): rel vol 5.41x, close 0.55, 20d -5.2%
+- EOG.V (ECO ATLANTIC OIL AND GAS LTD): rel vol 4.89x, close 0.66, 20d -21.4%
+- LVG.V (LAKE VICTORIA GOLD LTD): rel vol 3.64x, close 0.2925, 20d -15.2%
+- GSKR.V (GOLDSKY RESOURCES CORP): rel vol 3.4x, close 2.3, 20d -8.0%
+- LCX.V (LYCOS ENERGY INC): rel vol 3.12x, close 1.48, 20d -17.8%
+- BRO.V (BARKSDALE RESOURCES CORP): rel vol 2.56x, close 0.175, 20d -28.6%
+- CDPR.V (CERRO DE PASCO RESOURCES INC): rel vol 2.49x, close 0.56, 20d -8.2%
+- SUNV.V (Sun Valley Minerals Inc.): rel vol 2.48x, close 0.79, 20d -7.1%
+- GG.V (GOLCONDA GOLD LTD): rel vol 2.3x, close 2.33, 20d -21.8%
 
 ## TSX Venture: top gainers in latest intraday pass
 
@@ -71,7 +67,7 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 
 ## TSX: breakouts at last close (C$0.50+: new 60-day high after a quiet 20-day range, volume 2x+)
 
-- PNE.TO (PINE CLIFF ENERGY LTD): close 0.59, volume 2.3x
+- none
 
 ## TSX: washouts at last close (down 20%+ over 5 days, then an up day on above-normal volume; hold ~20 days)
 
@@ -79,16 +75,13 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 
 ## TSX: washout watch (down 15%+ over 5 days, not fired yet; ready = already down 20%+)
 
-- AIDX.TO (HEALWELL AI INC): close 0.38, 5d -25.5%, ready, C$106k a day
-- RUA.TO (RUA GOLD INC): close 0.73, 5d -23.2%, ready, C$62k a day
-- TMQ.TO (TRILOGY METALS INC): close 2.05, 5d -18.0%, C$666k a day
-- KEEL.TO (KEEL INFRASTRUCTURE CORP): close 2.02, 5d -17.9%, C$10,602k a day
-- GASX.TO (NG ENERGY INTERNATIONAL CORP): close 0.84, 5d -16.0%, C$243k a day
+- AIDX.TO (HEALWELL AI INC): close 0.38, 5d -16.5%, C$116k a day
 
 ## TSX: flagged at last close (2+ of: above 50-day avg, volume spike >2x, new 52-week high)
 
-- PNE.TO (PINE CLIFF ENERGY LTD): 2/3, close 0.59, rel vol 2.31x, 20d +11.3%, -35.2% vs 52w high
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): 2/3, close 6.32, rel vol 1.17x, 20d +25.4%, +0.0% vs 52w high
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): 3/3, close 6.85, rel vol 2.32x, 20d +38.9%, +0.0% vs 52w high
+- ORIO.TO (ORION DIGITAL CORP): 2/3, close 1.84, rel vol 5.61x, 20d +53.3%, -0.5% vs 52w high
+- THNC.TO (THINKIFIC LABS INC): 2/3, close 2.5, rel vol 0.67x, 20d +18.5%, +0.0% vs 52w high
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
@@ -98,16 +91,16 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 
 ## TSX: top by relative volume at last close
 
-- AIM.TO (AIMIA INC): rel vol 25.09x, close 2.55, 20d +0.4%
-- GRA.TO (NANOXPLORE INC): rel vol 3.6x, close 1.31, 20d +4.8%
-- AIDX.TO (HEALWELL AI INC): rel vol 3.53x, close 0.38, 20d -45.7%
-- SBI.TO (SERABI GOLD PLC): rel vol 3.51x, close 2.79, 20d -18.4%
-- PNE.TO (PINE CLIFF ENERGY LTD): rel vol 2.31x, close 0.59, 20d +11.3%
-- YGR.TO (YANGARRA RESOURCES LTD): rel vol 2.01x, close 1.34, 20d -22.1%
-- ORIO.TO (ORION DIGITAL CORP): rel vol 1.77x, close 1.74, 20d +46.2%
-- BRE.TO (BRIDGEMARQ REAL ESTATE SERVICES): rel vol 1.53x, close 2.23, 20d -7.1%
-- ECOR.TO (ECORA ROYALTIES PLC): rel vol 1.28x, close 2.425, 20d -17.2%
-- SNDY.TO (Sunday Lake Gold Corp.): rel vol 1.25x, close 1.24, 20d -13.9%
+- ORIO.TO (ORION DIGITAL CORP): rel vol 5.61x, close 1.84, 20d +53.3%
+- AIDX.TO (HEALWELL AI INC): rel vol 5.17x, close 0.38, 20d -42.4%
+- VGZ.TO (VISTA GOLD CORP): rel vol 2.33x, close 3.54, 20d +1.4%
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): rel vol 2.32x, close 6.85, 20d +38.9%
+- LOVE.TO (CANNARA BIOTECH INC): rel vol 2.03x, close 1.99, 20d -1.0%
+- PCA.TO (PHOENIX METALS CORP CLASS A): rel vol 2.02x, close 0.89, 20d -21.2%
+- TSND.TO (TERRASCEND CORP): rel vol 1.72x, close 0.56, 20d -15.2%
+- EDCU.TO (EDGE COPPER CORPORATION): rel vol 1.63x, close 0.305, 20d -15.3%
+- PRQ.TO (PETRUS RESOURCES LTD): rel vol 1.62x, close 1.71, 20d -2.3%
+- SAM.TO (STARCORE INTERNATIONAL MINES LT): rel vol 1.51x, close 0.285, 20d +14.0%
 
 ## TSX: top gainers in latest intraday pass
 
