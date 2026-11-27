@@ -1,4 +1,4 @@
-# Stock feed — 2026-11-27T14:01-07:00
+# Stock feed — 2026-11-27T14:06-07:00
 
 Tracking 728 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-26. Intraday data as of: 2026-11-27T21:00:00+00:00 (Yahoo, ~15 min delayed).
 
@@ -37,8 +37,8 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 - BRO.V (BARKSDALE RESOURCES CORP): +20.7% today at 0.175, last 30m +16.7%, volume pace 3.31x, rising since 2026-11-27T19:15:00+00:00
 - GRSL.V (GR SILVER MINING LTD): +16.3% today at 0.25, last 30m +2.0%, volume pace 1.5x, rising since 2026-11-27T20:55:00+00:00
 - NCX.V (NORTHISLE COPPER AND GOLD INC): +14.8% today at 2.64, last 30m +0.4%, volume pace 1.56x, rising since 2026-11-27T21:00:00+00:00
-- GSKR.V (GOLDSKY RESOURCES CORP): +5.2% today at 2.24, last 30m +0.9%, volume pace 3.16x, rising since 2026-11-27T21:00:00+00:00
-- ITR.V (INTEGRA RESOURCES CORP): +5.0% today at 2.3, last 30m +1.8%, volume pace 1.94x, rising since 2026-11-27T20:55:00+00:00
+- GSKR.V (GOLDSKY RESOURCES CORP): +8.0% today at 2.3, last 30m +3.6%, volume pace 3.16x, rising since 2026-11-27T21:00:00+00:00
+- ITR.V (INTEGRA RESOURCES CORP): +5.9% today at 2.32, last 30m +2.6%, volume pace 1.94x, rising since 2026-11-27T20:55:00+00:00
 - AUXX.V (GOLD X2 MINING INC): +3.7% today at 3.89, last 30m +0.4%, volume pace 2.23x, rising since 2026-11-27T21:00:00+00:00
 
 ## TSX Venture: top by relative volume at last close
@@ -119,5 +119,5 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 - SLVR.TO (SILVER TIGER METALS INC): +9.8% at 0.67, volume pace 0.88x
 - CAML.TO (CENTRAL ASIA METALS PLC): +9.7% at 2.03, volume pace 0.0x
 - TSND.TO (TERRASCEND CORP): +9.6% at 0.57, volume pace 1.82x
+- RUA.TO (RUA GOLD INC): +9.6% at 0.8, volume pace 0.18x
 - FF.TO (FIRST MINING GOLD CORP): +9.4% at 0.58, volume pace 0.35x
-- JAG.TO (JAGUAR MINING INC): +9.3% at 3.98, volume pace 0.68x

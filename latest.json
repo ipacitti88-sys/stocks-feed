@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T14:01-07:00",
+ "generated": "2026-11-27T14:06-07:00",
  "last_close_day": "2026-11-26",
  "tracked": 728,
  "tracked_by_market": {
@@ -406,6 +406,17 @@
    "rising_since": "2026-11-27T21:00:00+00:00"
   },
   {
+   "ticker": "GSKR.V",
+   "name": "GOLDSKY RESOURCES CORP",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 2.3,
+   "pct_day": 7.98,
+   "pct_30m": 3.6,
+   "volume_pace": 3.16,
+   "rising": true,
+   "rising_since": "2026-11-27T21:00:00+00:00"
+  },
+  {
    "ticker": "MDP.TO",
    "name": "MEDEXUS PHARMACEUTICALS INC",
    "as_of": "2026-11-27T21:00:00+00:00",
@@ -428,6 +439,17 @@
    "rising_since": "2026-11-27T21:00:00+00:00"
   },
   {
+   "ticker": "ITR.V",
+   "name": "INTEGRA RESOURCES CORP",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 2.32,
+   "pct_day": 5.94,
+   "pct_30m": 2.65,
+   "volume_pace": 1.94,
+   "rising": true,
+   "rising_since": "2026-11-27T20:55:00+00:00"
+  },
+  {
    "ticker": "ORIO.TO",
    "name": "ORION DIGITAL CORP",
    "as_of": "2026-11-27T20:45:00+00:00",
@@ -437,28 +459,6 @@
    "volume_pace": 5.58,
    "rising": true,
    "rising_since": "2026-11-27T20:40:00+00:00"
-  },
-  {
-   "ticker": "GSKR.V",
-   "name": "GOLDSKY RESOURCES CORP",
-   "as_of": "2026-11-27T21:00:00+00:00",
-   "last": 2.24,
-   "pct_day": 5.16,
-   "pct_30m": 0.9,
-   "volume_pace": 3.16,
-   "rising": true,
-   "rising_since": "2026-11-27T21:00:00+00:00"
-  },
-  {
-   "ticker": "ITR.V",
-   "name": "INTEGRA RESOURCES CORP",
-   "as_of": "2026-11-27T21:00:00+00:00",
-   "last": 2.3,
-   "pct_day": 5.02,
-   "pct_30m": 1.77,
-   "volume_pace": 1.94,
-   "rising": true,
-   "rising_since": "2026-11-27T20:55:00+00:00"
   },
   {
    "ticker": "AUXX.V",
@@ -672,6 +672,17 @@
    "rising_since": null
   },
   {
+   "ticker": "RUA.TO",
+   "name": "RUA GOLD INC",
+   "as_of": "2026-11-27T20:55:00+00:00",
+   "last": 0.8,
+   "pct_day": 9.59,
+   "pct_30m": 1.27,
+   "volume_pace": 0.18,
+   "rising": false,
+   "rising_since": null
+  },
+  {
    "ticker": "FF.TO",
    "name": "FIRST MINING GOLD CORP",
    "as_of": "2026-11-27T21:00:00+00:00",
@@ -679,17 +690,6 @@
    "pct_day": 9.43,
    "pct_30m": 1.75,
    "volume_pace": 0.35,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "JAG.TO",
-   "name": "JAGUAR MINING INC",
-   "as_of": "2026-11-27T21:00:00+00:00",
-   "last": 3.98,
-   "pct_day": 9.34,
-   "pct_30m": 0.25,
-   "volume_pace": 0.68,
    "rising": false,
    "rising_since": null
   }
