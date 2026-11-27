@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T12:31-07:00",
+ "generated": "2026-11-27T13:01-07:00",
  "last_close_day": "2026-11-26",
  "tracked": 728,
  "tracked_by_market": {
@@ -370,7 +370,7 @@
    "added": "2026-10-20"
   }
  ],
- "live_as_of": "2026-11-27T19:35:00+00:00",
+ "live_as_of": "2026-11-27T20:05:00+00:00",
  "rising": [
   {
    "ticker": "BRO.V",
@@ -379,20 +379,20 @@
    "last": 0.175,
    "pct_day": 20.69,
    "pct_30m": 16.67,
-   "volume_pace": 3.29,
+   "volume_pace": 3.31,
    "rising": true,
    "rising_since": "2026-11-27T19:15:00+00:00"
   },
   {
    "ticker": "NCX.V",
    "name": "NORTHISLE COPPER AND GOLD INC",
-   "as_of": "2026-11-27T19:30:00+00:00",
-   "last": 2.61,
-   "pct_day": 13.48,
-   "pct_30m": 1.56,
-   "volume_pace": 1.51,
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 2.64,
+   "pct_day": 14.78,
+   "pct_30m": 1.15,
+   "volume_pace": 1.69,
    "rising": true,
-   "rising_since": "2026-11-27T19:25:00+00:00"
+   "rising_since": "2026-11-27T19:45:00+00:00"
   },
   {
    "ticker": "GGO.V",
@@ -401,53 +401,64 @@
    "last": 1.03,
    "pct_day": 10.75,
    "pct_30m": 0.98,
-   "volume_pace": 2.24,
+   "volume_pace": 2.26,
    "rising": true,
    "rising_since": "2026-11-27T17:45:00+00:00"
   },
   {
+   "ticker": "SBI.TO",
+   "name": "SERABI GOLD PLC",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 3.06,
+   "pct_day": 9.68,
+   "pct_30m": 0.99,
+   "volume_pace": 1.87,
+   "rising": true,
+   "rising_since": "2026-11-27T20:00:00+00:00"
+  },
+  {
    "ticker": "MDP.TO",
    "name": "MEDEXUS PHARMACEUTICALS INC",
-   "as_of": "2026-11-27T19:30:00+00:00",
-   "last": 6.7,
-   "pct_day": 6.01,
-   "pct_30m": 0.15,
-   "volume_pace": 2.18,
+   "as_of": "2026-11-27T19:50:00+00:00",
+   "last": 6.71,
+   "pct_day": 6.17,
+   "pct_30m": 0.52,
+   "volume_pace": 2.14,
    "rising": true,
-   "rising_since": "2026-11-27T19:15:00+00:00"
+   "rising_since": "2026-11-27T19:45:00+00:00"
   },
   {
-   "ticker": "SNDY.TO",
-   "name": "Sunday Lake Gold Corp.",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 1.3,
-   "pct_day": 4.84,
-   "pct_30m": 0.78,
-   "volume_pace": 1.64,
+   "ticker": "DC-A.TO",
+   "name": "DUNDEE CORP., CL.A SV",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 3.81,
+   "pct_day": 6.13,
+   "pct_30m": 0.26,
+   "volume_pace": 2.4,
    "rising": true,
-   "rising_since": "2026-11-27T18:05:00+00:00"
+   "rising_since": "2026-11-27T19:55:00+00:00"
   },
   {
-   "ticker": "EOG.V",
-   "name": "ECO ATLANTIC OIL AND GAS LTD",
-   "as_of": "2026-11-27T19:30:00+00:00",
-   "last": 0.68,
-   "pct_day": 4.62,
-   "pct_30m": 1.49,
-   "volume_pace": 5.22,
+   "ticker": "GG.V",
+   "name": "GOLCONDA GOLD LTD",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 2.36,
+   "pct_day": 4.42,
+   "pct_30m": 0.43,
+   "volume_pace": 2.42,
    "rising": true,
-   "rising_since": "2026-11-27T19:30:00+00:00"
+   "rising_since": "2026-11-27T20:00:00+00:00"
   },
   {
-   "ticker": "PLSR.V",
-   "name": "PULSAR HELIUM INC",
-   "as_of": "2026-11-27T18:05:00+00:00",
-   "last": 0.96,
-   "pct_day": 4.35,
-   "pct_30m": 1.05,
-   "volume_pace": 2.03,
+   "ticker": "ITR.V",
+   "name": "INTEGRA RESOURCES CORP",
+   "as_of": "2026-11-27T20:05:00+00:00",
+   "last": 2.27,
+   "pct_day": 3.65,
+   "pct_30m": 1.34,
+   "volume_pace": 1.99,
    "rising": true,
-   "rising_since": "2026-11-27T16:45:00+00:00"
+   "rising_since": "2026-11-27T20:05:00+00:00"
   },
   {
    "ticker": "WI.V",
@@ -459,20 +470,20 @@
    "volume_pace": 1.94,
    "rising": true,
    "rising_since": "2026-11-27T17:40:00+00:00"
+  },
+  {
+   "ticker": "GSKR.V",
+   "name": "GOLDSKY RESOURCES CORP",
+   "as_of": "2026-11-27T19:40:00+00:00",
+   "last": 2.2,
+   "pct_day": 3.29,
+   "pct_30m": 0.92,
+   "volume_pace": 3.7,
+   "rising": true,
+   "rising_since": "2026-11-27T19:40:00+00:00"
   }
  ],
  "top_gainers_today": [
-  {
-   "ticker": "FOR.V",
-   "name": "FORTUNE BAY CORP",
-   "as_of": "2026-11-27T15:45:00+00:00",
-   "last": 0.495,
-   "pct_day": 30.26,
-   "pct_30m": 23.75,
-   "volume_pace": 9.24,
-   "rising": false,
-   "rising_since": null
-  },
   {
    "ticker": "GSR.V",
    "name": "GOLD STRIKE RESOURCES CORP",
@@ -480,7 +491,7 @@
    "last": 0.25,
    "pct_day": 25.0,
    "pct_30m": 0.0,
-   "volume_pace": 3.06,
+   "volume_pace": 3.17,
    "rising": false,
    "rising_since": null
   },
@@ -535,7 +546,7 @@
    "last": 0.175,
    "pct_day": 20.69,
    "pct_30m": 16.67,
-   "volume_pace": 3.29,
+   "volume_pace": 3.31,
    "rising": true,
    "rising_since": "2026-11-27T19:15:00+00:00"
   },
@@ -553,11 +564,11 @@
   {
    "ticker": "CCCM.V",
    "name": "C3 METALS INC",
-   "as_of": "2026-11-27T19:30:00+00:00",
+   "as_of": "2026-11-27T19:55:00+00:00",
    "last": 0.55,
    "pct_day": 19.57,
    "pct_30m": 7.84,
-   "volume_pace": 6.11,
+   "volume_pace": 5.99,
    "rising": false,
    "rising_since": null
   },
@@ -573,57 +584,68 @@
    "rising_since": null
   },
   {
-   "ticker": "GLO.TO",
-   "name": "GLOBAL ATOMIC CORPORATION",
-   "as_of": "2026-11-27T19:25:00+00:00",
-   "last": 0.34,
-   "pct_day": 13.33,
+   "ticker": "AMT.V",
+   "name": "AMERITRUST FINANCIAL TECHNOLOGI",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 0.14,
+   "pct_day": 16.67,
    "pct_30m": 0.0,
-   "volume_pace": 1.33,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "VGC.TO",
-   "name": "VALOR GOLD CORP",
-   "as_of": "2026-11-27T19:30:00+00:00",
-   "last": 1.9,
-   "pct_day": 13.1,
-   "pct_30m": 0.0,
-   "volume_pace": 1.18,
+   "volume_pace": 0.93,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-27T19:30:00+00:00",
-   "last": 1.22,
-   "pct_day": 12.96,
-   "pct_30m": 0.83,
-   "volume_pace": 1.2,
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 1.28,
+   "pct_day": 18.52,
+   "pct_30m": 4.92,
+   "volume_pace": 1.21,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "GLO.TO",
+   "name": "GLOBAL ATOMIC CORPORATION",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 0.34,
+   "pct_day": 13.33,
+   "pct_30m": 0.0,
+   "volume_pace": 1.19,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "VGC.TO",
+   "name": "VALOR GOLD CORP",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 1.89,
+   "pct_day": 12.5,
+   "pct_30m": -0.53,
+   "volume_pace": 1.09,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "S.TO",
    "name": "SHERRITT INTL RV",
-   "as_of": "2026-11-27T19:30:00+00:00",
+   "as_of": "2026-11-27T20:00:00+00:00",
    "last": 0.19,
    "pct_day": 11.76,
    "pct_30m": 0.0,
-   "volume_pace": 0.52,
+   "volume_pace": 0.49,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "USA.TO",
    "name": "AMERICAS GOLD AND SILVER CORPOR",
-   "as_of": "2026-11-27T19:30:00+00:00",
+   "as_of": "2026-11-27T20:05:00+00:00",
    "last": 3.15,
    "pct_day": 10.14,
-   "pct_30m": -0.16,
-   "volume_pace": 0.63,
+   "pct_30m": 0.0,
+   "volume_pace": 0.57,
    "rising": false,
    "rising_since": null
   },
@@ -641,13 +663,13 @@
   {
    "ticker": "SBI.TO",
    "name": "SERABI GOLD PLC",
-   "as_of": "2026-11-27T19:35:00+00:00",
+   "as_of": "2026-11-27T20:00:00+00:00",
    "last": 3.06,
    "pct_day": 9.68,
-   "pct_30m": -0.65,
-   "volume_pace": 2.01,
-   "rising": false,
-   "rising_since": null
+   "pct_30m": 0.99,
+   "volume_pace": 1.87,
+   "rising": true,
+   "rising_since": "2026-11-27T20:00:00+00:00"
   },
   {
    "ticker": "TSND.TO",
@@ -661,24 +683,24 @@
    "rising_since": null
   },
   {
-   "ticker": "JAG.TO",
-   "name": "JAGUAR MINING INC",
-   "as_of": "2026-11-27T19:30:00+00:00",
-   "last": 3.97,
-   "pct_day": 9.07,
-   "pct_30m": -0.25,
-   "volume_pace": 0.73,
+   "ticker": "NDM.TO",
+   "name": "NORTHERN DYNASTY MINERALS LTD.",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 0.69,
+   "pct_day": 9.52,
+   "pct_30m": 2.22,
+   "volume_pace": 0.59,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "CWEB.TO",
-   "name": "CHARLOTTES WEB HOLDINGS INC",
-   "as_of": "2026-11-27T19:15:00+00:00",
-   "last": 0.38,
-   "pct_day": 8.57,
-   "pct_30m": -3.8,
-   "volume_pace": 0.4,
+   "ticker": "JAG.TO",
+   "name": "JAGUAR MINING INC",
+   "as_of": "2026-11-27T20:00:00+00:00",
+   "last": 3.97,
+   "pct_day": 9.07,
+   "pct_30m": 0.0,
+   "volume_pace": 0.72,
    "rising": false,
    "rising_since": null
   }
@@ -1280,8 +1302,8 @@
    "ma200": 936.59,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-27T19:35:00+00:00",
-    "last": 738.21,
+    "as_of": "2026-11-27T20:05:00+00:00",
+    "last": 738.15,
     "pct_day": 2.43
    }
   },
@@ -1881,9 +1903,9 @@
    "ma200": 34814.4,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-27T19:35:00+00:00",
-    "last": 34856.65,
-    "pct_day": 1.25
+    "as_of": "2026-11-27T20:05:00+00:00",
+    "last": 34863.75,
+    "pct_day": 1.27
    }
   }
  },
