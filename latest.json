@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T13:31-07:00",
+ "generated": "2026-11-27T14:01-07:00",
  "last_close_day": "2026-11-26",
  "tracked": 728,
  "tracked_by_market": {
@@ -370,7 +370,7 @@
    "added": "2026-10-20"
   }
  ],
- "live_as_of": "2026-11-27T20:35:00+00:00",
+ "live_as_of": "2026-11-27T21:00:00+00:00",
  "rising": [
   {
    "ticker": "BRO.V",
@@ -384,48 +384,114 @@
    "rising_since": "2026-11-27T19:15:00+00:00"
   },
   {
+   "ticker": "GRSL.V",
+   "name": "GR SILVER MINING LTD",
+   "as_of": "2026-11-27T20:55:00+00:00",
+   "last": 0.25,
+   "pct_day": 16.28,
+   "pct_30m": 2.04,
+   "volume_pace": 1.5,
+   "rising": true,
+   "rising_since": "2026-11-27T20:55:00+00:00"
+  },
+  {
+   "ticker": "NCX.V",
+   "name": "NORTHISLE COPPER AND GOLD INC",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 2.64,
+   "pct_day": 14.78,
+   "pct_30m": 0.38,
+   "volume_pace": 1.56,
+   "rising": true,
+   "rising_since": "2026-11-27T21:00:00+00:00"
+  },
+  {
    "ticker": "MDP.TO",
    "name": "MEDEXUS PHARMACEUTICALS INC",
-   "as_of": "2026-11-27T20:25:00+00:00",
-   "last": 6.72,
-   "pct_day": 6.33,
-   "pct_30m": 0.15,
-   "volume_pace": 2.07,
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 6.82,
+   "pct_day": 7.91,
+   "pct_30m": 1.49,
+   "volume_pace": 2.3,
    "rising": true,
    "rising_since": "2026-11-27T19:45:00+00:00"
   },
   {
+   "ticker": "DC-A.TO",
+   "name": "DUNDEE CORP., CL.A SV",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 3.83,
+   "pct_day": 6.69,
+   "pct_30m": 0.79,
+   "volume_pace": 2.09,
+   "rising": true,
+   "rising_since": "2026-11-27T21:00:00+00:00"
+  },
+  {
+   "ticker": "ORIO.TO",
+   "name": "ORION DIGITAL CORP",
+   "as_of": "2026-11-27T20:45:00+00:00",
+   "last": 1.83,
+   "pct_day": 5.17,
+   "pct_30m": 1.1,
+   "volume_pace": 5.58,
+   "rising": true,
+   "rising_since": "2026-11-27T20:40:00+00:00"
+  },
+  {
    "ticker": "GSKR.V",
    "name": "GOLDSKY RESOURCES CORP",
-   "as_of": "2026-11-27T20:30:00+00:00",
-   "last": 2.22,
-   "pct_day": 4.23,
-   "pct_30m": 0.91,
-   "volume_pace": 3.2,
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 2.24,
+   "pct_day": 5.16,
+   "pct_30m": 0.9,
+   "volume_pace": 3.16,
    "rising": true,
-   "rising_since": "2026-11-27T20:20:00+00:00"
+   "rising_since": "2026-11-27T21:00:00+00:00"
+  },
+  {
+   "ticker": "ITR.V",
+   "name": "INTEGRA RESOURCES CORP",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 2.3,
+   "pct_day": 5.02,
+   "pct_30m": 1.77,
+   "volume_pace": 1.94,
+   "rising": true,
+   "rising_since": "2026-11-27T20:55:00+00:00"
+  },
+  {
+   "ticker": "AUXX.V",
+   "name": "GOLD X2 MINING INC",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 3.89,
+   "pct_day": 3.73,
+   "pct_30m": 0.39,
+   "volume_pace": 2.23,
+   "rising": true,
+   "rising_since": "2026-11-27T21:00:00+00:00"
   }
  ],
  "top_gainers_today": [
   {
-   "ticker": "GSR.V",
-   "name": "GOLD STRIKE RESOURCES CORP",
-   "as_of": "2026-11-27T19:30:00+00:00",
-   "last": 0.25,
-   "pct_day": 25.0,
-   "pct_30m": 0.0,
-   "volume_pace": 3.17,
+   "ticker": "STUV.V",
+   "name": "STUVE GOLD CORP",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 0.52,
+   "pct_day": 28.4,
+   "pct_30m": 4.0,
+   "volume_pace": 5.02,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "STUV.V",
-   "name": "STUVE GOLD CORP",
-   "as_of": "2026-11-27T20:15:00+00:00",
-   "last": 0.5,
-   "pct_day": 23.46,
+   "ticker": "GSR.V",
+   "name": "GOLD STRIKE RESOURCES CORP",
+   "as_of": "2026-11-27T20:45:00+00:00",
+   "last": 0.25,
+   "pct_day": 25.0,
    "pct_30m": 0.0,
-   "volume_pace": 5.63,
+   "volume_pace": 2.57,
    "rising": false,
    "rising_since": null
   },
@@ -441,17 +507,6 @@
    "rising_since": null
   },
   {
-   "ticker": "BEAR.V",
-   "name": "BIG BEAR GOLD CORP",
-   "as_of": "2026-11-27T18:20:00+00:00",
-   "last": 0.085,
-   "pct_day": 21.43,
-   "pct_30m": 6.25,
-   "volume_pace": 0.52,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "AMCO.V",
    "name": "AMERICORE RESOURCES CORP",
    "as_of": "2026-11-27T14:35:00+00:00",
@@ -463,13 +518,13 @@
    "rising_since": null
   },
   {
-   "ticker": "TSG.V",
-   "name": "TRISTAR GOLD INC.",
-   "as_of": "2026-11-27T20:25:00+00:00",
+   "ticker": "SCD.V",
+   "name": "SCANDIUM CANADA LTD",
+   "as_of": "2026-11-27T20:55:00+00:00",
    "last": 0.145,
    "pct_day": 20.83,
    "pct_30m": 3.57,
-   "volume_pace": 0.5,
+   "volume_pace": 1.45,
    "rising": false,
    "rising_since": null
   },
@@ -487,22 +542,22 @@
   {
    "ticker": "RYO.V",
    "name": "RIO SILVER INC",
-   "as_of": "2026-11-27T19:15:00+00:00",
+   "as_of": "2026-11-27T20:35:00+00:00",
    "last": 0.24,
    "pct_day": 20.0,
    "pct_30m": 0.0,
-   "volume_pace": 2.52,
+   "volume_pace": 1.99,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "CCCM.V",
    "name": "C3 METALS INC",
-   "as_of": "2026-11-27T20:05:00+00:00",
+   "as_of": "2026-11-27T20:35:00+00:00",
    "last": 0.55,
    "pct_day": 19.57,
    "pct_30m": 0.0,
-   "volume_pace": 5.98,
+   "volume_pace": 5.7,
    "rising": false,
    "rising_since": null
   },
@@ -513,62 +568,84 @@
    "last": 0.16,
    "pct_day": 18.52,
    "pct_30m": 6.67,
-   "volume_pace": 2.47,
+   "volume_pace": 2.75,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "MRVL.V",
+   "name": "MARVEL BIOSCIENCES CORP",
+   "as_of": "2026-11-27T17:45:00+00:00",
+   "last": 0.13,
+   "pct_day": 18.18,
+   "pct_30m": 0.0,
+   "volume_pace": 0.22,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-27T20:30:00+00:00",
+   "as_of": "2026-11-27T21:00:00+00:00",
    "last": 1.27,
    "pct_day": 17.59,
-   "pct_30m": -0.78,
-   "volume_pace": 1.12,
+   "pct_30m": 0.0,
+   "volume_pace": 1.09,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "VGC.TO",
    "name": "VALOR GOLD CORP",
-   "as_of": "2026-11-27T20:30:00+00:00",
+   "as_of": "2026-11-27T21:00:00+00:00",
    "last": 1.91,
    "pct_day": 13.69,
-   "pct_30m": 1.06,
-   "volume_pace": 1.05,
+   "pct_30m": 0.0,
+   "volume_pace": 1.0,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "GLO.TO",
    "name": "GLOBAL ATOMIC CORPORATION",
-   "as_of": "2026-11-27T20:25:00+00:00",
+   "as_of": "2026-11-27T21:00:00+00:00",
    "last": 0.34,
    "pct_day": 13.33,
    "pct_30m": 0.0,
-   "volume_pace": 1.18,
+   "volume_pace": 1.21,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "S.TO",
-   "name": "SHERRITT INTL RV",
-   "as_of": "2026-11-27T20:30:00+00:00",
-   "last": 0.1875,
-   "pct_day": 10.29,
-   "pct_30m": -1.32,
-   "volume_pace": 0.48,
+   "ticker": "NDM.TO",
+   "name": "NORTHERN DYNASTY MINERALS LTD.",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 0.71,
+   "pct_day": 12.7,
+   "pct_30m": 3.65,
+   "volume_pace": 0.57,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "USA.TO",
    "name": "AMERICAS GOLD AND SILVER CORPOR",
-   "as_of": "2026-11-27T20:35:00+00:00",
-   "last": 3.14,
-   "pct_day": 9.79,
-   "pct_30m": -0.32,
-   "volume_pace": 0.54,
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 3.15,
+   "pct_day": 10.14,
+   "pct_30m": 0.48,
+   "volume_pace": 0.6,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SLVR.TO",
+   "name": "SILVER TIGER METALS INC",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 0.67,
+   "pct_day": 9.84,
+   "pct_30m": 2.29,
+   "volume_pace": 0.88,
    "rising": false,
    "rising_since": null
   },
@@ -584,46 +661,35 @@
    "rising_since": null
   },
   {
-   "ticker": "SBI.TO",
-   "name": "SERABI GOLD PLC",
-   "as_of": "2026-11-27T20:25:00+00:00",
-   "last": 3.06,
-   "pct_day": 9.68,
+   "ticker": "TSND.TO",
+   "name": "TERRASCEND CORP",
+   "as_of": "2026-11-27T20:35:00+00:00",
+   "last": 0.57,
+   "pct_day": 9.62,
    "pct_30m": 0.0,
-   "volume_pace": 1.74,
+   "volume_pace": 1.82,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "TSND.TO",
-   "name": "TERRASCEND CORP",
-   "as_of": "2026-11-27T18:20:00+00:00",
-   "last": 0.57,
-   "pct_day": 9.62,
-   "pct_30m": 0.0,
-   "volume_pace": 2.88,
+   "ticker": "FF.TO",
+   "name": "FIRST MINING GOLD CORP",
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 0.58,
+   "pct_day": 9.43,
+   "pct_30m": 1.75,
+   "volume_pace": 0.35,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "JAG.TO",
    "name": "JAGUAR MINING INC",
-   "as_of": "2026-11-27T20:30:00+00:00",
-   "last": 3.97,
-   "pct_day": 9.07,
-   "pct_30m": 0.0,
-   "volume_pace": 0.67,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "NDM.TO",
-   "name": "NORTHERN DYNASTY MINERALS LTD.",
-   "as_of": "2026-11-27T20:30:00+00:00",
-   "last": 0.685,
-   "pct_day": 8.73,
-   "pct_30m": -0.72,
-   "volume_pace": 0.55,
+   "as_of": "2026-11-27T21:00:00+00:00",
+   "last": 3.98,
+   "pct_day": 9.34,
+   "pct_30m": 0.25,
+   "volume_pace": 0.68,
    "rising": false,
    "rising_since": null
   }
@@ -1225,9 +1291,9 @@
    "ma200": 936.59,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-27T20:35:00+00:00",
-    "last": 737.44,
-    "pct_day": 2.33
+    "as_of": "2026-11-27T21:00:00+00:00",
+    "last": 736.91,
+    "pct_day": 2.25
    }
   },
   "^GSPTSE": {
@@ -1826,9 +1892,9 @@
    "ma200": 34814.4,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-27T20:35:00+00:00",
-    "last": 34849.8,
-    "pct_day": 1.23
+    "as_of": "2026-11-27T21:00:00+00:00",
+    "last": 34843.41,
+    "pct_day": 1.21
    }
   }
  },
