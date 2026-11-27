@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T12:01-07:00",
+ "generated": "2026-11-27T12:31-07:00",
  "last_close_day": "2026-11-26",
  "tracked": 728,
  "tracked_by_market": {
@@ -370,62 +370,51 @@
    "added": "2026-10-20"
   }
  ],
- "live_as_of": "2026-11-27T19:05:00+00:00",
+ "live_as_of": "2026-11-27T19:35:00+00:00",
  "rising": [
   {
-   "ticker": "SBI.TO",
-   "name": "SERABI GOLD PLC",
-   "as_of": "2026-11-27T18:55:00+00:00",
-   "last": 3.08,
-   "pct_day": 10.39,
-   "pct_30m": 0.98,
-   "volume_pace": 2.31,
+   "ticker": "BRO.V",
+   "name": "BARKSDALE RESOURCES CORP",
+   "as_of": "2026-11-27T19:15:00+00:00",
+   "last": 0.175,
+   "pct_day": 20.69,
+   "pct_30m": 16.67,
+   "volume_pace": 3.29,
    "rising": true,
-   "rising_since": "2026-11-27T18:55:00+00:00"
+   "rising_since": "2026-11-27T19:15:00+00:00"
+  },
+  {
+   "ticker": "NCX.V",
+   "name": "NORTHISLE COPPER AND GOLD INC",
+   "as_of": "2026-11-27T19:30:00+00:00",
+   "last": 2.61,
+   "pct_day": 13.48,
+   "pct_30m": 1.56,
+   "volume_pace": 1.51,
+   "rising": true,
+   "rising_since": "2026-11-27T19:25:00+00:00"
   },
   {
    "ticker": "GGO.V",
    "name": "GALLEON GOLD CORP",
-   "as_of": "2026-11-27T17:45:00+00:00",
-   "last": 1.02,
-   "pct_day": 9.68,
-   "pct_30m": 0.99,
-   "volume_pace": 3.32,
+   "as_of": "2026-11-27T19:20:00+00:00",
+   "last": 1.03,
+   "pct_day": 10.75,
+   "pct_30m": 0.98,
+   "volume_pace": 2.24,
    "rising": true,
    "rising_since": "2026-11-27T17:45:00+00:00"
   },
   {
-   "ticker": "MMY.V",
-   "name": "MONUMENT MINING LIMITED",
-   "as_of": "2026-11-27T18:50:00+00:00",
-   "last": 0.71,
-   "pct_day": 9.23,
-   "pct_30m": 1.43,
-   "volume_pace": 2.32,
+   "ticker": "MDP.TO",
+   "name": "MEDEXUS PHARMACEUTICALS INC",
+   "as_of": "2026-11-27T19:30:00+00:00",
+   "last": 6.7,
+   "pct_day": 6.01,
+   "pct_30m": 0.15,
+   "volume_pace": 2.18,
    "rising": true,
-   "rising_since": "2026-11-27T17:10:00+00:00"
-  },
-  {
-   "ticker": "DC-A.TO",
-   "name": "DUNDEE CORP., CL.A SV",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 3.815,
-   "pct_day": 6.27,
-   "pct_30m": 0.26,
-   "volume_pace": 1.59,
-   "rising": true,
-   "rising_since": "2026-11-27T18:00:00+00:00"
-  },
-  {
-   "ticker": "ECU.V",
-   "name": "ELEMENT 29 RESOURCES INC",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 1.6,
-   "pct_day": 5.96,
-   "pct_30m": 0.31,
-   "volume_pace": 1.61,
-   "rising": true,
-   "rising_since": "2026-11-27T18:50:00+00:00"
+   "rising_since": "2026-11-27T19:15:00+00:00"
   },
   {
    "ticker": "SNDY.TO",
@@ -439,15 +428,15 @@
    "rising_since": "2026-11-27T18:05:00+00:00"
   },
   {
-   "ticker": "GG.V",
-   "name": "GOLCONDA GOLD LTD",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 2.36,
-   "pct_day": 4.42,
-   "pct_30m": 0.43,
-   "volume_pace": 2.54,
+   "ticker": "EOG.V",
+   "name": "ECO ATLANTIC OIL AND GAS LTD",
+   "as_of": "2026-11-27T19:30:00+00:00",
+   "last": 0.68,
+   "pct_day": 4.62,
+   "pct_30m": 1.49,
+   "volume_pace": 5.22,
    "rising": true,
-   "rising_since": "2026-11-27T19:00:00+00:00"
+   "rising_since": "2026-11-27T19:30:00+00:00"
   },
   {
    "ticker": "PLSR.V",
@@ -459,28 +448,6 @@
    "volume_pace": 2.03,
    "rising": true,
    "rising_since": "2026-11-27T16:45:00+00:00"
-  },
-  {
-   "ticker": "ORIO.TO",
-   "name": "ORION DIGITAL CORP",
-   "as_of": "2026-11-27T18:35:00+00:00",
-   "last": 1.81,
-   "pct_day": 4.02,
-   "pct_30m": 0.56,
-   "volume_pace": 8.39,
-   "rising": true,
-   "rising_since": "2026-11-27T18:20:00+00:00"
-  },
-  {
-   "ticker": "ITR.V",
-   "name": "INTEGRA RESOURCES CORP",
-   "as_of": "2026-11-27T18:50:00+00:00",
-   "last": 2.27,
-   "pct_day": 3.65,
-   "pct_30m": 1.11,
-   "volume_pace": 2.39,
-   "rising": true,
-   "rising_since": "2026-11-27T18:50:00+00:00"
   },
   {
    "ticker": "WI.V",
@@ -509,11 +476,11 @@
   {
    "ticker": "GSR.V",
    "name": "GOLD STRIKE RESOURCES CORP",
-   "as_of": "2026-11-27T18:45:00+00:00",
+   "as_of": "2026-11-27T19:30:00+00:00",
    "last": 0.25,
    "pct_day": 25.0,
-   "pct_30m": -3.85,
-   "volume_pace": 3.16,
+   "pct_30m": 0.0,
+   "volume_pace": 3.06,
    "rising": false,
    "rising_since": null
   },
@@ -562,13 +529,35 @@
    "rising_since": null
   },
   {
+   "ticker": "BRO.V",
+   "name": "BARKSDALE RESOURCES CORP",
+   "as_of": "2026-11-27T19:15:00+00:00",
+   "last": 0.175,
+   "pct_day": 20.69,
+   "pct_30m": 16.67,
+   "volume_pace": 3.29,
+   "rising": true,
+   "rising_since": "2026-11-27T19:15:00+00:00"
+  },
+  {
    "ticker": "RYO.V",
    "name": "RIO SILVER INC",
-   "as_of": "2026-11-27T18:00:00+00:00",
+   "as_of": "2026-11-27T19:15:00+00:00",
    "last": 0.24,
    "pct_day": 20.0,
-   "pct_30m": 4.35,
-   "volume_pace": 3.3,
+   "pct_30m": 0.0,
+   "volume_pace": 2.52,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "CCCM.V",
+   "name": "C3 METALS INC",
+   "as_of": "2026-11-27T19:30:00+00:00",
+   "last": 0.55,
+   "pct_day": 19.57,
+   "pct_30m": 7.84,
+   "volume_pace": 6.11,
    "rising": false,
    "rising_since": null
   },
@@ -584,90 +573,57 @@
    "rising_since": null
   },
   {
-   "ticker": "LGC.V",
-   "name": "LAVRAS GOLD CORP",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 1.74,
-   "pct_day": 17.57,
-   "pct_30m": -0.57,
-   "volume_pace": 2.94,
-   "rising": false,
-   "rising_since": null
-  },
-  {
-   "ticker": "AMT.V",
-   "name": "AMERITRUST FINANCIAL TECHNOLOGI",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 0.14,
-   "pct_day": 16.67,
-   "pct_30m": 0.0,
-   "volume_pace": 1.11,
-   "rising": false,
-   "rising_since": null
-  },
-  {
    "ticker": "GLO.TO",
    "name": "GLOBAL ATOMIC CORPORATION",
-   "as_of": "2026-11-27T18:50:00+00:00",
+   "as_of": "2026-11-27T19:25:00+00:00",
    "last": 0.34,
    "pct_day": 13.33,
    "pct_30m": 0.0,
-   "volume_pace": 1.51,
+   "volume_pace": 1.33,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "VGC.TO",
    "name": "VALOR GOLD CORP",
-   "as_of": "2026-11-27T19:05:00+00:00",
+   "as_of": "2026-11-27T19:30:00+00:00",
    "last": 1.9,
    "pct_day": 13.1,
    "pct_30m": 0.0,
-   "volume_pace": 1.24,
+   "volume_pace": 1.18,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "DND.TO",
    "name": "DYE AND DURHAM LIMITED",
-   "as_of": "2026-11-27T18:55:00+00:00",
-   "last": 1.21,
-   "pct_day": 12.04,
+   "as_of": "2026-11-27T19:30:00+00:00",
+   "last": 1.22,
+   "pct_day": 12.96,
    "pct_30m": 0.83,
-   "volume_pace": 1.26,
+   "volume_pace": 1.2,
    "rising": false,
    "rising_since": null
   },
   {
    "ticker": "S.TO",
    "name": "SHERRITT INTL RV",
-   "as_of": "2026-11-27T19:00:00+00:00",
+   "as_of": "2026-11-27T19:30:00+00:00",
    "last": 0.19,
    "pct_day": 11.76,
    "pct_30m": 0.0,
-   "volume_pace": 0.56,
+   "volume_pace": 0.52,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "SBI.TO",
-   "name": "SERABI GOLD PLC",
-   "as_of": "2026-11-27T18:55:00+00:00",
-   "last": 3.08,
-   "pct_day": 10.39,
-   "pct_30m": 0.98,
-   "volume_pace": 2.31,
-   "rising": true,
-   "rising_since": "2026-11-27T18:55:00+00:00"
-  },
-  {
    "ticker": "USA.TO",
    "name": "AMERICAS GOLD AND SILVER CORPOR",
-   "as_of": "2026-11-27T19:05:00+00:00",
+   "as_of": "2026-11-27T19:30:00+00:00",
    "last": 3.15,
    "pct_day": 10.14,
-   "pct_30m": 0.16,
-   "volume_pace": 0.67,
+   "pct_30m": -0.16,
+   "volume_pace": 0.63,
    "rising": false,
    "rising_since": null
   },
@@ -679,6 +635,17 @@
    "pct_day": 9.73,
    "pct_30m": 0.0,
    "volume_pace": 0.0,
+   "rising": false,
+   "rising_since": null
+  },
+  {
+   "ticker": "SBI.TO",
+   "name": "SERABI GOLD PLC",
+   "as_of": "2026-11-27T19:35:00+00:00",
+   "last": 3.06,
+   "pct_day": 9.68,
+   "pct_30m": -0.65,
+   "volume_pace": 2.01,
    "rising": false,
    "rising_since": null
   },
@@ -696,22 +663,22 @@
   {
    "ticker": "JAG.TO",
    "name": "JAGUAR MINING INC",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 3.98,
-   "pct_day": 9.34,
-   "pct_30m": 0.51,
-   "volume_pace": 0.81,
+   "as_of": "2026-11-27T19:30:00+00:00",
+   "last": 3.97,
+   "pct_day": 9.07,
+   "pct_30m": -0.25,
+   "volume_pace": 0.73,
    "rising": false,
    "rising_since": null
   },
   {
-   "ticker": "ESM.TO",
-   "name": "EURO SUN MINING INC",
-   "as_of": "2026-11-27T19:00:00+00:00",
-   "last": 0.13,
-   "pct_day": 8.33,
-   "pct_30m": 0.0,
-   "volume_pace": 0.61,
+   "ticker": "CWEB.TO",
+   "name": "CHARLOTTES WEB HOLDINGS INC",
+   "as_of": "2026-11-27T19:15:00+00:00",
+   "last": 0.38,
+   "pct_day": 8.57,
+   "pct_30m": -3.8,
+   "volume_pace": 0.4,
    "rising": false,
    "rising_since": null
   }
@@ -1313,9 +1280,9 @@
    "ma200": 936.59,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-27T19:05:00+00:00",
-    "last": 736.61,
-    "pct_day": 2.21
+    "as_of": "2026-11-27T19:35:00+00:00",
+    "last": 738.21,
+    "pct_day": 2.43
    }
   },
   "^GSPTSE": {
@@ -1914,8 +1881,8 @@
    "ma200": 34814.4,
    "above_ma200": false,
    "live": {
-    "as_of": "2026-11-27T19:05:00+00:00",
-    "last": 34858.06,
+    "as_of": "2026-11-27T19:35:00+00:00",
+    "last": 34856.65,
     "pct_day": 1.25
    }
   }
