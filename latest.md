@@ -1,9 +1,9 @@
-# Stock feed — 2026-11-27T13:01-07:00
+# Stock feed — 2026-11-27T13:31-07:00
 
-Tracking 728 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-26. Intraday data as of: 2026-11-27T20:05:00+00:00 (Yahoo, ~15 min delayed).
+Tracking 728 stocks (TSX Venture and TSX, kept in separate sections below). Last full trading day: 2026-11-26. Intraday data as of: 2026-11-27T20:35:00+00:00 (Yahoo, ~15 min delayed).
 
-Market: S&P/TSX Venture Composite 720.67 on 2026-11-26 (day +1.8%, month -14.1%, year -19.2%, downtrend); live +2.4% at 20:05
-Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year +11.4%, downtrend); live +1.3% at 20:05
+Market: S&P/TSX Venture Composite 720.67 on 2026-11-26 (day +1.8%, month -14.1%, year -19.2%, downtrend); live +2.3% at 20:35
+Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year +11.4%, downtrend); live +1.2% at 20:35
 
 # TSX Venture
 
@@ -35,12 +35,7 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 ## TSX Venture: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
 - BRO.V (BARKSDALE RESOURCES CORP): +20.7% today at 0.175, last 30m +16.7%, volume pace 3.31x, rising since 2026-11-27T19:15:00+00:00
-- NCX.V (NORTHISLE COPPER AND GOLD INC): +14.8% today at 2.64, last 30m +1.1%, volume pace 1.69x, rising since 2026-11-27T19:45:00+00:00
-- GGO.V (GALLEON GOLD CORP): +10.8% today at 1.03, last 30m +1.0%, volume pace 2.26x, rising since 2026-11-27T17:45:00+00:00
-- GG.V (GOLCONDA GOLD LTD): +4.4% today at 2.36, last 30m +0.4%, volume pace 2.42x, rising since 2026-11-27T20:00:00+00:00
-- ITR.V (INTEGRA RESOURCES CORP): +3.6% today at 2.27, last 30m +1.3%, volume pace 1.99x, rising since 2026-11-27T20:05:00+00:00
-- WI.V (THE WESTERN INVESTMENT CO OF CD): +3.6% today at 1.44, last 30m +0.7%, volume pace 1.94x, rising since 2026-11-27T17:40:00+00:00
-- GSKR.V (GOLDSKY RESOURCES CORP): +3.3% today at 2.2, last 30m +0.9%, volume pace 3.7x, rising since 2026-11-27T19:40:00+00:00
+- GSKR.V (GOLDSKY RESOURCES CORP): +4.2% today at 2.22, last 30m +0.9%, volume pace 3.2x, rising since 2026-11-27T20:20:00+00:00
 
 ## TSX Venture: top by relative volume at last close
 
@@ -58,15 +53,15 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 ## TSX Venture: top gainers in latest intraday pass
 
 - GSR.V (GOLD STRIKE RESOURCES CORP): +25.0% at 0.25, volume pace 3.17x
-- STUV.V (STUVE GOLD CORP): +23.5% at 0.5, volume pace 9.38x
+- STUV.V (STUVE GOLD CORP): +23.5% at 0.5, volume pace 5.63x
 - FHR.V (FIDDLEHEAD RESOURCES CORP): +23.1% at 0.08, volume pace 0.63x
 - BEAR.V (BIG BEAR GOLD CORP): +21.4% at 0.085, volume pace 0.52x
 - AMCO.V (AMERICORE RESOURCES CORP): +21.1% at 0.23, volume pace 0.0x
+- TSG.V (TRISTAR GOLD INC.): +20.8% at 0.145, volume pace 0.5x
 - BRO.V (BARKSDALE RESOURCES CORP): +20.7% at 0.175, volume pace 3.31x
 - RYO.V (RIO SILVER INC): +20.0% at 0.24, volume pace 2.52x
-- CCCM.V (C3 METALS INC): +19.6% at 0.55, volume pace 5.99x
-- MRVL.V (MARVEL BIOSCIENCES CORP): +18.2% at 0.13, volume pace 0.22x
-- AMT.V (AMERITRUST FINANCIAL TECHNOLOGI): +16.7% at 0.14, volume pace 0.93x
+- CCCM.V (C3 METALS INC): +19.6% at 0.55, volume pace 5.98x
+- NAIA.V (NAIA RELIEF INC): +18.5% at 0.16, volume pace 2.47x
 
 # TSX
 
@@ -93,9 +88,7 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 
 ## TSX: rising (latest intraday pass: up 3%+, still climbing, volume pace 1.5x+)
 
-- SBI.TO (SERABI GOLD PLC): +9.7% today at 3.06, last 30m +1.0%, volume pace 1.87x, rising since 2026-11-27T20:00:00+00:00
-- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +6.2% today at 6.71, last 30m +0.5%, volume pace 2.14x, rising since 2026-11-27T19:45:00+00:00
-- DC-A.TO (DUNDEE CORP., CL.A SV): +6.1% today at 3.81, last 30m +0.3%, volume pace 2.4x, rising since 2026-11-27T19:55:00+00:00
+- MDP.TO (MEDEXUS PHARMACEUTICALS INC): +6.3% today at 6.72, last 30m +0.1%, volume pace 2.07x, rising since 2026-11-27T19:45:00+00:00
 
 ## TSX: top by relative volume at last close
 
@@ -112,13 +105,13 @@ Market: S&P/TSX Composite 34,426.88 on 2026-11-26 (day +0.7%, month -5.1%, year 
 
 ## TSX: top gainers in latest intraday pass
 
-- DND.TO (DYE AND DURHAM LIMITED): +18.5% at 1.28, volume pace 1.21x
-- GLO.TO (GLOBAL ATOMIC CORPORATION): +13.3% at 0.34, volume pace 1.19x
-- VGC.TO (VALOR GOLD CORP): +12.5% at 1.89, volume pace 1.09x
-- S.TO (SHERRITT INTL RV): +11.8% at 0.19, volume pace 0.49x
-- USA.TO (AMERICAS GOLD AND SILVER CORPOR): +10.1% at 3.15, volume pace 0.57x
+- DND.TO (DYE AND DURHAM LIMITED): +17.6% at 1.27, volume pace 1.12x
+- VGC.TO (VALOR GOLD CORP): +13.7% at 1.91, volume pace 1.05x
+- GLO.TO (GLOBAL ATOMIC CORPORATION): +13.3% at 0.34, volume pace 1.18x
+- S.TO (SHERRITT INTL RV): +10.3% at 0.1875, volume pace 0.48x
+- USA.TO (AMERICAS GOLD AND SILVER CORPOR): +9.8% at 3.14, volume pace 0.54x
 - CAML.TO (CENTRAL ASIA METALS PLC): +9.7% at 2.03, volume pace 0.0x
-- SBI.TO (SERABI GOLD PLC): +9.7% at 3.06, volume pace 1.87x
+- SBI.TO (SERABI GOLD PLC): +9.7% at 3.06, volume pace 1.74x
 - TSND.TO (TERRASCEND CORP): +9.6% at 0.57, volume pace 2.88x
-- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +9.5% at 0.69, volume pace 0.59x
-- JAG.TO (JAGUAR MINING INC): +9.1% at 3.97, volume pace 0.72x
+- JAG.TO (JAGUAR MINING INC): +9.1% at 3.97, volume pace 0.67x
+- NDM.TO (NORTHERN DYNASTY MINERALS LTD.): +8.7% at 0.685, volume pace 0.55x
